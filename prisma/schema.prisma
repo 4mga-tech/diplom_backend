@@ -1,0 +1,110 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+model User {
+  id           String   @id @default(cuid())
+  email        String   @unique
+  passwordHash String
+  createdAt    DateTime @default(now())
+
+  progress     UserProgress[]
+  reviews      UserReview[]
+  quizAttempts QuizAttempt[]
+}
+
+model Course {
+  id        String   @id @default(cuid())
+  title     String
+  level     String
+  createdAt DateTime @default(now())
+  units     Unit[]
+}
+
+model Unit {
+  id       String   @id @default(cuid())
+  title    String
+  order    Int
+  courseId String
+  course   Course   @relation(fields: [courseId], references: [id], onDelete: Cascade)
+  lessons  Lesson[]
+
+  @@index([courseId])
+}
+
+model Lesson {
+  id     String       @id @default(cuid())
+  title  String
+  order  Int
+  unitId String
+  unit   Unit         @relation(fields: [unitId], references: [id], onDelete: Cascade)
+  items  LessonItem[]
+
+  progress UserProgress[]
+
+  @@index([unitId])
+}
+
+model LessonItem {
+  id       String @id @default(cuid())
+  lessonId String
+  lesson   Lesson @relation(fields: [lessonId], references: [id], onDelete: Cascade)
+
+  mn       String
+  latin    String
+  meaning  String
+  notes    String?
+  audioUrl String?
+
+  reviews UserReview[]
+
+  @@index([lessonId])
+}
+
+model UserProgress {
+  id        String   @id @default(cuid())
+  userId    String
+  lessonId  String
+  completed Boolean  @default(false)
+  lastSeen  DateTime @default(now())
+
+  user   User   @relation(fields: [userId], references: [id], onDelete: Cascade)
+  lesson Lesson @relation(fields: [lessonId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, lessonId])
+  @@index([userId])
+}
+
+model UserReview {
+  id           String @id @default(cuid())
+  userId       String
+  lessonItemId String
+
+  dueAt        DateTime
+  intervalDays Int      @default(1)
+  ease         Float    @default(2.5)
+  reps         Int      @default(0)
+
+  user User       @relation(fields: [userId], references: [id], onDelete: Cascade)
+  item LessonItem @relation(fields: [lessonItemId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, lessonItemId])
+  @@index([userId, dueAt])
+}
+
+model QuizAttempt {
+  id        String   @id @default(cuid())
+  userId    String
+  lessonId  String
+  score     Int
+  total     Int
+  createdAt DateTime @default(now())
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId, createdAt])
+}
