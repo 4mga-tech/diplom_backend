@@ -7,11 +7,7 @@ export interface AuthRequest extends Request {
   userId?: string;
 }
 
-export const authMiddleware = (
-  req: AuthRequest,
-  res: Response,
-  next: NextFunction
-) => {
+export const authMiddleware = (req: AuthRequest, res: Response, next: NextFunction) => {
   const authHeader = req.headers.authorization;
 
   if (!authHeader || !authHeader.startsWith("Bearer ")) {
@@ -22,7 +18,7 @@ export const authMiddleware = (
 
   try {
     const decoded = jwt.verify(token, JWT_SECRET) as { userId: string };
-    req.userId = decoded.userId;
+    req.userId = decoded.userId;  // <- энд userId нэмэгдэнэ
     next();
   } catch {
     return res.status(401).json({ message: "Invalid or expired token" });

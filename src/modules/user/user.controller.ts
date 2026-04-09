@@ -1,26 +1,36 @@
-import { Request, Response } from "express";
-import { getUserProfile, updateUserProfile } from "./user.service";
-
-export const getProfile = async (req: Request, res: Response) => {
+// user.controller.ts
+import { Response } from "express";
+import { AuthRequest } from "../../middleware/auth.middleware";
+import { User } from "./user.model";
+export const getProfile = async (req: AuthRequest, res: Response) => {
   try {
-    const userId = (req as any).user.userId;
+    if (!req.userId) return res.status(401).json({ message: "Unauthorized" });
 
-    const user = await getUserProfile(userId);
+    const user = await User.findById(req.userId);
+    if (!user) return res.status(404).json({ message: "User not found" });
 
-    res.json(user);
-  } catch (error: any) {
-    res.status(400).json({ message: error.message });
+    res.json({ name: user.name, email: user.email });
+  } catch (err) {
+    console.error(err);
+    res.status(500).json({ message: "Server error" });
   }
 };
 
-export const updateProfile = async (req: Request, res: Response) => {
+export const updateProfile = async (req: AuthRequest, res: Response) => {
   try {
-    const userId = (req as any).user.userId;
+    const { name } = req.body;
 
-    const updated = await updateUserProfile(userId, req.body);
+    if (!req.userId) return res.status(401).json({ message: "Unauthorized" });
 
-    res.json(updated);
-  } catch (error: any) {
-    res.status(400).json({ message: error.message });
+    const user = await User.findById(req.userId);
+    if (!user) return res.status(404).json({ message: "User not found" });
+
+    if (name) user.name = name;
+    await user.save();
+
+    res.json({ name: user.name, email: user.email });
+  } catch (err) {
+    console.error(err);
+    res.status(500).json({ message: "Server error" });
   }
 };

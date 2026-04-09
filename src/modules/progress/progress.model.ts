@@ -1,7 +1,5 @@
 import mongoose from "mongoose";
-import { required } from "zod/v4/core/util.cjs";
 import { tr } from "zod/v4/locales";
-
 const ProgressSchema = new mongoose.Schema(
   {
     userId: {

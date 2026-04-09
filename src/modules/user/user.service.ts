@@ -13,6 +13,7 @@ export const getUserProfile = async (userId: string) => {
 export const updateUserProfile = async (
   userId: string,
   data: {
+    name?: string;
     nativeLanguage?: string;
     uiLanguage?: string;
   }
