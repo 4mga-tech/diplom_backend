@@ -1,0 +1,27 @@
+"use strict";
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const express_1 = __importDefault(require("express"));
+const cors_1 = __importDefault(require("cors"));
+const auth_route_1 = __importDefault(require("./modules/auth/auth.route"));
+const user_route_1 = __importDefault(require("./modules/user/user.route"));
+const health_route_1 = require("./routes/health.route");
+const content_route_1 = __importDefault(require("./modules/content/content.route"));
+const progress_route_1 = __importDefault(require("./modules/progress/progress.route"));
+const lesson_route_1 = __importDefault(require("./modules/lessons/lesson.route"));
+const quiz_route_1 = __importDefault(require("./modules/quiz/quiz.route"));
+const review_route_1 = __importDefault(require("./modules/review/review.route"));
+const app = (0, express_1.default)();
+app.use((0, cors_1.default)());
+app.use(express_1.default.json());
+app.use("/health", health_route_1.healthRouter);
+app.use("/api/auth", auth_route_1.default);
+app.use("/api/user", user_route_1.default);
+app.use("/api/content", content_route_1.default);
+app.use("/api", progress_route_1.default);
+app.use("/api", lesson_route_1.default);
+app.use("/api", quiz_route_1.default);
+app.use("/api", review_route_1.default);
+exports.default = app;

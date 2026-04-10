@@ -1,22 +1,15 @@
 import { Router } from "express";
 import {
   completeLessonHandler,
-  levelProgressHandler,
+  getCourseProgressHandler,
+  getProgressSummaryHandler,
 } from "./progress.controller";
 import { authMiddleware } from "../../middleware/auth.middleware";
 
 const router = Router();
 
-router.post(
-  "/lesson/:lessonId",
-  authMiddleware,
-  completeLessonHandler
-);
-
-router.get(
-  "/level/:levelId",
-  authMiddleware,
-  levelProgressHandler
-);
+router.get("/me/progress/summary", authMiddleware, getProgressSummaryHandler);
+router.get("/me/progress", authMiddleware, getCourseProgressHandler);
+router.post("/lessons/:lessonId/complete", authMiddleware, completeLessonHandler);
 
 export default router;

@@ -1,59 +1,114 @@
-import { Progress } from "./progress.model";
-import { Lesson } from "../content/lesson.model";
-import { Package } from "../content/package.model";
-import { User } from "../user/user.model";
+import { findCourseById, findLessonById, findUnitById } from "../learning/learning.repository";
+import { awardXpOnce, syncUserStreak } from "./progress.helpers";
+import { getFirstLessonIdForCourse, unlockNextLesson } from "./lesson-unlock.helper";
+import {
+  createUserProgress,
+  findUserById,
+  findUserProgress,
+  listUserProgress,
+} from "./progress.repository";
 
-export const completeLesson = async (
-  userId: string,
-  lessonId: string,
-  score: number,
-) => {
-  const lesson = await Lesson.findById(lessonId);
-  if (!lesson) throw new Error("Lesson not found");
+export const getCourseProgress = async (userId: string, courseId: string) => {
+  const course = await findCourseById(courseId);
+  if (!course) {
+    throw new Error("Course not found");
+  }
 
-  const progress = await Progress.findOneAndUpdate(
-    { userId, lessonId },
-    { completed: true, score },
-    { upsert: true, new: true },
-  );
-
-  await User.findByIdAndUpdate(userId, {
-    $inc: { totalXP: score },
-  });
-  return progress;
-};
-export const getLevelProgress = async (
-  userId: string,
-  levelId: string
-) => {
-  const packages = await Package.find({ levelId });
-
-  const packageIds = packages.map(p => p._id);
-
-  const lessons = await Lesson.find({
-    packageId: { $in: packageIds },
-  });
-
-  const lessonIds = lessons.map(l => l._id);
-
-  const completedCount = await Progress.countDocuments({
-    userId,
-    lessonId: { $in: lessonIds },
-    completed: true,
-  });
-
-  const total = lessonIds.length;
-
-  const percentage = total === 0
-    ? 0
-    : Math.round((completedCount / total) * 100);
-
-  const unlocked = percentage >= 80;
+  let progress = await findUserProgress(userId, courseId);
+  if (!progress) {
+    const firstLessonId = await getFirstLessonIdForCourse(courseId);
+    progress = await createUserProgress(
+      userId,
+      courseId,
+      firstLessonId ? [firstLessonId] : [],
+    );
+  }
 
   return {
-    totalLessons: total,
-    completedLessons: completedCount,
-    percentage,
-    unlocked,
+    courseId: progress.courseId,
+    completedLessonIds: progress.completedLessonIds,
+    unlockedLessonIds: progress.unlockedLessonIds,
+    totalXp: progress.totalXp,
+    streak: progress.streak,
+    document: progress,
+  };
+};
+
+export const getProgressSummary = async (userId: string) => {
+  const [allProgress, user] = await Promise.all([
+    listUserProgress(userId),
+    findUserById(userId),
+  ]);
+
+  return {
+    streak: user?.streak ?? 0,
+    completedLessons: allProgress.reduce(
+      (sum, progress) => sum + progress.completedLessonIds.length,
+      0,
+    ),
+    totalXp: user?.totalXP ?? 0,
+  };
+};
+
+export const completeLesson = async (userId: string, lessonId: string) => {
+  const lesson = await findLessonById(lessonId);
+  if (!lesson) {
+    throw new Error("Lesson not found");
+  }
+
+  const unit = await findUnitById(lesson.unitId);
+  if (!unit) {
+    throw new Error("Unit not found");
+  }
+
+  const progressState = await getCourseProgress(userId, unit.courseId);
+  const progress = progressState.document;
+  const alreadyCompleted = progress.completedLessonIds.includes(lessonId);
+
+  if (!alreadyCompleted) {
+    progress.completedLessonIds.push(lessonId);
+  }
+
+  const nextLessonUnlocked = await unlockNextLesson({
+    courseId: unit.courseId,
+    lessonId,
+    unlockedLessonIds: progress.unlockedLessonIds,
+  });
+
+  const xpResult = alreadyCompleted
+    ? { xpGained: 0, totalXp: progress.totalXp }
+    : await awardXpOnce({
+        userId,
+        sourceType: "lesson_complete",
+        sourceId: lessonId,
+        xp: lesson.xpReward,
+        progress,
+      });
+
+  await progress.save();
+
+  const progressDocs = await Promise.all(
+    (await listUserProgress(userId)).map(async (item) => {
+      if (item.courseId === progress.courseId) {
+        return progress;
+      }
+
+      return (await findUserProgress(userId, item.courseId))!;
+    }),
+  );
+
+  const streakResult = await syncUserStreak({ userId, progresses: progressDocs });
+
+  if (progress.streak !== streakResult.streak) {
+    progress.streak = streakResult.streak;
+    await progress.save();
+  }
+
+  return {
+    lessonId,
+    completed: true,
+    xpGained: xpResult.xpGained,
+    totalXp: progress.totalXp,
+    nextLessonUnlocked,
   };
 };

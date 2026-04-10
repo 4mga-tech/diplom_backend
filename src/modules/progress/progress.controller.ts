@@ -1,38 +1,54 @@
 import { Request, Response } from "express";
-import {
-  completeLesson,
-  getLevelProgress,
-} from "./progress.service";
+import { successResponse } from "../../utils/apiResponse";
+import { completeLesson, getCourseProgress, getProgressSummary } from "./progress.service";
 
-export const completeLessonHandler = async (
-  req: Request<{ lessonId: string }>,
-  res: Response
+type UserRequest = Request & { userId?: string };
+
+export const getProgressSummaryHandler = async (
+  req: UserRequest,
+  res: Response,
 ) => {
   try {
-    const userId = (req as any).user.userId;
-    const { lessonId } = req.params;
-    const { score } = req.body;
-
-    const result = await completeLesson(userId, lessonId, score);
-
-    res.json(result);
+    const data = await getProgressSummary(req.userId!);
+    res.json(successResponse(data));
   } catch (error: any) {
-    res.status(400).json({ message: error.message });
+    res.status(400).json({ success: false, message: error.message });
   }
 };
 
-export const levelProgressHandler = async (
-  req: Request<{ levelId: string }>,
-  res: Response
+export const getCourseProgressHandler = async (
+  req: UserRequest,
+  res: Response,
 ) => {
   try {
-    const userId = (req as any).user.userId;
-    const { levelId } = req.params;
+    const courseId = req.query.courseId as string | undefined;
+    if (!courseId) {
+      throw new Error("courseId is required");
+    }
 
-    const result = await getLevelProgress(userId, levelId);
-
-    res.json(result);
+    const progress = await getCourseProgress(req.userId!, courseId);
+    res.json(
+      successResponse({
+        completedLessonIds: progress.completedLessonIds,
+        unlockedLessonIds: progress.unlockedLessonIds,
+        totalXp: progress.totalXp,
+        streak: progress.streak,
+      }),
+    );
   } catch (error: any) {
-    res.status(400).json({ message: error.message });
+    res.status(400).json({ success: false, message: error.message });
+  }
+};
+
+export const completeLessonHandler = async (
+  req: UserRequest,
+  res: Response,
+) => {
+  try {
+    const lessonId = req.params.lessonId as string;
+    const data = await completeLesson(req.userId!, lessonId);
+    res.json(successResponse(data));
+  } catch (error: any) {
+    res.status(400).json({ success: false, message: error.message });
   }
 };
