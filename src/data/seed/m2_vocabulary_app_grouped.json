@@ -1,0 +1,6791 @@
+[
+  {
+    "letter": "А",
+    "level": "M2",
+    "count": 60,
+    "words": [
+      {
+        "key": "M2-0001",
+        "word": "аав",
+        "translation": "father",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "А",
+        "orderInLevel": 1
+      },
+      {
+        "key": "M2-0002",
+        "word": "ааруул",
+        "translation": "dried curd",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "А",
+        "orderInLevel": 2
+      },
+      {
+        "key": "M2-0003",
+        "word": "авар-",
+        "translation": "to save / rescue",
+        "level": "M2",
+        "type": "verb",
+        "alphabetGroup": "А",
+        "orderInLevel": 3
+      },
+      {
+        "key": "M2-0004",
+        "word": "авраарай",
+        "translation": "please save / help",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "А",
+        "orderInLevel": 4
+      },
+      {
+        "key": "M2-0005",
+        "word": "австрали",
+        "translation": "Australia",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "А",
+        "orderInLevel": 5
+      },
+      {
+        "key": "M2-0006",
+        "word": "автобус",
+        "translation": "bus",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "А",
+        "orderInLevel": 6
+      },
+      {
+        "key": "M2-0007",
+        "word": "автобусны буудал",
+        "translation": "bus stop",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "А",
+        "orderInLevel": 7
+      },
+      {
+        "key": "M2-0008",
+        "word": "авто машин",
+        "translation": "car / automobile",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "А",
+        "orderInLevel": 8
+      },
+      {
+        "key": "M2-0009",
+        "word": "авчир-",
+        "translation": "to bring",
+        "level": "M2",
+        "type": "verb",
+        "alphabetGroup": "А",
+        "orderInLevel": 9
+      },
+      {
+        "key": "M2-0010",
+        "word": "ав-",
+        "translation": "to take",
+        "level": "M2",
+        "type": "verb",
+        "alphabetGroup": "А",
+        "orderInLevel": 10
+      },
+      {
+        "key": "M2-0011",
+        "word": "агаар",
+        "translation": "air",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "А",
+        "orderInLevel": 11
+      },
+      {
+        "key": "M2-0012",
+        "word": "адил",
+        "translation": "same / similar",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "А",
+        "orderInLevel": 12
+      },
+      {
+        "key": "M2-0013",
+        "word": "адуу",
+        "translation": "horse (herd of horses)",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "А",
+        "orderInLevel": 13
+      },
+      {
+        "key": "M2-0014",
+        "word": "ажил",
+        "translation": "work / job",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "А",
+        "orderInLevel": 14
+      },
+      {
+        "key": "M2-0015",
+        "word": "ажилла-",
+        "translation": "to work",
+        "level": "M2",
+        "type": "verb",
+        "alphabetGroup": "А",
+        "orderInLevel": 15
+      },
+      {
+        "key": "M2-0016",
+        "word": "ажилтан",
+        "translation": "employee / staff",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "А",
+        "orderInLevel": 16
+      },
+      {
+        "key": "M2-0017",
+        "word": "ажилчин",
+        "translation": "worker / laborer",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "А",
+        "orderInLevel": 17
+      },
+      {
+        "key": "M2-0018",
+        "word": "ази",
+        "translation": "Asia",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "А",
+        "orderInLevel": 18
+      },
+      {
+        "key": "M2-0019",
+        "word": "айл",
+        "translation": "household / family",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "А",
+        "orderInLevel": 19
+      },
+      {
+        "key": "M2-0020",
+        "word": "айраг",
+        "translation": "fermented mare’s milk (airag)",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "А",
+        "orderInLevel": 20
+      },
+      {
+        "key": "M2-0021",
+        "word": "ай-",
+        "translation": "to be afraid",
+        "level": "M2",
+        "type": "verb",
+        "alphabetGroup": "А",
+        "orderInLevel": 21
+      },
+      {
+        "key": "M2-0022",
+        "word": "алдаа",
+        "translation": "mistake / error",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "А",
+        "orderInLevel": 22
+      },
+      {
+        "key": "M2-0023",
+        "word": "алим",
+        "translation": "apple",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "А",
+        "orderInLevel": 23
+      },
+      {
+        "key": "M2-0024",
+        "word": "алх-",
+        "translation": "to walk",
+        "level": "M2",
+        "type": "verb",
+        "alphabetGroup": "А",
+        "orderInLevel": 24
+      },
+      {
+        "key": "M2-0025",
+        "word": "алчуур",
+        "translation": "towel",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "А",
+        "orderInLevel": 25
+      },
+      {
+        "key": "M2-0026",
+        "word": "аль",
+        "translation": "which",
+        "level": "M2",
+        "type": "pronoun",
+        "alphabetGroup": "А",
+        "orderInLevel": 26
+      },
+      {
+        "key": "M2-0027",
+        "word": "ам",
+        "translation": "mouth",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "А",
+        "orderInLevel": 27
+      },
+      {
+        "key": "M2-0028",
+        "word": "амархан",
+        "translation": "easy",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "А",
+        "orderInLevel": 28
+      },
+      {
+        "key": "M2-0029",
+        "word": "амар-",
+        "translation": "to rest / relax",
+        "level": "M2",
+        "type": "verb",
+        "alphabetGroup": "А",
+        "orderInLevel": 29
+      },
+      {
+        "key": "M2-0030",
+        "word": "америк",
+        "translation": "America / USA",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "А",
+        "orderInLevel": 30
+      },
+      {
+        "key": "M2-0031",
+        "word": "амжилт",
+        "translation": "success",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "А",
+        "orderInLevel": 31
+      },
+      {
+        "key": "M2-0032",
+        "word": "амралт",
+        "translation": "rest / vacation",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "А",
+        "orderInLevel": 32
+      },
+      {
+        "key": "M2-0033",
+        "word": "амт",
+        "translation": "taste / flavor",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "А",
+        "orderInLevel": 33
+      },
+      {
+        "key": "M2-0034",
+        "word": "амьдар-",
+        "translation": "to live / reside",
+        "level": "M2",
+        "type": "verb",
+        "alphabetGroup": "А",
+        "orderInLevel": 34
+      },
+      {
+        "key": "M2-0035",
+        "word": "амьтан",
+        "translation": "animal",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "А",
+        "orderInLevel": 35
+      },
+      {
+        "key": "M2-0036",
+        "word": "анги",
+        "translation": "class / group",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "А",
+        "orderInLevel": 36
+      },
+      {
+        "key": "M2-0037",
+        "word": "англи",
+        "translation": "English",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "А",
+        "orderInLevel": 37
+      },
+      {
+        "key": "M2-0038",
+        "word": "арав",
+        "translation": "ten",
+        "level": "M2",
+        "type": "numeral",
+        "alphabetGroup": "А",
+        "orderInLevel": 38
+      },
+      {
+        "key": "M2-0039",
+        "word": "аравдугаар сар",
+        "translation": "October",
+        "level": "M2",
+        "type": "numeral",
+        "alphabetGroup": "А",
+        "orderInLevel": 39
+      },
+      {
+        "key": "M2-0040",
+        "word": "арал",
+        "translation": "island",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "А",
+        "orderInLevel": 40
+      },
+      {
+        "key": "M2-0041",
+        "word": "арван нэгдүгээр сар",
+        "translation": "November",
+        "level": "M2",
+        "type": "numeral",
+        "alphabetGroup": "А",
+        "orderInLevel": 41
+      },
+      {
+        "key": "M2-0042",
+        "word": "арван хоёрдугаар сар",
+        "translation": "December",
+        "level": "M2",
+        "type": "numeral",
+        "alphabetGroup": "А",
+        "orderInLevel": 42
+      },
+      {
+        "key": "M2-0043",
+        "word": "арга",
+        "translation": "method / way",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "А",
+        "orderInLevel": 43
+      },
+      {
+        "key": "M2-0044",
+        "word": "аргын тоолол",
+        "translation": "solar calendar",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "А",
+        "orderInLevel": 44
+      },
+      {
+        "key": "M2-0045",
+        "word": "ард (хойно)",
+        "translation": "behind / at the back",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "А",
+        "orderInLevel": 45
+      },
+      {
+        "key": "M2-0046",
+        "word": "ариун цэврийн өрөө",
+        "translation": "bathroom / restroom",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "А",
+        "orderInLevel": 46
+      },
+      {
+        "key": "M2-0047",
+        "word": "архи",
+        "translation": "alcohol / vodka",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "А",
+        "orderInLevel": 47
+      },
+      {
+        "key": "M2-0048",
+        "word": "арц",
+        "translation": "juniper",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "А",
+        "orderInLevel": 48
+      },
+      {
+        "key": "M2-0049",
+        "word": "асуулт",
+        "translation": "question",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "А",
+        "orderInLevel": 49
+      },
+      {
+        "key": "M2-0050",
+        "word": "асуу-",
+        "translation": "to ask",
+        "level": "M2",
+        "type": "verb",
+        "alphabetGroup": "А",
+        "orderInLevel": 50
+      },
+      {
+        "key": "M2-0051",
+        "word": "африк",
+        "translation": "Africa",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "А",
+        "orderInLevel": 51
+      },
+      {
+        "key": "M2-0052",
+        "word": "ах",
+        "translation": "older brother",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "А",
+        "orderInLevel": 52
+      },
+      {
+        "key": "M2-0053",
+        "word": "ахмад",
+        "translation": "senior / elder",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "А",
+        "orderInLevel": 53
+      },
+      {
+        "key": "M2-0054",
+        "word": "ач",
+        "translation": "grandchild",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "А",
+        "orderInLevel": 54
+      },
+      {
+        "key": "M2-0055",
+        "word": "ашигла-",
+        "translation": "to use",
+        "level": "M2",
+        "type": "verb",
+        "alphabetGroup": "А",
+        "orderInLevel": 55
+      },
+      {
+        "key": "M2-0056",
+        "word": "аяга",
+        "translation": "cup / bowl",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "А",
+        "orderInLevel": 56
+      },
+      {
+        "key": "M2-0057",
+        "word": "аялагч",
+        "translation": "traveler",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "А",
+        "orderInLevel": 57
+      },
+      {
+        "key": "M2-0058",
+        "word": "аялал",
+        "translation": "trip / journey",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "А",
+        "orderInLevel": 58
+      },
+      {
+        "key": "M2-0059",
+        "word": "аяллын хуваарь",
+        "translation": "travel schedule / itinerary",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "А",
+        "orderInLevel": 59
+      },
+      {
+        "key": "M2-0060",
+        "word": "аял-",
+        "translation": "to travel",
+        "level": "M2",
+        "type": "verb",
+        "alphabetGroup": "А",
+        "orderInLevel": 60
+      }
+    ]
+  },
+  {
+    "letter": "Б",
+    "level": "M2",
+    "count": 70,
+    "words": [
+      {
+        "key": "M2-0061",
+        "word": "баг",
+        "translation": "team",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Б",
+        "orderInLevel": 61
+      },
+      {
+        "key": "M2-0062",
+        "word": "бага",
+        "translation": "small / little",
+        "level": "M2",
+        "type": "adjective",
+        "alphabetGroup": "Б",
+        "orderInLevel": 62
+      },
+      {
+        "key": "M2-0063",
+        "word": "багийн ахлагч",
+        "translation": "team leader",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Б",
+        "orderInLevel": 63
+      },
+      {
+        "key": "M2-0064",
+        "word": "багш",
+        "translation": "teacher",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Б",
+        "orderInLevel": 64
+      },
+      {
+        "key": "M2-0065",
+        "word": "байр",
+        "translation": "place / building / apartment",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Б",
+        "orderInLevel": 65
+      },
+      {
+        "key": "M2-0066",
+        "word": "байр",
+        "translation": "place / apartment / building",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Б",
+        "orderInLevel": 66
+      },
+      {
+        "key": "M2-0067",
+        "word": "байшил",
+        "translation": "location / position",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Б",
+        "orderInLevel": 67
+      },
+      {
+        "key": "M2-0068",
+        "word": "байшин",
+        "translation": "house / building",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Б",
+        "orderInLevel": 68
+      },
+      {
+        "key": "M2-0069",
+        "word": "бай-",
+        "translation": "to be / exist",
+        "level": "M2",
+        "type": "verb",
+        "alphabetGroup": "Б",
+        "orderInLevel": 69
+      },
+      {
+        "key": "M2-0070",
+        "word": "бал",
+        "translation": "honey",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Б",
+        "orderInLevel": 70
+      },
+      {
+        "key": "M2-0071",
+        "word": "баллуур",
+        "translation": "eraser",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Б",
+        "orderInLevel": 71
+      },
+      {
+        "key": "M2-0072",
+        "word": "банк",
+        "translation": "bank",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Б",
+        "orderInLevel": 72
+      },
+      {
+        "key": "M2-0073",
+        "word": "бараг",
+        "translation": "almost / nearly",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Б",
+        "orderInLevel": 73
+      },
+      {
+        "key": "M2-0074",
+        "word": "бариа",
+        "translation": "finish line / endpoint",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Б",
+        "orderInLevel": 74
+      },
+      {
+        "key": "M2-0075",
+        "word": "барилгачин",
+        "translation": "builder / construction worker",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Б",
+        "orderInLevel": 75
+      },
+      {
+        "key": "M2-0076",
+        "word": "баруун",
+        "translation": "right / west",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Б",
+        "orderInLevel": 76
+      },
+      {
+        "key": "M2-0077",
+        "word": "бар-",
+        "translation": "to hold / to build",
+        "level": "M2",
+        "type": "verb",
+        "alphabetGroup": "Б",
+        "orderInLevel": 77
+      },
+      {
+        "key": "M2-0078",
+        "word": "бас",
+        "translation": "also / too",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Б",
+        "orderInLevel": 78
+      },
+      {
+        "key": "M2-0079",
+        "word": "баян",
+        "translation": "rich / wealthy",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Б",
+        "orderInLevel": 79
+      },
+      {
+        "key": "M2-0080",
+        "word": "баярлалаа",
+        "translation": "thank you",
+        "level": "M2",
+        "type": "expression",
+        "alphabetGroup": "Б",
+        "orderInLevel": 80
+      },
+      {
+        "key": "M2-0081",
+        "word": "баярла-",
+        "translation": "to thank",
+        "level": "M2",
+        "type": "verb",
+        "alphabetGroup": "Б",
+        "orderInLevel": 81
+      },
+      {
+        "key": "M2-0082",
+        "word": "баяртай",
+        "translation": "goodbye",
+        "level": "M2",
+        "type": "expression",
+        "alphabetGroup": "Б",
+        "orderInLevel": 82
+      },
+      {
+        "key": "M2-0083",
+        "word": "би",
+        "translation": "I / me",
+        "level": "M2",
+        "type": "pronoun",
+        "alphabetGroup": "Б",
+        "orderInLevel": 83
+      },
+      {
+        "key": "M2-0084",
+        "word": "бид",
+        "translation": "we / us",
+        "level": "M2",
+        "type": "pronoun",
+        "alphabetGroup": "Б",
+        "orderInLevel": 84
+      },
+      {
+        "key": "M2-0085",
+        "word": "бие",
+        "translation": "body / self",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Б",
+        "orderInLevel": 85
+      },
+      {
+        "key": "M2-0086",
+        "word": "бие засах газар",
+        "translation": "toilet / restroom",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Б",
+        "orderInLevel": 86
+      },
+      {
+        "key": "M2-0087",
+        "word": "билгийн тоолол",
+        "translation": "lunar calendar",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Б",
+        "orderInLevel": 87
+      },
+      {
+        "key": "M2-0088",
+        "word": "битгий",
+        "translation": "don't / do not",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Б",
+        "orderInLevel": 88
+      },
+      {
+        "key": "M2-0089",
+        "word": "битүүн",
+        "translation": "new moon (lunar phase)",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Б",
+        "orderInLevel": 89
+      },
+      {
+        "key": "M2-0090",
+        "word": "бич-",
+        "translation": "to write",
+        "level": "M2",
+        "type": "verb",
+        "alphabetGroup": "Б",
+        "orderInLevel": 90
+      },
+      {
+        "key": "M2-0091",
+        "word": "биш",
+        "translation": "not",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Б",
+        "orderInLevel": 91
+      },
+      {
+        "key": "M2-0092",
+        "word": "богино",
+        "translation": "short",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Б",
+        "orderInLevel": 92
+      },
+      {
+        "key": "M2-0093",
+        "word": "бод-",
+        "translation": "to think",
+        "level": "M2",
+        "type": "verb",
+        "alphabetGroup": "Б",
+        "orderInLevel": 93
+      },
+      {
+        "key": "M2-0094",
+        "word": "боломжтой",
+        "translation": "possible",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Б",
+        "orderInLevel": 94
+      },
+      {
+        "key": "M2-0095",
+        "word": "бол-",
+        "translation": "to become / to be",
+        "level": "M2",
+        "type": "verb",
+        "alphabetGroup": "Б",
+        "orderInLevel": 95
+      },
+      {
+        "key": "M2-0096",
+        "word": "боов",
+        "translation": "bread / pastry",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Б",
+        "orderInLevel": 96
+      },
+      {
+        "key": "M2-0097",
+        "word": "боорцог",
+        "translation": "fried dough (boortsog)",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Б",
+        "orderInLevel": 97
+      },
+      {
+        "key": "M2-0098",
+        "word": "бор",
+        "translation": "brown",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Б",
+        "orderInLevel": 98
+      },
+      {
+        "key": "M2-0099",
+        "word": "бороо",
+        "translation": "rain",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Б",
+        "orderInLevel": 99
+      },
+      {
+        "key": "M2-0100",
+        "word": "бос-",
+        "translation": "to stand up / rise",
+        "level": "M2",
+        "type": "verb",
+        "alphabetGroup": "Б",
+        "orderInLevel": 100
+      },
+      {
+        "key": "M2-0101",
+        "word": "ботго",
+        "translation": "camel calf",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Б",
+        "orderInLevel": 101
+      },
+      {
+        "key": "M2-0102",
+        "word": "бөгж",
+        "translation": "ring",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Б",
+        "orderInLevel": 102
+      },
+      {
+        "key": "M2-0103",
+        "word": "бөмбөг",
+        "translation": "ball",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Б",
+        "orderInLevel": 103
+      },
+      {
+        "key": "M2-0104",
+        "word": "бөх",
+        "translation": "wrestling / wrestler",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Б",
+        "orderInLevel": 104
+      },
+      {
+        "key": "M2-0105",
+        "word": "бугын цаг",
+        "translation": "deer mating season",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Б",
+        "orderInLevel": 105
+      },
+      {
+        "key": "M2-0106",
+        "word": "будаа",
+        "translation": "rice / grain",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Б",
+        "orderInLevel": 106
+      },
+      {
+        "key": "M2-0107",
+        "word": "буруу",
+        "translation": "wrong / incorrect",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Б",
+        "orderInLevel": 107
+      },
+      {
+        "key": "M2-0108",
+        "word": "бус",
+        "translation": "not / non-",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Б",
+        "orderInLevel": 108
+      },
+      {
+        "key": "M2-0109",
+        "word": "бусад",
+        "translation": "others / other people",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Б",
+        "orderInLevel": 109
+      },
+      {
+        "key": "M2-0110",
+        "word": "буу",
+        "translation": "gun",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Б",
+        "orderInLevel": 110
+      },
+      {
+        "key": "M2-0111",
+        "word": "буудал",
+        "translation": "station / stop",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Б",
+        "orderInLevel": 111
+      },
+      {
+        "key": "M2-0112",
+        "word": "бууз",
+        "translation": "steamed dumpling (buuz)",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Б",
+        "orderInLevel": 112
+      },
+      {
+        "key": "M2-0113",
+        "word": "буц-",
+        "translation": "to return / go back",
+        "level": "M2",
+        "type": "verb",
+        "alphabetGroup": "Б",
+        "orderInLevel": 113
+      },
+      {
+        "key": "M2-0114",
+        "word": "буюу",
+        "translation": "or / namely",
+        "level": "M2",
+        "type": "connector",
+        "alphabetGroup": "Б",
+        "orderInLevel": 114
+      },
+      {
+        "key": "M2-0115",
+        "word": "бүгд",
+        "translation": "all / everyone",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Б",
+        "orderInLevel": 115
+      },
+      {
+        "key": "M2-0116",
+        "word": "бүжиг",
+        "translation": "dance",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Б",
+        "orderInLevel": 116
+      },
+      {
+        "key": "M2-0117",
+        "word": "бүжиглэ-",
+        "translation": "to dance",
+        "level": "M2",
+        "type": "verb",
+        "alphabetGroup": "Б",
+        "orderInLevel": 117
+      },
+      {
+        "key": "M2-0118",
+        "word": "бүжигчин",
+        "translation": "dancer",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Б",
+        "orderInLevel": 118
+      },
+      {
+        "key": "M2-0119",
+        "word": "бүр",
+        "translation": "completely / entirely",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Б",
+        "orderInLevel": 119
+      },
+      {
+        "key": "M2-0120",
+        "word": "бүрэн",
+        "translation": "full / complete",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Б",
+        "orderInLevel": 120
+      },
+      {
+        "key": "M2-0121",
+        "word": "бүтэн сайн",
+        "translation": "Sunday",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Б",
+        "orderInLevel": 121
+      },
+      {
+        "key": "M2-0122",
+        "word": "бүх",
+        "translation": "all / every",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Б",
+        "orderInLevel": 122
+      },
+      {
+        "key": "M2-0123",
+        "word": "бэлд-",
+        "translation": "to prepare",
+        "level": "M2",
+        "type": "verb",
+        "alphabetGroup": "Б",
+        "orderInLevel": 123
+      },
+      {
+        "key": "M2-0124",
+        "word": "бэлэг",
+        "translation": "gift / present",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Б",
+        "orderInLevel": 124
+      },
+      {
+        "key": "M2-0125",
+        "word": "бэлэглэ-",
+        "translation": "to give as a gift",
+        "level": "M2",
+        "type": "verb",
+        "alphabetGroup": "Б",
+        "orderInLevel": 125
+      },
+      {
+        "key": "M2-0126",
+        "word": "бэлэн",
+        "translation": "ready",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Б",
+        "orderInLevel": 126
+      },
+      {
+        "key": "M2-0127",
+        "word": "бээлий",
+        "translation": "gloves",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Б",
+        "orderInLevel": 127
+      },
+      {
+        "key": "M2-0128",
+        "word": "бэ?",
+        "translation": "question particle",
+        "level": "M2",
+        "type": "particle",
+        "alphabetGroup": "Б",
+        "orderInLevel": 128
+      },
+      {
+        "key": "M2-0129",
+        "word": "бялуу",
+        "translation": "cake",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Б",
+        "orderInLevel": 129
+      },
+      {
+        "key": "M2-0130",
+        "word": "бяслаг",
+        "translation": "cheese",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Б",
+        "orderInLevel": 130
+      }
+    ]
+  },
+  {
+    "letter": "В",
+    "level": "M2",
+    "count": 3,
+    "words": [
+      {
+        "key": "M2-0131",
+        "word": "виз",
+        "translation": "visa",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "В",
+        "orderInLevel": 131
+      },
+      {
+        "key": "M2-0132",
+        "word": "вьетнам",
+        "translation": "Vietnam",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "В",
+        "orderInLevel": 132
+      },
+      {
+        "key": "M2-0133",
+        "word": "вэ?",
+        "translation": "question particle",
+        "level": "M2",
+        "type": "particle",
+        "alphabetGroup": "В",
+        "orderInLevel": 133
+      }
+    ]
+  },
+  {
+    "letter": "Г",
+    "level": "M2",
+    "count": 37,
+    "words": [
+      {
+        "key": "M2-0134",
+        "word": "гадаад",
+        "translation": "foreign / abroad",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Г",
+        "orderInLevel": 134
+      },
+      {
+        "key": "M2-0135",
+        "word": "гадил",
+        "translation": "banana",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Г",
+        "orderInLevel": 135
+      },
+      {
+        "key": "M2-0136",
+        "word": "гадна",
+        "translation": "outside",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Г",
+        "orderInLevel": 136
+      },
+      {
+        "key": "M2-0137",
+        "word": "газар",
+        "translation": "land / place",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Г",
+        "orderInLevel": 137
+      },
+      {
+        "key": "M2-0138",
+        "word": "газрын зураг",
+        "translation": "map",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Г",
+        "orderInLevel": 138
+      },
+      {
+        "key": "M2-0139",
+        "word": "гайхалтай",
+        "translation": "amazing / wonderful",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Г",
+        "orderInLevel": 139
+      },
+      {
+        "key": "M2-0140",
+        "word": "гал",
+        "translation": "fire",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Г",
+        "orderInLevel": 140
+      },
+      {
+        "key": "M2-0141",
+        "word": "галт тэрэг",
+        "translation": "train",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Г",
+        "orderInLevel": 141
+      },
+      {
+        "key": "M2-0142",
+        "word": "гал тогоо",
+        "translation": "kitchen",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Г",
+        "orderInLevel": 142
+      },
+      {
+        "key": "M2-0143",
+        "word": "гар",
+        "translation": "hand / arm",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Г",
+        "orderInLevel": 143
+      },
+      {
+        "key": "M2-0144",
+        "word": "гараа",
+        "translation": "hand (possessive form)",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Г",
+        "orderInLevel": 144
+      },
+      {
+        "key": "M2-0145",
+        "word": "гаруй",
+        "translation": "about / approximately",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Г",
+        "orderInLevel": 145
+      },
+      {
+        "key": "M2-0146",
+        "word": "гар-",
+        "translation": "to go out / to come out",
+        "level": "M2",
+        "type": "verb",
+        "alphabetGroup": "Г",
+        "orderInLevel": 146
+      },
+      {
+        "key": "M2-0147",
+        "word": "гар бөмбөг",
+        "translation": "volleyball",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Г",
+        "orderInLevel": 147
+      },
+      {
+        "key": "M2-0148",
+        "word": "гар утас",
+        "translation": "mobile phone",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Г",
+        "orderInLevel": 148
+      },
+      {
+        "key": "M2-0149",
+        "word": "герман",
+        "translation": "Germany",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Г",
+        "orderInLevel": 149
+      },
+      {
+        "key": "M2-0150",
+        "word": "гийчүүлэгч",
+        "translation": "guest / visitor (formal)",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Г",
+        "orderInLevel": 150
+      },
+      {
+        "key": "M2-0151",
+        "word": "гоймон",
+        "translation": "noodles",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Г",
+        "orderInLevel": 151
+      },
+      {
+        "key": "M2-0152",
+        "word": "гол",
+        "translation": "river / main",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Г",
+        "orderInLevel": 152
+      },
+      {
+        "key": "M2-0153",
+        "word": "голдуу",
+        "translation": "mostly / usually",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Г",
+        "orderInLevel": 153
+      },
+      {
+        "key": "M2-0154",
+        "word": "гольф",
+        "translation": "golf",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Г",
+        "orderInLevel": 154
+      },
+      {
+        "key": "M2-0155",
+        "word": "гөдөг",
+        "translation": "boot / footwear",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Г",
+        "orderInLevel": 155
+      },
+      {
+        "key": "M2-0156",
+        "word": "грамм",
+        "translation": "gram",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Г",
+        "orderInLevel": 156
+      },
+      {
+        "key": "M2-0157",
+        "word": "гуанз",
+        "translation": "canteen / cafeteria",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Г",
+        "orderInLevel": 157
+      },
+      {
+        "key": "M2-0158",
+        "word": "гудамж",
+        "translation": "street",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Г",
+        "orderInLevel": 158
+      },
+      {
+        "key": "M2-0159",
+        "word": "гурав",
+        "translation": "three",
+        "level": "M2",
+        "type": "numeral",
+        "alphabetGroup": "Г",
+        "orderInLevel": 159
+      },
+      {
+        "key": "M2-0160",
+        "word": "гуравдугаар сар",
+        "translation": "March",
+        "level": "M2",
+        "type": "numeral",
+        "alphabetGroup": "Г",
+        "orderInLevel": 160
+      },
+      {
+        "key": "M2-0161",
+        "word": "гурав дахь өдөр",
+        "translation": "third day",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Г",
+        "orderInLevel": 161
+      },
+      {
+        "key": "M2-0162",
+        "word": "гурил",
+        "translation": "flour",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Г",
+        "orderInLevel": 162
+      },
+      {
+        "key": "M2-0163",
+        "word": "гутал",
+        "translation": "shoes",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Г",
+        "orderInLevel": 163
+      },
+      {
+        "key": "M2-0164",
+        "word": "гуч",
+        "translation": "thirty",
+        "level": "M2",
+        "type": "numeral",
+        "alphabetGroup": "Г",
+        "orderInLevel": 164
+      },
+      {
+        "key": "M2-0165",
+        "word": "гүи-",
+        "translation": "to run",
+        "level": "M2",
+        "type": "verb",
+        "alphabetGroup": "Г",
+        "orderInLevel": 165
+      },
+      {
+        "key": "M2-0166",
+        "word": "гүүр",
+        "translation": "bridge",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Г",
+        "orderInLevel": 166
+      },
+      {
+        "key": "M2-0167",
+        "word": "гэнэт",
+        "translation": "suddenly",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Г",
+        "orderInLevel": 167
+      },
+      {
+        "key": "M2-0168",
+        "word": "гэр",
+        "translation": "home / ger (yurt)",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Г",
+        "orderInLevel": 168
+      },
+      {
+        "key": "M2-0169",
+        "word": "гэрлэ-",
+        "translation": "to marry",
+        "level": "M2",
+        "type": "verb",
+        "alphabetGroup": "Г",
+        "orderInLevel": 169
+      },
+      {
+        "key": "M2-0170",
+        "word": "гэр бүл",
+        "translation": "family",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Г",
+        "orderInLevel": 170
+      }
+    ]
+  },
+  {
+    "letter": "Д",
+    "level": "M2",
+    "count": 46,
+    "words": [
+      {
+        "key": "M2-0171",
+        "word": "давс",
+        "translation": "salt",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Д",
+        "orderInLevel": 171
+      },
+      {
+        "key": "M2-0172",
+        "word": "давт-",
+        "translation": "to repeat / review",
+        "level": "M2",
+        "type": "verb",
+        "alphabetGroup": "Д",
+        "orderInLevel": 172
+      },
+      {
+        "key": "M2-0173",
+        "word": "давхар",
+        "translation": "floor / double",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Д",
+        "orderInLevel": 173
+      },
+      {
+        "key": "M2-0174",
+        "word": "дага-",
+        "translation": "to follow",
+        "level": "M2",
+        "type": "verb",
+        "alphabetGroup": "Д",
+        "orderInLevel": 174
+      },
+      {
+        "key": "M2-0175",
+        "word": "дал",
+        "translation": "seventy",
+        "level": "M2",
+        "type": "numeral",
+        "alphabetGroup": "Д",
+        "orderInLevel": 175
+      },
+      {
+        "key": "M2-0176",
+        "word": "далай",
+        "translation": "sea / ocean",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Д",
+        "orderInLevel": 176
+      },
+      {
+        "key": "M2-0177",
+        "word": "дараа",
+        "translation": "after / later",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Д",
+        "orderInLevel": 177
+      },
+      {
+        "key": "M2-0178",
+        "word": "дарга",
+        "translation": "boss / manager",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Д",
+        "orderInLevel": 178
+      },
+      {
+        "key": "M2-0179",
+        "word": "дар-",
+        "translation": "to press / to suppress",
+        "level": "M2",
+        "type": "verb",
+        "alphabetGroup": "Д",
+        "orderInLevel": 179
+      },
+      {
+        "key": "M2-0180",
+        "word": "дасгал",
+        "translation": "exercise / practice",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Д",
+        "orderInLevel": 180
+      },
+      {
+        "key": "M2-0181",
+        "word": "дасгалжуулагч",
+        "translation": "coach / trainer",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Д",
+        "orderInLevel": 181
+      },
+      {
+        "key": "M2-0182",
+        "word": "дахин",
+        "translation": "again",
+        "level": "M2",
+        "type": "adverb",
+        "alphabetGroup": "Д",
+        "orderInLevel": 182
+      },
+      {
+        "key": "M2-0183",
+        "word": "докторант",
+        "translation": "doctoral student",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Д",
+        "orderInLevel": 183
+      },
+      {
+        "key": "M2-0184",
+        "word": "долоо",
+        "translation": "seven",
+        "level": "M2",
+        "type": "numeral",
+        "alphabetGroup": "Д",
+        "orderInLevel": 184
+      },
+      {
+        "key": "M2-0185",
+        "word": "долоодугаар сар",
+        "translation": "July",
+        "level": "M2",
+        "type": "numeral",
+        "alphabetGroup": "Д",
+        "orderInLevel": 185
+      },
+      {
+        "key": "M2-0186",
+        "word": "доод",
+        "translation": "lower",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Д",
+        "orderInLevel": 186
+      },
+      {
+        "key": "M2-0187",
+        "word": "доор",
+        "translation": "under / below",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Д",
+        "orderInLevel": 187
+      },
+      {
+        "key": "M2-0188",
+        "word": "доош",
+        "translation": "downward",
+        "level": "M2",
+        "type": "adverb",
+        "alphabetGroup": "Д",
+        "orderInLevel": 188
+      },
+      {
+        "key": "M2-0189",
+        "word": "дотно",
+        "translation": "close / intimate",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Д",
+        "orderInLevel": 189
+      },
+      {
+        "key": "M2-0190",
+        "word": "дотоод",
+        "translation": "internal / inner",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Д",
+        "orderInLevel": 190
+      },
+      {
+        "key": "M2-0191",
+        "word": "дотор",
+        "translation": "inside",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Д",
+        "orderInLevel": 191
+      },
+      {
+        "key": "M2-0192",
+        "word": "дөрөв",
+        "translation": "four",
+        "level": "M2",
+        "type": "numeral",
+        "alphabetGroup": "Д",
+        "orderInLevel": 192
+      },
+      {
+        "key": "M2-0193",
+        "word": "дөрөвдүгээр сар",
+        "translation": "April",
+        "level": "M2",
+        "type": "numeral",
+        "alphabetGroup": "Д",
+        "orderInLevel": 193
+      },
+      {
+        "key": "M2-0194",
+        "word": "дөрөв дэх өдөр",
+        "translation": "fourth day",
+        "level": "M2",
+        "type": "numeral",
+        "alphabetGroup": "Д",
+        "orderInLevel": 194
+      },
+      {
+        "key": "M2-0195",
+        "word": "дөч",
+        "translation": "forty",
+        "level": "M2",
+        "type": "numeral",
+        "alphabetGroup": "Д",
+        "orderInLevel": 195
+      },
+      {
+        "key": "M2-0196",
+        "word": "дугаар",
+        "translation": "number / index",
+        "level": "M2",
+        "type": "numeral",
+        "alphabetGroup": "Д",
+        "orderInLevel": 196
+      },
+      {
+        "key": "M2-0197",
+        "word": "дугаар/ дүгээр",
+        "translation": "ordinal suffix (th)",
+        "level": "M2",
+        "type": "numeral",
+        "alphabetGroup": "Д",
+        "orderInLevel": 197
+      },
+      {
+        "key": "M2-0198",
+        "word": "дулаан",
+        "translation": "warm",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Д",
+        "orderInLevel": 198
+      },
+      {
+        "key": "M2-0199",
+        "word": "дунд",
+        "translation": "middle / center",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Д",
+        "orderInLevel": 199
+      },
+      {
+        "key": "M2-0200",
+        "word": "дуу",
+        "translation": "song / sound",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Д",
+        "orderInLevel": 200
+      },
+      {
+        "key": "M2-0201",
+        "word": "дуу",
+        "translation": "sound / voice",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Д",
+        "orderInLevel": 201
+      },
+      {
+        "key": "M2-0202",
+        "word": "дууд-",
+        "translation": "to call",
+        "level": "M2",
+        "type": "verb",
+        "alphabetGroup": "Д",
+        "orderInLevel": 202
+      },
+      {
+        "key": "M2-0203",
+        "word": "дуул-",
+        "translation": "to sing",
+        "level": "M2",
+        "type": "verb",
+        "alphabetGroup": "Д",
+        "orderInLevel": 203
+      },
+      {
+        "key": "M2-0204",
+        "word": "дуус-",
+        "translation": "to finish / end",
+        "level": "M2",
+        "type": "verb",
+        "alphabetGroup": "Д",
+        "orderInLevel": 204
+      },
+      {
+        "key": "M2-0205",
+        "word": "дуучин",
+        "translation": "singer",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Д",
+        "orderInLevel": 205
+      },
+      {
+        "key": "M2-0206",
+        "word": "дүрэм",
+        "translation": "rule",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Д",
+        "orderInLevel": 206
+      },
+      {
+        "key": "M2-0207",
+        "word": "дүүрэн",
+        "translation": "full (filled)",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Д",
+        "orderInLevel": 207
+      },
+      {
+        "key": "M2-0208",
+        "word": "дэвтэр",
+        "translation": "notebook",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Д",
+        "orderInLevel": 208
+      },
+      {
+        "key": "M2-0209",
+        "word": "дэлгүүр",
+        "translation": "shop / store",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Д",
+        "orderInLevel": 209
+      },
+      {
+        "key": "M2-0210",
+        "word": "дэлхий",
+        "translation": "world / earth",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Д",
+        "orderInLevel": 210
+      },
+      {
+        "key": "M2-0211",
+        "word": "дэргэд",
+        "translation": "next to / beside",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Д",
+        "orderInLevel": 211
+      },
+      {
+        "key": "M2-0212",
+        "word": "дэх, дэх",
+        "translation": "on / in / at (suffix usage)",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Д",
+        "orderInLevel": 212
+      },
+      {
+        "key": "M2-0213",
+        "word": "дээд",
+        "translation": "upper / top",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Д",
+        "orderInLevel": 213
+      },
+      {
+        "key": "M2-0214",
+        "word": "дээл",
+        "translation": "deel (traditional clothing)",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Д",
+        "orderInLevel": 214
+      },
+      {
+        "key": "M2-0215",
+        "word": "дээр",
+        "translation": "on / above",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Д",
+        "orderInLevel": 215
+      },
+      {
+        "key": "M2-0216",
+        "word": "дээш",
+        "translation": "up / upward",
+        "level": "M2",
+        "type": "adverb",
+        "alphabetGroup": "Д",
+        "orderInLevel": 216
+      }
+    ]
+  },
+  {
+    "letter": "Е",
+    "level": "M2",
+    "count": 6,
+    "words": [
+      {
+        "key": "M2-0217",
+        "word": "европ",
+        "translation": "Europe",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Е",
+        "orderInLevel": 217
+      },
+      {
+        "key": "M2-0218",
+        "word": "ерөнхийлөгч",
+        "translation": "president",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Е",
+        "orderInLevel": 218
+      },
+      {
+        "key": "M2-0219",
+        "word": "ерөнхий сайд",
+        "translation": "prime minister",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Е",
+        "orderInLevel": 219
+      },
+      {
+        "key": "M2-0220",
+        "word": "ер (тоо)",
+        "translation": "even number",
+        "level": "M2",
+        "type": "numeral",
+        "alphabetGroup": "Е",
+        "orderInLevel": 220
+      },
+      {
+        "key": "M2-0221",
+        "word": "ес",
+        "translation": "nine",
+        "level": "M2",
+        "type": "numeral",
+        "alphabetGroup": "Е",
+        "orderInLevel": 221
+      },
+      {
+        "key": "M2-0222",
+        "word": "есдүгээр сар",
+        "translation": "September",
+        "level": "M2",
+        "type": "numeral",
+        "alphabetGroup": "Е",
+        "orderInLevel": 222
+      }
+    ]
+  },
+  {
+    "letter": "Ё",
+    "level": "M2",
+    "count": 3,
+    "words": [
+      {
+        "key": "M2-0223",
+        "word": "ёс",
+        "translation": "custom / tradition",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Ё",
+        "orderInLevel": 223
+      },
+      {
+        "key": "M2-0224",
+        "word": "ёсгүй",
+        "translation": "improper / rude",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Ё",
+        "orderInLevel": 224
+      },
+      {
+        "key": "M2-0225",
+        "word": "ёстой",
+        "translation": "really / truly / must",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Ё",
+        "orderInLevel": 225
+      }
+    ]
+  },
+  {
+    "letter": "Ж",
+    "level": "M2",
+    "count": 15,
+    "words": [
+      {
+        "key": "M2-0226",
+        "word": "жаахан",
+        "translation": "a little / small amount",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Ж",
+        "orderInLevel": 226
+      },
+      {
+        "key": "M2-0227",
+        "word": "жагсаалт",
+        "translation": "list",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Ж",
+        "orderInLevel": 227
+      },
+      {
+        "key": "M2-0228",
+        "word": "жар",
+        "translation": "sixty",
+        "level": "M2",
+        "type": "numeral",
+        "alphabetGroup": "Ж",
+        "orderInLevel": 228
+      },
+      {
+        "key": "M2-0229",
+        "word": "жигүүр",
+        "translation": "wing",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Ж",
+        "orderInLevel": 229
+      },
+      {
+        "key": "M2-0230",
+        "word": "жижиг",
+        "translation": "small",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Ж",
+        "orderInLevel": 230
+      },
+      {
+        "key": "M2-0231",
+        "word": "жил",
+        "translation": "year",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Ж",
+        "orderInLevel": 231
+      },
+      {
+        "key": "M2-0232",
+        "word": "жимс",
+        "translation": "fruit",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Ж",
+        "orderInLevel": 232
+      },
+      {
+        "key": "M2-0233",
+        "word": "жингэх",
+        "translation": "to weigh",
+        "level": "M2",
+        "type": "verb",
+        "alphabetGroup": "Ж",
+        "orderInLevel": 233
+      },
+      {
+        "key": "M2-0234",
+        "word": "жинлүүр",
+        "translation": "scale / weighing scale",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Ж",
+        "orderInLevel": 234
+      },
+      {
+        "key": "M2-0235",
+        "word": "жинхэнэ",
+        "translation": "real / genuine",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Ж",
+        "orderInLevel": 235
+      },
+      {
+        "key": "M2-0236",
+        "word": "жолоод-",
+        "translation": "to drive",
+        "level": "M2",
+        "type": "verb",
+        "alphabetGroup": "Ж",
+        "orderInLevel": 236
+      },
+      {
+        "key": "M2-0237",
+        "word": "жолооч",
+        "translation": "driver",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Ж",
+        "orderInLevel": 237
+      },
+      {
+        "key": "M2-0238",
+        "word": "жорлон",
+        "translation": "toilet / latrine",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Ж",
+        "orderInLevel": 238
+      },
+      {
+        "key": "M2-0239",
+        "word": "жуулчны бааз",
+        "translation": "tourist camp",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Ж",
+        "orderInLevel": 239
+      },
+      {
+        "key": "M2-0240",
+        "word": "жүрж",
+        "translation": "orange (fruit)",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Ж",
+        "orderInLevel": 240
+      }
+    ]
+  },
+  {
+    "letter": "З",
+    "level": "M2",
+    "count": 42,
+    "words": [
+      {
+        "key": "M2-0241",
+        "word": "за",
+        "translation": "okay / well",
+        "level": "M2",
+        "type": "expression",
+        "alphabetGroup": "З",
+        "orderInLevel": 241
+      },
+      {
+        "key": "M2-0242",
+        "word": "заа-",
+        "translation": "to teach / instruct",
+        "level": "M2",
+        "type": "verb",
+        "alphabetGroup": "З",
+        "orderInLevel": 242
+      },
+      {
+        "key": "M2-0243",
+        "word": "завгүй",
+        "translation": "busy",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "З",
+        "orderInLevel": 243
+      },
+      {
+        "key": "M2-0244",
+        "word": "завсарла-",
+        "translation": "to take a break",
+        "level": "M2",
+        "type": "verb",
+        "alphabetGroup": "З",
+        "orderInLevel": 244
+      },
+      {
+        "key": "M2-0245",
+        "word": "завтай",
+        "translation": "free / having time",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "З",
+        "orderInLevel": 245
+      },
+      {
+        "key": "M2-0246",
+        "word": "загас",
+        "translation": "fish",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "З",
+        "orderInLevel": 246
+      },
+      {
+        "key": "M2-0247",
+        "word": "зайрмаг",
+        "translation": "ice cream",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "З",
+        "orderInLevel": 247
+      },
+      {
+        "key": "M2-0248",
+        "word": "залуу",
+        "translation": "young / youth",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "З",
+        "orderInLevel": 248
+      },
+      {
+        "key": "M2-0249",
+        "word": "залхуу",
+        "translation": "lazy",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "З",
+        "orderInLevel": 249
+      },
+      {
+        "key": "M2-0250",
+        "word": "зам",
+        "translation": "road / way",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "З",
+        "orderInLevel": 250
+      },
+      {
+        "key": "M2-0251",
+        "word": "заншил",
+        "translation": "custom / tradition",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "З",
+        "orderInLevel": 251
+      },
+      {
+        "key": "M2-0252",
+        "word": "зарим",
+        "translation": "some",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "З",
+        "orderInLevel": 252
+      },
+      {
+        "key": "M2-0253",
+        "word": "заримдаа",
+        "translation": "sometimes",
+        "level": "M2",
+        "type": "adverb",
+        "alphabetGroup": "З",
+        "orderInLevel": 253
+      },
+      {
+        "key": "M2-0254",
+        "word": "зарла-",
+        "translation": "to announce",
+        "level": "M2",
+        "type": "verb",
+        "alphabetGroup": "З",
+        "orderInLevel": 254
+      },
+      {
+        "key": "M2-0255",
+        "word": "зарцуул-",
+        "translation": "to spend (money/time)",
+        "level": "M2",
+        "type": "verb",
+        "alphabetGroup": "З",
+        "orderInLevel": 255
+      },
+      {
+        "key": "M2-0256",
+        "word": "зар-",
+        "translation": "to sell / to announce",
+        "level": "M2",
+        "type": "verb",
+        "alphabetGroup": "З",
+        "orderInLevel": 256
+      },
+      {
+        "key": "M2-0257",
+        "word": "зас-",
+        "translation": "to fix / repair",
+        "level": "M2",
+        "type": "verb",
+        "alphabetGroup": "З",
+        "orderInLevel": 257
+      },
+      {
+        "key": "M2-0258",
+        "word": "зах",
+        "translation": "market / edge",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "З",
+        "orderInLevel": 258
+      },
+      {
+        "key": "M2-0259",
+        "word": "захиа",
+        "translation": "letter",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "З",
+        "orderInLevel": 259
+      },
+      {
+        "key": "M2-0260",
+        "word": "захиал-",
+        "translation": "to order",
+        "level": "M2",
+        "type": "verb",
+        "alphabetGroup": "З",
+        "orderInLevel": 260
+      },
+      {
+        "key": "M2-0261",
+        "word": "захирал",
+        "translation": "director / principal",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "З",
+        "orderInLevel": 261
+      },
+      {
+        "key": "M2-0262",
+        "word": "зогс-",
+        "translation": "to stop",
+        "level": "M2",
+        "type": "verb",
+        "alphabetGroup": "З",
+        "orderInLevel": 262
+      },
+      {
+        "key": "M2-0263",
+        "word": "золгох",
+        "translation": "to meet / greet (traditional)",
+        "level": "M2",
+        "type": "verb",
+        "alphabetGroup": "З",
+        "orderInLevel": 263
+      },
+      {
+        "key": "M2-0264",
+        "word": "зочин",
+        "translation": "guest",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "З",
+        "orderInLevel": 264
+      },
+      {
+        "key": "M2-0265",
+        "word": "зочны өрөө",
+        "translation": "living room / guest room",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "З",
+        "orderInLevel": 265
+      },
+      {
+        "key": "M2-0266",
+        "word": "зөв",
+        "translation": "correct / right",
+        "level": "M2",
+        "type": "adjective",
+        "alphabetGroup": "З",
+        "orderInLevel": 266
+      },
+      {
+        "key": "M2-0267",
+        "word": "зөвлө-",
+        "translation": "to advise",
+        "level": "M2",
+        "type": "verb",
+        "alphabetGroup": "З",
+        "orderInLevel": 267
+      },
+      {
+        "key": "M2-0268",
+        "word": "зөвхөн",
+        "translation": "only",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "З",
+        "orderInLevel": 268
+      },
+      {
+        "key": "M2-0269",
+        "word": "зөөгч",
+        "translation": "waiter / server",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "З",
+        "orderInLevel": 269
+      },
+      {
+        "key": "M2-0270",
+        "word": "зөөлөн",
+        "translation": "soft",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "З",
+        "orderInLevel": 270
+      },
+      {
+        "key": "M2-0271",
+        "word": "зун",
+        "translation": "summer",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "З",
+        "orderInLevel": 271
+      },
+      {
+        "key": "M2-0272",
+        "word": "зураг",
+        "translation": "picture / image",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "З",
+        "orderInLevel": 272
+      },
+      {
+        "key": "M2-0273",
+        "word": "зурагт",
+        "translation": "television (TV)",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "З",
+        "orderInLevel": 273
+      },
+      {
+        "key": "M2-0274",
+        "word": "зургаа",
+        "translation": "six (possessive form)",
+        "level": "M2",
+        "type": "numeral",
+        "alphabetGroup": "З",
+        "orderInLevel": 274
+      },
+      {
+        "key": "M2-0275",
+        "word": "зургаадугаар сар",
+        "translation": "June",
+        "level": "M2",
+        "type": "numeral",
+        "alphabetGroup": "З",
+        "orderInLevel": 275
+      },
+      {
+        "key": "M2-0276",
+        "word": "зур-",
+        "translation": "to draw",
+        "level": "M2",
+        "type": "verb",
+        "alphabetGroup": "З",
+        "orderInLevel": 276
+      },
+      {
+        "key": "M2-0277",
+        "word": "зуу",
+        "translation": "hundred",
+        "level": "M2",
+        "type": "numeral",
+        "alphabetGroup": "З",
+        "orderInLevel": 277
+      },
+      {
+        "key": "M2-0278",
+        "word": "зүгээр",
+        "translation": "fine / okay",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "З",
+        "orderInLevel": 278
+      },
+      {
+        "key": "M2-0279",
+        "word": "зүрх",
+        "translation": "heart",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "З",
+        "orderInLevel": 279
+      },
+      {
+        "key": "M2-0280",
+        "word": "зүүлт",
+        "translation": "earring / accessory",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "З",
+        "orderInLevel": 280
+      },
+      {
+        "key": "M2-0281",
+        "word": "зүүн",
+        "translation": "left / east",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "З",
+        "orderInLevel": 281
+      },
+      {
+        "key": "M2-0282",
+        "word": "зээ",
+        "translation": "grandchild (maternal side)",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "З",
+        "orderInLevel": 282
+      }
+    ]
+  },
+  {
+    "letter": "И",
+    "level": "M2",
+    "count": 11,
+    "words": [
+      {
+        "key": "M2-0283",
+        "word": "идээ",
+        "translation": "food / dairy products",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "И",
+        "orderInLevel": 283
+      },
+      {
+        "key": "M2-0284",
+        "word": "ид-",
+        "translation": "to eat",
+        "level": "M2",
+        "type": "verb",
+        "alphabetGroup": "И",
+        "orderInLevel": 284
+      },
+      {
+        "key": "M2-0285",
+        "word": "ийм",
+        "translation": "this / such",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "И",
+        "orderInLevel": 285
+      },
+      {
+        "key": "M2-0286",
+        "word": "ингэ-",
+        "translation": "to do like this",
+        "level": "M2",
+        "type": "verb",
+        "alphabetGroup": "И",
+        "orderInLevel": 286
+      },
+      {
+        "key": "M2-0287",
+        "word": "инээ-",
+        "translation": "to laugh / smile",
+        "level": "M2",
+        "type": "verb",
+        "alphabetGroup": "И",
+        "orderInLevel": 287
+      },
+      {
+        "key": "M2-0288",
+        "word": "ирээгүй",
+        "translation": "did not come",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "И",
+        "orderInLevel": 288
+      },
+      {
+        "key": "M2-0289",
+        "word": "ир-",
+        "translation": "to come",
+        "level": "M2",
+        "type": "verb",
+        "alphabetGroup": "И",
+        "orderInLevel": 289
+      },
+      {
+        "key": "M2-0290",
+        "word": "итгэх-",
+        "translation": "to believe / trust",
+        "level": "M2",
+        "type": "verb",
+        "alphabetGroup": "И",
+        "orderInLevel": 290
+      },
+      {
+        "key": "M2-0291",
+        "word": "их",
+        "translation": "big / much / many",
+        "level": "M2",
+        "type": "adjective",
+        "alphabetGroup": "И",
+        "orderInLevel": 291
+      },
+      {
+        "key": "M2-0292",
+        "word": "их дэлгүүр",
+        "translation": "department store",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "И",
+        "orderInLevel": 292
+      },
+      {
+        "key": "M2-0293",
+        "word": "ишиг",
+        "translation": "kid (young goat)",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "И",
+        "orderInLevel": 293
+      }
+    ]
+  },
+  {
+    "letter": "К",
+    "level": "M2",
+    "count": 5,
+    "words": [
+      {
+        "key": "M2-0294",
+        "word": "кассчин",
+        "translation": "cashier",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "К",
+        "orderInLevel": 294
+      },
+      {
+        "key": "M2-0295",
+        "word": "килограмм",
+        "translation": "kilogram",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "К",
+        "orderInLevel": 295
+      },
+      {
+        "key": "M2-0296",
+        "word": "километр",
+        "translation": "kilometer",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "К",
+        "orderInLevel": 296
+      },
+      {
+        "key": "M2-0297",
+        "word": "кино",
+        "translation": "movie / cinema",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "К",
+        "orderInLevel": 297
+      },
+      {
+        "key": "M2-0298",
+        "word": "компьютер",
+        "translation": "computer",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "К",
+        "orderInLevel": 298
+      }
+    ]
+  },
+  {
+    "letter": "Л",
+    "level": "M2",
+    "count": 4,
+    "words": [
+      {
+        "key": "M2-0299",
+        "word": "лам",
+        "translation": "monk (Buddhist)",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Л",
+        "orderInLevel": 299
+      },
+      {
+        "key": "M2-0300",
+        "word": "лаос",
+        "translation": "Laos",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Л",
+        "orderInLevel": 300
+      },
+      {
+        "key": "M2-0301",
+        "word": "литр",
+        "translation": "liter",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Л",
+        "orderInLevel": 301
+      },
+      {
+        "key": "M2-0302",
+        "word": "лууван",
+        "translation": "carrot",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Л",
+        "orderInLevel": 302
+      }
+    ]
+  },
+  {
+    "letter": "М",
+    "level": "M2",
+    "count": 36,
+    "words": [
+      {
+        "key": "M2-0303",
+        "word": "магадгүй",
+        "translation": "maybe / perhaps",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "М",
+        "orderInLevel": 303
+      },
+      {
+        "key": "M2-0304",
+        "word": "магистрант",
+        "translation": "master's student",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "М",
+        "orderInLevel": 304
+      },
+      {
+        "key": "M2-0305",
+        "word": "майхан",
+        "translation": "tent",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "М",
+        "orderInLevel": 305
+      },
+      {
+        "key": "M2-0306",
+        "word": "мал",
+        "translation": "livestock",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "М",
+        "orderInLevel": 306
+      },
+      {
+        "key": "M2-0307",
+        "word": "малгай",
+        "translation": "hat",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "М",
+        "orderInLevel": 307
+      },
+      {
+        "key": "M2-0308",
+        "word": "малчин",
+        "translation": "herder",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "М",
+        "orderInLevel": 308
+      },
+      {
+        "key": "M2-0309",
+        "word": "манаач",
+        "translation": "guard / watchman",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "М",
+        "orderInLevel": 309
+      },
+      {
+        "key": "M2-0310",
+        "word": "манан",
+        "translation": "fog",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "М",
+        "orderInLevel": 310
+      },
+      {
+        "key": "M2-0311",
+        "word": "маргааш",
+        "translation": "tomorrow",
+        "level": "M2",
+        "type": "adverb",
+        "alphabetGroup": "М",
+        "orderInLevel": 311
+      },
+      {
+        "key": "M2-0312",
+        "word": "март-",
+        "translation": "to forget",
+        "level": "M2",
+        "type": "verb",
+        "alphabetGroup": "М",
+        "orderInLevel": 312
+      },
+      {
+        "key": "M2-0313",
+        "word": "мах",
+        "translation": "meat",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "М",
+        "orderInLevel": 313
+      },
+      {
+        "key": "M2-0314",
+        "word": "маш",
+        "translation": "very / extremely",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "М",
+        "orderInLevel": 314
+      },
+      {
+        "key": "M2-0315",
+        "word": "машин",
+        "translation": "car / machine",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "М",
+        "orderInLevel": 315
+      },
+      {
+        "key": "M2-0316",
+        "word": "медаль",
+        "translation": "medal",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "М",
+        "orderInLevel": 316
+      },
+      {
+        "key": "M2-0317",
+        "word": "менежер",
+        "translation": "manager",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "М",
+        "orderInLevel": 317
+      },
+      {
+        "key": "M2-0318",
+        "word": "метр",
+        "translation": "meter",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "М",
+        "orderInLevel": 318
+      },
+      {
+        "key": "M2-0319",
+        "word": "миллиметр",
+        "translation": "millimeter",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "М",
+        "orderInLevel": 319
+      },
+      {
+        "key": "M2-0320",
+        "word": "минут",
+        "translation": "minute",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "М",
+        "orderInLevel": 320
+      },
+      {
+        "key": "M2-0321",
+        "word": "могой",
+        "translation": "snake",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "М",
+        "orderInLevel": 321
+      },
+      {
+        "key": "M2-0322",
+        "word": "мод",
+        "translation": "tree / wood",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "М",
+        "orderInLevel": 322
+      },
+      {
+        "key": "M2-0323",
+        "word": "морин уралдаан",
+        "translation": "horse racing",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "М",
+        "orderInLevel": 323
+      },
+      {
+        "key": "M2-0324",
+        "word": "морь",
+        "translation": "horse",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "М",
+        "orderInLevel": 324
+      },
+      {
+        "key": "M2-0325",
+        "word": "мөн",
+        "translation": "also / too",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "М",
+        "orderInLevel": 325
+      },
+      {
+        "key": "M2-0326",
+        "word": "мөнгө",
+        "translation": "money",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "М",
+        "orderInLevel": 326
+      },
+      {
+        "key": "M2-0327",
+        "word": "мөс",
+        "translation": "ice",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "М",
+        "orderInLevel": 327
+      },
+      {
+        "key": "M2-0328",
+        "word": "музей",
+        "translation": "museum",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "М",
+        "orderInLevel": 328
+      },
+      {
+        "key": "M2-0329",
+        "word": "муу",
+        "translation": "bad",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "М",
+        "orderInLevel": 329
+      },
+      {
+        "key": "M2-0330",
+        "word": "муур",
+        "translation": "cat",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "М",
+        "orderInLevel": 330
+      },
+      {
+        "key": "M2-0331",
+        "word": "муухай",
+        "translation": "ugly / bad",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "М",
+        "orderInLevel": 331
+      },
+      {
+        "key": "M2-0332",
+        "word": "мэдээ",
+        "translation": "news / information",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "М",
+        "orderInLevel": 332
+      },
+      {
+        "key": "M2-0333",
+        "word": "мэд-",
+        "translation": "to know",
+        "level": "M2",
+        "type": "verb",
+        "alphabetGroup": "М",
+        "orderInLevel": 333
+      },
+      {
+        "key": "M2-0334",
+        "word": "мэндэл-",
+        "translation": "to greet / to be born",
+        "level": "M2",
+        "type": "verb",
+        "alphabetGroup": "М",
+        "orderInLevel": 334
+      },
+      {
+        "key": "M2-0335",
+        "word": "мэндэр",
+        "translation": "to be born",
+        "level": "M2",
+        "type": "verb",
+        "alphabetGroup": "М",
+        "orderInLevel": 335
+      },
+      {
+        "key": "M2-0336",
+        "word": "мэргэжил",
+        "translation": "profession",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "М",
+        "orderInLevel": 336
+      },
+      {
+        "key": "M2-0337",
+        "word": "мэргэжилтэн",
+        "translation": "specialist / expert",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "М",
+        "orderInLevel": 337
+      },
+      {
+        "key": "M2-0338",
+        "word": "мянга",
+        "translation": "thousand",
+        "level": "M2",
+        "type": "numeral",
+        "alphabetGroup": "М",
+        "orderInLevel": 338
+      }
+    ]
+  },
+  {
+    "letter": "Н",
+    "level": "M2",
+    "count": 32,
+    "words": [
+      {
+        "key": "M2-0339",
+        "word": "наадам",
+        "translation": "Naadam festival",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Н",
+        "orderInLevel": 339
+      },
+      {
+        "key": "M2-0340",
+        "word": "найз",
+        "translation": "friend",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Н",
+        "orderInLevel": 340
+      },
+      {
+        "key": "M2-0341",
+        "word": "найм",
+        "translation": "eight",
+        "level": "M2",
+        "type": "numeral",
+        "alphabetGroup": "Н",
+        "orderInLevel": 341
+      },
+      {
+        "key": "M2-0342",
+        "word": "наймдугаар сар",
+        "translation": "August",
+        "level": "M2",
+        "type": "numeral",
+        "alphabetGroup": "Н",
+        "orderInLevel": 342
+      },
+      {
+        "key": "M2-0343",
+        "word": "нам",
+        "translation": "political party",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Н",
+        "orderInLevel": 343
+      },
+      {
+        "key": "M2-0344",
+        "word": "намар",
+        "translation": "autumn / fall",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Н",
+        "orderInLevel": 344
+      },
+      {
+        "key": "M2-0345",
+        "word": "нар",
+        "translation": "sun",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Н",
+        "orderInLevel": 345
+      },
+      {
+        "key": "M2-0346",
+        "word": "нас",
+        "translation": "age",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Н",
+        "orderInLevel": 346
+      },
+      {
+        "key": "M2-0347",
+        "word": "ная",
+        "translation": "eighty",
+        "level": "M2",
+        "type": "numeral",
+        "alphabetGroup": "Н",
+        "orderInLevel": 347
+      },
+      {
+        "key": "M2-0348",
+        "word": "нийслэл",
+        "translation": "capital city",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Н",
+        "orderInLevel": 348
+      },
+      {
+        "key": "M2-0349",
+        "word": "нимбэг",
+        "translation": "lemon",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Н",
+        "orderInLevel": 349
+      },
+      {
+        "key": "M2-0350",
+        "word": "нимгэн",
+        "translation": "thin",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Н",
+        "orderInLevel": 350
+      },
+      {
+        "key": "M2-0351",
+        "word": "нислэг",
+        "translation": "flight",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Н",
+        "orderInLevel": 351
+      },
+      {
+        "key": "M2-0352",
+        "word": "нис-",
+        "translation": "to fly",
+        "level": "M2",
+        "type": "verb",
+        "alphabetGroup": "Н",
+        "orderInLevel": 352
+      },
+      {
+        "key": "M2-0353",
+        "word": "ногоо",
+        "translation": "vegetables",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Н",
+        "orderInLevel": 353
+      },
+      {
+        "key": "M2-0354",
+        "word": "ногоо",
+        "translation": "vegetable",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Н",
+        "orderInLevel": 354
+      },
+      {
+        "key": "M2-0355",
+        "word": "ногоодор",
+        "translation": "green vegetables",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Н",
+        "orderInLevel": 355
+      },
+      {
+        "key": "M2-0356",
+        "word": "ногоон",
+        "translation": "green",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Н",
+        "orderInLevel": 356
+      },
+      {
+        "key": "M2-0357",
+        "word": "ном",
+        "translation": "book",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Н",
+        "orderInLevel": 357
+      },
+      {
+        "key": "M2-0358",
+        "word": "нохой",
+        "translation": "dog",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Н",
+        "orderInLevel": 358
+      },
+      {
+        "key": "M2-0359",
+        "word": "нөхөр",
+        "translation": "husband / friend",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Н",
+        "orderInLevel": 359
+      },
+      {
+        "key": "M2-0360",
+        "word": "нуруу",
+        "translation": "back (body)",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Н",
+        "orderInLevel": 360
+      },
+      {
+        "key": "M2-0361",
+        "word": "нүд",
+        "translation": "eye",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Н",
+        "orderInLevel": 361
+      },
+      {
+        "key": "M2-0362",
+        "word": "нүдний",
+        "translation": "of the eye",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Н",
+        "orderInLevel": 362
+      },
+      {
+        "key": "M2-0363",
+        "word": "нүүр",
+        "translation": "face",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Н",
+        "orderInLevel": 363
+      },
+      {
+        "key": "M2-0364",
+        "word": "нүүр",
+        "translation": "page / face",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Н",
+        "orderInLevel": 364
+      },
+      {
+        "key": "M2-0365",
+        "word": "нэг",
+        "translation": "one",
+        "level": "M2",
+        "type": "numeral",
+        "alphabetGroup": "Н",
+        "orderInLevel": 365
+      },
+      {
+        "key": "M2-0366",
+        "word": "нэгдүгээр сар",
+        "translation": "January",
+        "level": "M2",
+        "type": "numeral",
+        "alphabetGroup": "Н",
+        "orderInLevel": 366
+      },
+      {
+        "key": "M2-0367",
+        "word": "нэг дэх өдөр",
+        "translation": "first day",
+        "level": "M2",
+        "type": "numeral",
+        "alphabetGroup": "Н",
+        "orderInLevel": 367
+      },
+      {
+        "key": "M2-0368",
+        "word": "нэм-",
+        "translation": "to add",
+        "level": "M2",
+        "type": "verb",
+        "alphabetGroup": "Н",
+        "orderInLevel": 368
+      },
+      {
+        "key": "M2-0369",
+        "word": "нэр",
+        "translation": "name",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Н",
+        "orderInLevel": 369
+      },
+      {
+        "key": "M2-0370",
+        "word": "нээ-",
+        "translation": "to open",
+        "level": "M2",
+        "type": "verb",
+        "alphabetGroup": "Н",
+        "orderInLevel": 370
+      }
+    ]
+  },
+  {
+    "letter": "О",
+    "level": "M2",
+    "count": 21,
+    "words": [
+      {
+        "key": "M2-0371",
+        "word": "овьёос",
+        "translation": "oats",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "О",
+        "orderInLevel": 371
+      },
+      {
+        "key": "M2-0372",
+        "word": "одоо",
+        "translation": "now",
+        "level": "M2",
+        "type": "adverb",
+        "alphabetGroup": "О",
+        "orderInLevel": 372
+      },
+      {
+        "key": "M2-0373",
+        "word": "ойлго-",
+        "translation": "to understand",
+        "level": "M2",
+        "type": "verb",
+        "alphabetGroup": "О",
+        "orderInLevel": 373
+      },
+      {
+        "key": "M2-0374",
+        "word": "оймс",
+        "translation": "socks",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "О",
+        "orderInLevel": 374
+      },
+      {
+        "key": "M2-0375",
+        "word": "олимп",
+        "translation": "Olympics",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "О",
+        "orderInLevel": 375
+      },
+      {
+        "key": "M2-0376",
+        "word": "ол-",
+        "translation": "to find / get",
+        "level": "M2",
+        "type": "verb",
+        "alphabetGroup": "О",
+        "orderInLevel": 376
+      },
+      {
+        "key": "M2-0377",
+        "word": "он",
+        "translation": "year (calendar)",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "О",
+        "orderInLevel": 377
+      },
+      {
+        "key": "M2-0378",
+        "word": "онгоц",
+        "translation": "airplane",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "О",
+        "orderInLevel": 378
+      },
+      {
+        "key": "M2-0379",
+        "word": "ор",
+        "translation": "bed",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "О",
+        "orderInLevel": 379
+      },
+      {
+        "key": "M2-0380",
+        "word": "орой",
+        "translation": "evening",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "О",
+        "orderInLevel": 380
+      },
+      {
+        "key": "M2-0381",
+        "word": "оройн хоол",
+        "translation": "dinner",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "О",
+        "orderInLevel": 381
+      },
+      {
+        "key": "M2-0382",
+        "word": "оролт",
+        "translation": "input",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "О",
+        "orderInLevel": 382
+      },
+      {
+        "key": "M2-0383",
+        "word": "оролц-",
+        "translation": "to participate",
+        "level": "M2",
+        "type": "verb",
+        "alphabetGroup": "О",
+        "orderInLevel": 383
+      },
+      {
+        "key": "M2-0384",
+        "word": "орос",
+        "translation": "Russia / Russian",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "О",
+        "orderInLevel": 384
+      },
+      {
+        "key": "M2-0385",
+        "word": "орц",
+        "translation": "entrance",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "О",
+        "orderInLevel": 385
+      },
+      {
+        "key": "M2-0386",
+        "word": "орчим",
+        "translation": "around / vicinity",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "О",
+        "orderInLevel": 386
+      },
+      {
+        "key": "M2-0387",
+        "word": "орчуул-",
+        "translation": "to translate",
+        "level": "M2",
+        "type": "verb",
+        "alphabetGroup": "О",
+        "orderInLevel": 387
+      },
+      {
+        "key": "M2-0388",
+        "word": "ор-",
+        "translation": "to enter",
+        "level": "M2",
+        "type": "verb",
+        "alphabetGroup": "О",
+        "orderInLevel": 388
+      },
+      {
+        "key": "M2-0389",
+        "word": "охин",
+        "translation": "girl / daughter",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "О",
+        "orderInLevel": 389
+      },
+      {
+        "key": "M2-0390",
+        "word": "оч-",
+        "translation": "to go",
+        "level": "M2",
+        "type": "verb",
+        "alphabetGroup": "О",
+        "orderInLevel": 390
+      },
+      {
+        "key": "M2-0391",
+        "word": "оюутан",
+        "translation": "student",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "О",
+        "orderInLevel": 391
+      }
+    ]
+  },
+  {
+    "letter": "Ө",
+    "level": "M2",
+    "count": 25,
+    "words": [
+      {
+        "key": "M2-0392",
+        "word": "өвдөг",
+        "translation": "knee",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Ө",
+        "orderInLevel": 392
+      },
+      {
+        "key": "M2-0393",
+        "word": "өвд-",
+        "translation": "to hurt / be sick",
+        "level": "M2",
+        "type": "verb",
+        "alphabetGroup": "Ө",
+        "orderInLevel": 393
+      },
+      {
+        "key": "M2-0394",
+        "word": "өвөл",
+        "translation": "winter",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Ө",
+        "orderInLevel": 394
+      },
+      {
+        "key": "M2-0395",
+        "word": "өвөө",
+        "translation": "grandfather",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Ө",
+        "orderInLevel": 395
+      },
+      {
+        "key": "M2-0396",
+        "word": "өглөө",
+        "translation": "morning",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Ө",
+        "orderInLevel": 396
+      },
+      {
+        "key": "M2-0397",
+        "word": "өглөөний цай",
+        "translation": "breakfast",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Ө",
+        "orderInLevel": 397
+      },
+      {
+        "key": "M2-0398",
+        "word": "өг-",
+        "translation": "to give",
+        "level": "M2",
+        "type": "verb",
+        "alphabetGroup": "Ө",
+        "orderInLevel": 398
+      },
+      {
+        "key": "M2-0399",
+        "word": "өдөр",
+        "translation": "day",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Ө",
+        "orderInLevel": 399
+      },
+      {
+        "key": "M2-0400",
+        "word": "өдрийн хоол",
+        "translation": "lunch",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Ө",
+        "orderInLevel": 400
+      },
+      {
+        "key": "M2-0401",
+        "word": "өлгө-",
+        "translation": "to hang",
+        "level": "M2",
+        "type": "verb",
+        "alphabetGroup": "Ө",
+        "orderInLevel": 401
+      },
+      {
+        "key": "M2-0402",
+        "word": "өлс-",
+        "translation": "to be hungry",
+        "level": "M2",
+        "type": "verb",
+        "alphabetGroup": "Ө",
+        "orderInLevel": 402
+      },
+      {
+        "key": "M2-0403",
+        "word": "өмд",
+        "translation": "pants / trousers",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Ө",
+        "orderInLevel": 403
+      },
+      {
+        "key": "M2-0404",
+        "word": "өмнө",
+        "translation": "before / in front of",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Ө",
+        "orderInLevel": 404
+      },
+      {
+        "key": "M2-0405",
+        "word": "өмс-",
+        "translation": "to wear (clothes)",
+        "level": "M2",
+        "type": "verb",
+        "alphabetGroup": "Ө",
+        "orderInLevel": 405
+      },
+      {
+        "key": "M2-0406",
+        "word": "өнгө",
+        "translation": "color",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Ө",
+        "orderInLevel": 406
+      },
+      {
+        "key": "M2-0407",
+        "word": "өнгөрсөн",
+        "translation": "past / last",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Ө",
+        "orderInLevel": 407
+      },
+      {
+        "key": "M2-0408",
+        "word": "өндөр",
+        "translation": "tall / high",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Ө",
+        "orderInLevel": 408
+      },
+      {
+        "key": "M2-0409",
+        "word": "өндөр",
+        "translation": "height",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Ө",
+        "orderInLevel": 409
+      },
+      {
+        "key": "M2-0410",
+        "word": "өнөө",
+        "translation": "today (archaic/short form)",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Ө",
+        "orderInLevel": 410
+      },
+      {
+        "key": "M2-0411",
+        "word": "өнөөдөр",
+        "translation": "today",
+        "level": "M2",
+        "type": "adverb",
+        "alphabetGroup": "Ө",
+        "orderInLevel": 411
+      },
+      {
+        "key": "M2-0412",
+        "word": "өөр",
+        "translation": "other / different / self",
+        "level": "M2",
+        "type": "pronoun",
+        "alphabetGroup": "Ө",
+        "orderInLevel": 412
+      },
+      {
+        "key": "M2-0413",
+        "word": "өргөн",
+        "translation": "wide",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Ө",
+        "orderInLevel": 413
+      },
+      {
+        "key": "M2-0414",
+        "word": "өргөтг-",
+        "translation": "to expand",
+        "level": "M2",
+        "type": "verb",
+        "alphabetGroup": "Ө",
+        "orderInLevel": 414
+      },
+      {
+        "key": "M2-0415",
+        "word": "өрөө",
+        "translation": "room",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Ө",
+        "orderInLevel": 415
+      },
+      {
+        "key": "M2-0416",
+        "word": "өчигдөр",
+        "translation": "yesterday",
+        "level": "M2",
+        "type": "adverb",
+        "alphabetGroup": "Ө",
+        "orderInLevel": 416
+      }
+    ]
+  },
+  {
+    "letter": "П",
+    "level": "M2",
+    "count": 2,
+    "words": [
+      {
+        "key": "M2-0417",
+        "word": "паспорт",
+        "translation": "passport",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "П",
+        "orderInLevel": 417
+      },
+      {
+        "key": "M2-0418",
+        "word": "польш",
+        "translation": "Poland",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "П",
+        "orderInLevel": 418
+      }
+    ]
+  },
+  {
+    "letter": "Р",
+    "level": "M2",
+    "count": 1,
+    "words": [
+      {
+        "key": "M2-0419",
+        "word": "ресторан",
+        "translation": "restaurant",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Р",
+        "orderInLevel": 419
+      }
+    ]
+  },
+  {
+    "letter": "С",
+    "level": "M2",
+    "count": 33,
+    "words": [
+      {
+        "key": "M2-0420",
+        "word": "саван",
+        "translation": "soap",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "С",
+        "orderInLevel": 420
+      },
+      {
+        "key": "M2-0421",
+        "word": "сагсан бөмбөг",
+        "translation": "basketball",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "С",
+        "orderInLevel": 421
+      },
+      {
+        "key": "M2-0422",
+        "word": "сайн",
+        "translation": "good",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "С",
+        "orderInLevel": 422
+      },
+      {
+        "key": "M2-0423",
+        "word": "сайхан",
+        "translation": "beautiful / nice",
+        "level": "M2",
+        "type": "adjective",
+        "alphabetGroup": "С",
+        "orderInLevel": 423
+      },
+      {
+        "key": "M2-0424",
+        "word": "салхи",
+        "translation": "wind",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "С",
+        "orderInLevel": 424
+      },
+      {
+        "key": "M2-0425",
+        "word": "салхил-",
+        "translation": "to walk / get fresh air",
+        "level": "M2",
+        "type": "verb",
+        "alphabetGroup": "С",
+        "orderInLevel": 425
+      },
+      {
+        "key": "M2-0426",
+        "word": "самар",
+        "translation": "nut",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "С",
+        "orderInLevel": 426
+      },
+      {
+        "key": "M2-0427",
+        "word": "самбар",
+        "translation": "board / panel",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "С",
+        "orderInLevel": 427
+      },
+      {
+        "key": "M2-0428",
+        "word": "сана-",
+        "translation": "to think / to remember",
+        "level": "M2",
+        "type": "verb",
+        "alphabetGroup": "С",
+        "orderInLevel": 428
+      },
+      {
+        "key": "M2-0429",
+        "word": "сандал",
+        "translation": "chair",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "С",
+        "orderInLevel": 429
+      },
+      {
+        "key": "M2-0430",
+        "word": "сантиметр",
+        "translation": "centimeter",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "С",
+        "orderInLevel": 430
+      },
+      {
+        "key": "M2-0431",
+        "word": "сар",
+        "translation": "month / moon",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "С",
+        "orderInLevel": 431
+      },
+      {
+        "key": "M2-0432",
+        "word": "саримс",
+        "translation": "garlic",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "С",
+        "orderInLevel": 432
+      },
+      {
+        "key": "M2-0433",
+        "word": "сая",
+        "translation": "recently / just",
+        "level": "M2",
+        "type": "adverb",
+        "alphabetGroup": "С",
+        "orderInLevel": 433
+      },
+      {
+        "key": "M2-0434",
+        "word": "солонгос",
+        "translation": "Korea",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "С",
+        "orderInLevel": 434
+      },
+      {
+        "key": "M2-0435",
+        "word": "соль-",
+        "translation": "to change / replace",
+        "level": "M2",
+        "type": "verb",
+        "alphabetGroup": "С",
+        "orderInLevel": 435
+      },
+      {
+        "key": "M2-0436",
+        "word": "сонгино",
+        "translation": "onion",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "С",
+        "orderInLevel": 436
+      },
+      {
+        "key": "M2-0437",
+        "word": "сонин",
+        "translation": "newspaper / interesting",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "С",
+        "orderInLevel": 437
+      },
+      {
+        "key": "M2-0438",
+        "word": "сонирхол",
+        "translation": "interest / hobby",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "С",
+        "orderInLevel": 438
+      },
+      {
+        "key": "M2-0439",
+        "word": "сонс-",
+        "translation": "to listen",
+        "level": "M2",
+        "type": "verb",
+        "alphabetGroup": "С",
+        "orderInLevel": 439
+      },
+      {
+        "key": "M2-0440",
+        "word": "сонс-",
+        "translation": "to hear / listen",
+        "level": "M2",
+        "type": "verb",
+        "alphabetGroup": "С",
+        "orderInLevel": 440
+      },
+      {
+        "key": "M2-0441",
+        "word": "спорт",
+        "translation": "sport",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "С",
+        "orderInLevel": 441
+      },
+      {
+        "key": "M2-0442",
+        "word": "судал-",
+        "translation": "to study / research",
+        "level": "M2",
+        "type": "verb",
+        "alphabetGroup": "С",
+        "orderInLevel": 442
+      },
+      {
+        "key": "M2-0443",
+        "word": "судлаач",
+        "translation": "researcher",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "С",
+        "orderInLevel": 443
+      },
+      {
+        "key": "M2-0444",
+        "word": "сурагч",
+        "translation": "student / pupil",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "С",
+        "orderInLevel": 444
+      },
+      {
+        "key": "M2-0445",
+        "word": "сургууль",
+        "translation": "school",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "С",
+        "orderInLevel": 445
+      },
+      {
+        "key": "M2-0446",
+        "word": "сур-",
+        "translation": "to learn",
+        "level": "M2",
+        "type": "verb",
+        "alphabetGroup": "С",
+        "orderInLevel": 446
+      },
+      {
+        "key": "M2-0447",
+        "word": "суу-",
+        "translation": "to sit / live",
+        "level": "M2",
+        "type": "verb",
+        "alphabetGroup": "С",
+        "orderInLevel": 447
+      },
+      {
+        "key": "M2-0448",
+        "word": "сүү",
+        "translation": "milk",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "С",
+        "orderInLevel": 448
+      },
+      {
+        "key": "M2-0449",
+        "word": "сэдэв",
+        "translation": "topic / subject",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "С",
+        "orderInLevel": 449
+      },
+      {
+        "key": "M2-0450",
+        "word": "сэл-",
+        "translation": "to swim",
+        "level": "M2",
+        "type": "verb",
+        "alphabetGroup": "С",
+        "orderInLevel": 450
+      },
+      {
+        "key": "M2-0451",
+        "word": "сэрүүн",
+        "translation": "cool / fresh",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "С",
+        "orderInLevel": 451
+      },
+      {
+        "key": "M2-0452",
+        "word": "сэр-",
+        "translation": "to wake up",
+        "level": "M2",
+        "type": "verb",
+        "alphabetGroup": "С",
+        "orderInLevel": 452
+      }
+    ]
+  },
+  {
+    "letter": "Т",
+    "level": "M2",
+    "count": 58,
+    "words": [
+      {
+        "key": "M2-0453",
+        "word": "та",
+        "translation": "you (formal)",
+        "level": "M2",
+        "type": "pronoun",
+        "alphabetGroup": "Т",
+        "orderInLevel": 453
+      },
+      {
+        "key": "M2-0454",
+        "word": "тааз",
+        "translation": "ceiling",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Т",
+        "orderInLevel": 454
+      },
+      {
+        "key": "M2-0455",
+        "word": "тав",
+        "translation": "five",
+        "level": "M2",
+        "type": "numeral",
+        "alphabetGroup": "Т",
+        "orderInLevel": 455
+      },
+      {
+        "key": "M2-0456",
+        "word": "таваг",
+        "translation": "plate",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Т",
+        "orderInLevel": 456
+      },
+      {
+        "key": "M2-0457",
+        "word": "тавдугаар сар",
+        "translation": "May",
+        "level": "M2",
+        "type": "numeral",
+        "alphabetGroup": "Т",
+        "orderInLevel": 457
+      },
+      {
+        "key": "M2-0458",
+        "word": "тавь",
+        "translation": "fifty",
+        "level": "M2",
+        "type": "numeral",
+        "alphabetGroup": "Т",
+        "orderInLevel": 458
+      },
+      {
+        "key": "M2-0459",
+        "word": "тавь-",
+        "translation": "to put / place",
+        "level": "M2",
+        "type": "verb",
+        "alphabetGroup": "Т",
+        "orderInLevel": 459
+      },
+      {
+        "key": "M2-0460",
+        "word": "тав дахь өдөр",
+        "translation": "fifth day",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Т",
+        "orderInLevel": 460
+      },
+      {
+        "key": "M2-0461",
+        "word": "тайван",
+        "translation": "calm / peaceful",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Т",
+        "orderInLevel": 461
+      },
+      {
+        "key": "M2-0462",
+        "word": "тайлбарла-",
+        "translation": "to explain / describe",
+        "level": "M2",
+        "type": "verb",
+        "alphabetGroup": "Т",
+        "orderInLevel": 462
+      },
+      {
+        "key": "M2-0463",
+        "word": "тайл-",
+        "translation": "to explain",
+        "level": "M2",
+        "type": "verb",
+        "alphabetGroup": "Т",
+        "orderInLevel": 463
+      },
+      {
+        "key": "M2-0464",
+        "word": "такси",
+        "translation": "taxi",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Т",
+        "orderInLevel": 464
+      },
+      {
+        "key": "M2-0465",
+        "word": "талх",
+        "translation": "bread",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Т",
+        "orderInLevel": 465
+      },
+      {
+        "key": "M2-0466",
+        "word": "тамирчин",
+        "translation": "athlete",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Т",
+        "orderInLevel": 466
+      },
+      {
+        "key": "M2-0467",
+        "word": "тань-",
+        "translation": "to know (person) / recognize",
+        "level": "M2",
+        "type": "verb",
+        "alphabetGroup": "Т",
+        "orderInLevel": 467
+      },
+      {
+        "key": "M2-0468",
+        "word": "тараг",
+        "translation": "yogurt",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Т",
+        "orderInLevel": 468
+      },
+      {
+        "key": "M2-0469",
+        "word": "тарган",
+        "translation": "fat / overweight",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Т",
+        "orderInLevel": 469
+      },
+      {
+        "key": "M2-0470",
+        "word": "тариачин",
+        "translation": "farmer",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Т",
+        "orderInLevel": 470
+      },
+      {
+        "key": "M2-0471",
+        "word": "тасалбар",
+        "translation": "ticket",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Т",
+        "orderInLevel": 471
+      },
+      {
+        "key": "M2-0472",
+        "word": "тасал-",
+        "translation": "to cut / tear",
+        "level": "M2",
+        "type": "verb",
+        "alphabetGroup": "Т",
+        "orderInLevel": 472
+      },
+      {
+        "key": "M2-0473",
+        "word": "тат-",
+        "translation": "to pull",
+        "level": "M2",
+        "type": "verb",
+        "alphabetGroup": "Т",
+        "orderInLevel": 473
+      },
+      {
+        "key": "M2-0474",
+        "word": "та нар",
+        "translation": "you (plural)",
+        "level": "M2",
+        "type": "pronoun",
+        "alphabetGroup": "Т",
+        "orderInLevel": 474
+      },
+      {
+        "key": "M2-0475",
+        "word": "театр",
+        "translation": "theater",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Т",
+        "orderInLevel": 475
+      },
+      {
+        "key": "M2-0476",
+        "word": "теллер",
+        "translation": "bank teller",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Т",
+        "orderInLevel": 476
+      },
+      {
+        "key": "M2-0477",
+        "word": "теннис",
+        "translation": "tennis",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Т",
+        "orderInLevel": 477
+      },
+      {
+        "key": "M2-0478",
+        "word": "тив",
+        "translation": "continent",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Т",
+        "orderInLevel": 478
+      },
+      {
+        "key": "M2-0479",
+        "word": "тийм",
+        "translation": "yes / that way",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Т",
+        "orderInLevel": 479
+      },
+      {
+        "key": "M2-0480",
+        "word": "тоглоом",
+        "translation": "game / toy",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Т",
+        "orderInLevel": 480
+      },
+      {
+        "key": "M2-0481",
+        "word": "тогло-",
+        "translation": "to play",
+        "level": "M2",
+        "type": "verb",
+        "alphabetGroup": "Т",
+        "orderInLevel": 481
+      },
+      {
+        "key": "M2-0482",
+        "word": "тогоо",
+        "translation": "pot / cooking pot",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Т",
+        "orderInLevel": 482
+      },
+      {
+        "key": "M2-0483",
+        "word": "тогс-",
+        "translation": "to stop / end",
+        "level": "M2",
+        "type": "verb",
+        "alphabetGroup": "Т",
+        "orderInLevel": 483
+      },
+      {
+        "key": "M2-0484",
+        "word": "толгой",
+        "translation": "head",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Т",
+        "orderInLevel": 484
+      },
+      {
+        "key": "M2-0485",
+        "word": "том",
+        "translation": "big",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Т",
+        "orderInLevel": 485
+      },
+      {
+        "key": "M2-0486",
+        "word": "том өрөө",
+        "translation": "big room",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Т",
+        "orderInLevel": 486
+      },
+      {
+        "key": "M2-0487",
+        "word": "тоо",
+        "translation": "number",
+        "level": "M2",
+        "type": "numeral",
+        "alphabetGroup": "Т",
+        "orderInLevel": 487
+      },
+      {
+        "key": "M2-0488",
+        "word": "тоол-",
+        "translation": "to count",
+        "level": "M2",
+        "type": "verb",
+        "alphabetGroup": "Т",
+        "orderInLevel": 488
+      },
+      {
+        "key": "M2-0489",
+        "word": "торго",
+        "translation": "silk",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Т",
+        "orderInLevel": 489
+      },
+      {
+        "key": "M2-0490",
+        "word": "тос",
+        "translation": "oil / fat",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Т",
+        "orderInLevel": 490
+      },
+      {
+        "key": "M2-0491",
+        "word": "төв талбай",
+        "translation": "central square",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Т",
+        "orderInLevel": 491
+      },
+      {
+        "key": "M2-0492",
+        "word": "төмс",
+        "translation": "potato",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Т",
+        "orderInLevel": 492
+      },
+      {
+        "key": "M2-0493",
+        "word": "тусал-",
+        "translation": "to help",
+        "level": "M2",
+        "type": "verb",
+        "alphabetGroup": "Т",
+        "orderInLevel": 493
+      },
+      {
+        "key": "M2-0494",
+        "word": "тухай",
+        "translation": "about / concerning",
+        "level": "M2",
+        "type": "connector",
+        "alphabetGroup": "Т",
+        "orderInLevel": 494
+      },
+      {
+        "key": "M2-0495",
+        "word": "түвшин",
+        "translation": "level",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Т",
+        "orderInLevel": 495
+      },
+      {
+        "key": "M2-0496",
+        "word": "түгж-",
+        "translation": "to lock / block",
+        "level": "M2",
+        "type": "verb",
+        "alphabetGroup": "Т",
+        "orderInLevel": 496
+      },
+      {
+        "key": "M2-0497",
+        "word": "түр",
+        "translation": "temporary / briefly",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Т",
+        "orderInLevel": 497
+      },
+      {
+        "key": "M2-0498",
+        "word": "түүх",
+        "translation": "history / story",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Т",
+        "orderInLevel": 498
+      },
+      {
+        "key": "M2-0499",
+        "word": "тэг",
+        "translation": "zero / so / then",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Т",
+        "orderInLevel": 499
+      },
+      {
+        "key": "M2-0500",
+        "word": "тэг-",
+        "translation": "to do so / to act",
+        "level": "M2",
+        "type": "verb",
+        "alphabetGroup": "Т",
+        "orderInLevel": 500
+      },
+      {
+        "key": "M2-0501",
+        "word": "тэд",
+        "translation": "they",
+        "level": "M2",
+        "type": "pronoun",
+        "alphabetGroup": "Т",
+        "orderInLevel": 501
+      },
+      {
+        "key": "M2-0502",
+        "word": "тэдгээр",
+        "translation": "those / they (formal)",
+        "level": "M2",
+        "type": "pronoun",
+        "alphabetGroup": "Т",
+        "orderInLevel": 502
+      },
+      {
+        "key": "M2-0503",
+        "word": "тэмдэг",
+        "translation": "sign / symbol",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Т",
+        "orderInLevel": 503
+      },
+      {
+        "key": "M2-0504",
+        "word": "тэмцээн",
+        "translation": "competition",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Т",
+        "orderInLevel": 504
+      },
+      {
+        "key": "M2-0505",
+        "word": "тэмээ",
+        "translation": "camel",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Т",
+        "orderInLevel": 505
+      },
+      {
+        "key": "M2-0506",
+        "word": "тэнгэр",
+        "translation": "sky",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Т",
+        "orderInLevel": 506
+      },
+      {
+        "key": "M2-0507",
+        "word": "тэнд",
+        "translation": "there",
+        "level": "M2",
+        "type": "adverb",
+        "alphabetGroup": "Т",
+        "orderInLevel": 507
+      },
+      {
+        "key": "M2-0508",
+        "word": "тэр",
+        "translation": "that / he / she / it",
+        "level": "M2",
+        "type": "pronoun",
+        "alphabetGroup": "Т",
+        "orderInLevel": 508
+      },
+      {
+        "key": "M2-0509",
+        "word": "тэрбум",
+        "translation": "billion",
+        "level": "M2",
+        "type": "numeral",
+        "alphabetGroup": "Т",
+        "orderInLevel": 509
+      },
+      {
+        "key": "M2-0510",
+        "word": "тэш-",
+        "translation": "to stretch / lean",
+        "level": "M2",
+        "type": "verb",
+        "alphabetGroup": "Т",
+        "orderInLevel": 510
+      }
+    ]
+  },
+  {
+    "letter": "У",
+    "level": "M2",
+    "count": 34,
+    "words": [
+      {
+        "key": "M2-0511",
+        "word": "угаалгын өрөө",
+        "translation": "bathroom / laundry room",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "У",
+        "orderInLevel": 511
+      },
+      {
+        "key": "M2-0512",
+        "word": "угаа-",
+        "translation": "to wash",
+        "level": "M2",
+        "type": "verb",
+        "alphabetGroup": "У",
+        "orderInLevel": 512
+      },
+      {
+        "key": "M2-0513",
+        "word": "удаа",
+        "translation": "time (occurrence)",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "У",
+        "orderInLevel": 513
+      },
+      {
+        "key": "M2-0514",
+        "word": "удаан",
+        "translation": "slow / long",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "У",
+        "orderInLevel": 514
+      },
+      {
+        "key": "M2-0515",
+        "word": "уйл-",
+        "translation": "to cry",
+        "level": "M2",
+        "type": "verb",
+        "alphabetGroup": "У",
+        "orderInLevel": 515
+      },
+      {
+        "key": "M2-0516",
+        "word": "улаан",
+        "translation": "red",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "У",
+        "orderInLevel": 516
+      },
+      {
+        "key": "M2-0517",
+        "word": "улаан лооль",
+        "translation": "tomato",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "У",
+        "orderInLevel": 517
+      },
+      {
+        "key": "M2-0518",
+        "word": "уламжлалт",
+        "translation": "traditional",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "У",
+        "orderInLevel": 518
+      },
+      {
+        "key": "M2-0519",
+        "word": "улирал",
+        "translation": "season",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "У",
+        "orderInLevel": 519
+      },
+      {
+        "key": "M2-0520",
+        "word": "улмаас",
+        "translation": "because of / due to",
+        "level": "M2",
+        "type": "connector",
+        "alphabetGroup": "У",
+        "orderInLevel": 520
+      },
+      {
+        "key": "M2-0521",
+        "word": "улс",
+        "translation": "country / state",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "У",
+        "orderInLevel": 521
+      },
+      {
+        "key": "M2-0522",
+        "word": "унага",
+        "translation": "foal (young horse)",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "У",
+        "orderInLevel": 522
+      },
+      {
+        "key": "M2-0523",
+        "word": "уна-",
+        "translation": "to fall / ride (vehicle)",
+        "level": "M2",
+        "type": "verb",
+        "alphabetGroup": "У",
+        "orderInLevel": 523
+      },
+      {
+        "key": "M2-0524",
+        "word": "унгар",
+        "translation": "Hungary",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "У",
+        "orderInLevel": 524
+      },
+      {
+        "key": "M2-0525",
+        "word": "ундаа",
+        "translation": "drink / beverage",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "У",
+        "orderInLevel": 525
+      },
+      {
+        "key": "M2-0526",
+        "word": "унт-",
+        "translation": "to sleep",
+        "level": "M2",
+        "type": "verb",
+        "alphabetGroup": "У",
+        "orderInLevel": 526
+      },
+      {
+        "key": "M2-0527",
+        "word": "унш-",
+        "translation": "to read",
+        "level": "M2",
+        "type": "verb",
+        "alphabetGroup": "У",
+        "orderInLevel": 527
+      },
+      {
+        "key": "M2-0528",
+        "word": "урагш",
+        "translation": "forward",
+        "level": "M2",
+        "type": "adverb",
+        "alphabetGroup": "У",
+        "orderInLevel": 528
+      },
+      {
+        "key": "M2-0529",
+        "word": "уралдаан",
+        "translation": "race / competition",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "У",
+        "orderInLevel": 529
+      },
+      {
+        "key": "M2-0530",
+        "word": "ургамал",
+        "translation": "plant",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "У",
+        "orderInLevel": 530
+      },
+      {
+        "key": "M2-0531",
+        "word": "урд",
+        "translation": "front / south",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "У",
+        "orderInLevel": 531
+      },
+      {
+        "key": "M2-0532",
+        "word": "урлаг",
+        "translation": "art",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "У",
+        "orderInLevel": 532
+      },
+      {
+        "key": "M2-0533",
+        "word": "урт",
+        "translation": "long",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "У",
+        "orderInLevel": 533
+      },
+      {
+        "key": "M2-0534",
+        "word": "ус",
+        "translation": "water",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "У",
+        "orderInLevel": 534
+      },
+      {
+        "key": "M2-0535",
+        "word": "усан үзэм",
+        "translation": "grapes",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "У",
+        "orderInLevel": 535
+      },
+      {
+        "key": "M2-0536",
+        "word": "усчин",
+        "translation": "swimmer",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "У",
+        "orderInLevel": 536
+      },
+      {
+        "key": "M2-0537",
+        "word": "утас",
+        "translation": "phone / wire",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "У",
+        "orderInLevel": 537
+      },
+      {
+        "key": "M2-0538",
+        "word": "уул",
+        "translation": "mountain",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "У",
+        "orderInLevel": 538
+      },
+      {
+        "key": "M2-0539",
+        "word": "уулз",
+        "translation": "meeting",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "У",
+        "orderInLevel": 539
+      },
+      {
+        "key": "M2-0540",
+        "word": "уулз-",
+        "translation": "to meet",
+        "level": "M2",
+        "type": "verb",
+        "alphabetGroup": "У",
+        "orderInLevel": 540
+      },
+      {
+        "key": "M2-0541",
+        "word": "уучил-",
+        "translation": "to forgive",
+        "level": "M2",
+        "type": "verb",
+        "alphabetGroup": "У",
+        "orderInLevel": 541
+      },
+      {
+        "key": "M2-0542",
+        "word": "уу-",
+        "translation": "to drink",
+        "level": "M2",
+        "type": "verb",
+        "alphabetGroup": "У",
+        "orderInLevel": 542
+      },
+      {
+        "key": "M2-0543",
+        "word": "уу, уу, юу, юу?",
+        "translation": "question particles (yes/no questions)",
+        "level": "M2",
+        "type": "particle",
+        "alphabetGroup": "У",
+        "orderInLevel": 543
+      },
+      {
+        "key": "M2-0544",
+        "word": "учир",
+        "translation": "reason / cause",
+        "level": "M2",
+        "type": "connector",
+        "alphabetGroup": "У",
+        "orderInLevel": 544
+      }
+    ]
+  },
+  {
+    "letter": "Ү",
+    "level": "M2",
+    "count": 17,
+    "words": [
+      {
+        "key": "M2-0545",
+        "word": "үг",
+        "translation": "word",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Ү",
+        "orderInLevel": 545
+      },
+      {
+        "key": "M2-0546",
+        "word": "үгүй",
+        "translation": "no / not",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Ү",
+        "orderInLevel": 546
+      },
+      {
+        "key": "M2-0547",
+        "word": "үзэг",
+        "translation": "pen",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Ү",
+        "orderInLevel": 547
+      },
+      {
+        "key": "M2-0548",
+        "word": "үзэм",
+        "translation": "raisins",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Ү",
+        "orderInLevel": 548
+      },
+      {
+        "key": "M2-0549",
+        "word": "үз-",
+        "translation": "to see / watch",
+        "level": "M2",
+        "type": "verb",
+        "alphabetGroup": "Ү",
+        "orderInLevel": 549
+      },
+      {
+        "key": "M2-0550",
+        "word": "үндэсний бөх",
+        "translation": "traditional Mongolian wrestling",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Ү",
+        "orderInLevel": 550
+      },
+      {
+        "key": "M2-0551",
+        "word": "үндэсний сур",
+        "translation": "traditional archery",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Ү",
+        "orderInLevel": 551
+      },
+      {
+        "key": "M2-0552",
+        "word": "үнэ",
+        "translation": "price / value",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Ү",
+        "orderInLevel": 552
+      },
+      {
+        "key": "M2-0553",
+        "word": "үнэн",
+        "translation": "true",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Ү",
+        "orderInLevel": 553
+      },
+      {
+        "key": "M2-0554",
+        "word": "үнэр",
+        "translation": "smell",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Ү",
+        "orderInLevel": 554
+      },
+      {
+        "key": "M2-0555",
+        "word": "үр",
+        "translation": "seed / result",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Ү",
+        "orderInLevel": 555
+      },
+      {
+        "key": "M2-0556",
+        "word": "үргэлж",
+        "translation": "always",
+        "level": "M2",
+        "type": "adverb",
+        "alphabetGroup": "Ү",
+        "orderInLevel": 556
+      },
+      {
+        "key": "M2-0557",
+        "word": "үсэг",
+        "translation": "letter (alphabet)",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Ү",
+        "orderInLevel": 557
+      },
+      {
+        "key": "M2-0558",
+        "word": "үүл",
+        "translation": "cloud",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Ү",
+        "orderInLevel": 558
+      },
+      {
+        "key": "M2-0559",
+        "word": "үүлэрхэг",
+        "translation": "cloudy",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Ү",
+        "orderInLevel": 559
+      },
+      {
+        "key": "M2-0560",
+        "word": "үүргэвч",
+        "translation": "backpack",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Ү",
+        "orderInLevel": 560
+      },
+      {
+        "key": "M2-0561",
+        "word": "үхэр",
+        "translation": "cow / cattle",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Ү",
+        "orderInLevel": 561
+      }
+    ]
+  },
+  {
+    "letter": "Ф",
+    "level": "M2",
+    "count": 1,
+    "words": [
+      {
+        "key": "M2-0562",
+        "word": "франц",
+        "translation": "France",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Ф",
+        "orderInLevel": 562
+      }
+    ]
+  },
+  {
+    "letter": "Х",
+    "level": "M2",
+    "count": 89,
+    "words": [
+      {
+        "key": "M2-0563",
+        "word": "хаалга",
+        "translation": "door",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Х",
+        "orderInLevel": 563
+      },
+      {
+        "key": "M2-0564",
+        "word": "хаана",
+        "translation": "where",
+        "level": "M2",
+        "type": "adverb",
+        "alphabetGroup": "Х",
+        "orderInLevel": 564
+      },
+      {
+        "key": "M2-0565",
+        "word": "хаашаа",
+        "translation": "where to",
+        "level": "M2",
+        "type": "adverb",
+        "alphabetGroup": "Х",
+        "orderInLevel": 565
+      },
+      {
+        "key": "M2-0566",
+        "word": "хааяа",
+        "translation": "sometimes / occasionally",
+        "level": "M2",
+        "type": "adverb",
+        "alphabetGroup": "Х",
+        "orderInLevel": 566
+      },
+      {
+        "key": "M2-0567",
+        "word": "хаа-",
+        "translation": "to close / shut",
+        "level": "M2",
+        "type": "verb",
+        "alphabetGroup": "Х",
+        "orderInLevel": 567
+      },
+      {
+        "key": "M2-0568",
+        "word": "хавар",
+        "translation": "spring",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Х",
+        "orderInLevel": 568
+      },
+      {
+        "key": "M2-0569",
+        "word": "хагас",
+        "translation": "half",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Х",
+        "orderInLevel": 569
+      },
+      {
+        "key": "M2-0570",
+        "word": "хагас сайн",
+        "translation": "Saturday",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Х",
+        "orderInLevel": 570
+      },
+      {
+        "key": "M2-0571",
+        "word": "хажууд",
+        "translation": "next to / beside",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Х",
+        "orderInLevel": 571
+      },
+      {
+        "key": "M2-0572",
+        "word": "хайр",
+        "translation": "love",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Х",
+        "orderInLevel": 572
+      },
+      {
+        "key": "M2-0573",
+        "word": "хай-",
+        "translation": "to search / look for",
+        "level": "M2",
+        "type": "verb",
+        "alphabetGroup": "Х",
+        "orderInLevel": 573
+      },
+      {
+        "key": "M2-0574",
+        "word": "халуун",
+        "translation": "hot",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Х",
+        "orderInLevel": 574
+      },
+      {
+        "key": "M2-0575",
+        "word": "хамар",
+        "translation": "nose",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Х",
+        "orderInLevel": 575
+      },
+      {
+        "key": "M2-0576",
+        "word": "хамт",
+        "translation": "together",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Х",
+        "orderInLevel": 576
+      },
+      {
+        "key": "M2-0577",
+        "word": "хана",
+        "translation": "wall",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Х",
+        "orderInLevel": 577
+      },
+      {
+        "key": "M2-0578",
+        "word": "ханы цаг",
+        "translation": "era / historical period",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Х",
+        "orderInLevel": 578
+      },
+      {
+        "key": "M2-0579",
+        "word": "хар",
+        "translation": "black",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Х",
+        "orderInLevel": 579
+      },
+      {
+        "key": "M2-0580",
+        "word": "харандаа",
+        "translation": "pencil",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Х",
+        "orderInLevel": 580
+      },
+      {
+        "key": "M2-0581",
+        "word": "харанхуй",
+        "translation": "dark",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Х",
+        "orderInLevel": 581
+      },
+      {
+        "key": "M2-0582",
+        "word": "харва-",
+        "translation": "to shoot (arrow)",
+        "level": "M2",
+        "type": "verb",
+        "alphabetGroup": "Х",
+        "orderInLevel": 582
+      },
+      {
+        "key": "M2-0583",
+        "word": "харин",
+        "translation": "but / however",
+        "level": "M2",
+        "type": "connector",
+        "alphabetGroup": "Х",
+        "orderInLevel": 583
+      },
+      {
+        "key": "M2-0584",
+        "word": "хариул-",
+        "translation": "to answer",
+        "level": "M2",
+        "type": "verb",
+        "alphabetGroup": "Х",
+        "orderInLevel": 584
+      },
+      {
+        "key": "M2-0585",
+        "word": "хар-",
+        "translation": "to look / watch",
+        "level": "M2",
+        "type": "verb",
+        "alphabetGroup": "Х",
+        "orderInLevel": 585
+      },
+      {
+        "key": "M2-0586",
+        "word": "хатуу",
+        "translation": "hard / solid",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Х",
+        "orderInLevel": 586
+      },
+      {
+        "key": "M2-0587",
+        "word": "хаяг",
+        "translation": "address",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Х",
+        "orderInLevel": 587
+      },
+      {
+        "key": "M2-0588",
+        "word": "хая-",
+        "translation": "to throw away",
+        "level": "M2",
+        "type": "verb",
+        "alphabetGroup": "Х",
+        "orderInLevel": 588
+      },
+      {
+        "key": "M2-0589",
+        "word": "хиам",
+        "translation": "sausage",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Х",
+        "orderInLevel": 589
+      },
+      {
+        "key": "M2-0590",
+        "word": "хий-",
+        "translation": "to do / make",
+        "level": "M2",
+        "type": "verb",
+        "alphabetGroup": "Х",
+        "orderInLevel": 590
+      },
+      {
+        "key": "M2-0591",
+        "word": "хичээл",
+        "translation": "lesson / class",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Х",
+        "orderInLevel": 591
+      },
+      {
+        "key": "M2-0592",
+        "word": "хоёр",
+        "translation": "two",
+        "level": "M2",
+        "type": "numeral",
+        "alphabetGroup": "Х",
+        "orderInLevel": 592
+      },
+      {
+        "key": "M2-0593",
+        "word": "хоёрдугаар сар",
+        "translation": "February",
+        "level": "M2",
+        "type": "numeral",
+        "alphabetGroup": "Х",
+        "orderInLevel": 593
+      },
+      {
+        "key": "M2-0594",
+        "word": "хоёр дахь өдөр",
+        "translation": "second day",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Х",
+        "orderInLevel": 594
+      },
+      {
+        "key": "M2-0595",
+        "word": "хожигдох",
+        "translation": "to lose",
+        "level": "M2",
+        "type": "verb",
+        "alphabetGroup": "Х",
+        "orderInLevel": 595
+      },
+      {
+        "key": "M2-0596",
+        "word": "хож-",
+        "translation": "to win",
+        "level": "M2",
+        "type": "verb",
+        "alphabetGroup": "Х",
+        "orderInLevel": 596
+      },
+      {
+        "key": "M2-0597",
+        "word": "хойно",
+        "translation": "behind / after",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Х",
+        "orderInLevel": 597
+      },
+      {
+        "key": "M2-0598",
+        "word": "хойш",
+        "translation": "backward / later",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Х",
+        "orderInLevel": 598
+      },
+      {
+        "key": "M2-0599",
+        "word": "хол",
+        "translation": "far",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Х",
+        "orderInLevel": 599
+      },
+      {
+        "key": "M2-0600",
+        "word": "хонь",
+        "translation": "sheep",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Х",
+        "orderInLevel": 600
+      },
+      {
+        "key": "M2-0601",
+        "word": "хоол",
+        "translation": "food / meal",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Х",
+        "orderInLevel": 601
+      },
+      {
+        "key": "M2-0602",
+        "word": "хоолло-",
+        "translation": "to eat / dine",
+        "level": "M2",
+        "type": "verb",
+        "alphabetGroup": "Х",
+        "orderInLevel": 602
+      },
+      {
+        "key": "M2-0603",
+        "word": "хооронд",
+        "translation": "between / among",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Х",
+        "orderInLevel": 603
+      },
+      {
+        "key": "M2-0604",
+        "word": "хоосон",
+        "translation": "empty",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Х",
+        "orderInLevel": 604
+      },
+      {
+        "key": "M2-0605",
+        "word": "хот",
+        "translation": "city",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Х",
+        "orderInLevel": 605
+      },
+      {
+        "key": "M2-0606",
+        "word": "хөгжимчин",
+        "translation": "musician",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Х",
+        "orderInLevel": 606
+      },
+      {
+        "key": "M2-0607",
+        "word": "хөгшин",
+        "translation": "old (person)",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Х",
+        "orderInLevel": 607
+      },
+      {
+        "key": "M2-0608",
+        "word": "хөдөө",
+        "translation": "countryside / rural area",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Х",
+        "orderInLevel": 608
+      },
+      {
+        "key": "M2-0609",
+        "word": "хөл",
+        "translation": "foot / leg",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Х",
+        "orderInLevel": 609
+      },
+      {
+        "key": "M2-0610",
+        "word": "хөл бөмбөг",
+        "translation": "football / soccer",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Х",
+        "orderInLevel": 610
+      },
+      {
+        "key": "M2-0611",
+        "word": "хөнгөн",
+        "translation": "light (weight)",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Х",
+        "orderInLevel": 611
+      },
+      {
+        "key": "M2-0612",
+        "word": "хөөрөл-",
+        "translation": "to talk / chat excitedly",
+        "level": "M2",
+        "type": "verb",
+        "alphabetGroup": "Х",
+        "orderInLevel": 612
+      },
+      {
+        "key": "M2-0613",
+        "word": "хөргөгч",
+        "translation": "refrigerator",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Х",
+        "orderInLevel": 613
+      },
+      {
+        "key": "M2-0614",
+        "word": "хөрш",
+        "translation": "neighbor",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Х",
+        "orderInLevel": 614
+      },
+      {
+        "key": "M2-0615",
+        "word": "хөтөч",
+        "translation": "guide",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Х",
+        "orderInLevel": 615
+      },
+      {
+        "key": "M2-0616",
+        "word": "хөшиг",
+        "translation": "curtain",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Х",
+        "orderInLevel": 616
+      },
+      {
+        "key": "M2-0617",
+        "word": "хуваа-",
+        "translation": "to divide / share",
+        "level": "M2",
+        "type": "verb",
+        "alphabetGroup": "Х",
+        "orderInLevel": 617
+      },
+      {
+        "key": "M2-0618",
+        "word": "худалдагч",
+        "translation": "seller / shop assistant",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Х",
+        "orderInLevel": 618
+      },
+      {
+        "key": "M2-0619",
+        "word": "хулгайл-",
+        "translation": "to steal",
+        "level": "M2",
+        "type": "verb",
+        "alphabetGroup": "Х",
+        "orderInLevel": 619
+      },
+      {
+        "key": "M2-0620",
+        "word": "хурга",
+        "translation": "lamb",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Х",
+        "orderInLevel": 620
+      },
+      {
+        "key": "M2-0621",
+        "word": "хурдан",
+        "translation": "fast / quick",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Х",
+        "orderInLevel": 621
+      },
+      {
+        "key": "M2-0622",
+        "word": "хуудас",
+        "translation": "page / sheet",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Х",
+        "orderInLevel": 622
+      },
+      {
+        "key": "M2-0623",
+        "word": "хуурай",
+        "translation": "dry",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Х",
+        "orderInLevel": 623
+      },
+      {
+        "key": "M2-0624",
+        "word": "хуучин",
+        "translation": "old (thing)",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Х",
+        "orderInLevel": 624
+      },
+      {
+        "key": "M2-0625",
+        "word": "хүйтэн",
+        "translation": "cold",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Х",
+        "orderInLevel": 625
+      },
+      {
+        "key": "M2-0626",
+        "word": "хүлээ-",
+        "translation": "to wait",
+        "level": "M2",
+        "type": "verb",
+        "alphabetGroup": "Х",
+        "orderInLevel": 626
+      },
+      {
+        "key": "M2-0627",
+        "word": "хүн",
+        "translation": "person / human",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Х",
+        "orderInLevel": 627
+      },
+      {
+        "key": "M2-0628",
+        "word": "хүнд",
+        "translation": "heavy / difficult",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Х",
+        "orderInLevel": 628
+      },
+      {
+        "key": "M2-0629",
+        "word": "хүртэл",
+        "translation": "until / up to",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Х",
+        "orderInLevel": 629
+      },
+      {
+        "key": "M2-0630",
+        "word": "хүрэм",
+        "translation": "jacket / coat",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Х",
+        "orderInLevel": 630
+      },
+      {
+        "key": "M2-0631",
+        "word": "хүр-",
+        "translation": "to reach / arrive",
+        "level": "M2",
+        "type": "verb",
+        "alphabetGroup": "Х",
+        "orderInLevel": 631
+      },
+      {
+        "key": "M2-0632",
+        "word": "хүс-",
+        "translation": "to want / wish",
+        "level": "M2",
+        "type": "verb",
+        "alphabetGroup": "Х",
+        "orderInLevel": 632
+      },
+      {
+        "key": "M2-0633",
+        "word": "хүүхэд",
+        "translation": "child",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Х",
+        "orderInLevel": 633
+      },
+      {
+        "key": "M2-0634",
+        "word": "хэвт-",
+        "translation": "to lie down",
+        "level": "M2",
+        "type": "verb",
+        "alphabetGroup": "Х",
+        "orderInLevel": 634
+      },
+      {
+        "key": "M2-0635",
+        "word": "хэд",
+        "translation": "how many / several",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Х",
+        "orderInLevel": 635
+      },
+      {
+        "key": "M2-0636",
+        "word": "хэдэн",
+        "translation": "some / a few",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Х",
+        "orderInLevel": 636
+      },
+      {
+        "key": "M2-0637",
+        "word": "хэзээ",
+        "translation": "when",
+        "level": "M2",
+        "type": "adverb",
+        "alphabetGroup": "Х",
+        "orderInLevel": 637
+      },
+      {
+        "key": "M2-0638",
+        "word": "хэл",
+        "translation": "language / tongue",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Х",
+        "orderInLevel": 638
+      },
+      {
+        "key": "M2-0639",
+        "word": "хэлүү",
+        "translation": "shall we say / maybe say",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Х",
+        "orderInLevel": 639
+      },
+      {
+        "key": "M2-0640",
+        "word": "хэл-",
+        "translation": "to say / speak",
+        "level": "M2",
+        "type": "verb",
+        "alphabetGroup": "Х",
+        "orderInLevel": 640
+      },
+      {
+        "key": "M2-0641",
+        "word": "хэмжээ",
+        "translation": "size / measurement",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Х",
+        "orderInLevel": 641
+      },
+      {
+        "key": "M2-0642",
+        "word": "хэмжээ",
+        "translation": "amount / quantity",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Х",
+        "orderInLevel": 642
+      },
+      {
+        "key": "M2-0643",
+        "word": "хэн",
+        "translation": "who",
+        "level": "M2",
+        "type": "pronoun",
+        "alphabetGroup": "Х",
+        "orderInLevel": 643
+      },
+      {
+        "key": "M2-0644",
+        "word": "хэрхэн",
+        "translation": "how",
+        "level": "M2",
+        "type": "adverb",
+        "alphabetGroup": "Х",
+        "orderInLevel": 644
+      },
+      {
+        "key": "M2-0645",
+        "word": "хэрэв",
+        "translation": "if",
+        "level": "M2",
+        "type": "connector",
+        "alphabetGroup": "Х",
+        "orderInLevel": 645
+      },
+      {
+        "key": "M2-0646",
+        "word": "хэрэггүй",
+        "translation": "unnecessary / not needed",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Х",
+        "orderInLevel": 646
+      },
+      {
+        "key": "M2-0647",
+        "word": "хэрэглэ-",
+        "translation": "to use",
+        "level": "M2",
+        "type": "verb",
+        "alphabetGroup": "Х",
+        "orderInLevel": 647
+      },
+      {
+        "key": "M2-0648",
+        "word": "хэрэгтэй",
+        "translation": "necessary / needed",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Х",
+        "orderInLevel": 648
+      },
+      {
+        "key": "M2-0649",
+        "word": "хэсэг",
+        "translation": "part / piece",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Х",
+        "orderInLevel": 649
+      },
+      {
+        "key": "M2-0650",
+        "word": "хямд",
+        "translation": "cheap",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Х",
+        "orderInLevel": 650
+      },
+      {
+        "key": "M2-0651",
+        "word": "хятад",
+        "translation": "China / Chinese",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Х",
+        "orderInLevel": 651
+      }
+    ]
+  },
+  {
+    "letter": "Ц",
+    "level": "M2",
+    "count": 17,
+    "words": [
+      {
+        "key": "M2-0652",
+        "word": "цаг",
+        "translation": "time / clock / hour",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Ц",
+        "orderInLevel": 652
+      },
+      {
+        "key": "M2-0653",
+        "word": "цагаан",
+        "translation": "white",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Ц",
+        "orderInLevel": 653
+      },
+      {
+        "key": "M2-0654",
+        "word": "цагаан сар",
+        "translation": "Tsagaan Sar (Lunar New Year)",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Ц",
+        "orderInLevel": 654
+      },
+      {
+        "key": "M2-0655",
+        "word": "цагдаа",
+        "translation": "police officer",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Ц",
+        "orderInLevel": 655
+      },
+      {
+        "key": "M2-0656",
+        "word": "цад-",
+        "translation": "to be full / satisfied after eating",
+        "level": "M2",
+        "type": "verb",
+        "alphabetGroup": "Ц",
+        "orderInLevel": 656
+      },
+      {
+        "key": "M2-0657",
+        "word": "цай",
+        "translation": "tea",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Ц",
+        "orderInLevel": 657
+      },
+      {
+        "key": "M2-0658",
+        "word": "цамц",
+        "translation": "shirt",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Ц",
+        "orderInLevel": 658
+      },
+      {
+        "key": "M2-0659",
+        "word": "цанга-",
+        "translation": "to be thirsty",
+        "level": "M2",
+        "type": "verb",
+        "alphabetGroup": "Ц",
+        "orderInLevel": 659
+      },
+      {
+        "key": "M2-0660",
+        "word": "цас",
+        "translation": "snow",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Ц",
+        "orderInLevel": 660
+      },
+      {
+        "key": "M2-0661",
+        "word": "цонх",
+        "translation": "window",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Ц",
+        "orderInLevel": 661
+      },
+      {
+        "key": "M2-0662",
+        "word": "цоох-",
+        "translation": "to knock / peck",
+        "level": "M2",
+        "type": "verb",
+        "alphabetGroup": "Ц",
+        "orderInLevel": 662
+      },
+      {
+        "key": "M2-0663",
+        "word": "цүнх",
+        "translation": "bag",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Ц",
+        "orderInLevel": 663
+      },
+      {
+        "key": "M2-0664",
+        "word": "цэвэрлэгч",
+        "translation": "cleaner / janitor",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Ц",
+        "orderInLevel": 664
+      },
+      {
+        "key": "M2-0665",
+        "word": "цэвэрлэ-",
+        "translation": "to clean",
+        "level": "M2",
+        "type": "verb",
+        "alphabetGroup": "Ц",
+        "orderInLevel": 665
+      },
+      {
+        "key": "M2-0666",
+        "word": "цэг",
+        "translation": "point / dot",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Ц",
+        "orderInLevel": 666
+      },
+      {
+        "key": "M2-0667",
+        "word": "цэцлэг",
+        "translation": "kindergarten / garden",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Ц",
+        "orderInLevel": 667
+      },
+      {
+        "key": "M2-0668",
+        "word": "цэцэглэ-",
+        "translation": "to bloom",
+        "level": "M2",
+        "type": "verb",
+        "alphabetGroup": "Ц",
+        "orderInLevel": 668
+      }
+    ]
+  },
+  {
+    "letter": "Ч",
+    "level": "M2",
+    "count": 10,
+    "words": [
+      {
+        "key": "M2-0669",
+        "word": "чад-",
+        "translation": "to be able to / can",
+        "level": "M2",
+        "type": "verb",
+        "alphabetGroup": "Ч",
+        "orderInLevel": 669
+      },
+      {
+        "key": "M2-0670",
+        "word": "чанамал",
+        "translation": "jam / preserved fruit",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Ч",
+        "orderInLevel": 670
+      },
+      {
+        "key": "M2-0671",
+        "word": "чанга",
+        "translation": "loud / tight / strong",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Ч",
+        "orderInLevel": 671
+      },
+      {
+        "key": "M2-0672",
+        "word": "чех",
+        "translation": "Czech / Czech Republic",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Ч",
+        "orderInLevel": 672
+      },
+      {
+        "key": "M2-0673",
+        "word": "чи",
+        "translation": "you (informal)",
+        "level": "M2",
+        "type": "pronoun",
+        "alphabetGroup": "Ч",
+        "orderInLevel": 673
+      },
+      {
+        "key": "M2-0674",
+        "word": "чих",
+        "translation": "ear",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Ч",
+        "orderInLevel": 674
+      },
+      {
+        "key": "M2-0675",
+        "word": "чихэр",
+        "translation": "sugar / candy",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Ч",
+        "orderInLevel": 675
+      },
+      {
+        "key": "M2-0676",
+        "word": "чөлөөгүй",
+        "translation": "busy / unavailable",
+        "level": "M2",
+        "type": "adjective",
+        "alphabetGroup": "Ч",
+        "orderInLevel": 676
+      },
+      {
+        "key": "M2-0677",
+        "word": "чөлөөтэй",
+        "translation": "free / available / fluent",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Ч",
+        "orderInLevel": 677
+      },
+      {
+        "key": "M2-0678",
+        "word": "чүдэнз",
+        "translation": "match / matchstick",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Ч",
+        "orderInLevel": 678
+      }
+    ]
+  },
+  {
+    "letter": "Ш",
+    "level": "M2",
+    "count": 22,
+    "words": [
+      {
+        "key": "M2-0679",
+        "word": "шал",
+        "translation": "floor",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Ш",
+        "orderInLevel": 679
+      },
+      {
+        "key": "M2-0680",
+        "word": "шалгалт",
+        "translation": "exam / test",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Ш",
+        "orderInLevel": 680
+      },
+      {
+        "key": "M2-0681",
+        "word": "шалга-",
+        "translation": "to check / examine",
+        "level": "M2",
+        "type": "verb",
+        "alphabetGroup": "Ш",
+        "orderInLevel": 681
+      },
+      {
+        "key": "M2-0682",
+        "word": "шар",
+        "translation": "yellow",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Ш",
+        "orderInLevel": 682
+      },
+      {
+        "key": "M2-0683",
+        "word": "шат",
+        "translation": "stair / ladder",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Ш",
+        "orderInLevel": 683
+      },
+      {
+        "key": "M2-0684",
+        "word": "шатар",
+        "translation": "chess",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Ш",
+        "orderInLevel": 684
+      },
+      {
+        "key": "M2-0685",
+        "word": "шийд-",
+        "translation": "to decide / solve",
+        "level": "M2",
+        "type": "verb",
+        "alphabetGroup": "Ш",
+        "orderInLevel": 685
+      },
+      {
+        "key": "M2-0686",
+        "word": "шинэ",
+        "translation": "new",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Ш",
+        "orderInLevel": 686
+      },
+      {
+        "key": "M2-0687",
+        "word": "шинэ жил",
+        "translation": "New Year",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Ш",
+        "orderInLevel": 687
+      },
+      {
+        "key": "M2-0688",
+        "word": "ширхэг",
+        "translation": "piece / item (counter)",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Ш",
+        "orderInLevel": 688
+      },
+      {
+        "key": "M2-0689",
+        "word": "ширээ",
+        "translation": "table / desk",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Ш",
+        "orderInLevel": 689
+      },
+      {
+        "key": "M2-0690",
+        "word": "шоколад",
+        "translation": "chocolate",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Ш",
+        "orderInLevel": 690
+      },
+      {
+        "key": "M2-0691",
+        "word": "шохой",
+        "translation": "chalk",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Ш",
+        "orderInLevel": 691
+      },
+      {
+        "key": "M2-0692",
+        "word": "шөнө",
+        "translation": "night",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Ш",
+        "orderInLevel": 692
+      },
+      {
+        "key": "M2-0693",
+        "word": "шуу",
+        "translation": "forearm / lower arm",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Ш",
+        "orderInLevel": 693
+      },
+      {
+        "key": "M2-0694",
+        "word": "шууд",
+        "translation": "directly",
+        "level": "M2",
+        "type": "adverb",
+        "alphabetGroup": "Ш",
+        "orderInLevel": 694
+      },
+      {
+        "key": "M2-0695",
+        "word": "шуурга",
+        "translation": "storm / blizzard",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Ш",
+        "orderInLevel": 695
+      },
+      {
+        "key": "M2-0696",
+        "word": "шуур-",
+        "translation": "to sweep / storm",
+        "level": "M2",
+        "type": "verb",
+        "alphabetGroup": "Ш",
+        "orderInLevel": 696
+      },
+      {
+        "key": "M2-0697",
+        "word": "шүгэл",
+        "translation": "whistle",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Ш",
+        "orderInLevel": 697
+      },
+      {
+        "key": "M2-0698",
+        "word": "шүгэл-",
+        "translation": "to whistle",
+        "level": "M2",
+        "type": "verb",
+        "alphabetGroup": "Ш",
+        "orderInLevel": 698
+      },
+      {
+        "key": "M2-0699",
+        "word": "шүдэн",
+        "translation": "toothed / with teeth",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Ш",
+        "orderInLevel": 699
+      },
+      {
+        "key": "M2-0700",
+        "word": "шүүс",
+        "translation": "juice",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Ш",
+        "orderInLevel": 700
+      }
+    ]
+  },
+  {
+    "letter": "Э",
+    "level": "M2",
+    "count": 17,
+    "words": [
+      {
+        "key": "M2-0701",
+        "word": "эгч",
+        "translation": "older sister",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Э",
+        "orderInLevel": 701
+      },
+      {
+        "key": "M2-0702",
+        "word": "эгшиг",
+        "translation": "vowel / melody",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Э",
+        "orderInLevel": 702
+      },
+      {
+        "key": "M2-0703",
+        "word": "эдгээр",
+        "translation": "these",
+        "level": "M2",
+        "type": "pronoun",
+        "alphabetGroup": "Э",
+        "orderInLevel": 703
+      },
+      {
+        "key": "M2-0704",
+        "word": "элсэн чихэр",
+        "translation": "granulated sugar",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Э",
+        "orderInLevel": 704
+      },
+      {
+        "key": "M2-0705",
+        "word": "эмнэлэг",
+        "translation": "hospital / clinic",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Э",
+        "orderInLevel": 705
+      },
+      {
+        "key": "M2-0706",
+        "word": "эмч",
+        "translation": "doctor",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Э",
+        "orderInLevel": 706
+      },
+      {
+        "key": "M2-0707",
+        "word": "эмэгтэй",
+        "translation": "woman / female",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Э",
+        "orderInLevel": 707
+      },
+      {
+        "key": "M2-0708",
+        "word": "эмээ",
+        "translation": "grandmother",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Э",
+        "orderInLevel": 708
+      },
+      {
+        "key": "M2-0709",
+        "word": "энгийн",
+        "translation": "simple / ordinary",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Э",
+        "orderInLevel": 709
+      },
+      {
+        "key": "M2-0710",
+        "word": "энд",
+        "translation": "here",
+        "level": "M2",
+        "type": "adverb",
+        "alphabetGroup": "Э",
+        "orderInLevel": 710
+      },
+      {
+        "key": "M2-0711",
+        "word": "энэ",
+        "translation": "this",
+        "level": "M2",
+        "type": "pronoun",
+        "alphabetGroup": "Э",
+        "orderInLevel": 711
+      },
+      {
+        "key": "M2-0712",
+        "word": "эргэ-",
+        "translation": "to turn / return / visit",
+        "level": "M2",
+        "type": "verb",
+        "alphabetGroup": "Э",
+        "orderInLevel": 712
+      },
+      {
+        "key": "M2-0713",
+        "word": "эрт",
+        "translation": "early",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Э",
+        "orderInLevel": 713
+      },
+      {
+        "key": "M2-0714",
+        "word": "эрэгтэй",
+        "translation": "man / male",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Э",
+        "orderInLevel": 714
+      },
+      {
+        "key": "M2-0715",
+        "word": "эхэл-",
+        "translation": "to begin / start",
+        "level": "M2",
+        "type": "verb",
+        "alphabetGroup": "Э",
+        "orderInLevel": 715
+      },
+      {
+        "key": "M2-0716",
+        "word": "ээж",
+        "translation": "mother",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Э",
+        "orderInLevel": 716
+      },
+      {
+        "key": "M2-0717",
+        "word": "ээмэг",
+        "translation": "earring",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Э",
+        "orderInLevel": 717
+      }
+    ]
+  },
+  {
+    "letter": "Ю",
+    "level": "M2",
+    "count": 2,
+    "words": [
+      {
+        "key": "M2-0718",
+        "word": "юм",
+        "translation": "thing / object",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Ю",
+        "orderInLevel": 718
+      },
+      {
+        "key": "M2-0719",
+        "word": "юу",
+        "translation": "what",
+        "level": "M2",
+        "type": "particle",
+        "alphabetGroup": "Ю",
+        "orderInLevel": 719
+      }
+    ]
+  },
+  {
+    "letter": "Я",
+    "level": "M2",
+    "count": 12,
+    "words": [
+      {
+        "key": "M2-0720",
+        "word": "яагаад",
+        "translation": "why",
+        "level": "M2",
+        "type": "adverb",
+        "alphabetGroup": "Я",
+        "orderInLevel": 720
+      },
+      {
+        "key": "M2-0721",
+        "word": "яасан",
+        "translation": "what happened / how",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Я",
+        "orderInLevel": 721
+      },
+      {
+        "key": "M2-0722",
+        "word": "яв-",
+        "translation": "to go / walk",
+        "level": "M2",
+        "type": "verb",
+        "alphabetGroup": "Я",
+        "orderInLevel": 722
+      },
+      {
+        "key": "M2-0723",
+        "word": "ягаан",
+        "translation": "pink",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Я",
+        "orderInLevel": 723
+      },
+      {
+        "key": "M2-0724",
+        "word": "ядар-",
+        "translation": "to get tired",
+        "level": "M2",
+        "type": "verb",
+        "alphabetGroup": "Я",
+        "orderInLevel": 724
+      },
+      {
+        "key": "M2-0725",
+        "word": "ямаа",
+        "translation": "goat",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Я",
+        "orderInLevel": 725
+      },
+      {
+        "key": "M2-0726",
+        "word": "ямар",
+        "translation": "what kind of / which",
+        "level": "M2",
+        "type": "pronoun",
+        "alphabetGroup": "Я",
+        "orderInLevel": 726
+      },
+      {
+        "key": "M2-0727",
+        "word": "япон",
+        "translation": "Japan",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Я",
+        "orderInLevel": 727
+      },
+      {
+        "key": "M2-0728",
+        "word": "яриа",
+        "translation": "speech / conversation",
+        "level": "M2",
+        "type": "noun",
+        "alphabetGroup": "Я",
+        "orderInLevel": 728
+      },
+      {
+        "key": "M2-0729",
+        "word": "ярилц-",
+        "translation": "to discuss / converse",
+        "level": "M2",
+        "type": "verb",
+        "alphabetGroup": "Я",
+        "orderInLevel": 729
+      },
+      {
+        "key": "M2-0730",
+        "word": "ярь-",
+        "translation": "to speak / talk",
+        "level": "M2",
+        "type": "verb",
+        "alphabetGroup": "Я",
+        "orderInLevel": 730
+      },
+      {
+        "key": "M2-0731",
+        "word": "яр-",
+        "translation": "to speak / talk",
+        "level": "M2",
+        "type": "verb",
+        "alphabetGroup": "Я",
+        "orderInLevel": 731
+      }
+    ]
+  }
+]

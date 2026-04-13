@@ -1,6 +1,6 @@
 import express from "express";
 import cors from "cors";
-
+import levelRouter from "./routes/level.route";
 import authRoutes from "./modules/auth/auth.route";
 import userRoutes from "./modules/user/user.route";
 import { healthRouter } from "./routes/health.route";
@@ -14,7 +14,7 @@ const app = express();
 
 app.use(cors());
 app.use(express.json());
-
+app.use("/levels", levelRouter);
 app.use("/health", healthRouter);
 app.use("/api/auth", authRoutes);
 app.use("/api/user", userRoutes);

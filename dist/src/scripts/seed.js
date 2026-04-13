@@ -1,4 +1,7 @@
 "use strict";
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
 Object.defineProperty(exports, "__esModule", { value: true });
 const db_1 = require("../config/db");
 const env_1 = require("../config/env");
@@ -12,6 +15,8 @@ const daily_review_model_1 = require("../modules/review/daily-review.model");
 const user_progress_model_1 = require("../modules/progress/user-progress.model");
 const quiz_attempt_model_1 = require("../modules/progress/quiz-attempt.model");
 const xp_ledger_model_1 = require("../modules/progress/xp-ledger.model");
+const level_model_1 = __importDefault(require("../modules/content/level.model"));
+const levels_manifest_json_1 = __importDefault(require("../data/seed/levels_manifest.json"));
 async function seed() {
     await (0, db_1.connectDB)(env_1.env.MONGODB_URI);
     console.log("Cleaning learning collections...");
@@ -26,7 +31,14 @@ async function seed() {
         user_progress_model_1.UserProgress.deleteMany({}),
         quiz_attempt_model_1.QuizAttempt.deleteMany({}),
         xp_ledger_model_1.XpLedger.deleteMany({}),
+        level_model_1.default.deleteMany({}),
     ]);
+    console.log("Creating levels...");
+    console.log("LEVELS DATA:", levels_manifest_json_1.default);
+    await level_model_1.default.insertMany(levels_manifest_json_1.default.map((level, index) => ({
+        ...level,
+        order: index + 1,
+    })));
     console.log("Creating courses and units...");
     await course_model_1.Course.insertMany([
         { id: "m1", title: "M1 Foundations" },
@@ -269,7 +281,12 @@ async function seed() {
                 type: "multiple_choice",
                 prompt: "Which phrase best helps you ask for directions?",
                 helper: "Pick the option that asks where something is.",
-                options: ["Where is it?", "I am hungry.", "See you tomorrow.", "That is expensive."],
+                options: [
+                    "Where is it?",
+                    "I am hungry.",
+                    "See you tomorrow.",
+                    "That is expensive.",
+                ],
                 correctAnswer: "Where is it?",
                 explanation: "It is the only option that asks for location.",
                 xpReward: 5,

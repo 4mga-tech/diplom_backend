@@ -10,7 +10,8 @@ import { DailyReview } from "../modules/review/daily-review.model";
 import { UserProgress } from "../modules/progress/user-progress.model";
 import { QuizAttempt } from "../modules/progress/quiz-attempt.model";
 import { XpLedger } from "../modules/progress/xp-ledger.model";
-
+import Level from "../modules/content/level.model";
+import levels from "../data/seed/levels_manifest.json";
 async function seed() {
   await connectDB(env.MONGODB_URI);
 
@@ -27,8 +28,16 @@ async function seed() {
     UserProgress.deleteMany({}),
     QuizAttempt.deleteMany({}),
     XpLedger.deleteMany({}),
+    Level.deleteMany({}),
   ]);
-
+  console.log("Creating levels...");
+console.log("LEVELS DATA:", levels);
+  await Level.insertMany(
+    levels.map((level: any, index: number) => ({
+      ...level,
+      order: index + 1,
+    })),
+  );
   console.log("Creating courses and units...");
 
   await Course.insertMany([
@@ -282,7 +291,12 @@ async function seed() {
         type: "multiple_choice",
         prompt: "Which phrase best helps you ask for directions?",
         helper: "Pick the option that asks where something is.",
-        options: ["Where is it?", "I am hungry.", "See you tomorrow.", "That is expensive."],
+        options: [
+          "Where is it?",
+          "I am hungry.",
+          "See you tomorrow.",
+          "That is expensive.",
+        ],
         correctAnswer: "Where is it?",
         explanation: "It is the only option that asks for location.",
         xpReward: 5,

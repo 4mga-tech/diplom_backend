@@ -4,6 +4,7 @@ const express_1 = require("express");
 const content_controller_1 = require("./content.controller");
 const auth_middleware_1 = require("../../middleware/auth.middleware");
 const router = (0, express_1.Router)();
+router.get("/vocabulary-levels", content_controller_1.fetchVocabularyLevels);
 router.get("/levels", auth_middleware_1.authMiddleware, content_controller_1.fetchLevels);
 router.get("/level/:levelId", auth_middleware_1.authMiddleware, content_controller_1.fetchLevel);
 router.get("/package/:packageId", auth_middleware_1.authMiddleware, content_controller_1.fetchPackage);
