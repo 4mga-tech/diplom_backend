@@ -2,7 +2,7 @@ import { findCourseById, findLessonById, findUnitById } from "../learning/learni
 import { awardXpOnce, syncUserStreak } from "./progress.helpers";
 import { getFirstLessonIdForCourse, unlockNextLesson } from "./lesson-unlock.helper";
 import {
-  createUserProgress,
+  findOrCreateUserProgress,
   findUserById,
   findUserProgress,
   listUserProgress,
@@ -14,15 +14,13 @@ export const getCourseProgress = async (userId: string, courseId: string) => {
     throw new Error("Course not found");
   }
 
-  let progress = await findUserProgress(userId, courseId);
-  if (!progress) {
-    const firstLessonId = await getFirstLessonIdForCourse(courseId);
-    progress = await createUserProgress(
-      userId,
-      courseId,
-      firstLessonId ? [firstLessonId] : [],
-    );
-  }
+  const firstLessonId = await getFirstLessonIdForCourse(courseId);
+
+  const progress = await findOrCreateUserProgress(
+    userId,
+    courseId,
+    firstLessonId ? [firstLessonId] : [],
+  );
 
   return {
     courseId: progress.courseId,
@@ -97,7 +95,10 @@ export const completeLesson = async (userId: string, lessonId: string) => {
     }),
   );
 
-  const streakResult = await syncUserStreak({ userId, progresses: progressDocs });
+  const streakResult = await syncUserStreak({
+    userId,
+    progresses: progressDocs,
+  });
 
   if (progress.streak !== streakResult.streak) {
     progress.streak = streakResult.streak;

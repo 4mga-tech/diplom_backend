@@ -6,19 +6,36 @@ import { User } from "../user/user.model";
 export const findUserProgress = (userId: string, courseId: string) =>
   UserProgress.findOne({ userId, courseId });
 
-export const createUserProgress = (userId: string, courseId: string, unlockedLessonIds: string[]) =>
-  UserProgress.create({
-    userId,
-    courseId,
-    completedLessonIds: [],
-    unlockedLessonIds,
-    totalXp: 0,
-    streak: 0,
-  });
+export const findOrCreateUserProgress = async (
+  userId: string,
+  courseId: string,
+  unlockedLessonIds: string[] = [],
+) => {
+  return UserProgress.findOneAndUpdate(
+    { userId, courseId },
+    {
+      $setOnInsert: {
+        userId,
+        courseId,
+        completedLessonIds: [],
+        unlockedLessonIds,
+        totalXp: 0,
+        streak: 0,
+      },
+    },
+    {
+      returnDocument: "after",
+      upsert: true,
+    },
+  );
+};
 
-export const saveUserProgress = (progress: InstanceType<typeof UserProgress>) => progress.save();
+export const saveUserProgress = (
+  progress: InstanceType<typeof UserProgress>,
+) => progress.save();
 
-export const listUserProgress = (userId: string) => UserProgress.find({ userId }).lean();
+export const listUserProgress = (userId: string) =>
+  UserProgress.find({ userId }).lean();
 
 export const createQuizAttempt = (payload: {
   userId: string;
@@ -31,8 +48,11 @@ export const createQuizAttempt = (payload: {
   xpAwarded: number;
 }) => QuizAttempt.create(payload);
 
-export const findXpLedgerEntry = (userId: string, sourceType: string, sourceId: string) =>
-  XpLedger.findOne({ userId, sourceType, sourceId }).lean();
+export const findXpLedgerEntry = (
+  userId: string,
+  sourceType: string,
+  sourceId: string,
+) => XpLedger.findOne({ userId, sourceType, sourceId }).lean();
 
 export const createXpLedgerEntry = (payload: {
   userId: string;
@@ -47,4 +67,3 @@ export const updateUserActivity = (
   userId: string,
   payload: Partial<{ totalXP: number; streak: number; lastActiveAt: Date }>,
 ) => User.findByIdAndUpdate(userId, payload, { new: true });
-

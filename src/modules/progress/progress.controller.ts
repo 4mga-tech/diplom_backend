@@ -49,6 +49,7 @@ export const completeLessonHandler = async (
     const data = await completeLesson(req.userId!, lessonId);
     res.json(successResponse(data));
   } catch (error: any) {
-    res.status(400).json({ success: false, message: error.message });
-  }
+  console.log("COMPLETE LESSON ERROR:", error);
+  res.status(400).json({ success: false, message: error.message });
+}
 };

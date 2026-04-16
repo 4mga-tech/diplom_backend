@@ -21,7 +21,15 @@ export const authMiddleware = (
   const token = authHeader.split(" ")[1];
 
   try {
-    const decoded = jwt.verify(token, JWT_SECRET) as { userId: string };
+    const decoded = jwt.verify(token, JWT_SECRET) as { userId?: string };
+
+    if (!decoded.userId) {
+      return res.status(401).json({
+        success: false,
+        message: "Invalid token payload: userId missing",
+      });
+    }
+
     req.userId = decoded.userId;
     next();
   } catch {

@@ -1,0 +1,549 @@
+{
+  "lesson": {
+    "id": "b1-u2-l1",
+    "unitId": "b1-u2",
+    "title": "Vowels ",
+    "subtitle": "Classification of vowels, pronunciation, and drills",
+    "order": 1,
+    "xpReward": 35,
+    "quizXpReward": 15
+  },
+  "contents": [
+    {
+      "id": "b1-u2-l1-c1",
+      "lessonId": "b1-u2-l1",
+      "type": "text",
+      "title": "Lesson Introduction",
+      "order": 1,
+      "content": {
+        "textEn": "In this lesson, you will learn the 13 Mongolian vowels, their classification, vowel harmony, and basic pronunciation patterns through repetition drills and vocabulary practice."
+      }
+    },
+    {
+      "id": "b1-u2-l1-c2",
+      "lessonId": "b1-u2-l1",
+      "type": "classification",
+      "title": "Classification of Vowels",
+      "order": 2,
+      "content": {
+        "summary": "Mongolian has 13 vowel letters. Seven are basic vowels and six are auxiliary vowels.",
+        "groups": [
+          {
+            "title": "Basic vowels (7)",
+            "items": ["а", "э", "и", "о", "у", "ө", "ү"]
+          },
+          {
+            "title": "Auxiliary vowels (6)",
+            "items": ["е", "ё", "й", "ы", "ю", "я"]
+          },
+          {
+            "title": "Masculine vowels",
+            "items": ["а", "о", "у", "ы", "я", "ё", "ю"]
+          },
+          {
+            "title": "Feminine vowels",
+            "items": ["э", "ө", "ү", "е", "и", "ю"]
+          },
+          {
+            "title": "Neuter vowels",
+            "items": ["и", "й"]
+          },
+          {
+            "title": "Rounded vowels",
+            "items": ["о", "у", "ө", "ү"]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b1-u2-l1-c3",
+      "lessonId": "b1-u2-l1",
+      "type": "grammar_note",
+      "title": "Grammar Notes",
+      "order": 3,
+      "content": {
+        "notes": [
+          "Mongolian has 13 vowel letters, including 7 basic vowels and 6 auxiliary vowels.",
+          "The grapheme ы is not pronounced like the Russian ы.",
+          "The 13 vowel sounds are grouped into masculine vowels, feminine vowels, and neutral vowels.",
+          "In one word, vowels of one series usually appear together. This is called vowel harmony.",
+          "Words with masculine vowels are called masculine words.",
+          "Words with feminine vowels are called feminine words.",
+          "The vowel и is neutral and may appear in both types of words.",
+          "The vowels о, у, ө, ү are rounded vowels.",
+          "Ү is pronounced as a short rounded sound similar to a short English u-type sound.",
+          "О is an open rounded vowel.",
+          "Ө is a rounded central vowel.",
+          "Э is a close vowel and may sometimes sound like i in some feminine words.",
+          "The letter е may represent [je] or [jö], and sometimes [j].",
+          "The letter ё may represent [jo], and in final position may sound like [j].",
+          "The letter ю may represent [ju] or [jü]."
+        ]
+      }
+    },
+    {
+      "id": "b1-u2-l1-c4",
+      "lessonId": "b1-u2-l1",
+      "type": "vocab_list",
+      "title": "Example Words by Vowel Type",
+      "order": 4,
+      "content": {
+        "items": [
+          { "word": "ам", "meaning": "mouth" },
+          { "word": "ас", "meaning": "ember / spark" },
+          { "word": "ар", "meaning": "back / rear side" },
+          { "word": "ор", "meaning": "bed / enter (context dependent)" },
+          { "word": "ол", "meaning": "find / many (context dependent)" },
+          { "word": "од", "meaning": "star" },
+          { "word": "ус", "meaning": "water" },
+          { "word": "ур", "meaning": "skill / result / growth (context dependent)" },
+          { "word": "ух", "meaning": "dig" },
+          { "word": "эм", "meaning": "medicine / woman (context dependent)" },
+          { "word": "эр", "meaning": "man / male" },
+          { "word": "эх", "meaning": "beginning / mother" },
+          { "word": "өв", "meaning": "disease / pain" },
+          { "word": "өд", "meaning": "feather / day (context dependent)" },
+          { "word": "өс", "meaning": "growth" },
+          { "word": "үс", "meaning": "hair" },
+          { "word": "үр", "meaning": "seed / result" },
+          { "word": "үд", "meaning": "noon / daytime" },
+          { "word": "иш", "meaning": "stem" },
+          { "word": "ир", "meaning": "come" },
+          { "word": "ил", "meaning": "visible / open" },
+          { "word": "им", "meaning": "such / this kind of (in compounds)" },
+          { "word": "ид", "meaning": "eat" },
+          { "word": "их", "meaning": "big / much" }
+        ]
+      }
+    },
+    {
+      "id": "b1-u2-l1-c5",
+      "lessonId": "b1-u2-l1",
+      "type": "exercise_repeat",
+      "title": "Exercise 1: Read and Repeat the Vowel Groups",
+      "order": 5,
+      "content": {
+        "instructionEn": "Listen and repeat the following vowel groups.",
+        "rows": [
+          {
+            "text": "а, о, у, и, э, ө, ү, е, ё, й, ы, ю, я",
+            "audioUrl": ""
+          },
+          {
+            "text": "а, о, у, ы, я, ё, ю",
+            "audioUrl": ""
+          },
+          {
+            "text": "и",
+            "audioUrl": ""
+          },
+          {
+            "text": "э, ө, ү, е, ю",
+            "audioUrl": ""
+          }
+        ]
+      }
+    },
+    {
+      "id": "b1-u2-l1-c6",
+      "lessonId": "b1-u2-l1",
+      "type": "exercise_repeat",
+      "title": "Exercise 2: Read and Repeat the Syllables",
+      "order": 6,
+      "content": {
+        "instructionEn": "Listen and repeat the vowel combinations and syllables.",
+        "rows": [
+          { "text": "а, о, у, и, э, ө, ү, е, ё, й, ы, ю, я", "audioUrl": "" },
+          { "text": "ай, ой, уй, эй, үй", "audioUrl": "" },
+          { "text": "аа, оо, уу, ий, ээ, өө, үү", "audioUrl": "" },
+          { "text": "ая, оё, уя, эе, үе, юу", "audioUrl": "" },
+          { "text": "ам, ан, ал, ар, ас, аш, ав, ах, ад, ат", "audioUrl": "" },
+          { "text": "ом, он, ол, ор, ос, ош, ов, ох, од, от", "audioUrl": "" },
+          { "text": "ум, ун, ул, ур, ус, уш, ув, ух, уд, ут", "audioUrl": "" },
+          { "text": "им, ин, ил, ир, ис, иш, ив, их, ид, ит", "audioUrl": "" },
+          { "text": "эм, эн, эл, эр, эс, эш, эв, эх, эд, эт", "audioUrl": "" },
+          { "text": "өм, өн, өл, өр, өс, өш, өв, өх, өд, өт", "audioUrl": "" },
+          { "text": "үм, үн, үл, үр, үс, үш, үв, үх, үд, үт", "audioUrl": "" }
+        ]
+      }
+    },
+    {
+      "id": "b1-u2-l1-c7",
+      "lessonId": "b1-u2-l1",
+      "type": "exercise_repeat",
+      "title": "Exercise 3: Read and Repeat the Consonant-Vowel Patterns",
+      "order": 7,
+      "content": {
+        "instructionEn": "Read and repeat the patterns with consonants and vowels.",
+        "rows": [
+          { "text": "ма, на, ла, ра, са, ша, ва, ха, да, та", "audioUrl": "" },
+          { "text": "мо, но, ло, ро, со, шо, во, хо, до, то", "audioUrl": "" },
+          { "text": "му, ну, лу, ру, су, шу, ву, ху, ду, ту", "audioUrl": "" },
+          { "text": "ми, ни, ли, ри, си, ши, ви, хи, ди, ти", "audioUrl": "" },
+          { "text": "мэ, нэ, лэ, рэ, сэ, шэ, вэ, хэ, дэ, тэ", "audioUrl": "" },
+          { "text": "мө, нө, лө, рө, сө, шө, вө, хө, дө, тө", "audioUrl": "" },
+          { "text": "мү, нү, лү, рү, сү, шү, вү, хү, дү, тү", "audioUrl": "" }
+        ]
+      }
+    },
+    {
+      "id": "b1-u2-l1-c8",
+      "lessonId": "b1-u2-l1",
+      "type": "exercise_repeat",
+      "title": "Exercise 4: Read and Repeat the Words",
+      "order": 8,
+      "content": {
+        "instructionEn": "Read and repeat the following words.",
+        "rows": [
+          { "text": "Дал, тас, сал, шал, тат, дад, лам, мал", "audioUrl": "" },
+          { "text": "Сод, шод, тод, мод, дор, тор, хот, ход", "audioUrl": "" },
+          { "text": "Сум, шум, дур, тур, дус, тус, сул, шул", "audioUrl": "" },
+          { "text": "хил, хир, шим, шил, нил, шир, шиш", "audioUrl": "" },
+          { "text": "хэн, энэ, тэр, хэд, тэд, нэр, мэх, хэс", "audioUrl": "" },
+          { "text": "сөл, шөл, төл, дөл, мөс, нөс, сөд, мөр", "audioUrl": "" },
+          { "text": "хүс, хүр, хүн, нүх, сүр, шүр, дүр, түр", "audioUrl": "" }
+        ]
+      }
+    },
+    {
+      "id": "b1-u2-l1-c9",
+      "lessonId": "b1-u2-l1",
+      "type": "exercise_repeat",
+      "title": "Exercise 5: Focus Practice by Vowel",
+      "order": 9,
+      "content": {
+        "instructionEn": "Practice the words grouped by vowel.",
+        "rows": [
+          {
+            "text": "Э: эм, эн, эс, эр, эл, эв, эе, эш, эд, эх, эт, сэ, шэ, хэ, дэ, тэ, нэр, тэд, дэр, тэр, дэм, тэс, тэн",
+            "audioUrl": ""
+          },
+          {
+            "text": "Ө: өм, өн, өс, өр, өл, өв, өш, өд, өх, өт, сө, шө, хө, дө, тө, нөр, дөт, дөр, төр, мөд, төс, төл",
+            "audioUrl": ""
+          },
+          {
+            "text": "У: ум, ун, ус, ур, ул, ув, уя, уш, уд, ух, ут, су, шу, ху, ду, ту, нум, сум, дут, дур, тур, дун, түс, түл",
+            "audioUrl": ""
+          },
+          {
+            "text": "Ү: үм, үн, үс, үр, үл, үд, үх, үт, сү, шү, хү, дү, тү, нүр, дүн, дүр, түр, мүд, түс, түл",
+            "audioUrl": ""
+          }
+        ]
+      }
+    },
+    {
+      "id": "b1-u2-l1-c10",
+      "lessonId": "b1-u2-l1",
+      "type": "exercise_repeat",
+      "title": "Exercise 6: Contrast Practice",
+      "order": 10,
+      "content": {
+        "instructionEn": "Practice the contrasting vowel pairs.",
+        "rows": [
+          { "text": "өр — үр", "audioUrl": "" },
+          { "text": "өл — үл", "audioUrl": "" },
+          { "text": "өс — үс", "audioUrl": "" },
+          { "text": "өд — үд", "audioUrl": "" },
+          { "text": "хө — хү", "audioUrl": "" },
+          { "text": "шө — шү", "audioUrl": "" },
+          { "text": "сө — шө", "audioUrl": "" },
+          { "text": "дө — тө", "audioUrl": "" },
+          { "text": "төр — түр", "audioUrl": "" },
+          { "text": "төл — түл", "audioUrl": "" },
+          { "text": "дөл — дүл", "audioUrl": "" }
+        ]
+      }
+    },
+    {
+      "id": "b1-u2-l1-c11",
+      "lessonId": "b1-u2-l1",
+      "type": "exercise_repeat",
+      "title": "Exercise 7: Pronounce the Words with Auxiliary Vowels",
+      "order": 11,
+      "content": {
+        "instructionEn": "Pronounce the words with е, ё, й, ы, ю, and я.",
+        "rows": [
+          { "text": "ая, оё, уя, үе, яр", "audioUrl": "" },
+          { "text": "ёр, ер, яс, ес, ёс, юм", "audioUrl": "" },
+          { "text": "уяя, оёё, гял, ням, есөн", "audioUrl": "" },
+          { "text": "нян, бяр, гоё, яах, бие, ерөн", "audioUrl": "" }
+        ]
+      }
+    },
+    {
+      "id": "b1-u2-l1-c12",
+      "lessonId": "b1-u2-l1",
+      "type": "exercise_repeat",
+      "title": "Exercise 8: Pronounce the Pairs with А and Я",
+      "order": 12,
+      "content": {
+        "instructionEn": "Pronounce the following word pairs with а and я.",
+        "rows": [
+          { "text": "ар — яр", "audioUrl": "" },
+          { "text": "ас — яс", "audioUrl": "" },
+          { "text": "нас — няс", "audioUrl": "" },
+          { "text": "нал — нял", "audioUrl": "" },
+          { "text": "нам — ням", "audioUrl": "" },
+          { "text": "хар — хяр", "audioUrl": "" },
+          { "text": "бал — бял", "audioUrl": "" }
+        ]
+      }
+    },
+    {
+      "id": "b1-u2-l1-c13",
+      "lessonId": "b1-u2-l1",
+      "type": "exercise_write",
+      "title": "Exercise 9: Writing Practice",
+      "order": 13,
+      "content": {
+        "instructionEn": "Practice writing the following words in cursive.",
+        "letters": [
+          "ам",
+          "та",
+          "нас",
+          "нар",
+          "сар",
+          "хол",
+          "хос",
+          "хот",
+          "уу",
+          "ус",
+          "сум",
+          "хил",
+          "нис",
+          "вэ",
+          "энэ",
+          "тэр",
+          "тэд",
+          "хэд",
+          "хэн",
+          "мөс",
+          "хөл",
+          "шөл",
+          "хүн",
+          "хүс",
+          "дүр"
+        ]
+      }
+    },
+    {
+      "id": "b1-u2-l1-c14",
+      "lessonId": "b1-u2-l1",
+      "type": "vocab_list",
+      "title": "New Words",
+      "order": 14,
+      "content": {
+        "items": [
+          { "word": "ам", "meaning": "mouth" },
+          { "word": "та", "meaning": "you" },
+          { "word": "нас", "meaning": "age" },
+          { "word": "нар", "meaning": "sun" },
+          { "word": "сар", "meaning": "moon" },
+          { "word": "хол", "meaning": "far" },
+          { "word": "хос", "meaning": "pair" },
+          { "word": "хот", "meaning": "city" },
+          { "word": "уу", "meaning": "drink; question auxiliary word" },
+          { "word": "ус", "meaning": "water" },
+          { "word": "сум", "meaning": "arrow" },
+          { "word": "хил", "meaning": "boundary" },
+          { "word": "нис", "meaning": "fly" },
+          { "word": "вэ", "meaning": "question auxiliary word" },
+          { "word": "энэ", "meaning": "this" },
+          { "word": "тэр", "meaning": "that" },
+          { "word": "тэд", "meaning": "they" },
+          { "word": "хэд", "meaning": "how much / how many" },
+          { "word": "хэн", "meaning": "who" },
+          { "word": "мөс", "meaning": "ice" },
+          { "word": "хөл", "meaning": "leg" },
+          { "word": "шөл", "meaning": "soup" },
+          { "word": "хүн", "meaning": "person" },
+          { "word": "хүс", "meaning": "want" },
+          { "word": "дүр", "meaning": "role" }
+        ]
+      }
+    },
+    {
+      "id": "b1-u2-l1-c15",
+      "lessonId": "b1-u2-l1",
+      "type": "exercise_fill",
+      "title": "Exercise 10: Translate the Words",
+      "order": 15,
+      "content": {
+        "instructionEn": "Translate the following words into Mongolian.",
+        "questions": [
+          {
+            "prompt": "you, who, this, that, how much",
+            "answer": "та, хэн, энэ, тэр, хэд"
+          },
+          {
+            "prompt": "sun, moon, water, ice, person, leg, mouth",
+            "answer": "нар, сар, ус, мөс, хүн, хөл, ам"
+          },
+          {
+            "prompt": "fly, want, drink",
+            "answer": "нис, хүс, уу"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b1-u2-l1-c16",
+      "lessonId": "b1-u2-l1",
+      "type": "exercise_fill",
+      "title": "Exercise 11: Dictation",
+      "order": 16,
+      "content": {
+        "instructionEn": "Listen and write.",
+        "questions": [
+          {
+            "prompt": "Write the words you hear from the teacher or audio.",
+            "answer": ""
+          }
+        ]
+      }
+    },
+    {
+      "id": "b1-u2-l1-c17",
+      "lessonId": "b1-u2-l1",
+      "type": "quiz_link",
+      "title": "Lesson Quiz",
+      "order": 17,
+      "content": {
+        "quizId": "quiz_b1_u2_l1"
+      }
+    }
+  ],
+  "quiz": {
+    "id": "quiz_b1_u2_l1",
+    "lessonId": "b1-u2-l1",
+    "title": "Vowels Quiz",
+    "passingScore": 70
+  },
+  "quizQuestions": [
+    {
+      "id": "quiz_b1_u2_l1_q1",
+      "quizId": "quiz_b1_u2_l1",
+      "type": "multiple_choice",
+      "prompt": "How many vowel letters does Mongolian have?",
+      "helper": "Choose the correct number.",
+      "options": ["7", "10", "13", "15"],
+      "correctAnswer": "13",
+      "explanation": "Mongolian has 13 vowel letters.",
+      "xpReward": 3,
+      "order": 1
+    },
+    {
+      "id": "quiz_b1_u2_l1_q2",
+      "quizId": "quiz_b1_u2_l1",
+      "type": "multiple_choice",
+      "prompt": "Which of the following is a basic vowel?",
+      "helper": "Choose one basic vowel.",
+      "options": ["ю", "я", "ө", "й"],
+      "correctAnswer": "ө",
+      "explanation": "Ө is one of the 7 basic vowels.",
+      "xpReward": 3,
+      "order": 2
+    },
+    {
+      "id": "quiz_b1_u2_l1_q3",
+      "quizId": "quiz_b1_u2_l1",
+      "type": "multiple_choice",
+      "prompt": "Which vowel is neutral?",
+      "helper": "Choose the neutral vowel.",
+      "options": ["а", "ө", "и", "ю"],
+      "correctAnswer": "и",
+      "explanation": "The vowel и is neutral and may appear in both masculine and feminine words.",
+      "xpReward": 3,
+      "order": 3
+    },
+    {
+      "id": "quiz_b1_u2_l1_q4",
+      "quizId": "quiz_b1_u2_l1",
+      "type": "multiple_choice",
+      "prompt": "Which group contains rounded vowels?",
+      "helper": "Choose the correct group.",
+      "options": ["а, э, и", "о, у, ө, ү", "я, ю, ё", "е, й, ы"],
+      "correctAnswer": "о, у, ө, ү",
+      "explanation": "О, у, ө, ү are rounded vowels.",
+      "xpReward": 3,
+      "order": 4
+    },
+    {
+      "id": "quiz_b1_u2_l1_q5",
+      "quizId": "quiz_b1_u2_l1",
+      "type": "multiple_choice",
+      "prompt": "Which word is a feminine word?",
+      "helper": "Choose the word with feminine vowels.",
+      "options": ["ам", "ус", "эм", "ор"],
+      "correctAnswer": "эм",
+      "explanation": "Эм contains the feminine vowel э.",
+      "xpReward": 3,
+      "order": 5
+    },
+    {
+      "id": "quiz_b1_u2_l1_q6",
+      "quizId": "quiz_b1_u2_l1",
+      "type": "multiple_choice",
+      "prompt": "What does 'хүн' mean?",
+      "helper": "Choose the correct meaning.",
+      "options": ["city", "person", "ice", "boundary"],
+      "correctAnswer": "person",
+      "explanation": "Хүн means person.",
+      "xpReward": 3,
+      "order": 6
+    },
+    {
+      "id": "quiz_b1_u2_l1_q7",
+      "quizId": "quiz_b1_u2_l1",
+      "type": "text_input",
+      "prompt": "Translate into Mongolian: this",
+      "helper": "Type the Mongolian word.",
+      "correctAnswer": "энэ",
+      "explanation": "This = энэ.",
+      "xpReward": 4,
+      "order": 7
+    },
+    {
+      "id": "quiz_b1_u2_l1_q8",
+      "quizId": "quiz_b1_u2_l1",
+      "type": "text_input",
+      "prompt": "Translate into Mongolian: water",
+      "helper": "Type the Mongolian word.",
+      "correctAnswer": "ус",
+      "explanation": "Water = ус.",
+      "xpReward": 4,
+      "order": 8
+    },
+    {
+      "id": "quiz_b1_u2_l1_q9",
+      "quizId": "quiz_b1_u2_l1",
+      "type": "multiple_choice",
+      "prompt": "Which letter may represent [ju] or [jü]?",
+      "helper": "Choose the correct letter.",
+      "options": ["ё", "е", "ю", "ы"],
+      "correctAnswer": "ю",
+      "explanation": "The letter ю is used for [ju] or [jü].",
+      "xpReward": 3,
+      "order": 9
+    },
+    {
+      "id": "quiz_b1_u2_l1_q10",
+      "quizId": "quiz_b1_u2_l1",
+      "type": "multiple_choice",
+      "prompt": "Which statement is correct about vowel harmony?",
+      "helper": "Choose the best answer.",
+      "options": [
+        "All vowels may freely appear together in one word.",
+        "Only consonants follow harmony rules.",
+        "Words usually contain vowels from one vowel series.",
+        "The vowel и may never appear in Mongolian words."
+      ],
+      "correctAnswer": "Words usually contain vowels from one vowel series.",
+      "explanation": "Mongolian words usually follow vowel harmony and contain vowels from one series.",
+      "xpReward": 4,
+      "order": 10
+    }
+  ]
+}

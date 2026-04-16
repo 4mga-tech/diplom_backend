@@ -14,9 +14,11 @@ export const registerUser = async (
   }
 
   const passwordHash = await hashPassword(password);
-try {
+
+  try {
     const user = await User.create({ name, email, passwordHash });
-    const token = generateToken({ id: user._id });
+    const token = generateToken({ userId: user._id.toString() });
+
     return { user, token };
   } catch (err: any) {
     console.error("CREATE ERROR CODE:", err.code);
@@ -24,15 +26,6 @@ try {
     console.error("CREATE ERROR FULL:", JSON.stringify(err, null, 2));
     throw err;
   }
-  const user = await User.create({
-    name,
-    email,
-    passwordHash,
-  });
-
-  const token = generateToken({ id: user._id });
-
-  return { user, token };
 };
 
 export const loginUser = async (email: string, password: string) => {
@@ -46,13 +39,14 @@ export const loginUser = async (email: string, password: string) => {
     throw new Error("Invalid credentials");
   }
 
-  const token = generateToken({ userId: user._id });
+  const token = generateToken({ userId: user._id.toString() });
 
   return { user, token };
 };
+
 export const resetPasswordService = async (
   email: string,
-  newPassword: string
+  newPassword: string,
 ) => {
   const user = await User.findOne({ email });
 
