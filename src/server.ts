@@ -1,7 +1,7 @@
 import mongoose from "mongoose";
 import app from "./app";
 import { env } from "./config/env";
-
+import { sendOtpEmail } from "./services/mail.service";
 mongoose
   .connect(env.MONGODB_URI)
   .then(() => {
@@ -13,3 +13,4 @@ mongoose
   .catch((err) => {
     console.error("MongoDB connection error:", err);
   });
+  
