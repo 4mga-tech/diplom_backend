@@ -5,8 +5,8 @@ import { resetPasswordService } from "./auth.service";
 
 export const register = async (req: Request, res: Response) => {
   try {
-        console.log("REGISTER BODY:", req.body);
-console.log("schema:", registerSchema);
+        // console.log("REGISTER BODY:", req.body);
+// console.log("schema:", registerSchema);
     const { error } = registerSchema.validate(req.body);
 
     if (error) {

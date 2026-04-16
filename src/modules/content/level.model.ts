@@ -29,6 +29,14 @@ const LevelSchema = new mongoose.Schema(
     vocabularyReady: Boolean,
     vocabularyCount: Number,
     order: Number,
+    gradient: {
+      type: [String],
+      required: true,
+      validate: {
+        validator: (arr: string[]) => Array.isArray(arr) && arr.length === 2,
+        message: "gradient must contain exactly 2 colors",
+      },
+    },
   },
   { timestamps: true }
 );

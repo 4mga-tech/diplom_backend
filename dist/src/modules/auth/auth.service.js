@@ -34,6 +34,7 @@ const loginUser = async (email, password) => {
     }
     const token = (0, jwt_1.generateToken)({ userId: user._id });
     return { user, token };
+    
 };
 exports.loginUser = loginUser;
 const resetPasswordService = async (email, newPassword) => {

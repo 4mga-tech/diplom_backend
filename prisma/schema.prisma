@@ -30,7 +30,7 @@ model Unit {
   title    String
   order    Int
   courseId String
-  course   Course   @relation(fields: [courseId], references: [id], onDelete: Cascade)
+  course   Course   @relation(fields: [cozurseId], references: [id], onDelete: Cascade)
   lessons  Lesson[]
 
   @@index([courseId])

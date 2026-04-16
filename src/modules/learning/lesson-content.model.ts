@@ -6,7 +6,7 @@ const LessonContentSchema = new mongoose.Schema(
     lessonId: { type: String, required: true, index: true },
     type: {
       type: String,
-      enum: ["video", "text", "quiz"],
+      enum: ["video", "text", "quiz", "audio", "pronunciation", "image"],
       required: true,
     },
     title: { type: String, required: true, trim: true },
@@ -18,5 +18,7 @@ const LessonContentSchema = new mongoose.Schema(
 
 LessonContentSchema.index({ lessonId: 1, order: 1 }, { unique: true });
 
-export const LessonContent = mongoose.model("LessonContent", LessonContentSchema);
-
+export const LessonContent = mongoose.model(
+  "LessonContent",
+  LessonContentSchema,
+);

@@ -14,7 +14,16 @@ export const registerUser = async (
   }
 
   const passwordHash = await hashPassword(password);
-
+try {
+    const user = await User.create({ name, email, passwordHash });
+    const token = generateToken({ id: user._id });
+    return { user, token };
+  } catch (err: any) {
+    console.error("CREATE ERROR CODE:", err.code);
+    console.error("CREATE ERROR NAME:", err.codeName);
+    console.error("CREATE ERROR FULL:", JSON.stringify(err, null, 2));
+    throw err;
+  }
   const user = await User.create({
     name,
     email,

@@ -5,7 +5,9 @@
     "subtitle": "Beginner starter",
     "description": "Letters, sounds, and the most basic words.",
     "vocabularyReady": false,
-    "vocabularyCount": 0
+    "vocabularyCount": 0,
+        "gradient":["#2563EB", "#06B6D4"]
+
   },
   {
     "id": "M1",
@@ -13,7 +15,9 @@
     "subtitle": "Foundation vocabulary",
     "description": "Basic vocabulary for elementary level.",
     "vocabularyReady": true,
-    "vocabularyCount": 731
+    "vocabularyCount": 731,
+        "gradient": ["#7C3AED", "#EC4899"]
+
   },
   {
     "id": "M2",
@@ -21,7 +25,8 @@
     "subtitle": "Pre-intermediate vocabulary",
     "description": "Extended usage words.",
     "vocabularyReady": false,
-    "vocabularyCount": 0
+    "vocabularyCount": 0,
+    "gradient": ["#16A34A", "#14B8A6"]
   },
   {
     "id": "M3",
@@ -29,6 +34,7 @@
     "subtitle": "Intermediate vocabulary",
     "description": "Intermediate vocabulary.",
     "vocabularyReady": false,
-    "vocabularyCount": 0
+    "vocabularyCount": 0,
+    "gradient": ["#F59E0B", "#EF4444"]
   }
 ]
