@@ -39,6 +39,7 @@ const completeLessonHandler = async (req, res) => {
         res.json((0, apiResponse_1.successResponse)(data));
     }
     catch (error) {
+        console.log("COMPLETE LESSON ERROR:", error);
         res.status(400).json({ success: false, message: error.message });
     }
 };

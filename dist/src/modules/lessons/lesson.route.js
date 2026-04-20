@@ -4,6 +4,7 @@ const express_1 = require("express");
 const auth_middleware_1 = require("../../middleware/auth.middleware");
 const lesson_controller_1 = require("./lesson.controller");
 const router = (0, express_1.Router)();
+router.get("/courses/:courseId/units", auth_middleware_1.authMiddleware, lesson_controller_1.getCourseUnitsHandler);
 router.get("/units/:unitId/lessons", auth_middleware_1.authMiddleware, lesson_controller_1.getUnitLessonsHandler);
 router.get("/lessons/:lessonId", auth_middleware_1.authMiddleware, lesson_controller_1.getLessonDetailHandler);
 router.get("/lessons/:lessonId/quiz", auth_middleware_1.authMiddleware, lesson_controller_1.getLessonQuizHandler);

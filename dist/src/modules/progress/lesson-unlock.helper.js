@@ -21,19 +21,39 @@ const getFirstLessonIdForCourse = async (courseId) => {
     return lessons[0]?.id ?? null;
 };
 exports.getFirstLessonIdForCourse = getFirstLessonIdForCourse;
-const unlockNextLesson = async ({ courseId, lessonId, unlockedLessonIds, }) => {
+const unlockNextLesson = async ({ courseId, lessonId, completedLessonIds, unlockedLessonIds, }) => {
+    const units = await (0, learning_repository_1.findUnitsByCourseId)(courseId);
     const lessons = await (0, exports.getOrderedLessonsForCourse)(courseId);
-    const currentIndex = lessons.findIndex((lesson) => lesson.id === lessonId);
-    if (currentIndex < 0) {
+    const currentLesson = lessons.find((lesson) => lesson.id === lessonId);
+    if (!currentLesson) {
         return null;
     }
-    const nextLesson = lessons[currentIndex + 1];
-    if (!nextLesson) {
+    const lessonsInUnit = lessons.filter((lesson) => lesson.unitId === currentLesson.unitId);
+    const currentLessonIndex = lessonsInUnit.findIndex((lesson) => lesson.id === lessonId);
+    const nextLessonInUnit = lessonsInUnit[currentLessonIndex + 1];
+    if (nextLessonInUnit) {
+        if (!unlockedLessonIds.includes(nextLessonInUnit.id)) {
+            unlockedLessonIds.push(nextLessonInUnit.id);
+            return { id: nextLessonInUnit.id, title: nextLessonInUnit.title };
+        }
         return null;
     }
-    if (!unlockedLessonIds.includes(nextLesson.id)) {
-        unlockedLessonIds.push(nextLesson.id);
-        return { id: nextLesson.id, title: nextLesson.title };
+    const currentUnitCompleted = lessonsInUnit.every((lesson) => completedLessonIds.includes(lesson.id));
+    if (!currentUnitCompleted) {
+        return null;
+    }
+    const currentUnit = units.find((unit) => unit.id === currentLesson.unitId);
+    const nextUnit = units.find((unit) => unit.order === (currentUnit?.order ?? 0) + 1);
+    if (!nextUnit) {
+        return null;
+    }
+    const firstLessonInNextUnit = lessons.find((lesson) => lesson.unitId === nextUnit.id);
+    if (!firstLessonInNextUnit) {
+        return null;
+    }
+    if (!unlockedLessonIds.includes(firstLessonInNextUnit.id)) {
+        unlockedLessonIds.push(firstLessonInNextUnit.id);
+        return { id: firstLessonInNextUnit.id, title: firstLessonInNextUnit.title };
     }
     return null;
 };

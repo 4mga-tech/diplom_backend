@@ -1,0 +1,123 @@
+{
+    "lesson": {
+        "id": "b1-u1-l3",
+        "unitId": "b1-u1",
+        "title": "Alphabet classification",
+        "subtitle": "Vowels, consonants, and sign letters",
+        "order": 3,
+        "xpReward": 20,
+        "quizXpReward": 9
+    },
+    "contents": [
+        {
+            "id": "b1-u1-l3-c1",
+            "lessonId": "b1-u1-l3",
+            "type": "text",
+            "title": "How the alphabet is grouped",
+            "order": 1,
+            "content": {
+                "section": "reading",
+                "textEn": "The Mongolian Cyrillic alphabet is usually grouped into vowels, consonants, and two sign letters."
+            }
+        },
+        {
+            "id": "b1-u1-l3-c2",
+            "lessonId": "b1-u1-l3",
+            "type": "classification",
+            "title": "Alphabet groups",
+            "order": 2,
+            "content": {
+                "section": "reading",
+                "summary": "35 letters are grouped into 13 vowels, 20 consonants, and 2 sign letters.",
+                "groups": [
+                    {
+                        "title": "13 vowels",
+                        "items": ["А", "Э", "И", "О", "У", "Ө", "Ү", "Е", "Ё", "Й", "Ы", "Ю", "Я"]
+                    },
+                    {
+                        "title": "20 consonants",
+                        "items": ["Б", "В", "Г", "Д", "Ж", "З", "К", "Л", "М", "Н", "П", "Р", "С", "Т", "Ф", "Х", "Ц", "Ч", "Ш", "Щ"]
+                    },
+                    {
+                        "title": "2 sign letters",
+                        "items": ["Ъ", "Ь"]
+                    },
+                    {
+                        "title": "Often seen in foreign-origin words",
+                        "items": ["К", "П", "Ф", "Щ"]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "b1-u1-l3-c3",
+            "lessonId": "b1-u1-l3",
+            "type": "grammar_note",
+            "title": "Letter notes",
+            "order": 3,
+            "content": {
+                "section": "grammar",
+                "notes": [
+                    "Ъ and Ь are sign letters and do not have their own vowel sound.",
+                    "Й, Ы, Ъ, and Ь do not usually appear at the beginning of a Mongolian word.",
+                    "К, П, Ф, and Щ are less common in native Mongolian words."
+                ]
+            }
+        },
+        {
+            "id": "b1-u1-l3-c4",
+            "lessonId": "b1-u1-l3",
+            "type": "quiz_link",
+            "title": "Lesson quiz",
+            "order": 4,
+            "content": {
+                "section": "quiz",
+                "quizId": "quiz_b1_u1_l3"
+            }
+        }
+    ],
+    "quiz": {
+        "id": "quiz_b1_u1_l3",
+        "lessonId": "b1-u1-l3",
+        "title": "Alphabet classification quiz",
+        "passingScore": 70
+    },
+    "quizQuestions": [
+        {
+            "id": "quiz_b1_u1_l3_q1",
+            "quizId": "quiz_b1_u1_l3",
+            "type": "multiple_choice",
+            "prompt": "Which letter is a sign letter?",
+            "helper": "Choose the sign letter.",
+            "options": ["Ө", "М", "Ь", "Р"],
+            "correctAnswer": "Ь",
+            "explanation": "Ь is one of the two sign letters.",
+            "xpReward": 3,
+            "order": 1
+        },
+        {
+            "id": "quiz_b1_u1_l3_q2",
+            "quizId": "quiz_b1_u1_l3",
+            "type": "multiple_choice",
+            "prompt": "How many consonants are in the Mongolian Cyrillic alphabet?",
+            "helper": "Choose the correct number.",
+            "options": ["13", "18", "20", "22"],
+            "correctAnswer": "20",
+            "explanation": "There are 20 consonants.",
+            "xpReward": 3,
+            "order": 2
+        },
+        {
+            "id": "quiz_b1_u1_l3_q3",
+            "quizId": "quiz_b1_u1_l3",
+            "type": "multiple_choice",
+            "prompt": "Which group does Я belong to?",
+            "helper": "Choose the correct group.",
+            "options": ["vowel", "consonant", "sign letter", "number"],
+            "correctAnswer": "vowel",
+            "explanation": "Я is one of the vowel letters.",
+            "xpReward": 3,
+            "order": 3
+        }
+    ]
+}

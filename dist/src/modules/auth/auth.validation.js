@@ -22,10 +22,10 @@ exports.loginSchema = exports.registerSchema = void 0;
 const joi_1 = __importDefault(require("joi"));
 exports.registerSchema = joi_1.default.object({
     name: joi_1.default.string().required(),
-    email: joi_1.default.string().email().required(),
+    email: joi_1.default.string().email({ tlds: { allow: false } }).required(),
     password: joi_1.default.string().min(4).required(),
 });
 exports.loginSchema = joi_1.default.object({
-    email: joi_1.default.string().email().required(),
+    email: joi_1.default.string().email({ tlds: { allow: false } }).required(),
     password: joi_1.default.string().required(),
 });

@@ -1,0 +1,131 @@
+{
+    "lesson": {
+        "id": "b1-u2-l2",
+        "unitId": "b1-u2",
+        "title": "Common consonants",
+        "subtitle": "Frequent consonants in simple Cyrillic reading",
+        "order": 2,
+        "xpReward": 20,
+        "quizXpReward": 9
+    },
+    "contents": [
+        {
+            "id": "b1-u2-l2-c1",
+            "lessonId": "b1-u2-l2",
+            "type": "alphabet_table",
+            "title": "Consonant set",
+            "order": 1,
+            "content": {
+                "section": "reading",
+                "columns": [
+                    "printUpper",
+                    "printLower",
+                    "nameMn",
+                    "transcription",
+                    "pronunciation"
+                ],
+                "letters": [
+                    { "index": 1, "printUpper": "Б", "printLower": "б", "nameMn": "бэ", "transcription": "b", "pronunciation": "[b]", "group": "consonant", "audioUrl": "" },
+                    { "index": 2, "printUpper": "В", "printLower": "в", "nameMn": "вэ", "transcription": "v", "pronunciation": "[v]", "group": "consonant", "audioUrl": "" },
+                    { "index": 3, "printUpper": "Г", "printLower": "г", "nameMn": "гэ", "transcription": "g", "pronunciation": "[g]", "group": "consonant", "audioUrl": "" },
+                    { "index": 4, "printUpper": "Д", "printLower": "д", "nameMn": "дэ", "transcription": "d", "pronunciation": "[d]", "group": "consonant", "audioUrl": "" },
+                    { "index": 5, "printUpper": "Ж", "printLower": "ж", "nameMn": "жэ", "transcription": "j", "pronunciation": "[j]", "group": "consonant", "audioUrl": "" },
+                    { "index": 6, "printUpper": "З", "printLower": "з", "nameMn": "зэ", "transcription": "z", "pronunciation": "[z]", "group": "consonant", "audioUrl": "" },
+                    { "index": 7, "printUpper": "Л", "printLower": "л", "nameMn": "эл", "transcription": "l", "pronunciation": "[l]", "group": "consonant", "audioUrl": "" },
+                    { "index": 8, "printUpper": "М", "printLower": "м", "nameMn": "эм", "transcription": "m", "pronunciation": "[m]", "group": "consonant", "audioUrl": "" },
+                    { "index": 9, "printUpper": "Н", "printLower": "н", "nameMn": "эн", "transcription": "n", "pronunciation": "[n]", "group": "consonant", "audioUrl": "" },
+                    { "index": 10, "printUpper": "Р", "printLower": "р", "nameMn": "эр", "transcription": "r", "pronunciation": "[r]", "group": "consonant", "audioUrl": "" },
+                    { "index": 11, "printUpper": "С", "printLower": "с", "nameMn": "эс", "transcription": "s", "pronunciation": "[s]", "group": "consonant", "audioUrl": "" },
+                    { "index": 12, "printUpper": "Т", "printLower": "т", "nameMn": "тэ", "transcription": "t", "pronunciation": "[t]", "group": "consonant", "audioUrl": "" },
+                    { "index": 13, "printUpper": "Х", "printLower": "х", "nameMn": "хэ", "transcription": "kh", "pronunciation": "[kh]", "group": "consonant", "audioUrl": "" },
+                    { "index": 14, "printUpper": "Ц", "printLower": "ц", "nameMn": "цэ", "transcription": "ts", "pronunciation": "[ts]", "group": "consonant", "audioUrl": "" },
+                    { "index": 15, "printUpper": "Ч", "printLower": "ч", "nameMn": "чэ", "transcription": "ch", "pronunciation": "[ch]", "group": "consonant", "audioUrl": "" },
+                    { "index": 16, "printUpper": "Ш", "printLower": "ш", "nameMn": "шэ", "transcription": "sh", "pronunciation": "[sh]", "group": "consonant", "audioUrl": "" }
+                ]
+            }
+        },
+        {
+            "id": "b1-u2-l2-c2",
+            "lessonId": "b1-u2-l2",
+            "type": "exercise_repeat",
+            "title": "Consonant and vowel patterns",
+            "order": 2,
+            "content": {
+                "section": "listening",
+                "instructionEn": "Read and repeat the patterns.",
+                "rows": [
+                    {
+                        "prompt": "Common patterns",
+                        "line": "ба ва га да жа за ла ма на ра са та ха ца ча ша",
+                        "audioUrl": ""
+                    },
+                    {
+                        "prompt": "Rounded vowels",
+                        "line": "бо го до жо зо ло мо но ро со то хо цо чо шо",
+                        "audioUrl": ""
+                    },
+                    {
+                        "prompt": "Front vowels",
+                        "line": "бэ вэ гэ зэ лэ мэ нэг рэ сэ тэ хэ цэ чэ шэ",
+                        "audioUrl": ""
+                    }
+                ]
+            }
+        },
+        {
+            "id": "b1-u2-l2-c3",
+            "lessonId": "b1-u2-l2",
+            "type": "quiz_link",
+            "title": "Lesson quiz",
+            "order": 3,
+            "content": {
+                "section": "quiz",
+                "quizId": "quiz_b1_u2_l2"
+            }
+        }
+    ],
+    "quiz": {
+        "id": "quiz_b1_u2_l2",
+        "lessonId": "b1-u2-l2",
+        "title": "Common consonants quiz",
+        "passingScore": 70
+    },
+    "quizQuestions": [
+        {
+            "id": "quiz_b1_u2_l2_q1",
+            "quizId": "quiz_b1_u2_l2",
+            "type": "multiple_choice",
+            "prompt": "Which letter matches the sound sh?",
+            "helper": "Choose the correct consonant.",
+            "options": ["Ч", "Ц", "Ш", "Ж"],
+            "correctAnswer": "Ш",
+            "explanation": "Ш is read as sh.",
+            "xpReward": 3,
+            "order": 1
+        },
+        {
+            "id": "quiz_b1_u2_l2_q2",
+            "quizId": "quiz_b1_u2_l2",
+            "type": "multiple_choice",
+            "prompt": "Which row starts with the pattern \"ба\"?",
+            "helper": "Use the practice lines.",
+            "options": ["Common patterns", "Rounded vowels", "Front vowels", "Tracing set"],
+            "correctAnswer": "Common patterns",
+            "explanation": "The common patterns row begins with \"ба\".",
+            "xpReward": 3,
+            "order": 2
+        },
+        {
+            "id": "quiz_b1_u2_l2_q3",
+            "quizId": "quiz_b1_u2_l2",
+            "type": "multiple_choice",
+            "prompt": "Which letter is a consonant?",
+            "helper": "Choose one consonant.",
+            "options": ["Ү", "Я", "М", "Ө"],
+            "correctAnswer": "М",
+            "explanation": "М is a consonant.",
+            "xpReward": 3,
+            "order": 3
+        }
+    ]
+}

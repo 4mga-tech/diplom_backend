@@ -14,6 +14,12 @@ const authMiddleware = (req, res, next) => {
     const token = authHeader.split(" ")[1];
     try {
         const decoded = jsonwebtoken_1.default.verify(token, JWT_SECRET);
+        if (!decoded.userId) {
+            return res.status(401).json({
+                success: false,
+                message: "Invalid token payload: userId missing",
+            });
+        }
         req.userId = decoded.userId;
         next();
     }

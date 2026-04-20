@@ -10,11 +10,8 @@ const getCourseProgress = async (userId, courseId) => {
     if (!course) {
         throw new Error("Course not found");
     }
-    let progress = await (0, progress_repository_1.findUserProgress)(userId, courseId);
-    if (!progress) {
-        const firstLessonId = await (0, lesson_unlock_helper_1.getFirstLessonIdForCourse)(courseId);
-        progress = await (0, progress_repository_1.createUserProgress)(userId, courseId, firstLessonId ? [firstLessonId] : []);
-    }
+    const firstLessonId = await (0, lesson_unlock_helper_1.getFirstLessonIdForCourse)(courseId);
+    const progress = await (0, progress_repository_1.findOrCreateUserProgress)(userId, courseId, firstLessonId ? [firstLessonId] : []);
     return {
         courseId: progress.courseId,
         completedLessonIds: progress.completedLessonIds,
@@ -55,6 +52,7 @@ const completeLesson = async (userId, lessonId) => {
     const nextLessonUnlocked = await (0, lesson_unlock_helper_1.unlockNextLesson)({
         courseId: unit.courseId,
         lessonId,
+        completedLessonIds: progress.completedLessonIds,
         unlockedLessonIds: progress.unlockedLessonIds,
     });
     const xpResult = alreadyCompleted
@@ -73,7 +71,10 @@ const completeLesson = async (userId, lessonId) => {
         }
         return (await (0, progress_repository_1.findUserProgress)(userId, item.courseId));
     }));
-    const streakResult = await (0, progress_helpers_1.syncUserStreak)({ userId, progresses: progressDocs });
+    const streakResult = await (0, progress_helpers_1.syncUserStreak)({
+        userId,
+        progresses: progressDocs,
+    });
     if (progress.streak !== streakResult.streak) {
         progress.streak = streakResult.streak;
         await progress.save();

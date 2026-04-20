@@ -1,0 +1,122 @@
+{
+    "lesson": {
+        "id": "b1-u3-l2",
+        "unitId": "b1-u3",
+        "title": "Write and complete letters",
+        "subtitle": "Copying letters and filling missing syllables",
+        "order": 2,
+        "xpReward": 20,
+        "quizXpReward": 9
+    },
+    "contents": [
+        {
+            "id": "b1-u3-l2-c1",
+            "lessonId": "b1-u3-l2",
+            "type": "exercise_write",
+            "title": "Copy the letters",
+            "order": 1,
+            "content": {
+                "section": "writing",
+                "instructionEn": "Write the letters and syllables.",
+                "letters": [
+                    "Аа",
+                    "Бб",
+                    "Мм",
+                    "Нн",
+                    "Өө",
+                    "Үү",
+                    "ба",
+                    "бо",
+                    "би",
+                    "бө",
+                    "ма",
+                    "на"
+                ]
+            }
+        },
+        {
+            "id": "b1-u3-l2-c2",
+            "lessonId": "b1-u3-l2",
+            "type": "exercise_fill",
+            "title": "Fill the missing letters",
+            "order": 2,
+            "content": {
+                "section": "exercises",
+                "instructionEn": "Fill the missing letter in each line.",
+                "groups": [
+                    {
+                        "patternLetters": ["Б", "В", "Г", "Ж", "З"],
+                        "lines": [
+                            "ба ва га _а за",
+                            "бо во го жо _о",
+                            "бэ вэ гэ _э зэ"
+                        ]
+                    },
+                    {
+                        "patternLetters": ["М", "Н", "Р", "С", "Т"],
+                        "lines": [
+                            "ма на ра са _а",
+                            "мо но ро со _о",
+                            "мэ нэг рэ сэ _э"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "b1-u3-l2-c3",
+            "lessonId": "b1-u3-l2",
+            "type": "quiz_link",
+            "title": "Lesson quiz",
+            "order": 3,
+            "content": {
+                "section": "quiz",
+                "quizId": "quiz_b1_u3_l2"
+            }
+        }
+    ],
+    "quiz": {
+        "id": "quiz_b1_u3_l2",
+        "lessonId": "b1-u3-l2",
+        "title": "Write and complete letters quiz",
+        "passingScore": 70
+    },
+    "quizQuestions": [
+        {
+            "id": "quiz_b1_u3_l2_q1",
+            "quizId": "quiz_b1_u3_l2",
+            "type": "multiple_choice",
+            "prompt": "Which option belongs in the blank: \"ба ва га _а за\"?",
+            "helper": "Choose the missing syllable.",
+            "options": ["жа", "шо", "нь", "ү"],
+            "correctAnswer": "жа",
+            "explanation": "The missing syllable is жа.",
+            "xpReward": 3,
+            "order": 1
+        },
+        {
+            "id": "quiz_b1_u3_l2_q2",
+            "quizId": "quiz_b1_u3_l2",
+            "type": "multiple_choice",
+            "prompt": "Which item is part of the copy practice?",
+            "helper": "Choose one item from the writing list.",
+            "options": ["ба", "alphabet", "35", "soft sign"],
+            "correctAnswer": "ба",
+            "explanation": "ба is included in the copy practice.",
+            "xpReward": 3,
+            "order": 2
+        },
+        {
+            "id": "quiz_b1_u3_l2_q3",
+            "quizId": "quiz_b1_u3_l2",
+            "type": "multiple_choice",
+            "prompt": "Which option completes \"мо но ро со _о\"?",
+            "helper": "Choose the missing syllable.",
+            "options": ["жо", "то", "үө", "ь"],
+            "correctAnswer": "то",
+            "explanation": "The row ends with то.",
+            "xpReward": 3,
+            "order": 3
+        }
+    ]
+}

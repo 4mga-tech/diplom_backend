@@ -1,0 +1,106 @@
+{
+    "lesson": {
+        "id": "b1-u3-l3",
+        "unitId": "b1-u3",
+        "title": "Build simple words",
+        "subtitle": "Decode letters and review the alphabet",
+        "order": 3,
+        "xpReward": 20,
+        "quizXpReward": 9
+    },
+    "contents": [
+        {
+            "id": "b1-u3-l3-c1",
+            "lessonId": "b1-u3-l3",
+            "type": "exercise_word_build",
+            "title": "Build the words",
+            "order": 1,
+            "content": {
+                "section": "exercises",
+                "instructionEn": "Use the letter numbers to build the word.",
+                "example": {
+                    "numbers": [20, 22, 19, 4, 22, 22, 13, 32],
+                    "answer": "сургууль"
+                },
+                "questions": [
+                    { "index": 1, "numbers": [15, 16, 14], "answer": "ном" },
+                    { "index": 2, "numbers": [2, 1, 4, 28], "answer": "багш" },
+                    { "index": 3, "numbers": [1, 15, 4, 10], "answer": "анги" },
+                    { "index": 4, "numbers": [20, 1, 11, 15], "answer": "сайн" },
+                    { "index": 5, "numbers": [22, 22], "answer": "уу" }
+                ]
+            }
+        },
+        {
+            "id": "b1-u3-l3-c2",
+            "lessonId": "b1-u3-l3",
+            "type": "vocab_list",
+            "title": "Review words",
+            "order": 2,
+            "content": {
+                "section": "reading",
+                "items": [
+                    { "word": "ном", "meaning": "book" },
+                    { "word": "багш", "meaning": "teacher" },
+                    { "word": "анги", "meaning": "classroom" },
+                    { "word": "сайн", "meaning": "good" },
+                    { "word": "сургууль", "meaning": "school" }
+                ]
+            }
+        },
+        {
+            "id": "b1-u3-l3-c3",
+            "lessonId": "b1-u3-l3",
+            "type": "quiz_link",
+            "title": "Lesson quiz",
+            "order": 3,
+            "content": {
+                "section": "quiz",
+                "quizId": "quiz_b1_u3_l3"
+            }
+        }
+    ],
+    "quiz": {
+        "id": "quiz_b1_u3_l3",
+        "lessonId": "b1-u3-l3",
+        "title": "Build simple words quiz",
+        "passingScore": 70
+    },
+    "quizQuestions": [
+        {
+            "id": "quiz_b1_u3_l3_q1",
+            "quizId": "quiz_b1_u3_l3",
+            "type": "text_input",
+            "prompt": "What word is 20 22 19 4 22 22 13 32?",
+            "helper": "Read by letter number.",
+            "correctAnswer": "сургууль",
+            "explanation": "20-С, 22-У, 19-Р, 4-Г, 22-У, 22-У, 13-Л, 32-Ь makes сургууль.",
+            "xpReward": 3,
+            "order": 1
+        },
+        {
+            "id": "quiz_b1_u3_l3_q2",
+            "quizId": "quiz_b1_u3_l3",
+            "type": "multiple_choice",
+            "prompt": "Which word means \"book\"?",
+            "helper": "Use the review words section.",
+            "options": ["анги", "сургууль", "ном", "сайн"],
+            "correctAnswer": "ном",
+            "explanation": "ном means book.",
+            "xpReward": 3,
+            "order": 2
+        },
+        {
+            "id": "quiz_b1_u3_l3_q3",
+            "quizId": "quiz_b1_u3_l3",
+            "type": "multiple_choice",
+            "prompt": "Which answer is decoded as a word in this lesson?",
+            "helper": "Choose the review word.",
+            "options": ["багш", "эгшиг", "алфавит", "тэмдэг"],
+            "correctAnswer": "багш",
+            "explanation": "багш is one of the decoded review words.",
+            "xpReward": 3,
+            "order": 3
+        }
+    ]
+}

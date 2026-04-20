@@ -13,9 +13,28 @@ import { UserProgress } from "../modules/progress/user-progress.model";
 import { QuizAttempt } from "../modules/progress/quiz-attempt.model";
 import { XpLedger } from "../modules/progress/xp-ledger.model";
 import b1u1l1 from "../data/seed/b1_u1_l1.json";
-import b1u2l1 from  "../data/seed/b1_u2_l1.json"
+import b1u1l2 from "../data/seed/b1_u1_l2.json";
+import b1u1l3 from "../data/seed/b1_u1_l3.json";
+import b1u2l1 from "../data/seed/b1_u2_l1.json";
+import b1u2l2 from "../data/seed/b1_u2_l2.json";
+import b1u2l3 from "../data/seed/b1_u2_l3.json";
+import b1u3l1 from "../data/seed/b1_u3_l1.json";
+import b1u3l2 from "../data/seed/b1_u3_l2.json";
+import b1u3l3 from "../data/seed/b1_u3_l3.json";
 import Level from "../modules/content/level.model";
 import levelsManifest from "../data/seed/levels_manifest.json";
+
+const b1LessonSeeds: any[] = [
+  b1u1l1,
+  b1u1l2,
+  b1u1l3,
+  b1u2l1,
+  b1u2l2,
+  b1u2l3,
+  b1u3l1,
+  b1u3l2,
+  b1u3l3,
+];
 
 async function seed() {
   await connectDB(env.MONGODB_URI);
@@ -57,37 +76,37 @@ async function seed() {
       id: "b1-u1",
       courseId: "b1",
       title: "Unit 1: Cyrillic Basics",
+      subtitle: "Intro, tracing, and alphabet groups",
+      description: "Learn what Mongolian Cyrillic is, practice early handwriting, and understand the main letter categories.",
       order: 1,
     },
     {
       id: "b1-u2",
       courseId: "b1",
-      title: "Unit 2: Vowels",
+      title: "Unit 2: Letter Groups",
+      subtitle: "Supporting vowels, consonants, and special letters",
+      description: "Study supporting vowel letters, common consonants, and special sign letters used in the Mongolian Cyrillic alphabet.",
       order: 2,
+    },
+    {
+      id: "b1-u3",
+      courseId: "b1",
+      title: "Unit 3: Reading and Writing Practice",
+      subtitle: "Syllables, writing drills, and word building",
+      description: "Practice reading syllables, completing letter patterns, and decoding simple words with the Cyrillic alphabet.",
+      order: 3,
     },
   ]);
 
   console.log("Creating lessons...");
-  await LearningLesson.insertMany([
-  b1u1l1.lesson,
-  b1u2l1.lesson,
-]);
+  await LearningLesson.insertMany(b1LessonSeeds.map((item) => item.lesson));
 
   console.log("Creating lesson content...");
-await LessonContent.insertMany([
-  ...b1u1l1.contents,
-  ...b1u2l1.contents,
-]);
+  await LessonContent.insertMany(b1LessonSeeds.flatMap((item) => item.contents));
   console.log("Creating quizzes...");
-  await Quiz.insertMany([
-  b1u1l1.quiz,
-  b1u2l1.quiz,
-]);
+  await Quiz.insertMany(b1LessonSeeds.map((item) => item.quiz));
 
-await QuizQuestion.insertMany([
-  ...b1u1l1.quizQuestions,
-  ...b1u2l1.quizQuestions,
-]);
+  await QuizQuestion.insertMany(b1LessonSeeds.flatMap((item) => item.quizQuestions));
 
   // console.log("Creating daily review...");
   // await DailyReview.create({

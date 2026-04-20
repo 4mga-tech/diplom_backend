@@ -1,0 +1,141 @@
+{
+    "lesson": {
+        "id": "b1-u2-l3",
+        "unitId": "b1-u2",
+        "title": "Special letters and signs",
+        "subtitle": "К, П, Ф, Щ, Ъ, and Ь",
+        "order": 3,
+        "xpReward": 20,
+        "quizXpReward": 9
+    },
+    "contents": [
+        {
+            "id": "b1-u2-l3-c1",
+            "lessonId": "b1-u2-l3",
+            "type": "alphabet_table",
+            "title": "Special letters",
+            "order": 1,
+            "content": {
+                "section": "reading",
+                "columns": [
+                    "printUpper",
+                    "printLower",
+                    "nameMn",
+                    "transcription",
+                    "pronunciation"
+                ],
+                "letters": [
+                    { "index": 1, "printUpper": "К", "printLower": "к", "nameMn": "ка", "transcription": "k", "pronunciation": "[k]", "group": "special-consonant", "audioUrl": "" },
+                    { "index": 2, "printUpper": "П", "printLower": "п", "nameMn": "пэ", "transcription": "p", "pronunciation": "[p]", "group": "special-consonant", "audioUrl": "" },
+                    { "index": 3, "printUpper": "Ф", "printLower": "ф", "nameMn": "фэ", "transcription": "f", "pronunciation": "[f]", "group": "special-consonant", "audioUrl": "" },
+                    { "index": 4, "printUpper": "Щ", "printLower": "щ", "nameMn": "щэ", "transcription": "shch", "pronunciation": "[shch]", "group": "special-consonant", "audioUrl": "" },
+                    { "index": 5, "printUpper": "Ъ", "printLower": "ъ", "nameMn": "хатуугийн тэмдэг", "transcription": "", "pronunciation": "hard sign", "group": "sign-letter", "audioUrl": "" },
+                    { "index": 6, "printUpper": "Ь", "printLower": "ь", "nameMn": "зөөлний тэмдэг", "transcription": "", "pronunciation": "soft sign", "group": "sign-letter", "audioUrl": "" }
+                ]
+            }
+        },
+        {
+            "id": "b1-u2-l3-c2",
+            "lessonId": "b1-u2-l3",
+            "type": "grammar_note",
+            "title": "Usage notes",
+            "order": 2,
+            "content": {
+                "section": "grammar",
+                "notes": [
+                    "К, П, Ф, and Щ often appear in foreign-origin words.",
+                    "Ъ and Ь are silent sign letters.",
+                    "The sign letters help separate sounds in spelling."
+                ]
+            }
+        },
+        {
+            "id": "b1-u2-l3-c3",
+            "lessonId": "b1-u2-l3",
+            "type": "exercise_fill",
+            "title": "Find the missing letter",
+            "order": 3,
+            "content": {
+                "section": "exercises",
+                "instructionEn": "Fill the missing special letter or sign.",
+                "groups": [
+                    {
+                        "patternLetters": ["К", "П", "Ф", "Щ"],
+                        "lines": [
+                            "ка, _а, фа, ща",
+                            "ко, по, _о, що",
+                            "кэ, пэ, фэ, _э"
+                        ]
+                    },
+                    {
+                        "patternLetters": ["Ъ", "Ь"],
+                        "lines": [
+                            "Ъ and Ь are sign letters.",
+                            "They do not have their own vowel sound."
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "b1-u2-l3-c4",
+            "lessonId": "b1-u2-l3",
+            "type": "quiz_link",
+            "title": "Lesson quiz",
+            "order": 4,
+            "content": {
+                "section": "quiz",
+                "quizId": "quiz_b1_u2_l3"
+            }
+        }
+    ],
+    "quiz": {
+        "id": "quiz_b1_u2_l3",
+        "lessonId": "b1-u2-l3",
+        "title": "Special letters and signs quiz",
+        "passingScore": 70
+    },
+    "quizQuestions": [
+        {
+            "id": "quiz_b1_u2_l3_q1",
+            "quizId": "quiz_b1_u2_l3",
+            "type": "multiple_choice",
+            "prompt": "Which letter is a sign letter?",
+            "helper": "Choose the sign letter.",
+            "options": ["Ф", "К", "Ъ", "П"],
+            "correctAnswer": "Ъ",
+            "explanation": "Ъ is a sign letter.",
+            "xpReward": 3,
+            "order": 1
+        },
+        {
+            "id": "quiz_b1_u2_l3_q2",
+            "quizId": "quiz_b1_u2_l3",
+            "type": "multiple_choice",
+            "prompt": "Which letters are often used in foreign-origin words?",
+            "helper": "Choose the correct row.",
+            "options": ["К, П, Ф, Щ", "А, Э, И, О", "М, Н, Л, Р", "Ъ, Ь, Я, Ю"],
+            "correctAnswer": "К, П, Ф, Щ",
+            "explanation": "К, П, Ф, and Щ are often used in foreign-origin words.",
+            "xpReward": 3,
+            "order": 2
+        },
+        {
+            "id": "quiz_b1_u2_l3_q3",
+            "quizId": "quiz_b1_u2_l3",
+            "type": "multiple_choice",
+            "prompt": "What is true about Ь?",
+            "helper": "Choose the correct statement.",
+            "options": [
+                "It is a sign letter.",
+                "It is a basic vowel.",
+                "It is always pronounced as a vowel.",
+                "It is a number."
+            ],
+            "correctAnswer": "It is a sign letter.",
+            "explanation": "Ь is a sign letter.",
+            "xpReward": 3,
+            "order": 3
+        }
+    ]
+}

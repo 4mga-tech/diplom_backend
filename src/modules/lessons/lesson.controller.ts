@@ -1,8 +1,26 @@
 import { Request, Response } from "express";
 import { successResponse } from "../../utils/apiResponse";
-import { getLessonDetail, getLessonQuiz, getLessonsByUnit } from "./lesson.service";
+import {
+  getLessonDetail,
+  getLessonQuiz,
+  getLessonsByUnit,
+  getUnitsByCourse,
+} from "./lesson.service";
 
 type UserRequest = Request & { userId?: string };
+
+export const getCourseUnitsHandler = async (
+  req: UserRequest,
+  res: Response,
+) => {
+  try {
+    const courseId = req.params.courseId as string;
+    const data = await getUnitsByCourse(req.userId!, courseId);
+    res.json(successResponse(data));
+  } catch (error: any) {
+    res.status(400).json({ success: false, message: error.message });
+  }
+};
 
 export const getUnitLessonsHandler = async (
   req: UserRequest,

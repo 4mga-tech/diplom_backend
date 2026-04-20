@@ -27,8 +27,10 @@ export const findContentsByLessonId = (lessonId: string) =>
 export const findQuizByLessonId = (lessonId: string) =>
   Quiz.findOne({ lessonId }).lean();
 
+export const findQuizzesByLessonIds = (lessonIds: string[]) =>
+  Quiz.find({ lessonId: { $in: lessonIds } }).lean();
+
 export const findQuizById = (quizId: string) => Quiz.findOne({ id: quizId }).lean();
 
 export const findQuizQuestionsByQuizId = (quizId: string) =>
   QuizQuestion.find({ quizId }).sort({ order: 1 }).lean();
-

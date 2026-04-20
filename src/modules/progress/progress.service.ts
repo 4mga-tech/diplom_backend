@@ -70,6 +70,7 @@ export const completeLesson = async (userId: string, lessonId: string) => {
   const nextLessonUnlocked = await unlockNextLesson({
     courseId: unit.courseId,
     lessonId,
+    completedLessonIds: progress.completedLessonIds,
     unlockedLessonIds: progress.unlockedLessonIds,
   });
 

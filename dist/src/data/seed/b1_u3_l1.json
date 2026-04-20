@@ -1,0 +1,122 @@
+{
+    "lesson": {
+        "id": "b1-u3-l1",
+        "unitId": "b1-u3",
+        "title": "Read simple syllables",
+        "subtitle": "Vowel and consonant combinations",
+        "order": 1,
+        "xpReward": 20,
+        "quizXpReward": 9
+    },
+    "contents": [
+        {
+            "id": "b1-u3-l1-c1",
+            "lessonId": "b1-u3-l1",
+            "type": "exercise_repeat",
+            "title": "Open syllables",
+            "order": 1,
+            "content": {
+                "section": "reading",
+                "instructionEn": "Read and repeat the open syllables.",
+                "rows": [
+                    {
+                        "prompt": "a series",
+                        "line": "ба ва га да жа за ла ма на ра са та ха ца ча ша",
+                        "audioUrl": ""
+                    },
+                    {
+                        "prompt": "i series",
+                        "line": "би ви ги ди жи зи ли ми ни ри си ти хи чи ши",
+                        "audioUrl": ""
+                    },
+                    {
+                        "prompt": "oe series",
+                        "line": "бө вө гө дө жө зө лө мө нө рө сө тө хө цө чө шө",
+                        "audioUrl": ""
+                    }
+                ]
+            }
+        },
+        {
+            "id": "b1-u3-l1-c2",
+            "lessonId": "b1-u3-l1",
+            "type": "exercise_repeat",
+            "title": "Closed syllables",
+            "order": 2,
+            "content": {
+                "section": "speaking",
+                "instructionEn": "Read and repeat the closed syllables.",
+                "rows": [
+                    { "text": "ам, ан, ал, ар, ас, ав, ах, ад, ат", "audioUrl": "" },
+                    { "text": "ом, он, ол, ор, ос, ов, ох, од, от", "audioUrl": "" },
+                    { "text": "эм, эн, эл, эр, эс, эв, эх, эд, эт", "audioUrl": "" }
+                ]
+            }
+        },
+        {
+            "id": "b1-u3-l1-c3",
+            "lessonId": "b1-u3-l1",
+            "type": "quiz_link",
+            "title": "Lesson quiz",
+            "order": 3,
+            "content": {
+                "section": "quiz",
+                "quizId": "quiz_b1_u3_l1"
+            }
+        }
+    ],
+    "quiz": {
+        "id": "quiz_b1_u3_l1",
+        "lessonId": "b1-u3-l1",
+        "title": "Read simple syllables quiz",
+        "passingScore": 70
+    },
+    "quizQuestions": [
+        {
+            "id": "quiz_b1_u3_l1_q1",
+            "quizId": "quiz_b1_u3_l1",
+            "type": "multiple_choice",
+            "prompt": "Which row belongs to the i series?",
+            "helper": "Choose the correct syllable row.",
+            "options": [
+                "би ви ги ди жи зи ли ми ни ри си ти хи чи ши",
+                "ба ва га да жа за ла ма на ра са та ха ца ча ша",
+                "ом, он, ол, ор, ос, ов, ох, од, от",
+                "эм, эн, эл, эр, эс, эв, эх, эд, эт"
+            ],
+            "correctAnswer": "би ви ги ди жи зи ли ми ни ри си ти хи чи ши",
+            "explanation": "That row uses и in the syllables.",
+            "xpReward": 3,
+            "order": 1
+        },
+        {
+            "id": "quiz_b1_u3_l1_q2",
+            "quizId": "quiz_b1_u3_l1",
+            "type": "multiple_choice",
+            "prompt": "Which item is a closed syllable?",
+            "helper": "Choose the syllable that ends with a consonant.",
+            "options": ["ба", "би", "ам", "бө"],
+            "correctAnswer": "ам",
+            "explanation": "ам ends with a consonant, so it is a closed syllable.",
+            "xpReward": 3,
+            "order": 2
+        },
+        {
+            "id": "quiz_b1_u3_l1_q3",
+            "quizId": "quiz_b1_u3_l1",
+            "type": "multiple_choice",
+            "prompt": "Which row practices front rounded syllables?",
+            "helper": "Choose the row with ө.",
+            "options": [
+                "бө вө гө дө жө зө лө мө нө рө сө тө хө цө чө шө",
+                "ам, ан, ал, ар, ас, ав, ах, ад, ат",
+                "ба ва га да жа за ла ма на ра са та ха ца ча ша",
+                "ом, он, ол, ор, ос, ов, ох, од, от"
+            ],
+            "correctAnswer": "бө вө гө дө жө зө лө мө нө рө сө тө хө цө чө шө",
+            "explanation": "That row practices syllables with ө.",
+            "xpReward": 3,
+            "order": 3
+        }
+    ]
+}

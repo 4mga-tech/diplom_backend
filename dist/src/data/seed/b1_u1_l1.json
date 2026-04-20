@@ -1,0 +1,200 @@
+{
+    "lesson": {
+        "id": "b1-u1-l1",
+        "unitId": "b1-u1",
+        "title": "Cyrillic overview",
+        "subtitle": "What Mongolian Cyrillic is and the basic vowel set",
+        "order": 1,
+        "xpReward": 20,
+        "quizXpReward": 9
+    },
+    "contents": [
+        {
+            "id": "b1-u1-l1-c1",
+            "lessonId": "b1-u1-l1",
+            "type": "text",
+            "title": "Introduction",
+            "order": 1,
+            "content": {
+                "section": "reading",
+                "textEn": "Modern Mongolian uses the Cyrillic script. The Mongolian Cyrillic alphabet has 35 letters: vowels, consonants, and two sign letters."
+            }
+        },
+        {
+            "id": "b1-u1-l1-c2",
+            "lessonId": "b1-u1-l1",
+            "type": "vocab_list",
+            "title": "Key terms",
+            "order": 2,
+            "content": {
+                "section": "reading",
+                "items": [
+                    { "word": "цагаан толгой", "meaning": "alphabet" },
+                    { "word": "үсэг", "meaning": "letter" },
+                    { "word": "эгшиг", "meaning": "vowel" },
+                    { "word": "гийгүүлэгч", "meaning": "consonant" }
+                ]
+            }
+        },
+        {
+            "id": "b1-u1-l1-c3",
+            "lessonId": "b1-u1-l1",
+            "type": "alphabet_table",
+            "title": "Basic vowels",
+            "order": 3,
+            "content": {
+                "section": "reading",
+                "columns": [
+                    "printUpper",
+                    "printLower",
+                    "cursiveUpper",
+                    "cursiveLower",
+                    "nameMn",
+                    "transcription",
+                    "pronunciation"
+                ],
+                "letters": [
+                    {
+                        "index": 1,
+                        "printUpper": "А",
+                        "printLower": "а",
+                        "cursiveUpper": "А",
+                        "cursiveLower": "а",
+                        "nameMn": "а",
+                        "transcription": "a",
+                        "pronunciation": "[a]",
+                        "group": "vowel",
+                        "audioUrl": ""
+                    },
+                    {
+                        "index": 2,
+                        "printUpper": "Э",
+                        "printLower": "э",
+                        "cursiveUpper": "Э",
+                        "cursiveLower": "э",
+                        "nameMn": "э",
+                        "transcription": "e",
+                        "pronunciation": "[e]",
+                        "group": "vowel",
+                        "audioUrl": ""
+                    },
+                    {
+                        "index": 3,
+                        "printUpper": "И",
+                        "printLower": "и",
+                        "cursiveUpper": "И",
+                        "cursiveLower": "и",
+                        "nameMn": "и",
+                        "transcription": "i",
+                        "pronunciation": "[i]",
+                        "group": "vowel",
+                        "audioUrl": ""
+                    },
+                    {
+                        "index": 4,
+                        "printUpper": "О",
+                        "printLower": "о",
+                        "cursiveUpper": "О",
+                        "cursiveLower": "о",
+                        "nameMn": "о",
+                        "transcription": "o",
+                        "pronunciation": "[o]",
+                        "group": "vowel",
+                        "audioUrl": ""
+                    },
+                    {
+                        "index": 5,
+                        "printUpper": "У",
+                        "printLower": "у",
+                        "cursiveUpper": "У",
+                        "cursiveLower": "у",
+                        "nameMn": "у",
+                        "transcription": "u",
+                        "pronunciation": "[u]",
+                        "group": "vowel",
+                        "audioUrl": ""
+                    },
+                    {
+                        "index": 6,
+                        "printUpper": "Ө",
+                        "printLower": "ө",
+                        "cursiveUpper": "Ө",
+                        "cursiveLower": "ө",
+                        "nameMn": "ө",
+                        "transcription": "oe",
+                        "pronunciation": "[oe]",
+                        "group": "vowel",
+                        "audioUrl": ""
+                    },
+                    {
+                        "index": 7,
+                        "printUpper": "Ү",
+                        "printLower": "ү",
+                        "cursiveUpper": "Ү",
+                        "cursiveLower": "ү",
+                        "nameMn": "ү",
+                        "transcription": "ue",
+                        "pronunciation": "[ue]",
+                        "group": "vowel",
+                        "audioUrl": ""
+                    }
+                ]
+            }
+        },
+        {
+            "id": "b1-u1-l1-c4",
+            "lessonId": "b1-u1-l1",
+            "type": "quiz_link",
+            "title": "Lesson quiz",
+            "order": 4,
+            "content": {
+                "section": "quiz",
+                "quizId": "quiz_b1_u1_l1"
+            }
+        }
+    ],
+    "quiz": {
+        "id": "quiz_b1_u1_l1",
+        "lessonId": "b1-u1-l1",
+        "title": "Cyrillic overview quiz",
+        "passingScore": 70
+    },
+    "quizQuestions": [
+        {
+            "id": "quiz_b1_u1_l1_q1",
+            "quizId": "quiz_b1_u1_l1",
+            "type": "multiple_choice",
+            "prompt": "How many letters are in the Mongolian Cyrillic alphabet?",
+            "helper": "Choose the correct number.",
+            "options": ["33", "35", "37", "42"],
+            "correctAnswer": "35",
+            "explanation": "The Mongolian Cyrillic alphabet has 35 letters.",
+            "xpReward": 3,
+            "order": 1
+        },
+        {
+            "id": "quiz_b1_u1_l1_q2",
+            "quizId": "quiz_b1_u1_l1",
+            "type": "multiple_choice",
+            "prompt": "Which letter is one of the basic vowels?",
+            "helper": "Pick the vowel.",
+            "options": ["М", "Ө", "Р", "С"],
+            "correctAnswer": "Ө",
+            "explanation": "Ө is one of the basic vowels.",
+            "xpReward": 3,
+            "order": 2
+        },
+        {
+            "id": "quiz_b1_u1_l1_q3",
+            "quizId": "quiz_b1_u1_l1",
+            "type": "multiple_choice",
+            "prompt": "What does \"цагаан толгой\" mean?",
+            "helper": "Use the key terms section.",
+            "options": ["alphabet", "sentence", "sound", "word"],
+            "correctAnswer": "alphabet",
+            "explanation": "\"Цагаан толгой\" means alphabet.",
+            "xpReward": 3,
+            "order": 3
+        }
+    ]
+}

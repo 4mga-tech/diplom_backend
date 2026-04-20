@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.findQuizQuestionsByQuizId = exports.findQuizById = exports.findQuizByLessonId = exports.findContentsByLessonId = exports.findLessonsByUnitIds = exports.findLessonById = exports.findLessonsByUnitId = exports.findUnitsByCourseId = exports.findUnitById = exports.findCourseById = void 0;
+exports.findQuizQuestionsByQuizId = exports.findQuizById = exports.findQuizzesByLessonIds = exports.findQuizByLessonId = exports.findContentsByLessonId = exports.findLessonsByUnitIds = exports.findLessonById = exports.findLessonsByUnitId = exports.findUnitsByCourseId = exports.findUnitById = exports.findCourseById = void 0;
 const course_model_1 = require("./course.model");
 const unit_model_1 = require("./unit.model");
 const lesson_model_1 = require("./lesson.model");
@@ -23,6 +23,8 @@ const findContentsByLessonId = (lessonId) => lesson_content_model_1.LessonConten
 exports.findContentsByLessonId = findContentsByLessonId;
 const findQuizByLessonId = (lessonId) => quiz_model_1.Quiz.findOne({ lessonId }).lean();
 exports.findQuizByLessonId = findQuizByLessonId;
+const findQuizzesByLessonIds = (lessonIds) => quiz_model_1.Quiz.find({ lessonId: { $in: lessonIds } }).lean();
+exports.findQuizzesByLessonIds = findQuizzesByLessonIds;
 const findQuizById = (quizId) => quiz_model_1.Quiz.findOne({ id: quizId }).lean();
 exports.findQuizById = findQuizById;
 const findQuizQuestionsByQuizId = (quizId) => quiz_question_model_1.QuizQuestion.find({ quizId }).sort({ order: 1 }).lean();

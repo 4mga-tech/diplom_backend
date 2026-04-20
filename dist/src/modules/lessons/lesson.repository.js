@@ -1,11 +1,13 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.getQuizQuestions = exports.getQuizById = exports.getQuizForLesson = exports.getLessonContents = exports.getLessonById = exports.getLessonsForUnit = exports.getUnitById = void 0;
+exports.getQuizQuestions = exports.getQuizById = exports.getQuizzesForLessons = exports.getQuizForLesson = exports.getLessonContents = exports.getLessonById = exports.getLessonsForUnit = exports.getUnitsForCourse = exports.getUnitById = void 0;
 const learning_repository_1 = require("../learning/learning.repository");
 exports.getUnitById = learning_repository_1.findUnitById;
+exports.getUnitsForCourse = learning_repository_1.findUnitsByCourseId;
 exports.getLessonsForUnit = learning_repository_1.findLessonsByUnitId;
 exports.getLessonById = learning_repository_1.findLessonById;
 exports.getLessonContents = learning_repository_1.findContentsByLessonId;
 exports.getQuizForLesson = learning_repository_1.findQuizByLessonId;
+exports.getQuizzesForLessons = learning_repository_1.findQuizzesByLessonIds;
 exports.getQuizById = learning_repository_1.findQuizById;
 exports.getQuizQuestions = learning_repository_1.findQuizQuestionsByQuizId;

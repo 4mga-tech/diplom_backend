@@ -1,0 +1,177 @@
+{
+    "lesson": {
+        "id": "b1-u1-l2",
+        "unitId": "b1-u1",
+        "title": "Handwriting and tracing",
+        "subtitle": "Print and cursive practice for core letters",
+        "order": 2,
+        "xpReward": 20,
+        "quizXpReward": 9
+    },
+    "contents": [
+        {
+            "id": "b1-u1-l2-c1",
+            "lessonId": "b1-u1-l2",
+            "type": "text",
+            "title": "Print and cursive",
+            "order": 1,
+            "content": {
+                "section": "reading",
+                "textEn": "Practice seeing the same letter in print and cursive. Focus on accurate shape before speed."
+            }
+        },
+        {
+            "id": "b1-u1-l2-c2",
+            "lessonId": "b1-u1-l2",
+            "type": "alphabet_table",
+            "title": "Tracing set",
+            "order": 2,
+            "content": {
+                "section": "reading",
+                "columns": [
+                    "printUpper",
+                    "printLower",
+                    "cursiveUpper",
+                    "cursiveLower",
+                    "nameMn",
+                    "transcription"
+                ],
+                "letters": [
+                    {
+                        "index": 1,
+                        "printUpper": "А",
+                        "printLower": "а",
+                        "cursiveUpper": "А",
+                        "cursiveLower": "а",
+                        "nameMn": "а",
+                        "transcription": "a"
+                    },
+                    {
+                        "index": 2,
+                        "printUpper": "Э",
+                        "printLower": "э",
+                        "cursiveUpper": "Э",
+                        "cursiveLower": "э",
+                        "nameMn": "э",
+                        "transcription": "e"
+                    },
+                    {
+                        "index": 3,
+                        "printUpper": "И",
+                        "printLower": "и",
+                        "cursiveUpper": "И",
+                        "cursiveLower": "и",
+                        "nameMn": "и",
+                        "transcription": "i"
+                    },
+                    {
+                        "index": 4,
+                        "printUpper": "М",
+                        "printLower": "м",
+                        "cursiveUpper": "М",
+                        "cursiveLower": "м",
+                        "nameMn": "эм",
+                        "transcription": "m"
+                    },
+                    {
+                        "index": 5,
+                        "printUpper": "Н",
+                        "printLower": "н",
+                        "cursiveUpper": "Н",
+                        "cursiveLower": "н",
+                        "nameMn": "эн",
+                        "transcription": "n"
+                    },
+                    {
+                        "index": 6,
+                        "printUpper": "Л",
+                        "printLower": "л",
+                        "cursiveUpper": "Л",
+                        "cursiveLower": "л",
+                        "nameMn": "эл",
+                        "transcription": "l"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "b1-u1-l2-c3",
+            "lessonId": "b1-u1-l2",
+            "type": "exercise_write",
+            "title": "Tracing practice",
+            "order": 3,
+            "content": {
+                "section": "exercises",
+                "instructionEn": "Trace and copy each letter pair and syllable.",
+                "letters": [
+                    "Аа",
+                    "Ээ",
+                    "Ии",
+                    "Мм",
+                    "Нн",
+                    "Лл",
+                    "ма",
+                    "на",
+                    "ла",
+                    "ми",
+                    "нэ"
+                ]
+            }
+        },
+        {
+            "id": "b1-u1-l2-c4",
+            "lessonId": "b1-u1-l2",
+            "type": "quiz_link",
+            "title": "Lesson quiz",
+            "order": 4,
+            "content": {
+                "section": "quiz",
+                "quizId": "quiz_b1_u1_l2"
+            }
+        }
+    ],
+    "quiz": {
+        "id": "quiz_b1_u1_l2",
+        "lessonId": "b1-u1-l2",
+        "title": "Handwriting and tracing quiz",
+        "passingScore": 70
+    },
+    "quizQuestions": [
+        {
+            "id": "quiz_b1_u1_l2_q1",
+            "quizId": "quiz_b1_u1_l2",
+            "type": "multiple_choice",
+            "prompt": "Which option shows the uppercase and lowercase of the same letter?",
+            "helper": "Choose the matching pair.",
+            "options": ["А а", "А э", "М н", "И л"],
+            "correctAnswer": "А а",
+            "explanation": "А and а are the uppercase and lowercase forms of the same letter.",
+            "xpReward": 3,
+            "order": 1
+        },
+        {
+            "id": "quiz_b1_u1_l2_q2",
+            "quizId": "quiz_b1_u1_l2",
+            "type": "multiple_choice",
+            "prompt": "Which item belongs in tracing practice?",
+            "helper": "Choose the letter pair.",
+            "options": ["Аа", "alphabet", "vowel", "35"],
+            "correctAnswer": "Аа",
+            "explanation": "Tracing practice uses letter pairs such as Аа.",
+            "xpReward": 3,
+            "order": 2
+        },
+        {
+            "id": "quiz_b1_u1_l2_q3",
+            "quizId": "quiz_b1_u1_l2",
+            "type": "multiple_choice",
+            "prompt": "Which row contains only letters used in the tracing set?",
+            "helper": "Choose the correct row.",
+            "options": ["М, Н, Л", "Ю, Я, Щ", "К, П, Ф", "Ъ, Ь, Ё"],
+            "correctAnswer": "М, Н, Л",
+            "explanation": "М, Н, Л are all included in the tracing set.",
+            "xpReward": 3,
+            "order": 3
+        }
+    ]
+}
