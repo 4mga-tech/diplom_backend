@@ -1,0 +1,110 @@
+{
+  "lesson": {
+    "id": "m1-u3-l3",
+    "unitId": "m1-u3",
+    "title": "Эгшиг зохицох ёсны онцгой тохиолдол",
+    "subtitle": "Exception ба хэрэглээ",
+    "order": 3,
+    "xpReward": 25,
+    "quizXpReward": 12
+  },
+  "contents": [
+    {
+      "id": "m1-u3-l3-c1",
+      "lessonId": "m1-u3-l3",
+      "type": "grammar_note",
+      "title": "Онцгой тохиолдлууд",
+      "order": 1,
+      "content": {
+        "section": "grammar",
+        "notes": [
+          "Үгүйсгэх -гүй/-гү suffix нь эр, эм язгуур хоёуланд залгагдаж болно.",
+          "Өнгөрсөн цагийн -жээ/-чээ хэлбэр нь эр, эм язгуурт хоёуланд нь хэрэглэгдэж болно.",
+          "Зарим хүн, газрын нэр хоёр тусдаа үгнээс бүтсэн тул дүрэм зөрчсөн мэт харагдаж болно."
+        ]
+      }
+    },
+    {
+      "id": "m1-u3-l3-c2",
+      "lessonId": "m1-u3-l3",
+      "type": "text",
+      "title": "Жишээ",
+      "order": 2,
+      "content": {
+        "section": "reading",
+        "textMn": "байхгүй, уучээ, нарийнсэтгэл, Өвөрхангай зэрэг жишээн дээр exception-уудыг ажиглаарай.",
+        "textEn": "Observe examples such as байхгүй, уучээ, and place names that appear to break the rule."
+      }
+    },
+    {
+      "id": "m1-u3-l3-c3",
+      "lessonId": "m1-u3-l3",
+      "type": "quiz_link",
+      "title": "Нэгжийн шалгалт",
+      "order": 3,
+      "content": {
+        "section": "quiz",
+        "quizId": "quiz_m1_u3_l3"
+      }
+    }
+  ],
+  "quiz": {
+    "id": "quiz_m1_u3_l3",
+    "lessonId": "m1-u3-l3",
+    "title": "Эгшиг зохицох ёсны онцгой тохиолдол - Quiz",
+    "passingScore": 70
+  },
+  "quizQuestions": [
+    {
+      "id": "quiz_m1_u3_l3_q1",
+      "quizId": "quiz_m1_u3_l3",
+      "type": "multiple_choice",
+      "prompt": "Аль suffix нь эр, эм язгуур хоёуланд залгагдаж болдог онцгой жишээ вэ?",
+      "helper": "Exception хэсгийг санаарай.",
+      "options": [
+        "-тай",
+        "-гүй/-гү",
+        "-ын",
+        "-руу"
+      ],
+      "correctAnswer": "-гүй/-гү",
+      "explanation": "Үгүйсгэх -гүй/-гү нь онцгой жишээ болно.",
+      "xpReward": 4,
+      "order": 1
+    },
+    {
+      "id": "quiz_m1_u3_l3_q2",
+      "quizId": "quiz_m1_u3_l3",
+      "type": "multiple_choice",
+      "prompt": "Аль нь exception тайлбарын жишээ вэ?",
+      "helper": "Жишээнүүдийг хар.",
+      "options": [
+        "Өвөрхангай",
+        "ном",
+        "ус",
+        "ам"
+      ],
+      "correctAnswer": "Өвөрхангай",
+      "explanation": "Зарим газрын нэр дүрэм зөрчсөн мэт харагдах онцгой жишээ болно.",
+      "xpReward": 4,
+      "order": 2
+    },
+    {
+      "id": "quiz_m1_u3_l3_q3",
+      "quizId": "quiz_m1_u3_l3",
+      "type": "multiple_choice",
+      "prompt": "-жээ/-чээ ямар онцлогтой вэ?",
+      "helper": "Exception note-ыг сана.",
+      "options": [
+        "зөвхөн эр үгэнд",
+        "зөвхөн эм үгэнд",
+        "эр, эм язгуурт аль алинд нь байж болно",
+        "зөвхөн гадаад үгэнд"
+      ],
+      "correctAnswer": "эр, эм язгуурт аль алинд нь байж болно",
+      "explanation": "-жээ/-чээ нь эр, эм язгуурт аль алинд нь хэрэглэгдэж болно.",
+      "xpReward": 4,
+      "order": 3
+    }
+  ]
+}

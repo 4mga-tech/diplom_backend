@@ -1,6 +1,7 @@
-import { awardXpOnce, syncUserStreak } from "../progress/progress.helpers";
+import { syncUserStreak } from "../progress/progress.helpers";
 import { findUserProgress, listUserProgress } from "../progress/progress.repository";
 import { AnswerPayload } from "../progress/progress.types";
+import { applyXpChangeOnce } from "../progress/xp.service";
 import { findDailyReviewByDateKey, findDailyReviewByReviewId } from "./review.repository";
 
 const normalizeAnswer = (value: unknown) => {
@@ -85,9 +86,9 @@ export const submitTodayReview = async (
     (await listUserProgress(userId)).map(async (item) => (await findUserProgress(userId, item.courseId))!),
   );
 
-  const xpResult = await awardXpOnce({
+  const xpResult = await applyXpChangeOnce({
     userId,
-    sourceType: "review_submit",
+    sourceType: "review_reward",
     sourceId: canonicalReviewId,
     xp: totalReviewXp,
     progress: null,
@@ -107,7 +108,7 @@ export const submitTodayReview = async (
     correctCount,
     totalQuestions,
     score,
-    xpGained: xpResult.xpGained,
+    xpGained: xpResult.xpDelta,
     totalXp: xpResult.totalXp,
     results: results.map(({ xpReward, ...result }) => result),
   };

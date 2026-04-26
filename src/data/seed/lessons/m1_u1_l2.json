@@ -1,0 +1,158 @@
+{
+  "lesson": {
+    "id": "m1-u1-l2",
+    "unitId": "m1-u1",
+    "title": "Эгшгийн дуудлага ба үе",
+    "subtitle": "Эгшиг, хослол, үе унших",
+    "order": 2,
+    "xpReward": 20,
+    "quizXpReward": 9
+  },
+  "contents": [
+    {
+      "id": "m1-u1-l2-c1",
+      "lessonId": "m1-u1-l2",
+      "type": "exercise_repeat",
+      "title": "Сонсоод, дагаад уншаарай",
+      "order": 1,
+      "content": {
+        "section": "listening",
+        "instructionMn": "Эгшиг ба үеийг сонсоод дагаж уншаарай.",
+        "instructionEn": "Listen and repeat the vowels and syllables.",
+        "rows": [
+          {
+            "prompt": "Эгшиг",
+            "line": "а, о, у, и, э, ө, ү, е, ё, й, ы, ю, я",
+            "audioUrl": ""
+          },
+          {
+            "prompt": "Хос эгшиг",
+            "line": "ай, ой, уй, эй, үй",
+            "audioUrl": ""
+          },
+          {
+            "prompt": "Урт эгшиг",
+            "line": "аа, оо, уу, ий, ээ, өө, үү",
+            "audioUrl": ""
+          },
+          {
+            "prompt": "Үе",
+            "line": "ма, на, ла, ра, са, ша, ва, ха, да, та",
+            "audioUrl": ""
+          },
+          {
+            "prompt": "Үе",
+            "line": "мө, нө, лө, рө, сө, шө, вө, хө, дө, тө",
+            "audioUrl": ""
+          }
+        ]
+      }
+    },
+    {
+      "id": "m1-u1-l2-c2",
+      "lessonId": "m1-u1-l2",
+      "type": "vocab_list",
+      "title": "Шинэ үг",
+      "order": 2,
+      "content": {
+        "section": "reading",
+        "items": [
+          {
+            "word": "ам",
+            "meaning": "mouth"
+          },
+          {
+            "word": "нас",
+            "meaning": "age"
+          },
+          {
+            "word": "нар",
+            "meaning": "sun"
+          },
+          {
+            "word": "сар",
+            "meaning": "moon"
+          },
+          {
+            "word": "ус",
+            "meaning": "water"
+          },
+          {
+            "word": "хүн",
+            "meaning": "person"
+          }
+        ]
+      }
+    },
+    {
+      "id": "m1-u1-l2-c3",
+      "lessonId": "m1-u1-l2",
+      "type": "quiz_link",
+      "title": "Шалгалт",
+      "order": 3,
+      "content": {
+        "section": "quiz",
+        "quizId": "quiz_m1_u1_l2"
+      }
+    }
+  ],
+  "quiz": {
+    "id": "quiz_m1_u1_l2",
+    "lessonId": "m1-u1-l2",
+    "title": "Эгшгийн дуудлага - Quiz",
+    "passingScore": 70
+  },
+  "quizQuestions": [
+    {
+      "id": "quiz_m1_u1_l2_q1",
+      "quizId": "quiz_m1_u1_l2",
+      "type": "multiple_choice",
+      "prompt": "Аль нь хос эгшгийн жишээ вэ?",
+      "helper": "Зөвийг сонго.",
+      "options": [
+        "аа",
+        "ай",
+        "ө",
+        "у"
+      ],
+      "correctAnswer": "ай",
+      "explanation": "Ай нь хос эгшиг юм.",
+      "xpReward": 3,
+      "order": 1
+    },
+    {
+      "id": "quiz_m1_u1_l2_q2",
+      "quizId": "quiz_m1_u1_l2",
+      "type": "multiple_choice",
+      "prompt": "“ус” ямар утгатай вэ?",
+      "helper": "Шинэ үг хэсгийг хар.",
+      "options": [
+        "sun",
+        "person",
+        "water",
+        "mouth"
+      ],
+      "correctAnswer": "water",
+      "explanation": "“ус” нь water гэсэн утгатай.",
+      "xpReward": 3,
+      "order": 2
+    },
+    {
+      "id": "quiz_m1_u1_l2_q3",
+      "quizId": "quiz_m1_u1_l2",
+      "type": "multiple_choice",
+      "prompt": "Аль мөр нь урт эгшиг агуулж байна?",
+      "helper": "Урт эгшгийг сонго.",
+      "options": [
+        "аа, оо, уу",
+        "ай, ой, уй",
+        "а, о, у",
+        "ма, на, ла"
+      ],
+      "correctAnswer": "аа, оо, уу",
+      "explanation": "Аа, оо, уу нь урт эгшиг юм.",
+      "xpReward": 3,
+      "order": 3
+    }
+  ]
+}

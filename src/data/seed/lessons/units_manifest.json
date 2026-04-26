@@ -1,0 +1,34 @@
+[
+  {
+    "id": "b1-u1",
+    "courseId": "b1",
+    "title": "Unit 1: Mongolian Cyrillic",
+    "subtitle": "Introduction, classification, writing, reading, final exam",
+    "description": "Learn the Mongolian Cyrillic alphabet through letter recognition, classification, tracing, pronunciation drills, and simple word building.",
+    "order": 1
+  },
+  {
+    "id": "m1-u1",
+    "courseId": "m1",
+    "title": "Unit 1: Vowels (1)",
+    "subtitle": "Basic and auxiliary vowels",
+    "description": "Classify vowels, practice pronunciation, and build a basic vowel vocabulary.",
+    "order": 1
+  },
+  {
+    "id": "m1-u2",
+    "courseId": "m1",
+    "title": "Unit 2: Vowel Sounds",
+    "subtitle": "Short, long, and diphthong vowels",
+    "description": "Learn vowel sound types and practice distinguishing and writing them.",
+    "order": 2
+  },
+  {
+    "id": "m1-u3",
+    "courseId": "m1",
+    "title": "Unit 3: Vowel Harmony",
+    "subtitle": "Rules, sequences, and exceptions",
+    "description": "Study vowel harmony rules, sequence patterns, and common exceptions.",
+    "order": 3
+  }
+]

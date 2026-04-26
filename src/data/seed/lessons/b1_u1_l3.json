@@ -1,0 +1,77 @@
+{
+  "lesson": {
+    "id": "b1-u1-l3",
+    "unitId": "b1-u1",
+    "title": "Letter Tracing",
+    "subtitle": "Practice letters by group",
+    "order": 3,
+    "xpReward": 20,
+    "quizXpReward": 0
+  },
+  "contents": [
+    {
+      "id": "b1-u1-l3-c1",
+      "lessonId": "b1-u1-l3",
+      "type": "text",
+      "title": "How To Practice",
+      "order": 1,
+      "content": {
+        "section": "exercises",
+        "textMn": "Бүлэг бүрийг тусад нь давтаж бич. Том, жижиг үсгийг хамт бичээрэй.",
+        "textEn": "Trace each group separately. Write uppercase and lowercase together."
+      }
+    },
+    {
+      "id": "b1-u1-l3-c2",
+      "lessonId": "b1-u1-l3",
+      "type": "exercise_write",
+      "title": "Basic Vowels",
+      "order": 2,
+      "content": {
+        "section": "exercises",
+        "instructionMn": "Үндсэн эгшгийг мөр мөрөөр давтаж бич.",
+        "instructionEn": "Trace the basic vowels line by line.",
+        "letters": ["Аа", "Ээ", "Ии", "Оо", "Уу", "Өө", "Үү"]
+      }
+    },
+    {
+      "id": "b1-u1-l3-c3",
+      "lessonId": "b1-u1-l3",
+      "type": "exercise_write",
+      "title": "Auxiliary Vowels",
+      "order": 3,
+      "content": {
+        "section": "exercises",
+        "instructionMn": "Туслах эгшгийг тусад нь бичиж хэвш.",
+        "instructionEn": "Practice the auxiliary vowels as a separate group.",
+        "letters": ["Ее", "Ёё", "Йй", "Ыы", "Юю", "Яя"]
+      }
+    },
+    {
+      "id": "b1-u1-l3-c4",
+      "lessonId": "b1-u1-l3",
+      "type": "exercise_write",
+      "title": "Consonants",
+      "order": 4,
+      "content": {
+        "section": "exercises",
+        "instructionMn": "Гийгүүлэгчийг багцлан бич.",
+        "instructionEn": "Trace the consonants in one group.",
+        "letters": ["Бб", "Вв", "Гг", "Дд", "Жж", "Зз", "Кк", "Лл", "Мм", "Нн", "Пп", "Рр", "Сс", "Тт", "Фф", "Хх", "Цц", "Чч", "Шш", "Щщ"]
+      }
+    },
+    {
+      "id": "b1-u1-l3-c5",
+      "lessonId": "b1-u1-l3",
+      "type": "exercise_write",
+      "title": "Sign Letters",
+      "order": 5,
+      "content": {
+        "section": "exercises",
+        "instructionMn": "Тэмдэг үсгийг сүүлд нь давт.",
+        "instructionEn": "Finish with the sign letters.",
+        "letters": ["Ъъ", "Ьь"]
+      }
+    }
+  ]
+}

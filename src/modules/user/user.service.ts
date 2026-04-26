@@ -21,7 +21,7 @@ export const updateUserProfile = async (
   const user = await User.findByIdAndUpdate(
     userId,
     data,
-    { new: true }
+    { returnDocument: "after" }
   ).select("-passwordHash");
 
   if (!user) {

@@ -1,0 +1,70 @@
+{
+  "lesson": {
+    "id": "b1-u1-l2",
+    "unitId": "b1-u1",
+    "title": "Alphabet Classification",
+    "subtitle": "Vowels, consonants, and sign letters",
+    "order": 2,
+    "xpReward": 20,
+    "quizXpReward": 0
+  },
+  "contents": [
+    {
+      "id": "b1-u1-l2-c1",
+      "lessonId": "b1-u1-l2",
+      "type": "text",
+      "title": "Overview",
+      "order": 1,
+      "content": {
+        "section": "reading",
+        "textMn": "Үсгийг бүлгээр нь сурвал таних, унших, бичихэд амар болно.",
+        "textEn": "Learning letters by group makes recognition, reading, and writing easier."
+      }
+    },
+    {
+      "id": "b1-u1-l2-c2",
+      "lessonId": "b1-u1-l2",
+      "type": "classification",
+      "title": "Letter Groups",
+      "order": 2,
+      "content": {
+        "section": "reading",
+        "summary": "Монгол кирилл үсгийг үндсэн 5 бүлгээр хар.",
+        "groups": [
+          {
+            "title": "13 vowels",
+            "items": ["А", "О", "У", "И", "Э", "Ө", "Ү", "Й", "Ы", "Е", "Ё", "Ю", "Я"]
+          },
+          {
+            "title": "7 basic vowels",
+            "items": ["А", "Э", "И", "О", "У", "Ө", "Ү"]
+          },
+          {
+            "title": "6 auxiliary vowels",
+            "items": ["Е", "Ё", "Й", "Ы", "Ю", "Я"]
+          },
+          {
+            "title": "20 consonants",
+            "items": ["Б", "В", "Г", "Д", "Ж", "З", "К", "Л", "М", "Н", "П", "Р", "С", "Т", "Ф", "Х", "Ц", "Ч", "Ш", "Щ"]
+          },
+          {
+            "title": "2 sign letters",
+            "items": ["Ъ", "Ь"]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b1-u1-l2-c3",
+      "lessonId": "b1-u1-l2",
+      "type": "text",
+      "title": "Study Tip",
+      "order": 3,
+      "content": {
+        "section": "reading",
+        "textMn": "Эхлээд эгшиг, дараа нь гийгүүлэгч, хамгийн сүүлд тэмдэг үсгийг давт.",
+        "textEn": "Review vowels first, then consonants, and sign letters last."
+      }
+    }
+  ]
+}

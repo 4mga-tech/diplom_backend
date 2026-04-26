@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.submitQuizHandler = void 0;
+exports.spendQuizHintHandler = exports.submitQuizHandler = void 0;
 const apiResponse_1 = require("../../utils/apiResponse");
 const quiz_service_1 = require("./quiz.service");
 const submitQuizHandler = async (req, res) => {
@@ -15,3 +15,21 @@ const submitQuizHandler = async (req, res) => {
     }
 };
 exports.submitQuizHandler = submitQuizHandler;
+const spendQuizHintHandler = async (req, res) => {
+    try {
+        const quizId = String(req.params.quizId);
+        const questionId = String(req.params.questionId);
+        const attemptId = String(req.body.attemptId ?? "");
+        const data = await (0, quiz_service_1.spendXpForQuizHint)({
+            userId: req.userId,
+            quizId,
+            questionId,
+            attemptId,
+        });
+        res.json((0, apiResponse_1.successResponse)(data));
+    }
+    catch (error) {
+        res.status(400).json({ success: false, message: error.message });
+    }
+};
+exports.spendQuizHintHandler = spendQuizHintHandler;

@@ -1,0 +1,153 @@
+{
+  "lesson": {
+    "id": "m1-u3-l1",
+    "unitId": "m1-u3",
+    "title": "Эгшиг зохицох ёс",
+    "subtitle": "Тодорхойлолт ба үндсэн дүрэм",
+    "order": 1,
+    "xpReward": 20,
+    "quizXpReward": 9
+  },
+  "contents": [
+    {
+      "id": "m1-u3-l1-c1",
+      "lessonId": "m1-u3-l1",
+      "type": "text",
+      "title": "Тодорхойлолт",
+      "order": 1,
+      "content": {
+        "section": "reading",
+        "textMn": "Эгшиг амны хөндийн байрлалаар эр, эм гэж ангилагдаж, нэг язгуур, үндэс, түүний нөхцөлүүд дотор ижил зохицолтой байна. Үүнийг эгшиг зохицох ёс гэнэ.",
+        "textEn": "Vowels are classified along a front/back dimension and harmonize within the same root, stem, and suffixes. This rule is called vowel harmony."
+      }
+    },
+    {
+      "id": "m1-u3-l1-c2",
+      "lessonId": "m1-u3-l1",
+      "type": "classification",
+      "title": "Эр, эм, саармаг эгшиг",
+      "order": 2,
+      "content": {
+        "section": "reading",
+        "summary": "Эгшиг зохицох ёсны үндсэн бүлгүүд.",
+        "groups": [
+          {
+            "title": "Эр эгшиг",
+            "items": [
+              "а",
+              "о",
+              "у",
+              "я",
+              "ё",
+              "ю(у)"
+            ]
+          },
+          {
+            "title": "Эм эгшиг",
+            "items": [
+              "э",
+              "ө",
+              "ү",
+              "е",
+              "ю(ү)"
+            ]
+          },
+          {
+            "title": "Саармаг",
+            "items": [
+              "и",
+              "й"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "m1-u3-l1-c3",
+      "lessonId": "m1-u3-l1",
+      "type": "grammar_note",
+      "title": "Үндсэн дүрэм",
+      "order": 3,
+      "content": {
+        "section": "grammar",
+        "notes": [
+          "Нэг үгэнд эр ба эм эгшиг холилдохгүй.",
+          "Үйл үг, нэр үгийн нөхцөл тухайн үгийн эгшигтэй зохицно.",
+          "О нь а, у-ын дараа ордоггүй; а нь о-ын дараа ордоггүй.",
+          "Ө нь э, ү-тэй, э нь ө-тэй нэг язгуурт хамтрахгүй.",
+          "У, Ү нь үгийн эхний үед ордоггүй гэж сургалтын дүрэмд тайлбарласан."
+        ]
+      }
+    },
+    {
+      "id": "m1-u3-l1-c4",
+      "lessonId": "m1-u3-l1",
+      "type": "quiz_link",
+      "title": "Шалгалт",
+      "order": 4,
+      "content": {
+        "section": "quiz",
+        "quizId": "quiz_m1_u3_l1"
+      }
+    }
+  ],
+  "quiz": {
+    "id": "quiz_m1_u3_l1",
+    "lessonId": "m1-u3-l1",
+    "title": "Эгшиг зохицох ёс - Quiz",
+    "passingScore": 70
+  },
+  "quizQuestions": [
+    {
+      "id": "quiz_m1_u3_l1_q1",
+      "quizId": "quiz_m1_u3_l1",
+      "type": "multiple_choice",
+      "prompt": "Эгшиг зохицох ёс гэж юу вэ?",
+      "helper": "Тодорхойлолтыг санаарай.",
+      "options": [
+        "гийгүүлэгчийн ангилал",
+        "эгшгүүд язгуур ба нөхцөлдөө зохицох дүрэм",
+        "үсэг бичих дасгал",
+        "орчуулгын арга"
+      ],
+      "correctAnswer": "эгшгүүд язгуур ба нөхцөлдөө зохицох дүрэм",
+      "explanation": "Эгшиг зохицох ёс нь язгуур, үндэс, нөхцөл доторх эгшгийн зохицлын дүрэм юм.",
+      "xpReward": 3,
+      "order": 1
+    },
+    {
+      "id": "quiz_m1_u3_l1_q2",
+      "quizId": "quiz_m1_u3_l1",
+      "type": "multiple_choice",
+      "prompt": "Аль нь саармаг эгшиг вэ?",
+      "helper": "Зөв бүлгийг сонго.",
+      "options": [
+        "а",
+        "ө",
+        "и",
+        "ю"
+      ],
+      "correctAnswer": "и",
+      "explanation": "И эгшиг саармаг бүлэгт орно.",
+      "xpReward": 3,
+      "order": 2
+    },
+    {
+      "id": "quiz_m1_u3_l1_q3",
+      "quizId": "quiz_m1_u3_l1",
+      "type": "multiple_choice",
+      "prompt": "Нэг үгэнд эр ба эм эгшиг хамт орж болох уу?",
+      "helper": "Үндсэн дүрмийг сана.",
+      "options": [
+        "болно",
+        "болохгүй",
+        "зөвхөн туслах эгшигтэй бол болно",
+        "зөвхөн гадаад үгэнд"
+      ],
+      "correctAnswer": "болохгүй",
+      "explanation": "Сургалтын үндсэн дүрмээр нэг үгэнд эр ба эм эгшиг холилдохгүй.",
+      "xpReward": 3,
+      "order": 3
+    }
+  ]
+}

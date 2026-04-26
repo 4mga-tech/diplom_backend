@@ -1,0 +1,157 @@
+{
+  "lesson": {
+    "id": "m1-u2-l1",
+    "unitId": "m1-u2",
+    "title": "Эгшиг авианы ангилал",
+    "subtitle": "Богино, урт, хос эгшиг",
+    "order": 1,
+    "xpReward": 20,
+    "quizXpReward": 9
+  },
+  "contents": [
+    {
+      "id": "m1-u2-l1-c1",
+      "lessonId": "m1-u2-l1",
+      "type": "classification",
+      "title": "Эгшиг авианы ангилал",
+      "order": 1,
+      "content": {
+        "section": "reading",
+        "summary": "Эгшиг авиаг богино, урт, хос, туслах эгшиг гэж ангилна.",
+        "groups": [
+          {
+            "title": "Богино эгшиг",
+            "items": [
+              "а",
+              "э",
+              "о",
+              "у",
+              "ү",
+              "ө",
+              "и"
+            ]
+          },
+          {
+            "title": "Урт эгшиг",
+            "items": [
+              "аа",
+              "ээ",
+              "оо",
+              "уу",
+              "үү",
+              "өө"
+            ]
+          },
+          {
+            "title": "Хос эгшиг",
+            "items": [
+              "ай",
+              "эй",
+              "ой",
+              "уй",
+              "үй",
+              "ий"
+            ]
+          },
+          {
+            "title": "Туслах эгшиг",
+            "items": [
+              "я",
+              "е",
+              "ё",
+              "ю",
+              "ы",
+              "й"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "m1-u2-l1-c2",
+      "lessonId": "m1-u2-l1",
+      "type": "grammar_note",
+      "title": "Grammar notes",
+      "order": 2,
+      "content": {
+        "section": "grammar",
+        "notes": [
+          "Богино эгшиг эхний үеэс бусад үед бүдгэрч сонсогдож болно.",
+          "Урт эгшгийг хоёр ижил үсгээр тэмдэглэнэ.",
+          "Хос эгшгийн хоёр дахь элемент бүдэг сонсогдох нь бий.",
+          "Ы, ий нь зарим нөхцөлд өөр хэлбэрээр бичигдэнэ."
+        ]
+      }
+    },
+    {
+      "id": "m1-u2-l1-c3",
+      "lessonId": "m1-u2-l1",
+      "type": "quiz_link",
+      "title": "Шалгалт",
+      "order": 3,
+      "content": {
+        "section": "quiz",
+        "quizId": "quiz_m1_u2_l1"
+      }
+    }
+  ],
+  "quiz": {
+    "id": "quiz_m1_u2_l1",
+    "lessonId": "m1-u2-l1",
+    "title": "Эгшиг авианы ангилал - Quiz",
+    "passingScore": 70
+  },
+  "quizQuestions": [
+    {
+      "id": "quiz_m1_u2_l1_q1",
+      "quizId": "quiz_m1_u2_l1",
+      "type": "multiple_choice",
+      "prompt": "Аль нь урт эгшиг вэ?",
+      "helper": "Зөв хариултыг сонго.",
+      "options": [
+        "а",
+        "ай",
+        "аа",
+        "я"
+      ],
+      "correctAnswer": "аа",
+      "explanation": "Аа нь урт эгшиг юм.",
+      "xpReward": 3,
+      "order": 1
+    },
+    {
+      "id": "quiz_m1_u2_l1_q2",
+      "quizId": "quiz_m1_u2_l1",
+      "type": "multiple_choice",
+      "prompt": "Аль нь хос эгшиг вэ?",
+      "helper": "Дипфтонгийг сонго.",
+      "options": [
+        "ө",
+        "ий",
+        "ю",
+        "ээ"
+      ],
+      "correctAnswer": "ий",
+      "explanation": "Ий нь хос эгшгийн жишээ.",
+      "xpReward": 3,
+      "order": 2
+    },
+    {
+      "id": "quiz_m1_u2_l1_q3",
+      "quizId": "quiz_m1_u2_l1",
+      "type": "multiple_choice",
+      "prompt": "Урт эгшгийг яаж бичдэг вэ?",
+      "helper": "Grammar notes-ыг уншаарай.",
+      "options": [
+        "нэг үсгээр",
+        "хоёр ижил үсгээр",
+        "тэмдэгтэй бичнэ",
+        "зөвхөн туслах үсгээр"
+      ],
+      "correctAnswer": "хоёр ижил үсгээр",
+      "explanation": "Урт эгшгийг хоёр ижил үсгээр тэмдэглэнэ.",
+      "xpReward": 3,
+      "order": 3
+    }
+  ]
+}

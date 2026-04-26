@@ -1,5 +1,7 @@
 import { connectDB } from "../config/db";
 import { env } from "../config/env";
+import path from "node:path";
+import { promises as fs } from "node:fs";
 
 import { Course } from "../modules/learning/course.model";
 import { Unit } from "../modules/learning/unit.model";
@@ -12,32 +14,168 @@ import { DailyReview } from "../modules/review/daily-review.model";
 import { UserProgress } from "../modules/progress/user-progress.model";
 import { QuizAttempt } from "../modules/progress/quiz-attempt.model";
 import { XpLedger } from "../modules/progress/xp-ledger.model";
-import b1u1l1 from "../data/seed/b1_u1_l1.json";
-import b1u1l2 from "../data/seed/b1_u1_l2.json";
-import b1u1l3 from "../data/seed/b1_u1_l3.json";
-import b1u2l1 from "../data/seed/b1_u2_l1.json";
-import b1u2l2 from "../data/seed/b1_u2_l2.json";
-import b1u2l3 from "../data/seed/b1_u2_l3.json";
-import b1u3l1 from "../data/seed/b1_u3_l1.json";
-import b1u3l2 from "../data/seed/b1_u3_l2.json";
-import b1u3l3 from "../data/seed/b1_u3_l3.json";
 import Level from "../modules/content/level.model";
-import levelsManifest from "../data/seed/levels_manifest.json";
+import Vocabulary from "../modules/content/vocabulary.model";
+import {
+  SUPPORTED_VOCABULARY_LEVEL_IDS,
+  getVocabularyCountsByLevel,
+  loadVocabularySeedRecords,
+} from "../modules/content/vocabulary.seed";
 
-const b1LessonSeeds: any[] = [
-  b1u1l1,
-  b1u1l2,
-  b1u1l3,
-  b1u2l1,
-  b1u2l2,
-  b1u2l3,
-  b1u3l1,
-  b1u3l2,
-  b1u3l3,
-];
+type LevelSeed = {
+  id: string;
+  title: string;
+  subtitle?: string;
+  description?: string;
+  order?: number;
+  vocabularyReady?: boolean;
+  vocabularyCount?: number;
+  gradient?: string[];
+};
+
+type UnitSeed = {
+  id: string;
+  courseId: string;
+  title: string;
+  subtitle?: string;
+  description?: string;
+  order: number;
+};
+
+type LessonSeedBundle = {
+  lesson: {
+    id: string;
+    unitId: string;
+    title: string;
+    subtitle: string;
+    order: number;
+    xpReward: number;
+    quizXpReward: number;
+  };
+  contents: Array<{
+    id: string;
+    lessonId: string;
+    type: string;
+    title: string;
+    order: number;
+    content: unknown;
+  }>;
+  quiz?: {
+    id: string;
+    lessonId: string;
+    title: string;
+    passingScore: number;
+  };
+  quizQuestions?: Array<{
+    id: string;
+    quizId: string;
+    type: string;
+    prompt: string;
+    helper?: string;
+    options?: string[];
+    correctAnswer: unknown;
+    explanation?: string;
+    xpReward: number;
+    order: number;
+  }>;
+};
+
+const LESSON_SEED_DIR = path.resolve(process.cwd(), "src", "data", "seed", "lessons");
+
+const readJsonFile = async <T>(filePath: string) => {
+  const fileContents = await fs.readFile(filePath, "utf8");
+  return JSON.parse(fileContents) as T;
+};
+
+const getLessonSeedFileNames = async () => {
+  const entries = await fs.readdir(LESSON_SEED_DIR, { withFileTypes: true });
+
+  return entries
+    .filter((entry) => entry.isFile())
+    .map((entry) => entry.name)
+    .filter((name) => name.endsWith(".json"))
+    .filter((name) => !name.endsWith("_old.json"))
+    .filter((name) => !name.endsWith("levels_manifest.json"))
+    .filter((name) => !name.endsWith("units_manifest.json"))
+    .sort((left, right) => left.localeCompare(right));
+};
+
+const validateLessonSeeds = (unitIds: Set<string>, lessonSeeds: LessonSeedBundle[]) => {
+  const lessonIds = new Set(lessonSeeds.map((item) => item.lesson.id));
+
+  for (const seed of lessonSeeds) {
+    if (!unitIds.has(seed.lesson.unitId)) {
+      throw new Error(`Lesson ${seed.lesson.id} references missing unitId ${seed.lesson.unitId}`);
+    }
+
+    const hasQuiz = Boolean(seed.quiz);
+    const quizQuestions = seed.quizQuestions ?? [];
+
+    if (hasQuiz && seed.quiz!.lessonId !== seed.lesson.id) {
+      throw new Error(`Quiz ${seed.quiz!.id} lessonId does not match lesson ${seed.lesson.id}`);
+    }
+
+    if (!hasQuiz && quizQuestions.length > 0) {
+      throw new Error(`Lesson ${seed.lesson.id} has quiz questions without a quiz`);
+    }
+
+    for (const content of seed.contents) {
+      if (content.lessonId !== seed.lesson.id) {
+        throw new Error(`Content ${content.id} has mismatched lessonId ${content.lessonId}`);
+      }
+
+      if (content.type === "quiz_link" && !hasQuiz) {
+        throw new Error(`Lesson ${seed.lesson.id} has a quiz link but no quiz`);
+      }
+
+      if (
+        hasQuiz &&
+        content.type === "quiz_link" &&
+        (content.content as { quizId?: string })?.quizId !== seed.quiz!.id
+      ) {
+        throw new Error(`Quiz link content ${content.id} does not reference quiz ${seed.quiz!.id}`);
+      }
+    }
+
+    for (const question of quizQuestions) {
+      if (!hasQuiz || question.quizId !== seed.quiz!.id) {
+        throw new Error(`Question ${question.id} has mismatched quizId ${question.quizId}`);
+      }
+    }
+  }
+
+  if (lessonIds.size !== lessonSeeds.length) {
+    throw new Error("Duplicate lesson ids found in lesson seed files");
+  }
+};
+
+const loadSeedData = async () => {
+  const [levelsManifest, unitsManifest, lessonSeedFileNames] = await Promise.all([
+    readJsonFile<LevelSeed[]>(path.join(LESSON_SEED_DIR, "levels_manifest.json")),
+    readJsonFile<UnitSeed[]>(path.join(LESSON_SEED_DIR, "units_manifest.json")),
+    getLessonSeedFileNames(),
+  ]);
+
+  const lessonSeeds = await Promise.all(
+    lessonSeedFileNames.map((fileName) =>
+      readJsonFile<LessonSeedBundle>(path.join(LESSON_SEED_DIR, fileName)),
+    ),
+  );
+
+  validateLessonSeeds(new Set(unitsManifest.map((unit) => unit.id)), lessonSeeds);
+
+  return {
+    levelsManifest,
+    unitsManifest,
+    lessonSeeds,
+  };
+};
 
 async function seed() {
   await connectDB(env.MONGODB_URI);
+  const { levelsManifest, unitsManifest, lessonSeeds } = await loadSeedData();
+  const vocabularySeedRecords = loadVocabularySeedRecords();
+  const vocabularyCountsByLevel = getVocabularyCountsByLevel(vocabularySeedRecords);
 
   console.log("Cleaning learning collections...");
   await Promise.all([
@@ -52,61 +190,54 @@ async function seed() {
     QuizAttempt.deleteMany({}),
     XpLedger.deleteMany({}),
     Level.deleteMany({}),
+    Vocabulary.deleteMany({}),
   ]);
 
   console.log("Creating levels...");
   await Level.insertMany(
-    levelsManifest.map((level: any, index: number) => ({
-      ...level,
-      order: index + 1,
-    })),
+    levelsManifest.map((level, index) => {
+      const normalizedLevelId = level.id.toLowerCase();
+      const isVocabularyLevel = SUPPORTED_VOCABULARY_LEVEL_IDS.includes(
+        normalizedLevelId as (typeof SUPPORTED_VOCABULARY_LEVEL_IDS)[number],
+      );
+      const vocabularyCount = isVocabularyLevel
+        ? vocabularyCountsByLevel[
+            normalizedLevelId as (typeof SUPPORTED_VOCABULARY_LEVEL_IDS)[number]
+          ]
+        : 0;
+
+      return {
+        ...level,
+        order: level.order ?? index + 1,
+        vocabularyReady: isVocabularyLevel ? vocabularyCount > 0 : false,
+        vocabularyCount,
+      };
+    }),
   );
 
   console.log("Creating courses...");
-  await Course.insertMany([
-    {
-      id: "b1",
-      title: "B1 Cyrillic Foundations",
-    },
-  ]);
+  await Course.insertMany(
+    levelsManifest.map((level) => ({
+      id: level.id,
+      title: level.title,
+    })),
+  );
 
   console.log("Creating units...");
-  await Unit.insertMany([
-    {
-      id: "b1-u1",
-      courseId: "b1",
-      title: "Unit 1: Cyrillic Basics",
-      subtitle: "Intro, tracing, and alphabet groups",
-      description: "Learn what Mongolian Cyrillic is, practice early handwriting, and understand the main letter categories.",
-      order: 1,
-    },
-    {
-      id: "b1-u2",
-      courseId: "b1",
-      title: "Unit 2: Letter Groups",
-      subtitle: "Supporting vowels, consonants, and special letters",
-      description: "Study supporting vowel letters, common consonants, and special sign letters used in the Mongolian Cyrillic alphabet.",
-      order: 2,
-    },
-    {
-      id: "b1-u3",
-      courseId: "b1",
-      title: "Unit 3: Reading and Writing Practice",
-      subtitle: "Syllables, writing drills, and word building",
-      description: "Practice reading syllables, completing letter patterns, and decoding simple words with the Cyrillic alphabet.",
-      order: 3,
-    },
-  ]);
+  await Unit.insertMany(unitsManifest);
 
   console.log("Creating lessons...");
-  await LearningLesson.insertMany(b1LessonSeeds.map((item) => item.lesson));
+  await LearningLesson.insertMany(lessonSeeds.map((item) => item.lesson));
 
   console.log("Creating lesson content...");
-  await LessonContent.insertMany(b1LessonSeeds.flatMap((item) => item.contents));
+  await LessonContent.insertMany(lessonSeeds.flatMap((item) => item.contents));
   console.log("Creating quizzes...");
-  await Quiz.insertMany(b1LessonSeeds.map((item) => item.quiz));
+  await Quiz.insertMany(lessonSeeds.flatMap((item) => (item.quiz ? [item.quiz] : [])));
 
-  await QuizQuestion.insertMany(b1LessonSeeds.flatMap((item) => item.quizQuestions));
+  await QuizQuestion.insertMany(lessonSeeds.flatMap((item) => item.quizQuestions ?? []));
+
+  console.log("Creating vocabulary...");
+  await Vocabulary.insertMany(vocabularySeedRecords);
 
   // console.log("Creating daily review...");
   // await DailyReview.create({

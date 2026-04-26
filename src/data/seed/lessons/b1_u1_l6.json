@@ -1,0 +1,104 @@
+{
+  "lesson": {
+    "id": "b1-u1-l6",
+    "unitId": "b1-u1",
+    "title": "Final Exam",
+    "subtitle": "One clear B1 Cyrillic quiz",
+    "order": 6,
+    "xpReward": 25,
+    "quizXpReward": 12
+  },
+  "contents": [
+    {
+      "id": "b1-u1-l6-c1",
+      "lessonId": "b1-u1-l6",
+      "type": "text",
+      "title": "Before You Start",
+      "order": 1,
+      "content": {
+        "section": "quiz",
+        "textMn": "Энэ шалгалт нь B1 кирилл нэгжийн төгсгөлийн шалгалт. Үсэг таних, ангилах, үе ба үг бүтээх чадварыг шалгана.",
+        "textEn": "This is the final quiz for the B1 Cyrillic unit. It checks letter recognition, classification, and basic syllable and word building."
+      }
+    },
+    {
+      "id": "b1-u1-l6-c2",
+      "lessonId": "b1-u1-l6",
+      "type": "quiz_link",
+      "title": "Start Final Exam",
+      "order": 2,
+      "content": {
+        "section": "quiz",
+        "quizId": "quiz_b1_u1_l6"
+      }
+    }
+  ],
+  "quiz": {
+    "id": "quiz_b1_u1_l6",
+    "lessonId": "b1-u1-l6",
+    "title": "B1 Cyrillic Final Exam",
+    "passingScore": 70
+  },
+  "quizQuestions": [
+    {
+      "id": "quiz_b1_u1_l6_q1",
+      "quizId": "quiz_b1_u1_l6",
+      "type": "multiple_choice",
+      "prompt": "How many letters are in the Mongolian Cyrillic alphabet?",
+      "helper": "Choose the correct number.",
+      "options": ["33", "35", "37", "42"],
+      "correctAnswer": "35",
+      "explanation": "The Mongolian Cyrillic alphabet contains 35 letters.",
+      "xpReward": 2,
+      "order": 1
+    },
+    {
+      "id": "quiz_b1_u1_l6_q2",
+      "quizId": "quiz_b1_u1_l6",
+      "type": "multiple_choice",
+      "prompt": "Which one is a basic vowel?",
+      "helper": "Pick one of the 7 basic vowels.",
+      "options": ["Ю", "Ө", "Щ", "Й"],
+      "correctAnswer": "Ө",
+      "explanation": "Ө is one of the 7 basic vowels.",
+      "xpReward": 2,
+      "order": 2
+    },
+    {
+      "id": "quiz_b1_u1_l6_q3",
+      "quizId": "quiz_b1_u1_l6",
+      "type": "multiple_choice",
+      "prompt": "Which group does Ъ belong to?",
+      "helper": "Think about the letter classes.",
+      "options": ["basic vowel", "auxiliary vowel", "consonant", "sign letter"],
+      "correctAnswer": "sign letter",
+      "explanation": "Ъ is a sign letter.",
+      "xpReward": 2,
+      "order": 3
+    },
+    {
+      "id": "quiz_b1_u1_l6_q4",
+      "quizId": "quiz_b1_u1_l6",
+      "type": "multiple_choice",
+      "prompt": "Which line contains syllables for repetition practice?",
+      "helper": "Choose the line made from consonant + vowel pairs.",
+      "options": ["ба ва га да", "Ъ Ь", "Ю Я Ё", "35 20 15"],
+      "correctAnswer": "ба ва га да",
+      "explanation": "These are syllables used in repeat drills.",
+      "xpReward": 2,
+      "order": 4
+    },
+    {
+      "id": "quiz_b1_u1_l6_q5",
+      "quizId": "quiz_b1_u1_l6",
+      "type": "multiple_choice",
+      "prompt": "15 16 14 builds which word?",
+      "helper": "Use the alphabet table index.",
+      "options": ["анги", "ном", "сайн", "уу"],
+      "correctAnswer": "ном",
+      "explanation": "15-Н, 16-О, 14-М makes ном.",
+      "xpReward": 2,
+      "order": 5
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "lesson": {
+    "id": "b1-u1-l1",
+    "unitId": "b1-u1",
+    "title": "Mongolian Cyrillic Introduction",
+    "subtitle": "35 letters in print and cursive",
+    "order": 1,
+    "xpReward": 20,
+    "quizXpReward": 0
+  },
+  "contents": [
+    {
+      "id": "b1-u1-l1-c1",
+      "lessonId": "b1-u1-l1",
+      "type": "text",
+      "title": "Overview",
+      "order": 1,
+      "content": {
+        "section": "reading",
+        "textMn": "Монгол кирилл цагаан толгой 35 үсэгтэй. Энэ нэгжид үсгийг таньж, ангилж, бичиж, уншиж сурна.",
+        "textEn": "The Mongolian Cyrillic alphabet has 35 letters. In this unit you will recognize, group, write, and read them."
+      }
+    },
+    {
+      "id": "b1-u1-l1-c2",
+      "lessonId": "b1-u1-l1",
+      "type": "text",
+      "title": "What It Looks Like",
+      "order": 2,
+      "content": {
+        "section": "reading",
+        "textMn": "Үсэг бүр дармал ба бичмэл хэлбэртэй. Та эхлээд хэлбэрийг таньж, дараа нь дараагийн хичээлүүдэд бүлэглэж, бичиж, уншина.",
+        "textEn": "Each letter has print and cursive forms. First you will recognize them, then in the next lessons you will group, write, and read them."
+      }
+    },
+    {
+      "id": "b1-u1-l1-c3",
+      "lessonId": "b1-u1-l1",
+      "type": "classification",
+      "title": "Quick Preview",
+      "order": 3,
+      "content": {
+        "section": "reading",
+        "summary": "Дараагийн хичээлүүдэд үсгийг дараах бүлгээр сурна.",
+        "groups": [
+          {
+            "title": "Vowels",
+            "items": ["13 letters"]
+          },
+          {
+            "title": "Consonants",
+            "items": ["20 letters"]
+          },
+          {
+            "title": "Sign letters",
+            "items": ["Ъ", "Ь"]
+          }
+        ]
+      }
+    }
+  ]
+}

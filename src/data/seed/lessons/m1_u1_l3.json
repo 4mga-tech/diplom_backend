@@ -1,0 +1,137 @@
+{
+  "lesson": {
+    "id": "m1-u1-l3",
+    "unitId": "m1-u1",
+    "title": "Эгшиг бичих ба үгийн сан",
+    "subtitle": "Бичих, орчуулах, сонсоод бичих",
+    "order": 3,
+    "xpReward": 25,
+    "quizXpReward": 12
+  },
+  "contents": [
+    {
+      "id": "m1-u1-l3-c1",
+      "lessonId": "m1-u1-l3",
+      "type": "exercise_write",
+      "title": "Бичих дасгал",
+      "order": 1,
+      "content": {
+        "section": "exercises",
+        "instructionMn": "Эгшиг болон үгсийг зөв бичээрэй.",
+        "letters": [
+          "а",
+          "о",
+          "у",
+          "и",
+          "э",
+          "ө",
+          "ү",
+          "ай",
+          "ой",
+          "уй",
+          "ээ",
+          "өө",
+          "үү",
+          "яа",
+          "еэ",
+          "ёо",
+          "юу"
+        ]
+      }
+    },
+    {
+      "id": "m1-u1-l3-c2",
+      "lessonId": "m1-u1-l3",
+      "type": "text",
+      "title": "Орчуулгын дасгал",
+      "order": 2,
+      "content": {
+        "section": "reading",
+        "textMn": "you, who, this, that, how much / sun, moon, water, ice, person, leg, mouth / fly, want, drink гэсэн үгсийг монголоор орчуулна.",
+        "textEn": "Translate basic pronouns, nouns, and verbs into Mongolian."
+      }
+    },
+    {
+      "id": "m1-u1-l3-c3",
+      "lessonId": "m1-u1-l3",
+      "type": "text",
+      "title": "Сонсоод бичих",
+      "order": 3,
+      "content": {
+        "section": "listening",
+        "textMn": "Диктантын дасгалыг сонсоод зөв бичнэ.",
+        "textEn": "Listen and write the dictated words."
+      }
+    },
+    {
+      "id": "m1-u1-l3-c4",
+      "lessonId": "m1-u1-l3",
+      "type": "quiz_link",
+      "title": "Шалгалт",
+      "order": 4,
+      "content": {
+        "section": "quiz",
+        "quizId": "quiz_m1_u1_l3"
+      }
+    }
+  ],
+  "quiz": {
+    "id": "quiz_m1_u1_l3",
+    "lessonId": "m1-u1-l3",
+    "title": "Эгшиг бичих ба үгийн сан - Quiz",
+    "passingScore": 70
+  },
+  "quizQuestions": [
+    {
+      "id": "quiz_m1_u1_l3_q1",
+      "quizId": "quiz_m1_u1_l3",
+      "type": "multiple_choice",
+      "prompt": "“энэ” ямар утгатай вэ?",
+      "helper": "Орчуулгын хэсгийг сана.",
+      "options": [
+        "this",
+        "that",
+        "who",
+        "how much"
+      ],
+      "correctAnswer": "this",
+      "explanation": "“энэ” нь this гэсэн утгатай.",
+      "xpReward": 4,
+      "order": 1
+    },
+    {
+      "id": "quiz_m1_u1_l3_q2",
+      "quizId": "quiz_m1_u1_l3",
+      "type": "multiple_choice",
+      "prompt": "Аль нь бичих дасгалын нэг хэсэг вэ?",
+      "helper": "Эгшгийн бичих дасгалд юу орсныг бод.",
+      "options": [
+        "ай",
+        "щ",
+        "р",
+        "нг"
+      ],
+      "correctAnswer": "ай",
+      "explanation": "Ай нь бичих дасгалын хос эгшгийн нэг жишээ.",
+      "xpReward": 4,
+      "order": 2
+    },
+    {
+      "id": "quiz_m1_u1_l3_q3",
+      "quizId": "quiz_m1_u1_l3",
+      "type": "multiple_choice",
+      "prompt": "“хүн” ямар утгатай вэ?",
+      "helper": "Шинэ үгийг сана.",
+      "options": [
+        "ice",
+        "leg",
+        "person",
+        "water"
+      ],
+      "correctAnswer": "person",
+      "explanation": "“хүн” нь person гэсэн утгатай.",
+      "xpReward": 4,
+      "order": 3
+    }
+  ]
+}

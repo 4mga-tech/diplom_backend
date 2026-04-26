@@ -1,6 +1,7 @@
 import { Request, Response } from "express";
 import {
   getAllLevels,
+  getVocabularyLevel,
   getLevelWithPackages,
   getPackageWithLessons,
   getVocabularyLevels,
@@ -19,6 +20,21 @@ export const fetchVocabularyLevels = async (_req: Request, res: Response) => {
   try {
     const levels = await getVocabularyLevels();
     res.json(levels);
+  } catch (error: any) {
+    res.status(400).json({ message: error.message });
+  }
+};
+
+export const fetchVocabularyLevel = async (req: Request, res: Response) => {
+  try {
+    const { levelId } = req.params;
+
+    if (typeof levelId !== "string") {
+      return res.status(400).json({ message: "Invalid levelId" });
+    }
+
+    const level = await getVocabularyLevel(levelId);
+    res.json(level);
   } catch (error: any) {
     res.status(400).json({ message: error.message });
   }

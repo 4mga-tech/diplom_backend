@@ -2,6 +2,7 @@ import { UserProgress } from "./user-progress.model";
 import { QuizAttempt } from "./quiz-attempt.model";
 import { XpLedger } from "./xp-ledger.model";
 import { User } from "../user/user.model";
+import { XpSourceType } from "./progress.types";
 
 export const findUserProgress = (userId: string, courseId: string) =>
   UserProgress.findOne({ userId, courseId });
@@ -56,14 +57,38 @@ export const findXpLedgerEntry = (
 
 export const createXpLedgerEntry = (payload: {
   userId: string;
-  sourceType: "lesson_complete" | "quiz_submit" | "review_submit";
+  sourceType: XpSourceType;
   sourceId: string;
   xp: number;
 }) => XpLedger.create(payload);
 
+export const listXpLedgerEntries = (userId: string, limit = 50) =>
+  XpLedger.find({ userId }).sort({ createdAt: -1 }).limit(limit).lean();
+
 export const findUserById = (userId: string) => User.findById(userId);
+
+export const claimDailyLoginRewardWindow = (
+  userId: string,
+  claimedAt: Date,
+  eligibleBefore: Date,
+) =>
+  User.findOneAndUpdate(
+    {
+      _id: userId,
+      $or: [
+        { lastDailyLoginXpAt: null },
+        { lastDailyLoginXpAt: { $lte: eligibleBefore } },
+      ],
+    },
+    {
+      $set: {
+        lastDailyLoginXpAt: claimedAt,
+      },
+    },
+    { returnDocument: "after" },
+  );
 
 export const updateUserActivity = (
   userId: string,
   payload: Partial<{ totalXP: number; streak: number; lastActiveAt: Date }>,
-) => User.findByIdAndUpdate(userId, payload, { new: true });
+) => User.findByIdAndUpdate(userId, payload, { returnDocument: "after" });

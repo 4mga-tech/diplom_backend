@@ -28,6 +28,10 @@ const UserSchema = new mongoose_1.default.Schema({
     },
     streak: { type: Number, default: 0 },
     totalXP: { type: Number, default: 0 },
+    lastDailyLoginXpAt: {
+        type: Date,
+        default: null,
+    },
     lastActiveAt: {
         type: Date,
         default: null,

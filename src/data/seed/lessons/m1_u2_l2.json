@@ -1,0 +1,133 @@
+{
+  "lesson": {
+    "id": "m1-u2-l2",
+    "unitId": "m1-u2",
+    "title": "Богино, урт, хос эгшиг унших",
+    "subtitle": "Жишээ үг, ялгаа, давталт",
+    "order": 2,
+    "xpReward": 20,
+    "quizXpReward": 9
+  },
+  "contents": [
+    {
+      "id": "m1-u2-l2-c1",
+      "lessonId": "m1-u2-l2",
+      "type": "exercise_repeat",
+      "title": "Давталтын мөрүүд",
+      "order": 1,
+      "content": {
+        "section": "listening",
+        "instructionMn": "Богино, урт, хос эгшгийг ялгаж уншаарай.",
+        "rows": [
+          {
+            "prompt": "Богино",
+            "line": "ас эс ус үс ол өл ул үл",
+            "audioUrl": ""
+          },
+          {
+            "prompt": "Урт",
+            "line": "уул үүл уур үүр",
+            "audioUrl": ""
+          },
+          {
+            "prompt": "Хос",
+            "line": "ай ой уй үй ий",
+            "audioUrl": ""
+          },
+          {
+            "prompt": "Ялгаа",
+            "line": "ав – аав – айв",
+            "audioUrl": ""
+          },
+          {
+            "prompt": "Ялгаа",
+            "line": "бах – баах – байх",
+            "audioUrl": ""
+          }
+        ]
+      }
+    },
+    {
+      "id": "m1-u2-l2-c2",
+      "lessonId": "m1-u2-l2",
+      "type": "text",
+      "title": "Жишээ үгс",
+      "order": 2,
+      "content": {
+        "section": "reading",
+        "textMn": "аав, даа, дээр, доор, шүү, сүү, хүү, хөө, гүй, үгүй, сайн байна зэрэг үгсээр богино, урт, хос эгшгийн ялгааг ажиглана.",
+        "textEn": "Observe the differences between short, long, and diphthong vowels in sample words."
+      }
+    },
+    {
+      "id": "m1-u2-l2-c3",
+      "lessonId": "m1-u2-l2",
+      "type": "quiz_link",
+      "title": "Шалгалт",
+      "order": 3,
+      "content": {
+        "section": "quiz",
+        "quizId": "quiz_m1_u2_l2"
+      }
+    }
+  ],
+  "quiz": {
+    "id": "quiz_m1_u2_l2",
+    "lessonId": "m1-u2-l2",
+    "title": "Богино, урт, хос эгшиг унших - Quiz",
+    "passingScore": 70
+  },
+  "quizQuestions": [
+    {
+      "id": "quiz_m1_u2_l2_q1",
+      "quizId": "quiz_m1_u2_l2",
+      "type": "multiple_choice",
+      "prompt": "“ав – аав – айв” мөр нь юуг харуулж байна вэ?",
+      "helper": "Ялгааг бодоорой.",
+      "options": [
+        "гийгүүлэгчийн ангилал",
+        "богино, урт, хос эгшгийн ялгаа",
+        "тэмдэг үсэг",
+        "нөхцөл залгалт"
+      ],
+      "correctAnswer": "богино, урт, хос эгшгийн ялгаа",
+      "explanation": "Энэ мөр богино, урт, хос эгшгийн ялгааг харуулна.",
+      "xpReward": 3,
+      "order": 1
+    },
+    {
+      "id": "quiz_m1_u2_l2_q2",
+      "quizId": "quiz_m1_u2_l2",
+      "type": "multiple_choice",
+      "prompt": "“уул” ямар төрлийн эгшигтэй вэ?",
+      "helper": "Зөв ангиллыг сонго.",
+      "options": [
+        "богино",
+        "урт",
+        "хос",
+        "туслах"
+      ],
+      "correctAnswer": "урт",
+      "explanation": "Уул гэдэг үг урт эгшигтэй.",
+      "xpReward": 3,
+      "order": 2
+    },
+    {
+      "id": "quiz_m1_u2_l2_q3",
+      "quizId": "quiz_m1_u2_l2",
+      "type": "multiple_choice",
+      "prompt": "“сайн” ямар төрлийн эгшигтэй вэ?",
+      "helper": "Ай-г анзаараарай.",
+      "options": [
+        "урт",
+        "хос",
+        "богино",
+        "тэмдэг"
+      ],
+      "correctAnswer": "хос",
+      "explanation": "Сайн гэдэг үг хос эгшигтэй.",
+      "xpReward": 3,
+      "order": 3
+    }
+  ]
+}

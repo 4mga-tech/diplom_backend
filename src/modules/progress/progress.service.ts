@@ -1,5 +1,5 @@
 import { findCourseById, findLessonById, findUnitById } from "../learning/learning.repository";
-import { awardXpOnce, syncUserStreak } from "./progress.helpers";
+import { syncUserStreak } from "./progress.helpers";
 import { getFirstLessonIdForCourse, unlockNextLesson } from "./lesson-unlock.helper";
 import {
   findOrCreateUserProgress,
@@ -7,6 +7,7 @@ import {
   findUserProgress,
   listUserProgress,
 } from "./progress.repository";
+import { applyXpChangeOnce } from "./xp.service";
 
 export const getCourseProgress = async (userId: string, courseId: string) => {
   const course = await findCourseById(courseId);
@@ -75,10 +76,10 @@ export const completeLesson = async (userId: string, lessonId: string) => {
   });
 
   const xpResult = alreadyCompleted
-    ? { xpGained: 0, totalXp: progress.totalXp }
-    : await awardXpOnce({
+    ? { xpDelta: 0, totalXp: progress.totalXp }
+    : await applyXpChangeOnce({
         userId,
-        sourceType: "lesson_complete",
+        sourceType: "lesson_study",
         sourceId: lessonId,
         xp: lesson.xpReward,
         progress,
@@ -109,7 +110,7 @@ export const completeLesson = async (userId: string, lessonId: string) => {
   return {
     lessonId,
     completed: true,
-    xpGained: xpResult.xpGained,
+    xpGained: alreadyCompleted ? 0 : xpResult.xpDelta,
     totalXp: progress.totalXp,
     nextLessonUnlocked,
   };

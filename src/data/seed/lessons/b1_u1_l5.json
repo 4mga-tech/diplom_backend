@@ -1,0 +1,77 @@
+{
+  "lesson": {
+    "id": "b1-u1-l5",
+    "unitId": "b1-u1",
+    "title": "Syllable and Word Building",
+    "subtitle": "Complete and build simple forms",
+    "order": 5,
+    "xpReward": 25,
+    "quizXpReward": 0
+  },
+  "contents": [
+    {
+      "id": "b1-u1-l5-c1",
+      "lessonId": "b1-u1-l5",
+      "type": "text",
+      "title": "Overview",
+      "order": 1,
+      "content": {
+        "section": "exercises",
+        "textMn": "Одоо үсгээ нийлүүлж үе, энгийн үг бүтээнэ.",
+        "textEn": "Now combine letters to make syllables and simple words."
+      }
+    },
+    {
+      "id": "b1-u1-l5-c2",
+      "lessonId": "b1-u1-l5",
+      "type": "exercise_fill",
+      "title": "Fill The Missing Part",
+      "order": 2,
+      "content": {
+        "section": "exercises",
+        "instructionMn": "Дутуу үсэг, үеийг нөхөж бич.",
+        "instructionEn": "Fill in the missing letters and syllables.",
+        "groups": [
+          {
+            "patternLetters": ["Б", "Г", "М", "Н", "С", "Т"],
+            "lines": [
+              "ба _а ма _а са та",
+              "бо го _о но со _о",
+              "_и ги ми ни _и ти"
+            ]
+          },
+          {
+            "patternLetters": ["Ө", "Ү", "Ч", "Ш"],
+            "lines": [
+              "чө шө _ө _ө",
+              "чү шү _ү _ү"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b1-u1-l5-c3",
+      "lessonId": "b1-u1-l5",
+      "type": "exercise_word_build",
+      "title": "Build Simple Words",
+      "order": 3,
+      "content": {
+        "section": "exercises",
+        "instructionMn": "Үсгийн дугаараар үг бүтээ.",
+        "instructionEn": "Build words from letter numbers.",
+        "example": {
+          "numbers": [15, 16, 14],
+          "answer": "ном"
+        },
+        "questions": [
+          { "index": 1, "numbers": [2, 1, 4], "answer": "баг" },
+          { "index": 2, "numbers": [1, 17, 5, 17, 19], "answer": "өдөр" },
+          { "index": 3, "numbers": [20, 1, 11, 15], "answer": "сайн" },
+          { "index": 4, "numbers": [22, 22], "answer": "уу" },
+          { "index": 5, "numbers": [1, 15, 4, 10], "answer": "анги" }
+        ]
+      }
+    }
+  ]
+}

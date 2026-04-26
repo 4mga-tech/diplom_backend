@@ -11,7 +11,7 @@ const getUserProfile = async (userId) => {
 };
 exports.getUserProfile = getUserProfile;
 const updateUserProfile = async (userId, data) => {
-    const user = await user_model_1.User.findByIdAndUpdate(userId, data, { new: true }).select("-passwordHash");
+    const user = await user_model_1.User.findByIdAndUpdate(userId, data, { returnDocument: "after" }).select("-passwordHash");
     if (!user) {
         throw new Error("User not found");
     }

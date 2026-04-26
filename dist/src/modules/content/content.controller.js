@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.fetchPackage = exports.fetchLevel = exports.fetchVocabularyLevels = exports.fetchLevels = void 0;
+exports.fetchPackage = exports.fetchLevel = exports.fetchVocabularyLevel = exports.fetchVocabularyLevels = exports.fetchLevels = void 0;
 const content_service_1 = require("./content.service");
 const fetchLevels = async (_req, res) => {
     try {
@@ -22,6 +22,20 @@ const fetchVocabularyLevels = async (_req, res) => {
     }
 };
 exports.fetchVocabularyLevels = fetchVocabularyLevels;
+const fetchVocabularyLevel = async (req, res) => {
+    try {
+        const { levelId } = req.params;
+        if (typeof levelId !== "string") {
+            return res.status(400).json({ message: "Invalid levelId" });
+        }
+        const level = await (0, content_service_1.getVocabularyLevel)(levelId);
+        res.json(level);
+    }
+    catch (error) {
+        res.status(400).json({ message: error.message });
+    }
+};
+exports.fetchVocabularyLevel = fetchVocabularyLevel;
 const fetchLevel = async (req, res) => {
     try {
         const { levelId } = req.params;

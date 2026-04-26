@@ -1,0 +1,74 @@
+{
+  "lesson": {
+    "id": "b1-u1-l4",
+    "unitId": "b1-u1",
+    "title": "Listen and Repeat",
+    "subtitle": "Pronunciation drills with placeholder audio",
+    "order": 4,
+    "xpReward": 20,
+    "quizXpReward": 0
+  },
+  "contents": [
+    {
+      "id": "b1-u1-l4-c1",
+      "lessonId": "b1-u1-l4",
+      "type": "text",
+      "title": "Practice Tip",
+      "order": 1,
+      "content": {
+        "section": "exercises",
+        "textMn": "Эхлээд сонс, дараа нь чангаар давт. Нэг мөрийг хэд хэдэн удаа унш.",
+        "textEn": "Listen first, then repeat aloud. Read each line several times."
+      }
+    },
+    {
+      "id": "b1-u1-l4-c2",
+      "lessonId": "b1-u1-l4",
+      "type": "exercise_repeat",
+      "title": "Basic Vowels",
+      "order": 2,
+      "content": {
+        "section": "exercises",
+        "instructionMn": "Эгшиг бүрийг дангаар нь давт.",
+        "instructionEn": "Repeat each basic vowel by itself.",
+        "rows": [
+          { "prompt": "А Э И О У Ө Ү", "line": "а э и о у ө ү", "audioUrl": "" }
+        ]
+      }
+    },
+    {
+      "id": "b1-u1-l4-c3",
+      "lessonId": "b1-u1-l4",
+      "type": "exercise_repeat",
+      "title": "Auxiliary Vowels",
+      "order": 3,
+      "content": {
+        "section": "exercises",
+        "instructionMn": "Туслах эгшгийг удаанаар унш.",
+        "instructionEn": "Read the auxiliary vowels slowly.",
+        "rows": [
+          { "prompt": "Е Ё Й Ы Ю Я", "line": "е ё й ы ю я", "audioUrl": "" }
+        ]
+      }
+    },
+    {
+      "id": "b1-u1-l4-c4",
+      "lessonId": "b1-u1-l4",
+      "type": "exercise_repeat",
+      "title": "Consonant and Vowel Drills",
+      "order": 4,
+      "content": {
+        "section": "exercises",
+        "instructionMn": "Үеийг сонсож дагаж унш.",
+        "instructionEn": "Listen to the syllables and repeat them.",
+        "rows": [
+          { "prompt": "Б В Г Д Ж З", "line": "ба ва га да жа за", "audioUrl": "" },
+          { "prompt": "Л М Н Р С Т", "line": "ло мо но ро со то", "audioUrl": "" },
+          { "prompt": "Х Ц Ч Ш", "line": "хи ци чи ши", "audioUrl": "" },
+          { "prompt": "Б Г М Н", "line": "бө гө мө нө", "audioUrl": "" },
+          { "prompt": "С Т Х Ч", "line": "сү тү хү чү", "audioUrl": "" }
+        ]
+      }
+    }
+  ]
+}

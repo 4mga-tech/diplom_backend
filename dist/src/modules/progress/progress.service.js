@@ -5,6 +5,7 @@ const learning_repository_1 = require("../learning/learning.repository");
 const progress_helpers_1 = require("./progress.helpers");
 const lesson_unlock_helper_1 = require("./lesson-unlock.helper");
 const progress_repository_1 = require("./progress.repository");
+const xp_service_1 = require("./xp.service");
 const getCourseProgress = async (userId, courseId) => {
     const course = await (0, learning_repository_1.findCourseById)(courseId);
     if (!course) {
@@ -56,10 +57,10 @@ const completeLesson = async (userId, lessonId) => {
         unlockedLessonIds: progress.unlockedLessonIds,
     });
     const xpResult = alreadyCompleted
-        ? { xpGained: 0, totalXp: progress.totalXp }
-        : await (0, progress_helpers_1.awardXpOnce)({
+        ? { xpDelta: 0, totalXp: progress.totalXp }
+        : await (0, xp_service_1.applyXpChangeOnce)({
             userId,
-            sourceType: "lesson_complete",
+            sourceType: "lesson_study",
             sourceId: lessonId,
             xp: lesson.xpReward,
             progress,
@@ -82,7 +83,7 @@ const completeLesson = async (userId, lessonId) => {
     return {
         lessonId,
         completed: true,
-        xpGained: xpResult.xpGained,
+        xpGained: alreadyCompleted ? 0 : xpResult.xpDelta,
         totalXp: progress.totalXp,
         nextLessonUnlocked,
     };

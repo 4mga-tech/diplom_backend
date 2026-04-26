@@ -1,0 +1,123 @@
+{
+  "lesson": {
+    "id": "m1-u3-l2",
+    "unitId": "m1-u3",
+    "title": "Эгшгийн дараалал ба хүснэгт",
+    "subtitle": "Эхний үе ба төгсгөлийн эгшгийн боломж",
+    "order": 2,
+    "xpReward": 20,
+    "quizXpReward": 9
+  },
+  "contents": [
+    {
+      "id": "m1-u3-l2-c1",
+      "lessonId": "m1-u3-l2",
+      "type": "text",
+      "title": "Эгшгийн дарааллын хүснэгт",
+      "order": 1,
+      "content": {
+        "section": "reading",
+        "textMn": "Эхний үеийн эгшиг болон төгсгөлийн эгшгийн хослолын боломжийг хүснэгтээр ажиглана. Эр эгшигтэй үгэнд а, о, у бүлгийн үргэлжлэл, эм эгшигтэй үгэнд э, ө, ү бүлгийн үргэлжлэл зонхилно.",
+        "textEn": "Observe the table of possible vowel sequences for initial and final syllables in masculine and feminine words."
+      }
+    },
+    {
+      "id": "m1-u3-l2-c2",
+      "lessonId": "m1-u3-l2",
+      "type": "exercise_repeat",
+      "title": "Жишээ мөрүүд",
+      "order": 2,
+      "content": {
+        "section": "reading",
+        "instructionMn": "Дараах жишээ дарааллуудыг уншиж ялгааг ажиглаарай.",
+        "rows": [
+          {
+            "prompt": "Эр эгшиг",
+            "line": "а, аа, ай, я / о, оо, ой, ё / у, уу, уй, ю(у)",
+            "audioUrl": ""
+          },
+          {
+            "prompt": "Эм эгшиг",
+            "line": "э, ээ, е / ө, өө, е(ө) / ү, үү, үй, ю(ү)",
+            "audioUrl": ""
+          },
+          {
+            "prompt": "Саармаг",
+            "line": "и, ий",
+            "audioUrl": ""
+          }
+        ]
+      }
+    },
+    {
+      "id": "m1-u3-l2-c3",
+      "lessonId": "m1-u3-l2",
+      "type": "quiz_link",
+      "title": "Шалгалт",
+      "order": 3,
+      "content": {
+        "section": "quiz",
+        "quizId": "quiz_m1_u3_l2"
+      }
+    }
+  ],
+  "quiz": {
+    "id": "quiz_m1_u3_l2",
+    "lessonId": "m1-u3-l2",
+    "title": "Эгшгийн дараалал - Quiz",
+    "passingScore": 70
+  },
+  "quizQuestions": [
+    {
+      "id": "quiz_m1_u3_l2_q1",
+      "quizId": "quiz_m1_u3_l2",
+      "type": "multiple_choice",
+      "prompt": "Аль бүлэг нь эр эгшигт хамаарна вэ?",
+      "helper": "Зөв бүлгийг сонго.",
+      "options": [
+        "э, ө, ү",
+        "а, о, у",
+        "и, й",
+        "е, ю(ү)"
+      ],
+      "correctAnswer": "а, о, у",
+      "explanation": "А, о, у нь эр эгшгийн үндсэн бүлэгт орно.",
+      "xpReward": 3,
+      "order": 1
+    },
+    {
+      "id": "quiz_m1_u3_l2_q2",
+      "quizId": "quiz_m1_u3_l2",
+      "type": "multiple_choice",
+      "prompt": "Аль нь эм эгшгийн жишээ вэ?",
+      "helper": "Зөв мөрийг сонго.",
+      "options": [
+        "э, ө, ү",
+        "а, о, у",
+        "я, ё, ю(у)",
+        "и, й"
+      ],
+      "correctAnswer": "э, ө, ү",
+      "explanation": "Э, ө, ү нь эм эгшгийн бүлэгт хамаарна.",
+      "xpReward": 3,
+      "order": 2
+    },
+    {
+      "id": "quiz_m1_u3_l2_q3",
+      "quizId": "quiz_m1_u3_l2",
+      "type": "multiple_choice",
+      "prompt": "Саармаг бүлэгт аль нь ордог вэ?",
+      "helper": "Зөв хариултыг сонго.",
+      "options": [
+        "и, ий",
+        "а, аа",
+        "ө, өө",
+        "ю, я"
+      ],
+      "correctAnswer": "и, ий",
+      "explanation": "И, ий нь саармаг бүлгийн жишээ.",
+      "xpReward": 3,
+      "order": 3
+    }
+  ]
+}

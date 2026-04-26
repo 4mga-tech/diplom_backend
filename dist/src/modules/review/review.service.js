@@ -3,6 +3,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.submitTodayReview = exports.getTodayReview = void 0;
 const progress_helpers_1 = require("../progress/progress.helpers");
 const progress_repository_1 = require("../progress/progress.repository");
+const xp_service_1 = require("../progress/xp.service");
 const review_repository_1 = require("./review.repository");
 const normalizeAnswer = (value) => {
     if (typeof value === "string") {
@@ -67,9 +68,9 @@ const submitTodayReview = async (userId, reviewId, answers) => {
     const score = totalQuestions === 0 ? 0 : Math.round((correctCount / totalQuestions) * 100);
     const totalReviewXp = results.reduce((sum, result) => sum + result.xpReward, 0);
     const progressDocs = await Promise.all((await (0, progress_repository_1.listUserProgress)(userId)).map(async (item) => (await (0, progress_repository_1.findUserProgress)(userId, item.courseId))));
-    const xpResult = await (0, progress_helpers_1.awardXpOnce)({
+    const xpResult = await (0, xp_service_1.applyXpChangeOnce)({
         userId,
-        sourceType: "review_submit",
+        sourceType: "review_reward",
         sourceId: canonicalReviewId,
         xp: totalReviewXp,
         progress: null,
@@ -84,7 +85,7 @@ const submitTodayReview = async (userId, reviewId, answers) => {
         correctCount,
         totalQuestions,
         score,
-        xpGained: xpResult.xpGained,
+        xpGained: xpResult.xpDelta,
         totalXp: xpResult.totalXp,
         results: results.map(({ xpReward, ...result }) => result),
     };

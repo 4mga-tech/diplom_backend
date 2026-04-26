@@ -1,0 +1,164 @@
+{
+  "lesson": {
+    "id": "m1-u1-l1",
+    "unitId": "m1-u1",
+    "title": "Эгшиг үсгийн ангилал",
+    "subtitle": "Үндсэн ба туслах эгшиг",
+    "order": 1,
+    "xpReward": 20,
+    "quizXpReward": 9
+  },
+  "contents": [
+    {
+      "id": "m1-u1-l1-c1",
+      "lessonId": "m1-u1-l1",
+      "type": "classification",
+      "title": "Эгшгийн ангилал",
+      "order": 1,
+      "content": {
+        "section": "reading",
+        "summary": "Монгол хэлний 13 эгшиг нь 7 үндсэн, 6 туслах эгшигт ангилагдана.",
+        "groups": [
+          {
+            "title": "Үндсэн эгшиг (7)",
+            "items": [
+              "а",
+              "э",
+              "и",
+              "о",
+              "у",
+              "ө",
+              "ү"
+            ]
+          },
+          {
+            "title": "Туслах эгшиг (6)",
+            "items": [
+              "е",
+              "ё",
+              "й",
+              "ы",
+              "ю",
+              "я"
+            ]
+          },
+          {
+            "title": "Эр эгшиг",
+            "items": [
+              "а",
+              "о",
+              "у",
+              "ы",
+              "я",
+              "ё",
+              "ю(у)"
+            ]
+          },
+          {
+            "title": "Эм эгшиг",
+            "items": [
+              "э",
+              "ө",
+              "ү",
+              "е",
+              "ю(ү)"
+            ]
+          },
+          {
+            "title": "Саармаг эгшиг",
+            "items": [
+              "и",
+              "й"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "m1-u1-l1-c2",
+      "lessonId": "m1-u1-l1",
+      "type": "grammar_note",
+      "title": "Grammar notes",
+      "order": 2,
+      "content": {
+        "section": "grammar",
+        "notes": [
+          "Монгол хэл 13 эгшигтэй.",
+          "И эгшиг нь саармаг тул эр, эм аль ч үгэнд орж болно.",
+          "О, У, Ө, Ү нь дугуйруулсан эгшигт хамаарна.",
+          "Нэг үгэнд эр ба эм эгшиг холилдохгүй."
+        ]
+      }
+    },
+    {
+      "id": "m1-u1-l1-c3",
+      "lessonId": "m1-u1-l1",
+      "type": "quiz_link",
+      "title": "Шалгалт",
+      "order": 3,
+      "content": {
+        "section": "quiz",
+        "quizId": "quiz_m1_u1_l1"
+      }
+    }
+  ],
+  "quiz": {
+    "id": "quiz_m1_u1_l1",
+    "lessonId": "m1-u1-l1",
+    "title": "Эгшгийн ангилал - Quiz",
+    "passingScore": 70
+  },
+  "quizQuestions": [
+    {
+      "id": "quiz_m1_u1_l1_q1",
+      "quizId": "quiz_m1_u1_l1",
+      "type": "multiple_choice",
+      "prompt": "Монгол хэл хэдэн эгшигтэй вэ?",
+      "helper": "Зөв тоог сонго.",
+      "options": [
+        "7",
+        "10",
+        "13",
+        "15"
+      ],
+      "correctAnswer": "13",
+      "explanation": "Монгол хэл нийт 13 эгшигтэй.",
+      "xpReward": 3,
+      "order": 1
+    },
+    {
+      "id": "quiz_m1_u1_l1_q2",
+      "quizId": "quiz_m1_u1_l1",
+      "type": "multiple_choice",
+      "prompt": "Аль нь туслах эгшиг вэ?",
+      "helper": "Зөв хариултыг сонго.",
+      "options": [
+        "ө",
+        "у",
+        "я",
+        "а"
+      ],
+      "correctAnswer": "я",
+      "explanation": "Я нь туслах эгшиг юм.",
+      "xpReward": 3,
+      "order": 2
+    },
+    {
+      "id": "quiz_m1_u1_l1_q3",
+      "quizId": "quiz_m1_u1_l1",
+      "type": "multiple_choice",
+      "prompt": "Аль эгшиг саармаг вэ?",
+      "helper": "Саармаг эгшгийг сонго.",
+      "options": [
+        "о",
+        "и",
+        "ө",
+        "я"
+      ],
+      "correctAnswer": "и",
+      "explanation": "И эгшиг саармаг ангилалд орно.",
+      "xpReward": 3,
+      "order": 3
+    }
+  ]
+}

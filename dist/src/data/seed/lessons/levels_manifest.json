@@ -1,0 +1,52 @@
+[
+    {
+        "id": "b1",
+        "title": "B1",
+        "subtitle": "Cyrillic foundations",
+        "description": "Script literacy and basic alphabet mastery.",
+        "order": 1,
+        "vocabularyReady": false,
+        "vocabularyCount": 0,
+        "gradient": ["#2563EB", "#06B6D4"]
+    },
+    {
+        "id": "m1",
+        "title": "M1",
+        "subtitle": "Vowels and harmony",
+        "description": "Vowel classes, sound patterns, and harmony rules.",
+        "order": 2,
+        "vocabularyReady": true,
+        "vocabularyCount": 0,
+        "gradient": ["#7C3AED", "#EC4899"]
+    },
+    {
+        "id": "m2",
+        "title": "M2",
+        "subtitle": "Vocabulary level",
+        "description": "Vocabulary seed content for M2.",
+        "order": 3,
+        "vocabularyReady": true,
+        "vocabularyCount": 0,
+        "gradient": ["#16A34A", "#14B8A6"]
+    },
+    {
+        "id": "m3",
+        "title": "M3",
+        "subtitle": "Vocabulary level",
+        "description": "Vocabulary seed content for M3.",
+        "order": 4,
+        "vocabularyReady": true,
+        "vocabularyCount": 0,
+        "gradient": ["#F59E0B", "#EF4444"]
+    },
+    {
+        "id": "m4",
+        "title": "M4",
+        "subtitle": "Vocabulary level",
+        "description": "Vocabulary seed content for M4.",
+        "order": 5,
+        "vocabularyReady": true,
+        "vocabularyCount": 0,
+        "gradient": ["#0F766E", "#22C55E"]
+    }
+]

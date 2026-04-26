@@ -5,6 +5,8 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 const db_1 = require("../config/db");
 const env_1 = require("../config/env");
+const node_path_1 = __importDefault(require("node:path"));
+const node_fs_1 = require("node:fs");
 const course_model_1 = require("../modules/learning/course.model");
 const unit_model_1 = require("../modules/learning/unit.model");
 const lesson_model_1 = require("../modules/learning/lesson.model");
@@ -15,30 +17,72 @@ const daily_review_model_1 = require("../modules/review/daily-review.model");
 const user_progress_model_1 = require("../modules/progress/user-progress.model");
 const quiz_attempt_model_1 = require("../modules/progress/quiz-attempt.model");
 const xp_ledger_model_1 = require("../modules/progress/xp-ledger.model");
-const b1_u1_l1_json_1 = __importDefault(require("../data/seed/b1_u1_l1.json"));
-const b1_u1_l2_json_1 = __importDefault(require("../data/seed/b1_u1_l2.json"));
-const b1_u1_l3_json_1 = __importDefault(require("../data/seed/b1_u1_l3.json"));
-const b1_u2_l1_json_1 = __importDefault(require("../data/seed/b1_u2_l1.json"));
-const b1_u2_l2_json_1 = __importDefault(require("../data/seed/b1_u2_l2.json"));
-const b1_u2_l3_json_1 = __importDefault(require("../data/seed/b1_u2_l3.json"));
-const b1_u3_l1_json_1 = __importDefault(require("../data/seed/b1_u3_l1.json"));
-const b1_u3_l2_json_1 = __importDefault(require("../data/seed/b1_u3_l2.json"));
-const b1_u3_l3_json_1 = __importDefault(require("../data/seed/b1_u3_l3.json"));
 const level_model_1 = __importDefault(require("../modules/content/level.model"));
-const levels_manifest_json_1 = __importDefault(require("../data/seed/levels_manifest.json"));
-const b1LessonSeeds = [
-    b1_u1_l1_json_1.default,
-    b1_u1_l2_json_1.default,
-    b1_u1_l3_json_1.default,
-    b1_u2_l1_json_1.default,
-    b1_u2_l2_json_1.default,
-    b1_u2_l3_json_1.default,
-    b1_u3_l1_json_1.default,
-    b1_u3_l2_json_1.default,
-    b1_u3_l3_json_1.default,
-];
+const vocabulary_model_1 = __importDefault(require("../modules/content/vocabulary.model"));
+const vocabulary_seed_1 = require("../modules/content/vocabulary.seed");
+const LESSON_SEED_DIR = node_path_1.default.resolve(process.cwd(), "src", "data", "seed", "lessons");
+const readJsonFile = async (filePath) => {
+    const fileContents = await node_fs_1.promises.readFile(filePath, "utf8");
+    return JSON.parse(fileContents);
+};
+const getLessonSeedFileNames = async () => {
+    const entries = await node_fs_1.promises.readdir(LESSON_SEED_DIR, { withFileTypes: true });
+    return entries
+        .filter((entry) => entry.isFile())
+        .map((entry) => entry.name)
+        .filter((name) => name.endsWith(".json"))
+        .filter((name) => !name.endsWith("_old.json"))
+        .filter((name) => !name.endsWith("levels_manifest.json"))
+        .filter((name) => !name.endsWith("units_manifest.json"))
+        .sort((left, right) => left.localeCompare(right));
+};
+const validateLessonSeeds = (unitIds, lessonSeeds) => {
+    const lessonIds = new Set(lessonSeeds.map((item) => item.lesson.id));
+    for (const seed of lessonSeeds) {
+        if (!unitIds.has(seed.lesson.unitId)) {
+            throw new Error(`Lesson ${seed.lesson.id} references missing unitId ${seed.lesson.unitId}`);
+        }
+        if (seed.quiz.lessonId !== seed.lesson.id) {
+            throw new Error(`Quiz ${seed.quiz.id} lessonId does not match lesson ${seed.lesson.id}`);
+        }
+        for (const content of seed.contents) {
+            if (content.lessonId !== seed.lesson.id) {
+                throw new Error(`Content ${content.id} has mismatched lessonId ${content.lessonId}`);
+            }
+            if (content.type === "quiz_link" &&
+                content.content?.quizId !== seed.quiz.id) {
+                throw new Error(`Quiz link content ${content.id} does not reference quiz ${seed.quiz.id}`);
+            }
+        }
+        for (const question of seed.quizQuestions) {
+            if (question.quizId !== seed.quiz.id) {
+                throw new Error(`Question ${question.id} has mismatched quizId ${question.quizId}`);
+            }
+        }
+    }
+    if (lessonIds.size !== lessonSeeds.length) {
+        throw new Error("Duplicate lesson ids found in lesson seed files");
+    }
+};
+const loadSeedData = async () => {
+    const [levelsManifest, unitsManifest, lessonSeedFileNames] = await Promise.all([
+        readJsonFile(node_path_1.default.join(LESSON_SEED_DIR, "levels_manifest.json")),
+        readJsonFile(node_path_1.default.join(LESSON_SEED_DIR, "units_manifest.json")),
+        getLessonSeedFileNames(),
+    ]);
+    const lessonSeeds = await Promise.all(lessonSeedFileNames.map((fileName) => readJsonFile(node_path_1.default.join(LESSON_SEED_DIR, fileName))));
+    validateLessonSeeds(new Set(unitsManifest.map((unit) => unit.id)), lessonSeeds);
+    return {
+        levelsManifest,
+        unitsManifest,
+        lessonSeeds,
+    };
+};
 async function seed() {
     await (0, db_1.connectDB)(env_1.env.MONGODB_URI);
+    const { levelsManifest, unitsManifest, lessonSeeds } = await loadSeedData();
+    const vocabularySeedRecords = (0, vocabulary_seed_1.loadVocabularySeedRecords)();
+    const vocabularyCountsByLevel = (0, vocabulary_seed_1.getVocabularyCountsByLevel)(vocabularySeedRecords);
     console.log("Cleaning learning collections...");
     await Promise.all([
         course_model_1.Course.deleteMany({}),
@@ -52,53 +96,38 @@ async function seed() {
         quiz_attempt_model_1.QuizAttempt.deleteMany({}),
         xp_ledger_model_1.XpLedger.deleteMany({}),
         level_model_1.default.deleteMany({}),
+        vocabulary_model_1.default.deleteMany({}),
     ]);
     console.log("Creating levels...");
-    await level_model_1.default.insertMany(levels_manifest_json_1.default.map((level, index) => ({
-        ...level,
-        order: index + 1,
-    })));
+    await level_model_1.default.insertMany(levelsManifest.map((level, index) => {
+        const normalizedLevelId = level.id.toLowerCase();
+        const isVocabularyLevel = vocabulary_seed_1.SUPPORTED_VOCABULARY_LEVEL_IDS.includes(normalizedLevelId);
+        const vocabularyCount = isVocabularyLevel
+            ? vocabularyCountsByLevel[normalizedLevelId]
+            : 0;
+        return {
+            ...level,
+            order: level.order ?? index + 1,
+            vocabularyReady: isVocabularyLevel ? vocabularyCount > 0 : false,
+            vocabularyCount,
+        };
+    }));
     console.log("Creating courses...");
-    await course_model_1.Course.insertMany([
-        {
-            id: "b1",
-            title: "B1 Cyrillic Foundations",
-        },
-    ]);
+    await course_model_1.Course.insertMany(levelsManifest.map((level) => ({
+        id: level.id,
+        title: level.title,
+    })));
     console.log("Creating units...");
-    await unit_model_1.Unit.insertMany([
-        {
-            id: "b1-u1",
-            courseId: "b1",
-            title: "Unit 1: Cyrillic Basics",
-            subtitle: "Intro, tracing, and alphabet groups",
-            description: "Learn what Mongolian Cyrillic is, practice early handwriting, and understand the main letter categories.",
-            order: 1,
-        },
-        {
-            id: "b1-u2",
-            courseId: "b1",
-            title: "Unit 2: Letter Groups",
-            subtitle: "Supporting vowels, consonants, and special letters",
-            description: "Study supporting vowel letters, common consonants, and special sign letters used in the Mongolian Cyrillic alphabet.",
-            order: 2,
-        },
-        {
-            id: "b1-u3",
-            courseId: "b1",
-            title: "Unit 3: Reading and Writing Practice",
-            subtitle: "Syllables, writing drills, and word building",
-            description: "Practice reading syllables, completing letter patterns, and decoding simple words with the Cyrillic alphabet.",
-            order: 3,
-        },
-    ]);
+    await unit_model_1.Unit.insertMany(unitsManifest);
     console.log("Creating lessons...");
-    await lesson_model_1.LearningLesson.insertMany(b1LessonSeeds.map((item) => item.lesson));
+    await lesson_model_1.LearningLesson.insertMany(lessonSeeds.map((item) => item.lesson));
     console.log("Creating lesson content...");
-    await lesson_content_model_1.LessonContent.insertMany(b1LessonSeeds.flatMap((item) => item.contents));
+    await lesson_content_model_1.LessonContent.insertMany(lessonSeeds.flatMap((item) => item.contents));
     console.log("Creating quizzes...");
-    await quiz_model_1.Quiz.insertMany(b1LessonSeeds.map((item) => item.quiz));
-    await quiz_question_model_1.QuizQuestion.insertMany(b1LessonSeeds.flatMap((item) => item.quizQuestions));
+    await quiz_model_1.Quiz.insertMany(lessonSeeds.map((item) => item.quiz));
+    await quiz_question_model_1.QuizQuestion.insertMany(lessonSeeds.flatMap((item) => item.quizQuestions));
+    console.log("Creating vocabulary...");
+    await vocabulary_model_1.default.insertMany(vocabularySeedRecords);
     // console.log("Creating daily review...");
     // await DailyReview.create({
     //   reviewId: "daily_review_2026_04_16",
