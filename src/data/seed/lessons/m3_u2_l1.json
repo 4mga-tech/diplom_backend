@@ -1,0 +1,69 @@
+{
+  "lesson": {
+    "id": "m3_u2_l1",
+    "unitId": "m3-u2",
+    "title": "Тодорхойгүй төлөөний үг",
+    "titleEn": "Indefinite Pronouns",
+    "subtitle": "Хэн нэгэн, юу нэгэн, аль нэг",
+    "subtitleEn": "Someone, something, and one of several",
+    "order": 1,
+    "xpReward": 20
+  },
+  "contents": [
+    {
+      "id": "m3_u2_l1_c1",
+      "lessonId": "m3_u2_l1",
+      "type": "text",
+      "title": "Тайлбар",
+      "order": 1,
+      "content": {
+        "textMn": "Тодорхойгүй төлөөний үг нь яг хэн, юу гэдгийг нэрлэлгүйгээр заана.",
+        "textEn": "Indefinite pronouns refer without naming exactly who or what is meant."
+      }
+    },
+    {
+      "id": "m3_u2_l1_c2",
+      "lessonId": "m3_u2_l1",
+      "type": "classification",
+      "title": "Жишээ",
+      "order": 2,
+      "content": {
+        "summary": "Тодорхойгүй хэлбэрийн жишээ",
+        "groups": [
+          {
+            "title": "Хүн",
+            "items": ["хэн нэгэн", "хэн боловч"]
+          },
+          {
+            "title": "Зүйл",
+            "items": ["юу нэгэн", "аль нэг"]
+          }
+        ],
+        "glossary": [
+          { "word": "хэн нэгэн", "translation": "someone" },
+          { "word": "хэн боловч", "translation": "anyone" },
+          { "word": "юу нэгэн", "translation": "something" },
+          { "word": "аль нэг", "translation": "one of them / some" }
+        ]
+      }
+    },
+    {
+      "id": "m3_u2_l1_c3",
+      "lessonId": "m3_u2_l1",
+      "type": "exercise_fill",
+      "title": "Нөхөх",
+      "order": 3,
+      "content": {
+        "instructionMn": "Тодорхойгүй төлөөний үгийг сонго.",
+        "instructionEn": "Choose the indefinite pronoun.",
+        "groups": [
+          {
+            "sentence": "___ хаалга тогшсон.",
+            "options": ["хэн нэгэн", "түүний", "өөрөө"],
+            "answer": "хэн нэгэн"
+          }
+        ]
+      }
+    }
+  ]
+}

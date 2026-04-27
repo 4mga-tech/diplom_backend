@@ -1,0 +1,72 @@
+{
+  "lesson": {
+    "id": "m4_u3_l3",
+    "unitId": "m4-u3",
+    "title": "Шинж ба төлөв үүсгэх дагавар",
+    "titleEn": "Quality and State-Forming Suffixes",
+    "subtitle": "Шинж, байдал, зэрэглэлийн хэлбэр",
+    "subtitleEn": "Forms for quality, state, and degree",
+    "order": 3,
+    "xpReward": 20
+  },
+  "contents": [
+    {
+      "id": "m4_u3_l3_c1",
+      "lessonId": "m4_u3_l3",
+      "type": "text",
+      "title": "Ойлголт",
+      "titleEn": "Concept",
+      "order": 1,
+      "content": {
+        "textMn": "Зарим дагавар нь шинж, төлөв, зэрэглэлийн утгыг нарийвчлан илэрхийлдэг.",
+        "textEn": "Some suffixes create more precise meanings of quality, state, and degree."
+      }
+    },
+    {
+      "id": "m4_u3_l3_c2",
+      "lessonId": "m4_u3_l3",
+      "type": "classification",
+      "title": "Жишээ утга",
+      "titleEn": "Meaning Examples",
+      "order": 2,
+      "content": {
+        "summary": "Шинж, төлөв үүсгэсэн хэлбэр",
+        "groups": [
+          {
+            "title": "Төлөв",
+            "items": ["чийглэг", "дулаавтар"]
+          },
+          {
+            "title": "Шинж",
+            "items": ["хурцлаг", "тогтуундуу"]
+          }
+        ],
+        "glossary": [
+          { "word": "чийглэг", "translation": "humid / damp" },
+          { "word": "дулаавтар", "translation": "somewhat warm" },
+          { "word": "хурцлаг", "translation": "rather sharp" },
+          { "word": "тогтуундуу", "translation": "fairly calm" }
+        ]
+      }
+    },
+    {
+      "id": "m4_u3_l3_c3",
+      "lessonId": "m4_u3_l3",
+      "type": "exercise_fill",
+      "title": "Дадлага",
+      "titleEn": "Practice",
+      "order": 3,
+      "content": {
+        "instructionMn": "Төлөв илэрхийлсэн хэлбэрийг сонго.",
+        "instructionEn": "Choose the form expressing state.",
+        "groups": [
+          {
+            "sentence": "Өнөөдөр агаар ___ байна.",
+            "options": ["чийглэг", "очсон", "сонсоорой"],
+            "answer": "чийглэг"
+          }
+        ]
+      }
+    }
+  ]
+}

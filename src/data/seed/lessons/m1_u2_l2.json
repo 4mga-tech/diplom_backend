@@ -3,7 +3,9 @@
     "id": "m1-u2-l2",
     "unitId": "m1-u2",
     "title": "Богино, урт, хос эгшиг унших",
+    "titleEn": "Reading Short, Long, and Diphthong Vowels",
     "subtitle": "Жишээ үг, ялгаа, давталт",
+    "subtitleEn": "Sample words, contrasts, and repetition",
     "order": 2,
     "xpReward": 20,
     "quizXpReward": 9
@@ -18,6 +20,7 @@
       "content": {
         "section": "listening",
         "instructionMn": "Богино, урт, хос эгшгийг ялгаж уншаарай.",
+        "instructionEn": "Read and compare short, long, and diphthong vowels.",
         "rows": [
           {
             "prompt": "Богино",
@@ -55,8 +58,54 @@
       "order": 2,
       "content": {
         "section": "reading",
-        "textMn": "аав, даа, дээр, доор, шүү, сүү, хүү, хөө, гүй, үгүй, сайн байна зэрэг үгсээр богино, урт, хос эгшгийн ялгааг ажиглана.",
-        "textEn": "Observe the differences between short, long, and diphthong vowels in sample words."
+        "textMn": "аав, даа, дээр, доор, шүү, сүү, хүү, хөө, гүй, үгүй, сайн зэрэг үгсээр богино, урт, хос эгшгийн ялгааг ажиглана.",
+        "textEn": "Observe the differences between short, long, and diphthong vowels in sample words.",
+        "glossary": [
+          {
+            "word": "аав",
+            "translation": "father"
+          },
+          {
+            "word": "даа",
+            "translation": "indeed"
+          },
+          {
+            "word": "дээр",
+            "translation": "on"
+          },
+          {
+            "word": "доор",
+            "translation": "under"
+          },
+          {
+            "word": "шүү",
+            "translation": "please note"
+          },
+          {
+            "word": "сүү",
+            "translation": "milk"
+          },
+          {
+            "word": "хүү",
+            "translation": "boy"
+          },
+          {
+            "word": "хөө",
+            "translation": "shoo"
+          },
+          {
+            "word": "гүй",
+            "translation": "did not"
+          },
+          {
+            "word": "үгүй",
+            "translation": "no"
+          },
+          {
+            "word": "сайн",
+            "translation": "good"
+          }
+        ]
       }
     },
     {
@@ -101,12 +150,7 @@
       "type": "multiple_choice",
       "prompt": "“уул” ямар төрлийн эгшигтэй вэ?",
       "helper": "Зөв ангиллыг сонго.",
-      "options": [
-        "богино",
-        "урт",
-        "хос",
-        "туслах"
-      ],
+      "options": ["богино", "урт", "хос", "туслах"],
       "correctAnswer": "урт",
       "explanation": "Уул гэдэг үг урт эгшигтэй.",
       "xpReward": 3,
@@ -118,12 +162,7 @@
       "type": "multiple_choice",
       "prompt": "“сайн” ямар төрлийн эгшигтэй вэ?",
       "helper": "Ай-г анзаараарай.",
-      "options": [
-        "урт",
-        "хос",
-        "богино",
-        "тэмдэг"
-      ],
+      "options": ["урт", "хос", "богино", "тэмдэг"],
       "correctAnswer": "хос",
       "explanation": "Сайн гэдэг үг хос эгшигтэй.",
       "xpReward": 3,

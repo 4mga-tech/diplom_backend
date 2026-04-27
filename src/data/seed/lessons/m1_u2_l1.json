@@ -3,7 +3,9 @@
     "id": "m1-u2-l1",
     "unitId": "m1-u2",
     "title": "Эгшиг авианы ангилал",
+    "titleEn": "Vowel Classification",
     "subtitle": "Богино, урт, хос эгшиг",
+    "subtitleEn": "Short, long, and diphthong vowels",
     "order": 1,
     "xpReward": 20,
     "quizXpReward": 9
@@ -18,51 +20,23 @@
       "content": {
         "section": "reading",
         "summary": "Эгшиг авиаг богино, урт, хос, туслах эгшиг гэж ангилна.",
+        "textEn": "Vowels are grouped as short, long, diphthong, and helper vowels.",
         "groups": [
           {
             "title": "Богино эгшиг",
-            "items": [
-              "а",
-              "э",
-              "о",
-              "у",
-              "ү",
-              "ө",
-              "и"
-            ]
+            "items": ["а", "э", "о", "у", "ү", "ө", "и"]
           },
           {
             "title": "Урт эгшиг",
-            "items": [
-              "аа",
-              "ээ",
-              "оо",
-              "уу",
-              "үү",
-              "өө"
-            ]
+            "items": ["аа", "ээ", "оо", "уу", "үү", "өө"]
           },
           {
             "title": "Хос эгшиг",
-            "items": [
-              "ай",
-              "эй",
-              "ой",
-              "уй",
-              "үй",
-              "ий"
-            ]
+            "items": ["ай", "эй", "ой", "уй", "үй", "ий"]
           },
           {
             "title": "Туслах эгшиг",
-            "items": [
-              "я",
-              "е",
-              "ё",
-              "ю",
-              "ы",
-              "й"
-            ]
+            "items": ["я", "е", "ё", "ю", "ы", "й"]
           }
         ]
       }
@@ -71,12 +45,13 @@
       "id": "m1-u2-l1-c2",
       "lessonId": "m1-u2-l1",
       "type": "grammar_note",
-      "title": "Grammar notes",
+      "title": "Дүрэм",
       "order": 2,
       "content": {
         "section": "grammar",
+        "textEn": "Review how short, long, and diphthong vowels are written and heard.",
         "notes": [
-          "Богино эгшиг эхний үеэс бусад үед бүдгэрч сонсогдож болно.",
+          "Богино эгшиг эхний үеэс бусад үед бүдэгрэн сонсогдож болно.",
           "Урт эгшгийг хоёр ижил үсгээр тэмдэглэнэ.",
           "Хос эгшгийн хоёр дахь элемент бүдэг сонсогдох нь бий.",
           "Ы, ий нь зарим нөхцөлд өөр хэлбэрээр бичигдэнэ."
@@ -108,12 +83,7 @@
       "type": "multiple_choice",
       "prompt": "Аль нь урт эгшиг вэ?",
       "helper": "Зөв хариултыг сонго.",
-      "options": [
-        "а",
-        "ай",
-        "аа",
-        "я"
-      ],
+      "options": ["а", "ай", "аа", "я"],
       "correctAnswer": "аа",
       "explanation": "Аа нь урт эгшиг юм.",
       "xpReward": 3,
@@ -124,13 +94,8 @@
       "quizId": "quiz_m1_u2_l1",
       "type": "multiple_choice",
       "prompt": "Аль нь хос эгшиг вэ?",
-      "helper": "Дипфтонгийг сонго.",
-      "options": [
-        "ө",
-        "ий",
-        "ю",
-        "ээ"
-      ],
+      "helper": "Зөв хариултыг сонго.",
+      "options": ["ө", "ий", "ю", "ээ"],
       "correctAnswer": "ий",
       "explanation": "Ий нь хос эгшгийн жишээ.",
       "xpReward": 3,
@@ -141,7 +106,7 @@
       "quizId": "quiz_m1_u2_l1",
       "type": "multiple_choice",
       "prompt": "Урт эгшгийг яаж бичдэг вэ?",
-      "helper": "Grammar notes-ыг уншаарай.",
+      "helper": "Дүрмийн хэсгийг санаарай.",
       "options": [
         "нэг үсгээр",
         "хоёр ижил үсгээр",

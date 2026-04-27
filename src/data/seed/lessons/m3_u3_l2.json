@@ -1,0 +1,67 @@
+{
+  "lesson": {
+    "id": "m3_u3_l2",
+    "unitId": "m3-u3",
+    "title": "Эрчим ба хэмжээг илэрхийлэх үг",
+    "titleEn": "Words of Degree and Intensity",
+    "subtitle": "Нэлээд, тун, арай, маш",
+    "subtitleEn": "Degree, intensity, and adjustment",
+    "order": 2,
+    "xpReward": 20
+  },
+  "contents": [
+    {
+      "id": "m3_u3_l2_c1",
+      "lessonId": "m3_u3_l2",
+      "type": "text",
+      "title": "Тайлбар",
+      "order": 1,
+      "content": {
+        "textMn": "Зарим үг нь үнэлгээний хүч, хэмжээг илүү нарийн ялгаж өгдөг.",
+        "textEn": "Some words fine-tune the strength or degree of an evaluation."
+      }
+    },
+    {
+      "id": "m3_u3_l2_c2",
+      "lessonId": "m3_u3_l2",
+      "type": "classification",
+      "title": "Жишээ",
+      "order": 2,
+      "content": {
+        "summary": "Эрчим илэрхийлсэн хэлбэр",
+        "groups": [
+          {
+            "title": "Ихэсгэх",
+            "items": ["тун сайн", "маш хурдан"]
+          },
+          {
+            "title": "Зөөлрүүлэх",
+            "items": ["арай дээр", "нэлээд ойр"]
+          }
+        ],
+        "glossary": [
+          { "word": "тун сайн", "translation": "very good" },
+          { "word": "маш хурдан", "translation": "very fast" },
+          { "word": "арай дээр", "translation": "a bit better" },
+          { "word": "нэлээд ойр", "translation": "fairly close" }
+        ]
+      }
+    },
+    {
+      "id": "m3_u3_l2_c3",
+      "lessonId": "m3_u3_l2",
+      "type": "exercise_repeat",
+      "title": "Уншлага",
+      "order": 3,
+      "content": {
+        "instructionMn": "Эрчимтэй хэлбэрүүдийг уншаарай.",
+        "instructionEn": "Read the degree expressions aloud.",
+        "rows": ["тун сонирхолтой", "арай өөр болсон"],
+        "glossary": [
+          { "word": "тун сонирхолтой", "translation": "very interesting" },
+          { "word": "арай өөр болсон", "translation": "became somewhat different" }
+        ]
+      }
+    }
+  ]
+}

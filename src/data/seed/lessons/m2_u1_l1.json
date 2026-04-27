@@ -1,0 +1,95 @@
+{
+  "lesson": {
+    "id": "m2_u1_l1",
+    "unitId": "m2-u1",
+    "title": "Үйл үгийн төгсгөл",
+    "titleEn": "Verb Endings",
+    "subtitle": "Одоо, өнгөрсөн, ирээдүйн хэлбэр",
+    "subtitleEn": "Present, past, and future forms",
+    "order": 1,
+    "xpReward": 20
+  },
+  "contents": [
+    {
+      "id": "m2_u1_l1_c1",
+      "lessonId": "m2_u1_l1",
+      "type": "text",
+      "title": "Тайлбар",
+      "order": 1,
+      "content": {
+        "textMn": "Үйл үгийн төгсгөл нь цаг, байдал, утгын өнгийг илэрхийлдэг.",
+        "textEn": "Verb endings show tense, aspect, and sentence meaning."
+      }
+    },
+    {
+      "id": "m2_u1_l1_c2",
+      "lessonId": "m2_u1_l1",
+      "type": "classification",
+      "title": "Жишээ хэлбэр",
+      "order": 2,
+      "content": {
+        "summary": "Түгээмэл төгсгөлийн жишээ",
+        "groups": [
+          {
+            "title": "Одоо",
+            "items": ["уншиж байна", "явж байна", "хийж байна"]
+          },
+          {
+            "title": "Өнгөрсөн",
+            "items": ["уншсан", "явсан", "хийсэн"]
+          },
+          {
+            "title": "Ирээдүй",
+            "items": ["уншина", "явна", "хийнэ"]
+          }
+        ],
+        "glossary": [
+          { "word": "уншиж байна", "translation": "is reading" },
+          { "word": "явж байна", "translation": "is going" },
+          { "word": "хийж байна", "translation": "is doing" },
+          { "word": "уншсан", "translation": "read / has read" },
+          { "word": "явсан", "translation": "went / has gone" },
+          { "word": "хийсэн", "translation": "did / has done" },
+          { "word": "уншина", "translation": "will read" },
+          { "word": "явна", "translation": "will go" },
+          { "word": "хийнэ", "translation": "will do" }
+        ]
+      }
+    },
+    {
+      "id": "m2_u1_l1_c3",
+      "lessonId": "m2_u1_l1",
+      "type": "exercise_repeat",
+      "title": "Дагаж унш",
+      "order": 3,
+      "content": {
+        "instructionMn": "Дараах хэлбэрүүдийг чанга уншаарай.",
+        "instructionEn": "Read the following forms aloud.",
+        "rows": ["ирж байна", "ирсэн", "ирнэ"],
+        "glossary": [
+          { "word": "ирж байна", "translation": "is coming" },
+          { "word": "ирсэн", "translation": "came / has come" },
+          { "word": "ирнэ", "translation": "will come" }
+        ]
+      }
+    },
+    {
+      "id": "m2_u1_l1_c4",
+      "lessonId": "m2_u1_l1",
+      "type": "exercise_fill",
+      "title": "Сонголт",
+      "order": 4,
+      "content": {
+        "instructionMn": "Ирээдүйн хэлбэрийг сонго.",
+        "instructionEn": "Choose the future form.",
+        "groups": [
+          {
+            "sentence": "Тэр маргааш ___ .",
+            "options": ["явсан", "явж байна", "явна"],
+            "answer": "явна"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "lesson": {
+    "id": "m3_u4_l4",
+    "unitId": "m3-u4",
+    "title": "Эцсийн шалгалт",
+    "titleEn": "Final Exam",
+    "subtitle": "M3 дүрэм ба хэрэглээ",
+    "subtitleEn": "M3 grammar and usage assessment",
+    "order": 4,
+    "xpReward": 40
+  },
+  "contents": [
+    {
+      "id": "m3_u4_l4_c1",
+      "lessonId": "m3_u4_l4",
+      "type": "text",
+      "title": "Финал",
+      "order": 1,
+      "content": {
+        "textMn": "Эцсийн шалгалтаар M3-ийн гол дүрэм, хэрэглээг шалгана.",
+        "textEn": "The final exam checks the main grammar and usage patterns from M3."
+      }
+    },
+    {
+      "id": "m3_u4_l4_c2",
+      "lessonId": "m3_u4_l4",
+      "type": "quiz_link",
+      "title": "Шалгалт эхлэх",
+      "order": 2,
+      "content": {
+        "quizId": "m3_u4_l4_quiz"
+      }
+    }
+  ],
+  "quiz": {
+    "id": "m3_u4_l4_quiz",
+    "lessonId": "m3_u4_l4",
+    "title": "M3 Final Exam",
+    "passingScore": 75
+  },
+  "quizQuestions": [
+    {
+      "id": "m3_u4_l4_q1",
+      "quizId": "m3_u4_l4_quiz",
+      "type": "multiple_choice",
+      "prompt": "Аль нь үйлдүүлэх хэв вэ?",
+      "helper": "Хэн нэгнээр хийлгэсэн утгыг сонго.",
+      "options": ["уншуулсан", "уншигдсан", "уншина", "уншсан"],
+      "correctAnswer": "уншуулсан",
+      "explanation": "Уншуулсан нь үйлдүүлэх хэв.",
+      "xpReward": 4,
+      "order": 1
+    },
+    {
+      "id": "m3_u4_l4_q2",
+      "quizId": "m3_u4_l4_quiz",
+      "type": "multiple_choice",
+      "prompt": "Аль нь тодорхойгүй төлөөний үг вэ?",
+      "helper": "Тодорхой нэрлэлгүй заасан хэлбэрийг сонго.",
+      "options": ["хэн нэгэн", "өөрөө", "лавтай", "боловч"],
+      "correctAnswer": "хэн нэгэн",
+      "explanation": "Хэн нэгэн нь тодорхойгүй төлөөний үг.",
+      "xpReward": 4,
+      "order": 2
+    },
+    {
+      "id": "m3_u4_l4_q3",
+      "quizId": "m3_u4_l4_quiz",
+      "type": "multiple_choice",
+      "prompt": "Аль нь илүү бат магадлал илэрхийлж байна вэ?",
+      "helper": "Итгэлийн түвшнийг харьцуул.",
+      "options": ["магадгүй", "лавтай", "арай", "харамсалтай нь"],
+      "correctAnswer": "лавтай",
+      "explanation": "Лавтай нь илүү бат магадлал илэрхийлнэ.",
+      "xpReward": 4,
+      "order": 3
+    },
+    {
+      "id": "m3_u4_l4_q4",
+      "quizId": "m3_u4_l4_quiz",
+      "type": "multiple_choice",
+      "prompt": "Аль нь эсрэгцүүлсэн нийлмэл өгүүлбэр вэ?",
+      "helper": "Хоёр санааг сөргүүлсэн хэлбэрийг сонго.",
+      "options": ["бороо орсон тул хоцорсон", "очмоор байсан ч амжаагүй", "магадгүй ирнэ", "өөрийгөө харсан"],
+      "correctAnswer": "очмоор байсан ч амжаагүй",
+      "explanation": "Очмоор байсан ч амжаагүй нь эсрэгцүүлсэн нийлмэл өгүүлбэр.",
+      "xpReward": 4,
+      "order": 4
+    }
+  ]
+}

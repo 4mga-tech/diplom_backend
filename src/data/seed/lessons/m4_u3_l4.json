@@ -1,0 +1,72 @@
+{
+  "lesson": {
+    "id": "m4_u3_l4",
+    "unitId": "m4-u3",
+    "title": "Нэгжийн шалгалт",
+    "titleEn": "Unit Quiz",
+    "subtitle": "Үүсмэл дагаврын хэрэглээ",
+    "subtitleEn": "Derivational suffix usage",
+    "order": 4,
+    "xpReward": 30
+  },
+  "contents": [
+    {
+      "id": "m4_u3_l4_c1",
+      "lessonId": "m4_u3_l4",
+      "type": "text",
+      "title": "Шалгалт",
+      "titleEn": "Quiz",
+      "order": 1,
+      "content": {
+        "textMn": "Энэ нэгжийн үүсмэл дагаврыг шалгана.",
+        "textEn": "This quiz checks the derivational suffix patterns from the unit."
+      }
+    },
+    {
+      "id": "m4_u3_l4_c2",
+      "lessonId": "m4_u3_l4",
+      "type": "quiz_link",
+      "title": "Эхлэх",
+      "titleEn": "Start",
+      "order": 2,
+      "content": {
+        "quizId": "m4_u3_l4_quiz"
+      }
+    }
+  ],
+  "quiz": {
+    "id": "m4_u3_l4_quiz",
+    "lessonId": "m4_u3_l4",
+    "title": "M4 Unit 3 Quiz",
+    "passingScore": 70
+  },
+  "quizQuestions": [
+    {
+      "id": "m4_u3_l4_q1",
+      "quizId": "m4_u3_l4_quiz",
+      "type": "multiple_choice",
+      "prompt": "Аль нь нэр үг болсон хэлбэр вэ?",
+      "options": ["сургалт", "сайжрах", "чийглэг", "ирсэн"],
+      "correctAnswer": "сургалт",
+      "order": 1
+    },
+    {
+      "id": "m4_u3_l4_q2",
+      "quizId": "m4_u3_l4_quiz",
+      "type": "multiple_choice",
+      "prompt": "Аль нь үйл үг болсон хэлбэр вэ?",
+      "options": ["тэмдэглэл", "услах", "дулаавтар", "ирээрэй"],
+      "correctAnswer": "услах",
+      "order": 2
+    },
+    {
+      "id": "m4_u3_l4_q3",
+      "quizId": "m4_u3_l4_quiz",
+      "type": "multiple_choice",
+      "prompt": "Аль нь төлөв илэрхийлж байна вэ?",
+      "options": ["чийглэг", "сургалт", "мэдсэн боловч", "сонссон тул"],
+      "correctAnswer": "чийглэг",
+      "order": 3
+    }
+  ]
+}

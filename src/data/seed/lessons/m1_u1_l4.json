@@ -1,0 +1,73 @@
+{
+  "lesson": {
+    "id": "m1_u1_l4",
+    "unitId": "m1-u1",
+    "title": "Баймж үг",
+    "titleEn": "Adverb",
+    "subtitle": "Үйлдлийг тодотгох үгс",
+    "subtitleEn": "Words that modify actions",
+    "order": 4,
+    "xpReward": 20
+  },
+  "contents": [
+    {
+      "id": "m1_u1_l4_c1",
+      "lessonId": "m1_u1_l4",
+      "type": "text",
+      "title": "Тайлбар",
+      "order": 1,
+      "content": {
+        "textMn": "Баймж үг нь үйлдлийг тодотгоно.",
+        "textEn": "Adverbs modify actions."
+      }
+    },
+    {
+      "id": "m1_u1_l4_c2",
+      "lessonId": "m1_u1_l4",
+      "type": "classification",
+      "title": "Жишээ",
+      "order": 2,
+      "content": {
+        "summary": "Жишээ",
+        "groups": [
+          {
+            "title": "Баймж үг",
+            "items": ["маш", "бага", "сайн"]
+          }
+        ],
+        "glossary": [
+          {
+            "word": "маш",
+            "translation": "very"
+          },
+          {
+            "word": "бага",
+            "translation": "a little"
+          },
+          {
+            "word": "сайн",
+            "translation": "well"
+          }
+        ]
+      }
+    },
+    {
+      "id": "m1_u1_l4_c3",
+      "lessonId": "m1_u1_l4",
+      "type": "exercise_fill",
+      "title": "Дасгал",
+      "order": 3,
+      "content": {
+        "instructionMn": "Зөв үгийг сонго",
+        "instructionEn": "Select the correct word",
+        "groups": [
+          {
+            "sentence": "Тэр ___ сайн уншдаг.",
+            "options": ["маш", "ном", "уншдаг"],
+            "answer": "маш"
+          }
+        ]
+      }
+    }
+  ]
+}

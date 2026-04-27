@@ -1,0 +1,91 @@
+{
+  "lesson": {
+    "id": "m2_u4_l4",
+    "unitId": "m2-u4",
+    "title": "Эцсийн шалгалт",
+    "titleEn": "Final Exam",
+    "subtitle": "M2 дүрмийн шалгалт",
+    "subtitleEn": "M2 grammar assessment",
+    "order": 4,
+    "xpReward": 40
+  },
+  "contents": [
+    {
+      "id": "m2_u4_l4_c1",
+      "lessonId": "m2_u4_l4",
+      "type": "text",
+      "title": "Финал",
+      "order": 1,
+      "content": {
+        "textMn": "Эцсийн шалгалтаар бүх нэгжийн гол дүрмийг шалгана.",
+        "textEn": "The final exam checks key grammar from all M2 units."
+      }
+    },
+    {
+      "id": "m2_u4_l4_c2",
+      "lessonId": "m2_u4_l4",
+      "type": "quiz_link",
+      "title": "Шалгалт эхлэх",
+      "order": 2,
+      "content": {
+        "quizId": "m2_u4_l4_quiz"
+      }
+    }
+  ],
+  "quiz": {
+    "id": "m2_u4_l4_quiz",
+    "lessonId": "m2_u4_l4",
+    "title": "M2 Final Exam",
+    "passingScore": 75
+  },
+  "quizQuestions": [
+    {
+      "id": "m2_u4_l4_q1",
+      "quizId": "m2_u4_l4_quiz",
+      "type": "multiple_choice",
+      "prompt": "Аль нь болзолт хэлбэр вэ?",
+      "helper": "Хамаарал илэрхийлснийг сонго.",
+      "options": ["ирнэ", "ирэхгүй", "ирвэл", "ирсэн"],
+      "correctAnswer": "ирвэл",
+      "explanation": "Ирвэл нь болзолт хэлбэр.",
+      "xpReward": 4,
+      "order": 1
+    },
+    {
+      "id": "m2_u4_l4_q2",
+      "quizId": "m2_u4_l4_quiz",
+      "type": "multiple_choice",
+      "prompt": "Аль өгүүлбэр зөв дараалалтай вэ?",
+      "helper": "Үйл үгийн байрлалыг анзаараарай.",
+      "options": ["уншина би ном", "би ном уншина", "ном би уншина", "уншина ном би"],
+      "correctAnswer": "би ном уншина",
+      "explanation": "Монгол өгүүлбэрт үйл үг ихэвчлэн төгсгөлд орно.",
+      "xpReward": 4,
+      "order": 2
+    },
+    {
+      "id": "m2_u4_l4_q3",
+      "quizId": "m2_u4_l4_quiz",
+      "type": "multiple_choice",
+      "prompt": "Аль нь эзэмших төлөөний үг вэ?",
+      "helper": "Хэнийхийг заасныг сонго.",
+      "options": ["энэ", "түүний", "маргааш", "гэхдээ"],
+      "correctAnswer": "түүний",
+      "explanation": "Түүний нь эзэмших төлөөний үг.",
+      "xpReward": 4,
+      "order": 3
+    },
+    {
+      "id": "m2_u4_l4_q4",
+      "quizId": "m2_u4_l4_quiz",
+      "type": "multiple_choice",
+      "prompt": "Аль нь эсрэгцүүлэх холбох үг вэ?",
+      "helper": "Сөргүүлсэн утгыг сонго.",
+      "options": ["бас", "тиймээс", "гэхдээ", "магадгүй"],
+      "correctAnswer": "гэхдээ",
+      "explanation": "Гэхдээ нь эсрэгцүүлэх холбох үг.",
+      "xpReward": 4,
+      "order": 4
+    }
+  ]
+}

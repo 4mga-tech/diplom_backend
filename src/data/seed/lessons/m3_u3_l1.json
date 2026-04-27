@@ -1,0 +1,69 @@
+{
+  "lesson": {
+    "id": "m3_u3_l1",
+    "unitId": "m3-u3",
+    "title": "Магадлалын өнгө",
+    "titleEn": "Nuance of Probability",
+    "subtitle": "Магадгүй, лавтай, бараг",
+    "subtitleEn": "Possibility, certainty, and near certainty",
+    "order": 1,
+    "xpReward": 20
+  },
+  "contents": [
+    {
+      "id": "m3_u3_l1_c1",
+      "lessonId": "m3_u3_l1",
+      "type": "text",
+      "title": "Тайлбар",
+      "order": 1,
+      "content": {
+        "textMn": "Модаль өнгө нь яригчийн итгэл, таамаг, эргэлзээг илүү нарийн илэрхийлдэг.",
+        "textEn": "Modal nuance lets the speaker express certainty, guesswork, and doubt more precisely."
+      }
+    },
+    {
+      "id": "m3_u3_l1_c2",
+      "lessonId": "m3_u3_l1",
+      "type": "classification",
+      "title": "Өнгийн ялгаа",
+      "order": 2,
+      "content": {
+        "summary": "Магадлалын түвшний жишээ",
+        "groups": [
+          {
+            "title": "Сул таамаг",
+            "items": ["магадгүй ирнэ", "байж болох юм"]
+          },
+          {
+            "title": "Илүү бат",
+            "items": ["лавтай мэднэ", "бараг дууссан"]
+          }
+        ],
+        "glossary": [
+          { "word": "магадгүй ирнэ", "translation": "may come" },
+          { "word": "байж болох юм", "translation": "it might be so" },
+          { "word": "лавтай мэднэ", "translation": "certainly knows" },
+          { "word": "бараг дууссан", "translation": "almost finished" }
+        ]
+      }
+    },
+    {
+      "id": "m3_u3_l1_c3",
+      "lessonId": "m3_u3_l1",
+      "type": "exercise_fill",
+      "title": "Сонголт",
+      "order": 3,
+      "content": {
+        "instructionMn": "Илүү бат итгэлийг илэрхийлсэн хэлбэрийг сонго.",
+        "instructionEn": "Choose the form showing stronger certainty.",
+        "groups": [
+          {
+            "sentence": "Тэр ___ зөв хариулна.",
+            "options": ["магадгүй", "лавтай", "хэн нэгэн"],
+            "answer": "лавтай"
+          }
+        ]
+      }
+    }
+  ]
+}

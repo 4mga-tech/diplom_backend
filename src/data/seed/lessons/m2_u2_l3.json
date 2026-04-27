@@ -1,0 +1,67 @@
+{
+  "lesson": {
+    "id": "m2_u2_l3",
+    "unitId": "m2-u2",
+    "title": "Асуух ба онцлох бүтэц",
+    "titleEn": "Question and Focus Structures",
+    "subtitle": "Асуулт, тодруулга, онцлол",
+    "subtitleEn": "Questions, clarification, and focus",
+    "order": 3,
+    "xpReward": 20
+  },
+  "contents": [
+    {
+      "id": "m2_u2_l3_c1",
+      "lessonId": "m2_u2_l3",
+      "type": "text",
+      "title": "Тайлбар",
+      "order": 1,
+      "content": {
+        "textMn": "Асуух бүтэц нь мэдээлэл лавлах, онцлох бүтэц нь нэг хэсгийг тодруулахад хэрэглэгдэнэ.",
+        "textEn": "Question structures ask for information, while focus structures highlight one part of the sentence."
+      }
+    },
+    {
+      "id": "m2_u2_l3_c2",
+      "lessonId": "m2_u2_l3",
+      "type": "classification",
+      "title": "Жишээ",
+      "order": 2,
+      "content": {
+        "summary": "Асуух ба онцлох өгүүлбэр",
+        "groups": [
+          {
+            "title": "Асуулт",
+            "items": ["хэн ирсэн бэ", "юу хийж байна"]
+          },
+          {
+            "title": "Онцлох",
+            "items": ["энэ л зөв", "би өөрөө хийнэ"]
+          }
+        ],
+        "glossary": [
+          { "word": "хэн ирсэн бэ", "translation": "who came" },
+          { "word": "юу хийж байна", "translation": "what is being done" },
+          { "word": "энэ л зөв", "translation": "this is exactly right" },
+          { "word": "би өөрөө хийнэ", "translation": "I myself will do it" }
+        ]
+      }
+    },
+    {
+      "id": "m2_u2_l3_c3",
+      "lessonId": "m2_u2_l3",
+      "type": "exercise_repeat",
+      "title": "Уншлага",
+      "order": 3,
+      "content": {
+        "instructionMn": "Асуух ба онцлох хэлбэрийг уншаарай.",
+        "instructionEn": "Read the question and focus forms aloud.",
+        "rows": ["хэн явах вэ", "би л очно"],
+        "glossary": [
+          { "word": "хэн явах вэ", "translation": "who will go" },
+          { "word": "би л очно", "translation": "I will be the one to go" }
+        ]
+      }
+    }
+  ]
+}

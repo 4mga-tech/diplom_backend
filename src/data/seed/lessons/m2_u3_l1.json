@@ -1,0 +1,71 @@
+{
+  "lesson": {
+    "id": "m2_u3_l1",
+    "unitId": "m2-u3",
+    "title": "Төлөөний үгийн хэрэглээ",
+    "titleEn": "Pronoun Usage",
+    "subtitle": "Заах, асуух, эзэмших хэлбэр",
+    "subtitleEn": "Reference, question, and possessive forms",
+    "order": 1,
+    "xpReward": 20
+  },
+  "contents": [
+    {
+      "id": "m2_u3_l1_c1",
+      "lessonId": "m2_u3_l1",
+      "type": "text",
+      "title": "Тайлбар",
+      "order": 1,
+      "content": {
+        "textMn": "Төлөөний үг нь хүн, зүйл, эзэмшлийг дахин нэрлэхгүйгээр заана.",
+        "textEn": "Pronouns refer to people, things, and possession without repeating the full noun."
+      }
+    },
+    {
+      "id": "m2_u3_l1_c2",
+      "lessonId": "m2_u3_l1",
+      "type": "classification",
+      "title": "Төрөл",
+      "order": 2,
+      "content": {
+        "summary": "Төлөөний үгийн жишээ",
+        "groups": [
+          {
+            "title": "Заах",
+            "items": ["энэ", "тэр", "эдгээр"]
+          },
+          {
+            "title": "Эзэмших",
+            "items": ["миний", "чиний", "түүний"]
+          }
+        ],
+        "glossary": [
+          { "word": "энэ", "translation": "this" },
+          { "word": "тэр", "translation": "that / he / she" },
+          { "word": "эдгээр", "translation": "these" },
+          { "word": "миний", "translation": "my" },
+          { "word": "чиний", "translation": "your" },
+          { "word": "түүний", "translation": "his or her" }
+        ]
+      }
+    },
+    {
+      "id": "m2_u3_l1_c3",
+      "lessonId": "m2_u3_l1",
+      "type": "exercise_fill",
+      "title": "Сонгох",
+      "order": 3,
+      "content": {
+        "instructionMn": "Эзэмших төлөөний үгийг сонго.",
+        "instructionEn": "Choose the possessive pronoun.",
+        "groups": [
+          {
+            "sentence": "___ ном ширээн дээр байна.",
+            "options": ["энэ", "миний", "хэн"],
+            "answer": "миний"
+          }
+        ]
+      }
+    }
+  ]
+}

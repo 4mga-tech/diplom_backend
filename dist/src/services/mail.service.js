@@ -5,11 +5,18 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.sendOtpEmail = exports.transporter = void 0;
 const nodemailer_1 = __importDefault(require("nodemailer"));
+const env_1 = require("../config/env");
+const isProduction = process.env.NODE_ENV === "production";
+const createHttpError = (message, statusCode = 500) => {
+    const error = new Error(message);
+    error.statusCode = statusCode;
+    return error;
+};
 exports.transporter = nodemailer_1.default.createTransport({
     service: "gmail",
     auth: {
-        user: process.env.MAIL_USER,
-        pass: process.env.MAIL_APP_PASSWORD,
+        user: env_1.env.MAIL_USER,
+        pass: env_1.env.MAIL_APP_PASSWORD,
     },
 });
 const sendOtpEmail = async (email, code, purpose) => {
@@ -24,11 +31,25 @@ const sendOtpEmail = async (email, code, purpose) => {
       <p>This code expires in 5 minutes.</p>
     </div>
   `;
-    await exports.transporter.sendMail({
-        from: process.env.MAIL_USER,
-        to: email,
-        subject,
-        html,
-    });
+    console.log(`sending OTP to: ${email}`);
+    try {
+        await exports.transporter.sendMail({
+            from: env_1.env.MAIL_USER,
+            to: email,
+            subject,
+            html,
+        });
+        if (!isProduction) {
+            console.log(`OTP email accepted for: ${email}`);
+        }
+    }
+    catch (error) {
+        console.error("Failed to send OTP email", {
+            recipient: email,
+            purpose,
+            error: error?.message ?? "Unknown mailer error",
+        });
+        throw createHttpError("Failed to send OTP email. Please check the email address and try again.", 502);
+    }
 };
 exports.sendOtpEmail = sendOtpEmail;

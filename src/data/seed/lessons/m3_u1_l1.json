@@ -1,0 +1,70 @@
+{
+  "lesson": {
+    "id": "m3_u1_l1",
+    "unitId": "m3-u1",
+    "title": "Үйлдүүлэх хэв",
+    "titleEn": "Causative Forms",
+    "subtitle": "Хэн нэгнээр үйлдэл хийлгэх",
+    "subtitleEn": "Making someone perform an action",
+    "order": 1,
+    "xpReward": 20
+  },
+  "contents": [
+    {
+      "id": "m3_u1_l1_c1",
+      "lessonId": "m3_u1_l1",
+      "type": "text",
+      "title": "Тайлбар",
+      "order": 1,
+      "content": {
+        "textMn": "Үйлдүүлэх хэв нь нэг хүн өөр хүнээр үйлдэл хийлгэж байгааг илэрхийлнэ.",
+        "textEn": "Causative forms show that one person causes another to do an action."
+      }
+    },
+    {
+      "id": "m3_u1_l1_c2",
+      "lessonId": "m3_u1_l1",
+      "type": "classification",
+      "title": "Жишээ",
+      "order": 2,
+      "content": {
+        "summary": "Үйлдүүлэхийн жишээ",
+        "groups": [
+          {
+            "title": "Энгийн",
+            "items": ["уншуулсан", "явуулсан", "бичүүлсэн"]
+          },
+          {
+            "title": "Өгүүлбэр",
+            "items": ["багш даалгавар бичүүлсэн", "ээж намайг явуулсан"]
+          }
+        ],
+        "glossary": [
+          { "word": "уншуулсан", "translation": "made someone read" },
+          { "word": "явуулсан", "translation": "sent / made someone go" },
+          { "word": "бичүүлсэн", "translation": "made someone write" },
+          { "word": "багш даалгавар бичүүлсэн", "translation": "the teacher made someone write the homework" },
+          { "word": "ээж намайг явуулсан", "translation": "mother sent me" }
+        ]
+      }
+    },
+    {
+      "id": "m3_u1_l1_c3",
+      "lessonId": "m3_u1_l1",
+      "type": "exercise_fill",
+      "title": "Сонголт",
+      "order": 3,
+      "content": {
+        "instructionMn": "Үйлдүүлэх хэлбэрийг сонго.",
+        "instructionEn": "Choose the causative form.",
+        "groups": [
+          {
+            "sentence": "Аав дүүгээр ном ___ .",
+            "options": ["уншсан", "уншуулсан", "уншина"],
+            "answer": "уншуулсан"
+          }
+        ]
+      }
+    }
+  ]
+}

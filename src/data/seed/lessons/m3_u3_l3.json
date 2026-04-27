@@ -1,0 +1,69 @@
+{
+  "lesson": {
+    "id": "m3_u3_l3",
+    "unitId": "m3-u3",
+    "title": "Хандлага илэрхийлэх үг",
+    "titleEn": "Words of Stance",
+    "subtitle": "Аз болж, харамсалтай нь, үнэндээ",
+    "subtitleEn": "Fortune, regret, and speaker stance",
+    "order": 3,
+    "xpReward": 20
+  },
+  "contents": [
+    {
+      "id": "m3_u3_l3_c1",
+      "lessonId": "m3_u3_l3",
+      "type": "text",
+      "title": "Тайлбар",
+      "order": 1,
+      "content": {
+        "textMn": "Хандлага илэрхийлэх үг нь яригчийн байр суурь, сэтгэлийн өнгийг харуулна.",
+        "textEn": "Words of stance reveal the speaker's attitude and emotional framing."
+      }
+    },
+    {
+      "id": "m3_u3_l3_c2",
+      "lessonId": "m3_u3_l3",
+      "type": "classification",
+      "title": "Хандлагын жишээ",
+      "order": 2,
+      "content": {
+        "summary": "Яригчийн өнгө аяс",
+        "groups": [
+          {
+            "title": "Эерэг",
+            "items": ["аз болж амжсан", "сайхан нь ойлгосон"]
+          },
+          {
+            "title": "Сөрөг",
+            "items": ["харамсалтай нь хоцорсон", "үнэндээ амаргүй байсан"]
+          }
+        ],
+        "glossary": [
+          { "word": "аз болж амжсан", "translation": "fortunately managed it" },
+          { "word": "сайхан нь ойлгосон", "translation": "the good thing is that it was understood" },
+          { "word": "харамсалтай нь хоцорсон", "translation": "unfortunately was late" },
+          { "word": "үнэндээ амаргүй байсан", "translation": "in fact it was not easy" }
+        ]
+      }
+    },
+    {
+      "id": "m3_u3_l3_c3",
+      "lessonId": "m3_u3_l3",
+      "type": "exercise_fill",
+      "title": "Нөхөх",
+      "order": 3,
+      "content": {
+        "instructionMn": "Сөрөг хандлага илэрхийлсэн үгийг сонго.",
+        "instructionEn": "Choose the expression showing negative stance.",
+        "groups": [
+          {
+            "sentence": "___ бид уулзаж чадаагүй.",
+            "options": ["аз болж", "харамсалтай нь", "тун"],
+            "answer": "харамсалтай нь"
+          }
+        ]
+      }
+    }
+  ]
+}

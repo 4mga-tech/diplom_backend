@@ -3,7 +3,9 @@
     "id": "m1-u3-l2",
     "unitId": "m1-u3",
     "title": "Эгшгийн дараалал ба хүснэгт",
+    "titleEn": "Vowel Sequence Table",
     "subtitle": "Эхний үе ба төгсгөлийн эгшгийн боломж",
+    "subtitleEn": "Initial and final vowel patterns",
     "order": 2,
     "xpReward": 20,
     "quizXpReward": 9
@@ -30,6 +32,7 @@
       "content": {
         "section": "reading",
         "instructionMn": "Дараах жишээ дарааллуудыг уншиж ялгааг ажиглаарай.",
+        "instructionEn": "Read the examples and observe the pattern differences.",
         "rows": [
           {
             "prompt": "Эр эгшиг",
@@ -45,6 +48,20 @@
             "prompt": "Саармаг",
             "line": "и, ий",
             "audioUrl": ""
+          }
+        ],
+        "glossary": [
+          {
+            "word": "эр эгшиг",
+            "translation": "masculine vowels"
+          },
+          {
+            "word": "эм эгшиг",
+            "translation": "feminine vowels"
+          },
+          {
+            "word": "саармаг",
+            "translation": "neutral vowels"
           }
         ]
       }
@@ -74,12 +91,7 @@
       "type": "multiple_choice",
       "prompt": "Аль бүлэг нь эр эгшигт хамаарна вэ?",
       "helper": "Зөв бүлгийг сонго.",
-      "options": [
-        "э, ө, ү",
-        "а, о, у",
-        "и, й",
-        "е, ю(ү)"
-      ],
+      "options": ["э, ө, ү", "а, о, у", "и, й", "е, ю(ү)"],
       "correctAnswer": "а, о, у",
       "explanation": "А, о, у нь эр эгшгийн үндсэн бүлэгт орно.",
       "xpReward": 3,
@@ -91,12 +103,7 @@
       "type": "multiple_choice",
       "prompt": "Аль нь эм эгшгийн жишээ вэ?",
       "helper": "Зөв мөрийг сонго.",
-      "options": [
-        "э, ө, ү",
-        "а, о, у",
-        "я, ё, ю(у)",
-        "и, й"
-      ],
+      "options": ["э, ө, ү", "а, о, у", "я, ё, ю(у)", "и, й"],
       "correctAnswer": "э, ө, ү",
       "explanation": "Э, ө, ү нь эм эгшгийн бүлэгт хамаарна.",
       "xpReward": 3,
@@ -108,12 +115,7 @@
       "type": "multiple_choice",
       "prompt": "Саармаг бүлэгт аль нь ордог вэ?",
       "helper": "Зөв хариултыг сонго.",
-      "options": [
-        "и, ий",
-        "а, аа",
-        "ө, өө",
-        "ю, я"
-      ],
+      "options": ["и, ий", "а, аа", "ө, өө", "ю, я"],
       "correctAnswer": "и, ий",
       "explanation": "И, ий нь саармаг бүлгийн жишээ.",
       "xpReward": 3,

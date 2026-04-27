@@ -42,20 +42,29 @@ const validateLessonSeeds = (unitIds, lessonSeeds) => {
         if (!unitIds.has(seed.lesson.unitId)) {
             throw new Error(`Lesson ${seed.lesson.id} references missing unitId ${seed.lesson.unitId}`);
         }
-        if (seed.quiz.lessonId !== seed.lesson.id) {
+        const hasQuiz = Boolean(seed.quiz);
+        const quizQuestions = seed.quizQuestions ?? [];
+        if (hasQuiz && seed.quiz.lessonId !== seed.lesson.id) {
             throw new Error(`Quiz ${seed.quiz.id} lessonId does not match lesson ${seed.lesson.id}`);
+        }
+        if (!hasQuiz && quizQuestions.length > 0) {
+            throw new Error(`Lesson ${seed.lesson.id} has quiz questions without a quiz`);
         }
         for (const content of seed.contents) {
             if (content.lessonId !== seed.lesson.id) {
                 throw new Error(`Content ${content.id} has mismatched lessonId ${content.lessonId}`);
             }
-            if (content.type === "quiz_link" &&
+            if (content.type === "quiz_link" && !hasQuiz) {
+                throw new Error(`Lesson ${seed.lesson.id} has a quiz link but no quiz`);
+            }
+            if (hasQuiz &&
+                content.type === "quiz_link" &&
                 content.content?.quizId !== seed.quiz.id) {
                 throw new Error(`Quiz link content ${content.id} does not reference quiz ${seed.quiz.id}`);
             }
         }
-        for (const question of seed.quizQuestions) {
-            if (question.quizId !== seed.quiz.id) {
+        for (const question of quizQuestions) {
+            if (!hasQuiz || question.quizId !== seed.quiz.id) {
                 throw new Error(`Question ${question.id} has mismatched quizId ${question.quizId}`);
             }
         }
@@ -124,8 +133,8 @@ async function seed() {
     console.log("Creating lesson content...");
     await lesson_content_model_1.LessonContent.insertMany(lessonSeeds.flatMap((item) => item.contents));
     console.log("Creating quizzes...");
-    await quiz_model_1.Quiz.insertMany(lessonSeeds.map((item) => item.quiz));
-    await quiz_question_model_1.QuizQuestion.insertMany(lessonSeeds.flatMap((item) => item.quizQuestions));
+    await quiz_model_1.Quiz.insertMany(lessonSeeds.flatMap((item) => (item.quiz ? [item.quiz] : [])));
+    await quiz_question_model_1.QuizQuestion.insertMany(lessonSeeds.flatMap((item) => item.quizQuestions ?? []));
     console.log("Creating vocabulary...");
     await vocabulary_model_1.default.insertMany(vocabularySeedRecords);
     // console.log("Creating daily review...");

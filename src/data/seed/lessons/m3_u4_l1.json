@@ -1,0 +1,73 @@
+{
+  "lesson": {
+    "id": "m3_u4_l1",
+    "unitId": "m3-u4",
+    "title": "Нийлмэл өгүүлбэр",
+    "titleEn": "Complex Sentences",
+    "subtitle": "Хоёр ба түүнээс олон санаа холбох",
+    "subtitleEn": "Linking two or more ideas",
+    "order": 1,
+    "xpReward": 20
+  },
+  "contents": [
+    {
+      "id": "m3_u4_l1_c1",
+      "lessonId": "m3_u4_l1",
+      "type": "text",
+      "title": "Тайлбар",
+      "order": 1,
+      "content": {
+        "textMn": "Нийлмэл өгүүлбэр нь хэд хэдэн санааг нэг урсгалд холбож илэрхийлдэг.",
+        "textEn": "Complex sentences combine multiple ideas into one connected flow."
+      }
+    },
+    {
+      "id": "m3_u4_l1_c2",
+      "lessonId": "m3_u4_l1",
+      "type": "classification",
+      "title": "Холбоосын жишээ",
+      "order": 2,
+      "content": {
+        "summary": "Нийлмэл өгүүлбэрийн жишээ",
+        "groups": [
+          {
+            "title": "Шалтгаан",
+            "items": ["бороо орсон тул хоцорсон", "асуусан болохоор ойлгосон"]
+          },
+          {
+            "title": "Эсрэгцэл",
+            "items": ["очмоор байсан ч амжаагүй", "мэдсэн боловч хэлээгүй"]
+          }
+        ],
+        "glossary": [
+          { "word": "бороо орсон тул хоцорсон", "translation": "was late because it rained" },
+          { "word": "асуусан болохоор ойлгосон", "translation": "understood because asked" },
+          { "word": "очмоор байсан ч амжаагүй", "translation": "wanted to go but did not manage" },
+          { "word": "мэдсэн боловч хэлээгүй", "translation": "knew it but did not say it" }
+        ]
+      }
+    },
+    {
+      "id": "m3_u4_l1_c3",
+      "lessonId": "m3_u4_l1",
+      "type": "exercise_word_build",
+      "title": "Холбоод бүтээ",
+      "order": 3,
+      "content": {
+        "instructionMn": "Нийлмэл өгүүлбэр бүтээ.",
+        "instructionEn": "Build a complex sentence.",
+        "example": "завгүй байсан ч би очсон",
+        "questions": [
+          {
+            "words": ["завгүй", "байсан", "ч", "би", "очсон"],
+            "answer": "завгүй байсан ч би очсон"
+          }
+        ],
+        "glossary": [
+          { "word": "завгүй байсан ч", "translation": "although was busy" },
+          { "word": "би очсон", "translation": "I went" }
+        ]
+      }
+    }
+  ]
+}

@@ -12,6 +12,22 @@ const otp_model_1 = require("./otp.model");
 const otp_1 = require("../../utils/otp");
 const mail_service_1 = require("../../services/mail.service");
 const OTP_EXPIRE_MS = 5 * 60 * 1000;
+const EMAIL_REGEX = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+const createHttpError = (message, statusCode = 400) => {
+    const error = new Error(message);
+    error.statusCode = statusCode;
+    return error;
+};
+const normalizeEmailOrThrow = (email) => {
+    const normalizedEmail = email.trim().toLowerCase();
+    if (!normalizedEmail) {
+        throw createHttpError("Email is required", 400);
+    }
+    if (!EMAIL_REGEX.test(normalizedEmail)) {
+        throw createHttpError("Email format is invalid", 400);
+    }
+    return normalizedEmail;
+};
 const registerUser = async (name, email, password) => {
     const existing = await user_model_1.User.findOne({ email });
     if (existing) {
@@ -37,10 +53,10 @@ const loginUser = async (email, password) => {
 };
 exports.loginUser = loginUser;
 const requestRegisterOtp = async (email) => {
-    const normalizedEmail = email.trim().toLowerCase();
+    const normalizedEmail = normalizeEmailOrThrow(email);
     const existing = await user_model_1.User.findOne({ email: normalizedEmail });
     if (existing) {
-        throw new Error("Email already in use");
+        throw createHttpError("Email already in use", 400);
     }
     const code = (0, otp_1.generateOtp)();
     await otp_model_1.Otp.findOneAndUpdate({ email: normalizedEmail, purpose: "register" }, {
@@ -57,23 +73,23 @@ const requestRegisterOtp = async (email) => {
 };
 exports.requestRegisterOtp = requestRegisterOtp;
 const verifyRegisterOtp = async (name, email, password, code) => {
-    const normalizedEmail = email.trim().toLowerCase();
+    const normalizedEmail = normalizeEmailOrThrow(email);
     const otpDoc = await otp_model_1.Otp.findOne({
         email: normalizedEmail,
         purpose: "register",
     });
     if (!otpDoc) {
-        throw new Error("OTP not found");
+        throw createHttpError("OTP not found", 400);
     }
     if (otpDoc.expiresAt.getTime() < Date.now()) {
-        throw new Error("OTP expired");
+        throw createHttpError("OTP expired", 400);
     }
     if (otpDoc.code !== code.trim()) {
-        throw new Error("Invalid OTP");
+        throw createHttpError("Invalid OTP", 400);
     }
     const existing = await user_model_1.User.findOne({ email: normalizedEmail });
     if (existing) {
-        throw new Error("Email already in use");
+        throw createHttpError("Email already in use", 400);
     }
     const passwordHash = await (0, hash_1.hashPassword)(password);
     const user = await user_model_1.User.create({
@@ -87,10 +103,10 @@ const verifyRegisterOtp = async (name, email, password, code) => {
 };
 exports.verifyRegisterOtp = verifyRegisterOtp;
 const requestResetOtp = async (email) => {
-    const normalizedEmail = email.trim().toLowerCase();
+    const normalizedEmail = normalizeEmailOrThrow(email);
     const user = await user_model_1.User.findOne({ email: normalizedEmail });
     if (!user) {
-        throw new Error("User not found");
+        throw createHttpError("User not found", 404);
     }
     const code = (0, otp_1.generateOtp)();
     await otp_model_1.Otp.findOneAndUpdate({ email: normalizedEmail, purpose: "reset_password" }, {
@@ -107,23 +123,23 @@ const requestResetOtp = async (email) => {
 };
 exports.requestResetOtp = requestResetOtp;
 const verifyResetOtp = async (email, code, newPassword) => {
-    const normalizedEmail = email.trim().toLowerCase();
+    const normalizedEmail = normalizeEmailOrThrow(email);
     const otpDoc = await otp_model_1.Otp.findOne({
         email: normalizedEmail,
         purpose: "reset_password",
     });
     if (!otpDoc) {
-        throw new Error("OTP not found");
+        throw createHttpError("OTP not found", 400);
     }
     if (otpDoc.expiresAt.getTime() < Date.now()) {
-        throw new Error("OTP expired");
+        throw createHttpError("OTP expired", 400);
     }
     if (otpDoc.code !== code.trim()) {
-        throw new Error("Invalid OTP");
+        throw createHttpError("Invalid OTP", 400);
     }
     const user = await user_model_1.User.findOne({ email: normalizedEmail });
     if (!user) {
-        throw new Error("User not found");
+        throw createHttpError("User not found", 404);
     }
     user.passwordHash = await bcryptjs_1.default.hash(newPassword, 10);
     await user.save();

@@ -1,0 +1,73 @@
+{
+  "lesson": {
+    "id": "m3_u1_l3",
+    "unitId": "m3-u1",
+    "title": "Чиглэл заах үйл үг",
+    "titleEn": "Directional Verb Forms",
+    "subtitle": "Дотогш, гадагш, дээш, доош хөдөлгөөн",
+    "subtitleEn": "Movement inward, outward, upward, and downward",
+    "order": 3,
+    "xpReward": 20
+  },
+  "contents": [
+    {
+      "id": "m3_u1_l3_c1",
+      "lessonId": "m3_u1_l3",
+      "type": "text",
+      "title": "Тайлбар",
+      "order": 1,
+      "content": {
+        "textMn": "Чиглэл заах хэлбэр нь хөдөлгөөний чиг, хандлагыг илүү тод харуулдаг.",
+        "textEn": "Directional forms make the path or direction of movement clearer."
+      }
+    },
+    {
+      "id": "m3_u1_l3_c2",
+      "lessonId": "m3_u1_l3",
+      "type": "classification",
+      "title": "Чиглэлийн жишээ",
+      "order": 2,
+      "content": {
+        "summary": "Чиглэлтэй үйл үгийн хэрэглээ",
+        "groups": [
+          {
+            "title": "Орох, гарах",
+            "items": ["орж ирсэн", "гарч явсан"]
+          },
+          {
+            "title": "Дээш, доош",
+            "items": ["дээш гарсан", "доош буусан"]
+          }
+        ],
+        "glossary": [
+          { "word": "орж ирсэн", "translation": "came in" },
+          { "word": "гарч явсан", "translation": "went out" },
+          { "word": "дээш гарсан", "translation": "went up" },
+          { "word": "доош буусан", "translation": "went down" }
+        ]
+      }
+    },
+    {
+      "id": "m3_u1_l3_c3",
+      "lessonId": "m3_u1_l3",
+      "type": "exercise_word_build",
+      "title": "Өгүүлбэр бүтээ",
+      "order": 3,
+      "content": {
+        "instructionMn": "Чиглэлтэй өгүүлбэр бүтээ.",
+        "instructionEn": "Build a sentence with directional meaning.",
+        "example": "тэр өрөөнд орж ирсэн",
+        "questions": [
+          {
+            "words": ["тэр", "өрөөнд", "орж", "ирсэн"],
+            "answer": "тэр өрөөнд орж ирсэн"
+          }
+        ],
+        "glossary": [
+          { "word": "өрөөнд", "translation": "into the room" },
+          { "word": "орж ирсэн", "translation": "came in" }
+        ]
+      }
+    }
+  ]
+}

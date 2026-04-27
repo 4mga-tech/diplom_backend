@@ -1,0 +1,75 @@
+{
+  "lesson": {
+    "id": "m2_u4_l1",
+    "unitId": "m2-u4",
+    "title": "Холбох үг",
+    "titleEn": "Connectors",
+    "subtitle": "Нэмэх, эсрэгцүүлэх, шалтгаан",
+    "subtitleEn": "Addition, contrast, and cause",
+    "order": 1,
+    "xpReward": 20
+  },
+  "contents": [
+    {
+      "id": "m2_u4_l1_c1",
+      "lessonId": "m2_u4_l1",
+      "type": "text",
+      "title": "Тайлбар",
+      "order": 1,
+      "content": {
+        "textMn": "Холбох үг нь өгүүлбэр, санааг хооронд нь уялдуулж өгдөг.",
+        "textEn": "Connectors link sentences and ideas together."
+      }
+    },
+    {
+      "id": "m2_u4_l1_c2",
+      "lessonId": "m2_u4_l1",
+      "type": "classification",
+      "title": "Төрөл",
+      "order": 2,
+      "content": {
+        "summary": "Түгээмэл холбох үг",
+        "groups": [
+          {
+            "title": "Нэмэх",
+            "items": ["бас", "мөн"]
+          },
+          {
+            "title": "Эсрэгцүүлэх",
+            "items": ["гэхдээ", "харин"]
+          },
+          {
+            "title": "Шалтгаан",
+            "items": ["учир", "тиймээс"]
+          }
+        ],
+        "glossary": [
+          { "word": "бас", "translation": "also" },
+          { "word": "мөн", "translation": "as well" },
+          { "word": "гэхдээ", "translation": "but" },
+          { "word": "харин", "translation": "whereas / but" },
+          { "word": "учир", "translation": "because / reason" },
+          { "word": "тиймээс", "translation": "therefore" }
+        ]
+      }
+    },
+    {
+      "id": "m2_u4_l1_c3",
+      "lessonId": "m2_u4_l1",
+      "type": "exercise_fill",
+      "title": "Сонголт",
+      "order": 3,
+      "content": {
+        "instructionMn": "Эсрэгцүүлэх холбох үгийг сонго.",
+        "instructionEn": "Choose the contrast connector.",
+        "groups": [
+          {
+            "sentence": "Би очмоор байна, ___ зав алга.",
+            "options": ["бас", "гэхдээ", "тиймээс"],
+            "answer": "гэхдээ"
+          }
+        ]
+      }
+    }
+  ]
+}

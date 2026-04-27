@@ -1,0 +1,73 @@
+{
+  "lesson": {
+    "id": "m2_u1_l3",
+    "unitId": "m2-u1",
+    "title": "Болзолт хэлбэр",
+    "titleEn": "Conditional Forms",
+    "subtitle": "Хэрэв, бол, үед",
+    "subtitleEn": "If, then, and when patterns",
+    "order": 3,
+    "xpReward": 20
+  },
+  "contents": [
+    {
+      "id": "m2_u1_l3_c1",
+      "lessonId": "m2_u1_l3",
+      "type": "text",
+      "title": "Тайлбар",
+      "order": 1,
+      "content": {
+        "textMn": "Болзолт хэлбэр нь нэг үйлдэл нөгөөгөөсөө хамаарахыг харуулна.",
+        "textEn": "Conditional forms show that one action depends on another."
+      }
+    },
+    {
+      "id": "m2_u1_l3_c2",
+      "lessonId": "m2_u1_l3",
+      "type": "classification",
+      "title": "Холболттой өгүүлбэр",
+      "order": 2,
+      "content": {
+        "summary": "Энгийн болзолт жишээ",
+        "groups": [
+          {
+            "title": "Хэрэв",
+            "items": ["ирвэл хэлээрэй", "зав гарвал уулзъя"]
+          },
+          {
+            "title": "Үед",
+            "items": ["очиход асууна", "үзвэл ойлгоно"]
+          }
+        ],
+        "glossary": [
+          { "word": "ирвэл хэлээрэй", "translation": "if he or she comes, tell me" },
+          { "word": "зав гарвал уулзъя", "translation": "if there is time, let us meet" },
+          { "word": "очиход асууна", "translation": "will ask when arriving" },
+          { "word": "үзвэл ойлгоно", "translation": "will understand if seeing it" }
+        ]
+      }
+    },
+    {
+      "id": "m2_u1_l3_c3",
+      "lessonId": "m2_u1_l3",
+      "type": "exercise_word_build",
+      "title": "Өгүүлбэр бүтээ",
+      "order": 3,
+      "content": {
+        "instructionMn": "Болзолт өгүүлбэр бүтээ.",
+        "instructionEn": "Build a conditional sentence.",
+        "example": "цаг гарвал би очно",
+        "glossary": [
+          { "word": "цаг гарвал", "translation": "if there is time" },
+          { "word": "би очно", "translation": "I will go" }
+        ],
+        "questions": [
+          {
+            "words": ["цаг", "гарвал", "би", "очно"],
+            "answer": "цаг гарвал би очно"
+          }
+        ]
+      }
+    }
+  ]
+}

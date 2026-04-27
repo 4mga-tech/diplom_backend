@@ -1,0 +1,70 @@
+{
+  "lesson": {
+    "id": "m4_u3_l2",
+    "unitId": "m4-u3",
+    "title": "Үйл үг үүсгэх дагавар",
+    "titleEn": "Verb-Forming Suffixes",
+    "subtitle": "Нэр, шинжээс үйл үг үүсгэх",
+    "subtitleEn": "Deriving verbs from nouns and qualities",
+    "order": 2,
+    "xpReward": 20
+  },
+  "contents": [
+    {
+      "id": "m4_u3_l2_c1",
+      "lessonId": "m4_u3_l2",
+      "type": "text",
+      "title": "Ойлголт",
+      "titleEn": "Concept",
+      "order": 1,
+      "content": {
+        "textMn": "Үйл үг үүсгэх дагавар нь нэр ба шинжээс шинэ үйлдлийн утга гаргана.",
+        "textEn": "Verb-forming suffixes create new action meanings from nouns and qualities."
+      }
+    },
+    {
+      "id": "m4_u3_l2_c2",
+      "lessonId": "m4_u3_l2",
+      "type": "classification",
+      "title": "Үүссэн хэлбэр",
+      "titleEn": "Derived Forms",
+      "order": 2,
+      "content": {
+        "summary": "Үйл үг үүсгэсэн жишээ",
+        "groups": [
+          {
+            "title": "Нэрээс",
+            "items": ["тоосжих", "услах"]
+          },
+          {
+            "title": "Шинжээс",
+            "items": ["сайжрах", "удаашрах"]
+          }
+        ],
+        "glossary": [
+          { "word": "тоосжих", "translation": "to become dusty" },
+          { "word": "услах", "translation": "to water" },
+          { "word": "сайжрах", "translation": "to improve" },
+          { "word": "удаашрах", "translation": "to slow down" }
+        ]
+      }
+    },
+    {
+      "id": "m4_u3_l2_c3",
+      "lessonId": "m4_u3_l2",
+      "type": "exercise_repeat",
+      "title": "Уншлага",
+      "titleEn": "Reading",
+      "order": 3,
+      "content": {
+        "instructionMn": "Үүссэн үйл үгсийг уншаарай.",
+        "instructionEn": "Read the derived verbs aloud.",
+        "rows": ["зузааруулах", "цэвэрлэх"],
+        "glossary": [
+          { "word": "зузааруулах", "translation": "to thicken / make thicker" },
+          { "word": "цэвэрлэх", "translation": "to clean" }
+        ]
+      }
+    }
+  ]
+}

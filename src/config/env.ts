@@ -10,4 +10,6 @@ export const env = {
   PORT: Number(process.env.PORT ?? 4000),
   MONGODB_URI: required("MONGODB_URI"),
   JWT_SECRET: required("JWT_SECRET"),
+  MAIL_USER: required("MAIL_USER"),
+  MAIL_APP_PASSWORD: required("MAIL_APP_PASSWORD"),
 };

@@ -1,0 +1,67 @@
+{
+  "lesson": {
+    "id": "m3_u2_l2",
+    "unitId": "m3-u2",
+    "title": "Өөрөө заасан хэлбэр",
+    "titleEn": "Reflexive Pronouns",
+    "subtitle": "Өөрийгөө, өөртөө, өөрөө",
+    "subtitleEn": "Self-reference and reflexive emphasis",
+    "order": 2,
+    "xpReward": 20
+  },
+  "contents": [
+    {
+      "id": "m3_u2_l2_c1",
+      "lessonId": "m3_u2_l2",
+      "type": "text",
+      "title": "Тайлбар",
+      "order": 1,
+      "content": {
+        "textMn": "Өөрөө заасан хэлбэр нь үйлдлийг хийж буй хүн өөр дээрээ чиглүүлж байгааг илэрхийлнэ.",
+        "textEn": "Reflexive forms show that the action returns to or emphasizes the same person."
+      }
+    },
+    {
+      "id": "m3_u2_l2_c2",
+      "lessonId": "m3_u2_l2",
+      "type": "classification",
+      "title": "Хэлбэр",
+      "order": 2,
+      "content": {
+        "summary": "Өөрөө заасан жишээ",
+        "groups": [
+          {
+            "title": "Тусах",
+            "items": ["өөрийгөө", "өөрийгөө бэлдсэн"]
+          },
+          {
+            "title": "Онцлох",
+            "items": ["өөрөө ирсэн", "өөртөө итгэсэн"]
+          }
+        ],
+        "glossary": [
+          { "word": "өөрийгөө", "translation": "oneself" },
+          { "word": "өөрийгөө бэлдсэн", "translation": "prepared oneself" },
+          { "word": "өөрөө ирсэн", "translation": "came by oneself" },
+          { "word": "өөртөө итгэсэн", "translation": "trusted oneself" }
+        ]
+      }
+    },
+    {
+      "id": "m3_u2_l2_c3",
+      "lessonId": "m3_u2_l2",
+      "type": "exercise_repeat",
+      "title": "Уншлага",
+      "order": 3,
+      "content": {
+        "instructionMn": "Өөрөө заасан хэлбэрүүдийг уншаарай.",
+        "instructionEn": "Read the reflexive forms aloud.",
+        "rows": ["би өөрөө хийнэ", "тэр өөрийгөө магтсан"],
+        "glossary": [
+          { "word": "би өөрөө хийнэ", "translation": "I will do it myself" },
+          { "word": "тэр өөрийгөө магтсан", "translation": "he or she praised himself or herself" }
+        ]
+      }
+    }
+  ]
+}

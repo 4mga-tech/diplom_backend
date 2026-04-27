@@ -1,0 +1,60 @@
+{
+  "lesson": {
+    "id": "m4_u4_l1",
+    "unitId": "m4-u4",
+    "title": "Холимог дүрмийн давтлага",
+    "titleEn": "Mixed Grammar Review",
+    "subtitle": "Өмнөх нэгжүүдийн гол хэлбэр",
+    "subtitleEn": "Key forms from earlier units",
+    "order": 1,
+    "xpReward": 20
+  },
+  "contents": [
+    {
+      "id": "m4_u4_l1_c1",
+      "lessonId": "m4_u4_l1",
+      "type": "classification",
+      "title": "Товч тойм",
+      "titleEn": "Quick Review",
+      "order": 1,
+      "content": {
+        "summary": "M4-ийн гол хэлбэрийн давтлага",
+        "groups": [
+          {
+            "title": "Холбох хэлбэр",
+            "items": ["ирсэн хүн", "амжихын тулд", "мэдсэн боловч"]
+          },
+          {
+            "title": "Үүсмэл хэлбэр",
+            "items": ["сургалт", "услах", "чийглэг"]
+          }
+        ],
+        "glossary": [
+          { "word": "ирсэн хүн", "translation": "the person who came" },
+          { "word": "амжихын тулд", "translation": "in order to make it" },
+          { "word": "мэдсэн боловч", "translation": "although knew it" },
+          { "word": "сургалт", "translation": "training" },
+          { "word": "услах", "translation": "to water" },
+          { "word": "чийглэг", "translation": "humid" }
+        ]
+      }
+    },
+    {
+      "id": "m4_u4_l1_c2",
+      "lessonId": "m4_u4_l1",
+      "type": "exercise_repeat",
+      "title": "Уншиж давт",
+      "titleEn": "Read and Review",
+      "order": 2,
+      "content": {
+        "instructionMn": "Гол хэлбэрүүдийг уншаарай.",
+        "instructionEn": "Read the key forms aloud.",
+        "rows": ["ядарсан ч үргэлжлүүлсэн", "асууж лавлаад явсан"],
+        "glossary": [
+          { "word": "ядарсан ч үргэлжлүүлсэн", "translation": "continued even though tired" },
+          { "word": "асууж лавлаад явсан", "translation": "asked, checked, and left" }
+        ]
+      }
+    }
+  ]
+}

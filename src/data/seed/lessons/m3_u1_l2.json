@@ -1,0 +1,68 @@
+{
+  "lesson": {
+    "id": "m3_u1_l2",
+    "unitId": "m3-u1",
+    "title": "Үйлдэх хэв",
+    "titleEn": "Passive Forms",
+    "subtitle": "Үйлдэл хэнд хийгдсэнийг илэрхийлэх",
+    "subtitleEn": "Showing who or what is acted upon",
+    "order": 2,
+    "xpReward": 20
+  },
+  "contents": [
+    {
+      "id": "m3_u1_l2_c1",
+      "lessonId": "m3_u1_l2",
+      "type": "text",
+      "title": "Тайлбар",
+      "order": 1,
+      "content": {
+        "textMn": "Үйлдэх хэв нь үйлдлийг хүлээн авч буй талд анхаарал төвлөрүүлдэг.",
+        "textEn": "Passive forms focus on the person or thing receiving the action."
+      }
+    },
+    {
+      "id": "m3_u1_l2_c2",
+      "lessonId": "m3_u1_l2",
+      "type": "classification",
+      "title": "Жишээ хэлбэр",
+      "order": 2,
+      "content": {
+        "summary": "Үйлдэх хэвийн жишээ",
+        "groups": [
+          {
+            "title": "Хэлбэр",
+            "items": ["бичигдсэн", "хэлэгдсэн", "асуугдсан"]
+          },
+          {
+            "title": "Өгүүлбэр",
+            "items": ["дүрэм тайлбарлагдсан", "асуулт тавигдсан"]
+          }
+        ],
+        "glossary": [
+          { "word": "бичигдсэн", "translation": "was written" },
+          { "word": "хэлэгдсэн", "translation": "was said" },
+          { "word": "асуугдсан", "translation": "was asked" },
+          { "word": "дүрэм тайлбарлагдсан", "translation": "the rule was explained" },
+          { "word": "асуулт тавигдсан", "translation": "a question was posed" }
+        ]
+      }
+    },
+    {
+      "id": "m3_u1_l2_c3",
+      "lessonId": "m3_u1_l2",
+      "type": "exercise_repeat",
+      "title": "Уншлага",
+      "order": 3,
+      "content": {
+        "instructionMn": "Үйлдэх хэвийн хэлбэрүүдийг уншаарай.",
+        "instructionEn": "Read the passive forms aloud.",
+        "rows": ["шийдвэр гаргагдсан", "даалгавар шалгагдсан"],
+        "glossary": [
+          { "word": "шийдвэр гаргагдсан", "translation": "a decision was made" },
+          { "word": "даалгавар шалгагдсан", "translation": "the homework was checked" }
+        ]
+      }
+    }
+  ]
+}

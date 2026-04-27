@@ -1,0 +1,65 @@
+{
+  "lesson": {
+    "id": "m3_u4_l3",
+    "unitId": "m3-u4",
+    "title": "Шалгалтын өмнөх давтлага",
+    "titleEn": "Pre-Exam Review",
+    "subtitle": "Гол дүрэм ба хэрэглээ",
+    "subtitleEn": "Core rules and usage review",
+    "order": 3,
+    "xpReward": 20
+  },
+  "contents": [
+    {
+      "id": "m3_u4_l3_c1",
+      "lessonId": "m3_u4_l3",
+      "type": "classification",
+      "title": "Товч давтлага",
+      "order": 1,
+      "content": {
+        "summary": "Финалын өмнөх санамж",
+        "groups": [
+          {
+            "title": "Үйл үг",
+            "items": ["бичүүлсэн", "хэлэгдсэн", "орж ирсэн"]
+          },
+          {
+            "title": "Төлөөний үг",
+            "items": ["хэн нэгэн", "өөрийгөө", "яг тэр"]
+          },
+          {
+            "title": "Холбох ба өнгө",
+            "items": ["лавтай", "харамсалтай нь", "боловч"]
+          }
+        ],
+        "glossary": [
+          { "word": "бичүүлсэн", "translation": "made someone write" },
+          { "word": "хэлэгдсэн", "translation": "was said" },
+          { "word": "орж ирсэн", "translation": "came in" },
+          { "word": "хэн нэгэн", "translation": "someone" },
+          { "word": "өөрийгөө", "translation": "oneself" },
+          { "word": "яг тэр", "translation": "that exact one" },
+          { "word": "лавтай", "translation": "certainly" },
+          { "word": "харамсалтай нь", "translation": "unfortunately" },
+          { "word": "боловч", "translation": "however" }
+        ]
+      }
+    },
+    {
+      "id": "m3_u4_l3_c2",
+      "lessonId": "m3_u4_l3",
+      "type": "exercise_repeat",
+      "title": "Уншиж давт",
+      "order": 2,
+      "content": {
+        "instructionMn": "Гол хэлбэрүүдийг дахин уншаарай.",
+        "instructionEn": "Read the key forms again.",
+        "rows": ["хэн нэгэн асуувал би хариулна", "харамсалтай нь оройтсон боловч ирсэн"],
+        "glossary": [
+          { "word": "хэн нэгэн асуувал би хариулна", "translation": "if someone asks, I will answer" },
+          { "word": "харамсалтай нь оройтсон боловч ирсэн", "translation": "unfortunately was late but still came" }
+        ]
+      }
+    }
+  ]
+}

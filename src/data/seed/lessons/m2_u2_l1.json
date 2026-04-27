@@ -1,0 +1,73 @@
+{
+  "lesson": {
+    "id": "m2_u2_l1",
+    "unitId": "m2-u2",
+    "title": "Өгүүлбэрийн дараалал",
+    "titleEn": "Sentence Order",
+    "subtitle": "Эзэн, тусагдахуун, үйл үг",
+    "subtitleEn": "Subject, object, and verb order",
+    "order": 1,
+    "xpReward": 20
+  },
+  "contents": [
+    {
+      "id": "m2_u2_l1_c1",
+      "lessonId": "m2_u2_l1",
+      "type": "text",
+      "title": "Тайлбар",
+      "order": 1,
+      "content": {
+        "textMn": "Монгол өгүүлбэрт үйл үг ихэвчлэн төгсгөлд байрлана.",
+        "textEn": "In Mongolian sentences, the verb usually comes at the end."
+      }
+    },
+    {
+      "id": "m2_u2_l1_c2",
+      "lessonId": "m2_u2_l1",
+      "type": "classification",
+      "title": "Загвар",
+      "order": 2,
+      "content": {
+        "summary": "Түгээмэл дараалал",
+        "groups": [
+          {
+            "title": "Энгийн",
+            "items": ["би ном уншина", "тэр цай ууна"]
+          },
+          {
+            "title": "Дэлгэрэнгүй",
+            "items": ["би өнөөдөр ном уншина", "тэр гэртээ цай ууна"]
+          }
+        ],
+        "glossary": [
+          { "word": "би ном уншина", "translation": "I will read a book" },
+          { "word": "тэр цай ууна", "translation": "he or she will drink tea" },
+          { "word": "би өнөөдөр ном уншина", "translation": "I will read a book today" },
+          { "word": "тэр гэртээ цай ууна", "translation": "he or she will drink tea at home" }
+        ]
+      }
+    },
+    {
+      "id": "m2_u2_l1_c3",
+      "lessonId": "m2_u2_l1",
+      "type": "exercise_word_build",
+      "title": "Дараалал бүтээ",
+      "order": 3,
+      "content": {
+        "instructionMn": "Зөв дарааллаар өгүүлбэр бүтээ.",
+        "instructionEn": "Build the sentence in the correct order.",
+        "example": "би гэртээ хичээл хийнэ",
+        "questions": [
+          {
+            "words": ["би", "гэртээ", "хичээл", "хийнэ"],
+            "answer": "би гэртээ хичээл хийнэ"
+          }
+        ],
+        "glossary": [
+          { "word": "гэртээ", "translation": "at home" },
+          { "word": "хичээл хийнэ", "translation": "will study" }
+        ]
+      }
+    }
+  ]
+}

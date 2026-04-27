@@ -1,0 +1,79 @@
+{
+  "lesson": {
+    "id": "m2_u2_l4",
+    "unitId": "m2-u2",
+    "title": "Нэгжийн шалгалт",
+    "titleEn": "Unit Quiz",
+    "subtitle": "Өгүүлбэр ба үйл үгийн бүтэц",
+    "subtitleEn": "Sentence and verb structures",
+    "order": 4,
+    "xpReward": 30
+  },
+  "contents": [
+    {
+      "id": "m2_u2_l4_c1",
+      "lessonId": "m2_u2_l4",
+      "type": "text",
+      "title": "Богино шалгалт",
+      "order": 1,
+      "content": {
+        "textMn": "Энэ нэгжийн бүтцийг шалгана.",
+        "textEn": "This quiz checks the structures from the unit."
+      }
+    },
+    {
+      "id": "m2_u2_l4_c2",
+      "lessonId": "m2_u2_l4",
+      "type": "quiz_link",
+      "title": "Шалгалт",
+      "order": 2,
+      "content": {
+        "quizId": "m2_u2_l4_quiz"
+      }
+    }
+  ],
+  "quiz": {
+    "id": "m2_u2_l4_quiz",
+    "lessonId": "m2_u2_l4",
+    "title": "M2 Unit 2 Quiz",
+    "passingScore": 70
+  },
+  "quizQuestions": [
+    {
+      "id": "m2_u2_l4_q1",
+      "quizId": "m2_u2_l4_quiz",
+      "type": "multiple_choice",
+      "prompt": "Монгол өгүүлбэрт үйл үг ихэвчлэн хаана ордог вэ?",
+      "helper": "Дарааллыг санаарай.",
+      "options": ["эхэнд", "дунд", "төгсгөлд", "хаана ч"],
+      "correctAnswer": "төгсгөлд",
+      "explanation": "Үйл үг ихэвчлэн өгүүлбэрийн төгсгөлд байрлана.",
+      "xpReward": 3,
+      "order": 1
+    },
+    {
+      "id": "m2_u2_l4_q2",
+      "quizId": "m2_u2_l4_quiz",
+      "type": "multiple_choice",
+      "prompt": "Аль нь дараалсан үйлдэл вэ?",
+      "helper": "Хоёр үйл үгтэй холбоог сонго.",
+      "options": ["очоод хэлнэ", "сайн хүн", "өнөөдөр ном", "би гэртээ"],
+      "correctAnswer": "очоод хэлнэ",
+      "explanation": "Очиод хэлнэ нь дараалсан үйлдэл илэрхийлнэ.",
+      "xpReward": 3,
+      "order": 2
+    },
+    {
+      "id": "m2_u2_l4_q3",
+      "quizId": "m2_u2_l4_quiz",
+      "type": "multiple_choice",
+      "prompt": "Аль нь асуух бүтэц вэ?",
+      "helper": "Мэдээлэл лавласан хэлбэрийг сонго.",
+      "options": ["би л явна", "хэн ирсэн бэ", "очоод хэлнэ", "ном уншина"],
+      "correctAnswer": "хэн ирсэн бэ",
+      "explanation": "Хэн ирсэн бэ нь асуух бүтэц.",
+      "xpReward": 3,
+      "order": 3
+    }
+  ]
+}

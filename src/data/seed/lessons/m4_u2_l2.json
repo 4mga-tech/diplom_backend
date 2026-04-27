@@ -1,0 +1,72 @@
+{
+  "lesson": {
+    "id": "m4_u2_l2",
+    "unitId": "m4-u2",
+    "title": "Өгүүлбэрийн холбоосын загвар",
+    "titleEn": "Clause Linking Patterns",
+    "subtitle": "Шалтгаан, эсрэгцэл, үр дүнгийн холбоо",
+    "subtitleEn": "Cause, contrast, and result links",
+    "order": 2,
+    "xpReward": 20
+  },
+  "contents": [
+    {
+      "id": "m4_u2_l2_c1",
+      "lessonId": "m4_u2_l2",
+      "type": "text",
+      "title": "Ойлголт",
+      "titleEn": "Concept",
+      "order": 1,
+      "content": {
+        "textMn": "Холбоосын загвар нь өгүүлбэр хоорондын логик харилцааг тод болгоно.",
+        "textEn": "Clause linking patterns clarify the logical relationship between parts of a sentence."
+      }
+    },
+    {
+      "id": "m4_u2_l2_c2",
+      "lessonId": "m4_u2_l2",
+      "type": "classification",
+      "title": "Холбоосын жишээ",
+      "titleEn": "Linking Examples",
+      "order": 2,
+      "content": {
+        "summary": "Холбоосын түгээмэл жишээ",
+        "groups": [
+          {
+            "title": "Шалтгаан ба үр дүн",
+            "items": ["их давтсан тул сайн хийсэн", "асуусан учраас мэдсэн"]
+          },
+          {
+            "title": "Эсрэгцэл",
+            "items": ["мэдсэн боловч хэлээгүй", "ядарсан ч оролцсон"]
+          }
+        ],
+        "glossary": [
+          { "word": "их давтсан тул сайн хийсэн", "translation": "did well because practiced a lot" },
+          { "word": "асуусан учраас мэдсэн", "translation": "came to know because asked" },
+          { "word": "мэдсэн боловч хэлээгүй", "translation": "knew it but did not say it" },
+          { "word": "ядарсан ч оролцсон", "translation": "participated even though tired" }
+        ]
+      }
+    },
+    {
+      "id": "m4_u2_l2_c3",
+      "lessonId": "m4_u2_l2",
+      "type": "exercise_fill",
+      "title": "Сонголт",
+      "titleEn": "Choice",
+      "order": 3,
+      "content": {
+        "instructionMn": "Эсрэгцлийн холбоосыг сонго.",
+        "instructionEn": "Choose the contrast link.",
+        "groups": [
+          {
+            "sentence": "Тэр мэдсэн ___ хэлээгүй.",
+            "options": ["учраас", "боловч", "тул"],
+            "answer": "боловч"
+          }
+        ]
+      }
+    }
+  ]
+}

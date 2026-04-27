@@ -1,0 +1,65 @@
+{
+  "lesson": {
+    "id": "m2_u4_l3",
+    "unitId": "m2-u4",
+    "title": "Шалгалтын өмнөх давтлага",
+    "titleEn": "Pre-Exam Review",
+    "subtitle": "Өмнөх нэгжүүдийн гол дүрэм",
+    "subtitleEn": "Key patterns from earlier units",
+    "order": 3,
+    "xpReward": 20
+  },
+  "contents": [
+    {
+      "id": "m2_u4_l3_c1",
+      "lessonId": "m2_u4_l3",
+      "type": "classification",
+      "title": "Давтлага",
+      "order": 1,
+      "content": {
+        "summary": "Финалын өмнөх гол санаа",
+        "groups": [
+          {
+            "title": "Үйл үг",
+            "items": ["ирнэ", "ирэхгүй", "ирвэл"]
+          },
+          {
+            "title": "Бүтэц",
+            "items": ["би ном уншина", "очоод хэлнэ", "хэн ирсэн бэ"]
+          },
+          {
+            "title": "Холбох",
+            "items": ["гэхдээ", "тиймээс", "учир"]
+          }
+        ],
+        "glossary": [
+          { "word": "ирнэ", "translation": "will come" },
+          { "word": "ирэхгүй", "translation": "will not come" },
+          { "word": "ирвэл", "translation": "if comes" },
+          { "word": "би ном уншина", "translation": "I will read a book" },
+          { "word": "очоод хэлнэ", "translation": "will go and say" },
+          { "word": "хэн ирсэн бэ", "translation": "who came" },
+          { "word": "гэхдээ", "translation": "but" },
+          { "word": "тиймээс", "translation": "therefore" },
+          { "word": "учир", "translation": "because / reason" }
+        ]
+      }
+    },
+    {
+      "id": "m2_u4_l3_c2",
+      "lessonId": "m2_u4_l3",
+      "type": "exercise_repeat",
+      "title": "Товч уншлага",
+      "order": 2,
+      "content": {
+        "instructionMn": "Гол хэлбэрүүдийг дахин уншаарай.",
+        "instructionEn": "Read the key forms again.",
+        "rows": ["ирвэл мэдэгдээрэй", "завгүй байсан тул хоцорсон"],
+        "glossary": [
+          { "word": "ирвэл мэдэгдээрэй", "translation": "if comes, please inform" },
+          { "word": "завгүй байсан тул хоцорсон", "translation": "was late because was busy" }
+        ]
+      }
+    }
+  ]
+}

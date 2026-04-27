@@ -1,0 +1,71 @@
+{
+  "lesson": {
+    "id": "m2_u3_l3",
+    "unitId": "m2-u3",
+    "title": "Баймжлах үг",
+    "titleEn": "Adverbial Words",
+    "subtitle": "Цаг, газар, давтамжийн утга",
+    "subtitleEn": "Time, place, and frequency meanings",
+    "order": 3,
+    "xpReward": 20
+  },
+  "contents": [
+    {
+      "id": "m2_u3_l3_c1",
+      "lessonId": "m2_u3_l3",
+      "type": "text",
+      "title": "Тайлбар",
+      "order": 1,
+      "content": {
+        "textMn": "Баймжлах үг нь үйлдэл хэзээ, хаана, хэр давтамжтай болохыг тодруулна.",
+        "textEn": "Adverbial words show when, where, and how often an action happens."
+      }
+    },
+    {
+      "id": "m2_u3_l3_c2",
+      "lessonId": "m2_u3_l3",
+      "type": "classification",
+      "title": "Төрөл",
+      "order": 2,
+      "content": {
+        "summary": "Баймжлах утгын жишээ",
+        "groups": [
+          {
+            "title": "Цаг",
+            "items": ["өнөөдөр", "маргааш", "үргэлж"]
+          },
+          {
+            "title": "Газар",
+            "items": ["энд", "тэнд", "гэртээ"]
+          }
+        ],
+        "glossary": [
+          { "word": "өнөөдөр", "translation": "today" },
+          { "word": "маргааш", "translation": "tomorrow" },
+          { "word": "үргэлж", "translation": "always" },
+          { "word": "энд", "translation": "here" },
+          { "word": "тэнд", "translation": "there" },
+          { "word": "гэртээ", "translation": "at home" }
+        ]
+      }
+    },
+    {
+      "id": "m2_u3_l3_c3",
+      "lessonId": "m2_u3_l3",
+      "type": "exercise_fill",
+      "title": "Нөхөх",
+      "order": 3,
+      "content": {
+        "instructionMn": "Цаг заасан үгийг сонго.",
+        "instructionEn": "Choose the time word.",
+        "groups": [
+          {
+            "sentence": "Бид ___ уулзана.",
+            "options": ["гэртээ", "маргааш", "тэнд"],
+            "answer": "маргааш"
+          }
+        ]
+      }
+    }
+  ]
+}

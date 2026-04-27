@@ -1,0 +1,72 @@
+{
+  "lesson": {
+    "id": "m3_u2_l3",
+    "unitId": "m3-u2",
+    "title": "Онцлох төлөөний хэрэглээ",
+    "titleEn": "Emphatic Pronoun Use",
+    "subtitle": "Яг тэр, өөрөө, тэр чигээрээ",
+    "subtitleEn": "Emphasis, precision, and self-reference",
+    "order": 3,
+    "xpReward": 20
+  },
+  "contents": [
+    {
+      "id": "m3_u2_l3_c1",
+      "lessonId": "m3_u2_l3",
+      "type": "text",
+      "title": "Тайлбар",
+      "order": 1,
+      "content": {
+        "textMn": "Онцлох төлөөний хэрэглээ нь хүнийг эсвэл зүйлсийг тусгайлан тодруулж өгнө.",
+        "textEn": "Emphatic pronoun use highlights a particular person or thing more strongly."
+      }
+    },
+    {
+      "id": "m3_u2_l3_c2",
+      "lessonId": "m3_u2_l3",
+      "type": "classification",
+      "title": "Онцлох жишээ",
+      "order": 2,
+      "content": {
+        "summary": "Онцлох утгын хэлбэр",
+        "groups": [
+          {
+            "title": "Хүн",
+            "items": ["яг тэр хэлсэн", "би өөрөө үзсэн"]
+          },
+          {
+            "title": "Зүйл",
+            "items": ["энэ чигээр нь авна", "тэр л зөв байсан"]
+          }
+        ],
+        "glossary": [
+          { "word": "яг тэр хэлсэн", "translation": "that exact person said it" },
+          { "word": "би өөрөө үзсэн", "translation": "I saw it myself" },
+          { "word": "энэ чигээр нь авна", "translation": "will take it as it is" },
+          { "word": "тэр л зөв байсан", "translation": "that alone was right" }
+        ]
+      }
+    },
+    {
+      "id": "m3_u2_l3_c3",
+      "lessonId": "m3_u2_l3",
+      "type": "exercise_word_build",
+      "title": "Онцлоод бүтээ",
+      "order": 3,
+      "content": {
+        "instructionMn": "Онцлох утгатай өгүүлбэр бүтээ.",
+        "instructionEn": "Build a sentence with emphatic meaning.",
+        "example": "би өөрөө тайлбар өгсөн",
+        "questions": [
+          {
+            "words": ["би", "өөрөө", "тайлбар", "өгсөн"],
+            "answer": "би өөрөө тайлбар өгсөн"
+          }
+        ],
+        "glossary": [
+          { "word": "тайлбар өгсөн", "translation": "gave an explanation" }
+        ]
+      }
+    }
+  ]
+}

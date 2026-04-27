@@ -1,0 +1,72 @@
+{
+  "lesson": {
+    "id": "m4_u2_l4",
+    "unitId": "m4-u2",
+    "title": "Нэгжийн шалгалт",
+    "titleEn": "Unit Quiz",
+    "subtitle": "Дэвшилтэт өгүүлбэр байгуулалт",
+    "subtitleEn": "Advanced sentence construction",
+    "order": 4,
+    "xpReward": 30
+  },
+  "contents": [
+    {
+      "id": "m4_u2_l4_c1",
+      "lessonId": "m4_u2_l4",
+      "type": "text",
+      "title": "Шалгалт",
+      "titleEn": "Quiz",
+      "order": 1,
+      "content": {
+        "textMn": "Энэ нэгжийн өгүүлбэрийн бүтцийг шалгана.",
+        "textEn": "This quiz checks the sentence structures from the unit."
+      }
+    },
+    {
+      "id": "m4_u2_l4_c2",
+      "lessonId": "m4_u2_l4",
+      "type": "quiz_link",
+      "title": "Эхлэх",
+      "titleEn": "Start",
+      "order": 2,
+      "content": {
+        "quizId": "m4_u2_l4_quiz"
+      }
+    }
+  ],
+  "quiz": {
+    "id": "m4_u2_l4_quiz",
+    "lessonId": "m4_u2_l4",
+    "title": "M4 Unit 2 Quiz",
+    "passingScore": 70
+  },
+  "quizQuestions": [
+    {
+      "id": "m4_u2_l4_q1",
+      "quizId": "m4_u2_l4_quiz",
+      "type": "multiple_choice",
+      "prompt": "Аль нь шалтгааны холбоотой вэ?",
+      "options": ["их давтсан тул сайн хийсэн", "мэдсэн боловч хэлээгүй", "сонсоод бодоод хариулсан", "ирсэн хүн"],
+      "correctAnswer": "их давтсан тул сайн хийсэн",
+      "order": 1
+    },
+    {
+      "id": "m4_u2_l4_q2",
+      "quizId": "m4_u2_l4_quiz",
+      "type": "multiple_choice",
+      "prompt": "Аль нь эсрэгцлийн холбоос хэрэглэсэн бэ?",
+      "options": ["асуусан учраас мэдсэн", "мэдсэн боловч хэлээгүй", "сонссон тул ойлгосон", "асууж лавлаад явсан"],
+      "correctAnswer": "мэдсэн боловч хэлээгүй",
+      "order": 2
+    },
+    {
+      "id": "m4_u2_l4_q3",
+      "quizId": "m4_u2_l4_quiz",
+      "type": "multiple_choice",
+      "prompt": "Аль нь үйл үгийн цуваа вэ?",
+      "options": ["очиж үзээд бичсэн", "ирсэн хүн", "түр хүлээгээрэй", "цаг байвал очно"],
+      "correctAnswer": "очиж үзээд бичсэн",
+      "order": 3
+    }
+  ]
+}

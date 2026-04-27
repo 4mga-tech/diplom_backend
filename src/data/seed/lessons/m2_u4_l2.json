@@ -1,0 +1,73 @@
+{
+  "lesson": {
+    "id": "m2_u4_l2",
+    "unitId": "m2-u4",
+    "title": "Өгүүлбэр холбох загвар",
+    "titleEn": "Sentence Linking Patterns",
+    "subtitle": "Хоёр санааг нэгтгэх",
+    "subtitleEn": "Joining two ideas",
+    "order": 2,
+    "xpReward": 20
+  },
+  "contents": [
+    {
+      "id": "m2_u4_l2_c1",
+      "lessonId": "m2_u4_l2",
+      "type": "text",
+      "title": "Тайлбар",
+      "order": 1,
+      "content": {
+        "textMn": "Холбох загвар нь санааны дараалал, шалтгаан, үр дүнг илүү тод болгоно.",
+        "textEn": "Linking patterns make sequence, cause, and result clearer."
+      }
+    },
+    {
+      "id": "m2_u4_l2_c2",
+      "lessonId": "m2_u4_l2",
+      "type": "classification",
+      "title": "Жишээ өгүүлбэр",
+      "order": 2,
+      "content": {
+        "summary": "Холбохын жишээ",
+        "groups": [
+          {
+            "title": "Шалтгаан",
+            "items": ["бороо орсон учир хоцорсон", "завгүй байсан тул яваагүй"]
+          },
+          {
+            "title": "Үр дүн",
+            "items": ["их давтсан тиймээс сайн хийсэн", "асуусан болохоор ойлгосон"]
+          }
+        ],
+        "glossary": [
+          { "word": "бороо орсон учир хоцорсон", "translation": "was late because it rained" },
+          { "word": "завгүй байсан тул яваагүй", "translation": "did not go because was busy" },
+          { "word": "их давтсан тиймээс сайн хийсэн", "translation": "practiced a lot, therefore did well" },
+          { "word": "асуусан болохоор ойлгосон", "translation": "understood because asked" }
+        ]
+      }
+    },
+    {
+      "id": "m2_u4_l2_c3",
+      "lessonId": "m2_u4_l2",
+      "type": "exercise_word_build",
+      "title": "Холбоод бүтээ",
+      "order": 3,
+      "content": {
+        "instructionMn": "Хоёр санааг холбоод өгүүлбэр бүтээ.",
+        "instructionEn": "Join two ideas to build a sentence.",
+        "example": "цаг байсан тул бид ярилцсан",
+        "questions": [
+          {
+            "words": ["цаг", "байсан", "тул", "бид", "ярилцсан"],
+            "answer": "цаг байсан тул бид ярилцсан"
+          }
+        ],
+        "glossary": [
+          { "word": "тул", "translation": "because / since" },
+          { "word": "ярилцсан", "translation": "talked" }
+        ]
+      }
+    }
+  ]
+}

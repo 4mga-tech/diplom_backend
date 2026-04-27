@@ -1,0 +1,72 @@
+{
+  "lesson": {
+    "id": "m4_u3_l1",
+    "unitId": "m4-u3",
+    "title": "Нэр үг үүсгэх дагавар",
+    "titleEn": "Noun-Forming Suffixes",
+    "subtitle": "Үйл, шинжээс нэр үг үүсгэх",
+    "subtitleEn": "Deriving nouns from actions and qualities",
+    "order": 1,
+    "xpReward": 20
+  },
+  "contents": [
+    {
+      "id": "m4_u3_l1_c1",
+      "lessonId": "m4_u3_l1",
+      "type": "text",
+      "title": "Ойлголт",
+      "titleEn": "Concept",
+      "order": 1,
+      "content": {
+        "textMn": "Нэр үг үүсгэх дагавар нь үйлдэл, шинжийг нэрлэсэн нэгж болгож хувиргана.",
+        "textEn": "Noun-forming suffixes turn actions or qualities into noun-like units."
+      }
+    },
+    {
+      "id": "m4_u3_l1_c2",
+      "lessonId": "m4_u3_l1",
+      "type": "classification",
+      "title": "Жишээ үүсгэл",
+      "titleEn": "Derived Examples",
+      "order": 2,
+      "content": {
+        "summary": "Нэр үг үүсгэсэн жишээ",
+        "groups": [
+          {
+            "title": "Үйлээс",
+            "items": ["сургалт", "тэмдэглэл"]
+          },
+          {
+            "title": "Шинжээс",
+            "items": ["тодорхойлолт", "сайжруулалт"]
+          }
+        ],
+        "glossary": [
+          { "word": "сургалт", "translation": "training / instruction" },
+          { "word": "тэмдэглэл", "translation": "note / notation" },
+          { "word": "тодорхойлолт", "translation": "definition" },
+          { "word": "сайжруулалт", "translation": "improvement" }
+        ]
+      }
+    },
+    {
+      "id": "m4_u3_l1_c3",
+      "lessonId": "m4_u3_l1",
+      "type": "exercise_fill",
+      "title": "Сонголт",
+      "titleEn": "Choice",
+      "order": 3,
+      "content": {
+        "instructionMn": "Нэр үг болсон хэлбэрийг сонго.",
+        "instructionEn": "Choose the derived noun form.",
+        "groups": [
+          {
+            "sentence": "Энэ бол сайн ___ .",
+            "options": ["сургалт", "сурч", "сурна"],
+            "answer": "сургалт"
+          }
+        ]
+      }
+    }
+  ]
+}

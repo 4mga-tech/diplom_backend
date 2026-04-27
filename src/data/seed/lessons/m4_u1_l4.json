@@ -1,0 +1,72 @@
+{
+  "lesson": {
+    "id": "m4_u1_l4",
+    "unitId": "m4-u1",
+    "title": "Нэгжийн шалгалт",
+    "titleEn": "Unit Quiz",
+    "subtitle": "Дэвшилтэт үйл үг ба өгүүлбэрийн хэлбэр",
+    "subtitleEn": "Advanced verb and clause forms",
+    "order": 4,
+    "xpReward": 30
+  },
+  "contents": [
+    {
+      "id": "m4_u1_l4_c1",
+      "lessonId": "m4_u1_l4",
+      "type": "text",
+      "title": "Шалгалт",
+      "titleEn": "Quiz",
+      "order": 1,
+      "content": {
+        "textMn": "Энэ нэгжийн гол хэлбэрүүдийг шалгана.",
+        "textEn": "This quiz checks the key forms from the unit."
+      }
+    },
+    {
+      "id": "m4_u1_l4_c2",
+      "lessonId": "m4_u1_l4",
+      "type": "quiz_link",
+      "title": "Эхлэх",
+      "titleEn": "Start",
+      "order": 2,
+      "content": {
+        "quizId": "m4_u1_l4_quiz"
+      }
+    }
+  ],
+  "quiz": {
+    "id": "m4_u1_l4_quiz",
+    "lessonId": "m4_u1_l4",
+    "title": "M4 Unit 1 Quiz",
+    "passingScore": 70
+  },
+  "quizQuestions": [
+    {
+      "id": "m4_u1_l4_q1",
+      "quizId": "m4_u1_l4_quiz",
+      "type": "multiple_choice",
+      "prompt": "Аль нь нэр тодотгосон хэлбэр вэ?",
+      "options": ["ирсэн хүн", "ирж байна", "ирээрэй", "ирнэ"],
+      "correctAnswer": "ирсэн хүн",
+      "order": 1
+    },
+    {
+      "id": "m4_u1_l4_q2",
+      "quizId": "m4_u1_l4_quiz",
+      "type": "multiple_choice",
+      "prompt": "Аль нь зөөлөн тушаах хэлбэр вэ?",
+      "options": ["ир", "ирээрэй", "ирсэн", "ирвэл"],
+      "correctAnswer": "ирээрэй",
+      "order": 2
+    },
+    {
+      "id": "m4_u1_l4_q3",
+      "quizId": "m4_u1_l4_quiz",
+      "type": "multiple_choice",
+      "prompt": "Аль нь зорилго илэрхийлж байна вэ?",
+      "options": ["цаг байвал очно", "сурахын тулд уншсан", "ирсэн хүн", "түр хүлээгээрэй"],
+      "correctAnswer": "сурахын тулд уншсан",
+      "order": 3
+    }
+  ]
+}

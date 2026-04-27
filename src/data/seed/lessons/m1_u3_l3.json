@@ -3,7 +3,9 @@
     "id": "m1-u3-l3",
     "unitId": "m1-u3",
     "title": "Эгшиг зохицох ёсны онцгой тохиолдол",
-    "subtitle": "Exception ба хэрэглээ",
+    "titleEn": "Exceptions to Vowel Harmony",
+    "subtitle": "Онцгой тохиолдол ба хэрэглээ",
+    "subtitleEn": "Special cases and usage",
     "order": 3,
     "xpReward": 25,
     "quizXpReward": 12
@@ -17,8 +19,9 @@
       "order": 1,
       "content": {
         "section": "grammar",
+        "textEn": "Review the main exceptions where the usual vowel harmony pattern loosens.",
         "notes": [
-          "Үгүйсгэх -гүй/-гү suffix нь эр, эм язгуур хоёуланд залгагдаж болно.",
+          "Үгүйсгэх -гүй/-гү дагавар нь эр, эм язгуур хоёуланд залгагдаж болно.",
           "Өнгөрсөн цагийн -жээ/-чээ хэлбэр нь эр, эм язгуурт хоёуланд нь хэрэглэгдэж болно.",
           "Зарим хүн, газрын нэр хоёр тусдаа үгнээс бүтсэн тул дүрэм зөрчсөн мэт харагдаж болно."
         ]
@@ -32,8 +35,26 @@
       "order": 2,
       "content": {
         "section": "reading",
-        "textMn": "байхгүй, уучээ, нарийнсэтгэл, Өвөрхангай зэрэг жишээн дээр exception-уудыг ажиглаарай.",
-        "textEn": "Observe examples such as байхгүй, уучээ, and place names that appear to break the rule."
+        "textMn": "байхгүй, уучээ, нарийнсэтгэл, Өвөрхангай зэрэг жишээн дээр онцгой тохиолдлуудыг ажиглаарай.",
+        "textEn": "Observe examples such as байхгүй, уучээ, and place names that appear to break the rule.",
+        "glossary": [
+          {
+            "word": "байхгүй",
+            "translation": "not be"
+          },
+          {
+            "word": "уучээ",
+            "translation": "sorry"
+          },
+          {
+            "word": "нарийнсэтгэл",
+            "translation": "delicate feeling"
+          },
+          {
+            "word": "Өвөрхангай",
+            "translation": "Uvurkhangai"
+          }
+        ]
       }
     },
     {
@@ -59,14 +80,9 @@
       "id": "quiz_m1_u3_l3_q1",
       "quizId": "quiz_m1_u3_l3",
       "type": "multiple_choice",
-      "prompt": "Аль suffix нь эр, эм язгуур хоёуланд залгагдаж болдог онцгой жишээ вэ?",
-      "helper": "Exception хэсгийг санаарай.",
-      "options": [
-        "-тай",
-        "-гүй/-гү",
-        "-ын",
-        "-руу"
-      ],
+      "prompt": "Аль дагавар нь эр, эм язгуур хоёуланд залгагдаж болдог онцгой жишээ вэ?",
+      "helper": "Онцгой тохиолдлын хэсгийг санаарай.",
+      "options": ["-тай", "-гүй/-гү", "-ын", "-руу"],
       "correctAnswer": "-гүй/-гү",
       "explanation": "Үгүйсгэх -гүй/-гү нь онцгой жишээ болно.",
       "xpReward": 4,
@@ -76,16 +92,11 @@
       "id": "quiz_m1_u3_l3_q2",
       "quizId": "quiz_m1_u3_l3",
       "type": "multiple_choice",
-      "prompt": "Аль нь exception тайлбарын жишээ вэ?",
+      "prompt": "Аль нь онцгой тохиолдлын жишээ вэ?",
       "helper": "Жишээнүүдийг хар.",
-      "options": [
-        "Өвөрхангай",
-        "ном",
-        "ус",
-        "ам"
-      ],
+      "options": ["Өвөрхангай", "ном", "ус", "ам"],
       "correctAnswer": "Өвөрхангай",
-      "explanation": "Зарим газрын нэр дүрэм зөрчсөн мэт харагдах онцгой жишээ болно.",
+      "explanation": "Зарим газрын нэр дүрэм зөрчсөн мэт харагдах онцгой жишээ болдог.",
       "xpReward": 4,
       "order": 2
     },
@@ -94,7 +105,7 @@
       "quizId": "quiz_m1_u3_l3",
       "type": "multiple_choice",
       "prompt": "-жээ/-чээ ямар онцлогтой вэ?",
-      "helper": "Exception note-ыг сана.",
+      "helper": "Тэмдэглэлийг санаарай.",
       "options": [
         "зөвхөн эр үгэнд",
         "зөвхөн эм үгэнд",

@@ -1,0 +1,79 @@
+{
+  "lesson": {
+    "id": "m2_u3_l4",
+    "unitId": "m2-u3",
+    "title": "Нэгжийн шалгалт",
+    "titleEn": "Unit Quiz",
+    "subtitle": "Төлөөний үг ба байдлын үг",
+    "subtitleEn": "Pronouns and modal or adverbial words",
+    "order": 4,
+    "xpReward": 30
+  },
+  "contents": [
+    {
+      "id": "m2_u3_l4_c1",
+      "lessonId": "m2_u3_l4",
+      "type": "text",
+      "title": "Шалгалт",
+      "order": 1,
+      "content": {
+        "textMn": "Нэгжийн хэрэглээг шалгана.",
+        "textEn": "This quiz checks usage from the unit."
+      }
+    },
+    {
+      "id": "m2_u3_l4_c2",
+      "lessonId": "m2_u3_l4",
+      "type": "quiz_link",
+      "title": "Эхлэх",
+      "order": 2,
+      "content": {
+        "quizId": "m2_u3_l4_quiz"
+      }
+    }
+  ],
+  "quiz": {
+    "id": "m2_u3_l4_quiz",
+    "lessonId": "m2_u3_l4",
+    "title": "M2 Unit 3 Quiz",
+    "passingScore": 70
+  },
+  "quizQuestions": [
+    {
+      "id": "m2_u3_l4_q1",
+      "quizId": "m2_u3_l4_quiz",
+      "type": "multiple_choice",
+      "prompt": "Аль нь эзэмших төлөөний үг вэ?",
+      "helper": "Хэнийхийг заасныг сонго.",
+      "options": ["миний", "энэ", "хэн", "тэнд"],
+      "correctAnswer": "миний",
+      "explanation": "Миний нь эзэмших төлөөний үг.",
+      "xpReward": 3,
+      "order": 1
+    },
+    {
+      "id": "m2_u3_l4_q2",
+      "quizId": "m2_u3_l4_quiz",
+      "type": "multiple_choice",
+      "prompt": "Аль нь боломж илэрхийлж байна вэ?",
+      "helper": "Магадлалтай утгыг сонго.",
+      "options": ["магадгүй ирнэ", "заавал очно", "миний ном", "гэртээ сууна"],
+      "correctAnswer": "магадгүй ирнэ",
+      "explanation": "Магадгүй ирнэ нь боломж, таамаг илэрхийлнэ.",
+      "xpReward": 3,
+      "order": 2
+    },
+    {
+      "id": "m2_u3_l4_q3",
+      "quizId": "m2_u3_l4_quiz",
+      "type": "multiple_choice",
+      "prompt": "Аль нь цаг заасан баймжлах үг вэ?",
+      "helper": "Хэзээ гэдэгт хариулсныг сонго.",
+      "options": ["энд", "маргааш", "түүний", "заавал"],
+      "correctAnswer": "маргааш",
+      "explanation": "Маргааш нь цаг заасан баймжлах үг.",
+      "xpReward": 3,
+      "order": 3
+    }
+  ]
+}

@@ -29,3 +29,20 @@ export const loginSchema = Joi.object({
   email: Joi.string().email({ tlds: { allow: false } }).required(),
   password: Joi.string().required(),
 });
+
+export const otpRequestSchema = Joi.object({
+  email: Joi.string().trim().email({ tlds: { allow: false } }).required(),
+});
+
+export const registerVerifyOtpSchema = Joi.object({
+  name: Joi.string().trim().required(),
+  email: Joi.string().trim().email({ tlds: { allow: false } }).required(),
+  password: Joi.string().min(4).required(),
+  code: Joi.string().trim().required(),
+});
+
+export const resetVerifyOtpSchema = Joi.object({
+  email: Joi.string().trim().email({ tlds: { allow: false } }).required(),
+  code: Joi.string().trim().required(),
+  newPassword: Joi.string().min(4).required(),
+});

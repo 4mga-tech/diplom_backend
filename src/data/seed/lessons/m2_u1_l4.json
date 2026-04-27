@@ -1,0 +1,79 @@
+{
+  "lesson": {
+    "id": "m2_u1_l4",
+    "unitId": "m2-u1",
+    "title": "Нэгжийн шалгалт",
+    "titleEn": "Unit Quiz",
+    "subtitle": "Үйл үгийн төгсгөл ба болзол",
+    "subtitleEn": "Verb endings and conditions",
+    "order": 4,
+    "xpReward": 30
+  },
+  "contents": [
+    {
+      "id": "m2_u1_l4_c1",
+      "lessonId": "m2_u1_l4",
+      "type": "text",
+      "title": "Бэлэн үү",
+      "order": 1,
+      "content": {
+        "textMn": "Энэ нэгжийн дүрмүүдийг шалгана.",
+        "textEn": "This quiz checks the grammar from the unit."
+      }
+    },
+    {
+      "id": "m2_u1_l4_c2",
+      "lessonId": "m2_u1_l4",
+      "type": "quiz_link",
+      "title": "Шалгалт",
+      "order": 2,
+      "content": {
+        "quizId": "m2_u1_l4_quiz"
+      }
+    }
+  ],
+  "quiz": {
+    "id": "m2_u1_l4_quiz",
+    "lessonId": "m2_u1_l4",
+    "title": "M2 Unit 1 Quiz",
+    "passingScore": 70
+  },
+  "quizQuestions": [
+    {
+      "id": "m2_u1_l4_q1",
+      "quizId": "m2_u1_l4_quiz",
+      "type": "multiple_choice",
+      "prompt": "Аль нь ирээдүйн хэлбэр вэ?",
+      "helper": "Цагийн утгыг анзаараарай.",
+      "options": ["ирсэн", "ирж байна", "ирнэ", "ирэхгүй"],
+      "correctAnswer": "ирнэ",
+      "explanation": "Ирнэ нь ирээдүйн хэлбэр.",
+      "xpReward": 3,
+      "order": 1
+    },
+    {
+      "id": "m2_u1_l4_q2",
+      "quizId": "m2_u1_l4_quiz",
+      "type": "multiple_choice",
+      "prompt": "Аль нь үгүйсгэх хэлбэр вэ?",
+      "helper": "Хийхгүй утгатайг сонго.",
+      "options": ["уншина", "уншихгүй", "уншсан", "уншиж байна"],
+      "correctAnswer": "уншихгүй",
+      "explanation": "Уншихгүй нь үгүйсгэх хэлбэр.",
+      "xpReward": 3,
+      "order": 2
+    },
+    {
+      "id": "m2_u1_l4_q3",
+      "quizId": "m2_u1_l4_quiz",
+      "type": "multiple_choice",
+      "prompt": "Аль нь болзолт утгатай вэ?",
+      "helper": "Хамаарал илэрхийлсэн хэлбэрийг сонго.",
+      "options": ["явсан хүн", "явж байна", "явбал мэдэгдээрэй", "явна гэж хэлсэн"],
+      "correctAnswer": "явбал мэдэгдээрэй",
+      "explanation": "Явбал мэдэгдээрэй нь болзолт утгатай.",
+      "xpReward": 3,
+      "order": 3
+    }
+  ]
+}

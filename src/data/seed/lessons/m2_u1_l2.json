@@ -1,0 +1,70 @@
+{
+  "lesson": {
+    "id": "m2_u1_l2",
+    "unitId": "m2-u1",
+    "title": "Үгүйсгэх хэлбэр",
+    "titleEn": "Negative Forms",
+    "subtitle": "Үйлдэл болоогүй, хийхгүй утга",
+    "subtitleEn": "Forms for not doing or not happening",
+    "order": 2,
+    "xpReward": 20
+  },
+  "contents": [
+    {
+      "id": "m2_u1_l2_c1",
+      "lessonId": "m2_u1_l2",
+      "type": "text",
+      "title": "Тайлбар",
+      "order": 1,
+      "content": {
+        "textMn": "Үгүйсгэх хэлбэр нь үйлдэл хийгдээгүй эсвэл хийхгүйг илэрхийлнэ.",
+        "textEn": "Negative forms show that an action did not happen or will not happen."
+      }
+    },
+    {
+      "id": "m2_u1_l2_c2",
+      "lessonId": "m2_u1_l2",
+      "type": "classification",
+      "title": "Түгээмэл хэлбэр",
+      "order": 2,
+      "content": {
+        "summary": "Үгүйсгэхийн жишээ",
+        "groups": [
+          {
+            "title": "Байхгүй",
+            "items": ["алга", "байхгүй"]
+          },
+          {
+            "title": "Үйл үг",
+            "items": ["ирэхгүй", "уншихгүй", "хариулахгүй"]
+          }
+        ],
+        "glossary": [
+          { "word": "алга", "translation": "there is not" },
+          { "word": "байхгүй", "translation": "does not exist / is not" },
+          { "word": "ирэхгүй", "translation": "will not come" },
+          { "word": "уншихгүй", "translation": "will not read" },
+          { "word": "хариулахгүй", "translation": "will not answer" }
+        ]
+      }
+    },
+    {
+      "id": "m2_u1_l2_c3",
+      "lessonId": "m2_u1_l2",
+      "type": "exercise_fill",
+      "title": "Нөхөх",
+      "order": 3,
+      "content": {
+        "instructionMn": "Зөв үгүйсгэх хэлбэрийг сонго.",
+        "instructionEn": "Choose the correct negative form.",
+        "groups": [
+          {
+            "sentence": "Би өнөөдөр ___ .",
+            "options": ["явна", "явахгүй", "явсан"],
+            "answer": "явахгүй"
+          }
+        ]
+      }
+    }
+  ]
+}

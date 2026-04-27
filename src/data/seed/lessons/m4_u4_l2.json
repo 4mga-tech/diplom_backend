@@ -1,0 +1,75 @@
+{
+  "lesson": {
+    "id": "m4_u4_l2",
+    "unitId": "m4-u4",
+    "title": "Өгүүлбэр хувиргах дасгал",
+    "titleEn": "Sentence Transformation Practice",
+    "subtitle": "Энгийнээс нийлмэл, үйлээс тодотгол",
+    "subtitleEn": "Transforming simple patterns into denser ones",
+    "order": 2,
+    "xpReward": 20
+  },
+  "contents": [
+    {
+      "id": "m4_u4_l2_c1",
+      "lessonId": "m4_u4_l2",
+      "type": "text",
+      "title": "Ойлголт",
+      "titleEn": "Concept",
+      "order": 1,
+      "content": {
+        "textMn": "Өгүүлбэр хувиргах дасгал нь нэг санааг өөр бүтэцтэйгээр илэрхийлэхэд тусална.",
+        "textEn": "Sentence transformation practice helps express one idea through a different structure."
+      }
+    },
+    {
+      "id": "m4_u4_l2_c2",
+      "lessonId": "m4_u4_l2",
+      "type": "classification",
+      "title": "Хувиргалтын жишээ",
+      "titleEn": "Transformation Examples",
+      "order": 2,
+      "content": {
+        "summary": "Нэг санааг өөр бүтэцтэй болгох",
+        "groups": [
+          {
+            "title": "Тодотгол руу",
+            "items": ["ном уншсан хүн", "ирэх өдөр"]
+          },
+          {
+            "title": "Нийлмэл рүү",
+            "items": ["асуусан тул ойлгосон", "ядарсан ч оролцсон"]
+          }
+        ],
+        "glossary": [
+          { "word": "ном уншсан хүн", "translation": "the person who read a book" },
+          { "word": "ирэх өдөр", "translation": "the coming day" },
+          { "word": "асуусан тул ойлгосон", "translation": "understood because asked" },
+          { "word": "ядарсан ч оролцсон", "translation": "participated even though tired" }
+        ]
+      }
+    },
+    {
+      "id": "m4_u4_l2_c3",
+      "lessonId": "m4_u4_l2",
+      "type": "exercise_word_build",
+      "title": "Хувиргаад бүтээ",
+      "titleEn": "Transform and Build",
+      "order": 3,
+      "content": {
+        "instructionMn": "Тодотгосон хэлбэртэй өгүүлбэр бүтээ.",
+        "instructionEn": "Build a sentence using a modifying form.",
+        "example": "уншсан ном ширээн дээр байна",
+        "questions": [
+          {
+            "words": ["уншсан", "ном", "ширээн", "дээр", "байна"],
+            "answer": "уншсан ном ширээн дээр байна"
+          }
+        ],
+        "glossary": [
+          { "word": "уншсан ном", "translation": "the book that was read" }
+        ]
+      }
+    }
+  ]
+}

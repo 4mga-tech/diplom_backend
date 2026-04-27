@@ -1,0 +1,60 @@
+{
+  "lesson": {
+    "id": "m4_u4_l3",
+    "unitId": "m4-u4",
+    "title": "Шалгалтын өмнөх давтлага",
+    "titleEn": "Pre-Exam Review",
+    "subtitle": "Финалын өмнөх гол бүтэц",
+    "subtitleEn": "Key structures before the final exam",
+    "order": 3,
+    "xpReward": 20
+  },
+  "contents": [
+    {
+      "id": "m4_u4_l3_c1",
+      "lessonId": "m4_u4_l3",
+      "type": "classification",
+      "title": "Санамж",
+      "titleEn": "Review Notes",
+      "order": 1,
+      "content": {
+        "summary": "Финалын өмнөх гол санамж",
+        "groups": [
+          {
+            "title": "Хэлбэр",
+            "items": ["ирсэн хүн", "ирээрэй", "цаг байвал очно"]
+          },
+          {
+            "title": "Бүтэц",
+            "items": ["очиж үзээд бичсэн", "мэдсэн боловч хэлээгүй", "сургалт"]
+          }
+        ],
+        "glossary": [
+          { "word": "ирсэн хүн", "translation": "the person who came" },
+          { "word": "ирээрэй", "translation": "please come" },
+          { "word": "цаг байвал очно", "translation": "will go if there is time" },
+          { "word": "очиж үзээд бичсэн", "translation": "went, checked, and wrote" },
+          { "word": "мэдсэн боловч хэлээгүй", "translation": "knew it but did not say it" },
+          { "word": "сургалт", "translation": "training" }
+        ]
+      }
+    },
+    {
+      "id": "m4_u4_l3_c2",
+      "lessonId": "m4_u4_l3",
+      "type": "exercise_repeat",
+      "title": "Давтлага",
+      "titleEn": "Review Reading",
+      "order": 2,
+      "content": {
+        "instructionMn": "Гол өгүүлбэрүүдийг дахин уншаарай.",
+        "instructionEn": "Read the key sentences again.",
+        "rows": ["амжихын тулд эрт гарсан", "чийглэг агаар удаашруулсан"],
+        "glossary": [
+          { "word": "амжихын тулд эрт гарсан", "translation": "left early in order to make it" },
+          { "word": "чийглэг агаар удаашруулсан", "translation": "humid air slowed it down" }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "lesson": {
+    "id": "m3_u2_l4",
+    "unitId": "m3-u2",
+    "title": "Нэгжийн шалгалт",
+    "titleEn": "Unit Quiz",
+    "subtitle": "Дэвшилтэт төлөөний үг",
+    "subtitleEn": "Advanced pronouns",
+    "order": 4,
+    "xpReward": 30
+  },
+  "contents": [
+    {
+      "id": "m3_u2_l4_c1",
+      "lessonId": "m3_u2_l4",
+      "type": "text",
+      "title": "Богино шалгалт",
+      "order": 1,
+      "content": {
+        "textMn": "Энэ нэгжийн төлөөний үгийн хэрэглээг шалгана.",
+        "textEn": "This quiz checks advanced pronoun usage from the unit."
+      }
+    },
+    {
+      "id": "m3_u2_l4_c2",
+      "lessonId": "m3_u2_l4",
+      "type": "quiz_link",
+      "title": "Эхлэх",
+      "order": 2,
+      "content": {
+        "quizId": "m3_u2_l4_quiz"
+      }
+    }
+  ],
+  "quiz": {
+    "id": "m3_u2_l4_quiz",
+    "lessonId": "m3_u2_l4",
+    "title": "M3 Unit 2 Quiz",
+    "passingScore": 70
+  },
+  "quizQuestions": [
+    {
+      "id": "m3_u2_l4_q1",
+      "quizId": "m3_u2_l4_quiz",
+      "type": "multiple_choice",
+      "prompt": "Аль нь тодорхойгүй төлөөний үг вэ?",
+      "helper": "Тодорхой нэрлэлгүй заасныг сонго.",
+      "options": ["хэн нэгэн", "миний", "гэхдээ", "өнөөдөр"],
+      "correctAnswer": "хэн нэгэн",
+      "explanation": "Хэн нэгэн нь тодорхойгүй төлөөний үг.",
+      "xpReward": 3,
+      "order": 1
+    },
+    {
+      "id": "m3_u2_l4_q2",
+      "quizId": "m3_u2_l4_quiz",
+      "type": "multiple_choice",
+      "prompt": "Аль нь өөрөө заасан хэлбэр вэ?",
+      "helper": "Өөр дээрээ чиглэсэн утгыг сонго.",
+      "options": ["өөрийгөө", "аль нэг", "магадгүй", "тиймээс"],
+      "correctAnswer": "өөрийгөө",
+      "explanation": "Өөрийгөө нь өөрөө заасан хэлбэр.",
+      "xpReward": 3,
+      "order": 2
+    },
+    {
+      "id": "m3_u2_l4_q3",
+      "quizId": "m3_u2_l4_quiz",
+      "type": "multiple_choice",
+      "prompt": "Аль нь онцлох утгатай вэ?",
+      "helper": "Тусгайлан тодруулсан хэлбэрийг сонго.",
+      "options": ["яг тэр", "юу нэгэн", "тэнд", "магадгүй"],
+      "correctAnswer": "яг тэр",
+      "explanation": "Яг тэр нь онцлох утга илэрхийлнэ.",
+      "xpReward": 3,
+      "order": 3
+    }
+  ]
+}

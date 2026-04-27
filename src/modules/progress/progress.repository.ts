@@ -67,6 +67,7 @@ export const listXpLedgerEntries = (userId: string, limit = 50) =>
 
 export const findUserById = (userId: string) => User.findById(userId);
 
+
 export const claimDailyLoginRewardWindow = (
   userId: string,
   claimedAt: Date,

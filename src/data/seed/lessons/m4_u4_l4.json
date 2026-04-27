@@ -1,0 +1,81 @@
+{
+  "lesson": {
+    "id": "m4_u4_l4",
+    "unitId": "m4-u4",
+    "title": "Эцсийн шалгалт",
+    "titleEn": "Final Exam",
+    "subtitle": "M4 дүрэм ба өгүүлбэрийн байгууламж",
+    "subtitleEn": "M4 grammar and sentence construction assessment",
+    "order": 4,
+    "xpReward": 40
+  },
+  "contents": [
+    {
+      "id": "m4_u4_l4_c1",
+      "lessonId": "m4_u4_l4",
+      "type": "text",
+      "title": "Финал",
+      "titleEn": "Final",
+      "order": 1,
+      "content": {
+        "textMn": "Эцсийн шалгалтаар M4-ийн гол дүрэм, бүтцийг шалгана.",
+        "textEn": "The final exam checks the main grammar and construction patterns from M4."
+      }
+    },
+    {
+      "id": "m4_u4_l4_c2",
+      "lessonId": "m4_u4_l4",
+      "type": "quiz_link",
+      "title": "Шалгалт эхлэх",
+      "titleEn": "Start Exam",
+      "order": 2,
+      "content": {
+        "quizId": "m4_u4_l4_quiz"
+      }
+    }
+  ],
+  "quiz": {
+    "id": "m4_u4_l4_quiz",
+    "lessonId": "m4_u4_l4",
+    "title": "M4 Final Exam",
+    "passingScore": 75
+  },
+  "quizQuestions": [
+    {
+      "id": "m4_u4_l4_q1",
+      "quizId": "m4_u4_l4_quiz",
+      "type": "multiple_choice",
+      "prompt": "Аль нь тушаах хэлбэр вэ?",
+      "options": ["ирээрэй", "ирсэн хүн", "ирэх өдөр", "ирсэн боловч"],
+      "correctAnswer": "ирээрэй",
+      "order": 1
+    },
+    {
+      "id": "m4_u4_l4_q2",
+      "quizId": "m4_u4_l4_quiz",
+      "type": "multiple_choice",
+      "prompt": "Аль нь үйл үгийн цуваа вэ?",
+      "options": ["очиж үзээд бичсэн", "сургалт", "чийглэг", "мэдсэн боловч"],
+      "correctAnswer": "очиж үзээд бичсэн",
+      "order": 2
+    },
+    {
+      "id": "m4_u4_l4_q3",
+      "quizId": "m4_u4_l4_quiz",
+      "type": "multiple_choice",
+      "prompt": "Аль нь нэр үг үүсгэсэн хэлбэр вэ?",
+      "options": ["услах", "сургалт", "дулаавтар", "ирээрэй"],
+      "correctAnswer": "сургалт",
+      "order": 3
+    },
+    {
+      "id": "m4_u4_l4_q4",
+      "quizId": "m4_u4_l4_quiz",
+      "type": "multiple_choice",
+      "prompt": "Аль нь нөхцөл илэрхийлж байна вэ?",
+      "options": ["цаг байвал очно", "сонссон тул ойлгосон", "мэдсэн боловч хэлээгүй", "ирсэн хүн"],
+      "correctAnswer": "цаг байвал очно",
+      "order": 4
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "lesson": {
+    "id": "m4_u1_l2",
+    "unitId": "m4-u1",
+    "title": "Тушаах ба захирах хэлбэр",
+    "titleEn": "Command and Imperative Forms",
+    "subtitle": "Шууд тушаал, зөөлөн хүсэлт",
+    "subtitleEn": "Direct commands and softer requests",
+    "order": 2,
+    "xpReward": 20
+  },
+  "contents": [
+    {
+      "id": "m4_u1_l2_c1",
+      "lessonId": "m4_u1_l2",
+      "type": "text",
+      "title": "Ойлголт",
+      "titleEn": "Concept",
+      "order": 1,
+      "content": {
+        "textMn": "Захирах хэлбэр нь тушаах, хүсэх, анхааруулах зэрэг өнгө аясыг илэрхийлдэг.",
+        "textEn": "Imperative forms express commands, requests, and warnings with different tones."
+      }
+    },
+    {
+      "id": "m4_u1_l2_c2",
+      "lessonId": "m4_u1_l2",
+      "type": "classification",
+      "title": "Хэлбэр",
+      "titleEn": "Forms",
+      "order": 2,
+      "content": {
+        "summary": "Түгээмэл тушаах хэлбэр",
+        "groups": [
+          {
+            "title": "Шууд",
+            "items": ["ир", "суу", "анхаар"]
+          },
+          {
+            "title": "Зөөлөн",
+            "items": ["ирээрэй", "сонсоорой", "харна уу"]
+          }
+        ],
+        "glossary": [
+          { "word": "ир", "translation": "come" },
+          { "word": "суу", "translation": "sit" },
+          { "word": "анхаар", "translation": "pay attention" },
+          { "word": "ирээрэй", "translation": "please come" },
+          { "word": "сонсоорой", "translation": "please listen" },
+          { "word": "харна уу", "translation": "please look" }
+        ]
+      }
+    },
+    {
+      "id": "m4_u1_l2_c3",
+      "lessonId": "m4_u1_l2",
+      "type": "exercise_repeat",
+      "title": "Уншлага",
+      "titleEn": "Reading",
+      "order": 3,
+      "content": {
+        "instructionMn": "Тушаах хэлбэрүүдийг уншаарай.",
+        "instructionEn": "Read the command forms aloud.",
+        "rows": ["тайвшир", "түр хүлээгээрэй"],
+        "glossary": [
+          { "word": "тайвшир", "translation": "calm down" },
+          { "word": "түр хүлээгээрэй", "translation": "please wait a moment" }
+        ]
+      }
+    }
+  ]
+}

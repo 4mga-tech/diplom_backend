@@ -1,0 +1,51 @@
+{
+  "lesson": {
+    "id": "m1_u1_l6",
+    "unitId": "m1-u1",
+    "title": "Шалгалт",
+    "titleEn": "Final Quiz",
+    "subtitle": "Unit 1 шалгалт",
+    "subtitleEn": "Unit 1 assessment",
+    "order": 6,
+    "xpReward": 30
+  },
+  "contents": [
+    {
+      "id": "m1_u1_l6_c1",
+      "lessonId": "m1_u1_l6",
+      "type": "text",
+      "title": "Тайлбар",
+      "order": 1,
+      "content": {
+        "textMn": "Та unit 1-ийн шалгалт өгнө.",
+        "textEn": "You will take the unit 1 quiz."
+      }
+    },
+    {
+      "id": "m1_u1_l6_c2",
+      "lessonId": "m1_u1_l6",
+      "type": "quiz_link",
+      "title": "Шалгалт",
+      "order": 2,
+      "content": {
+        "quizId": "m1_u1_l6_quiz"
+      }
+    }
+  ],
+  "quiz": {
+    "id": "m1_u1_l6_quiz",
+    "lessonId": "m1_u1_l6",
+    "title": "M1 Unit 1 Quiz"
+  },
+  "quizQuestions": [
+    {
+      "id": "m1_u1_l6_q1",
+      "quizId": "m1_u1_l6_quiz",
+      "order": 1,
+      "type": "multiple_choice",
+      "prompt": "“ном” ямар үг вэ?",
+      "options": ["нэр үг", "үйл үг", "баймж үг", "төлөөний үг"],
+      "correctAnswer": "нэр үг"
+    }
+  ]
+}

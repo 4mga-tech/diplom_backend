@@ -30,5 +30,101 @@
     "subtitle": "Rules, sequences, and exceptions",
     "description": "Study vowel harmony rules, sequence patterns, and common exceptions.",
     "order": 3
+  },
+  {
+    "id": "m2-u1",
+    "courseId": "m2",
+    "title": "Unit 1: Verb Suffixes and Conditions",
+    "subtitle": "Common endings, negation, and conditional patterns",
+    "description": "Practice core verb endings, negative forms, and simple condition structures used in intermediate grammar.",
+    "order": 1
+  },
+  {
+    "id": "m2-u2",
+    "courseId": "m2",
+    "title": "Unit 2: Sentence and Verb Structures",
+    "subtitle": "Word order, verb chains, and clause patterns",
+    "description": "Build confidence with sentence order, linked verb forms, and compact clause structures.",
+    "order": 2
+  },
+  {
+    "id": "m2-u3",
+    "courseId": "m2",
+    "title": "Unit 3: Pronouns and Modal Words",
+    "subtitle": "Reference words, modal forms, and adverbial usage",
+    "description": "Study pronoun choice, modal expressions, and common adverbial words in short focused lessons.",
+    "order": 3
+  },
+  {
+    "id": "m2-u4",
+    "courseId": "m2",
+    "title": "Unit 4: Connectors and Final Exam",
+    "subtitle": "Linking words, sentence flow, and final review",
+    "description": "Use connectors to join ideas, review key patterns, and finish with a final grammar check.",
+    "order": 4
+  },
+  {
+    "id": "m3-u1",
+    "courseId": "m3",
+    "title": "Unit 1: Advanced Verb Forms",
+    "subtitle": "Causative, passive, and directional usage",
+    "description": "Study advanced verb forms that express causing, being acted on, and directional movement in compact grammar lessons.",
+    "order": 1
+  },
+  {
+    "id": "m3-u2",
+    "courseId": "m3",
+    "title": "Unit 2: Advanced Pronouns",
+    "subtitle": "Indefinite, reflexive, and emphatic reference",
+    "description": "Practice advanced pronoun choices, indefinite references, and reflexive forms used in more nuanced sentences.",
+    "order": 2
+  },
+  {
+    "id": "m3-u3",
+    "courseId": "m3",
+    "title": "Unit 3: Modal and Adverbial Nuance",
+    "subtitle": "Nuance, stance, and degree",
+    "description": "Learn how modal and adverbial words adjust certainty, intensity, and speaker attitude.",
+    "order": 3
+  },
+  {
+    "id": "m3-u4",
+    "courseId": "m3",
+    "title": "Unit 4: Complex Sentences and Final Exam",
+    "subtitle": "Connectors, clause layering, and review",
+    "description": "Build longer connected sentences with clause links, then complete a final advanced grammar assessment.",
+    "order": 4
+  },
+  {
+    "id": "m4-u1",
+    "courseId": "m4",
+    "title": "Unit 1: Advanced Verb and Clause Forms",
+    "subtitle": "Participle-like, imperative, purpose, and condition forms",
+    "description": "Study high-level verb and clause patterns including participle-like usage, commands, and purpose or condition structures.",
+    "order": 1
+  },
+  {
+    "id": "m4-u2",
+    "courseId": "m4",
+    "title": "Unit 2: Advanced Sentence Construction",
+    "subtitle": "Complex building, clause linking, and non-finite chains",
+    "description": "Practice building denser sentences through linked clauses, non-finite forms, and structured sentence patterns.",
+    "order": 2
+  },
+  {
+    "id": "m4-u3",
+    "courseId": "m4",
+    "title": "Unit 3: Derivational Suffixes",
+    "subtitle": "Noun-forming, verb-forming, and quality-forming suffixes",
+    "description": "Learn how advanced suffixes derive new nouns, verbs, and quality or state expressions.",
+    "order": 3
+  },
+  {
+    "id": "m4-u4",
+    "courseId": "m4",
+    "title": "Unit 4: Review and Final Assessment",
+    "subtitle": "Mixed review, transformation, and final exam",
+    "description": "Review advanced grammar categories, transform sentence structures, and complete the final M4 assessment.",
+    "order": 4
   }
 ]

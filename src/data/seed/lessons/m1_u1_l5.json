@@ -1,0 +1,50 @@
+{
+  "lesson": {
+    "id": "m1_u1_l5",
+    "unitId": "m1-u1",
+    "title": "Дасгал",
+    "titleEn": "Practice",
+    "subtitle": "Сурсан зүйлээ бататгах",
+    "subtitleEn": "Practice what you learned",
+    "order": 5,
+    "xpReward": 20
+  },
+  "contents": [
+    {
+      "id": "m1_u1_l5_c1",
+      "lessonId": "m1_u1_l5",
+      "type": "exercise_word_build",
+      "title": "Өгүүлбэр бүтээ",
+      "order": 1,
+      "content": {
+        "instructionMn": "Өгүүлбэр бүтээ",
+        "instructionEn": "Build a sentence",
+        "example": "би ном уншиж байна",
+        "glossary": [
+          {
+            "word": "би",
+            "translation": "I"
+          },
+          {
+            "word": "ном",
+            "translation": "book"
+          },
+          {
+            "word": "уншиж",
+            "translation": "reading"
+          },
+          {
+            "word": "байна",
+            "translation": "am"
+          }
+        ],
+        "questions": [
+          {
+            "words": ["би", "ном", "уншиж", "байна"],
+            "answer": "би ном уншиж байна"
+          }
+        ]
+      }
+    }
+  ]
+}

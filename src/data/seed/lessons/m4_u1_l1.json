@@ -1,0 +1,72 @@
+{
+  "lesson": {
+    "id": "m4_u1_l1",
+    "unitId": "m4-u1",
+    "title": "Тодотгон холбох хэлбэр",
+    "titleEn": "Participle-Like Forms",
+    "subtitle": "Нэрийг тодотгосон үйл үгийн хэлбэр",
+    "subtitleEn": "Verb forms that modify nouns",
+    "order": 1,
+    "xpReward": 20
+  },
+  "contents": [
+    {
+      "id": "m4_u1_l1_c1",
+      "lessonId": "m4_u1_l1",
+      "type": "text",
+      "title": "Ойлголт",
+      "titleEn": "Concept",
+      "order": 1,
+      "content": {
+        "textMn": "Тодотгон холбох хэлбэр нь үйлдэлтэй холбоотой нэрийг тодруулж өгдөг.",
+        "textEn": "Participle-like forms help describe a noun through an associated action."
+      }
+    },
+    {
+      "id": "m4_u1_l1_c2",
+      "lessonId": "m4_u1_l1",
+      "type": "classification",
+      "title": "Жишээ",
+      "titleEn": "Examples",
+      "order": 2,
+      "content": {
+        "summary": "Тодотгосон хэлбэрийн жишээ",
+        "groups": [
+          {
+            "title": "Өнгөрсөн холбоо",
+            "items": ["ирсэн хүн", "уншсан ном"]
+          },
+          {
+            "title": "Ирээдүйн холбоо",
+            "items": ["очих газар", "хэлэх үг"]
+          }
+        ],
+        "glossary": [
+          { "word": "ирсэн хүн", "translation": "the person who came" },
+          { "word": "уншсан ном", "translation": "the book that was read" },
+          { "word": "очих газар", "translation": "the place to go" },
+          { "word": "хэлэх үг", "translation": "the thing to say" }
+        ]
+      }
+    },
+    {
+      "id": "m4_u1_l1_c3",
+      "lessonId": "m4_u1_l1",
+      "type": "exercise_fill",
+      "title": "Дадлага",
+      "titleEn": "Practice",
+      "order": 3,
+      "content": {
+        "instructionMn": "Нэрийг тодотгосон хэлбэрийг сонго.",
+        "instructionEn": "Choose the noun-modifying form.",
+        "groups": [
+          {
+            "sentence": "___ хүн энд сууна.",
+            "options": ["ирсэн", "ирнэ", "ирж байна"],
+            "answer": "ирсэн"
+          }
+        ]
+      }
+    }
+  ]
+}

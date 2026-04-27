@@ -1,0 +1,76 @@
+{
+  "lesson": {
+    "id": "m4_u1_l3",
+    "unitId": "m4-u1",
+    "title": "Зорилго ба нөхцөлийн бүтэц",
+    "titleEn": "Purpose and Condition Structures",
+    "subtitle": "Тулд, гэж, бол, ч гэсэн",
+    "subtitleEn": "Purpose, condition, and concessive patterns",
+    "order": 3,
+    "xpReward": 20
+  },
+  "contents": [
+    {
+      "id": "m4_u1_l3_c1",
+      "lessonId": "m4_u1_l3",
+      "type": "text",
+      "title": "Ойлголт",
+      "titleEn": "Concept",
+      "order": 1,
+      "content": {
+        "textMn": "Зорилго, нөхцөл, буултын бүтэц нь үйл явдлын шалтгаан ба хамаарлыг нарийвчилна.",
+        "textEn": "Purpose, condition, and concessive structures make the relationship between events more precise."
+      }
+    },
+    {
+      "id": "m4_u1_l3_c2",
+      "lessonId": "m4_u1_l3",
+      "type": "classification",
+      "title": "Жишээ холбоо",
+      "titleEn": "Linked Examples",
+      "order": 2,
+      "content": {
+        "summary": "Зорилго ба нөхцөлийн жишээ",
+        "groups": [
+          {
+            "title": "Зорилго",
+            "items": ["амжихын тулд эрт гарсан", "ойлгох гэж дахин асуусан"]
+          },
+          {
+            "title": "Нөхцөл ба буулт",
+            "items": ["цаг байвал очно", "ядарсан ч үргэлжлүүлсэн"]
+          }
+        ],
+        "glossary": [
+          { "word": "амжихын тулд эрт гарсан", "translation": "left early in order to make it" },
+          { "word": "ойлгох гэж дахин асуусан", "translation": "asked again in order to understand" },
+          { "word": "цаг байвал очно", "translation": "will go if there is time" },
+          { "word": "ядарсан ч үргэлжлүүлсэн", "translation": "continued even though tired" }
+        ]
+      }
+    },
+    {
+      "id": "m4_u1_l3_c3",
+      "lessonId": "m4_u1_l3",
+      "type": "exercise_word_build",
+      "title": "Өгүүлбэр бүтээ",
+      "titleEn": "Sentence Build",
+      "order": 3,
+      "content": {
+        "instructionMn": "Зорилготой өгүүлбэр бүтээ.",
+        "instructionEn": "Build a purpose sentence.",
+        "example": "сурахын тулд ном уншсан",
+        "questions": [
+          {
+            "words": ["сурахын", "тулд", "ном", "уншсан"],
+            "answer": "сурахын тулд ном уншсан"
+          }
+        ],
+        "glossary": [
+          { "word": "сурахын тулд", "translation": "in order to learn" },
+          { "word": "ном уншсан", "translation": "read a book" }
+        ]
+      }
+    }
+  ]
+}

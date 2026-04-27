@@ -1,0 +1,67 @@
+{
+  "lesson": {
+    "id": "m2_u3_l2",
+    "unitId": "m2-u3",
+    "title": "Байдлын үг",
+    "titleEn": "Modal Words",
+    "subtitle": "Магадгүй, заавал, хэрэгтэй",
+    "subtitleEn": "Possibility, necessity, and obligation",
+    "order": 2,
+    "xpReward": 20
+  },
+  "contents": [
+    {
+      "id": "m2_u3_l2_c1",
+      "lessonId": "m2_u3_l2",
+      "type": "text",
+      "title": "Тайлбар",
+      "order": 1,
+      "content": {
+        "textMn": "Байдлын үг нь яригчийн үнэлгээ, боломж, хэрэгцээг илэрхийлдэг.",
+        "textEn": "Modal words express the speaker's judgment, possibility, or necessity."
+      }
+    },
+    {
+      "id": "m2_u3_l2_c2",
+      "lessonId": "m2_u3_l2",
+      "type": "classification",
+      "title": "Жишээ",
+      "order": 2,
+      "content": {
+        "summary": "Түгээмэл байдлын үг",
+        "groups": [
+          {
+            "title": "Боломж",
+            "items": ["магадгүй ирнэ", "болох байх"]
+          },
+          {
+            "title": "Хэрэгцээ",
+            "items": ["заавал очно", "хэрэгтэй байна"]
+          }
+        ],
+        "glossary": [
+          { "word": "магадгүй ирнэ", "translation": "may come" },
+          { "word": "болох байх", "translation": "it will probably be possible" },
+          { "word": "заавал очно", "translation": "will definitely go" },
+          { "word": "хэрэгтэй байна", "translation": "is needed" }
+        ]
+      }
+    },
+    {
+      "id": "m2_u3_l2_c3",
+      "lessonId": "m2_u3_l2",
+      "type": "exercise_repeat",
+      "title": "Уншлага",
+      "order": 3,
+      "content": {
+        "instructionMn": "Байдлын үгтэй өгүүлбэрүүдийг уншаарай.",
+        "instructionEn": "Read the sentences with modal words aloud.",
+        "rows": ["магадгүй оройтно", "заавал асууна"],
+        "glossary": [
+          { "word": "магадгүй оройтно", "translation": "may be late" },
+          { "word": "заавал асууна", "translation": "will definitely ask" }
+        ]
+      }
+    }
+  ]
+}

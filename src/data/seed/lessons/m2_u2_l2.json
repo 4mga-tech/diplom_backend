@@ -1,0 +1,69 @@
+{
+  "lesson": {
+    "id": "m2_u2_l2",
+    "unitId": "m2-u2",
+    "title": "Үйл үгийн холбоо",
+    "titleEn": "Verb Chains",
+    "subtitle": "Дараалсан үйлдэл, туслах хэлбэр",
+    "subtitleEn": "Linked actions and helper structures",
+    "order": 2,
+    "xpReward": 20
+  },
+  "contents": [
+    {
+      "id": "m2_u2_l2_c1",
+      "lessonId": "m2_u2_l2",
+      "type": "text",
+      "title": "Тайлбар",
+      "order": 1,
+      "content": {
+        "textMn": "Зарим өгүүлбэрт хоёр үйл үг хамт орж, үйлдлийн дараалал эсвэл байдал илэрхийлнэ.",
+        "textEn": "Some sentences use two verbs together to show sequence or aspect."
+      }
+    },
+    {
+      "id": "m2_u2_l2_c2",
+      "lessonId": "m2_u2_l2",
+      "type": "classification",
+      "title": "Жишээ холбоо",
+      "order": 2,
+      "content": {
+        "summary": "Холбоотой үйл үгийн жишээ",
+        "groups": [
+          {
+            "title": "Дараалал",
+            "items": ["очоод хэлнэ", "үзээд бичнэ"]
+          },
+          {
+            "title": "Явц",
+            "items": ["сууж байна", "ажиллаж байна"]
+          }
+        ],
+        "glossary": [
+          { "word": "очоод хэлнэ", "translation": "will go and say" },
+          { "word": "үзээд бичнэ", "translation": "will see and write" },
+          { "word": "сууж байна", "translation": "is sitting" },
+          { "word": "ажиллаж байна", "translation": "is working" }
+        ]
+      }
+    },
+    {
+      "id": "m2_u2_l2_c3",
+      "lessonId": "m2_u2_l2",
+      "type": "exercise_fill",
+      "title": "Нөхөх",
+      "order": 3,
+      "content": {
+        "instructionMn": "Дараалсан үйлдлийг сонго.",
+        "instructionEn": "Choose the sequence form.",
+        "groups": [
+          {
+            "sentence": "Тэр сургуульд ___ .",
+            "options": ["очоод хэлнэ", "сайн", "ном"],
+            "answer": "очоод хэлнэ"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -3,7 +3,9 @@
     "id": "m1-u3-l1",
     "unitId": "m1-u3",
     "title": "Эгшиг зохицох ёс",
+    "titleEn": "Vowel Harmony",
     "subtitle": "Тодорхойлолт ба үндсэн дүрэм",
+    "subtitleEn": "Definition and core rules",
     "order": 1,
     "xpReward": 20,
     "quizXpReward": 9
@@ -17,8 +19,8 @@
       "order": 1,
       "content": {
         "section": "reading",
-        "textMn": "Эгшиг амны хөндийн байрлалаар эр, эм гэж ангилагдаж, нэг язгуур, үндэс, түүний нөхцөлүүд дотор ижил зохицолтой байна. Үүнийг эгшиг зохицох ёс гэнэ.",
-        "textEn": "Vowels are classified along a front/back dimension and harmonize within the same root, stem, and suffixes. This rule is called vowel harmony."
+        "textMn": "Эгшиг амны хөндийн байрлалаараа эр, эм гэж ангилагдаж, нэг язгуур, үндэс, түүний нөхцөлүүд дотор ижил зохицолтой байна. Үүнийг эгшиг зохицох ёс гэнэ.",
+        "textEn": "Vowels are classified along a front and back dimension and harmonize within the same root, stem, and suffixes."
       }
     },
     {
@@ -33,31 +35,29 @@
         "groups": [
           {
             "title": "Эр эгшиг",
-            "items": [
-              "а",
-              "о",
-              "у",
-              "я",
-              "ё",
-              "ю(у)"
-            ]
+            "items": ["а", "о", "у", "я", "ё", "ю(у)"]
           },
           {
             "title": "Эм эгшиг",
-            "items": [
-              "э",
-              "ө",
-              "ү",
-              "е",
-              "ю(ү)"
-            ]
+            "items": ["э", "ө", "ү", "е", "ю(ү)"]
           },
           {
             "title": "Саармаг",
-            "items": [
-              "и",
-              "й"
-            ]
+            "items": ["и", "й"]
+          }
+        ],
+        "glossary": [
+          {
+            "word": "эр эгшиг",
+            "translation": "masculine vowels"
+          },
+          {
+            "word": "эм эгшиг",
+            "translation": "feminine vowels"
+          },
+          {
+            "word": "саармаг",
+            "translation": "neutral vowels"
           }
         ]
       }
@@ -70,10 +70,11 @@
       "order": 3,
       "content": {
         "section": "grammar",
+        "textEn": "Read the core rules for how vowels stay in harmony inside one word.",
         "notes": [
           "Нэг үгэнд эр ба эм эгшиг холилдохгүй.",
           "Үйл үг, нэр үгийн нөхцөл тухайн үгийн эгшигтэй зохицно.",
-          "О нь а, у-ын дараа ордоггүй; а нь о-ын дараа ордоггүй.",
+          "О нь а, у-ы дараа ордоггүй; а нь о-ы дараа ордоггүй.",
           "Ө нь э, ү-тэй, э нь ө-тэй нэг язгуурт хамтрахгүй.",
           "У, Ү нь үгийн эхний үед ордоггүй гэж сургалтын дүрэмд тайлбарласан."
         ]
@@ -121,12 +122,7 @@
       "type": "multiple_choice",
       "prompt": "Аль нь саармаг эгшиг вэ?",
       "helper": "Зөв бүлгийг сонго.",
-      "options": [
-        "а",
-        "ө",
-        "и",
-        "ю"
-      ],
+      "options": ["а", "ө", "и", "ю"],
       "correctAnswer": "и",
       "explanation": "И эгшиг саармаг бүлэгт орно.",
       "xpReward": 3,

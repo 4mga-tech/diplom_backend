@@ -1,0 +1,76 @@
+{
+  "lesson": {
+    "id": "m4_u2_l1",
+    "unitId": "m4-u2",
+    "title": "Нийлмэл өгүүлбэр бүтээх",
+    "titleEn": "Complex Sentence Building",
+    "subtitle": "Олон санааг нэг урсгалд холбох",
+    "subtitleEn": "Combining multiple ideas in one flow",
+    "order": 1,
+    "xpReward": 20
+  },
+  "contents": [
+    {
+      "id": "m4_u2_l1_c1",
+      "lessonId": "m4_u2_l1",
+      "type": "text",
+      "title": "Ойлголт",
+      "titleEn": "Concept",
+      "order": 1,
+      "content": {
+        "textMn": "Нийлмэл өгүүлбэр нь хэд хэдэн санааг шаталж, уялдаатайгаар илэрхийлнэ.",
+        "textEn": "Complex sentence building arranges several ideas into a layered and coherent structure."
+      }
+    },
+    {
+      "id": "m4_u2_l1_c2",
+      "lessonId": "m4_u2_l1",
+      "type": "classification",
+      "title": "Жишээ загвар",
+      "titleEn": "Example Patterns",
+      "order": 2,
+      "content": {
+        "summary": "Нийлмэл өгүүлбэрийн жишээ",
+        "groups": [
+          {
+            "title": "Шаталсан",
+            "items": ["асуусан болохоор тайлбарласан", "харсан зүйлээ дараа нь бичсэн"]
+          },
+          {
+            "title": "Хосолсон",
+            "items": ["очсон ч амжаагүй", "сонссон тул ойлгосон"]
+          }
+        ],
+        "glossary": [
+          { "word": "асуусан болохоор тайлбарласан", "translation": "explained because someone asked" },
+          { "word": "харсан зүйлээ дараа нь бичсэн", "translation": "wrote later what was seen" },
+          { "word": "очсон ч амжаагүй", "translation": "went but did not manage" },
+          { "word": "сонссон тул ойлгосон", "translation": "understood because listened" }
+        ]
+      }
+    },
+    {
+      "id": "m4_u2_l1_c3",
+      "lessonId": "m4_u2_l1",
+      "type": "exercise_word_build",
+      "title": "Бүтээх",
+      "titleEn": "Build",
+      "order": 3,
+      "content": {
+        "instructionMn": "Нийлмэл өгүүлбэр бүтээ.",
+        "instructionEn": "Build a complex sentence.",
+        "example": "сонссон тул би ойлгосон",
+        "questions": [
+          {
+            "words": ["сонссон", "тул", "би", "ойлгосон"],
+            "answer": "сонссон тул би ойлгосон"
+          }
+        ],
+        "glossary": [
+          { "word": "сонссон тул", "translation": "because listened" },
+          { "word": "би ойлгосон", "translation": "I understood" }
+        ]
+      }
+    }
+  ]
+}

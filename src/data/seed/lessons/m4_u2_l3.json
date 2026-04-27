@@ -1,0 +1,70 @@
+{
+  "lesson": {
+    "id": "m4_u2_l3",
+    "unitId": "m4-u2",
+    "title": "Төгс бус үйл үгийн цуваа",
+    "titleEn": "Non-Finite Verb Chains",
+    "subtitle": "Дараалсан үйлдэл ба давхар бүтэц",
+    "subtitleEn": "Sequenced actions and layered structures",
+    "order": 3,
+    "xpReward": 20
+  },
+  "contents": [
+    {
+      "id": "m4_u2_l3_c1",
+      "lessonId": "m4_u2_l3",
+      "type": "text",
+      "title": "Ойлголт",
+      "titleEn": "Concept",
+      "order": 1,
+      "content": {
+        "textMn": "Төгс бус үйл үгийн цуваа нь хэд хэдэн үйлдлийг нэг гол үйл үгтэй уялдуулдаг.",
+        "textEn": "Non-finite verb chains connect several actions to one main verb."
+      }
+    },
+    {
+      "id": "m4_u2_l3_c2",
+      "lessonId": "m4_u2_l3",
+      "type": "classification",
+      "title": "Цувааны жишээ",
+      "titleEn": "Chain Examples",
+      "order": 2,
+      "content": {
+        "summary": "Үйл үгийн цувааны жишээ",
+        "groups": [
+          {
+            "title": "Дараалсан",
+            "items": ["очиж үзээд бичсэн", "сонсоод бодоод хариулсан"]
+          },
+          {
+            "title": "Зорилготой",
+            "items": ["асууж мэдээд тайлбарласан", "судалж ойлгоод хэрэглэсэн"]
+          }
+        ],
+        "glossary": [
+          { "word": "очиж үзээд бичсэн", "translation": "went, checked, and then wrote" },
+          { "word": "сонсоод бодоод хариулсан", "translation": "listened, thought, and answered" },
+          { "word": "асууж мэдээд тайлбарласан", "translation": "asked, learned, and explained" },
+          { "word": "судалж ойлгоод хэрэглэсэн", "translation": "studied, understood, and used" }
+        ]
+      }
+    },
+    {
+      "id": "m4_u2_l3_c3",
+      "lessonId": "m4_u2_l3",
+      "type": "exercise_repeat",
+      "title": "Уншиж давт",
+      "titleEn": "Read and Repeat",
+      "order": 3,
+      "content": {
+        "instructionMn": "Үйл үгийн цувааг уншаарай.",
+        "instructionEn": "Read the verb chains aloud.",
+        "rows": ["харж тэмдэглээд буцсан", "асууж лавлаад явсан"],
+        "glossary": [
+          { "word": "харж тэмдэглээд буцсан", "translation": "looked, noted, and returned" },
+          { "word": "асууж лавлаад явсан", "translation": "asked, confirmed, and left" }
+        ]
+      }
+    }
+  ]
+}
