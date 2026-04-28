@@ -36,6 +36,10 @@ const UserSchema = new mongoose_1.default.Schema({
         type: Date,
         default: null,
     },
+    avatarUrl: {
+        type: String,
+        default: null,
+    },
 }, { timestamps: true });
 UserSchema.methods.comparePassword = async function (plain) {
     return bcryptjs_1.default.compare(plain, this.passwordHash);

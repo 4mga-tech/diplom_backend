@@ -5,6 +5,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 const express_1 = __importDefault(require("express"));
 const cors_1 = __importDefault(require("cors"));
+const node_path_1 = __importDefault(require("node:path"));
 const level_route_1 = __importDefault(require("./routes/level.route"));
 const auth_route_1 = __importDefault(require("./modules/auth/auth.route"));
 const user_route_1 = __importDefault(require("./modules/user/user.route"));
@@ -15,12 +16,15 @@ const lesson_route_1 = __importDefault(require("./modules/lessons/lesson.route")
 const quiz_route_1 = __importDefault(require("./modules/quiz/quiz.route"));
 const review_route_1 = __importDefault(require("./modules/review/review.route"));
 const app = (0, express_1.default)();
+const uploadsDir = node_path_1.default.resolve(process.cwd(), "uploads");
 app.use((0, cors_1.default)());
+app.use("/uploads", express_1.default.static(uploadsDir));
 app.use(express_1.default.json());
 app.use("/levels", level_route_1.default);
 app.use("/health", health_route_1.healthRouter);
 app.use("/api/auth", auth_route_1.default);
 app.use("/api/user", user_route_1.default);
+app.use("/api/me", user_route_1.default);
 app.use("/api/content", content_route_1.default);
 app.use("/api", progress_route_1.default);
 app.use("/api", lesson_route_1.default);

@@ -50,6 +50,9 @@ src/
 
 - `GET /api/me/progress/summary`
 - `GET /api/me/progress?courseId=m2`
+- `GET /api/me/profile`
+- `PATCH /api/me/profile`
+- `POST /api/me/avatar`
 - `GET /api/units/m2-u1/lessons`
 - `GET /api/lessons/m2-u1-l1`
 - `POST /api/lessons/m2-u1-l1/complete`
@@ -136,6 +139,32 @@ Content-Type: application/json
     { "questionId": "review_q1", "selected": "Thank you" },
     { "questionId": "review_q2", "selected": true }
   ]
+}
+```
+
+### Upload avatar
+
+```http
+POST /api/me/avatar
+Authorization: Bearer <token>
+Content-Type: multipart/form-data
+```
+
+Form field:
+
+- `avatar`: image file up to 5 MB (`image/jpeg`, `image/png`, `image/webp`, or `image/gif`)
+
+Response:
+
+```json
+{
+  "message": "Avatar updated successfully",
+  "avatarUrl": "/uploads/avatars/<userId>-<timestamp>.png",
+  "profile": {
+    "name": "User Name",
+    "email": "user@example.com",
+    "avatarUrl": "/uploads/avatars/<userId>-<timestamp>.png"
+  }
 }
 ```
 

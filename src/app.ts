@@ -1,5 +1,6 @@
 import express from "express";
 import cors from "cors";
+import path from "node:path";
 import levelRouter from "./routes/level.route";
 import authRoutes from "./modules/auth/auth.route";
 import userRoutes from "./modules/user/user.route";
@@ -11,13 +12,16 @@ import quizRoutes from "./modules/quiz/quiz.route";
 import reviewRoutes from "./modules/review/review.route";
 
 const app = express();
+const uploadsDir = path.resolve(process.cwd(), "uploads");
 
 app.use(cors());
+app.use("/uploads", express.static(uploadsDir));
 app.use(express.json());
 app.use("/levels", levelRouter);
 app.use("/health", healthRouter);
 app.use("/api/auth", authRoutes);
 app.use("/api/user", userRoutes);
+app.use("/api/me", userRoutes);
 app.use("/api/content", contentRoutes);
 app.use("/api", progressRoutes);
 app.use("/api", lessonRoutes);

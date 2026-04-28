@@ -1,6 +1,5 @@
 import mongoose from "mongoose";
 import bcrypt from "bcryptjs";
-import { required, string } from "joi";
 const UserSchema = new mongoose.Schema(
   {
     email: {
@@ -31,6 +30,10 @@ const UserSchema = new mongoose.Schema(
     },
     lastActiveAt: {
       type: Date,
+      default: null,
+    },
+    avatarUrl: {
+      type: String,
       default: null,
     },
   },
