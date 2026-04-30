@@ -15,6 +15,7 @@ const progress_route_1 = __importDefault(require("./modules/progress/progress.ro
 const lesson_route_1 = __importDefault(require("./modules/lessons/lesson.route"));
 const quiz_route_1 = __importDefault(require("./modules/quiz/quiz.route"));
 const review_route_1 = __importDefault(require("./modules/review/review.route"));
+const test_route_1 = __importDefault(require("./modules/tests/test.route"));
 const app = (0, express_1.default)();
 const uploadsDir = node_path_1.default.resolve(process.cwd(), "uploads");
 app.use((0, cors_1.default)());
@@ -30,4 +31,5 @@ app.use("/api", progress_route_1.default);
 app.use("/api", lesson_route_1.default);
 app.use("/api", quiz_route_1.default);
 app.use("/api", review_route_1.default);
+app.use("/api/tests", test_route_1.default);
 exports.default = app;

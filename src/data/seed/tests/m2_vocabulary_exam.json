@@ -1,0 +1,130 @@
+{
+  "id": "m2_vocabulary_exam",
+  "levelId": "m2",
+  "testType": "vocabulary",
+  "title": "M2 Vocabulary Exam",
+  "passingScore": 75,
+  "xpReward": 28,
+  "questions": [
+    {
+      "id": "m2_vocab_q1",
+      "levelId": "m2",
+      "testType": "vocabulary",
+      "prompt": "What does \"буудал\" mean?",
+      "options": [
+        { "id": "a", "text": "station" },
+        { "id": "b", "text": "window" },
+        { "id": "c", "text": "garden" },
+        { "id": "d", "text": "blanket" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "\"буудал\" means station or stop.",
+      "order": 1
+    },
+    {
+      "id": "m2_vocab_q2",
+      "levelId": "m2",
+      "testType": "vocabulary",
+      "prompt": "Choose the word for \"ticket\".",
+      "options": [
+        { "id": "a", "text": "тасалбар" },
+        { "id": "b", "text": "цаг" },
+        { "id": "c", "text": "өрөө" },
+        { "id": "d", "text": "үе" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "\"тасалбар\" means ticket.",
+      "order": 2
+    },
+    {
+      "id": "m2_vocab_q3",
+      "levelId": "m2",
+      "testType": "vocabulary",
+      "prompt": "What is \"өглөө\"?",
+      "options": [
+        { "id": "a", "text": "night" },
+        { "id": "b", "text": "morning" },
+        { "id": "c", "text": "yesterday" },
+        { "id": "d", "text": "week" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "\"өглөө\" means morning.",
+      "order": 3
+    },
+    {
+      "id": "m2_vocab_q4",
+      "levelId": "m2",
+      "testType": "vocabulary",
+      "prompt": "Choose the meaning of \"ажил\".",
+      "options": [
+        { "id": "a", "text": "family" },
+        { "id": "b", "text": "weather" },
+        { "id": "c", "text": "work" },
+        { "id": "d", "text": "story" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "\"ажил\" means work or job.",
+      "order": 4
+    },
+    {
+      "id": "m2_vocab_q5",
+      "levelId": "m2",
+      "testType": "vocabulary",
+      "prompt": "Which word means \"left\"?",
+      "options": [
+        { "id": "a", "text": "баруун" },
+        { "id": "b", "text": "зүүн" },
+        { "id": "c", "text": "дээш" },
+        { "id": "d", "text": "доош" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "\"зүүн\" means left.",
+      "order": 5
+    },
+    {
+      "id": "m2_vocab_q6",
+      "levelId": "m2",
+      "testType": "vocabulary",
+      "prompt": "What does \"түргэн\" mean?",
+      "options": [
+        { "id": "a", "text": "slow" },
+        { "id": "b", "text": "clean" },
+        { "id": "c", "text": "fast" },
+        { "id": "d", "text": "deep" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "\"түргэн\" means fast or quick.",
+      "order": 6
+    },
+    {
+      "id": "m2_vocab_q7",
+      "levelId": "m2",
+      "testType": "vocabulary",
+      "prompt": "Choose the word for \"meeting\".",
+      "options": [
+        { "id": "a", "text": "уулзалт" },
+        { "id": "b", "text": "зогсоол" },
+        { "id": "c", "text": "хаалга" },
+        { "id": "d", "text": "өвөл" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "\"уулзалт\" means meeting.",
+      "order": 7
+    },
+    {
+      "id": "m2_vocab_q8",
+      "levelId": "m2",
+      "testType": "vocabulary",
+      "prompt": "What is \"хуваарь\"?",
+      "options": [
+        { "id": "a", "text": "schedule" },
+        { "id": "b", "text": "medicine" },
+        { "id": "c", "text": "wallet" },
+        { "id": "d", "text": "bridge" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "\"хуваарь\" means schedule or timetable.",
+      "order": 8
+    }
+  ]
+}

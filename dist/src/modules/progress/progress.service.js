@@ -17,6 +17,7 @@ const getCourseProgress = async (userId, courseId) => {
         courseId: progress.courseId,
         completedLessonIds: progress.completedLessonIds,
         unlockedLessonIds: progress.unlockedLessonIds,
+        unitExamPassed: progress.unitExamPassed ?? [],
         totalXp: progress.totalXp,
         streak: progress.streak,
         document: progress,
@@ -83,6 +84,7 @@ const completeLesson = async (userId, lessonId) => {
     return {
         lessonId,
         completed: true,
+        alreadyCompleted,
         xpGained: alreadyCompleted ? 0 : xpResult.xpDelta,
         totalXp: progress.totalXp,
         nextLessonUnlocked,

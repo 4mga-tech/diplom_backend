@@ -11,6 +11,12 @@ import { XpSourceType } from "./progress.types";
 const DAILY_LOGIN_WINDOW_MS = 24 * 60 * 60 * 1000;
 const DEFAULT_DAILY_LOGIN_XP = 10;
 
+const isDuplicateKeyError = (error: unknown) =>
+  typeof error === "object" &&
+  error !== null &&
+  "code" in error &&
+  (error as { code?: number }).code === 11000;
+
 const getDailyLoginEligibility = (lastDailyLoginXpAt: Date | null, now: Date) => {
   if (!lastDailyLoginXpAt) {
     return {
@@ -49,6 +55,7 @@ export const applyXpChangeOnce = async ({
     return {
       xpDelta: 0,
       totalXp: user.totalXP,
+      alreadyApplied: true,
     };
   }
 
@@ -57,6 +64,7 @@ export const applyXpChangeOnce = async ({
     return {
       xpDelta: 0,
       totalXp: user.totalXP,
+      alreadyApplied: true,
     };
   }
 
@@ -65,7 +73,19 @@ export const applyXpChangeOnce = async ({
     throw new Error("Not enough XP");
   }
 
-  await createXpLedgerEntry({ userId, sourceType, sourceId, xp });
+  try {
+    await createXpLedgerEntry({ userId, sourceType, sourceId, xp });
+  } catch (error) {
+    if (isDuplicateKeyError(error)) {
+      return {
+        xpDelta: 0,
+        totalXp: user.totalXP,
+        alreadyApplied: true,
+      };
+    }
+
+    throw error;
+  }
 
   user.totalXP = nextTotalXp;
   await user.save();
@@ -78,6 +98,7 @@ export const applyXpChangeOnce = async ({
   return {
     xpDelta: xp,
     totalXp: user.totalXP,
+    alreadyApplied: false,
   };
 };
 

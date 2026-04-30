@@ -6,6 +6,7 @@ const UserProgressSchema = new mongoose.Schema(
     courseId: { type: String, required: true, index: true },
     completedLessonIds: { type: [String], default: [] },
     unlockedLessonIds: { type: [String], default: [] },
+    unitExamPassed: { type: [String], default: [] },
     totalXp: { type: Number, default: 0 },
     streak: { type: Number, default: 0 },
   },
@@ -15,4 +16,3 @@ const UserProgressSchema = new mongoose.Schema(
 UserProgressSchema.index({ userId: 1, courseId: 1 }, { unique: true });
 
 export const UserProgress = mongoose.model("UserProgress", UserProgressSchema);
-

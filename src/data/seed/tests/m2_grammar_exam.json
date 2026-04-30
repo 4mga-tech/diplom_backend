@@ -1,0 +1,130 @@
+{
+  "id": "m2_grammar_exam",
+  "levelId": "m2",
+  "testType": "grammar",
+  "title": "M2 Grammar Exam",
+  "passingScore": 75,
+  "xpReward": 28,
+  "questions": [
+    {
+      "id": "m2_grammar_q1",
+      "levelId": "m2",
+      "testType": "grammar",
+      "prompt": "Choose the future plan sentence.",
+      "options": [
+        { "id": "a", "text": "Маргааш явна." },
+        { "id": "b", "text": "Өчигдөр явсан." },
+        { "id": "c", "text": "Одоо явж байна." },
+        { "id": "d", "text": "Явахгүй байсан." }
+      ],
+      "correctOptionId": "a",
+      "explanation": "\"явна\" works as a future or planned action here.",
+      "order": 1
+    },
+    {
+      "id": "m2_grammar_q2",
+      "levelId": "m2",
+      "testType": "grammar",
+      "prompt": "Pick the past tense sentence.",
+      "options": [
+        { "id": "a", "text": "Би ажиллана." },
+        { "id": "b", "text": "Би ажиллаж байна." },
+        { "id": "c", "text": "Би ажилласан." },
+        { "id": "d", "text": "Би ажиллах уу?" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "\"-сан\" marks completed past action.",
+      "order": 2
+    },
+    {
+      "id": "m2_grammar_q3",
+      "levelId": "m2",
+      "testType": "grammar",
+      "prompt": "Which sentence shows ongoing action?",
+      "options": [
+        { "id": "a", "text": "Тэр уншиж байна." },
+        { "id": "b", "text": "Тэр уншсан." },
+        { "id": "c", "text": "Тэр уншина." },
+        { "id": "d", "text": "Тэр уншихгүй." }
+      ],
+      "correctOptionId": "a",
+      "explanation": "\"-ж байна\" marks an action in progress.",
+      "order": 3
+    },
+    {
+      "id": "m2_grammar_q4",
+      "levelId": "m2",
+      "testType": "grammar",
+      "prompt": "Choose the correct time expression for \"at 8 o'clock\".",
+      "options": [
+        { "id": "a", "text": "наймд" },
+        { "id": "b", "text": "наймаас" },
+        { "id": "c", "text": "наймын" },
+        { "id": "d", "text": "наймтай" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "\"-д\" marks the time point in \"наймд\".",
+      "order": 4
+    },
+    {
+      "id": "m2_grammar_q5",
+      "levelId": "m2",
+      "testType": "grammar",
+      "prompt": "Pick the sentence meaning \"from home\".",
+      "options": [
+        { "id": "a", "text": "гэрт" },
+        { "id": "b", "text": "гэрээс" },
+        { "id": "c", "text": "гэрийн" },
+        { "id": "d", "text": "гэртэй" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "\"-ээс\" marks movement from a place.",
+      "order": 5
+    },
+    {
+      "id": "m2_grammar_q6",
+      "levelId": "m2",
+      "testType": "grammar",
+      "prompt": "Choose the correct comparison sentence.",
+      "options": [
+        { "id": "a", "text": "Энэ илүү хямд." },
+        { "id": "b", "text": "Энэ хямд бишүү." },
+        { "id": "c", "text": "Энэ хямдээс." },
+        { "id": "d", "text": "Энэ хямдтай." }
+      ],
+      "correctOptionId": "a",
+      "explanation": "\"илүү\" is used for a basic comparative.",
+      "order": 6
+    },
+    {
+      "id": "m2_grammar_q7",
+      "levelId": "m2",
+      "testType": "grammar",
+      "prompt": "Which form means \"must go\"?",
+      "options": [
+        { "id": "a", "text": "явахгүй" },
+        { "id": "b", "text": "явах хэрэгтэй" },
+        { "id": "c", "text": "явж байна" },
+        { "id": "d", "text": "явсан байна" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "\"хэрэгтэй\" expresses necessity.",
+      "order": 7
+    },
+    {
+      "id": "m2_grammar_q8",
+      "levelId": "m2",
+      "testType": "grammar",
+      "prompt": "Pick the polite request.",
+      "options": [
+        { "id": "a", "text": "Хаалга нээ." },
+        { "id": "b", "text": "Хаалга нээгээрэй." },
+        { "id": "c", "text": "Хаалга нээсэн." },
+        { "id": "d", "text": "Хаалга нээхгүй." }
+      ],
+      "correctOptionId": "b",
+      "explanation": "\"-гээрэй\" softens a request politely.",
+      "order": 8
+    }
+  ]
+}

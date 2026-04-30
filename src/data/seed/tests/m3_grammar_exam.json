@@ -1,0 +1,130 @@
+{
+  "id": "m3_grammar_exam",
+  "levelId": "m3",
+  "testType": "grammar",
+  "title": "M3 Grammar Exam",
+  "passingScore": 75,
+  "xpReward": 32,
+  "questions": [
+    {
+      "id": "m3_grammar_q1",
+      "levelId": "m3",
+      "testType": "grammar",
+      "prompt": "Choose the sentence with a reason clause.",
+      "options": [
+        { "id": "a", "text": "Бороо орсон учраас гэртээ үлдсэн." },
+        { "id": "b", "text": "Бороо орно уу?" },
+        { "id": "c", "text": "Бороо орж байна." },
+        { "id": "d", "text": "Бороо орсон ч." }
+      ],
+      "correctOptionId": "a",
+      "explanation": "\"учраас\" introduces the reason.",
+      "order": 1
+    },
+    {
+      "id": "m3_grammar_q2",
+      "levelId": "m3",
+      "testType": "grammar",
+      "prompt": "Pick the contrastive connector sentence.",
+      "options": [
+        { "id": "a", "text": "Тэр завгүй боловч ирсэн." },
+        { "id": "b", "text": "Тэр завгүй учраас ирсэн." },
+        { "id": "c", "text": "Тэр ирж байна." },
+        { "id": "d", "text": "Тэр ирэх болно." }
+      ],
+      "correctOptionId": "a",
+      "explanation": "\"боловч\" signals contrast.",
+      "order": 2
+    },
+    {
+      "id": "m3_grammar_q3",
+      "levelId": "m3",
+      "testType": "grammar",
+      "prompt": "Which sentence expresses purpose?",
+      "options": [
+        { "id": "a", "text": "Сурахын тулд ном авсан." },
+        { "id": "b", "text": "Ном авсан тулд." },
+        { "id": "c", "text": "Ном авсан ч." },
+        { "id": "d", "text": "Ном авсаар." }
+      ],
+      "correctOptionId": "a",
+      "explanation": "\"-хын тулд\" expresses purpose.",
+      "order": 3
+    },
+    {
+      "id": "m3_grammar_q4",
+      "levelId": "m3",
+      "testType": "grammar",
+      "prompt": "Choose the sentence with condition.",
+      "options": [
+        { "id": "a", "text": "Цагтай бол хамт явна." },
+        { "id": "b", "text": "Цагтай учраас явна." },
+        { "id": "c", "text": "Цагтай байна." },
+        { "id": "d", "text": "Цагтай боловч." }
+      ],
+      "correctOptionId": "a",
+      "explanation": "\"бол\" can set a condition here.",
+      "order": 4
+    },
+    {
+      "id": "m3_grammar_q5",
+      "levelId": "m3",
+      "testType": "grammar",
+      "prompt": "Pick the sentence with reported opinion.",
+      "options": [
+        { "id": "a", "text": "Тэр зөв гэж бодож байна." },
+        { "id": "b", "text": "Тэр зөв үү бодож байна." },
+        { "id": "c", "text": "Тэр зөв учир." },
+        { "id": "d", "text": "Тэр зөв байсан уу." }
+      ],
+      "correctOptionId": "a",
+      "explanation": "\"гэж бодож байна\" reports a thought or opinion.",
+      "order": 5
+    },
+    {
+      "id": "m3_grammar_q6",
+      "levelId": "m3",
+      "testType": "grammar",
+      "prompt": "Which sentence uses sequence correctly?",
+      "options": [
+        { "id": "a", "text": "Эхлээд уншаад дараа нь бич." },
+        { "id": "b", "text": "Эхлээд дараа нь унш." },
+        { "id": "c", "text": "Унш бол дараа." },
+        { "id": "d", "text": "Бичээд эхлээд." }
+      ],
+      "correctOptionId": "a",
+      "explanation": "\"эхлээд ... дараа нь ...\" shows sequence clearly.",
+      "order": 6
+    },
+    {
+      "id": "m3_grammar_q7",
+      "levelId": "m3",
+      "testType": "grammar",
+      "prompt": "Choose the sentence with concession.",
+      "options": [
+        { "id": "a", "text": "Ядарсан ч үргэлжлүүлсэн." },
+        { "id": "b", "text": "Ядарсан учраас үргэлжлүүлсэн." },
+        { "id": "c", "text": "Ядарсан гэж." },
+        { "id": "d", "text": "Ядарсан тулд." }
+      ],
+      "correctOptionId": "a",
+      "explanation": "\"ч\" can mark concession: even though tired.",
+      "order": 7
+    },
+    {
+      "id": "m3_grammar_q8",
+      "levelId": "m3",
+      "testType": "grammar",
+      "prompt": "Pick the best sentence for polite suggestion.",
+      "options": [
+        { "id": "a", "text": "Хамт ярилцвал яасан юм бэ?" },
+        { "id": "b", "text": "Хамт ярилцсан ч." },
+        { "id": "c", "text": "Хамт ярилцдаг уу." },
+        { "id": "d", "text": "Хамт ярилцаж." }
+      ],
+      "correctOptionId": "a",
+      "explanation": "\"... яасан юм бэ?\" can soften a suggestion.",
+      "order": 8
+    }
+  ]
+}

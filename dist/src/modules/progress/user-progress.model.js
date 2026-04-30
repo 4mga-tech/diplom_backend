@@ -10,6 +10,7 @@ const UserProgressSchema = new mongoose_1.default.Schema({
     courseId: { type: String, required: true, index: true },
     completedLessonIds: { type: [String], default: [] },
     unlockedLessonIds: { type: [String], default: [] },
+    unitExamPassed: { type: [String], default: [] },
     totalXp: { type: Number, default: 0 },
     streak: { type: Number, default: 0 },
 }, { timestamps: true });

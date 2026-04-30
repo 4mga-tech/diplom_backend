@@ -23,6 +23,7 @@ const getCourseProgressHandler = async (req, res) => {
         res.json((0, apiResponse_1.successResponse)({
             completedLessonIds: progress.completedLessonIds,
             unlockedLessonIds: progress.unlockedLessonIds,
+            unitExamPassed: progress.unitExamPassed,
             totalXp: progress.totalXp,
             streak: progress.streak,
         }));

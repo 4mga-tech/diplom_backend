@@ -53,6 +53,10 @@ src/
 - `GET /api/me/profile`
 - `PATCH /api/me/profile`
 - `POST /api/me/avatar`
+- `GET /api/tests/levels`
+- `GET /api/tests/:levelId/types`
+- `GET /api/tests/:levelId/:testType/questions`
+- `POST /api/tests/:levelId/:testType/submit`
 - `GET /api/units/m2-u1/lessons`
 - `GET /api/lessons/m2-u1-l1`
 - `POST /api/lessons/m2-u1-l1/complete`
@@ -164,6 +168,159 @@ Response:
     "name": "User Name",
     "email": "user@example.com",
     "avatarUrl": "/uploads/avatars/<userId>-<timestamp>.png"
+  }
+}
+```
+
+### Get level test list
+
+```http
+GET /api/tests/levels
+```
+
+Response:
+
+```json
+{
+  "success": true,
+  "data": [
+    {
+      "levelId": "m1",
+      "title": "M1",
+      "activeTypes": ["vocabulary", "grammar"],
+      "questionCounts": {
+        "vocabulary": 8,
+        "grammar": 8
+      }
+    }
+  ]
+}
+```
+
+### Get test types for a level
+
+```http
+GET /api/tests/m1/types
+```
+
+Response:
+
+```json
+{
+  "success": true,
+  "data": {
+    "levelId": "m1",
+    "types": [
+      {
+        "testType": "vocabulary",
+        "title": "M1 Vocabulary Exam",
+        "active": true,
+        "status": "available",
+        "questionCount": 8
+      },
+      {
+        "testType": "grammar",
+        "title": "M1 Grammar Exam",
+        "active": true,
+        "status": "available",
+        "questionCount": 8
+      },
+      {
+        "testType": "listening",
+        "title": "Listening",
+        "active": false,
+        "status": "coming_soon",
+        "questionCount": 0
+      },
+      {
+        "testType": "speaking",
+        "title": "Speaking",
+        "active": false,
+        "status": "coming_soon",
+        "questionCount": 0
+      }
+    ]
+  }
+}
+```
+
+### Get level test questions
+
+```http
+GET /api/tests/m1/vocabulary/questions
+```
+
+Response:
+
+```json
+{
+  "success": true,
+  "data": {
+    "levelId": "m1",
+    "testType": "vocabulary",
+    "title": "M1 Vocabulary Exam",
+    "passingScore": 75,
+    "totalQuestions": 8,
+    "questions": [
+      {
+        "id": "m1_vocab_q1",
+        "levelId": "m1",
+        "testType": "vocabulary",
+        "prompt": "What does \"сайн\" mean?",
+        "options": [
+          { "id": "a", "text": "good" },
+          { "id": "b", "text": "small" }
+        ],
+        "order": 1
+      }
+    ]
+  }
+}
+```
+
+### Submit level test
+
+```http
+POST /api/tests/m1/vocabulary/submit
+Authorization: Bearer <token>
+Content-Type: application/json
+```
+
+```json
+{
+  "answers": [
+    { "questionId": "m1_vocab_q1", "selectedOptionId": "a" },
+    { "questionId": "m1_vocab_q2", "selectedOptionId": "b" }
+  ]
+}
+```
+
+Response:
+
+```json
+{
+  "success": true,
+  "data": {
+    "levelId": "m1",
+    "testType": "vocabulary",
+    "score": 88,
+    "passed": true,
+    "correctCount": 7,
+    "totalQuestions": 8,
+    "xpGained": 24,
+    "totalXp": 124,
+    "explanations": [
+      {
+        "questionId": "m1_vocab_q1",
+        "prompt": "What does \"сайн\" mean?",
+        "selectedOptionId": "a",
+        "selectedOptionText": "good",
+        "correctOptionId": "a",
+        "correctOptionText": "good",
+        "correct": true,
+        "explanation": "\"сайн\" means good or well."
+      }
+    ]
   }
 }
 ```

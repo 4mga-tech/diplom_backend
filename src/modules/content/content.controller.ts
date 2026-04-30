@@ -1,15 +1,20 @@
 import { Request, Response } from "express";
 import {
   getAllLevels,
+  getAllLevelsForUser,
   getVocabularyLevel,
   getLevelWithPackages,
   getPackageWithLessons,
   getVocabularyLevels,
 } from "./content.service";
 
-export const fetchLevels = async (_req: Request, res: Response) => {
+type UserRequest = Request & { userId?: string };
+
+export const fetchLevels = async (req: UserRequest, res: Response) => {
   try {
-    const levels = await getAllLevels();
+    const levels = req.userId
+      ? await getAllLevelsForUser(req.userId)
+      : await getAllLevels();
     res.json(levels);
   } catch (error: any) {
     res.status(400).json({ message: error.message });

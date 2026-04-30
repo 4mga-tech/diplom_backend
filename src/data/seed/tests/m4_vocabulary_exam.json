@@ -1,0 +1,130 @@
+{
+  "id": "m4_vocabulary_exam",
+  "levelId": "m4",
+  "testType": "vocabulary",
+  "title": "M4 Vocabulary Exam",
+  "passingScore": 75,
+  "xpReward": 36,
+  "questions": [
+    {
+      "id": "m4_vocab_q1",
+      "levelId": "m4",
+      "testType": "vocabulary",
+      "prompt": "What does \"хандлага\" mean?",
+      "options": [
+        { "id": "a", "text": "approach" },
+        { "id": "b", "text": "bucket" },
+        { "id": "c", "text": "branch" },
+        { "id": "d", "text": "receipt" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "\"хандлага\" means attitude or approach.",
+      "order": 1
+    },
+    {
+      "id": "m4_vocab_q2",
+      "levelId": "m4",
+      "testType": "vocabulary",
+      "prompt": "Choose the word for \"evidence\".",
+      "options": [
+        { "id": "a", "text": "нотолгоо" },
+        { "id": "b", "text": "зээл" },
+        { "id": "c", "text": "сүүдэр" },
+        { "id": "d", "text": "талх" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "\"нотолгоо\" means evidence.",
+      "order": 2
+    },
+    {
+      "id": "m4_vocab_q3",
+      "levelId": "m4",
+      "testType": "vocabulary",
+      "prompt": "What is \"дүгнэлт\"?",
+      "options": [
+        { "id": "a", "text": "conclusion" },
+        { "id": "b", "text": "island" },
+        { "id": "c", "text": "sweater" },
+        { "id": "d", "text": "hammer" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "\"дүгнэлт\" means conclusion.",
+      "order": 3
+    },
+    {
+      "id": "m4_vocab_q4",
+      "levelId": "m4",
+      "testType": "vocabulary",
+      "prompt": "Choose the meaning of \"шийдэл\".",
+      "options": [
+        { "id": "a", "text": "solution" },
+        { "id": "b", "text": "noise" },
+        { "id": "c", "text": "wheel" },
+        { "id": "d", "text": "thread" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "\"шийдэл\" means solution.",
+      "order": 4
+    },
+    {
+      "id": "m4_vocab_q5",
+      "levelId": "m4",
+      "testType": "vocabulary",
+      "prompt": "Which word means \"principle\"?",
+      "options": [
+        { "id": "a", "text": "зарчим" },
+        { "id": "b", "text": "булан" },
+        { "id": "c", "text": "цаас" },
+        { "id": "d", "text": "толь" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "\"зарчим\" means principle.",
+      "order": 5
+    },
+    {
+      "id": "m4_vocab_q6",
+      "levelId": "m4",
+      "testType": "vocabulary",
+      "prompt": "What does \"үр дагавар\" mean?",
+      "options": [
+        { "id": "a", "text": "consequence" },
+        { "id": "b", "text": "ceiling" },
+        { "id": "c", "text": "ticket" },
+        { "id": "d", "text": "anchor" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "\"үр дагавар\" means consequence.",
+      "order": 6
+    },
+    {
+      "id": "m4_vocab_q7",
+      "levelId": "m4",
+      "testType": "vocabulary",
+      "prompt": "Choose the word for \"factor\".",
+      "options": [
+        { "id": "a", "text": "хүчин зүйл" },
+        { "id": "b", "text": "дэр" },
+        { "id": "c", "text": "тэрэг" },
+        { "id": "d", "text": "чулуу" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "\"хүчин зүйл\" means factor.",
+      "order": 7
+    },
+    {
+      "id": "m4_vocab_q8",
+      "levelId": "m4",
+      "testType": "vocabulary",
+      "prompt": "What is \"хувилбар\"?",
+      "options": [
+        { "id": "a", "text": "option" },
+        { "id": "b", "text": "needle" },
+        { "id": "c", "text": "riverbank" },
+        { "id": "d", "text": "mood" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "\"хувилбар\" means option or version.",
+      "order": 8
+    }
+  ]
+}

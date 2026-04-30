@@ -1,5 +1,11 @@
-import { findLessonById, findUnitById } from "../learning/learning.repository";
+import {
+  findLessonById,
+  findLessonsByUnitId,
+  findQuizByLessonId,
+  findUnitById,
+} from "../learning/learning.repository";
 import { getQuizForSubmission } from "../lessons/lesson.service";
+import { unlockNextLesson } from "../progress/lesson-unlock.helper";
 import { syncUserStreak } from "../progress/progress.helpers";
 import {
   createQuizAttempt,
@@ -107,6 +113,19 @@ const isAnswerCorrect = (
   options: string[] = [],
 ) => normalizeAnswer(resolveSelectedAnswer(selected, options)) === normalizeAnswer(correctAnswer);
 
+const isUnitExamQuiz = async (unitId: string, quizId: string) => {
+  const lessons = await findLessonsByUnitId(unitId);
+
+  for (const lesson of [...lessons].sort((a, b) => b.order - a.order)) {
+    const quiz = await findQuizByLessonId(lesson.id);
+    if (quiz) {
+      return quiz.id === quizId;
+    }
+  }
+
+  return false;
+};
+
 export const submitQuiz = async (
   userId: string,
   quizId: string,
@@ -137,6 +156,9 @@ export const submitQuiz = async (
   const progressState = await getCourseProgress(userId, unit.courseId);
   const progress = progressState.document;
   const totalAvailableXp = questions.reduce((sum, question) => sum + question.xpReward, 0);
+  const alreadyCompletedLesson = progress.completedLessonIds.includes(lesson.id);
+  const unitExamPassed = passed && (await isUnitExamQuiz(unit.id, quizId));
+  const alreadyPassedUnitExam = (progress.unitExamPassed ?? []).includes(unit.id);
 
   const xpResult = passed
     ? await applyXpChangeOnce({
@@ -146,7 +168,25 @@ export const submitQuiz = async (
         xp: Math.min(lesson.quizXpReward || totalAvailableXp, totalAvailableXp),
         progress,
       })
-    : { xpDelta: 0, totalXp: progress.totalXp };
+    : { xpDelta: 0, totalXp: progress.totalXp, alreadyApplied: false };
+
+  let nextLessonUnlocked = null;
+
+  if (passed && !alreadyCompletedLesson) {
+    progress.completedLessonIds.push(lesson.id);
+    nextLessonUnlocked = await unlockNextLesson({
+      courseId: unit.courseId,
+      lessonId: lesson.id,
+      completedLessonIds: progress.completedLessonIds,
+      unlockedLessonIds: progress.unlockedLessonIds,
+    });
+  }
+
+  if (unitExamPassed && !alreadyPassedUnitExam) {
+    progress.unitExamPassed = [...(progress.unitExamPassed ?? []), unit.id];
+  }
+
+  await progress.save();
 
   await createQuizAttempt({
     userId,
@@ -179,8 +219,13 @@ export const submitQuiz = async (
     quizId,
     score,
     passed,
+    alreadyCompletedLesson,
+    lessonCompleted: progress.completedLessonIds.includes(lesson.id),
+    alreadyRewarded: xpResult.alreadyApplied,
     correctCount,
     totalQuestions,
+    unitExamPassed,
+    nextLessonUnlocked,
     xpGained: xpResult.xpDelta,
     totalXp: progress.totalXp,
   };

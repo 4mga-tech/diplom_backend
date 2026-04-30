@@ -13,6 +13,7 @@ const lesson_model_1 = require("../modules/learning/lesson.model");
 const lesson_content_model_1 = require("../modules/learning/lesson-content.model");
 const quiz_model_1 = require("../modules/learning/quiz.model");
 const quiz_question_model_1 = require("../modules/learning/quiz-question.model");
+const test_model_1 = require("../modules/tests/test.model");
 const daily_review_model_1 = require("../modules/review/daily-review.model");
 const user_progress_model_1 = require("../modules/progress/user-progress.model");
 const quiz_attempt_model_1 = require("../modules/progress/quiz-attempt.model");
@@ -21,6 +22,7 @@ const level_model_1 = __importDefault(require("../modules/content/level.model"))
 const vocabulary_model_1 = __importDefault(require("../modules/content/vocabulary.model"));
 const vocabulary_seed_1 = require("../modules/content/vocabulary.seed");
 const LESSON_SEED_DIR = node_path_1.default.resolve(process.cwd(), "src", "data", "seed", "lessons");
+const TEST_SEED_DIR = node_path_1.default.resolve(process.cwd(), "src", "data", "seed", "tests");
 const readJsonFile = async (filePath) => {
     const fileContents = await node_fs_1.promises.readFile(filePath, "utf8");
     return JSON.parse(fileContents);
@@ -34,6 +36,14 @@ const getLessonSeedFileNames = async () => {
         .filter((name) => !name.endsWith("_old.json"))
         .filter((name) => !name.endsWith("levels_manifest.json"))
         .filter((name) => !name.endsWith("units_manifest.json"))
+        .sort((left, right) => left.localeCompare(right));
+};
+const getTestSeedFileNames = async () => {
+    const entries = await node_fs_1.promises.readdir(TEST_SEED_DIR, { withFileTypes: true });
+    return entries
+        .filter((entry) => entry.isFile())
+        .map((entry) => entry.name)
+        .filter((name) => name.endsWith(".json"))
         .sort((left, right) => left.localeCompare(right));
 };
 const validateLessonSeeds = (unitIds, lessonSeeds) => {
@@ -73,23 +83,77 @@ const validateLessonSeeds = (unitIds, lessonSeeds) => {
         throw new Error("Duplicate lesson ids found in lesson seed files");
     }
 };
+const validateLevelTests = (tests) => {
+    const allowedLevels = new Set(["m1", "m2", "m3", "m4"]);
+    const allowedTypes = new Set(["vocabulary", "grammar"]);
+    const compositeIds = new Set();
+    const testIds = new Set();
+    for (const test of tests) {
+        if (!allowedLevels.has(test.levelId)) {
+            throw new Error(`Unsupported test levelId ${test.levelId}`);
+        }
+        if (!allowedTypes.has(test.testType)) {
+            throw new Error(`Unsupported testType ${test.testType}`);
+        }
+        if (test.questions.length < 8 || test.questions.length > 12) {
+            throw new Error(`${test.id} must contain 8-12 questions`);
+        }
+        const compositeId = `${test.levelId}:${test.testType}`;
+        if (compositeIds.has(compositeId)) {
+            throw new Error(`Duplicate level test found for ${compositeId}`);
+        }
+        compositeIds.add(compositeId);
+        if (testIds.has(test.id)) {
+            throw new Error(`Duplicate test id found: ${test.id}`);
+        }
+        testIds.add(test.id);
+        const questionIds = new Set();
+        const orderSet = new Set();
+        for (const question of test.questions) {
+            if (question.levelId !== test.levelId) {
+                throw new Error(`${question.id} has mismatched levelId ${question.levelId}`);
+            }
+            if (question.testType !== test.testType) {
+                throw new Error(`${question.id} has mismatched testType ${question.testType}`);
+            }
+            if (question.options.length < 2) {
+                throw new Error(`${question.id} must include at least 2 options`);
+            }
+            if (!question.options.some((option) => option.id === question.correctOptionId)) {
+                throw new Error(`${question.id} is missing a valid correctOptionId`);
+            }
+            if (questionIds.has(question.id)) {
+                throw new Error(`Duplicate question id found: ${question.id}`);
+            }
+            questionIds.add(question.id);
+            if (orderSet.has(question.order)) {
+                throw new Error(`${test.id} has duplicate question order ${question.order}`);
+            }
+            orderSet.add(question.order);
+        }
+    }
+};
 const loadSeedData = async () => {
     const [levelsManifest, unitsManifest, lessonSeedFileNames] = await Promise.all([
         readJsonFile(node_path_1.default.join(LESSON_SEED_DIR, "levels_manifest.json")),
         readJsonFile(node_path_1.default.join(LESSON_SEED_DIR, "units_manifest.json")),
         getLessonSeedFileNames(),
     ]);
+    const testSeedFileNames = await getTestSeedFileNames();
     const lessonSeeds = await Promise.all(lessonSeedFileNames.map((fileName) => readJsonFile(node_path_1.default.join(LESSON_SEED_DIR, fileName))));
     validateLessonSeeds(new Set(unitsManifest.map((unit) => unit.id)), lessonSeeds);
+    const levelTests = await Promise.all(testSeedFileNames.map((fileName) => readJsonFile(node_path_1.default.join(TEST_SEED_DIR, fileName))));
+    validateLevelTests(levelTests);
     return {
         levelsManifest,
         unitsManifest,
         lessonSeeds,
+        levelTests,
     };
 };
 async function seed() {
     await (0, db_1.connectDB)(env_1.env.MONGODB_URI);
-    const { levelsManifest, unitsManifest, lessonSeeds } = await loadSeedData();
+    const { levelsManifest, unitsManifest, lessonSeeds, levelTests } = await loadSeedData();
     const vocabularySeedRecords = (0, vocabulary_seed_1.loadVocabularySeedRecords)();
     const vocabularyCountsByLevel = (0, vocabulary_seed_1.getVocabularyCountsByLevel)(vocabularySeedRecords);
     console.log("Cleaning learning collections...");
@@ -100,6 +164,7 @@ async function seed() {
         lesson_content_model_1.LessonContent.deleteMany({}),
         quiz_model_1.Quiz.deleteMany({}),
         quiz_question_model_1.QuizQuestion.deleteMany({}),
+        test_model_1.LevelTest.deleteMany({}),
         daily_review_model_1.DailyReview.deleteMany({}),
         user_progress_model_1.UserProgress.deleteMany({}),
         quiz_attempt_model_1.QuizAttempt.deleteMany({}),
@@ -135,6 +200,8 @@ async function seed() {
     console.log("Creating quizzes...");
     await quiz_model_1.Quiz.insertMany(lessonSeeds.flatMap((item) => (item.quiz ? [item.quiz] : [])));
     await quiz_question_model_1.QuizQuestion.insertMany(lessonSeeds.flatMap((item) => item.quizQuestions ?? []));
+    console.log("Creating level tests...");
+    await test_model_1.LevelTest.insertMany(levelTests);
     console.log("Creating vocabulary...");
     await vocabulary_model_1.default.insertMany(vocabularySeedRecords);
     // console.log("Creating daily review...");

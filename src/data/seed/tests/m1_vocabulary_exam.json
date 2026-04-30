@@ -1,0 +1,130 @@
+{
+  "id": "m1_vocabulary_exam",
+  "levelId": "m1",
+  "testType": "vocabulary",
+  "title": "M1 Vocabulary Exam",
+  "passingScore": 75,
+  "xpReward": 24,
+  "questions": [
+    {
+      "id": "m1_vocab_q1",
+      "levelId": "m1",
+      "testType": "vocabulary",
+      "prompt": "What does \"сайн\" mean?",
+      "options": [
+        { "id": "a", "text": "good" },
+        { "id": "b", "text": "small" },
+        { "id": "c", "text": "cold" },
+        { "id": "d", "text": "late" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "\"сайн\" means good or well.",
+      "order": 1
+    },
+    {
+      "id": "m1_vocab_q2",
+      "levelId": "m1",
+      "testType": "vocabulary",
+      "prompt": "Choose the word for \"mother\".",
+      "options": [
+        { "id": "a", "text": "аав" },
+        { "id": "b", "text": "ээж" },
+        { "id": "c", "text": "ах" },
+        { "id": "d", "text": "эмч" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "\"ээж\" means mother.",
+      "order": 2
+    },
+    {
+      "id": "m1_vocab_q3",
+      "levelId": "m1",
+      "testType": "vocabulary",
+      "prompt": "What is \"ном\"?",
+      "options": [
+        { "id": "a", "text": "pen" },
+        { "id": "b", "text": "bag" },
+        { "id": "c", "text": "book" },
+        { "id": "d", "text": "table" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "\"ном\" means book.",
+      "order": 3
+    },
+    {
+      "id": "m1_vocab_q4",
+      "levelId": "m1",
+      "testType": "vocabulary",
+      "prompt": "Choose the meaning of \"ус\".",
+      "options": [
+        { "id": "a", "text": "water" },
+        { "id": "b", "text": "milk" },
+        { "id": "c", "text": "tea" },
+        { "id": "d", "text": "juice" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "\"ус\" means water.",
+      "order": 4
+    },
+    {
+      "id": "m1_vocab_q5",
+      "levelId": "m1",
+      "testType": "vocabulary",
+      "prompt": "Which word means \"teacher\"?",
+      "options": [
+        { "id": "a", "text": "оюутан" },
+        { "id": "b", "text": "багш" },
+        { "id": "c", "text": "найз" },
+        { "id": "d", "text": "эгч" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "\"багш\" means teacher.",
+      "order": 5
+    },
+    {
+      "id": "m1_vocab_q6",
+      "levelId": "m1",
+      "testType": "vocabulary",
+      "prompt": "What does \"улаан\" mean?",
+      "options": [
+        { "id": "a", "text": "blue" },
+        { "id": "b", "text": "green" },
+        { "id": "c", "text": "red" },
+        { "id": "d", "text": "white" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "\"улаан\" means red.",
+      "order": 6
+    },
+    {
+      "id": "m1_vocab_q7",
+      "levelId": "m1",
+      "testType": "vocabulary",
+      "prompt": "Choose the word for \"friend\".",
+      "options": [
+        { "id": "a", "text": "найз" },
+        { "id": "b", "text": "хот" },
+        { "id": "c", "text": "гэр" },
+        { "id": "d", "text": "анги" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "\"найз\" means friend.",
+      "order": 7
+    },
+    {
+      "id": "m1_vocab_q8",
+      "levelId": "m1",
+      "testType": "vocabulary",
+      "prompt": "What is \"гэр\"?",
+      "options": [
+        { "id": "a", "text": "road" },
+        { "id": "b", "text": "house" },
+        { "id": "c", "text": "school" },
+        { "id": "d", "text": "market" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "\"гэр\" means house or home.",
+      "order": 8
+    }
+  ]
+}

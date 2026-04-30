@@ -20,6 +20,7 @@ export const findOrCreateUserProgress = async (
         courseId,
         completedLessonIds: [],
         unlockedLessonIds,
+        unitExamPassed: [],
         totalXp: 0,
         streak: 0,
       },

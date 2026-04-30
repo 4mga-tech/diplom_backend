@@ -31,6 +31,7 @@ export const getCourseProgressHandler = async (
       successResponse({
         completedLessonIds: progress.completedLessonIds,
         unlockedLessonIds: progress.unlockedLessonIds,
+        unitExamPassed: progress.unitExamPassed,
         totalXp: progress.totalXp,
         streak: progress.streak,
       }),

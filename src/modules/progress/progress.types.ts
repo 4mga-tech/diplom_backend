@@ -9,6 +9,7 @@ export type XpSourceType =
   | "daily_login"
   | "lesson_study"
   | "quiz_reward"
+  | "level_test_reward"
   | "review_reward"
   | "test_hint_spend"
   | "lesson_complete"

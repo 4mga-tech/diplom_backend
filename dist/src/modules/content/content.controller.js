@@ -2,9 +2,11 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.fetchPackage = exports.fetchLevel = exports.fetchVocabularyLevel = exports.fetchVocabularyLevels = exports.fetchLevels = void 0;
 const content_service_1 = require("./content.service");
-const fetchLevels = async (_req, res) => {
+const fetchLevels = async (req, res) => {
     try {
-        const levels = await (0, content_service_1.getAllLevels)();
+        const levels = req.userId
+            ? await (0, content_service_1.getAllLevelsForUser)(req.userId)
+            : await (0, content_service_1.getAllLevels)();
         res.json(levels);
     }
     catch (error) {

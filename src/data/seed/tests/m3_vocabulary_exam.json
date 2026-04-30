@@ -1,0 +1,130 @@
+{
+  "id": "m3_vocabulary_exam",
+  "levelId": "m3",
+  "testType": "vocabulary",
+  "title": "M3 Vocabulary Exam",
+  "passingScore": 75,
+  "xpReward": 32,
+  "questions": [
+    {
+      "id": "m3_vocab_q1",
+      "levelId": "m3",
+      "testType": "vocabulary",
+      "prompt": "What does \"туршлага\" mean?",
+      "options": [
+        { "id": "a", "text": "experience" },
+        { "id": "b", "text": "silence" },
+        { "id": "c", "text": "neighbor" },
+        { "id": "d", "text": "receipt" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "\"туршлага\" means experience.",
+      "order": 1
+    },
+    {
+      "id": "m3_vocab_q2",
+      "levelId": "m3",
+      "testType": "vocabulary",
+      "prompt": "Choose the word for \"decision\".",
+      "options": [
+        { "id": "a", "text": "шийдвэр" },
+        { "id": "b", "text": "амралт" },
+        { "id": "c", "text": "хариу" },
+        { "id": "d", "text": "тээвэр" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "\"шийдвэр\" means decision.",
+      "order": 2
+    },
+    {
+      "id": "m3_vocab_q3",
+      "levelId": "m3",
+      "testType": "vocabulary",
+      "prompt": "What is \"зорилго\"?",
+      "options": [
+        { "id": "a", "text": "habit" },
+        { "id": "b", "text": "goal" },
+        { "id": "c", "text": "forest" },
+        { "id": "d", "text": "neighbor" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "\"зорилго\" means goal or aim.",
+      "order": 3
+    },
+    {
+      "id": "m3_vocab_q4",
+      "levelId": "m3",
+      "testType": "vocabulary",
+      "prompt": "Choose the meaning of \"нөлөө\".",
+      "options": [
+        { "id": "a", "text": "effect" },
+        { "id": "b", "text": "shelf" },
+        { "id": "c", "text": "storm" },
+        { "id": "d", "text": "lamp" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "\"нөлөө\" means effect or influence.",
+      "order": 4
+    },
+    {
+      "id": "m3_vocab_q5",
+      "levelId": "m3",
+      "testType": "vocabulary",
+      "prompt": "Which word means \"opportunity\"?",
+      "options": [
+        { "id": "a", "text": "боломж" },
+        { "id": "b", "text": "саад" },
+        { "id": "c", "text": "цонх" },
+        { "id": "d", "text": "зураг" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "\"боломж\" means opportunity or possibility.",
+      "order": 5
+    },
+    {
+      "id": "m3_vocab_q6",
+      "levelId": "m3",
+      "testType": "vocabulary",
+      "prompt": "What does \"чиглэл\" mean?",
+      "options": [
+        { "id": "a", "text": "direction" },
+        { "id": "b", "text": "blanket" },
+        { "id": "c", "text": "ticket" },
+        { "id": "d", "text": "balance" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "\"чиглэл\" means direction.",
+      "order": 6
+    },
+    {
+      "id": "m3_vocab_q7",
+      "levelId": "m3",
+      "testType": "vocabulary",
+      "prompt": "Choose the word for \"research\".",
+      "options": [
+        { "id": "a", "text": "судалгаа" },
+        { "id": "b", "text": "угаалга" },
+        { "id": "c", "text": "шал" },
+        { "id": "d", "text": "хашаа" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "\"судалгаа\" means research or study.",
+      "order": 7
+    },
+    {
+      "id": "m3_vocab_q8",
+      "levelId": "m3",
+      "testType": "vocabulary",
+      "prompt": "What is \"дүн\"?",
+      "options": [
+        { "id": "a", "text": "result" },
+        { "id": "b", "text": "blank" },
+        { "id": "c", "text": "smell" },
+        { "id": "d", "text": "wire" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "\"дүн\" means result or outcome.",
+      "order": 8
+    }
+  ]
+}

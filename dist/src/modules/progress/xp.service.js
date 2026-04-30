@@ -4,6 +4,10 @@ exports.claimDailyLoginXp = exports.getXpHistory = exports.getXpSummary = export
 const progress_repository_1 = require("./progress.repository");
 const DAILY_LOGIN_WINDOW_MS = 24 * 60 * 60 * 1000;
 const DEFAULT_DAILY_LOGIN_XP = 10;
+const isDuplicateKeyError = (error) => typeof error === "object" &&
+    error !== null &&
+    "code" in error &&
+    error.code === 11000;
 const getDailyLoginEligibility = (lastDailyLoginXpAt, now) => {
     if (!lastDailyLoginXpAt) {
         return {
@@ -26,6 +30,7 @@ const applyXpChangeOnce = async ({ userId, sourceType, sourceId, xp, progress, }
         return {
             xpDelta: 0,
             totalXp: user.totalXP,
+            alreadyApplied: true,
         };
     }
     const existing = await (0, progress_repository_1.findXpLedgerEntry)(userId, sourceType, sourceId);
@@ -33,13 +38,26 @@ const applyXpChangeOnce = async ({ userId, sourceType, sourceId, xp, progress, }
         return {
             xpDelta: 0,
             totalXp: user.totalXP,
+            alreadyApplied: true,
         };
     }
     const nextTotalXp = user.totalXP + xp;
     if (nextTotalXp < 0) {
         throw new Error("Not enough XP");
     }
-    await (0, progress_repository_1.createXpLedgerEntry)({ userId, sourceType, sourceId, xp });
+    try {
+        await (0, progress_repository_1.createXpLedgerEntry)({ userId, sourceType, sourceId, xp });
+    }
+    catch (error) {
+        if (isDuplicateKeyError(error)) {
+            return {
+                xpDelta: 0,
+                totalXp: user.totalXP,
+                alreadyApplied: true,
+            };
+        }
+        throw error;
+    }
     user.totalXP = nextTotalXp;
     await user.save();
     if (progress && xp > 0) {
@@ -49,6 +67,7 @@ const applyXpChangeOnce = async ({ userId, sourceType, sourceId, xp, progress, }
     return {
         xpDelta: xp,
         totalXp: user.totalXP,
+        alreadyApplied: false,
     };
 };
 exports.applyXpChangeOnce = applyXpChangeOnce;

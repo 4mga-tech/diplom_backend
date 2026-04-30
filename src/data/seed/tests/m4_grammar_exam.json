@@ -1,0 +1,130 @@
+{
+  "id": "m4_grammar_exam",
+  "levelId": "m4",
+  "testType": "grammar",
+  "title": "M4 Grammar Exam",
+  "passingScore": 75,
+  "xpReward": 36,
+  "questions": [
+    {
+      "id": "m4_grammar_q1",
+      "levelId": "m4",
+      "testType": "grammar",
+      "prompt": "Choose the sentence with a nuanced contrast.",
+      "options": [
+        { "id": "a", "text": "Төлөвлөсөн хэдий ч хэрэгжээгүй." },
+        { "id": "b", "text": "Төлөвлөсөн тул хэрэгжээгүй." },
+        { "id": "c", "text": "Төлөвлөсөн гэж хэрэгжээгүй." },
+        { "id": "d", "text": "Төлөвлөсөнд хэрэгжээгүй." }
+      ],
+      "correctOptionId": "a",
+      "explanation": "\"хэдий ч\" expresses a stronger contrast.",
+      "order": 1
+    },
+    {
+      "id": "m4_grammar_q2",
+      "levelId": "m4",
+      "testType": "grammar",
+      "prompt": "Pick the sentence with inferred possibility.",
+      "options": [
+        { "id": "a", "text": "Ирсэн байж магадгүй." },
+        { "id": "b", "text": "Ирсэн учраас." },
+        { "id": "c", "text": "Ирсэн тулд." },
+        { "id": "d", "text": "Ирсэн үү магадгүй." }
+      ],
+      "correctOptionId": "a",
+      "explanation": "\"байж магадгүй\" expresses possibility or inference.",
+      "order": 2
+    },
+    {
+      "id": "m4_grammar_q3",
+      "levelId": "m4",
+      "testType": "grammar",
+      "prompt": "Which sentence shows regret about the past?",
+      "options": [
+        { "id": "a", "text": "Эрт хэлсэн бол сайн байж." },
+        { "id": "b", "text": "Эрт хэлдэг." },
+        { "id": "c", "text": "Эрт хэлэхээр." },
+        { "id": "d", "text": "Эрт хэлсэн тул." }
+      ],
+      "correctOptionId": "a",
+      "explanation": "\"бол ... байж\" can express regret or missed opportunity.",
+      "order": 3
+    },
+    {
+      "id": "m4_grammar_q4",
+      "levelId": "m4",
+      "testType": "grammar",
+      "prompt": "Choose the best formal cause phrase.",
+      "options": [
+        { "id": "a", "text": "Судалгаа хангалтгүй тул дүгнэлт хойшлов." },
+        { "id": "b", "text": "Судалгаа хангалтгүй ч дүгнэлт." },
+        { "id": "c", "text": "Судалгаа хангалтгүй үү дүгнэлт." },
+        { "id": "d", "text": "Судалгаа хангалтгүй байж дүгнэлт." }
+      ],
+      "correctOptionId": "a",
+      "explanation": "\"тул\" is natural for a formal cause-and-result sentence.",
+      "order": 4
+    },
+    {
+      "id": "m4_grammar_q5",
+      "levelId": "m4",
+      "testType": "grammar",
+      "prompt": "Pick the sentence with passive nuance.",
+      "options": [
+        { "id": "a", "text": "Төсөл батлагдсан." },
+        { "id": "b", "text": "Төсөл батална." },
+        { "id": "c", "text": "Төсөл батал." },
+        { "id": "d", "text": "Төсөл батлах уу?" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "\"батлагдсан\" has passive or resultative nuance.",
+      "order": 5
+    },
+    {
+      "id": "m4_grammar_q6",
+      "levelId": "m4",
+      "testType": "grammar",
+      "prompt": "Which sentence uses a nominalized clause?",
+      "options": [
+        { "id": "a", "text": "Түүний хэлсэн нь үнэн." },
+        { "id": "b", "text": "Тэр хэлсэн үнэн." },
+        { "id": "c", "text": "Тэр үнэн хэлсэнд." },
+        { "id": "d", "text": "Тэр хэлсэн үү үнэн." }
+      ],
+      "correctOptionId": "a",
+      "explanation": "\"хэлсэн нь\" nominalizes the clause as the subject.",
+      "order": 6
+    },
+    {
+      "id": "m4_grammar_q7",
+      "levelId": "m4",
+      "testType": "grammar",
+      "prompt": "Choose the sentence with a formal suggestion.",
+      "options": [
+        { "id": "a", "text": "Энэ хувилбарыг авч үзэх нь зүйтэй." },
+        { "id": "b", "text": "Энэ хувилбар зүйтэй авч." },
+        { "id": "c", "text": "Энэ хувилбар авч үзэв үү." },
+        { "id": "d", "text": "Энэ хувилбар ч авч." }
+      ],
+      "correctOptionId": "a",
+      "explanation": "\"... нь зүйтэй\" gives a formal recommendation.",
+      "order": 7
+    },
+    {
+      "id": "m4_grammar_q8",
+      "levelId": "m4",
+      "testType": "grammar",
+      "prompt": "Pick the sentence with consequence emphasis.",
+      "options": [
+        { "id": "a", "text": "Хэт яарснаас алдаа гарсан." },
+        { "id": "b", "text": "Хэт яарсан ч алдаа." },
+        { "id": "c", "text": "Хэт яарсан гэж алдаа." },
+        { "id": "d", "text": "Хэт яарсан бол алдаа." }
+      ],
+      "correctOptionId": "a",
+      "explanation": "\"-снаас\" frames the cause that led to a consequence.",
+      "order": 8
+    }
+  ]
+}

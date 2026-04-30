@@ -1,0 +1,11 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const express_1 = require("express");
+const auth_middleware_1 = require("../../middleware/auth.middleware");
+const test_controller_1 = require("./test.controller");
+const router = (0, express_1.Router)();
+router.get("/levels", test_controller_1.getLevelTestsHandler);
+router.get("/:levelId/types", test_controller_1.getLevelTestTypesHandler);
+router.get("/:levelId/:testType/questions", test_controller_1.getLevelTestQuestionsHandler);
+router.post("/:levelId/:testType/submit", auth_middleware_1.authMiddleware, test_controller_1.submitLevelTestHandler);
+exports.default = router;

@@ -3,6 +3,8 @@ import { Package } from "./package.model";
 import { Lesson } from "./lesson.model";
 import levelManifest from "../../data/seed/lessons/levels_manifest.json";
 import Vocabulary from "./vocabulary.model";
+import { findUnitsByCourseId } from "../learning/learning.repository";
+import { listUserProgress } from "../progress/progress.repository";
 import {
   SUPPORTED_VOCABULARY_LEVEL_IDS,
   type SupportedVocabularyLevelId,
@@ -110,6 +112,48 @@ const buildVocabularyLevelResponse = async (levelId: SupportedVocabularyLevelId)
 
 export const getAllLevels = async () => {
   return Level.find().sort({ order: 1 });
+};
+
+export const getAllLevelsForUser = async (userId: string) => {
+  const [levels, progressList] = await Promise.all([
+    Level.find().sort({ order: 1 }).lean(),
+    listUserProgress(userId),
+  ]);
+
+  const progressByCourseId = new Map(progressList.map((progress) => [progress.courseId, progress]));
+  const unitsByCourseId = new Map(
+    await Promise.all(
+      levels.map(async (level) => [level.id, await findUnitsByCourseId(level.id)] as const),
+    ),
+  );
+
+  const completedCourseIds = new Set(
+    levels
+      .filter((level) => {
+        const units = unitsByCourseId.get(level.id) ?? [];
+        if (units.length === 0) {
+          return false;
+        }
+
+        const unitExamPassed = progressByCourseId.get(level.id)?.unitExamPassed ?? [];
+        return units.every((unit) => unitExamPassed.includes(unit.id));
+      })
+      .map((level) => level.id),
+  );
+
+  return levels.map((level, index) => {
+    const previousLevel = index > 0 ? levels[index - 1] : null;
+    const isUnlocked = previousLevel ? completedCourseIds.has(previousLevel.id) : true;
+    const units = unitsByCourseId.get(level.id) ?? [];
+    const unitExamPassed = progressByCourseId.get(level.id)?.unitExamPassed ?? [];
+    const isCompleted = units.length > 0 && units.every((unit) => unitExamPassed.includes(unit.id));
+
+    return {
+      ...level,
+      isUnlocked,
+      isCompleted,
+    };
+  });
 };
 
 export const getVocabularyLevels = async () => {

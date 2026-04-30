@@ -1,0 +1,130 @@
+{
+  "id": "m1_grammar_exam",
+  "levelId": "m1",
+  "testType": "grammar",
+  "title": "M1 Grammar Exam",
+  "passingScore": 75,
+  "xpReward": 24,
+  "questions": [
+    {
+      "id": "m1_grammar_q1",
+      "levelId": "m1",
+      "testType": "grammar",
+      "prompt": "Choose the correct greeting sentence.",
+      "options": [
+        { "id": "a", "text": "Сайн байна уу?" },
+        { "id": "b", "text": "Ном байна уу?" },
+        { "id": "c", "text": "Ус уу?" },
+        { "id": "d", "text": "Багш сайн." }
+      ],
+      "correctOptionId": "a",
+      "explanation": "\"Сайн байна уу?\" is the standard greeting.",
+      "order": 1
+    },
+    {
+      "id": "m1_grammar_q2",
+      "levelId": "m1",
+      "testType": "grammar",
+      "prompt": "Pick the correct negative form.",
+      "options": [
+        { "id": "a", "text": "Би оюутан мөн." },
+        { "id": "b", "text": "Би оюутан биш." },
+        { "id": "c", "text": "Би оюутан уу?" },
+        { "id": "d", "text": "Би оюутан байна." }
+      ],
+      "correctOptionId": "b",
+      "explanation": "\"биш\" makes a simple noun sentence negative.",
+      "order": 2
+    },
+    {
+      "id": "m1_grammar_q3",
+      "levelId": "m1",
+      "testType": "grammar",
+      "prompt": "Choose the yes/no question form.",
+      "options": [
+        { "id": "a", "text": "Та багш." },
+        { "id": "b", "text": "Та багш уу?" },
+        { "id": "c", "text": "Та багш биш." },
+        { "id": "d", "text": "Та сайн байна." }
+      ],
+      "correctOptionId": "b",
+      "explanation": "\"уу?\" marks the yes or no question here.",
+      "order": 3
+    },
+    {
+      "id": "m1_grammar_q4",
+      "levelId": "m1",
+      "testType": "grammar",
+      "prompt": "Select the correct plural noun.",
+      "options": [
+        { "id": "a", "text": "номнууд" },
+        { "id": "b", "text": "номд" },
+        { "id": "c", "text": "номын" },
+        { "id": "d", "text": "номгүй" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "\"-нууд\" is a plural ending for nouns like ном.",
+      "order": 4
+    },
+    {
+      "id": "m1_grammar_q5",
+      "levelId": "m1",
+      "testType": "grammar",
+      "prompt": "Pick the correct possession phrase for \"my book\".",
+      "options": [
+        { "id": "a", "text": "миний ном" },
+        { "id": "b", "text": "ном миний" },
+        { "id": "c", "text": "минийд ном" },
+        { "id": "d", "text": "номд миний" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "The possessor comes first in \"миний ном\".",
+      "order": 5
+    },
+    {
+      "id": "m1_grammar_q6",
+      "levelId": "m1",
+      "testType": "grammar",
+      "prompt": "Choose the correct location ending for \"at school\".",
+      "options": [
+        { "id": "a", "text": "сургууль" },
+        { "id": "b", "text": "сургуульд" },
+        { "id": "c", "text": "сургуулийн" },
+        { "id": "d", "text": "сургуультай" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "\"-д\" marks location in \"сургуульд\".",
+      "order": 6
+    },
+    {
+      "id": "m1_grammar_q7",
+      "levelId": "m1",
+      "testType": "grammar",
+      "prompt": "Which sentence means \"I am at home\"?",
+      "options": [
+        { "id": "a", "text": "Би гэр." },
+        { "id": "b", "text": "Би гэрийн." },
+        { "id": "c", "text": "Би гэрт байна." },
+        { "id": "d", "text": "Би гэр биш." }
+      ],
+      "correctOptionId": "c",
+      "explanation": "\"гэрт байна\" expresses being at home.",
+      "order": 7
+    },
+    {
+      "id": "m1_grammar_q8",
+      "levelId": "m1",
+      "testType": "grammar",
+      "prompt": "Pick the correct polite introduction.",
+      "options": [
+        { "id": "a", "text": "Намайг Болд гэдэг." },
+        { "id": "b", "text": "Болд намайг." },
+        { "id": "c", "text": "Болд гэдэг намайг." },
+        { "id": "d", "text": "Намайг гэдэг Болд." }
+      ],
+      "correctOptionId": "a",
+      "explanation": "\"Намайг Болд гэдэг.\" is a natural self-introduction.",
+      "order": 8
+    }
+  ]
+}

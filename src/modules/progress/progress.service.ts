@@ -27,6 +27,7 @@ export const getCourseProgress = async (userId: string, courseId: string) => {
     courseId: progress.courseId,
     completedLessonIds: progress.completedLessonIds,
     unlockedLessonIds: progress.unlockedLessonIds,
+    unitExamPassed: progress.unitExamPassed ?? [],
     totalXp: progress.totalXp,
     streak: progress.streak,
     document: progress,
@@ -110,6 +111,7 @@ export const completeLesson = async (userId: string, lessonId: string) => {
   return {
     lessonId,
     completed: true,
+    alreadyCompleted,
     xpGained: alreadyCompleted ? 0 : xpResult.xpDelta,
     totalXp: progress.totalXp,
     nextLessonUnlocked,

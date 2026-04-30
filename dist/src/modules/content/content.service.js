@@ -3,12 +3,14 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.getPackageWithLessons = exports.getLevelWithPackages = exports.getVocabularyLevel = exports.getVocabularyLevels = exports.getAllLevels = void 0;
+exports.getPackageWithLessons = exports.getLevelWithPackages = exports.getVocabularyLevel = exports.getVocabularyLevels = exports.getAllLevelsForUser = exports.getAllLevels = void 0;
 const level_model_1 = __importDefault(require("./level.model"));
 const package_model_1 = require("./package.model");
 const lesson_model_1 = require("./lesson.model");
 const levels_manifest_json_1 = __importDefault(require("../../data/seed/lessons/levels_manifest.json"));
 const vocabulary_model_1 = __importDefault(require("./vocabulary.model"));
+const learning_repository_1 = require("../learning/learning.repository");
+const progress_repository_1 = require("../progress/progress.repository");
 const vocabulary_seed_1 = require("./vocabulary.seed");
 const SUPPORTED_VOCABULARY_LEVEL_SET = new Set(vocabulary_seed_1.SUPPORTED_VOCABULARY_LEVEL_IDS);
 const normalizeVocabularyLevelId = (levelId) => levelId.trim().toLowerCase();
@@ -71,6 +73,37 @@ const getAllLevels = async () => {
     return level_model_1.default.find().sort({ order: 1 });
 };
 exports.getAllLevels = getAllLevels;
+const getAllLevelsForUser = async (userId) => {
+    const [levels, progressList] = await Promise.all([
+        level_model_1.default.find().sort({ order: 1 }).lean(),
+        (0, progress_repository_1.listUserProgress)(userId),
+    ]);
+    const progressByCourseId = new Map(progressList.map((progress) => [progress.courseId, progress]));
+    const unitsByCourseId = new Map(await Promise.all(levels.map(async (level) => [level.id, await (0, learning_repository_1.findUnitsByCourseId)(level.id)])));
+    const completedCourseIds = new Set(levels
+        .filter((level) => {
+        const units = unitsByCourseId.get(level.id) ?? [];
+        if (units.length === 0) {
+            return false;
+        }
+        const unitExamPassed = progressByCourseId.get(level.id)?.unitExamPassed ?? [];
+        return units.every((unit) => unitExamPassed.includes(unit.id));
+    })
+        .map((level) => level.id));
+    return levels.map((level, index) => {
+        const previousLevel = index > 0 ? levels[index - 1] : null;
+        const isUnlocked = previousLevel ? completedCourseIds.has(previousLevel.id) : true;
+        const units = unitsByCourseId.get(level.id) ?? [];
+        const unitExamPassed = progressByCourseId.get(level.id)?.unitExamPassed ?? [];
+        const isCompleted = units.length > 0 && units.every((unit) => unitExamPassed.includes(unit.id));
+        return {
+            ...level,
+            isUnlocked,
+            isCompleted,
+        };
+    });
+};
+exports.getAllLevelsForUser = getAllLevelsForUser;
 const getVocabularyLevels = async () => {
     return Promise.all(vocabulary_seed_1.SUPPORTED_VOCABULARY_LEVEL_IDS.map((levelId) => buildVocabularyLevelResponse(levelId)));
 };

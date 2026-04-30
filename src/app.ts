@@ -10,6 +10,7 @@ import progressRoutes from "./modules/progress/progress.route";
 import lessonRoutes from "./modules/lessons/lesson.route";
 import quizRoutes from "./modules/quiz/quiz.route";
 import reviewRoutes from "./modules/review/review.route";
+import testRoutes from "./modules/tests/test.route";
 
 const app = express();
 const uploadsDir = path.resolve(process.cwd(), "uploads");
@@ -27,5 +28,6 @@ app.use("/api", progressRoutes);
 app.use("/api", lessonRoutes);
 app.use("/api", quizRoutes);
 app.use("/api", reviewRoutes);
+app.use("/api/tests", testRoutes);
 
 export default app;

@@ -14,6 +14,21 @@ const sanitizeQuestion = (question) => ({
 });
 const getCurrentLessonId = (lessons, progress) => lessons.find((lesson) => progress.unlockedLessonIds.includes(lesson.id) &&
     !progress.completedLessonIds.includes(lesson.id))?.id ?? null;
+const hasPassedUnitExam = (progress, unitId) => (progress.unitExamPassed ?? []).includes(unitId);
+const isUnitUnlocked = (units, progress, unitId) => {
+    const unit = units.find((item) => item.id === unitId);
+    if (!unit) {
+        return false;
+    }
+    if (unit.order === 1) {
+        return true;
+    }
+    const previousUnit = units.find((item) => item.order === unit.order - 1);
+    if (!previousUnit) {
+        return false;
+    }
+    return hasPassedUnitExam(progress, previousUnit.id);
+};
 const getUnitsByCourse = async (userId, courseId) => {
     const [units, progress] = await Promise.all([
         (0, lesson_repository_1.getUnitsForCourse)(courseId),
@@ -33,8 +48,8 @@ const getUnitsByCourse = async (userId, courseId) => {
             lessonCount: lessons.length,
             completedLessonCount,
             unlockedLessonCount,
-            isUnlocked: unlockedLessonCount > 0,
-            isCompleted: lessons.length > 0 && completedLessonCount === lessons.length,
+            isUnlocked: isUnitUnlocked(units, progress, unit.id),
+            isCompleted: hasPassedUnitExam(progress, unit.id),
         };
     }));
     return {
@@ -52,9 +67,11 @@ const getLessonsByUnit = async (userId, unitId) => {
         (0, lesson_repository_1.getLessonsForUnit)(unitId),
         (0, progress_service_1.getCourseProgress)(userId, unit.courseId),
     ]);
+    const courseUnits = await (0, lesson_repository_1.getUnitsForCourse)(unit.courseId);
     const quizzes = await (0, lesson_repository_1.getQuizzesForLessons)(lessons.map((lesson) => lesson.id));
     const quizByLessonId = new Map(quizzes.map((quiz) => [quiz.lessonId, quiz]));
     const currentLessonId = getCurrentLessonId(lessons, progress);
+    const unitUnlocked = isUnitUnlocked(courseUnits, progress, unitId);
     return lessons.map((lesson) => ({
         id: lesson.id,
         unitId: lesson.unitId,
@@ -63,8 +80,8 @@ const getLessonsByUnit = async (userId, unitId) => {
         order: lesson.order,
         xpReward: lesson.xpReward,
         isCompleted: progress.completedLessonIds.includes(lesson.id),
-        isUnlocked: progress.unlockedLessonIds.includes(lesson.id),
-        isCurrent: lesson.id === currentLessonId,
+        isUnlocked: unitUnlocked && progress.unlockedLessonIds.includes(lesson.id),
+        isCurrent: unitUnlocked && lesson.id === currentLessonId,
         hasQuiz: quizByLessonId.has(lesson.id),
         quizId: quizByLessonId.get(lesson.id)?.id ?? null,
     }));
@@ -85,10 +102,12 @@ const getLessonDetail = async (userId, lessonId) => {
         (0, lesson_repository_1.getLessonsForUnit)(lesson.unitId),
         (0, lesson_repository_1.getQuizForLesson)(lessonId),
     ]);
+    const courseUnits = await (0, lesson_repository_1.getUnitsForCourse)(unit.courseId);
     const currentLessonId = getCurrentLessonId(lessonsInUnit, progress);
     const currentIndex = lessonsInUnit.findIndex((item) => item.id === lessonId);
     const previousLesson = currentIndex > 0 ? lessonsInUnit[currentIndex - 1] : null;
     const nextLesson = currentIndex >= 0 ? lessonsInUnit[currentIndex + 1] ?? null : null;
+    const unitUnlocked = isUnitUnlocked(courseUnits, progress, unit.id);
     return {
         id: lesson.id,
         unitId: lesson.unitId,
@@ -97,8 +116,8 @@ const getLessonDetail = async (userId, lessonId) => {
         order: lesson.order,
         xpReward: lesson.xpReward,
         isCompleted: progress.completedLessonIds.includes(lesson.id),
-        isUnlocked: progress.unlockedLessonIds.includes(lesson.id),
-        isCurrent: lesson.id === currentLessonId,
+        isUnlocked: unitUnlocked && progress.unlockedLessonIds.includes(lesson.id),
+        isCurrent: unitUnlocked && lesson.id === currentLessonId,
         hasQuiz: Boolean(quiz),
         quizId: quiz?.id ?? null,
         quizPassingScore: quiz?.passingScore ?? null,
@@ -111,6 +130,8 @@ const getLessonDetail = async (userId, lessonId) => {
             subtitle: unit.subtitle ?? "",
             description: unit.description ?? "",
             order: unit.order,
+            isUnlocked: unitUnlocked,
+            isCompleted: hasPassedUnitExam(progress, unit.id),
         },
         contents: contents.map((content) => ({
             id: content.id,

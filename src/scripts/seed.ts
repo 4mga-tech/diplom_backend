@@ -9,6 +9,7 @@ import { LearningLesson } from "../modules/learning/lesson.model";
 import { LessonContent } from "../modules/learning/lesson-content.model";
 import { Quiz } from "../modules/learning/quiz.model";
 import { QuizQuestion } from "../modules/learning/quiz-question.model";
+import { LevelTest } from "../modules/tests/test.model";
 
 import { DailyReview } from "../modules/review/daily-review.model";
 import { UserProgress } from "../modules/progress/user-progress.model";
@@ -81,6 +82,7 @@ type LessonSeedBundle = {
 };
 
 const LESSON_SEED_DIR = path.resolve(process.cwd(), "src", "data", "seed", "lessons");
+const TEST_SEED_DIR = path.resolve(process.cwd(), "src", "data", "seed", "tests");
 
 const readJsonFile = async <T>(filePath: string) => {
   const fileContents = await fs.readFile(filePath, "utf8");
@@ -97,6 +99,38 @@ const getLessonSeedFileNames = async () => {
     .filter((name) => !name.endsWith("_old.json"))
     .filter((name) => !name.endsWith("levels_manifest.json"))
     .filter((name) => !name.endsWith("units_manifest.json"))
+    .sort((left, right) => left.localeCompare(right));
+};
+
+type LevelTestSeed = {
+  id: string;
+  levelId: "m1" | "m2" | "m3" | "m4";
+  testType: "vocabulary" | "grammar";
+  title: string;
+  passingScore: number;
+  xpReward: number;
+  questions: Array<{
+    id: string;
+    levelId: "m1" | "m2" | "m3" | "m4";
+    testType: "vocabulary" | "grammar";
+    prompt: string;
+    options: Array<{
+      id: string;
+      text: string;
+    }>;
+    correctOptionId: string;
+    explanation: string;
+    order: number;
+  }>;
+};
+
+const getTestSeedFileNames = async () => {
+  const entries = await fs.readdir(TEST_SEED_DIR, { withFileTypes: true });
+
+  return entries
+    .filter((entry) => entry.isFile())
+    .map((entry) => entry.name)
+    .filter((name) => name.endsWith(".json"))
     .sort((left, right) => left.localeCompare(right));
 };
 
@@ -149,12 +183,76 @@ const validateLessonSeeds = (unitIds: Set<string>, lessonSeeds: LessonSeedBundle
   }
 };
 
+const validateLevelTests = (tests: LevelTestSeed[]) => {
+  const allowedLevels = new Set(["m1", "m2", "m3", "m4"]);
+  const allowedTypes = new Set(["vocabulary", "grammar"]);
+  const compositeIds = new Set<string>();
+  const testIds = new Set<string>();
+
+  for (const test of tests) {
+    if (!allowedLevels.has(test.levelId)) {
+      throw new Error(`Unsupported test levelId ${test.levelId}`);
+    }
+
+    if (!allowedTypes.has(test.testType)) {
+      throw new Error(`Unsupported testType ${test.testType}`);
+    }
+
+    if (test.questions.length < 8 || test.questions.length > 12) {
+      throw new Error(`${test.id} must contain 8-12 questions`);
+    }
+
+    const compositeId = `${test.levelId}:${test.testType}`;
+    if (compositeIds.has(compositeId)) {
+      throw new Error(`Duplicate level test found for ${compositeId}`);
+    }
+    compositeIds.add(compositeId);
+
+    if (testIds.has(test.id)) {
+      throw new Error(`Duplicate test id found: ${test.id}`);
+    }
+    testIds.add(test.id);
+
+    const questionIds = new Set<string>();
+    const orderSet = new Set<number>();
+
+    for (const question of test.questions) {
+      if (question.levelId !== test.levelId) {
+        throw new Error(`${question.id} has mismatched levelId ${question.levelId}`);
+      }
+
+      if (question.testType !== test.testType) {
+        throw new Error(`${question.id} has mismatched testType ${question.testType}`);
+      }
+
+      if (question.options.length < 2) {
+        throw new Error(`${question.id} must include at least 2 options`);
+      }
+
+      if (!question.options.some((option) => option.id === question.correctOptionId)) {
+        throw new Error(`${question.id} is missing a valid correctOptionId`);
+      }
+
+      if (questionIds.has(question.id)) {
+        throw new Error(`Duplicate question id found: ${question.id}`);
+      }
+      questionIds.add(question.id);
+
+      if (orderSet.has(question.order)) {
+        throw new Error(`${test.id} has duplicate question order ${question.order}`);
+      }
+      orderSet.add(question.order);
+    }
+  }
+};
+
 const loadSeedData = async () => {
   const [levelsManifest, unitsManifest, lessonSeedFileNames] = await Promise.all([
     readJsonFile<LevelSeed[]>(path.join(LESSON_SEED_DIR, "levels_manifest.json")),
     readJsonFile<UnitSeed[]>(path.join(LESSON_SEED_DIR, "units_manifest.json")),
     getLessonSeedFileNames(),
   ]);
+  const testSeedFileNames = await getTestSeedFileNames();
 
   const lessonSeeds = await Promise.all(
     lessonSeedFileNames.map((fileName) =>
@@ -163,17 +261,24 @@ const loadSeedData = async () => {
   );
 
   validateLessonSeeds(new Set(unitsManifest.map((unit) => unit.id)), lessonSeeds);
+  const levelTests = await Promise.all(
+    testSeedFileNames.map((fileName) =>
+      readJsonFile<LevelTestSeed>(path.join(TEST_SEED_DIR, fileName)),
+    ),
+  );
+  validateLevelTests(levelTests);
 
   return {
     levelsManifest,
     unitsManifest,
     lessonSeeds,
+    levelTests,
   };
 };
 
 async function seed() {
   await connectDB(env.MONGODB_URI);
-  const { levelsManifest, unitsManifest, lessonSeeds } = await loadSeedData();
+  const { levelsManifest, unitsManifest, lessonSeeds, levelTests } = await loadSeedData();
   const vocabularySeedRecords = loadVocabularySeedRecords();
   const vocabularyCountsByLevel = getVocabularyCountsByLevel(vocabularySeedRecords);
 
@@ -185,6 +290,7 @@ async function seed() {
     LessonContent.deleteMany({}),
     Quiz.deleteMany({}),
     QuizQuestion.deleteMany({}),
+    LevelTest.deleteMany({}),
     DailyReview.deleteMany({}),
     UserProgress.deleteMany({}),
     QuizAttempt.deleteMany({}),
@@ -235,6 +341,9 @@ async function seed() {
   await Quiz.insertMany(lessonSeeds.flatMap((item) => (item.quiz ? [item.quiz] : [])));
 
   await QuizQuestion.insertMany(lessonSeeds.flatMap((item) => item.quizQuestions ?? []));
+
+  console.log("Creating level tests...");
+  await LevelTest.insertMany(levelTests);
 
   console.log("Creating vocabulary...");
   await Vocabulary.insertMany(vocabularySeedRecords);
