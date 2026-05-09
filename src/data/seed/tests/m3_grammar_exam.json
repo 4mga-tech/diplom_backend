@@ -10,6 +10,156 @@
       "id": "m3_grammar_q1",
       "levelId": "m3",
       "testType": "grammar",
+      "prompt": "Choose the sentence with a causative meaning.",
+      "options": [
+        { "id": "a", "text": "Багш сурагчдаар дасгал хийлгэв." },
+        { "id": "b", "text": "Сурагч дасгал хийв." },
+        { "id": "c", "text": "Дасгал хэцүү байв." },
+        { "id": "d", "text": "Багш дасгал үзэв." }
+      ],
+      "correctOptionId": "a",
+      "explanation": "\"хийлгэв\" shows that someone made others do the action.",
+      "order": 1
+    },
+    {
+      "id": "m3_grammar_q2",
+      "levelId": "m3",
+      "testType": "grammar",
+      "prompt": "Pick the passive/resultative sentence.",
+      "options": [
+        { "id": "a", "text": "Хаалга нээгдэв." },
+        { "id": "b", "text": "Би хаалга нээв." },
+        { "id": "c", "text": "Хаалга том." },
+        { "id": "d", "text": "Нээх хаалга." }
+      ],
+      "correctOptionId": "a",
+      "explanation": "\"нээгдэв\" shows the door was opened or became open.",
+      "order": 2
+    },
+    {
+      "id": "m3_grammar_q3",
+      "levelId": "m3",
+      "testType": "grammar",
+      "prompt": "Which sentence shows direction or movement toward a place?",
+      "options": [
+        { "id": "a", "text": "Би сургууль руу явлаа." },
+        { "id": "b", "text": "Би сургуульд байна." },
+        { "id": "c", "text": "Би сургуулийн ном авлаа." },
+        { "id": "d", "text": "Сургууль том байна." }
+      ],
+      "correctOptionId": "a",
+      "explanation": "\"руу\" shows direction toward a place.",
+      "order": 3
+    },
+    {
+      "id": "m3_grammar_q4",
+      "levelId": "m3",
+      "testType": "grammar",
+      "prompt": "Choose the sentence that links two actions in sequence.",
+      "options": [
+        { "id": "a", "text": "Би хоол идээд хичээлдээ явлаа." },
+        { "id": "b", "text": "Би хоол идсэн." },
+        { "id": "c", "text": "Би хичээлдээ." },
+        { "id": "d", "text": "Хоол хичээл хоёр." }
+      ],
+      "correctOptionId": "a",
+      "explanation": "\"идээд ... явлаа\" links two actions in order.",
+      "order": 4
+    },
+    {
+      "id": "m3_grammar_q5",
+      "levelId": "m3",
+      "testType": "grammar",
+      "prompt": "Choose the indefinite pronoun sentence.",
+      "options": [
+        { "id": "a", "text": "Хэн нэгэн ирсэн." },
+        { "id": "b", "text": "Би ирсэн." },
+        { "id": "c", "text": "Тэр ирсэн." },
+        { "id": "d", "text": "Багш ирсэн." }
+      ],
+      "correctOptionId": "a",
+      "explanation": "\"хэн нэгэн\" means someone.",
+      "order": 5
+    },
+    {
+      "id": "m3_grammar_q6",
+      "levelId": "m3",
+      "testType": "grammar",
+      "prompt": "Pick the reflexive pronoun sentence.",
+      "options": [
+        { "id": "a", "text": "Тэр өөрөө хийсэн." },
+        { "id": "b", "text": "Тэр ном хийсэн." },
+        { "id": "c", "text": "Тэр багш хийсэн." },
+        { "id": "d", "text": "Тэр хэн нэгэн хийсэн." }
+      ],
+      "correctOptionId": "a",
+      "explanation": "\"өөрөө\" emphasizes that the person did it by themselves.",
+      "order": 6
+    },
+    {
+      "id": "m3_grammar_q7",
+      "levelId": "m3",
+      "testType": "grammar",
+      "prompt": "Choose the sentence with emphatic pronoun use.",
+      "options": [
+        { "id": "a", "text": "Би өөрөө очно." },
+        { "id": "b", "text": "Би ном очно." },
+        { "id": "c", "text": "Өөрөө ном байна." },
+        { "id": "d", "text": "Очих би өөр." }
+      ],
+      "correctOptionId": "a",
+      "explanation": "\"өөрөө\" adds emphasis to the subject.",
+      "order": 7
+    },
+    {
+      "id": "m3_grammar_q8",
+      "levelId": "m3",
+      "testType": "grammar",
+      "prompt": "Choose the sentence expressing probability.",
+      "options": [
+        { "id": "a", "text": "Тэр ирэх байх." },
+        { "id": "b", "text": "Тэр ирсэн учраас." },
+        { "id": "c", "text": "Тэр ирэв." },
+        { "id": "d", "text": "Тэр ирэхгүй байсан." }
+      ],
+      "correctOptionId": "a",
+      "explanation": "\"байх\" can show probability or assumption.",
+      "order": 8
+    },
+    {
+      "id": "m3_grammar_q9",
+      "levelId": "m3",
+      "testType": "grammar",
+      "prompt": "Pick the sentence with strong degree or intensity.",
+      "options": [
+        { "id": "a", "text": "Энэ тун чухал асуудал." },
+        { "id": "b", "text": "Энэ асуудал явна." },
+        { "id": "c", "text": "Чухал энэ тун." },
+        { "id": "d", "text": "Асуудал тун явсан." }
+      ],
+      "correctOptionId": "a",
+      "explanation": "\"тун\" intensifies the meaning.",
+      "order": 9
+    },
+    {
+      "id": "m3_grammar_q10",
+      "levelId": "m3",
+      "testType": "grammar",
+      "prompt": "Which sentence shows the speaker's stance?",
+      "options": [
+        { "id": "a", "text": "Магадгүй тэр зөв байх." },
+        { "id": "b", "text": "Тэр ном уншсан." },
+        { "id": "c", "text": "Би сургуульд байна." },
+        { "id": "d", "text": "Ном ширээн дээр байна." }
+      ],
+      "correctOptionId": "a",
+      "explanation": "\"магадгүй\" shows uncertainty or possibility.",
+      "order": 10
+    },
+    {
+      "id": "m3_grammar_q11",
+      "levelId": "m3",
+      "testType": "grammar",
       "prompt": "Choose the sentence with a reason clause.",
       "options": [
         { "id": "a", "text": "Бороо орсон учраас гэртээ үлдсэн." },
@@ -19,10 +169,10 @@
       ],
       "correctOptionId": "a",
       "explanation": "\"учраас\" introduces the reason.",
-      "order": 1
+      "order": 11
     },
     {
-      "id": "m3_grammar_q2",
+      "id": "m3_grammar_q12",
       "levelId": "m3",
       "testType": "grammar",
       "prompt": "Pick the contrastive connector sentence.",
@@ -34,97 +184,7 @@
       ],
       "correctOptionId": "a",
       "explanation": "\"боловч\" signals contrast.",
-      "order": 2
-    },
-    {
-      "id": "m3_grammar_q3",
-      "levelId": "m3",
-      "testType": "grammar",
-      "prompt": "Which sentence expresses purpose?",
-      "options": [
-        { "id": "a", "text": "Сурахын тулд ном авсан." },
-        { "id": "b", "text": "Ном авсан тулд." },
-        { "id": "c", "text": "Ном авсан ч." },
-        { "id": "d", "text": "Ном авсаар." }
-      ],
-      "correctOptionId": "a",
-      "explanation": "\"-хын тулд\" expresses purpose.",
-      "order": 3
-    },
-    {
-      "id": "m3_grammar_q4",
-      "levelId": "m3",
-      "testType": "grammar",
-      "prompt": "Choose the sentence with condition.",
-      "options": [
-        { "id": "a", "text": "Цагтай бол хамт явна." },
-        { "id": "b", "text": "Цагтай учраас явна." },
-        { "id": "c", "text": "Цагтай байна." },
-        { "id": "d", "text": "Цагтай боловч." }
-      ],
-      "correctOptionId": "a",
-      "explanation": "\"бол\" can set a condition here.",
-      "order": 4
-    },
-    {
-      "id": "m3_grammar_q5",
-      "levelId": "m3",
-      "testType": "grammar",
-      "prompt": "Pick the sentence with reported opinion.",
-      "options": [
-        { "id": "a", "text": "Тэр зөв гэж бодож байна." },
-        { "id": "b", "text": "Тэр зөв үү бодож байна." },
-        { "id": "c", "text": "Тэр зөв учир." },
-        { "id": "d", "text": "Тэр зөв байсан уу." }
-      ],
-      "correctOptionId": "a",
-      "explanation": "\"гэж бодож байна\" reports a thought or opinion.",
-      "order": 5
-    },
-    {
-      "id": "m3_grammar_q6",
-      "levelId": "m3",
-      "testType": "grammar",
-      "prompt": "Which sentence uses sequence correctly?",
-      "options": [
-        { "id": "a", "text": "Эхлээд уншаад дараа нь бич." },
-        { "id": "b", "text": "Эхлээд дараа нь унш." },
-        { "id": "c", "text": "Унш бол дараа." },
-        { "id": "d", "text": "Бичээд эхлээд." }
-      ],
-      "correctOptionId": "a",
-      "explanation": "\"эхлээд ... дараа нь ...\" shows sequence clearly.",
-      "order": 6
-    },
-    {
-      "id": "m3_grammar_q7",
-      "levelId": "m3",
-      "testType": "grammar",
-      "prompt": "Choose the sentence with concession.",
-      "options": [
-        { "id": "a", "text": "Ядарсан ч үргэлжлүүлсэн." },
-        { "id": "b", "text": "Ядарсан учраас үргэлжлүүлсэн." },
-        { "id": "c", "text": "Ядарсан гэж." },
-        { "id": "d", "text": "Ядарсан тулд." }
-      ],
-      "correctOptionId": "a",
-      "explanation": "\"ч\" can mark concession: even though tired.",
-      "order": 7
-    },
-    {
-      "id": "m3_grammar_q8",
-      "levelId": "m3",
-      "testType": "grammar",
-      "prompt": "Pick the best sentence for polite suggestion.",
-      "options": [
-        { "id": "a", "text": "Хамт ярилцвал яасан юм бэ?" },
-        { "id": "b", "text": "Хамт ярилцсан ч." },
-        { "id": "c", "text": "Хамт ярилцдаг уу." },
-        { "id": "d", "text": "Хамт ярилцаж." }
-      ],
-      "correctOptionId": "a",
-      "explanation": "\"... яасан юм бэ?\" can soften a suggestion.",
-      "order": 8
+      "order": 12
     }
   ]
 }

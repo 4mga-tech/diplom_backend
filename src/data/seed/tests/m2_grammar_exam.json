@@ -18,7 +18,7 @@
         { "id": "d", "text": "Явахгүй байсан." }
       ],
       "correctOptionId": "a",
-      "explanation": "\"явна\" works as a future or planned action here.",
+      "explanation": "\"явна\" can show a future or planned action here.",
       "order": 1
     },
     {
@@ -55,6 +55,21 @@
       "id": "m2_grammar_q4",
       "levelId": "m2",
       "testType": "grammar",
+      "prompt": "Choose the negative form.",
+      "options": [
+        { "id": "a", "text": "Би явна." },
+        { "id": "b", "text": "Би явахгүй." },
+        { "id": "c", "text": "Би явсан." },
+        { "id": "d", "text": "Би явж байна." }
+      ],
+      "correctOptionId": "b",
+      "explanation": "\"-хгүй\" forms a negative verb meaning will not / does not.",
+      "order": 4
+    },
+    {
+      "id": "m2_grammar_q5",
+      "levelId": "m2",
+      "testType": "grammar",
       "prompt": "Choose the correct time expression for \"at 8 o'clock\".",
       "options": [
         { "id": "a", "text": "наймд" },
@@ -63,14 +78,14 @@
         { "id": "d", "text": "наймтай" }
       ],
       "correctOptionId": "a",
-      "explanation": "\"-д\" marks the time point in \"наймд\".",
-      "order": 4
+      "explanation": "\"-д\" marks a time point in \"наймд\".",
+      "order": 5
     },
     {
-      "id": "m2_grammar_q5",
+      "id": "m2_grammar_q6",
       "levelId": "m2",
       "testType": "grammar",
-      "prompt": "Pick the sentence meaning \"from home\".",
+      "prompt": "Pick the form meaning \"from home\".",
       "options": [
         { "id": "a", "text": "гэрт" },
         { "id": "b", "text": "гэрээс" },
@@ -79,10 +94,10 @@
       ],
       "correctOptionId": "b",
       "explanation": "\"-ээс\" marks movement from a place.",
-      "order": 5
+      "order": 6
     },
     {
-      "id": "m2_grammar_q6",
+      "id": "m2_grammar_q7",
       "levelId": "m2",
       "testType": "grammar",
       "prompt": "Choose the correct comparison sentence.",
@@ -94,10 +109,10 @@
       ],
       "correctOptionId": "a",
       "explanation": "\"илүү\" is used for a basic comparative.",
-      "order": 6
+      "order": 7
     },
     {
-      "id": "m2_grammar_q7",
+      "id": "m2_grammar_q8",
       "levelId": "m2",
       "testType": "grammar",
       "prompt": "Which form means \"must go\"?",
@@ -109,10 +124,10 @@
       ],
       "correctOptionId": "b",
       "explanation": "\"хэрэгтэй\" expresses necessity.",
-      "order": 7
+      "order": 8
     },
     {
-      "id": "m2_grammar_q8",
+      "id": "m2_grammar_q9",
       "levelId": "m2",
       "testType": "grammar",
       "prompt": "Pick the polite request.",
@@ -124,7 +139,52 @@
       ],
       "correctOptionId": "b",
       "explanation": "\"-гээрэй\" softens a request politely.",
-      "order": 8
+      "order": 9
+    },
+    {
+      "id": "m2_grammar_q10",
+      "levelId": "m2",
+      "testType": "grammar",
+      "prompt": "Choose the conditional sentence.",
+      "options": [
+        { "id": "a", "text": "Бороо орвол би гэртээ байна." },
+        { "id": "b", "text": "Бороо орж байна." },
+        { "id": "c", "text": "Бороо орсон." },
+        { "id": "d", "text": "Бороо орно." }
+      ],
+      "correctOptionId": "a",
+      "explanation": "\"-вол\" creates a condition: if it rains.",
+      "order": 10
+    },
+    {
+      "id": "m2_grammar_q11",
+      "levelId": "m2",
+      "testType": "grammar",
+      "prompt": "Choose the correct sentence order.",
+      "options": [
+        { "id": "a", "text": "Би маргааш ажилдаа явна." },
+        { "id": "b", "text": "Явна би маргааш ажилдаа." },
+        { "id": "c", "text": "Ажилдаа явна би маргааш." },
+        { "id": "d", "text": "Маргааш явна ажилдаа би." }
+      ],
+      "correctOptionId": "a",
+      "explanation": "This sentence follows natural Mongolian word order.",
+      "order": 11
+    },
+    {
+      "id": "m2_grammar_q12",
+      "levelId": "m2",
+      "testType": "grammar",
+      "prompt": "Which sentence uses a verb chain naturally?",
+      "options": [
+        { "id": "a", "text": "Би хоол идээд сургууль явсан." },
+        { "id": "b", "text": "Би идсэн хоол сургууль." },
+        { "id": "c", "text": "Явсан би хоол идээд." },
+        { "id": "d", "text": "Сургууль хоол би идээд." }
+      ],
+      "correctOptionId": "a",
+      "explanation": "\"идээд ... явсан\" links two actions in sequence.",
+      "order": 12
     }
   ]
 }

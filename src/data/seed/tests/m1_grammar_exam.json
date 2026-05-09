@@ -10,121 +10,182 @@
       "id": "m1_grammar_q1",
       "levelId": "m1",
       "testType": "grammar",
-      "prompt": "Choose the correct greeting sentence.",
+      "prompt": "Which word is a noun?",
       "options": [
-        { "id": "a", "text": "Сайн байна уу?" },
-        { "id": "b", "text": "Ном байна уу?" },
-        { "id": "c", "text": "Ус уу?" },
-        { "id": "d", "text": "Багш сайн." }
+        { "id": "a", "text": "унших" },
+        { "id": "b", "text": "ном" },
+        { "id": "c", "text": "маш" },
+        { "id": "d", "text": "би" }
       ],
-      "correctOptionId": "a",
-      "explanation": "\"Сайн байна уу?\" is the standard greeting.",
+      "correctOptionId": "b",
+      "explanation": "\"ном\" is a noun.",
       "order": 1
     },
     {
       "id": "m1_grammar_q2",
       "levelId": "m1",
       "testType": "grammar",
-      "prompt": "Pick the correct negative form.",
+      "prompt": "Which word is a verb?",
       "options": [
-        { "id": "a", "text": "Би оюутан мөн." },
-        { "id": "b", "text": "Би оюутан биш." },
-        { "id": "c", "text": "Би оюутан уу?" },
-        { "id": "d", "text": "Би оюутан байна." }
+        { "id": "a", "text": "идэх" },
+        { "id": "b", "text": "ээж" },
+        { "id": "c", "text": "маш" },
+        { "id": "d", "text": "тэр" }
       ],
-      "correctOptionId": "b",
-      "explanation": "\"биш\" makes a simple noun sentence negative.",
+      "correctOptionId": "a",
+      "explanation": "\"идэх\" is a verb because it expresses an action.",
       "order": 2
     },
     {
       "id": "m1_grammar_q3",
       "levelId": "m1",
       "testType": "grammar",
-      "prompt": "Choose the yes/no question form.",
+      "prompt": "Which word is a pronoun?",
       "options": [
-        { "id": "a", "text": "Та багш." },
-        { "id": "b", "text": "Та багш уу?" },
-        { "id": "c", "text": "Та багш биш." },
-        { "id": "d", "text": "Та сайн байна." }
+        { "id": "a", "text": "сайн" },
+        { "id": "b", "text": "бид" },
+        { "id": "c", "text": "унших" },
+        { "id": "d", "text": "ном" }
       ],
       "correctOptionId": "b",
-      "explanation": "\"уу?\" marks the yes or no question here.",
+      "explanation": "\"бид\" is a pronoun meaning \"we\".",
       "order": 3
     },
     {
       "id": "m1_grammar_q4",
       "levelId": "m1",
       "testType": "grammar",
-      "prompt": "Select the correct plural noun.",
+      "prompt": "Which word is an adverb/modal word?",
       "options": [
-        { "id": "a", "text": "номнууд" },
-        { "id": "b", "text": "номд" },
-        { "id": "c", "text": "номын" },
-        { "id": "d", "text": "номгүй" }
+        { "id": "a", "text": "маш" },
+        { "id": "b", "text": "ширээ" },
+        { "id": "c", "text": "явах" },
+        { "id": "d", "text": "би" }
       ],
       "correctOptionId": "a",
-      "explanation": "\"-нууд\" is a plural ending for nouns like ном.",
+      "explanation": "\"маш\" modifies meaning like \"very\".",
       "order": 4
     },
     {
       "id": "m1_grammar_q5",
       "levelId": "m1",
       "testType": "grammar",
-      "prompt": "Pick the correct possession phrase for \"my book\".",
+      "prompt": "Choose the correct sentence.",
       "options": [
-        { "id": "a", "text": "миний ном" },
-        { "id": "b", "text": "ном миний" },
-        { "id": "c", "text": "минийд ном" },
-        { "id": "d", "text": "номд миний" }
+        { "id": "a", "text": "Би ном унших." },
+        { "id": "b", "text": "Би ном уншдаг." },
+        { "id": "c", "text": "Би уншдаг ном." },
+        { "id": "d", "text": "Ном би уншдаг." }
       ],
-      "correctOptionId": "a",
-      "explanation": "The possessor comes first in \"миний ном\".",
+      "correctOptionId": "b",
+      "explanation": "\"Би ном уншдаг.\" is the natural sentence order.",
       "order": 5
     },
     {
       "id": "m1_grammar_q6",
       "levelId": "m1",
       "testType": "grammar",
-      "prompt": "Choose the correct location ending for \"at school\".",
+      "prompt": "Choose the correct pronoun for the sentence: \"___ ном уншдаг.\"",
       "options": [
-        { "id": "a", "text": "сургууль" },
-        { "id": "b", "text": "сургуульд" },
-        { "id": "c", "text": "сургуулийн" },
-        { "id": "d", "text": "сургуультай" }
+        { "id": "a", "text": "Маш" },
+        { "id": "b", "text": "Тэр" },
+        { "id": "c", "text": "Унших" },
+        { "id": "d", "text": "Ширээ" }
       ],
       "correctOptionId": "b",
-      "explanation": "\"-д\" marks location in \"сургуульд\".",
+      "explanation": "\"Тэр\" correctly completes the sentence.",
       "order": 6
     },
     {
       "id": "m1_grammar_q7",
       "levelId": "m1",
       "testType": "grammar",
-      "prompt": "Which sentence means \"I am at home\"?",
+      "prompt": "Which sentence uses an adverb correctly?",
       "options": [
-        { "id": "a", "text": "Би гэр." },
-        { "id": "b", "text": "Би гэрийн." },
-        { "id": "c", "text": "Би гэрт байна." },
-        { "id": "d", "text": "Би гэр биш." }
+        { "id": "a", "text": "Би маш уншдаг." },
+        { "id": "b", "text": "Тэр маш сайн ярьдаг." },
+        { "id": "c", "text": "Маш тэр явдаг." },
+        { "id": "d", "text": "Ном маш." }
       ],
-      "correctOptionId": "c",
-      "explanation": "\"гэрт байна\" expresses being at home.",
+      "correctOptionId": "b",
+      "explanation": "\"маш\" correctly modifies \"сайн\".",
       "order": 7
     },
     {
       "id": "m1_grammar_q8",
       "levelId": "m1",
       "testType": "grammar",
-      "prompt": "Pick the correct polite introduction.",
+      "prompt": "Which word expresses an action?",
       "options": [
-        { "id": "a", "text": "Намайг Болд гэдэг." },
-        { "id": "b", "text": "Болд намайг." },
-        { "id": "c", "text": "Болд гэдэг намайг." },
-        { "id": "d", "text": "Намайг гэдэг Болд." }
+        { "id": "a", "text": "унших" },
+        { "id": "b", "text": "ээж" },
+        { "id": "c", "text": "би" },
+        { "id": "d", "text": "бага" }
       ],
       "correctOptionId": "a",
-      "explanation": "\"Намайг Болд гэдэг.\" is a natural self-introduction.",
+      "explanation": "\"унших\" is an action verb.",
       "order": 8
+    },
+    {
+      "id": "m1_grammar_q9",
+      "levelId": "m1",
+      "testType": "grammar",
+      "prompt": "Choose the correct word order.",
+      "options": [
+        { "id": "a", "text": "Ном би уншдаг." },
+        { "id": "b", "text": "Би уншдаг ном." },
+        { "id": "c", "text": "Би ном уншдаг." },
+        { "id": "d", "text": "Уншдаг би ном." }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Subject + object + verb is the correct structure.",
+      "order": 9
+    },
+    {
+      "id": "m1_grammar_q10",
+      "levelId": "m1",
+      "testType": "grammar",
+      "prompt": "Which sentence is natural?",
+      "options": [
+        { "id": "a", "text": "Бид сайн сурдаг." },
+        { "id": "b", "text": "Сайн бид сурдаг." },
+        { "id": "c", "text": "Сурдаг бид сайн." },
+        { "id": "d", "text": "Бид сурдаг сайн." }
+      ],
+      "correctOptionId": "a",
+      "explanation": "\"Бид сайн сурдаг.\" follows natural Mongolian order.",
+      "order": 10
+    },
+    {
+      "id": "m1_grammar_q11",
+      "levelId": "m1",
+      "testType": "grammar",
+      "prompt": "Which word is NOT a pronoun?",
+      "options": [
+        { "id": "a", "text": "би" },
+        { "id": "b", "text": "чи" },
+        { "id": "c", "text": "тэр" },
+        { "id": "d", "text": "ном" }
+      ],
+      "correctOptionId": "d",
+      "explanation": "\"ном\" is a noun, not a pronoun.",
+      "order": 11
+    },
+    {
+      "id": "m1_grammar_q12",
+      "levelId": "m1",
+      "testType": "grammar",
+      "prompt": "Choose the correct sentence using \"маш\".",
+      "options": [
+        { "id": "a", "text": "Тэр маш сайн бичдэг." },
+        { "id": "b", "text": "Маш тэр бичдэг." },
+        { "id": "c", "text": "Тэр бичдэг маш." },
+        { "id": "d", "text": "Бичдэг маш тэр." }
+      ],
+      "correctOptionId": "a",
+      "explanation": "\"маш\" naturally comes before the adjective.",
+      "order": 12
     }
+    
   ]
 }

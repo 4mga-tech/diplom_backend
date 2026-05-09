@@ -10,121 +10,181 @@
       "id": "m1_vocab_q1",
       "levelId": "m1",
       "testType": "vocabulary",
-      "prompt": "What does \"сайн\" mean?",
+      "prompt": "What does \"ном\" mean?",
       "options": [
-        { "id": "a", "text": "good" },
-        { "id": "b", "text": "small" },
-        { "id": "c", "text": "cold" },
-        { "id": "d", "text": "late" }
+        { "id": "a", "text": "book" },
+        { "id": "b", "text": "teacher" },
+        { "id": "c", "text": "water" },
+        { "id": "d", "text": "table" }
       ],
       "correctOptionId": "a",
-      "explanation": "\"сайн\" means good or well.",
+      "explanation": "\"ном\" means \"book\".",
       "order": 1
     },
     {
       "id": "m1_vocab_q2",
       "levelId": "m1",
       "testType": "vocabulary",
-      "prompt": "Choose the word for \"mother\".",
+      "prompt": "Choose the Mongolian word for \"mother\".",
       "options": [
         { "id": "a", "text": "аав" },
         { "id": "b", "text": "ээж" },
         { "id": "c", "text": "ах" },
-        { "id": "d", "text": "эмч" }
+        { "id": "d", "text": "багш" }
       ],
       "correctOptionId": "b",
-      "explanation": "\"ээж\" means mother.",
+      "explanation": "\"ээж\" means \"mother\".",
       "order": 2
     },
     {
       "id": "m1_vocab_q3",
       "levelId": "m1",
       "testType": "vocabulary",
-      "prompt": "What is \"ном\"?",
+      "prompt": "What does \"аав\" mean?",
       "options": [
-        { "id": "a", "text": "pen" },
-        { "id": "b", "text": "bag" },
-        { "id": "c", "text": "book" },
-        { "id": "d", "text": "table" }
+        { "id": "a", "text": "father" },
+        { "id": "b", "text": "mother" },
+        { "id": "c", "text": "friend" },
+        { "id": "d", "text": "student" }
       ],
-      "correctOptionId": "c",
-      "explanation": "\"ном\" means book.",
+      "correctOptionId": "a",
+      "explanation": "\"аав\" means \"father\".",
       "order": 3
     },
     {
       "id": "m1_vocab_q4",
       "levelId": "m1",
       "testType": "vocabulary",
-      "prompt": "Choose the meaning of \"ус\".",
+      "prompt": "Choose the Mongolian word for \"teacher\".",
       "options": [
-        { "id": "a", "text": "water" },
-        { "id": "b", "text": "milk" },
-        { "id": "c", "text": "tea" },
-        { "id": "d", "text": "juice" }
+        { "id": "a", "text": "сурагч" },
+        { "id": "b", "text": "найз" },
+        { "id": "c", "text": "багш" },
+        { "id": "d", "text": "ном" }
       ],
-      "correctOptionId": "a",
-      "explanation": "\"ус\" means water.",
+      "correctOptionId": "c",
+      "explanation": "\"багш\" means \"teacher\".",
       "order": 4
     },
     {
       "id": "m1_vocab_q5",
       "levelId": "m1",
       "testType": "vocabulary",
-      "prompt": "Which word means \"teacher\"?",
+      "prompt": "What does \"ширээ\" mean?",
       "options": [
-        { "id": "a", "text": "оюутан" },
-        { "id": "b", "text": "багш" },
-        { "id": "c", "text": "найз" },
-        { "id": "d", "text": "эгч" }
+        { "id": "a", "text": "pen" },
+        { "id": "b", "text": "table" },
+        { "id": "c", "text": "school" },
+        { "id": "d", "text": "house" }
       ],
       "correctOptionId": "b",
-      "explanation": "\"багш\" means teacher.",
+      "explanation": "\"ширээ\" means \"table\".",
       "order": 5
     },
     {
       "id": "m1_vocab_q6",
       "levelId": "m1",
       "testType": "vocabulary",
-      "prompt": "What does \"улаан\" mean?",
+      "prompt": "Choose the Mongolian word for \"pen\".",
       "options": [
-        { "id": "a", "text": "blue" },
-        { "id": "b", "text": "green" },
-        { "id": "c", "text": "red" },
-        { "id": "d", "text": "white" }
+        { "id": "a", "text": "үзэг" },
+        { "id": "b", "text": "ном" },
+        { "id": "c", "text": "ус" },
+        { "id": "d", "text": "ширээ" }
       ],
-      "correctOptionId": "c",
-      "explanation": "\"улаан\" means red.",
+      "correctOptionId": "a",
+      "explanation": "\"үзэг\" means \"pen\".",
       "order": 6
     },
     {
       "id": "m1_vocab_q7",
       "levelId": "m1",
       "testType": "vocabulary",
-      "prompt": "Choose the word for \"friend\".",
+      "prompt": "What does \"унших\" mean?",
       "options": [
-        { "id": "a", "text": "найз" },
-        { "id": "b", "text": "хот" },
-        { "id": "c", "text": "гэр" },
-        { "id": "d", "text": "анги" }
+        { "id": "a", "text": "to eat" },
+        { "id": "b", "text": "to go" },
+        { "id": "c", "text": "to read" },
+        { "id": "d", "text": "to write" }
       ],
-      "correctOptionId": "a",
-      "explanation": "\"найз\" means friend.",
+      "correctOptionId": "c",
+      "explanation": "\"унших\" means \"to read\".",
       "order": 7
     },
     {
       "id": "m1_vocab_q8",
       "levelId": "m1",
       "testType": "vocabulary",
-      "prompt": "What is \"гэр\"?",
+      "prompt": "Choose the Mongolian word for \"to eat\".",
       "options": [
-        { "id": "a", "text": "road" },
-        { "id": "b", "text": "house" },
-        { "id": "c", "text": "school" },
-        { "id": "d", "text": "market" }
+        { "id": "a", "text": "явах" },
+        { "id": "b", "text": "идэх" },
+        { "id": "c", "text": "унших" },
+        { "id": "d", "text": "сайн" }
       ],
       "correctOptionId": "b",
-      "explanation": "\"гэр\" means house or home.",
+      "explanation": "\"идэх\" means \"to eat\".",
       "order": 8
+    },
+    {
+      "id": "m1_vocab_q9",
+      "levelId": "m1",
+      "testType": "vocabulary",
+      "prompt": "What does \"явах\" mean?",
+      "options": [
+        { "id": "a", "text": "to go" },
+        { "id": "b", "text": "to read" },
+        { "id": "c", "text": "to eat" },
+        { "id": "d", "text": "to see" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "\"явах\" means \"to go\".",
+      "order": 9
+    },
+    {
+      "id": "m1_vocab_q10",
+      "levelId": "m1",
+      "testType": "vocabulary",
+      "prompt": "Choose the meaning of \"би\".",
+      "options": [
+        { "id": "a", "text": "you" },
+        { "id": "b", "text": "he / she" },
+        { "id": "c", "text": "I" },
+        { "id": "d", "text": "we" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "\"би\" means \"I\".",
+      "order": 10
+    },
+    {
+      "id": "m1_vocab_q11",
+      "levelId": "m1",
+      "testType": "vocabulary",
+      "prompt": "Choose the Mongolian word for \"you\".",
+      "options": [
+        { "id": "a", "text": "би" },
+        { "id": "b", "text": "чи" },
+        { "id": "c", "text": "тэр" },
+        { "id": "d", "text": "бид" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "\"чи\" means \"you\".",
+      "order": 11
+    },
+    {
+      "id": "m1_vocab_q12",
+      "levelId": "m1",
+      "testType": "vocabulary",
+      "prompt": "What does \"тэр\" mean?",
+      "options": [
+        { "id": "a", "text": "he / she" },
+        { "id": "b", "text": "I" },
+        { "id": "c", "text": "we" },
+        { "id": "d", "text": "you" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "\"тэр\" means \"he\" or \"she\" depending on context.",
+      "order": 12
     }
   ]
 }

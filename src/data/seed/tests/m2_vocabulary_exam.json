@@ -12,7 +12,7 @@
       "testType": "vocabulary",
       "prompt": "What does \"буудал\" mean?",
       "options": [
-        { "id": "a", "text": "station" },
+        { "id": "a", "text": "station / stop" },
         { "id": "b", "text": "window" },
         { "id": "c", "text": "garden" },
         { "id": "d", "text": "blanket" }
@@ -59,7 +59,7 @@
       "options": [
         { "id": "a", "text": "family" },
         { "id": "b", "text": "weather" },
-        { "id": "c", "text": "work" },
+        { "id": "c", "text": "work / job" },
         { "id": "d", "text": "story" }
       ],
       "correctOptionId": "c",
@@ -89,7 +89,7 @@
       "options": [
         { "id": "a", "text": "slow" },
         { "id": "b", "text": "clean" },
-        { "id": "c", "text": "fast" },
+        { "id": "c", "text": "fast / quick" },
         { "id": "d", "text": "deep" }
       ],
       "correctOptionId": "c",
@@ -117,7 +117,7 @@
       "testType": "vocabulary",
       "prompt": "What is \"хуваарь\"?",
       "options": [
-        { "id": "a", "text": "schedule" },
+        { "id": "a", "text": "schedule / timetable" },
         { "id": "b", "text": "medicine" },
         { "id": "c", "text": "wallet" },
         { "id": "d", "text": "bridge" }
@@ -125,6 +125,66 @@
       "correctOptionId": "a",
       "explanation": "\"хуваарь\" means schedule or timetable.",
       "order": 8
+    },
+    {
+      "id": "m2_vocab_q9",
+      "levelId": "m2",
+      "testType": "vocabulary",
+      "prompt": "Choose the meaning of \"зогсоол\".",
+      "options": [
+        { "id": "a", "text": "parking / stop" },
+        { "id": "b", "text": "lesson" },
+        { "id": "c", "text": "notebook" },
+        { "id": "d", "text": "food" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "\"зогсоол\" means a stop or parking place.",
+      "order": 9
+    },
+    {
+      "id": "m2_vocab_q10",
+      "levelId": "m2",
+      "testType": "vocabulary",
+      "prompt": "Which word means \"room\"?",
+      "options": [
+        { "id": "a", "text": "өрөө" },
+        { "id": "b", "text": "цүнх" },
+        { "id": "c", "text": "гудамж" },
+        { "id": "d", "text": "өдөр" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "\"өрөө\" means room.",
+      "order": 10
+    },
+    {
+      "id": "m2_vocab_q11",
+      "levelId": "m2",
+      "testType": "vocabulary",
+      "prompt": "What does \"орой\" mean?",
+      "options": [
+        { "id": "a", "text": "evening" },
+        { "id": "b", "text": "morning" },
+        { "id": "c", "text": "door" },
+        { "id": "d", "text": "ticket" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "\"орой\" means evening.",
+      "order": 11
+    },
+    {
+      "id": "m2_vocab_q12",
+      "levelId": "m2",
+      "testType": "vocabulary",
+      "prompt": "Choose the word for \"right\".",
+      "options": [
+        { "id": "a", "text": "зүүн" },
+        { "id": "b", "text": "доош" },
+        { "id": "c", "text": "баруун" },
+        { "id": "d", "text": "дотор" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "\"баруун\" means right.",
+      "order": 12
     }
   ]
 }

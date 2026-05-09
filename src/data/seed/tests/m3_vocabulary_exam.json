@@ -43,7 +43,7 @@
       "prompt": "What is \"зорилго\"?",
       "options": [
         { "id": "a", "text": "habit" },
-        { "id": "b", "text": "goal" },
+        { "id": "b", "text": "goal / aim" },
         { "id": "c", "text": "forest" },
         { "id": "d", "text": "neighbor" }
       ],
@@ -57,7 +57,7 @@
       "testType": "vocabulary",
       "prompt": "Choose the meaning of \"нөлөө\".",
       "options": [
-        { "id": "a", "text": "effect" },
+        { "id": "a", "text": "effect / influence" },
         { "id": "b", "text": "shelf" },
         { "id": "c", "text": "storm" },
         { "id": "d", "text": "lamp" }
@@ -117,7 +117,7 @@
       "testType": "vocabulary",
       "prompt": "What is \"дүн\"?",
       "options": [
-        { "id": "a", "text": "result" },
+        { "id": "a", "text": "result / outcome" },
         { "id": "b", "text": "blank" },
         { "id": "c", "text": "smell" },
         { "id": "d", "text": "wire" }
@@ -125,6 +125,66 @@
       "correctOptionId": "a",
       "explanation": "\"дүн\" means result or outcome.",
       "order": 8
+    },
+    {
+      "id": "m3_vocab_q9",
+      "levelId": "m3",
+      "testType": "vocabulary",
+      "prompt": "Choose the meaning of \"саад\".",
+      "options": [
+        { "id": "a", "text": "obstacle" },
+        { "id": "b", "text": "goal" },
+        { "id": "c", "text": "teacher" },
+        { "id": "d", "text": "door" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "\"саад\" means obstacle.",
+      "order": 9
+    },
+    {
+      "id": "m3_vocab_q10",
+      "levelId": "m3",
+      "testType": "vocabulary",
+      "prompt": "Which word means \"habit\"?",
+      "options": [
+        { "id": "a", "text": "дадал" },
+        { "id": "b", "text": "судалгаа" },
+        { "id": "c", "text": "чиглэл" },
+        { "id": "d", "text": "боломж" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "\"дадал\" means habit.",
+      "order": 10
+    },
+    {
+      "id": "m3_vocab_q11",
+      "levelId": "m3",
+      "testType": "vocabulary",
+      "prompt": "What does \"харилцаа\" mean?",
+      "options": [
+        { "id": "a", "text": "communication / relationship" },
+        { "id": "b", "text": "weather" },
+        { "id": "c", "text": "window" },
+        { "id": "d", "text": "ticket" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "\"харилцаа\" means communication or relationship.",
+      "order": 11
+    },
+    {
+      "id": "m3_vocab_q12",
+      "levelId": "m3",
+      "testType": "vocabulary",
+      "prompt": "Choose the word for \"method\".",
+      "options": [
+        { "id": "a", "text": "арга" },
+        { "id": "b", "text": "дүн" },
+        { "id": "c", "text": "саад" },
+        { "id": "d", "text": "тээвэр" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "\"арга\" means method or way.",
+      "order": 12
     }
   ]
 }

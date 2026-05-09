@@ -52,7 +52,7 @@ export const createQuizAttempt = (payload: {
 
 export const findXpLedgerEntry = (
   userId: string,
-  sourceType: string,
+  sourceType: XpSourceType,  
   sourceId: string,
 ) => XpLedger.findOne({ userId, sourceType, sourceId }).lean();
 

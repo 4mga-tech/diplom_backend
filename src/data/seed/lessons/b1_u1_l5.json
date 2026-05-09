@@ -51,27 +51,47 @@
       }
     },
     {
-      "id": "b1-u1-l5-c3",
-      "lessonId": "b1-u1-l5",
-      "type": "exercise_word_build",
-      "title": "Build Simple Words",
-      "order": 3,
-      "content": {
-        "section": "exercises",
-        "instructionMn": "Үсгийн дугаараар үг бүтээ.",
-        "instructionEn": "Build words from letter numbers.",
-        "example": {
-          "numbers": [15, 16, 14],
-          "answer": "ном"
-        },
-        "questions": [
-          { "index": 1, "numbers": [2, 1, 4], "answer": "баг" },
-          { "index": 2, "numbers": [1, 17, 5, 17, 19], "answer": "өдөр" },
-          { "index": 3, "numbers": [20, 1, 11, 15], "answer": "сайн" },
-          { "index": 4, "numbers": [22, 22], "answer": "уу" },
-          { "index": 5, "numbers": [1, 15, 4, 10], "answer": "анги" }
-        ]
+  "id": "b1-u1-l5-c3",
+  "lessonId": "b1-u1-l5",
+  "type": "exercise_word_build",
+  "title": "Build Simple Words",
+  "order": 3,
+  "content": {
+    "section": "exercises",
+    "instructionMn": "Үсгүүдийг зөв дарааллаар нийлүүлж үг бүтээ.",
+    "instructionEn": "Put the letters in the correct order to build a word.",
+    "example": {
+      "letters": ["Н", "О", "М"],
+      "answer": "ном"
+    },
+    "questions": [
+      {
+        "index": 1,
+        "letters": ["Б", "А", "Г"],
+        "answer": "баг"
+      },
+      {
+        "index": 2,
+        "letters": ["Ө", "Д", "Ө", "Р"],
+        "answer": "өдөр"
+      },
+      {
+        "index": 3,
+        "letters": ["С", "А", "Й", "Н"],
+        "answer": "сайн"
+      },
+      {
+        "index": 4,
+        "letters": ["У", "У"],
+        "answer": "уу"
+      },
+      {
+        "index": 5,
+        "letters": ["А", "Н", "Г", "И"],
+        "answer": "анги"
       }
-    }
+    ]
+  }
+}
   ]
 }

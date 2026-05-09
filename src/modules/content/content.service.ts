@@ -1,6 +1,4 @@
 import Level from "./level.model";
-import { Package } from "./package.model";
-import { Lesson } from "./lesson.model";
 import levelManifest from "../../data/seed/lessons/levels_manifest.json";
 import Vocabulary from "./vocabulary.model";
 import { findUnitsByCourseId } from "../learning/learning.repository";
@@ -172,20 +170,4 @@ export const getVocabularyLevel = async (levelId: string) => {
   return buildVocabularyLevelResponse(normalizedLevelId as SupportedVocabularyLevelId);
 };
 
-export const getLevelWithPackages = async (levelId: string) => {
-  const level = await Level.findOne({ id: levelId });
-  if (!level) throw new Error("Level not found");
 
-  const packages = await Package.find({ levelId }).sort({ order: 1 });
-
-  return { level, packages };
-};
-
-export const getPackageWithLessons = async (packageId: string) => {
-  const pack = await Package.findById(packageId);
-  if (!pack) throw new Error("Package not found");
-
-  const lessons = await Lesson.find({ packageId }).sort({ order: 1 });
-
-  return { pack, lessons };
-};

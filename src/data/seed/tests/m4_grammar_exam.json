@@ -10,6 +10,66 @@
       "id": "m4_grammar_q1",
       "levelId": "m4",
       "testType": "grammar",
+      "prompt": "Choose the sentence with a participle-like clause.",
+      "options": [
+        { "id": "a", "text": "Миний уншсан ном сонирхолтой." },
+        { "id": "b", "text": "Би ном уншина." },
+        { "id": "c", "text": "Ном ширээн дээр байна." },
+        { "id": "d", "text": "Би сонирхолтой." }
+      ],
+      "correctOptionId": "a",
+      "explanation": "\"уншсан ном\" means the book that I read.",
+      "order": 1
+    },
+    {
+      "id": "m4_grammar_q2",
+      "levelId": "m4",
+      "testType": "grammar",
+      "prompt": "Pick the correct imperative sentence.",
+      "options": [
+        { "id": "a", "text": "Энд суу." },
+        { "id": "b", "text": "Энд суусан." },
+        { "id": "c", "text": "Энд сууж байна." },
+        { "id": "d", "text": "Энд суух байсан." }
+      ],
+      "correctOptionId": "a",
+      "explanation": "\"суу\" is a command form.",
+      "order": 2
+    },
+    {
+      "id": "m4_grammar_q3",
+      "levelId": "m4",
+      "testType": "grammar",
+      "prompt": "Which sentence expresses purpose?",
+      "options": [
+        { "id": "a", "text": "Сурахын тулд цаг гаргав." },
+        { "id": "b", "text": "Сурсан учраас цаг гаргав." },
+        { "id": "c", "text": "Сурсан боловч цаг гаргав." },
+        { "id": "d", "text": "Сурсан эсэх цаг гаргав." }
+      ],
+      "correctOptionId": "a",
+      "explanation": "\"-хын тулд\" expresses purpose.",
+      "order": 3
+    },
+    {
+      "id": "m4_grammar_q4",
+      "levelId": "m4",
+      "testType": "grammar",
+      "prompt": "Choose the sentence with a conditional structure.",
+      "options": [
+        { "id": "a", "text": "Бэлтгэл сайн байвал амжилт гарна." },
+        { "id": "b", "text": "Бэлтгэл сайн учраас." },
+        { "id": "c", "text": "Бэлтгэл сайн боловч." },
+        { "id": "d", "text": "Бэлтгэл сайн гэж." }
+      ],
+      "correctOptionId": "a",
+      "explanation": "\"байвал\" creates a condition.",
+      "order": 4
+    },
+    {
+      "id": "m4_grammar_q5",
+      "levelId": "m4",
+      "testType": "grammar",
       "prompt": "Choose the sentence with a nuanced contrast.",
       "options": [
         { "id": "a", "text": "Төлөвлөсөн хэдий ч хэрэгжээгүй." },
@@ -19,10 +79,10 @@
       ],
       "correctOptionId": "a",
       "explanation": "\"хэдий ч\" expresses a stronger contrast.",
-      "order": 1
+      "order": 5
     },
     {
-      "id": "m4_grammar_q2",
+      "id": "m4_grammar_q6",
       "levelId": "m4",
       "testType": "grammar",
       "prompt": "Pick the sentence with inferred possibility.",
@@ -34,10 +94,10 @@
       ],
       "correctOptionId": "a",
       "explanation": "\"байж магадгүй\" expresses possibility or inference.",
-      "order": 2
+      "order": 6
     },
     {
-      "id": "m4_grammar_q3",
+      "id": "m4_grammar_q7",
       "levelId": "m4",
       "testType": "grammar",
       "prompt": "Which sentence shows regret about the past?",
@@ -49,10 +109,10 @@
       ],
       "correctOptionId": "a",
       "explanation": "\"бол ... байж\" can express regret or missed opportunity.",
-      "order": 3
+      "order": 7
     },
     {
-      "id": "m4_grammar_q4",
+      "id": "m4_grammar_q8",
       "levelId": "m4",
       "testType": "grammar",
       "prompt": "Choose the best formal cause phrase.",
@@ -64,13 +124,13 @@
       ],
       "correctOptionId": "a",
       "explanation": "\"тул\" is natural for a formal cause-and-result sentence.",
-      "order": 4
+      "order": 8
     },
     {
-      "id": "m4_grammar_q5",
+      "id": "m4_grammar_q9",
       "levelId": "m4",
       "testType": "grammar",
-      "prompt": "Pick the sentence with passive nuance.",
+      "prompt": "Pick the sentence with passive/resultative nuance.",
       "options": [
         { "id": "a", "text": "Төсөл батлагдсан." },
         { "id": "b", "text": "Төсөл батална." },
@@ -79,10 +139,10 @@
       ],
       "correctOptionId": "a",
       "explanation": "\"батлагдсан\" has passive or resultative nuance.",
-      "order": 5
+      "order": 9
     },
     {
-      "id": "m4_grammar_q6",
+      "id": "m4_grammar_q10",
       "levelId": "m4",
       "testType": "grammar",
       "prompt": "Which sentence uses a nominalized clause?",
@@ -94,10 +154,10 @@
       ],
       "correctOptionId": "a",
       "explanation": "\"хэлсэн нь\" nominalizes the clause as the subject.",
-      "order": 6
+      "order": 10
     },
     {
-      "id": "m4_grammar_q7",
+      "id": "m4_grammar_q11",
       "levelId": "m4",
       "testType": "grammar",
       "prompt": "Choose the sentence with a formal suggestion.",
@@ -109,10 +169,10 @@
       ],
       "correctOptionId": "a",
       "explanation": "\"... нь зүйтэй\" gives a formal recommendation.",
-      "order": 7
+      "order": 11
     },
     {
-      "id": "m4_grammar_q8",
+      "id": "m4_grammar_q12",
       "levelId": "m4",
       "testType": "grammar",
       "prompt": "Pick the sentence with consequence emphasis.",
@@ -124,7 +184,7 @@
       ],
       "correctOptionId": "a",
       "explanation": "\"-снаас\" frames the cause that led to a consequence.",
-      "order": 8
+      "order": 12
     }
   ]
 }

@@ -12,7 +12,7 @@
       "testType": "vocabulary",
       "prompt": "What does \"хандлага\" mean?",
       "options": [
-        { "id": "a", "text": "approach" },
+        { "id": "a", "text": "approach / attitude" },
         { "id": "b", "text": "bucket" },
         { "id": "c", "text": "branch" },
         { "id": "d", "text": "receipt" }
@@ -117,7 +117,7 @@
       "testType": "vocabulary",
       "prompt": "What is \"хувилбар\"?",
       "options": [
-        { "id": "a", "text": "option" },
+        { "id": "a", "text": "option / version" },
         { "id": "b", "text": "needle" },
         { "id": "c", "text": "riverbank" },
         { "id": "d", "text": "mood" }
@@ -125,6 +125,66 @@
       "correctOptionId": "a",
       "explanation": "\"хувилбар\" means option or version.",
       "order": 8
+    },
+    {
+      "id": "m4_vocab_q9",
+      "levelId": "m4",
+      "testType": "vocabulary",
+      "prompt": "Choose the meaning of \"үзэл баримтлал\".",
+      "options": [
+        { "id": "a", "text": "concept / framework" },
+        { "id": "b", "text": "bus stop" },
+        { "id": "c", "text": "meal" },
+        { "id": "d", "text": "bed" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "\"үзэл баримтлал\" means concept or framework.",
+      "order": 9
+    },
+    {
+      "id": "m4_vocab_q10",
+      "levelId": "m4",
+      "testType": "vocabulary",
+      "prompt": "Which word means \"analysis\"?",
+      "options": [
+        { "id": "a", "text": "шинжилгээ" },
+        { "id": "b", "text": "цонх" },
+        { "id": "c", "text": "тасалбар" },
+        { "id": "d", "text": "өндөр" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "\"шинжилгээ\" means analysis.",
+      "order": 10
+    },
+    {
+      "id": "m4_vocab_q11",
+      "levelId": "m4",
+      "testType": "vocabulary",
+      "prompt": "What does \"хэрэгжилт\" mean?",
+      "options": [
+        { "id": "a", "text": "implementation" },
+        { "id": "b", "text": "weather" },
+        { "id": "c", "text": "sand" },
+        { "id": "d", "text": "rope" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "\"хэрэгжилт\" means implementation.",
+      "order": 11
+    },
+    {
+      "id": "m4_vocab_q12",
+      "levelId": "m4",
+      "testType": "vocabulary",
+      "prompt": "Choose the word for \"evaluation\".",
+      "options": [
+        { "id": "a", "text": "үнэлгээ" },
+        { "id": "b", "text": "хаалга" },
+        { "id": "c", "text": "билет" },
+        { "id": "d", "text": "сандал" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "\"үнэлгээ\" means evaluation or assessment.",
+      "order": 12
     }
   ]
 }
