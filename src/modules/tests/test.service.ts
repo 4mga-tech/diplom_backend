@@ -4,6 +4,7 @@ import { LevelTest } from "./test.model";
 
 type TestType = "vocabulary" | "grammar";
 type DisplayTestType = TestType | "listening" | "speaking";
+type LevelTestLevelId = "m1" | "m2" | "m3" | "m4";
 
 type TestAnswerPayload = {
   questionId: string;
@@ -18,22 +19,22 @@ const DISPLAY_TEST_TYPES: Array<{
   title: string;
   active: boolean;
 }> = [
-  { testType: "vocabulary", title: "Vocabulary Exam", active: true },
-  { testType: "grammar", title: "Grammar Exam", active: true },
-  { testType: "listening", title: "Listening", active: false },
-  { testType: "speaking", title: "Speaking", active: false },
-];
-const VALID_LEVEL_IDS = new Set(["m1", "m2", "m3", "m4"]);
+    { testType: "vocabulary", title: "Vocabulary Exam", active: true },
+    { testType: "grammar", title: "Grammar Exam", active: true },
+    { testType: "listening", title: "Listening", active: false },
+    { testType: "speaking", title: "Speaking", active: false },
+  ];
+const VALID_LEVEL_IDS = new Set<LevelTestLevelId>(["m1", "m2", "m3", "m4"]);
 const ACTIVE_TEST_TYPE_SET = new Set<TestType>(ACTIVE_TEST_TYPES);
 
-const normalizeLevelId = (levelId: string) => {
+const normalizeLevelId = (levelId: string): LevelTestLevelId => {
   const normalized = levelId.trim().toLowerCase();
 
-  if (!VALID_LEVEL_IDS.has(normalized)) {
+  if (!VALID_LEVEL_IDS.has(normalized as LevelTestLevelId)) {
     throw new Error("Unsupported levelId");
   }
 
-  return normalized;
+  return normalized as LevelTestLevelId;
 };
 
 const normalizeTestType = (testType: string): TestType => {
@@ -46,7 +47,7 @@ const normalizeTestType = (testType: string): TestType => {
   return normalized as TestType;
 };
 
-const getTestOrThrow = async (levelId: string, testType: TestType) => {
+const getTestOrThrow = async (levelId: LevelTestLevelId, testType: TestType) => {
   const levelTest = await LevelTest.findOne({ levelId, testType }).lean();
 
   if (!levelTest) {
@@ -195,11 +196,11 @@ export const submitLevelTest = async (
 
   const xpResult = passed
     ? await applyXpChangeOnce({
-        userId,
-        sourceType: "level_test_reward",
-        sourceId: `${levelId}:${testType}`,
-        xp: levelTest.xpReward,
-      })
+      userId,
+      sourceType: "level_test_reward",
+      sourceId: `${levelId}:${testType}`,
+      xp: levelTest.xpReward,
+    })
     : { xpDelta: 0, totalXp: (await findUserById(userId))?.totalXP ?? 0 };
 
   if (!passed) {

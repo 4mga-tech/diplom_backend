@@ -11,7 +11,7 @@ import lessonRoutes from "./modules/lessons/lesson.route";
 import quizRoutes from "./modules/quiz/quiz.route";
 import reviewRoutes from "./modules/review/review.route";
 import testRoutes from "./modules/tests/test.route";
-
+import leaderboardRoutes from "./modules/leaderboard/leaderboard.route";
 const app = express();
 const uploadsDir = path.resolve(process.cwd(), "uploads");
 
@@ -29,5 +29,9 @@ app.use("/api", lessonRoutes);
 app.use("/api", quizRoutes);
 app.use("/api", reviewRoutes);
 app.use("/api/tests", testRoutes);
-
+app.use("/leaderboard", leaderboardRoutes);
+app.use(
+  "/audio",
+  express.static(path.join(process.cwd(), "uploads/audio"))
+);
 export default app;
