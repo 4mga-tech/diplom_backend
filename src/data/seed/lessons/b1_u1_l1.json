@@ -2,8 +2,8 @@
   "lesson": {
     "id": "b1-u1-l1",
     "unitId": "b1-u1",
-    "title": "Mongolian Cyrillic Introduction",
-    "subtitle": "35 letters in print and cursive",
+    "title": "Mongolian Cyrillic",
+    "subtitle": "35 letters: vowels, consonants, signs",
     "order": 1,
     "xpReward": 20,
     "quizXpReward": 0
@@ -12,49 +12,73 @@
     {
       "id": "b1-u1-l1-c1",
       "lessonId": "b1-u1-l1",
-      "type": "text",
-      "title": "Overview",
+      "type": "hero_intro",
+      "title": "What is Mongolian Cyrillic?",
       "order": 1,
       "content": {
-        "section": "reading",
-        "textMn": "Монгол кирилл цагаан толгой 35 үсэгтэй. Энэ нэгжид үсгийг таньж, ангилж, бичиж, уншиж сурна.",
-        "textEn": "The Mongolian Cyrillic alphabet has 35 letters. In this unit you will recognize, group, write, and read them."
+        "textEn": "Mongolian Cyrillic has 35 letters.",
+        "textMn": "Монгол кирилл цагаан толгой 35 үсэгтэй.",
+        "stats": [
+          { "label": "Vowels", "value": 13 },
+          { "label": "Consonants", "value": 20 },
+          { "label": "Signs", "value": 2 }
+        ]
       }
     },
     {
       "id": "b1-u1-l1-c2",
       "lessonId": "b1-u1-l1",
-      "type": "text",
-      "title": "What It Looks Like",
+      "type": "alphabet_preview",
+      "title": "Alphabet preview",
       "order": 2,
       "content": {
-        "section": "reading",
-        "textMn": "Үсэг бүр дармал ба бичмэл хэлбэртэй. Та эхлээд хэлбэрийг таньж, дараа нь дараагийн хичээлүүдэд бүлэглэж, бичиж, уншина.",
-        "textEn": "Each letter has print and cursive forms. First you will recognize them, then in the next lessons you will group, write, and read them."
+        "letters": [
+          "А","Б","В","Г","Д","Е","Ё",
+          "Ж","З","И","Й","К","Л","М",
+          "Н","О","Ө","П","Р","С","Т",
+          "У","Ү","Ф","Х","Ц","Ч","Ш",
+          "Щ","Ъ","Ы","Ь","Э","Ю","Я"
+        ]
       }
     },
     {
       "id": "b1-u1-l1-c3",
       "lessonId": "b1-u1-l1",
       "type": "classification",
-      "title": "Quick Preview",
+      "title": "Letter groups",
       "order": 3,
       "content": {
-        "section": "reading",
-        "summary": "Дараагийн хичээлүүдэд үсгийг дараах бүлгээр сурна.",
         "groups": [
           {
             "title": "Vowels",
-            "items": ["13 letters"]
+            "count": 13,
+            "items": ["А", "Э", "И", "О", "У", "Ө", "Ү"]
           },
           {
             "title": "Consonants",
-            "items": ["20 letters"]
+            "count": 20,
+            "items": ["Б", "В", "Г", "Д", "Ж"]
           },
           {
-            "title": "Sign letters",
+            "title": "Signs",
+            "count": 2,
             "items": ["Ъ", "Ь"]
           }
+        ]
+      }
+    },
+    {
+      "id": "b1-u1-l1-c4",
+      "lessonId": "b1-u1-l1",
+      "type": "next_steps",
+      "title": "In this unit",
+      "order": 4,
+      "content": {
+        "steps": [
+          "Learn letter groups",
+          "Trace the letters",
+          "Listen and repeat",
+          "Build simple syllables and words"
         ]
       }
     }

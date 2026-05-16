@@ -2,71 +2,159 @@
   "lesson": {
     "id": "b1-u1-l4",
     "unitId": "b1-u1",
-    "title": "Listen and Repeat",
-    "subtitle": "Pronunciation drills with placeholder audio",
+    "title": "Practice Building Words",
+    "subtitle": "Fill letters and build simple words",
     "order": 4,
-    "xpReward": 20,
+    "xpReward": 25,
     "quizXpReward": 0
   },
   "contents": [
     {
       "id": "b1-u1-l4-c1",
       "lessonId": "b1-u1-l4",
-      "type": "text",
-      "title": "Practice Tip",
+      "type": "hero_intro",
+      "title": "Practice time",
       "order": 1,
       "content": {
-        "section": "exercises",
-        "textMn": "Эхлээд сонс, дараа нь чангаар давт. Нэг мөрийг хэд хэдэн удаа унш.",
-        "textEn": "Listen first, then repeat aloud. Read each line several times."
+        "textEn": "Use the letters and syllables you learned to complete simple words.",
+        "textMn": "Сурсан үсэг, үеэ ашиглан энгийн үг бүтээнэ.",
+        "stats": [
+          {
+            "label": "Fill",
+            "value": 5
+          },
+          {
+            "label": "Words",
+            "value": 5
+          }
+        ]
       }
     },
     {
       "id": "b1-u1-l4-c2",
       "lessonId": "b1-u1-l4",
-      "type": "exercise_repeat",
-      "title": "Basic Vowels",
+      "type": "exercise_fill",
+      "title": "Fill the missing letter",
       "order": 2,
       "content": {
-        "section": "exercises",
-        "instructionMn": "Эгшиг бүрийг дангаар нь давт.",
-        "instructionEn": "Repeat each basic vowel by itself.",
-        "rows": [
-          { "prompt": "А Э И О У Ө Ү", "line": "а э и о у ө ү", "audioUrl": "" }
+        "instructionEn": "Choose the missing letter.",
+        "questions": [
+          {
+            "prompt": "_ом",
+            "options": [
+              "Н",
+              "Б",
+              "С"
+            ],
+            "answer": "Н",
+            "result": "ном",
+            "meaningEn": "book"
+          },
+          {
+            "prompt": "г_р",
+            "options": [
+              "Э",
+              "А",
+              "О"
+            ],
+            "answer": "Э",
+            "result": "гэр",
+            "meaningEn": "home"
+          },
+          {
+            "prompt": "_с",
+            "options": [
+              "У",
+              "А",
+              "Э"
+            ],
+            "answer": "У",
+            "result": "ус",
+            "meaningEn": "water"
+          }
         ]
       }
     },
     {
       "id": "b1-u1-l4-c3",
       "lessonId": "b1-u1-l4",
-      "type": "exercise_repeat",
-      "title": "Auxiliary Vowels",
+      "type": "exercise_word_build",
+      "title": "Build simple words",
       "order": 3,
       "content": {
-        "section": "exercises",
-        "instructionMn": "Туслах эгшгийг удаанаар унш.",
-        "instructionEn": "Read the auxiliary vowels slowly.",
-        "rows": [
-          { "prompt": "Е Ё Й Ы Ю Я", "line": "е ё й ы ю я", "audioUrl": "" }
+        "instructionEn": "Tap the letters in the correct order, then check your answer.",
+        "questions": [
+          {
+            "index": 1,
+            "meaningEn": "book",
+            "letters": [
+              "О",
+              "М",
+              "Н"
+            ],
+            "answer": "НОМ",
+            "displayAnswer": "ном"
+          },
+          {
+            "index": 2,
+            "meaningEn": "group / team",
+            "letters": [
+              "Г",
+              "Б",
+              "А"
+            ],
+            "answer": "БАГ",
+            "displayAnswer": "баг"
+          },
+          {
+            "index": 3,
+            "meaningEn": "home",
+            "letters": [
+              "Р",
+              "Г",
+              "Э"
+            ],
+            "answer": "ГЭР",
+            "displayAnswer": "гэр"
+          },
+          {
+            "index": 4,
+            "meaningEn": "day",
+            "letters": [
+              "Ө",
+              "Р",
+              "Д",
+              "Ө"
+            ],
+            "answer": "ӨДӨР",
+            "displayAnswer": "өдөр"
+          },
+          {
+            "index": 5,
+            "meaningEn": "good / hello",
+            "letters": [
+              "Й",
+              "Н",
+              "А",
+              "С"
+            ],
+            "answer": "САЙН",
+            "displayAnswer": "сайн"
+          }
         ]
       }
     },
     {
       "id": "b1-u1-l4-c4",
       "lessonId": "b1-u1-l4",
-      "type": "exercise_repeat",
-      "title": "Consonant and Vowel Drills",
+      "type": "next_steps",
+      "title": "Next",
       "order": 4,
       "content": {
-        "section": "exercises",
-        "instructionMn": "Үеийг сонсож дагаж унш.",
-        "instructionEn": "Listen to the syllables and repeat them.",
-        "rows": [
-          { "prompt": "Б В Г Д Ж З", "line": "ба ва га да жа за", "audioUrl": "" },
-          { "prompt": "Л М Н Р С Т", "line": "ло мо но ро со то", "audioUrl": "" },
-          { "prompt": "Х Ц Ч Ш", "line": "хи ци чи ши", "audioUrl": "" },
-          { "prompt": "Б Г М Н", "line": "бө гө мө нө", "audioUrl": "" },
-          { "prompt": "С Т Х Ч", "line": "сү тү хү чү", "audioUrl": "" }
+        "steps": [
+          "Review the letters",
+          "Practice word building",
+          "Get ready for the final check"
         ]
       }
     }
