@@ -1,0 +1,212 @@
+[
+  {
+    "id": "b1-letter-match",
+    "type": "letter_match",
+    "levelId": "b1",
+    "title": "Letter Match",
+    "subtitle": "Choose the correct group",
+    "description": "Practice identifying Cyrillic letters by their sound and shape.",
+    "xpReward": 5,
+    "maxDailyXp": 20,
+    "dailyAttemptLimit": 10,
+    "isActive": true,
+    "order": 1,
+    "config": {
+      "timeLimitSeconds": 60
+    },
+    "questions": [
+      {
+        "id": "q1",
+        "prompt": "Which letter is a vowel?",
+        "options": ["А", "Б", "М"],
+        "correctAnswer": "А"
+      },
+      {
+        "id": "q2",
+        "prompt": "Which letter is a vowel?",
+        "options": ["Э", "Г", "С"],
+        "correctAnswer": "Э"
+      },
+      {
+        "id": "q3",
+        "prompt": "Which letter is a consonant?",
+        "options": ["И", "Р", "О"],
+        "correctAnswer": "Р"
+      },
+      {
+        "id": "q4",
+        "prompt": "Which letter represents 'oo' sound?",
+        "options": ["У", "Ө", "Ү"],
+        "correctAnswer": "У"
+      },
+      {
+        "id": "q5",
+        "prompt": "Which letter represents 'o-umlaut' sound?",
+        "options": ["О", "Ө", "Ү"],
+        "correctAnswer": "Ө"
+      }
+    ]
+  },
+  {
+    "id": "b1-listen-choose",
+    "type": "listen_choose",
+    "levelId": "b1",
+    "title": "Listen & Choose",
+    "subtitle": "Select the word you hear",
+    "description": "Develop listening comprehension with common B1 words.",
+    "xpReward": 5,
+    "maxDailyXp": 20,
+    "dailyAttemptLimit": 10,
+    "isActive": true,
+    "order": 2,
+    "config": {
+      "timeLimitSeconds": 45
+    },
+    "questions": [
+      {
+        "id": "q1",
+        "prompt": "Select the word: ном",
+        "options": ["ном", "гэр", "ус"],
+        "correctAnswer": "ном"
+      },
+      {
+        "id": "q2",
+        "prompt": "Select the word: гэр",
+        "options": ["баг", "гэр", "сайн"],
+        "correctAnswer": "гэр"
+      },
+      {
+        "id": "q3",
+        "prompt": "Select the word: ус",
+        "options": ["өдөр", "ус", "баг"],
+        "correctAnswer": "ус"
+      },
+      {
+        "id": "q4",
+        "prompt": "Select the word: баг",
+        "options": ["баг", "ном", "өдөр"],
+        "correctAnswer": "баг"
+      }
+    ]
+  },
+  {
+    "id": "b1-word-builder",
+    "type": "word_builder",
+    "levelId": "b1",
+    "title": "Word Builder",
+    "subtitle": "Arrange letters to form words",
+    "description": "Build common Mongolian words from scrambled letters.",
+    "xpReward": 8,
+    "maxDailyXp": 24,
+    "dailyAttemptLimit": 6,
+    "isActive": true,
+    "order": 3,
+    "config": {
+      "timeLimitSeconds": 90
+    },
+    "questions": [
+      {
+        "id": "q1",
+        "prompt": "Arrange letters to form: ном (book)",
+        "options": ["nom", "mon", "nmo"],
+        "correctAnswer": "nom"
+      },
+      {
+        "id": "q2",
+        "prompt": "Arrange letters to form: гэр (house)",
+        "options": ["ger", "gre", "reg"],
+        "correctAnswer": "ger"
+      },
+      {
+        "id": "q3",
+        "prompt": "Arrange letters to form: сайн (good)",
+        "options": ["sain", "sans", "ains"],
+        "correctAnswer": "sain"
+      }
+    ]
+  },
+  {
+    "id": "b1-missing-letter",
+    "type": "missing_letter",
+    "levelId": "b1",
+    "title": "Missing Letter",
+    "subtitle": "Fill in the blank",
+    "description": "Complete words by finding the missing letter.",
+    "xpReward": 6,
+    "maxDailyXp": 18,
+    "dailyAttemptLimit": 8,
+    "isActive": true,
+    "order": 4,
+    "config": {
+      "timeLimitSeconds": 60
+    },
+    "questions": [
+      {
+        "id": "q1",
+        "prompt": "н__ (letter?)",
+        "options": ["о", "а", "у"],
+        "correctAnswer": "о"
+      },
+      {
+        "id": "q2",
+        "prompt": "г__р (house)",
+        "options": ["э", "е", "а"],
+        "correctAnswer": "э"
+      },
+      {
+        "id": "q3",
+        "prompt": "__с (water)",
+        "options": ["у", "о", "а"],
+        "correctAnswer": "у"
+      },
+      {
+        "id": "q4",
+        "prompt": "б__г (group)",
+        "options": ["а", "е", "и"],
+        "correctAnswer": "а"
+      }
+    ]
+  },
+  {
+    "id": "b1-daily-challenge",
+    "type": "daily_challenge",
+    "levelId": "b1",
+    "title": "Daily Challenge",
+    "subtitle": "Mix of all game types",
+    "description": "Test your skills with a variety of challenges.",
+    "xpReward": 10,
+    "maxDailyXp": 10,
+    "dailyAttemptLimit": 1,
+    "isActive": true,
+    "order": 5,
+    "config": {
+      "timeLimitSeconds": 180
+    },
+    "questions": [
+      {
+        "id": "q1",
+        "prompt": "Which is a vowel: А, Б, М?",
+        "options": ["А", "Б", "М"],
+        "correctAnswer": "А"
+      },
+      {
+        "id": "q2",
+        "prompt": "Choose the word: ус",
+        "options": ["ус", "баг", "сайн"],
+        "correctAnswer": "ус"
+      },
+      {
+        "id": "q3",
+        "prompt": "What means 'house'?",
+        "options": ["ном", "гэр", "баг"],
+        "correctAnswer": "гэр"
+      },
+      {
+        "id": "q4",
+        "prompt": "Complete: с__йн (good)",
+        "options": ["а", "е", "и"],
+        "correctAnswer": "а"
+      }
+    ]
+  }
+]

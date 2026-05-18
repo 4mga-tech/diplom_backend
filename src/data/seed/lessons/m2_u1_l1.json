@@ -2,33 +2,39 @@
   "lesson": {
     "id": "m2_u1_l1",
     "unitId": "m2-u1",
-    "title": "Үйл үгийн төгсгөл",
-    "titleEn": "Verb Endings",
-    "subtitle": "Одоо, өнгөрсөн, ирээдүйн хэлбэр",
-    "subtitleEn": "Present, past, and future forms",
+    "title": "Үйл үгийн цаг",
+    "titleEn": "Verb Tenses",
+    "subtitle": "Одоо, өнгөрсөн, ирээдүй",
+    "subtitleEn": "Present, past, and future",
     "order": 1,
-    "xpReward": 20
+    "xpReward": 25,
+    "quizXpReward": 0
   },
   "contents": [
     {
       "id": "m2_u1_l1_c1",
       "lessonId": "m2_u1_l1",
-      "type": "text",
-      "title": "Тайлбар",
+      "type": "hero_intro",
+      "title": "Гол санаа",
       "order": 1,
       "content": {
-        "textMn": "Үйл үгийн төгсгөл нь цаг, байдал, утгын өнгийг илэрхийлдэг.",
-        "textEn": "Verb endings show tense, aspect, and sentence meaning."
+        "textMn": "Монгол хэлэнд үйл үгийн хэлбэр нь үйл явдал хэзээ болж байгааг илэрхийлнэ.",
+        "textEn": "Verb forms show when an action happens.",
+        "stats": [
+          { "label": "Present", "value": "байна" },
+          { "label": "Past", "value": "-сан/-сэн" },
+          { "label": "Future", "value": "-на/-нэ" }
+        ]
       }
     },
     {
       "id": "m2_u1_l1_c2",
       "lessonId": "m2_u1_l1",
       "type": "classification",
-      "title": "Жишээ хэлбэр",
+      "title": "3 үндсэн хэлбэр",
       "order": 2,
       "content": {
-        "summary": "Түгээмэл төгсгөлийн жишээ",
+        "summary": "Нэг үйл үгийг гурван цаг дээр харьцуул.",
         "groups": [
           {
             "title": "Одоо",
@@ -45,31 +51,25 @@
         ],
         "glossary": [
           { "word": "уншиж байна", "translation": "is reading" },
-          { "word": "явж байна", "translation": "is going" },
-          { "word": "хийж байна", "translation": "is doing" },
           { "word": "уншсан", "translation": "read / has read" },
-          { "word": "явсан", "translation": "went / has gone" },
-          { "word": "хийсэн", "translation": "did / has done" },
           { "word": "уншина", "translation": "will read" },
-          { "word": "явна", "translation": "will go" },
-          { "word": "хийнэ", "translation": "will do" }
+          { "word": "явж байна", "translation": "is going" },
+          { "word": "явсан", "translation": "went / has gone" },
+          { "word": "явна", "translation": "will go" }
         ]
       }
     },
     {
       "id": "m2_u1_l1_c3",
       "lessonId": "m2_u1_l1",
-      "type": "exercise_repeat",
-      "title": "Дагаж унш",
+      "type": "grammar_note",
+      "title": "Pattern",
       "order": 3,
       "content": {
-        "instructionMn": "Дараах хэлбэрүүдийг чанга уншаарай.",
-        "instructionEn": "Read the following forms aloud.",
-        "rows": ["ирж байна", "ирсэн", "ирнэ"],
-        "glossary": [
-          { "word": "ирж байна", "translation": "is coming" },
-          { "word": "ирсэн", "translation": "came / has come" },
-          { "word": "ирнэ", "translation": "will come" }
+        "notes": [
+          "Одоо цаг: үйл үг + ж/ч байна",
+          "Өнгөрсөн цаг: үйл үг + сан/сэн/сон/сөн",
+          "Ирээдүй цаг: үйл үг + на/нэ"
         ]
       }
     },
@@ -77,17 +77,47 @@
       "id": "m2_u1_l1_c4",
       "lessonId": "m2_u1_l1",
       "type": "exercise_fill",
-      "title": "Сонголт",
+      "title": "Зөв хэлбэрийг сонго",
       "order": 4,
       "content": {
-        "instructionMn": "Ирээдүйн хэлбэрийг сонго.",
-        "instructionEn": "Choose the future form.",
-        "groups": [
+        "instructionMn": "Өгүүлбэрт тохирох үйл үгийн хэлбэрийг сонго.",
+        "instructionEn": "Choose the correct verb form.",
+        "questions": [
           {
-            "sentence": "Тэр маргааш ___ .",
+            "prompt": "Тэр одоо ном ___ .",
+            "options": ["уншсан", "уншиж байна", "уншина"],
+            "answer": "уншиж байна",
+            "result": "Тэр одоо ном уншиж байна.",
+            "meaningEn": "He/She is reading a book now."
+          },
+          {
+            "prompt": "Би өчигдөр сургууль руу ___ .",
             "options": ["явсан", "явж байна", "явна"],
-            "answer": "явна"
+            "answer": "явсан",
+            "result": "Би өчигдөр сургууль руу явсан.",
+            "meaningEn": "I went to school yesterday."
+          },
+          {
+            "prompt": "Тэр маргааш ажил ___ .",
+            "options": ["хийсэн", "хийж байна", "хийнэ"],
+            "answer": "хийнэ",
+            "result": "Тэр маргааш ажил хийнэ.",
+            "meaningEn": "He/She will work tomorrow."
           }
+        ]
+      }
+    },
+    {
+      "id": "m2_u1_l1_c5",
+      "lessonId": "m2_u1_l1",
+      "type": "next_steps",
+      "title": "Дараа нь",
+      "order": 5,
+      "content": {
+        "steps": [
+          "Одоо цагийн хэлбэрийг ялгана",
+          "Өнгөрсөн цагийг өгүүлбэрт хэрэглэнэ",
+          "Ирээдүйн хэлбэрийг сонгож сурна"
         ]
       }
     }

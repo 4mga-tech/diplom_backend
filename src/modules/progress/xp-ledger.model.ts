@@ -10,6 +10,7 @@ const XP_SOURCE_TYPES = [
   "lesson_complete",
   "quiz_submit",
   "review_submit",
+  "game_reward",
 ] as const;
 
 const XpLedgerSchema = new mongoose.Schema(

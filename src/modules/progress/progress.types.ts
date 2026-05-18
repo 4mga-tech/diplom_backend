@@ -14,4 +14,5 @@ export type XpSourceType =
   | "test_hint_spend"
   | "lesson_complete"
   | "quiz_submit"
-  | "review_submit";
+  | "review_submit"
+  | "game_reward";
