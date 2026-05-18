@@ -13,6 +13,7 @@ import reviewRoutes from "./modules/review/review.route";
 import testRoutes from "./modules/tests/test.route";
 import leaderboardRoutes from "./modules/leaderboard/leaderboard.route";
 import gameRoutes from "./modules/games/game.route";
+import practiceRoutes from "./modules/practice/practice.route";
 const app = express();
 const uploadsDir = path.resolve(process.cwd(), "uploads");
 
@@ -31,6 +32,7 @@ app.use("/api", quizRoutes);
 app.use("/api", reviewRoutes);
 app.use("/api/tests", testRoutes);
 app.use("/leaderboard", leaderboardRoutes);
+app.use("/api", practiceRoutes);
 app.use("/api", gameRoutes);
 app.use(
   "/audio",
