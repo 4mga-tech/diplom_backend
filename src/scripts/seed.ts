@@ -17,7 +17,7 @@ import { QuizAttempt } from "../modules/progress/quiz-attempt.model";
 import { XpLedger } from "../modules/progress/xp-ledger.model";
 import Level from "../modules/content/level.model";
 import Vocabulary from "../modules/content/vocabulary.model";
-import { Game } from "../modules/games/game.model";
+import { Practice } from "../modules/practice/practice.model";
 import {
   SUPPORTED_VOCABULARY_LEVEL_IDS,
   getVocabularyCountsByLevel,
@@ -84,7 +84,7 @@ type LessonSeedBundle = {
 
 const LESSON_SEED_DIR = path.resolve(process.cwd(), "src", "data", "seed", "lessons");
 const TEST_SEED_DIR = path.resolve(process.cwd(), "src", "data", "seed", "tests");
-const GAME_SEED_DIR = path.resolve(process.cwd(), "src", "data", "seed", "games");
+const PRACTICE_SEED_DIR = path.resolve(process.cwd(), "src", "data", "seed", "practice");
 
 const readJsonFile = async <T>(filePath: string) => {
   const fileContents = await fs.readFile(filePath, "utf8");
@@ -136,8 +136,8 @@ const getTestSeedFileNames = async () => {
     .sort((left, right) => left.localeCompare(right));
 };
 
-const getGameSeedFileNames = async () => {
-  const entries = await fs.readdir(GAME_SEED_DIR, { withFileTypes: true });
+const getPracticeSeedFileNames = async () => {
+  const entries = await fs.readdir(PRACTICE_SEED_DIR, { withFileTypes: true });
 
   return entries
     .filter((entry) => entry.isFile())
@@ -259,12 +259,12 @@ const validateLevelTests = (tests: LevelTestSeed[]) => {
 };
 
 const loadSeedData = async () => {
-  const [levelsManifest, unitsManifest, lessonSeedFileNames, gameSeedFileNames] =
+  const [levelsManifest, unitsManifest, lessonSeedFileNames, practiceSeedFileNames] =
     await Promise.all([
       readJsonFile<LevelSeed[]>(path.join(LESSON_SEED_DIR, "levels_manifest.json")),
       readJsonFile<UnitSeed[]>(path.join(LESSON_SEED_DIR, "units_manifest.json")),
       getLessonSeedFileNames(),
-      getGameSeedFileNames(),
+      getPracticeSeedFileNames(),
     ]);
   const testSeedFileNames = await getTestSeedFileNames();
 
@@ -282,9 +282,9 @@ const loadSeedData = async () => {
   );
   validateLevelTests(levelTests);
 
-  const games = await Promise.all(
-    gameSeedFileNames.map((fileName) =>
-      readJsonFile<Array<any>>(path.join(GAME_SEED_DIR, fileName)),
+  const practiceItems = await Promise.all(
+    practiceSeedFileNames.map((fileName) =>
+      readJsonFile<Array<any>>(path.join(PRACTICE_SEED_DIR, fileName)),
     ),
   );
 
@@ -293,14 +293,14 @@ const loadSeedData = async () => {
     unitsManifest,
     lessonSeeds,
     levelTests,
-    games: games.flat(),
+    practices: practiceItems.flat(),
   };
 };
 
 
 async function seed() {
   await connectDB(env.MONGODB_URI);
-  const { levelsManifest, unitsManifest, lessonSeeds, levelTests, games } =
+  const { levelsManifest, unitsManifest, lessonSeeds, levelTests, practices } =
     await loadSeedData();
   const vocabularySeedRecords = loadVocabularySeedRecords();
   const vocabularyCountsByLevel = getVocabularyCountsByLevel(vocabularySeedRecords);
@@ -371,9 +371,9 @@ async function seed() {
   console.log("Creating vocabulary...");
   await Vocabulary.insertMany(vocabularySeedRecords);
 
-  console.log("Upserting games...");
-  for (const game of games) {
-    await Game.findOneAndUpdate({ id: game.id }, game, { upsert: true });
+  console.log("Upserting practice...");
+  for (const practice of practices) {
+    await Practice.findOneAndUpdate({ id: practice.id }, practice, { upsert: true });
   }
 
   // console.log("Creating daily review...");
