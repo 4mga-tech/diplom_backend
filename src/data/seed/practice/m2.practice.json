@@ -1,7 +1,628 @@
 [
-  {"id":"m2-missing-letter","type":"missing_letter","levelId":"m2","title":"Missing Letter","subtitle":"Complete tense forms","description":"Fill missing letters in present/past/future forms.","xpReward":6,"maxDailyXp":24,"dailyAttemptLimit":10,"isActive":true,"order":1,"config":{"shuffleQuestions":true},"questions":[{"id":"m2-missing-letter-q1","prompt":"walk_d (past)","options":["e","a","i"],"correctAnswer":"e","result":"walked","meaningEn":"past form"},{"id":"m2-missing-letter-q2","prompt":"w_ll (future marker)","options":["i","e","a"],"correctAnswer":"i","result":"will","meaningEn":"future marker"},{"id":"m2-missing-letter-q3","prompt":"cook_ng (present continuous)","options":["i","e","a"],"correctAnswer":"i","result":"cooking","meaningEn":"present continuous"},{"id":"m2-missing-letter-q4","prompt":"play_d (past)","options":["e","a","i"],"correctAnswer":"e","result":"played","meaningEn":"past form"},{"id":"m2-missing-letter-q5","prompt":"stud_ing (present continuous)","options":["y","i","e"],"correctAnswer":"y","result":"studying","meaningEn":"present continuous"},{"id":"m2-missing-letter-q6","prompt":"trav_l (base verb)","options":["e","a","i"],"correctAnswer":"e","result":"travel","meaningEn":"base verb"}]},
-  {"id":"m2-letter-match","type":"letter_match","levelId":"m2","title":"Letter Match","subtitle":"Match tense markers","description":"Match sentence with tense marker.","xpReward":5,"maxDailyXp":20,"dailyAttemptLimit":10,"isActive":true,"order":2,"config":{"shuffleQuestions":true},"questions":[{"id":"m2-letter-match-q1","prompt":"Yesterday I __ home.","options":["walked","walk","will walk"],"correctAnswer":"walked","result":"walked","meaningEn":"past"},{"id":"m2-letter-match-q2","prompt":"Tomorrow I __ to school.","options":["walked","walk","will walk"],"correctAnswer":"will walk","result":"will walk","meaningEn":"future"},{"id":"m2-letter-match-q3","prompt":"Now she __ dinner.","options":["cooks","cooked","will cook"],"correctAnswer":"cooks","result":"cooks","meaningEn":"present"},{"id":"m2-letter-match-q4","prompt":"Last week they __ a movie.","options":["watch","watched","will watch"],"correctAnswer":"watched","result":"watched","meaningEn":"past"},{"id":"m2-letter-match-q5","prompt":"Next year we __ abroad.","options":["travel","traveled","will travel"],"correctAnswer":"will travel","result":"will travel","meaningEn":"future"},{"id":"m2-letter-match-q6","prompt":"Every day he __ English.","options":["studies","studied","will study"],"correctAnswer":"studies","result":"studies","meaningEn":"present"}]},
-  {"id":"m2-word-builder","type":"word_builder","levelId":"m2","title":"Word Builder","subtitle":"Build tense forms","description":"Build correct verb forms for tense practice.","xpReward":6,"maxDailyXp":24,"dailyAttemptLimit":8,"isActive":true,"order":3,"config":{"shuffleQuestions":true},"questions":[{"id":"m2-word-builder-q1","prompt":"Present form with I (to read)","letters":["I","read"],"options":["I read","I reads","I reading"],"correctAnswer":"I read","result":"I read","meaningEn":"present"},{"id":"m2-word-builder-q2","prompt":"Past form sentence","letters":["She","cooked","dinner"],"options":["She cooked dinner","She cook dinner","She will cook dinner"],"correctAnswer":"She cooked dinner","result":"She cooked dinner","meaningEn":"past"},{"id":"m2-word-builder-q3","prompt":"Future form sentence","letters":["They","will","play"],"options":["They will play","They played","They play"],"correctAnswer":"They will play","result":"They will play","meaningEn":"future"},{"id":"m2-word-builder-q4","prompt":"Present continuous form","letters":["I","am","studying"],"options":["I am studying","I studied","I will study"],"correctAnswer":"I am studying","result":"I am studying","meaningEn":"present continuous"},{"id":"m2-word-builder-q5","prompt":"Past sentence with travel","letters":["We","traveled","yesterday"],"options":["We traveled yesterday","We travel yesterday","We will travel yesterday"],"correctAnswer":"We traveled yesterday","result":"We traveled yesterday","meaningEn":"past"},{"id":"m2-word-builder-q6","prompt":"Future sentence with visit","letters":["He","will","visit","tomorrow"],"options":["He will visit tomorrow","He visited tomorrow","He visits tomorrow"],"correctAnswer":"He will visit tomorrow","result":"He will visit tomorrow","meaningEn":"future"}]},
-  {"id":"m2-meaning-match","type":"meaning_match","levelId":"m2","title":"Meaning Match","subtitle":"Match tense meaning","description":"Connect sentence to tense meaning.","xpReward":6,"maxDailyXp":24,"dailyAttemptLimit":8,"isActive":true,"order":4,"config":{"shuffleQuestions":true},"questions":[{"id":"m2-meaning-match-q1","prompt":"\"I am studying\" means...","options":["happening now","already finished","planned tomorrow"],"correctAnswer":"happening now","result":"I am studying","meaningEn":"present continuous"},{"id":"m2-meaning-match-q2","prompt":"\"They will travel\" means...","options":["future plan","past action","daily habit"],"correctAnswer":"future plan","result":"They will travel","meaningEn":"future"},{"id":"m2-meaning-match-q3","prompt":"\"She cooked dinner\" means...","options":["past action","future plan","happening now"],"correctAnswer":"past action","result":"She cooked dinner","meaningEn":"past"},{"id":"m2-meaning-match-q4","prompt":"\"He walks to work\" means...","options":["daily habit","finished yesterday","future intention"],"correctAnswer":"daily habit","result":"He walks to work","meaningEn":"present simple"},{"id":"m2-meaning-match-q5","prompt":"\"We will meet at 6\" means...","options":["future arrangement","past memory","current action"],"correctAnswer":"future arrangement","result":"We will meet at 6","meaningEn":"future"},{"id":"m2-meaning-match-q6","prompt":"\"I watched a movie last night\" means...","options":["past action","present routine","future plan"],"correctAnswer":"past action","result":"I watched a movie last night","meaningEn":"past"}]},
-  {"id":"m2-daily-challenge","type":"daily_challenge","levelId":"m2","title":"Daily Challenge","subtitle":"Tense mixed challenge","description":"Mixed present/past/future sentence completion.","xpReward":10,"maxDailyXp":10,"dailyAttemptLimit":1,"isActive":true,"order":5,"config":{"shuffleQuestions":false},"questions":[{"id":"m2-daily-challenge-q1","prompt":"Yesterday we __ football.","options":["play","played","will play"],"correctAnswer":"played","result":"played","meaningEn":"past"},{"id":"m2-daily-challenge-q2","prompt":"Now she __ at home.","options":["stays","stayed","will stay"],"correctAnswer":"stays","result":"stays","meaningEn":"present"},{"id":"m2-daily-challenge-q3","prompt":"Build a future sentence.","letters":["I","will","study","tonight"],"options":["I will study tonight","I studied tonight","I study tonight"],"correctAnswer":"I will study tonight","result":"I will study tonight","meaningEn":"future"},{"id":"m2-daily-challenge-q4","prompt":"\"He is reading now\" means...","options":["happening now","past action","future plan"],"correctAnswer":"happening now","result":"He is reading now","meaningEn":"present continuous"},{"id":"m2-daily-challenge-q5","prompt":"Complete: walk_d","options":["e","a","i"],"correctAnswer":"e","result":"walked","meaningEn":"past form"},{"id":"m2-daily-challenge-q6","prompt":"Tomorrow they __ to the park.","options":["go","went","will go"],"correctAnswer":"will go","result":"will go","meaningEn":"future"}]}
+  {
+    "id": "m2-missing-letter",
+    "type": "missing_letter",
+    "levelId": "m2",
+    "title": "Missing Letter",
+    "subtitle": "Complete tense forms",
+    "description": "Fill missing letters in present/past/future forms.",
+    "xpReward": 6,
+    "maxDailyXp": 24,
+    "dailyAttemptLimit": 10,
+    "isActive": true,
+    "order": 1,
+    "config": {
+      "shuffleQuestions": true,
+      "roadmap": [
+        {
+          "id": "stage-1",
+          "title": "Basics",
+          "subtitle": "Core starter set",
+          "order": 1,
+          "xpReward": 6,
+          "isUnlocked": true,
+          "questionIds": [
+            "m2-missing-letter-q1",
+            "m2-missing-letter-q2",
+            "m2-missing-letter-q3"
+          ]
+        },
+        {
+          "id": "stage-2",
+          "title": "Challenge",
+          "subtitle": "Level up set",
+          "order": 2,
+          "xpReward": 6,
+          "isUnlocked": false,
+          "questionIds": [
+            "m2-missing-letter-q4",
+            "m2-missing-letter-q5",
+            "m2-missing-letter-q6"
+          ]
+        }
+      ]
+    },
+    "questions": [
+      {
+        "id": "m2-missing-letter-q1",
+        "prompt": "walk_d (past)",
+        "options": [
+          "e",
+          "a",
+          "i"
+        ],
+        "correctAnswer": "e",
+        "result": "walked",
+        "meaningEn": "past form"
+      },
+      {
+        "id": "m2-missing-letter-q2",
+        "prompt": "w_ll (future marker)",
+        "options": [
+          "i",
+          "e",
+          "a"
+        ],
+        "correctAnswer": "i",
+        "result": "will",
+        "meaningEn": "future marker"
+      },
+      {
+        "id": "m2-missing-letter-q3",
+        "prompt": "cook_ng (present continuous)",
+        "options": [
+          "i",
+          "e",
+          "a"
+        ],
+        "correctAnswer": "i",
+        "result": "cooking",
+        "meaningEn": "present continuous"
+      },
+      {
+        "id": "m2-missing-letter-q4",
+        "prompt": "play_d (past)",
+        "options": [
+          "e",
+          "a",
+          "i"
+        ],
+        "correctAnswer": "e",
+        "result": "played",
+        "meaningEn": "past form"
+      },
+      {
+        "id": "m2-missing-letter-q5",
+        "prompt": "stud_ing (present continuous)",
+        "options": [
+          "y",
+          "i",
+          "e"
+        ],
+        "correctAnswer": "y",
+        "result": "studying",
+        "meaningEn": "present continuous"
+      },
+      {
+        "id": "m2-missing-letter-q6",
+        "prompt": "trav_l (base verb)",
+        "options": [
+          "e",
+          "a",
+          "i"
+        ],
+        "correctAnswer": "e",
+        "result": "travel",
+        "meaningEn": "base verb"
+      }
+    ]
+  },
+  {
+    "id": "m2-letter-match",
+    "type": "letter_match",
+    "levelId": "m2",
+    "title": "Letter Match",
+    "subtitle": "Match tense markers",
+    "description": "Match sentence with tense marker.",
+    "xpReward": 5,
+    "maxDailyXp": 20,
+    "dailyAttemptLimit": 10,
+    "isActive": true,
+    "order": 2,
+    "config": {
+      "shuffleQuestions": true,
+      "roadmap": [
+        {
+          "id": "stage-1",
+          "title": "Basics",
+          "subtitle": "Core starter set",
+          "order": 1,
+          "xpReward": 5,
+          "isUnlocked": true,
+          "questionIds": [
+            "m2-letter-match-q1",
+            "m2-letter-match-q2",
+            "m2-letter-match-q3"
+          ]
+        },
+        {
+          "id": "stage-2",
+          "title": "Challenge",
+          "subtitle": "Level up set",
+          "order": 2,
+          "xpReward": 5,
+          "isUnlocked": false,
+          "questionIds": [
+            "m2-letter-match-q4",
+            "m2-letter-match-q5",
+            "m2-letter-match-q6"
+          ]
+        }
+      ]
+    },
+    "questions": [
+      {
+        "id": "m2-letter-match-q1",
+        "prompt": "Yesterday I __ home.",
+        "options": [
+          "walked",
+          "walk",
+          "will walk"
+        ],
+        "correctAnswer": "walked",
+        "result": "walked",
+        "meaningEn": "past"
+      },
+      {
+        "id": "m2-letter-match-q2",
+        "prompt": "Tomorrow I __ to school.",
+        "options": [
+          "walked",
+          "walk",
+          "will walk"
+        ],
+        "correctAnswer": "will walk",
+        "result": "will walk",
+        "meaningEn": "future"
+      },
+      {
+        "id": "m2-letter-match-q3",
+        "prompt": "Now she __ dinner.",
+        "options": [
+          "cooks",
+          "cooked",
+          "will cook"
+        ],
+        "correctAnswer": "cooks",
+        "result": "cooks",
+        "meaningEn": "present"
+      },
+      {
+        "id": "m2-letter-match-q4",
+        "prompt": "Last week they __ a movie.",
+        "options": [
+          "watch",
+          "watched",
+          "will watch"
+        ],
+        "correctAnswer": "watched",
+        "result": "watched",
+        "meaningEn": "past"
+      },
+      {
+        "id": "m2-letter-match-q5",
+        "prompt": "Next year we __ abroad.",
+        "options": [
+          "travel",
+          "traveled",
+          "will travel"
+        ],
+        "correctAnswer": "will travel",
+        "result": "will travel",
+        "meaningEn": "future"
+      },
+      {
+        "id": "m2-letter-match-q6",
+        "prompt": "Every day he __ English.",
+        "options": [
+          "studies",
+          "studied",
+          "will study"
+        ],
+        "correctAnswer": "studies",
+        "result": "studies",
+        "meaningEn": "present"
+      }
+    ]
+  },
+  {
+    "id": "m2-word-builder",
+    "type": "word_builder",
+    "levelId": "m2",
+    "title": "Word Builder",
+    "subtitle": "Build tense forms",
+    "description": "Build correct verb forms for tense practice.",
+    "xpReward": 6,
+    "maxDailyXp": 24,
+    "dailyAttemptLimit": 8,
+    "isActive": true,
+    "order": 3,
+    "config": {
+      "shuffleQuestions": true,
+      "roadmap": [
+        {
+          "id": "stage-1",
+          "title": "Basics",
+          "subtitle": "Core starter set",
+          "order": 1,
+          "xpReward": 6,
+          "isUnlocked": true,
+          "questionIds": [
+            "m2-word-builder-q1",
+            "m2-word-builder-q2",
+            "m2-word-builder-q3"
+          ]
+        },
+        {
+          "id": "stage-2",
+          "title": "Challenge",
+          "subtitle": "Level up set",
+          "order": 2,
+          "xpReward": 6,
+          "isUnlocked": false,
+          "questionIds": [
+            "m2-word-builder-q4",
+            "m2-word-builder-q5",
+            "m2-word-builder-q6"
+          ]
+        }
+      ]
+    },
+    "questions": [
+      {
+        "id": "m2-word-builder-q1",
+        "prompt": "Present form with I (to read)",
+        "letters": [
+          "I",
+          "read"
+        ],
+        "options": [
+          "I read",
+          "I reads",
+          "I reading"
+        ],
+        "correctAnswer": "I read",
+        "result": "I read",
+        "meaningEn": "present"
+      },
+      {
+        "id": "m2-word-builder-q2",
+        "prompt": "Past form sentence",
+        "letters": [
+          "She",
+          "cooked",
+          "dinner"
+        ],
+        "options": [
+          "She cooked dinner",
+          "She cook dinner",
+          "She will cook dinner"
+        ],
+        "correctAnswer": "She cooked dinner",
+        "result": "She cooked dinner",
+        "meaningEn": "past"
+      },
+      {
+        "id": "m2-word-builder-q3",
+        "prompt": "Future form sentence",
+        "letters": [
+          "They",
+          "will",
+          "play"
+        ],
+        "options": [
+          "They will play",
+          "They played",
+          "They play"
+        ],
+        "correctAnswer": "They will play",
+        "result": "They will play",
+        "meaningEn": "future"
+      },
+      {
+        "id": "m2-word-builder-q4",
+        "prompt": "Present continuous form",
+        "letters": [
+          "I",
+          "am",
+          "studying"
+        ],
+        "options": [
+          "I am studying",
+          "I studied",
+          "I will study"
+        ],
+        "correctAnswer": "I am studying",
+        "result": "I am studying",
+        "meaningEn": "present continuous"
+      },
+      {
+        "id": "m2-word-builder-q5",
+        "prompt": "Past sentence with travel",
+        "letters": [
+          "We",
+          "traveled",
+          "yesterday"
+        ],
+        "options": [
+          "We traveled yesterday",
+          "We travel yesterday",
+          "We will travel yesterday"
+        ],
+        "correctAnswer": "We traveled yesterday",
+        "result": "We traveled yesterday",
+        "meaningEn": "past"
+      },
+      {
+        "id": "m2-word-builder-q6",
+        "prompt": "Future sentence with visit",
+        "letters": [
+          "He",
+          "will",
+          "visit",
+          "tomorrow"
+        ],
+        "options": [
+          "He will visit tomorrow",
+          "He visited tomorrow",
+          "He visits tomorrow"
+        ],
+        "correctAnswer": "He will visit tomorrow",
+        "result": "He will visit tomorrow",
+        "meaningEn": "future"
+      }
+    ]
+  },
+  {
+    "id": "m2-meaning-match",
+    "type": "meaning_match",
+    "levelId": "m2",
+    "title": "Meaning Match",
+    "subtitle": "Match tense meaning",
+    "description": "Connect sentence to tense meaning.",
+    "xpReward": 6,
+    "maxDailyXp": 24,
+    "dailyAttemptLimit": 8,
+    "isActive": true,
+    "order": 4,
+    "config": {
+      "shuffleQuestions": true,
+      "roadmap": [
+        {
+          "id": "stage-1",
+          "title": "Basics",
+          "subtitle": "Core starter set",
+          "order": 1,
+          "xpReward": 6,
+          "isUnlocked": true,
+          "questionIds": [
+            "m2-meaning-match-q1",
+            "m2-meaning-match-q2",
+            "m2-meaning-match-q3"
+          ]
+        },
+        {
+          "id": "stage-2",
+          "title": "Challenge",
+          "subtitle": "Level up set",
+          "order": 2,
+          "xpReward": 6,
+          "isUnlocked": false,
+          "questionIds": [
+            "m2-meaning-match-q4",
+            "m2-meaning-match-q5",
+            "m2-meaning-match-q6"
+          ]
+        }
+      ]
+    },
+    "questions": [
+      {
+        "id": "m2-meaning-match-q1",
+        "prompt": "\"I am studying\" means...",
+        "options": [
+          "happening now",
+          "already finished",
+          "planned tomorrow"
+        ],
+        "correctAnswer": "happening now",
+        "result": "I am studying",
+        "meaningEn": "present continuous"
+      },
+      {
+        "id": "m2-meaning-match-q2",
+        "prompt": "\"They will travel\" means...",
+        "options": [
+          "future plan",
+          "past action",
+          "daily habit"
+        ],
+        "correctAnswer": "future plan",
+        "result": "They will travel",
+        "meaningEn": "future"
+      },
+      {
+        "id": "m2-meaning-match-q3",
+        "prompt": "\"She cooked dinner\" means...",
+        "options": [
+          "past action",
+          "future plan",
+          "happening now"
+        ],
+        "correctAnswer": "past action",
+        "result": "She cooked dinner",
+        "meaningEn": "past"
+      },
+      {
+        "id": "m2-meaning-match-q4",
+        "prompt": "\"He walks to work\" means...",
+        "options": [
+          "daily habit",
+          "finished yesterday",
+          "future intention"
+        ],
+        "correctAnswer": "daily habit",
+        "result": "He walks to work",
+        "meaningEn": "present simple"
+      },
+      {
+        "id": "m2-meaning-match-q5",
+        "prompt": "\"We will meet at 6\" means...",
+        "options": [
+          "future arrangement",
+          "past memory",
+          "current action"
+        ],
+        "correctAnswer": "future arrangement",
+        "result": "We will meet at 6",
+        "meaningEn": "future"
+      },
+      {
+        "id": "m2-meaning-match-q6",
+        "prompt": "\"I watched a movie last night\" means...",
+        "options": [
+          "past action",
+          "present routine",
+          "future plan"
+        ],
+        "correctAnswer": "past action",
+        "result": "I watched a movie last night",
+        "meaningEn": "past"
+      }
+    ]
+  },
+  {
+    "id": "m2-daily-challenge",
+    "type": "daily_challenge",
+    "levelId": "m2",
+    "title": "Daily Challenge",
+    "subtitle": "Tense mixed challenge",
+    "description": "Mixed present/past/future sentence completion.",
+    "xpReward": 10,
+    "maxDailyXp": 10,
+    "dailyAttemptLimit": 1,
+    "isActive": true,
+    "order": 5,
+    "config": {
+      "shuffleQuestions": false,
+      "roadmap": [
+        {
+          "id": "stage-1",
+          "title": "Basics",
+          "subtitle": "Core starter set",
+          "order": 1,
+          "xpReward": 10,
+          "isUnlocked": true,
+          "questionIds": [
+            "m2-daily-challenge-q1",
+            "m2-daily-challenge-q2",
+            "m2-daily-challenge-q3"
+          ]
+        },
+        {
+          "id": "stage-2",
+          "title": "Challenge",
+          "subtitle": "Level up set",
+          "order": 2,
+          "xpReward": 10,
+          "isUnlocked": false,
+          "questionIds": [
+            "m2-daily-challenge-q4",
+            "m2-daily-challenge-q5",
+            "m2-daily-challenge-q6"
+          ]
+        }
+      ]
+    },
+    "questions": [
+      {
+        "id": "m2-daily-challenge-q1",
+        "prompt": "Yesterday we __ football.",
+        "options": [
+          "play",
+          "played",
+          "will play"
+        ],
+        "correctAnswer": "played",
+        "result": "played",
+        "meaningEn": "past"
+      },
+      {
+        "id": "m2-daily-challenge-q2",
+        "prompt": "Now she __ at home.",
+        "options": [
+          "stays",
+          "stayed",
+          "will stay"
+        ],
+        "correctAnswer": "stays",
+        "result": "stays",
+        "meaningEn": "present"
+      },
+      {
+        "id": "m2-daily-challenge-q3",
+        "prompt": "Build a future sentence.",
+        "letters": [
+          "I",
+          "will",
+          "study",
+          "tonight"
+        ],
+        "options": [
+          "I will study tonight",
+          "I studied tonight",
+          "I study tonight"
+        ],
+        "correctAnswer": "I will study tonight",
+        "result": "I will study tonight",
+        "meaningEn": "future"
+      },
+      {
+        "id": "m2-daily-challenge-q4",
+        "prompt": "\"He is reading now\" means...",
+        "options": [
+          "happening now",
+          "past action",
+          "future plan"
+        ],
+        "correctAnswer": "happening now",
+        "result": "He is reading now",
+        "meaningEn": "present continuous"
+      },
+      {
+        "id": "m2-daily-challenge-q5",
+        "prompt": "Complete: walk_d",
+        "options": [
+          "e",
+          "a",
+          "i"
+        ],
+        "correctAnswer": "e",
+        "result": "walked",
+        "meaningEn": "past form"
+      },
+      {
+        "id": "m2-daily-challenge-q6",
+        "prompt": "Tomorrow they __ to the park.",
+        "options": [
+          "go",
+          "went",
+          "will go"
+        ],
+        "correctAnswer": "will go",
+        "result": "will go",
+        "meaningEn": "future"
+      }
+    ]
+  }
 ]

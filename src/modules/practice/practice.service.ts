@@ -6,7 +6,7 @@ import {
   findPracticeAttemptsByUserToday,
   findPracticeById,
 } from "./practice.repository";
-import { PracticeAttemptPayload } from "./practice.types";
+import { PracticeAttemptPayload, PracticeConfig } from "./practice.types";
 
 const validateAttemptPayload = (payload: PracticeAttemptPayload) => {
   if (!Number.isFinite(payload.score) || payload.score < 0 || payload.score > 100) {
@@ -23,6 +23,10 @@ const validateAttemptPayload = (payload: PracticeAttemptPayload) => {
 
   if (payload.correctCount > payload.totalCount) {
     throw new Error("Correct count cannot exceed total count");
+  }
+
+  if (payload.stageId !== undefined && (typeof payload.stageId !== "string" || payload.stageId.trim().length === 0)) {
+    throw new Error("Invalid stage payload");
   }
 };
 
@@ -90,6 +94,11 @@ export const submitPracticeAttempt = async (
 
   validateAttemptPayload(payload);
 
+  const roadmap = (practice.config as PracticeConfig | undefined)?.roadmap;
+  if (payload.stageId && Array.isArray(roadmap) && !roadmap.some((stage) => stage.id === payload.stageId)) {
+    throw new Error("Invalid stage payload");
+  }
+
   const attemptsToday = await findPracticeAttemptsByUserToday(userId, practiceId);
   const dailyXpEarned = attemptsToday.reduce((sum, attempt) => sum + attempt.xpEarned, 0);
   const dailyXpLimit = practice.maxDailyXp;
@@ -112,6 +121,7 @@ export const submitPracticeAttempt = async (
     correctCount: payload.correctCount,
     totalCount: payload.totalCount,
     xpEarned,
+    stageId: payload.stageId,
   });
 
   if (xpEarned > 0) {
@@ -128,6 +138,7 @@ export const submitPracticeAttempt = async (
     score: payload.score,
     correctCount: payload.correctCount,
     totalCount: payload.totalCount,
+    stageId: payload.stageId,
     xpEarned,
     dailyXpEarned: dailyXpEarned + xpEarned,
     dailyXpLimit,

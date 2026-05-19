@@ -1,7 +1,654 @@
 [
-  {"id":"m1-missing-letter","type":"missing_letter","levelId":"m1","title":"Missing Letter","subtitle":"Complete basic words","description":"Fill missing letters in school/home vocabulary.","xpReward":6,"maxDailyXp":24,"dailyAttemptLimit":10,"isActive":true,"order":1,"config":{"shuffleQuestions":true},"questions":[{"id":"m1-missing-letter-q1","prompt":"sch_ol","options":["o","a","u"],"correctAnswer":"o","result":"school","meaningEn":"school"},{"id":"m1-missing-letter-q2","prompt":"fam_ly","options":["i","a","o"],"correctAnswer":"i","result":"family","meaningEn":"family"},{"id":"m1-missing-letter-q3","prompt":"t_acher","options":["e","a","i"],"correctAnswer":"e","result":"teacher","meaningEn":"teacher"},{"id":"m1-missing-letter-q4","prompt":"br_akfast","options":["e","i","a"],"correctAnswer":"e","result":"breakfast","meaningEn":"breakfast"},{"id":"m1-missing-letter-q5","prompt":"h_mework","options":["o","a","i"],"correctAnswer":"o","result":"homework","meaningEn":"homework"},{"id":"m1-missing-letter-q6","prompt":"fri_nd","options":["e","a","o"],"correctAnswer":"e","result":"friend","meaningEn":"friend"}]},
-  {"id":"m1-letter-match","type":"letter_match","levelId":"m1","title":"Letter Match","subtitle":"Match starters","description":"Match first letter with daily action words.","xpReward":5,"maxDailyXp":20,"dailyAttemptLimit":10,"isActive":true,"order":2,"config":{"shuffleQuestions":true},"questions":[{"id":"m1-letter-match-q1","prompt":"Word starts with H","options":["home","school","family"],"correctAnswer":"home","result":"home","meaningEn":"home"},{"id":"m1-letter-match-q2","prompt":"Word starts with W","options":["read","walk","eat"],"correctAnswer":"walk","result":"walk","meaningEn":"walk"},{"id":"m1-letter-match-q3","prompt":"Word starts with T","options":["teacher","friend","breakfast"],"correctAnswer":"teacher","result":"teacher","meaningEn":"teacher"},{"id":"m1-letter-match-q4","prompt":"Word starts with S","options":["school","homework","family"],"correctAnswer":"school","result":"school","meaningEn":"school"},{"id":"m1-letter-match-q5","prompt":"Word starts with F","options":["friend","study","walk"],"correctAnswer":"friend","result":"friend","meaningEn":"friend"},{"id":"m1-letter-match-q6","prompt":"Word starts with B","options":["breakfast","teacher","home"],"correctAnswer":"breakfast","result":"breakfast","meaningEn":"breakfast"}]},
-  {"id":"m1-word-builder","type":"word_builder","levelId":"m1","title":"Word Builder","subtitle":"Build simple sentence words","description":"Build common M1 words.","xpReward":6,"maxDailyXp":24,"dailyAttemptLimit":8,"isActive":true,"order":3,"config":{"shuffleQuestions":true},"questions":[{"id":"m1-word-builder-q1","prompt":"Build: teacher","letters":["t","e","a","c","h","e","r"],"options":["teacher","teacehr","teachre"],"correctAnswer":"teacher","result":"teacher","meaningEn":"teacher"},{"id":"m1-word-builder-q2","prompt":"Build: breakfast","letters":["b","r","e","a","k","f","a","s","t"],"options":["breakfast","brekafast","breakfats"],"correctAnswer":"breakfast","result":"breakfast","meaningEn":"breakfast"},{"id":"m1-word-builder-q3","prompt":"Build: school","letters":["s","c","h","o","o","l"],"options":["school","scohol","scoohl"],"correctAnswer":"school","result":"school","meaningEn":"school"},{"id":"m1-word-builder-q4","prompt":"Build: family","letters":["f","a","m","i","l","y"],"options":["family","famliy","faimly"],"correctAnswer":"family","result":"family","meaningEn":"family"},{"id":"m1-word-builder-q5","prompt":"Build: homework","letters":["h","o","m","e","w","o","r","k"],"options":["homework","homewrok","hoemwork"],"correctAnswer":"homework","result":"homework","meaningEn":"homework"},{"id":"m1-word-builder-q6","prompt":"Build: friend","letters":["f","r","i","e","n","d"],"options":["friend","freind","frined"],"correctAnswer":"friend","result":"friend","meaningEn":"friend"}]},
-  {"id":"m1-meaning-match","type":"meaning_match","levelId":"m1","title":"Meaning Match","subtitle":"Choose meaning","description":"Match basic words and meanings.","xpReward":6,"maxDailyXp":24,"dailyAttemptLimit":8,"isActive":true,"order":4,"config":{"shuffleQuestions":true},"questions":[{"id":"m1-meaning-match-q1","prompt":"Meaning of \"study\"","options":["to learn","to sleep","to cook"],"correctAnswer":"to learn","result":"study","meaningEn":"to learn"},{"id":"m1-meaning-match-q2","prompt":"Meaning of \"family\"","options":["relatives","classroom","street"],"correctAnswer":"relatives","result":"family","meaningEn":"relatives"},{"id":"m1-meaning-match-q3","prompt":"Meaning of \"teacher\"","options":["person who teaches","student","driver"],"correctAnswer":"person who teaches","result":"teacher","meaningEn":"person who teaches"},{"id":"m1-meaning-match-q4","prompt":"Meaning of \"breakfast\"","options":["morning meal","night class","sports game"],"correctAnswer":"morning meal","result":"breakfast","meaningEn":"morning meal"},{"id":"m1-meaning-match-q5","prompt":"Meaning of \"homework\"","options":["school task at home","family trip","music class"],"correctAnswer":"school task at home","result":"homework","meaningEn":"school task at home"},{"id":"m1-meaning-match-q6","prompt":"Meaning of \"friend\"","options":["close person you like","new teacher","future plan"],"correctAnswer":"close person you like","result":"friend","meaningEn":"close person you like"}]},
-  {"id":"m1-daily-challenge","type":"daily_challenge","levelId":"m1","title":"Daily Challenge","subtitle":"School and home mix","description":"Mixed M1 vocabulary and sentence starter practice.","xpReward":10,"maxDailyXp":10,"dailyAttemptLimit":1,"isActive":true,"order":5,"config":{"shuffleQuestions":false},"questions":[{"id":"m1-daily-challenge-q1","prompt":"Complete: I go to sch_ol.","options":["o","a","u"],"correctAnswer":"o","result":"school","meaningEn":"school"},{"id":"m1-daily-challenge-q2","prompt":"Word starts with F","options":["friend","teacher","home"],"correctAnswer":"friend","result":"friend","meaningEn":"friend"},{"id":"m1-daily-challenge-q3","prompt":"Build: family","letters":["f","a","m","i","l","y"],"options":["family","famliy","faimly"],"correctAnswer":"family","result":"family","meaningEn":"family"},{"id":"m1-daily-challenge-q4","prompt":"Meaning of \"homework\"","options":["school task at home","morning meal","daily walk"],"correctAnswer":"school task at home","result":"homework","meaningEn":"school task at home"},{"id":"m1-daily-challenge-q5","prompt":"Complete: My t_acher is kind.","options":["e","a","i"],"correctAnswer":"e","result":"teacher","meaningEn":"teacher"},{"id":"m1-daily-challenge-q6","prompt":"Meaning of \"breakfast\"","options":["morning meal","future plan","street"],"correctAnswer":"morning meal","result":"breakfast","meaningEn":"morning meal"}]}
+  {
+    "id": "m1-missing-letter",
+    "type": "missing_letter",
+    "levelId": "m1",
+    "title": "Missing Letter",
+    "subtitle": "Complete basic words",
+    "description": "Fill missing letters in school/home vocabulary.",
+    "xpReward": 6,
+    "maxDailyXp": 24,
+    "dailyAttemptLimit": 10,
+    "isActive": true,
+    "order": 1,
+    "config": {
+      "shuffleQuestions": true,
+      "roadmap": [
+        {
+          "id": "stage-1",
+          "title": "Basics",
+          "subtitle": "Core starter set",
+          "order": 1,
+          "xpReward": 6,
+          "isUnlocked": true,
+          "questionIds": [
+            "m1-missing-letter-q1",
+            "m1-missing-letter-q2",
+            "m1-missing-letter-q3"
+          ]
+        },
+        {
+          "id": "stage-2",
+          "title": "Challenge",
+          "subtitle": "Level up set",
+          "order": 2,
+          "xpReward": 6,
+          "isUnlocked": false,
+          "questionIds": [
+            "m1-missing-letter-q4",
+            "m1-missing-letter-q5",
+            "m1-missing-letter-q6"
+          ]
+        }
+      ]
+    },
+    "questions": [
+      {
+        "id": "m1-missing-letter-q1",
+        "prompt": "sch_ol",
+        "options": [
+          "o",
+          "a",
+          "u"
+        ],
+        "correctAnswer": "o",
+        "result": "school",
+        "meaningEn": "school"
+      },
+      {
+        "id": "m1-missing-letter-q2",
+        "prompt": "fam_ly",
+        "options": [
+          "i",
+          "a",
+          "o"
+        ],
+        "correctAnswer": "i",
+        "result": "family",
+        "meaningEn": "family"
+      },
+      {
+        "id": "m1-missing-letter-q3",
+        "prompt": "t_acher",
+        "options": [
+          "e",
+          "a",
+          "i"
+        ],
+        "correctAnswer": "e",
+        "result": "teacher",
+        "meaningEn": "teacher"
+      },
+      {
+        "id": "m1-missing-letter-q4",
+        "prompt": "br_akfast",
+        "options": [
+          "e",
+          "i",
+          "a"
+        ],
+        "correctAnswer": "e",
+        "result": "breakfast",
+        "meaningEn": "breakfast"
+      },
+      {
+        "id": "m1-missing-letter-q5",
+        "prompt": "h_mework",
+        "options": [
+          "o",
+          "a",
+          "i"
+        ],
+        "correctAnswer": "o",
+        "result": "homework",
+        "meaningEn": "homework"
+      },
+      {
+        "id": "m1-missing-letter-q6",
+        "prompt": "fri_nd",
+        "options": [
+          "e",
+          "a",
+          "o"
+        ],
+        "correctAnswer": "e",
+        "result": "friend",
+        "meaningEn": "friend"
+      }
+    ]
+  },
+  {
+    "id": "m1-letter-match",
+    "type": "letter_match",
+    "levelId": "m1",
+    "title": "Letter Match",
+    "subtitle": "Match starters",
+    "description": "Match first letter with daily action words.",
+    "xpReward": 5,
+    "maxDailyXp": 20,
+    "dailyAttemptLimit": 10,
+    "isActive": true,
+    "order": 2,
+    "config": {
+      "shuffleQuestions": true,
+      "roadmap": [
+        {
+          "id": "stage-1",
+          "title": "Basics",
+          "subtitle": "Core starter set",
+          "order": 1,
+          "xpReward": 5,
+          "isUnlocked": true,
+          "questionIds": [
+            "m1-letter-match-q1",
+            "m1-letter-match-q2",
+            "m1-letter-match-q3"
+          ]
+        },
+        {
+          "id": "stage-2",
+          "title": "Challenge",
+          "subtitle": "Level up set",
+          "order": 2,
+          "xpReward": 5,
+          "isUnlocked": false,
+          "questionIds": [
+            "m1-letter-match-q4",
+            "m1-letter-match-q5",
+            "m1-letter-match-q6"
+          ]
+        }
+      ]
+    },
+    "questions": [
+      {
+        "id": "m1-letter-match-q1",
+        "prompt": "Word starts with H",
+        "options": [
+          "home",
+          "school",
+          "family"
+        ],
+        "correctAnswer": "home",
+        "result": "home",
+        "meaningEn": "home"
+      },
+      {
+        "id": "m1-letter-match-q2",
+        "prompt": "Word starts with W",
+        "options": [
+          "read",
+          "walk",
+          "eat"
+        ],
+        "correctAnswer": "walk",
+        "result": "walk",
+        "meaningEn": "walk"
+      },
+      {
+        "id": "m1-letter-match-q3",
+        "prompt": "Word starts with T",
+        "options": [
+          "teacher",
+          "friend",
+          "breakfast"
+        ],
+        "correctAnswer": "teacher",
+        "result": "teacher",
+        "meaningEn": "teacher"
+      },
+      {
+        "id": "m1-letter-match-q4",
+        "prompt": "Word starts with S",
+        "options": [
+          "school",
+          "homework",
+          "family"
+        ],
+        "correctAnswer": "school",
+        "result": "school",
+        "meaningEn": "school"
+      },
+      {
+        "id": "m1-letter-match-q5",
+        "prompt": "Word starts with F",
+        "options": [
+          "friend",
+          "study",
+          "walk"
+        ],
+        "correctAnswer": "friend",
+        "result": "friend",
+        "meaningEn": "friend"
+      },
+      {
+        "id": "m1-letter-match-q6",
+        "prompt": "Word starts with B",
+        "options": [
+          "breakfast",
+          "teacher",
+          "home"
+        ],
+        "correctAnswer": "breakfast",
+        "result": "breakfast",
+        "meaningEn": "breakfast"
+      }
+    ]
+  },
+  {
+    "id": "m1-word-builder",
+    "type": "word_builder",
+    "levelId": "m1",
+    "title": "Word Builder",
+    "subtitle": "Build simple sentence words",
+    "description": "Build common M1 words.",
+    "xpReward": 6,
+    "maxDailyXp": 24,
+    "dailyAttemptLimit": 8,
+    "isActive": true,
+    "order": 3,
+    "config": {
+      "shuffleQuestions": true,
+      "roadmap": [
+        {
+          "id": "stage-1",
+          "title": "Basics",
+          "subtitle": "Core starter set",
+          "order": 1,
+          "xpReward": 6,
+          "isUnlocked": true,
+          "questionIds": [
+            "m1-word-builder-q1",
+            "m1-word-builder-q2",
+            "m1-word-builder-q3"
+          ]
+        },
+        {
+          "id": "stage-2",
+          "title": "Challenge",
+          "subtitle": "Level up set",
+          "order": 2,
+          "xpReward": 6,
+          "isUnlocked": false,
+          "questionIds": [
+            "m1-word-builder-q4",
+            "m1-word-builder-q5",
+            "m1-word-builder-q6"
+          ]
+        }
+      ]
+    },
+    "questions": [
+      {
+        "id": "m1-word-builder-q1",
+        "prompt": "Build: teacher",
+        "letters": [
+          "t",
+          "e",
+          "a",
+          "c",
+          "h",
+          "e",
+          "r"
+        ],
+        "options": [
+          "teacher",
+          "teacehr",
+          "teachre"
+        ],
+        "correctAnswer": "teacher",
+        "result": "teacher",
+        "meaningEn": "teacher"
+      },
+      {
+        "id": "m1-word-builder-q2",
+        "prompt": "Build: breakfast",
+        "letters": [
+          "b",
+          "r",
+          "e",
+          "a",
+          "k",
+          "f",
+          "a",
+          "s",
+          "t"
+        ],
+        "options": [
+          "breakfast",
+          "brekafast",
+          "breakfats"
+        ],
+        "correctAnswer": "breakfast",
+        "result": "breakfast",
+        "meaningEn": "breakfast"
+      },
+      {
+        "id": "m1-word-builder-q3",
+        "prompt": "Build: school",
+        "letters": [
+          "s",
+          "c",
+          "h",
+          "o",
+          "o",
+          "l"
+        ],
+        "options": [
+          "school",
+          "scohol",
+          "scoohl"
+        ],
+        "correctAnswer": "school",
+        "result": "school",
+        "meaningEn": "school"
+      },
+      {
+        "id": "m1-word-builder-q4",
+        "prompt": "Build: family",
+        "letters": [
+          "f",
+          "a",
+          "m",
+          "i",
+          "l",
+          "y"
+        ],
+        "options": [
+          "family",
+          "famliy",
+          "faimly"
+        ],
+        "correctAnswer": "family",
+        "result": "family",
+        "meaningEn": "family"
+      },
+      {
+        "id": "m1-word-builder-q5",
+        "prompt": "Build: homework",
+        "letters": [
+          "h",
+          "o",
+          "m",
+          "e",
+          "w",
+          "o",
+          "r",
+          "k"
+        ],
+        "options": [
+          "homework",
+          "homewrok",
+          "hoemwork"
+        ],
+        "correctAnswer": "homework",
+        "result": "homework",
+        "meaningEn": "homework"
+      },
+      {
+        "id": "m1-word-builder-q6",
+        "prompt": "Build: friend",
+        "letters": [
+          "f",
+          "r",
+          "i",
+          "e",
+          "n",
+          "d"
+        ],
+        "options": [
+          "friend",
+          "freind",
+          "frined"
+        ],
+        "correctAnswer": "friend",
+        "result": "friend",
+        "meaningEn": "friend"
+      }
+    ]
+  },
+  {
+    "id": "m1-meaning-match",
+    "type": "meaning_match",
+    "levelId": "m1",
+    "title": "Meaning Match",
+    "subtitle": "Choose meaning",
+    "description": "Match basic words and meanings.",
+    "xpReward": 6,
+    "maxDailyXp": 24,
+    "dailyAttemptLimit": 8,
+    "isActive": true,
+    "order": 4,
+    "config": {
+      "shuffleQuestions": true,
+      "roadmap": [
+        {
+          "id": "stage-1",
+          "title": "Basics",
+          "subtitle": "Core starter set",
+          "order": 1,
+          "xpReward": 6,
+          "isUnlocked": true,
+          "questionIds": [
+            "m1-meaning-match-q1",
+            "m1-meaning-match-q2",
+            "m1-meaning-match-q3"
+          ]
+        },
+        {
+          "id": "stage-2",
+          "title": "Challenge",
+          "subtitle": "Level up set",
+          "order": 2,
+          "xpReward": 6,
+          "isUnlocked": false,
+          "questionIds": [
+            "m1-meaning-match-q4",
+            "m1-meaning-match-q5",
+            "m1-meaning-match-q6"
+          ]
+        }
+      ]
+    },
+    "questions": [
+      {
+        "id": "m1-meaning-match-q1",
+        "prompt": "Meaning of \"study\"",
+        "options": [
+          "to learn",
+          "to sleep",
+          "to cook"
+        ],
+        "correctAnswer": "to learn",
+        "result": "study",
+        "meaningEn": "to learn"
+      },
+      {
+        "id": "m1-meaning-match-q2",
+        "prompt": "Meaning of \"family\"",
+        "options": [
+          "relatives",
+          "classroom",
+          "street"
+        ],
+        "correctAnswer": "relatives",
+        "result": "family",
+        "meaningEn": "relatives"
+      },
+      {
+        "id": "m1-meaning-match-q3",
+        "prompt": "Meaning of \"teacher\"",
+        "options": [
+          "person who teaches",
+          "student",
+          "driver"
+        ],
+        "correctAnswer": "person who teaches",
+        "result": "teacher",
+        "meaningEn": "person who teaches"
+      },
+      {
+        "id": "m1-meaning-match-q4",
+        "prompt": "Meaning of \"breakfast\"",
+        "options": [
+          "morning meal",
+          "night class",
+          "sports game"
+        ],
+        "correctAnswer": "morning meal",
+        "result": "breakfast",
+        "meaningEn": "morning meal"
+      },
+      {
+        "id": "m1-meaning-match-q5",
+        "prompt": "Meaning of \"homework\"",
+        "options": [
+          "school task at home",
+          "family trip",
+          "music class"
+        ],
+        "correctAnswer": "school task at home",
+        "result": "homework",
+        "meaningEn": "school task at home"
+      },
+      {
+        "id": "m1-meaning-match-q6",
+        "prompt": "Meaning of \"friend\"",
+        "options": [
+          "close person you like",
+          "new teacher",
+          "future plan"
+        ],
+        "correctAnswer": "close person you like",
+        "result": "friend",
+        "meaningEn": "close person you like"
+      }
+    ]
+  },
+  {
+    "id": "m1-daily-challenge",
+    "type": "daily_challenge",
+    "levelId": "m1",
+    "title": "Daily Challenge",
+    "subtitle": "School and home mix",
+    "description": "Mixed M1 vocabulary and sentence starter practice.",
+    "xpReward": 10,
+    "maxDailyXp": 10,
+    "dailyAttemptLimit": 1,
+    "isActive": true,
+    "order": 5,
+    "config": {
+      "shuffleQuestions": false,
+      "roadmap": [
+        {
+          "id": "stage-1",
+          "title": "Basics",
+          "subtitle": "Core starter set",
+          "order": 1,
+          "xpReward": 10,
+          "isUnlocked": true,
+          "questionIds": [
+            "m1-daily-challenge-q1",
+            "m1-daily-challenge-q2",
+            "m1-daily-challenge-q3"
+          ]
+        },
+        {
+          "id": "stage-2",
+          "title": "Challenge",
+          "subtitle": "Level up set",
+          "order": 2,
+          "xpReward": 10,
+          "isUnlocked": false,
+          "questionIds": [
+            "m1-daily-challenge-q4",
+            "m1-daily-challenge-q5",
+            "m1-daily-challenge-q6"
+          ]
+        }
+      ]
+    },
+    "questions": [
+      {
+        "id": "m1-daily-challenge-q1",
+        "prompt": "Complete: I go to sch_ol.",
+        "options": [
+          "o",
+          "a",
+          "u"
+        ],
+        "correctAnswer": "o",
+        "result": "school",
+        "meaningEn": "school"
+      },
+      {
+        "id": "m1-daily-challenge-q2",
+        "prompt": "Word starts with F",
+        "options": [
+          "friend",
+          "teacher",
+          "home"
+        ],
+        "correctAnswer": "friend",
+        "result": "friend",
+        "meaningEn": "friend"
+      },
+      {
+        "id": "m1-daily-challenge-q3",
+        "prompt": "Build: family",
+        "letters": [
+          "f",
+          "a",
+          "m",
+          "i",
+          "l",
+          "y"
+        ],
+        "options": [
+          "family",
+          "famliy",
+          "faimly"
+        ],
+        "correctAnswer": "family",
+        "result": "family",
+        "meaningEn": "family"
+      },
+      {
+        "id": "m1-daily-challenge-q4",
+        "prompt": "Meaning of \"homework\"",
+        "options": [
+          "school task at home",
+          "morning meal",
+          "daily walk"
+        ],
+        "correctAnswer": "school task at home",
+        "result": "homework",
+        "meaningEn": "school task at home"
+      },
+      {
+        "id": "m1-daily-challenge-q5",
+        "prompt": "Complete: My t_acher is kind.",
+        "options": [
+          "e",
+          "a",
+          "i"
+        ],
+        "correctAnswer": "e",
+        "result": "teacher",
+        "meaningEn": "teacher"
+      },
+      {
+        "id": "m1-daily-challenge-q6",
+        "prompt": "Meaning of \"breakfast\"",
+        "options": [
+          "morning meal",
+          "future plan",
+          "street"
+        ],
+        "correctAnswer": "morning meal",
+        "result": "breakfast",
+        "meaningEn": "morning meal"
+      }
+    ]
+  }
 ]

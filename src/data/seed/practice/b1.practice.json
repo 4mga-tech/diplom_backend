@@ -11,14 +11,110 @@
     "dailyAttemptLimit": 10,
     "isActive": true,
     "order": 1,
-    "config": { "shuffleQuestions": true },
+    "config": {
+      "shuffleQuestions": true,
+      "roadmap": [
+        {
+          "id": "stage-1",
+          "title": "Basics",
+          "subtitle": "Core starter set",
+          "order": 1,
+          "xpReward": 5,
+          "isUnlocked": true,
+          "questionIds": [
+            "b1-missing-letter-q1",
+            "b1-missing-letter-q2",
+            "b1-missing-letter-q3"
+          ]
+        },
+        {
+          "id": "stage-2",
+          "title": "Challenge",
+          "subtitle": "Level up set",
+          "order": 2,
+          "xpReward": 5,
+          "isUnlocked": false,
+          "questionIds": [
+            "b1-missing-letter-q4",
+            "b1-missing-letter-q5",
+            "b1-missing-letter-q6"
+          ]
+        }
+      ]
+    },
     "questions": [
-      { "id": "b1-missing-letter-q1", "prompt": "_ом", "options": ["Н", "Б", "С"], "correctAnswer": "Н", "result": "ном", "meaningEn": "book" },
-      { "id": "b1-missing-letter-q2", "prompt": "гэ_", "options": ["р", "н", "л"], "correctAnswer": "р", "result": "гэр", "meaningEn": "home" },
-      { "id": "b1-missing-letter-q3", "prompt": "у_", "options": ["с", "н", "р"], "correctAnswer": "с", "result": "ус", "meaningEn": "water" },
-      { "id": "b1-missing-letter-q4", "prompt": "ба_", "options": ["г", "н", "д"], "correctAnswer": "г", "result": "баг", "meaningEn": "team" },
-      { "id": "b1-missing-letter-q5", "prompt": "са_н", "options": ["й", "н", "р"], "correctAnswer": "й", "result": "сайн", "meaningEn": "good" },
-      { "id": "b1-missing-letter-q6", "prompt": "өд_р", "options": ["ө", "у", "а"], "correctAnswer": "ө", "result": "өдөр", "meaningEn": "day" }
+      {
+        "id": "b1-missing-letter-q1",
+        "prompt": "_ом",
+        "options": [
+          "Н",
+          "Б",
+          "С"
+        ],
+        "correctAnswer": "Н",
+        "result": "ном",
+        "meaningEn": "book"
+      },
+      {
+        "id": "b1-missing-letter-q2",
+        "prompt": "гэ_",
+        "options": [
+          "р",
+          "н",
+          "л"
+        ],
+        "correctAnswer": "р",
+        "result": "гэр",
+        "meaningEn": "home"
+      },
+      {
+        "id": "b1-missing-letter-q3",
+        "prompt": "у_",
+        "options": [
+          "с",
+          "н",
+          "р"
+        ],
+        "correctAnswer": "с",
+        "result": "ус",
+        "meaningEn": "water"
+      },
+      {
+        "id": "b1-missing-letter-q4",
+        "prompt": "ба_",
+        "options": [
+          "г",
+          "н",
+          "д"
+        ],
+        "correctAnswer": "г",
+        "result": "баг",
+        "meaningEn": "team"
+      },
+      {
+        "id": "b1-missing-letter-q5",
+        "prompt": "са_н",
+        "options": [
+          "й",
+          "н",
+          "р"
+        ],
+        "correctAnswer": "й",
+        "result": "сайн",
+        "meaningEn": "good"
+      },
+      {
+        "id": "b1-missing-letter-q6",
+        "prompt": "өд_р",
+        "options": [
+          "ө",
+          "у",
+          "а"
+        ],
+        "correctAnswer": "ө",
+        "result": "өдөр",
+        "meaningEn": "day"
+      }
     ]
   },
   {
@@ -33,14 +129,110 @@
     "dailyAttemptLimit": 10,
     "isActive": true,
     "order": 2,
-    "config": { "shuffleQuestions": true },
+    "config": {
+      "shuffleQuestions": true,
+      "roadmap": [
+        {
+          "id": "stage-1",
+          "title": "Basics",
+          "subtitle": "Core starter set",
+          "order": 1,
+          "xpReward": 5,
+          "isUnlocked": true,
+          "questionIds": [
+            "b1-letter-match-q1",
+            "b1-letter-match-q2",
+            "b1-letter-match-q3"
+          ]
+        },
+        {
+          "id": "stage-2",
+          "title": "Challenge",
+          "subtitle": "Level up set",
+          "order": 2,
+          "xpReward": 5,
+          "isUnlocked": false,
+          "questionIds": [
+            "b1-letter-match-q4",
+            "b1-letter-match-q5",
+            "b1-letter-match-q6"
+          ]
+        }
+      ]
+    },
     "questions": [
-      { "id": "b1-letter-match-q1", "prompt": "Which letter starts \"ус\"?", "options": ["У", "Г", "Ө"], "correctAnswer": "У", "result": "ус", "meaningEn": "water" },
-      { "id": "b1-letter-match-q2", "prompt": "Which letter starts \"баг\"?", "options": ["С", "Б", "Н"], "correctAnswer": "Б", "result": "баг", "meaningEn": "team" },
-      { "id": "b1-letter-match-q3", "prompt": "Which letter starts \"ном\"?", "options": ["Н", "Т", "Л"], "correctAnswer": "Н", "result": "ном", "meaningEn": "book" },
-      { "id": "b1-letter-match-q4", "prompt": "Which letter starts \"гэр\"?", "options": ["Г", "Б", "Д"], "correctAnswer": "Г", "result": "гэр", "meaningEn": "home" },
-      { "id": "b1-letter-match-q5", "prompt": "Which letter starts \"сайн\"?", "options": ["С", "Н", "О"], "correctAnswer": "С", "result": "сайн", "meaningEn": "good" },
-      { "id": "b1-letter-match-q6", "prompt": "Which letter starts \"өдөр\"?", "options": ["Ө", "У", "Р"], "correctAnswer": "Ө", "result": "өдөр", "meaningEn": "day" }
+      {
+        "id": "b1-letter-match-q1",
+        "prompt": "Which letter starts \"ус\"?",
+        "options": [
+          "У",
+          "Г",
+          "Ө"
+        ],
+        "correctAnswer": "У",
+        "result": "ус",
+        "meaningEn": "water"
+      },
+      {
+        "id": "b1-letter-match-q2",
+        "prompt": "Which letter starts \"баг\"?",
+        "options": [
+          "С",
+          "Б",
+          "Н"
+        ],
+        "correctAnswer": "Б",
+        "result": "баг",
+        "meaningEn": "team"
+      },
+      {
+        "id": "b1-letter-match-q3",
+        "prompt": "Which letter starts \"ном\"?",
+        "options": [
+          "Н",
+          "Т",
+          "Л"
+        ],
+        "correctAnswer": "Н",
+        "result": "ном",
+        "meaningEn": "book"
+      },
+      {
+        "id": "b1-letter-match-q4",
+        "prompt": "Which letter starts \"гэр\"?",
+        "options": [
+          "Г",
+          "Б",
+          "Д"
+        ],
+        "correctAnswer": "Г",
+        "result": "гэр",
+        "meaningEn": "home"
+      },
+      {
+        "id": "b1-letter-match-q5",
+        "prompt": "Which letter starts \"сайн\"?",
+        "options": [
+          "С",
+          "Н",
+          "О"
+        ],
+        "correctAnswer": "С",
+        "result": "сайн",
+        "meaningEn": "good"
+      },
+      {
+        "id": "b1-letter-match-q6",
+        "prompt": "Which letter starts \"өдөр\"?",
+        "options": [
+          "Ө",
+          "У",
+          "Р"
+        ],
+        "correctAnswer": "Ө",
+        "result": "өдөр",
+        "meaningEn": "day"
+      }
     ]
   },
   {
@@ -55,14 +247,141 @@
     "dailyAttemptLimit": 8,
     "isActive": true,
     "order": 3,
-    "config": { "shuffleQuestions": true },
+    "config": {
+      "shuffleQuestions": true,
+      "roadmap": [
+        {
+          "id": "stage-1",
+          "title": "Basics",
+          "subtitle": "Core starter set",
+          "order": 1,
+          "xpReward": 6,
+          "isUnlocked": true,
+          "questionIds": [
+            "b1-word-builder-q1",
+            "b1-word-builder-q2",
+            "b1-word-builder-q3"
+          ]
+        },
+        {
+          "id": "stage-2",
+          "title": "Challenge",
+          "subtitle": "Level up set",
+          "order": 2,
+          "xpReward": 6,
+          "isUnlocked": false,
+          "questionIds": [
+            "b1-word-builder-q4",
+            "b1-word-builder-q5",
+            "b1-word-builder-q6"
+          ]
+        }
+      ]
+    },
     "questions": [
-      { "id": "b1-word-builder-q1", "prompt": "Build the word for \"book\".", "letters": ["н", "о", "м"], "options": ["ном", "мон", "онм"], "correctAnswer": "ном", "result": "ном", "meaningEn": "book" },
-      { "id": "b1-word-builder-q2", "prompt": "Build the word for \"home\".", "letters": ["г", "э", "р"], "options": ["гэр", "эгр", "ргэ"], "correctAnswer": "гэр", "result": "гэр", "meaningEn": "home" },
-      { "id": "b1-word-builder-q3", "prompt": "Build the word for \"water\".", "letters": ["у", "с"], "options": ["ус", "су", "уу"], "correctAnswer": "ус", "result": "ус", "meaningEn": "water" },
-      { "id": "b1-word-builder-q4", "prompt": "Build the word for \"team\".", "letters": ["б", "а", "г"], "options": ["баг", "габ", "абг"], "correctAnswer": "баг", "result": "баг", "meaningEn": "team" },
-      { "id": "b1-word-builder-q5", "prompt": "Build the word for \"good\".", "letters": ["с", "а", "й", "н"], "options": ["сайн", "сани", "нсаи"], "correctAnswer": "сайн", "result": "сайн", "meaningEn": "good" },
-      { "id": "b1-word-builder-q6", "prompt": "Build the word for \"day\".", "letters": ["ө", "д", "ө", "р"], "options": ["өдөр", "өрдө", "өдрө"], "correctAnswer": "өдөр", "result": "өдөр", "meaningEn": "day" }
+      {
+        "id": "b1-word-builder-q1",
+        "prompt": "Build the word for \"book\".",
+        "letters": [
+          "н",
+          "о",
+          "м"
+        ],
+        "options": [
+          "ном",
+          "мон",
+          "онм"
+        ],
+        "correctAnswer": "ном",
+        "result": "ном",
+        "meaningEn": "book"
+      },
+      {
+        "id": "b1-word-builder-q2",
+        "prompt": "Build the word for \"home\".",
+        "letters": [
+          "г",
+          "э",
+          "р"
+        ],
+        "options": [
+          "гэр",
+          "эгр",
+          "ргэ"
+        ],
+        "correctAnswer": "гэр",
+        "result": "гэр",
+        "meaningEn": "home"
+      },
+      {
+        "id": "b1-word-builder-q3",
+        "prompt": "Build the word for \"water\".",
+        "letters": [
+          "у",
+          "с"
+        ],
+        "options": [
+          "ус",
+          "су",
+          "уу"
+        ],
+        "correctAnswer": "ус",
+        "result": "ус",
+        "meaningEn": "water"
+      },
+      {
+        "id": "b1-word-builder-q4",
+        "prompt": "Build the word for \"team\".",
+        "letters": [
+          "б",
+          "а",
+          "г"
+        ],
+        "options": [
+          "баг",
+          "габ",
+          "абг"
+        ],
+        "correctAnswer": "баг",
+        "result": "баг",
+        "meaningEn": "team"
+      },
+      {
+        "id": "b1-word-builder-q5",
+        "prompt": "Build the word for \"good\".",
+        "letters": [
+          "с",
+          "а",
+          "й",
+          "н"
+        ],
+        "options": [
+          "сайн",
+          "сани",
+          "нсаи"
+        ],
+        "correctAnswer": "сайн",
+        "result": "сайн",
+        "meaningEn": "good"
+      },
+      {
+        "id": "b1-word-builder-q6",
+        "prompt": "Build the word for \"day\".",
+        "letters": [
+          "ө",
+          "д",
+          "ө",
+          "р"
+        ],
+        "options": [
+          "өдөр",
+          "өрдө",
+          "өдрө"
+        ],
+        "correctAnswer": "өдөр",
+        "result": "өдөр",
+        "meaningEn": "day"
+      }
     ]
   },
   {
@@ -77,14 +396,110 @@
     "dailyAttemptLimit": 8,
     "isActive": true,
     "order": 4,
-    "config": { "shuffleQuestions": true },
+    "config": {
+      "shuffleQuestions": true,
+      "roadmap": [
+        {
+          "id": "stage-1",
+          "title": "Basics",
+          "subtitle": "Core starter set",
+          "order": 1,
+          "xpReward": 6,
+          "isUnlocked": true,
+          "questionIds": [
+            "b1-meaning-match-q1",
+            "b1-meaning-match-q2",
+            "b1-meaning-match-q3"
+          ]
+        },
+        {
+          "id": "stage-2",
+          "title": "Challenge",
+          "subtitle": "Level up set",
+          "order": 2,
+          "xpReward": 6,
+          "isUnlocked": false,
+          "questionIds": [
+            "b1-meaning-match-q4",
+            "b1-meaning-match-q5",
+            "b1-meaning-match-q6"
+          ]
+        }
+      ]
+    },
     "questions": [
-      { "id": "b1-meaning-match-q1", "prompt": "What is \"гэр\"?", "options": ["home", "book", "water"], "correctAnswer": "home", "result": "гэр", "meaningEn": "home" },
-      { "id": "b1-meaning-match-q2", "prompt": "What is \"ном\"?", "options": ["team", "book", "day"], "correctAnswer": "book", "result": "ном", "meaningEn": "book" },
-      { "id": "b1-meaning-match-q3", "prompt": "What is \"ус\"?", "options": ["water", "good", "teacher"], "correctAnswer": "water", "result": "ус", "meaningEn": "water" },
-      { "id": "b1-meaning-match-q4", "prompt": "What is \"баг\"?", "options": ["team", "sun", "street"], "correctAnswer": "team", "result": "баг", "meaningEn": "team" },
-      { "id": "b1-meaning-match-q5", "prompt": "What is \"сайн\"?", "options": ["good", "bad", "small"], "correctAnswer": "good", "result": "сайн", "meaningEn": "good" },
-      { "id": "b1-meaning-match-q6", "prompt": "What is \"өдөр\"?", "options": ["day", "night", "month"], "correctAnswer": "day", "result": "өдөр", "meaningEn": "day" }
+      {
+        "id": "b1-meaning-match-q1",
+        "prompt": "What is \"гэр\"?",
+        "options": [
+          "home",
+          "book",
+          "water"
+        ],
+        "correctAnswer": "home",
+        "result": "гэр",
+        "meaningEn": "home"
+      },
+      {
+        "id": "b1-meaning-match-q2",
+        "prompt": "What is \"ном\"?",
+        "options": [
+          "team",
+          "book",
+          "day"
+        ],
+        "correctAnswer": "book",
+        "result": "ном",
+        "meaningEn": "book"
+      },
+      {
+        "id": "b1-meaning-match-q3",
+        "prompt": "What is \"ус\"?",
+        "options": [
+          "water",
+          "good",
+          "teacher"
+        ],
+        "correctAnswer": "water",
+        "result": "ус",
+        "meaningEn": "water"
+      },
+      {
+        "id": "b1-meaning-match-q4",
+        "prompt": "What is \"баг\"?",
+        "options": [
+          "team",
+          "sun",
+          "street"
+        ],
+        "correctAnswer": "team",
+        "result": "баг",
+        "meaningEn": "team"
+      },
+      {
+        "id": "b1-meaning-match-q5",
+        "prompt": "What is \"сайн\"?",
+        "options": [
+          "good",
+          "bad",
+          "small"
+        ],
+        "correctAnswer": "good",
+        "result": "сайн",
+        "meaningEn": "good"
+      },
+      {
+        "id": "b1-meaning-match-q6",
+        "prompt": "What is \"өдөр\"?",
+        "options": [
+          "day",
+          "night",
+          "month"
+        ],
+        "correctAnswer": "day",
+        "result": "өдөр",
+        "meaningEn": "day"
+      }
     ]
   },
   {
@@ -99,14 +514,116 @@
     "dailyAttemptLimit": 1,
     "isActive": true,
     "order": 5,
-    "config": { "shuffleQuestions": false },
+    "config": {
+      "shuffleQuestions": false,
+      "roadmap": [
+        {
+          "id": "stage-1",
+          "title": "Basics",
+          "subtitle": "Core starter set",
+          "order": 1,
+          "xpReward": 10,
+          "isUnlocked": true,
+          "questionIds": [
+            "b1-daily-challenge-q1",
+            "b1-daily-challenge-q2",
+            "b1-daily-challenge-q3"
+          ]
+        },
+        {
+          "id": "stage-2",
+          "title": "Challenge",
+          "subtitle": "Level up set",
+          "order": 2,
+          "xpReward": 10,
+          "isUnlocked": false,
+          "questionIds": [
+            "b1-daily-challenge-q4",
+            "b1-daily-challenge-q5",
+            "b1-daily-challenge-q6"
+          ]
+        }
+      ]
+    },
     "questions": [
-      { "id": "b1-daily-challenge-q1", "prompt": "Complete: _аг", "options": ["Б", "С", "У"], "correctAnswer": "Б", "result": "баг", "meaningEn": "team" },
-      { "id": "b1-daily-challenge-q2", "prompt": "Which letter starts \"ном\"?", "options": ["Н", "Б", "Г"], "correctAnswer": "Н", "result": "ном", "meaningEn": "book" },
-      { "id": "b1-daily-challenge-q3", "prompt": "Build the word for \"good\".", "letters": ["с", "а", "й", "н"], "options": ["сайн", "сани", "нсаи"], "correctAnswer": "сайн", "result": "сайн", "meaningEn": "good" },
-      { "id": "b1-daily-challenge-q4", "prompt": "Meaning of \"ус\"", "options": ["water", "home", "good"], "correctAnswer": "water", "result": "ус", "meaningEn": "water" },
-      { "id": "b1-daily-challenge-q5", "prompt": "Meaning of \"гэр\"", "options": ["home", "book", "day"], "correctAnswer": "home", "result": "гэр", "meaningEn": "home" },
-      { "id": "b1-daily-challenge-q6", "prompt": "Complete: өд_р", "options": ["ө", "а", "у"], "correctAnswer": "ө", "result": "өдөр", "meaningEn": "day" }
+      {
+        "id": "b1-daily-challenge-q1",
+        "prompt": "Complete: _аг",
+        "options": [
+          "Б",
+          "С",
+          "У"
+        ],
+        "correctAnswer": "Б",
+        "result": "баг",
+        "meaningEn": "team"
+      },
+      {
+        "id": "b1-daily-challenge-q2",
+        "prompt": "Which letter starts \"ном\"?",
+        "options": [
+          "Н",
+          "Б",
+          "Г"
+        ],
+        "correctAnswer": "Н",
+        "result": "ном",
+        "meaningEn": "book"
+      },
+      {
+        "id": "b1-daily-challenge-q3",
+        "prompt": "Build the word for \"good\".",
+        "letters": [
+          "с",
+          "а",
+          "й",
+          "н"
+        ],
+        "options": [
+          "сайн",
+          "сани",
+          "нсаи"
+        ],
+        "correctAnswer": "сайн",
+        "result": "сайн",
+        "meaningEn": "good"
+      },
+      {
+        "id": "b1-daily-challenge-q4",
+        "prompt": "Meaning of \"ус\"",
+        "options": [
+          "water",
+          "home",
+          "good"
+        ],
+        "correctAnswer": "water",
+        "result": "ус",
+        "meaningEn": "water"
+      },
+      {
+        "id": "b1-daily-challenge-q5",
+        "prompt": "Meaning of \"гэр\"",
+        "options": [
+          "home",
+          "book",
+          "day"
+        ],
+        "correctAnswer": "home",
+        "result": "гэр",
+        "meaningEn": "home"
+      },
+      {
+        "id": "b1-daily-challenge-q6",
+        "prompt": "Complete: өд_р",
+        "options": [
+          "ө",
+          "а",
+          "у"
+        ],
+        "correctAnswer": "ө",
+        "result": "өдөр",
+        "meaningEn": "day"
+      }
     ]
   }
 ]
