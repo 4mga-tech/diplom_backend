@@ -1,61 +1,38 @@
 [
   {
-    "id": "b1-letter-match",
-    "type": "letter_match",
+    "id": "b1-missing-letter",
+    "type": "missing_letter",
     "levelId": "b1",
-    "title": "Letter Match",
-    "subtitle": "Choose the correct group",
-    "description": "Practice identifying Mongolian Cyrillic letters.",
+    "title": "Missing Letter",
+    "subtitle": "Choose the missing letter",
+    "description": "Complete simple Mongolian words.",
     "xpReward": 5,
     "maxDailyXp": 20,
     "dailyAttemptLimit": 10,
     "isActive": true,
     "order": 1,
-    "config": {
-      "timeLimitSeconds": 60,
-      "shuffleQuestions": true
-    },
+    "config": { "shuffleQuestions": true },
     "questions": [
-      {
-        "id": "b1-letter-match-q1",
-        "prompt": "Which group does А belong to?",
-        "options": ["vowel", "consonant", "sign"],
-        "correctAnswer": "vowel"
-      },
-      {
-        "id": "b1-letter-match-q2",
-        "prompt": "Which group does Б belong to?",
-        "options": ["vowel", "consonant", "sign"],
-        "correctAnswer": "consonant"
-      },
-      {
-        "id": "b1-letter-match-q3",
-        "prompt": "Which group does Ү belong to?",
-        "options": ["vowel", "consonant", "sign"],
-        "correctAnswer": "vowel"
-      }
+      { "id": "b1-missing-letter-q1", "prompt": "_ом", "options": ["Н", "Б", "С"], "correctAnswer": "Н", "result": "ном", "meaningEn": "book" },
+      { "id": "b1-missing-letter-q2", "prompt": "гэ_", "options": ["р", "н", "л"], "correctAnswer": "р", "result": "гэр", "meaningEn": "home" }
     ]
   },
   {
-    "id": "b1-listen-choose",
-    "type": "listen_choose",
+    "id": "b1-letter-match",
+    "type": "letter_match",
     "levelId": "b1",
-    "title": "Listen & Choose",
-    "subtitle": "Select the word you hear",
-    "description": "Practice basic listening-to-word matching for B1 vocabulary.",
+    "title": "Letter Match",
+    "subtitle": "Match letters to words",
+    "description": "Connect first letters with simple words.",
     "xpReward": 5,
     "maxDailyXp": 20,
     "dailyAttemptLimit": 10,
     "isActive": true,
     "order": 2,
-    "config": {
-      "timeLimitSeconds": 45,
-      "shuffleQuestions": true
-    },
+    "config": { "shuffleQuestions": true },
     "questions": [
-      { "id": "b1-listen-choose-q1", "prompt": "Select the word: ном", "options": ["ном", "гэр", "ус"], "correctAnswer": "ном" },
-      { "id": "b1-listen-choose-q2", "prompt": "Select the word: гэр", "options": ["баг", "гэр", "сайн"], "correctAnswer": "гэр" },
-      { "id": "b1-listen-choose-q3", "prompt": "Select the word: өдөр", "options": ["ус", "өдөр", "ном"], "correctAnswer": "өдөр" }
+      { "id": "b1-letter-match-q1", "prompt": "Which letter starts \"ус\"?", "options": ["У", "Г", "Ө"], "correctAnswer": "У", "result": "ус", "meaningEn": "water" },
+      { "id": "b1-letter-match-q2", "prompt": "Which letter starts \"баг\"?", "options": ["С", "Б", "Н"], "correctAnswer": "Б", "result": "баг", "meaningEn": "team" }
     ]
   },
   {
@@ -63,43 +40,35 @@
     "type": "word_builder",
     "levelId": "b1",
     "title": "Word Builder",
-    "subtitle": "Arrange letters to form words",
-    "description": "Build common Mongolian words from scrambled letters.",
-    "xpReward": 8,
+    "subtitle": "Build the word",
+    "description": "Build basic words from letter choices.",
+    "xpReward": 6,
     "maxDailyXp": 24,
-    "dailyAttemptLimit": 6,
+    "dailyAttemptLimit": 8,
     "isActive": true,
     "order": 3,
-    "config": {
-      "timeLimitSeconds": 90,
-      "shuffleQuestions": true
-    },
+    "config": { "shuffleQuestions": true },
     "questions": [
-      { "id": "b1-word-builder-q1", "prompt": "Arrange letters to form: ном", "options": ["nom", "mon", "nmo"], "correctAnswer": "nom" },
-      { "id": "b1-word-builder-q2", "prompt": "Arrange letters to form: гэр", "options": ["ger", "gre", "reg"], "correctAnswer": "ger" },
-      { "id": "b1-word-builder-q3", "prompt": "Arrange letters to form: сайн", "options": ["sain", "snia", "ains"], "correctAnswer": "sain" }
+      { "id": "b1-word-builder-q1", "prompt": "Choose the correct build for \"сайн\"", "options": ["сайн", "сйан", "сани"], "correctAnswer": "сайн", "result": "сайн", "meaningEn": "good" },
+      { "id": "b1-word-builder-q2", "prompt": "Choose the correct build for \"өдөр\"", "options": ["өдөр", "өрдө", "өдөрр"], "correctAnswer": "өдөр", "result": "өдөр", "meaningEn": "day" }
     ]
   },
   {
-    "id": "b1-missing-letter",
-    "type": "missing_letter",
+    "id": "b1-meaning-match",
+    "type": "meaning_match",
     "levelId": "b1",
-    "title": "Missing Letter",
-    "subtitle": "Fill in the blank",
-    "description": "Complete words by choosing the missing letter.",
+    "title": "Meaning Match",
+    "subtitle": "Match word and meaning",
+    "description": "Pick the English meaning of simple words.",
     "xpReward": 6,
-    "maxDailyXp": 18,
+    "maxDailyXp": 24,
     "dailyAttemptLimit": 8,
     "isActive": true,
     "order": 4,
-    "config": {
-      "timeLimitSeconds": 60,
-      "shuffleQuestions": true
-    },
+    "config": { "shuffleQuestions": true },
     "questions": [
-      { "id": "b1-missing-letter-q1", "prompt": "г__р", "options": ["э", "а", "о"], "correctAnswer": "э" },
-      { "id": "b1-missing-letter-q2", "prompt": "__с", "options": ["у", "ө", "о"], "correctAnswer": "у" },
-      { "id": "b1-missing-letter-q3", "prompt": "с__йн", "options": ["а", "э", "о"], "correctAnswer": "а" }
+      { "id": "b1-meaning-match-q1", "prompt": "What is \"гэр\"?", "options": ["home", "book", "water"], "correctAnswer": "home", "result": "гэр", "meaningEn": "home" },
+      { "id": "b1-meaning-match-q2", "prompt": "What is \"ном\"?", "options": ["team", "book", "day"], "correctAnswer": "book", "result": "ном", "meaningEn": "book" }
     ]
   },
   {
@@ -107,21 +76,17 @@
     "type": "daily_challenge",
     "levelId": "b1",
     "title": "Daily Challenge",
-    "subtitle": "Mix of all practice types",
-    "description": "Test letters and words in one daily challenge.",
+    "subtitle": "Mixed mini challenge",
+    "description": "Daily mixed practice with core B1 words.",
     "xpReward": 10,
     "maxDailyXp": 10,
     "dailyAttemptLimit": 1,
     "isActive": true,
     "order": 5,
-    "config": {
-      "timeLimitSeconds": 180,
-      "shuffleQuestions": false
-    },
+    "config": { "shuffleQuestions": false },
     "questions": [
-      { "id": "b1-daily-challenge-q1", "prompt": "Which of these is a vowel?", "options": ["А", "Б", "М"], "correctAnswer": "А" },
-      { "id": "b1-daily-challenge-q2", "prompt": "Choose the word: ус", "options": ["ус", "баг", "ном"], "correctAnswer": "ус" },
-      { "id": "b1-daily-challenge-q3", "prompt": "Complete: өд__р", "options": ["ө", "а", "о"], "correctAnswer": "ө" }
+      { "id": "b1-daily-challenge-q1", "prompt": "Complete: _аг", "options": ["Б", "С", "У"], "correctAnswer": "Б", "result": "баг", "meaningEn": "team" },
+      { "id": "b1-daily-challenge-q2", "prompt": "Meaning of \"ус\"", "options": ["water", "home", "good"], "correctAnswer": "water", "result": "ус", "meaningEn": "water" }
     ]
   }
 ]

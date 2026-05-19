@@ -9,6 +9,8 @@ export type PracticeQuestion = {
   prompt: string;
   options: string[];
   correctAnswer: string;
+  result?: string;
+  meaningEn?: string;
 };
 
 export type PracticeSeedItem = {

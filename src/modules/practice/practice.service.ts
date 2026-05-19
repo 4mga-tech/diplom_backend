@@ -9,7 +9,7 @@ import {
 import { PracticeAttemptPayload } from "./practice.types";
 
 const validateAttemptPayload = (payload: PracticeAttemptPayload) => {
-  if (!Number.isFinite(payload.score) || payload.score < 0) {
+  if (!Number.isFinite(payload.score) || payload.score < 0 || payload.score > 100) {
     throw new Error("Invalid score payload");
   }
 
@@ -43,6 +43,10 @@ export const listPractice = async () => {
 };
 
 export const getPracticeDetail = async (practiceId: string) => {
+  if (!practiceId) {
+    throw new Error("Practice not found");
+  }
+
   const practice = await findPracticeById(practiceId);
   if (!practice) {
     throw new Error("Practice not found");
