@@ -18,6 +18,7 @@ import { XpLedger } from "../modules/progress/xp-ledger.model";
 import Level from "../modules/content/level.model";
 import Vocabulary from "../modules/content/vocabulary.model";
 import { Practice } from "../modules/practice/practice.model";
+import { PracticeSeedItem } from "../modules/practice/practice.types";
 import {
   SUPPORTED_VOCABULARY_LEVEL_IDS,
   getVocabularyCountsByLevel,
@@ -258,6 +259,27 @@ const validateLevelTests = (tests: LevelTestSeed[]) => {
   }
 };
 
+const validatePracticeSeedItem = (practice: PracticeSeedItem, sourceFile: string) => {
+  const context = `${sourceFile}:${practice.id}`;
+  if (!practice.id || !practice.type || !practice.levelId) {
+    throw new Error(`Practice ${context} is missing required id/type/levelId`);
+  }
+
+  if (practice.xpReward < 0 || practice.maxDailyXp < 0 || practice.dailyAttemptLimit < 0) {
+    throw new Error(`Practice ${context} must have non-negative xpReward/maxDailyXp/dailyAttemptLimit`);
+  }
+
+  if (!Array.isArray(practice.questions)) {
+    throw new Error(`Practice ${context} questions must be an array`);
+  }
+
+  for (const question of practice.questions) {
+    if (!question?.id || !question?.prompt || !Array.isArray(question?.options) || !question?.correctAnswer) {
+      throw new Error(`Practice ${context} has invalid question shape for ${question?.id ?? "unknown"}`);
+    }
+  }
+};
+
 const loadSeedData = async () => {
   const [levelsManifest, unitsManifest, lessonSeedFileNames, practiceSeedFileNames] =
     await Promise.all([
@@ -282,18 +304,32 @@ const loadSeedData = async () => {
   );
   validateLevelTests(levelTests);
 
-  const practiceItems = await Promise.all(
-    practiceSeedFileNames.map((fileName) =>
-      readJsonFile<Array<any>>(path.join(PRACTICE_SEED_DIR, fileName)),
-    ),
+  const practiceItemsByFile = await Promise.all(
+    practiceSeedFileNames.map(async (fileName) => ({
+      fileName,
+      items: await readJsonFile<PracticeSeedItem[]>(path.join(PRACTICE_SEED_DIR, fileName)),
+    })),
   );
+
+  const practiceIds = new Set<string>();
+  const practices: PracticeSeedItem[] = [];
+  for (const { fileName, items } of practiceItemsByFile) {
+    for (const item of items) {
+      validatePracticeSeedItem(item, fileName);
+      if (practiceIds.has(item.id)) {
+        throw new Error(`Duplicate practice id found: ${item.id}`);
+      }
+      practiceIds.add(item.id);
+      practices.push(item);
+    }
+  }
 
   return {
     levelsManifest,
     unitsManifest,
     lessonSeeds,
     levelTests,
-    practices: practiceItems.flat(),
+    practices,
   };
 };
 
@@ -372,9 +408,12 @@ async function seed() {
   await Vocabulary.insertMany(vocabularySeedRecords);
 
   console.log("Upserting practice...");
+  let upsertedPracticeCount = 0;
   for (const practice of practices) {
     await Practice.findOneAndUpdate({ id: practice.id }, practice, { upsert: true });
+    upsertedPracticeCount += 1;
   }
+  console.log(`Upserted ${upsertedPracticeCount} practice items`);
 
   // console.log("Creating daily review...");
   // await DailyReview.create({
