@@ -26,6 +26,7 @@ export const createPracticeAttempt = async (attempt: {
   score: number;
   correctCount: number;
   totalCount: number;
+  stageId?: string;
   xpEarned: number;
 }) => {
   return PracticeAttempt.create(attempt);

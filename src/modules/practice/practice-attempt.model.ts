@@ -8,6 +8,7 @@ const PracticeAttemptSchema = new mongoose.Schema(
     score: { type: Number, required: true },
     correctCount: { type: Number, required: true },
     totalCount: { type: Number, required: true },
+    stageId: { type: String, required: false, index: true },
     xpEarned: { type: Number, required: true, default: 0 },
   },
   { timestamps: true },

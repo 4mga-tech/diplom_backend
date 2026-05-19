@@ -14,7 +14,8 @@ const getStatusFromError = (error: unknown) => {
   if (
     error.message === "Invalid score payload" ||
     error.message === "Correct count cannot exceed total count" ||
-    error.message === "Practice is not active"
+    error.message === "Practice is not active" ||
+    error.message === "Invalid stage payload"
   ) {
     return 400;
   }
@@ -47,7 +48,7 @@ export const getPracticeDetailHandler = async (req: AuthRequest, res: Response) 
 export const submitPracticeAttemptHandler = async (req: AuthRequest, res: Response) => {
   try {
     const practiceId = String(req.params.practiceId ?? req.params.gameId ?? "");
-    const { score, correctCount, totalCount } = req.body;
+    const { score, correctCount, totalCount, stageId } = req.body;
     const userId = req.userId;
 
     if (!userId) {
@@ -61,7 +62,7 @@ export const submitPracticeAttemptHandler = async (req: AuthRequest, res: Respon
       });
     }
 
-    const result = await submitPracticeAttempt(userId, practiceId, { score, correctCount, totalCount });
+    const result = await submitPracticeAttempt(userId, practiceId, { score, correctCount, totalCount, stageId });
     return res.status(200).json({ success: true, data: result });
   } catch (error) {
     return res.status(getStatusFromError(error)).json({

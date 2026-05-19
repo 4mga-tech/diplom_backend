@@ -2,6 +2,21 @@ export type PracticeAttemptPayload = {
   score: number;
   correctCount: number;
   totalCount: number;
+  stageId?: string;
+};
+
+export type PracticeRoadmapStage = {
+  id: string;
+  title: string;
+  subtitle: string;
+  order: number;
+  xpReward: number;
+  isUnlocked: boolean;
+  questionIds: string[];
+};
+
+export type PracticeConfig = Record<string, unknown> & {
+  roadmap?: PracticeRoadmapStage[];
 };
 
 export type PracticeQuestion = {
@@ -25,6 +40,6 @@ export type PracticeSeedItem = {
   dailyAttemptLimit: number;
   isActive: boolean;
   order: number;
-  config: Record<string, unknown>;
+  config: PracticeConfig;
   questions: PracticeQuestion[];
 };
