@@ -1,0 +1,112 @@
+[
+  {
+    "id": "practice-missing-word",
+    "type": "missing_word",
+    "levelId": "m1",
+    "title": "Үг нөхөх",
+    "subtitle": "Fill the missing word or letter",
+    "description": "Choose the correct missing word in practical Mongolian sentences.",
+    "xpReward": 8,
+    "maxDailyXp": 40,
+    "dailyAttemptLimit": 10,
+    "isActive": true,
+    "order": 1,
+    "config": {"roadmap": [
+      {"id":"mw-stage-1","title":"B1 Суурь","subtitle":"Simple daily words","order":1,"xpReward":8,"isUnlocked":true,"questionIds":["missing-word-q1","missing-word-q2"]},
+      {"id":"mw-stage-2","title":"M1 Өдөр тутам","subtitle":"Daily activity language","order":2,"xpReward":8,"isUnlocked":false,"questionIds":["missing-word-q3","missing-word-q4"]},
+      {"id":"mw-stage-3","title":"M2 Өгүүлбэр","subtitle":"Grammar-aware choices","order":3,"xpReward":8,"isUnlocked":false,"questionIds":["missing-word-q5","missing-word-q6"]},
+      {"id":"mw-stage-4","title":"Холимог сорил","subtitle":"Mixed B1/M1/M2 set","order":4,"xpReward":10,"isUnlocked":false,"questionIds":["missing-word-q7","missing-word-q8"]}
+    ]},
+    "questions": [
+      {"id":"missing-word-q1","prompt":"Би ___ уншиж байна.","options":["ном","гэр","ус"],"correctAnswer":"ном","result":"Би ном уншиж байна.","meaningEn":"I am reading a book."},
+      {"id":"missing-word-q2","prompt":"Тэр ___ ууж байна.","options":["ус","ном","ширээ"],"correctAnswer":"ус","result":"Тэр ус ууж байна.","meaningEn":"He/She is drinking water."},
+      {"id":"missing-word-q3","prompt":"Өглөө би ___ иддэг.","options":["өглөөний цай","сургуулиа","дэвтэр"],"correctAnswer":"өглөөний цай","result":"Өглөө би өглөөний цай иддэг.","meaningEn":"I eat breakfast in the morning."},
+      {"id":"missing-word-q4","prompt":"Бид одоо ангидаа ___ байна.","options":["сууж","гүйлт","ном"],"correctAnswer":"сууж","result":"Бид одоо ангидаа сууж байна.","meaningEn":"We are sitting in class now."},
+      {"id":"missing-word-q5","prompt":"Өчигдөр би гэртээ ___ .","options":["байсан","байна","байх"],"correctAnswer":"байсан","result":"Өчигдөр би гэртээ байсан.","meaningEn":"Yesterday I was at home."},
+      {"id":"missing-word-q6","prompt":"Маргааш бид аялалд ___ .","options":["явна","явсан","явж"],"correctAnswer":"явна","result":"Маргааш бид аялалд явна.","meaningEn":"Tomorrow we will go on a trip."},
+      {"id":"missing-word-q7","prompt":"Чи одоо юу ___ байна вэ?","options":["хийж","хийсэн","хийх"],"correctAnswer":"хийж","result":"Чи одоо юу хийж байна вэ?","meaningEn":"What are you doing now?"},
+      {"id":"missing-word-q8","prompt":"Бид орой кино ___ .","options":["үзнэ","үзсэн","үзэж"],"correctAnswer":"үзнэ","result":"Бид орой кино үзнэ.","meaningEn":"We will watch a movie in the evening."}
+    ]
+  },
+  {
+    "id": "practice-sentence-order",
+    "type": "sentence_order",
+    "levelId": "m1",
+    "title": "Зөв дараалалд оруулах",
+    "subtitle": "Arrange words in correct order",
+    "description": "Build correct Mongolian sentences from mixed parts.",
+    "xpReward": 8,
+    "maxDailyXp": 40,
+    "dailyAttemptLimit": 10,
+    "isActive": true,
+    "order": 2,
+    "config": {"roadmap": [
+      {"id":"so-stage-1","title":"B1 Үндэс","subtitle":"Simple sentence order","order":1,"xpReward":8,"isUnlocked":true,"questionIds":["sentence-order-q1","sentence-order-q2"]},
+      {"id":"so-stage-2","title":"M1 Ахисан","subtitle":"Daily routine patterns","order":2,"xpReward":8,"isUnlocked":false,"questionIds":["sentence-order-q3","sentence-order-q4"]},
+      {"id":"so-stage-3","title":"M2 Хэлзүй","subtitle":"Time and tense patterns","order":3,"xpReward":8,"isUnlocked":false,"questionIds":["sentence-order-q5","sentence-order-q6"]}
+    ]},
+    "questions": [
+      {"id":"sentence-order-q1","prompt":"Зөв өгүүлбэр бүтээгээрэй.","options":["Би|ном|уншиж|байна"],"correctAnswer":"Би ном уншиж байна","parts":["Би","ном","уншиж","байна"],"meaningEn":"I am reading a book."},
+      {"id":"sentence-order-q2","prompt":"Үгийг зөв дараалалд оруул.","options":["Тэр|ус|ууж|байна"],"correctAnswer":"Тэр ус ууж байна","parts":["Тэр","ус","ууж","байна"],"meaningEn":"He/She is drinking water."},
+      {"id":"sentence-order-q3","prompt":"Өдрийн үйлдлийг зөв болго.","options":["Бид|сургуульд|явдаг"],"correctAnswer":"Бид сургуульд явдаг","parts":["Бид","сургуульд","явдаг"],"meaningEn":"We go to school."},
+      {"id":"sentence-order-q4","prompt":"Зөв өгүүлбэр болго.","options":["Би|гэрийн даалгавар|хийдэг"],"correctAnswer":"Би гэрийн даалгавар хийдэг","parts":["Би","гэрийн даалгавар","хийдэг"],"meaningEn":"I do homework."},
+      {"id":"sentence-order-q5","prompt":"Цагийн хэлбэрийг зөв дараалалд оруул.","options":["Өчигдөр|тэр|ирсэн"],"correctAnswer":"Өчигдөр тэр ирсэн","parts":["Өчигдөр","тэр","ирсэн"],"meaningEn":"He/She came yesterday."},
+      {"id":"sentence-order-q6","prompt":"Ирээдүйн үйлдлийг зөв дараалалд оруул.","options":["Маргааш|бид|аялна"],"correctAnswer":"Маргааш бид аялна","parts":["Маргааш","бид","аялна"],"meaningEn":"Tomorrow we will travel."}
+    ]
+  },
+  {
+    "id": "practice-dialogue-fill",
+    "type": "dialogue_fill",
+    "levelId": "m2",
+    "title": "Харилцан яриа нөхөх",
+    "subtitle": "Choose the correct reply",
+    "description": "Complete short dialogues with natural answers.",
+    "xpReward": 9,
+    "maxDailyXp": 45,
+    "dailyAttemptLimit": 10,
+    "isActive": true,
+    "order": 3,
+    "config": {"roadmap": [
+      {"id":"df-stage-1","title":"B1 Мэндчилгээ","subtitle":"Basic social replies","order":1,"xpReward":9,"isUnlocked":true,"questionIds":["dialogue-fill-q1","dialogue-fill-q2"]},
+      {"id":"df-stage-2","title":"M1 Өдөр тутам","subtitle":"Family and school contexts","order":2,"xpReward":9,"isUnlocked":false,"questionIds":["dialogue-fill-q3","dialogue-fill-q4"]},
+      {"id":"df-stage-3","title":"M2 Нөхцөл байдал","subtitle":"Time-aware conversation","order":3,"xpReward":9,"isUnlocked":false,"questionIds":["dialogue-fill-q5","dialogue-fill-q6"]},
+      {"id":"df-stage-4","title":"Холимог яриа","subtitle":"Mixed practice","order":4,"xpReward":10,"isUnlocked":false,"questionIds":["dialogue-fill-q7","dialogue-fill-q8"]}
+    ]},
+    "questions": [
+      {"id":"dialogue-fill-q1","prompt":"A: Чиний нэр хэн бэ?\nB: ________","options":["Намайг Сараа гэдэг.","Би гэртээ байна.","Энэ ном."],"correctAnswer":"Намайг Сараа гэдэг.","result":"A: Чиний нэр хэн бэ?\nB: Намайг Сараа гэдэг.","meaningEn":"What is your name? My name is Saraa."},
+      {"id":"dialogue-fill-q2","prompt":"A: Сайн уу?\nB: ________","options":["Сайн, сайн уу.","Би ном.","Маргааш байсан."],"correctAnswer":"Сайн, сайн уу.","result":"A: Сайн уу?\nB: Сайн, сайн уу.","meaningEn":"Hi. Hi, I am fine."},
+      {"id":"dialogue-fill-q3","prompt":"A: Чи хаана сурдаг вэ?\nB: ________","options":["Би их сургуульд сурдаг.","Би ус уудаг.","Ном уншсан."],"correctAnswer":"Би их сургуульд сурдаг.","result":"A: Чи хаана сурдаг вэ?\nB: Би их сургуульд сурдаг.","meaningEn":"Where do you study? I study at university."},
+      {"id":"dialogue-fill-q4","prompt":"A: Орой юу хийх вэ?\nB: ________","options":["Би кино үзнэ.","Би өчигдөр.","Гэр том."],"correctAnswer":"Би кино үзнэ.","result":"A: Орой юу хийх вэ?\nB: Би кино үзнэ.","meaningEn":"What will you do tonight? I will watch a movie."},
+      {"id":"dialogue-fill-q5","prompt":"A: Өчигдөр чи хаана байсан бэ?\nB: ________","options":["Би гэртээ байсан.","Би гэртээ байна.","Би маргааш явна."],"correctAnswer":"Би гэртээ байсан.","result":"A: Өчигдөр чи хаана байсан бэ?\nB: Би гэртээ байсан.","meaningEn":"Where were you yesterday? I was at home."},
+      {"id":"dialogue-fill-q6","prompt":"A: Маргааш бид хэзээ уулзах вэ?\nB: ________","options":["Өглөө есөн цагт уулзъя.","Өчигдөр уулзсан.","Би цай ууж байна."],"correctAnswer":"Өглөө есөн цагт уулзъя.","result":"A: Маргааш бид хэзээ уулзах вэ?\nB: Өглөө есөн цагт уулзъя.","meaningEn":"When will we meet tomorrow? Let's meet at 9 in the morning."},
+      {"id":"dialogue-fill-q7","prompt":"A: Энэ зураг дээр юу байна?\nB: ________","options":["Ном байна.","Би явна.","Өчигдөр байсан."],"correctAnswer":"Ном байна.","result":"A: Энэ зураг дээр юу байна?\nB: Ном байна.","meaningEn":"What is in this picture? There is a book."},
+      {"id":"dialogue-fill-q8","prompt":"A: Чи одоо завтай юу?\nB: ________","options":["Тийм ээ, завтай.","Маргааш би.","Ус уусан."],"correctAnswer":"Тийм ээ, завтай.","result":"A: Чи одоо завтай юу?\nB: Тийм ээ, завтай.","meaningEn":"Are you free now? Yes, I am free."}
+    ]
+  },
+  {
+    "id": "practice-image-choice",
+    "type": "image_choice",
+    "levelId": "b1",
+    "title": "Зураг хараад сонгох",
+    "subtitle": "Choose meaning from image",
+    "description": "See image/icon cues and select the correct word.",
+    "xpReward": 7,
+    "maxDailyXp": 35,
+    "dailyAttemptLimit": 10,
+    "isActive": true,
+    "order": 4,
+    "config": {"roadmap": [
+      {"id":"ic-stage-1","title":"B1 Зураг-үг","subtitle":"Basic nouns","order":1,"xpReward":7,"isUnlocked":true,"questionIds":["image-choice-q1","image-choice-q2"]},
+      {"id":"ic-stage-2","title":"M1 Хэрэглээ","subtitle":"School and home objects","order":2,"xpReward":7,"isUnlocked":false,"questionIds":["image-choice-q3","image-choice-q4"]},
+      {"id":"ic-stage-3","title":"M2 Нөхцөл","subtitle":"Contextual image meaning","order":3,"xpReward":8,"isUnlocked":false,"questionIds":["image-choice-q5","image-choice-q6"]}
+    ]},
+    "questions": [
+      {"id":"image-choice-q1","prompt":"Зурагт тохирох үгийг сонго.","imageKey":"book","options":["ном","гэр","ус"],"correctAnswer":"ном","meaningEn":"book"},
+      {"id":"image-choice-q2","prompt":"Зурагт тохирох үгийг сонго.","imageKey":"water","options":["цүнх","ус","сандал"],"correctAnswer":"ус","meaningEn":"water"},
+      {"id":"image-choice-q3","prompt":"Зурагт тохирох үгийг сонго.","imageKey":"school","options":["сургууль","цэцэг","хоол"],"correctAnswer":"сургууль","meaningEn":"school"},
+      {"id":"image-choice-q4","prompt":"Зурагт тохирох үгийг сонго.","imageKey":"teacher","options":["багш","аав","найз"],"correctAnswer":"багш","meaningEn":"teacher"},
+      {"id":"image-choice-q5","prompt":"Зурагт тохирох үйлдлийг сонго.","imageKey":"reading","options":["уншиж байна","гүйж байна","унтаж байна"],"correctAnswer":"уншиж байна","meaningEn":"is reading"},
+      {"id":"image-choice-q6","prompt":"Зурагт тохирох цагийн үгийг сонго.","imageKey":"tomorrow-calendar","options":["маргааш","өчигдөр","өнөөдөр"],"correctAnswer":"маргааш","meaningEn":"tomorrow"}
+    ]
+  }
+]

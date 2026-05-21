@@ -22,10 +22,12 @@ export type PracticeConfig = Record<string, unknown> & {
 export type PracticeQuestion = {
   id: string;
   prompt: string;
-  options: string[];
+  options?: string[];
   correctAnswer: string;
   result?: string;
   meaningEn?: string;
+  parts?: string[];
+  imageKey?: string;
 };
 
 export type PracticeSeedItem = {

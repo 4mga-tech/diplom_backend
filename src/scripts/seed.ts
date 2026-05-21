@@ -274,8 +274,17 @@ const validatePracticeSeedItem = (practice: PracticeSeedItem, sourceFile: string
   }
 
   for (const question of practice.questions) {
-    if (!question?.id || !question?.prompt || !Array.isArray(question?.options) || !question?.correctAnswer) {
+    if (!question?.id || !question?.prompt || !question?.correctAnswer) {
       throw new Error(`Practice ${context} has invalid question shape for ${question?.id ?? "unknown"}`);
+    }
+
+    const optionsRequiredTypes = new Set(["missing_word", "dialogue_fill", "image_choice"]);
+    if (optionsRequiredTypes.has(practice.type) && !Array.isArray(question?.options)) {
+      throw new Error(`Practice ${context} requires options for question ${question.id}`);
+    }
+
+    if (practice.type === "sentence_order" && !Array.isArray((question as { parts?: unknown }).parts)) {
+      throw new Error(`Practice ${context} requires parts for question ${question.id}`);
     }
   }
 };
