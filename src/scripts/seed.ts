@@ -283,6 +283,42 @@ const validatePracticeSeedItem = (practice: PracticeSeedItem, sourceFile: string
       throw new Error(`Practice ${context} requires options for question ${question.id}`);
     }
 
+    if (practice.type === "image_choice") {
+      const optionItems = question.options as
+        | Array<{ id?: unknown; label?: unknown; imageUrl?: unknown }>
+        | undefined;
+
+      if (!optionItems || optionItems.length !== 4) {
+        throw new Error(`Practice ${context} image_choice question ${question.id} must have exactly 4 options`);
+      }
+
+      const hasInvalidOptionShape = optionItems.some(
+        (option) =>
+          !option ||
+          typeof option.id !== "string" ||
+          option.id.trim().length === 0 ||
+          typeof option.label !== "string" ||
+          option.label.trim().length === 0 ||
+          typeof option.imageUrl !== "string" ||
+          option.imageUrl.trim().length === 0,
+      );
+
+      if (hasInvalidOptionShape) {
+        throw new Error(`Practice ${context} image_choice question ${question.id} has invalid option shape`);
+      }
+
+      const normalizedCorrectAnswer = question.correctAnswer.trim();
+      const hasMatchingCorrectOption = optionItems.some(
+        (option) => option.id === normalizedCorrectAnswer || option.label === normalizedCorrectAnswer,
+      );
+
+      if (!hasMatchingCorrectOption) {
+        throw new Error(
+          `Practice ${context} image_choice question ${question.id} correctAnswer must match option id or label`,
+        );
+      }
+    }
+
     if (practice.type === "sentence_order" && !Array.isArray((question as { parts?: unknown }).parts)) {
       throw new Error(`Practice ${context} requires parts for question ${question.id}`);
     }
