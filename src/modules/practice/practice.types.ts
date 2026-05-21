@@ -22,7 +22,14 @@ export type PracticeConfig = Record<string, unknown> & {
 export type PracticeQuestion = {
   id: string;
   prompt: string;
-  options?: string[];
+  options?: Array<
+    | string
+    | {
+        id: string;
+        label: string;
+        imageUrl: string;
+      }
+  >;
   correctAnswer: string;
   result?: string;
   meaningEn?: string;
