@@ -9,7 +9,7 @@
     "xpReward": 6,
     "maxDailyXp": 24,
     "dailyAttemptLimit": 10,
-    "isActive": true,
+    "isActive": false,
     "order": 1,
     "config": {
       "shuffleQuestions": true,
@@ -127,7 +127,7 @@
     "xpReward": 5,
     "maxDailyXp": 20,
     "dailyAttemptLimit": 10,
-    "isActive": true,
+    "isActive": false,
     "order": 2,
     "config": {
       "shuffleQuestions": true,
@@ -245,7 +245,7 @@
     "xpReward": 6,
     "maxDailyXp": 24,
     "dailyAttemptLimit": 8,
-    "isActive": true,
+    "isActive": false,
     "order": 3,
     "config": {
       "shuffleQuestions": true,
@@ -417,7 +417,7 @@
     "xpReward": 6,
     "maxDailyXp": 24,
     "dailyAttemptLimit": 8,
-    "isActive": true,
+    "isActive": false,
     "order": 4,
     "config": {
       "shuffleQuestions": true,
@@ -535,7 +535,7 @@
     "xpReward": 10,
     "maxDailyXp": 10,
     "dailyAttemptLimit": 1,
-    "isActive": true,
+    "isActive": false,
     "order": 5,
     "config": {
       "shuffleQuestions": false,
