@@ -195,13 +195,20 @@ export const submitPracticeAttempt = async (
   const dailyXpLimit = practice.maxDailyXp;
   const attemptsRemaining = practice.dailyAttemptLimit - attemptsToday.length;
 
+  const stageXpReward = payload.stageId
+    ? (roadmap?.find((stage) => stage.id === payload.stageId)?.xpReward ?? practice.xpReward)
+    : practice.xpReward;
+  const accuracy =
+    payload.totalCount > 0 && payload.correctCount > 0 ? payload.correctCount / payload.totalCount : 0;
+  const rawXp = Math.round(stageXpReward * accuracy);
+
   let xpEarned = 0;
   let xpCapped = false;
 
   if (attemptsRemaining <= 0 || dailyXpEarned >= dailyXpLimit) {
     xpCapped = true;
   } else {
-    xpEarned = Math.min(practice.xpReward, dailyXpLimit - dailyXpEarned);
+    xpEarned = Math.min(rawXp, dailyXpLimit - dailyXpEarned);
   }
 
   const attempt = await createPracticeAttempt({
