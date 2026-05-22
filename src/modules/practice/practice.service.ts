@@ -10,6 +10,26 @@ import {
 import { PracticeAttemptPayload, PracticeConfig, PracticeRoadmapStage } from "./practice.types";
 
 const validateAttemptPayload = (payload: PracticeAttemptPayload) => {
+  if (Array.isArray(payload.answers)) {
+    if (payload.answers.length === 0) {
+      throw new Error("Invalid answers payload");
+    }
+
+    for (const answer of payload.answers) {
+      if (!answer || typeof answer.questionId !== "string" || answer.questionId.trim().length === 0) {
+        throw new Error("Invalid answers payload");
+      }
+    }
+  }
+
+  if (payload.score === undefined || payload.correctCount === undefined || payload.totalCount === undefined) {
+    if (!Array.isArray(payload.answers)) {
+      throw new Error("Invalid score payload");
+    }
+
+    return;
+  }
+
   if (!Number.isFinite(payload.score) || payload.score < 0 || payload.score > 100) {
     throw new Error("Invalid score payload");
   }
@@ -30,6 +50,8 @@ const validateAttemptPayload = (payload: PracticeAttemptPayload) => {
     throw new Error("Invalid stage payload");
   }
 };
+
+const normalizeAnswer = (value: unknown) => String(value ?? "").trim().toLowerCase();
 
 const buildRoadmapWithUnlockStatus = (
   roadmap: PracticeRoadmapStage[],
@@ -185,6 +207,38 @@ export const submitPracticeAttempt = async (
 
   validateAttemptPayload(payload);
 
+  let evaluatedCorrectCount = payload.correctCount;
+  let evaluatedTotalCount = payload.totalCount;
+  let evaluatedScore = payload.score;
+
+  if (Array.isArray(payload.answers) && payload.answers.length > 0) {
+    const answerMap = new Map(payload.answers.map((answer) => [String(answer.questionId), answer.selected]));
+    const shouldEvaluateByAnswer = new Set(["image_choice", "sentence_order", "dialogue_fill", "missing_word"]);
+
+    if (shouldEvaluateByAnswer.has(practice.type)) {
+      evaluatedTotalCount = practice.questions.length;
+      evaluatedCorrectCount = practice.questions.reduce((count, question) => {
+        const submittedAnswer = answerMap.get(question.id);
+        const correctAnswer = question.correctAnswer;
+
+        console.log({
+          type: (question as { type?: string }).type ?? practice.type,
+          submittedAnswer,
+          correctAnswer: question.correctAnswer,
+        });
+
+        if (practice.type === "image_choice") {
+          return count + (String(submittedAnswer ?? "").trim() === String(correctAnswer ?? "").trim() ? 1 : 0);
+        }
+
+        return count + (normalizeAnswer(submittedAnswer) === normalizeAnswer(correctAnswer) ? 1 : 0);
+      }, 0);
+
+      evaluatedScore =
+        evaluatedTotalCount > 0 ? Math.round(((evaluatedCorrectCount ?? 0) / evaluatedTotalCount) * 100) : 0;
+    }
+  }
+
   const roadmap = (practice.config as PracticeConfig | undefined)?.roadmap;
   if (payload.stageId && Array.isArray(roadmap) && !roadmap.some((stage) => stage.id === payload.stageId)) {
     throw new Error("Invalid stage payload");
@@ -199,7 +253,9 @@ export const submitPracticeAttempt = async (
     ? (roadmap?.find((stage) => stage.id === payload.stageId)?.xpReward ?? practice.xpReward)
     : practice.xpReward;
   const accuracy =
-    payload.totalCount > 0 && payload.correctCount > 0 ? payload.correctCount / payload.totalCount : 0;
+    (evaluatedTotalCount ?? 0) > 0 && (evaluatedCorrectCount ?? 0) > 0
+      ? (evaluatedCorrectCount ?? 0) / (evaluatedTotalCount ?? 0)
+      : 0;
   const rawXp = Math.round(stageXpReward * accuracy);
 
   let xpEarned = 0;
@@ -215,9 +271,9 @@ export const submitPracticeAttempt = async (
     userId,
     practiceId,
     levelId: practice.levelId,
-    score: payload.score,
-    correctCount: payload.correctCount,
-    totalCount: payload.totalCount,
+    score: evaluatedScore ?? 0,
+    correctCount: evaluatedCorrectCount ?? 0,
+    totalCount: evaluatedTotalCount ?? 0,
     xpEarned,
     stageId: payload.stageId,
   });
@@ -233,9 +289,9 @@ export const submitPracticeAttempt = async (
 
   return {
     practiceId: practice.id,
-    score: payload.score,
-    correctCount: payload.correctCount,
-    totalCount: payload.totalCount,
+    score: evaluatedScore ?? 0,
+    correctCount: evaluatedCorrectCount ?? 0,
+    totalCount: evaluatedTotalCount ?? 0,
     stageId: payload.stageId,
     xpEarned,
     dailyXpEarned: dailyXpEarned + xpEarned,

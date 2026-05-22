@@ -52,21 +52,30 @@ export const getPracticeDetailHandler = async (req: AuthRequest, res: Response) 
 export const submitPracticeAttemptHandler = async (req: AuthRequest, res: Response) => {
   try {
     const practiceId = String(req.params.practiceId ?? req.params.gameId ?? "");
-    const { score, correctCount, totalCount, stageId } = req.body;
+    const { score, correctCount, totalCount, stageId, answers } = req.body;
     const userId = req.userId;
 
     if (!userId) {
       return res.status(401).json({ success: false, error: "Unauthorized" });
     }
 
-    if (score === undefined || correctCount === undefined || totalCount === undefined) {
+    if (
+      !Array.isArray(answers) &&
+      (score === undefined || correctCount === undefined || totalCount === undefined)
+    ) {
       return res.status(400).json({
         success: false,
-        error: "Missing required fields: score, correctCount, totalCount",
+        error: "Missing required fields: answers or score, correctCount, totalCount",
       });
     }
 
-    const result = await submitPracticeAttempt(userId, practiceId, { score, correctCount, totalCount, stageId });
+    const result = await submitPracticeAttempt(userId, practiceId, {
+      score,
+      correctCount,
+      totalCount,
+      stageId,
+      answers,
+    });
     return res.status(200).json({ success: true, data: result });
   } catch (error) {
     return res.status(getStatusFromError(error)).json({

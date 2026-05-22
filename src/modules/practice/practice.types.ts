@@ -1,8 +1,12 @@
 export type PracticeAttemptPayload = {
-  score: number;
-  correctCount: number;
-  totalCount: number;
+  score?: number;
+  correctCount?: number;
+  totalCount?: number;
   stageId?: string;
+  answers?: Array<{
+    questionId: string;
+    selected: unknown;
+  }>;
 };
 
 export type PracticeRoadmapStage = {
