@@ -82,7 +82,8 @@
         ],
         "correctAnswer": "ном",
         "result": "Би ном уншиж байна.",
-        "meaningEn": "I am reading a book."
+        "meaningEn": "I am reading a book.",
+        "subtitle": "Choose the missing word."
       },
       {
         "id": "missing-word-q2",
@@ -94,7 +95,8 @@
         ],
         "correctAnswer": "ус",
         "result": "Тэр ус ууж байна.",
-        "meaningEn": "He/She is drinking water."
+        "meaningEn": "He/She is drinking water.",
+        "subtitle": "Choose the missing word."
       },
       {
         "id": "missing-word-q3",
@@ -106,7 +108,8 @@
         ],
         "correctAnswer": "өглөөний цай",
         "result": "Өглөө би өглөөний цай иддэг.",
-        "meaningEn": "I eat breakfast in the morning."
+        "meaningEn": "I eat breakfast in the morning.",
+        "subtitle": "Choose the missing word."
       },
       {
         "id": "missing-word-q4",
@@ -118,7 +121,8 @@
         ],
         "correctAnswer": "сууж",
         "result": "Бид одоо ангидаа сууж байна.",
-        "meaningEn": "We are sitting in class now."
+        "meaningEn": "We are sitting in class now.",
+        "subtitle": "Choose the missing word."
       },
       {
         "id": "missing-word-q5",
@@ -130,7 +134,8 @@
         ],
         "correctAnswer": "байсан",
         "result": "Өчигдөр би гэртээ байсан.",
-        "meaningEn": "Yesterday I was at home."
+        "meaningEn": "Yesterday I was at home.",
+        "subtitle": "Choose the missing word."
       },
       {
         "id": "missing-word-q6",
@@ -142,7 +147,8 @@
         ],
         "correctAnswer": "явна",
         "result": "Маргааш бид аялалд явна.",
-        "meaningEn": "Tomorrow we will go on a trip."
+        "meaningEn": "Tomorrow we will go on a trip.",
+        "subtitle": "Choose the missing word."
       },
       {
         "id": "missing-word-q7",
@@ -154,7 +160,8 @@
         ],
         "correctAnswer": "хийж",
         "result": "Чи одоо юу хийж байна вэ?",
-        "meaningEn": "What are you doing now?"
+        "meaningEn": "What are you doing now?",
+        "subtitle": "Choose the missing word."
       },
       {
         "id": "missing-word-q8",
@@ -166,7 +173,8 @@
         ],
         "correctAnswer": "үзнэ",
         "result": "Бид орой кино үзнэ.",
-        "meaningEn": "We will watch a movie in the evening."
+        "meaningEn": "We will watch a movie in the evening.",
+        "subtitle": "Choose the missing word."
       },
       {
         "id": "missing-word-q9",
@@ -178,7 +186,8 @@
         ],
         "correctAnswer": "дэвтэр",
         "result": "Энэ миний дэвтэр.",
-        "meaningEn": "This is my notebook."
+        "meaningEn": "This is my notebook.",
+        "subtitle": "Choose the missing word."
       },
       {
         "id": "missing-word-q10",
@@ -190,7 +199,8 @@
         ],
         "correctAnswer": "сургууль",
         "result": "Би сургууль руу явж байна.",
-        "meaningEn": "I am going to school."
+        "meaningEn": "I am going to school.",
+        "subtitle": "Choose the missing word."
       },
       {
         "id": "missing-word-q11",
@@ -202,7 +212,8 @@
         ],
         "correctAnswer": "хоол",
         "result": "Орой бид хоол иднэ.",
-        "meaningEn": "We will eat dinner in the evening."
+        "meaningEn": "We will eat dinner in the evening.",
+        "subtitle": "Choose the missing word."
       },
       {
         "id": "missing-word-q12",
@@ -214,7 +225,8 @@
         ],
         "correctAnswer": "сурдаг",
         "result": "Би өдөр бүр монгол хэл сурдаг.",
-        "meaningEn": "I study Mongolian every day."
+        "meaningEn": "I study Mongolian every day.",
+        "subtitle": "Choose the missing word."
       },
       {
         "id": "missing-word-q13",
@@ -226,7 +238,8 @@
         ],
         "correctAnswer": "бичиж",
         "result": "Тэр одоо захиа бичиж байна.",
-        "meaningEn": "He/She is writing a letter now."
+        "meaningEn": "He/She is writing a letter now.",
+        "subtitle": "Choose the missing word."
       },
       {
         "id": "missing-word-q14",
@@ -238,7 +251,8 @@
         ],
         "correctAnswer": "давтсан",
         "result": "Өчигдөр бид хичээлээ давтсан.",
-        "meaningEn": "Yesterday we reviewed our lesson."
+        "meaningEn": "Yesterday we reviewed our lesson.",
+        "subtitle": "Choose the missing word."
       },
       {
         "id": "missing-word-q15",
@@ -250,7 +264,8 @@
         ],
         "correctAnswer": "авна",
         "result": "Би дэлгүүрээс талх авна.",
-        "meaningEn": "I will buy bread from the store."
+        "meaningEn": "I will buy bread from the store.",
+        "subtitle": "Choose the missing word."
       },
       {
         "id": "missing-word-q16",
@@ -262,7 +277,8 @@
         ],
         "correctAnswer": "ярьж байна",
         "result": "Тэр найзтайгаа утсаар ярьж байна.",
-        "meaningEn": "He/She is talking with a friend on the phone."
+        "meaningEn": "He/She is talking with a friend on the phone.",
+        "subtitle": "Choose the missing word."
       }
     ]
   },
@@ -338,7 +354,8 @@
           "уншиж",
           "байна"
         ],
-        "meaningEn": "I am reading a book."
+        "meaningEn": "I am reading a book.",
+        "subtitle": "Build the correct sentence."
       },
       {
         "id": "sentence-order-q2",
@@ -353,7 +370,8 @@
           "ууж",
           "байна"
         ],
-        "meaningEn": "He/She is drinking water."
+        "meaningEn": "He/She is drinking water.",
+        "subtitle": "Put the words in the correct order."
       },
       {
         "id": "sentence-order-q3",
@@ -367,7 +385,8 @@
           "сургуульд",
           "явдаг"
         ],
-        "meaningEn": "We go to school."
+        "meaningEn": "We go to school.",
+        "subtitle": "Arrange the daily action correctly."
       },
       {
         "id": "sentence-order-q4",
@@ -381,7 +400,8 @@
           "гэрийн даалгавар",
           "хийдэг"
         ],
-        "meaningEn": "I do homework."
+        "meaningEn": "I do homework.",
+        "subtitle": "Make a correct sentence."
       },
       {
         "id": "sentence-order-q5",
@@ -395,7 +415,8 @@
           "тэр",
           "ирсэн"
         ],
-        "meaningEn": "He/She came yesterday."
+        "meaningEn": "He/She came yesterday.",
+        "subtitle": "Build a past tense sentence."
       },
       {
         "id": "sentence-order-q6",
@@ -409,7 +430,8 @@
           "бид",
           "аялна"
         ],
-        "meaningEn": "Tomorrow we will travel."
+        "meaningEn": "Tomorrow we will travel.",
+        "subtitle": "Build a future tense sentence."
       },
       {
         "id": "sentence-order-q7",
@@ -423,7 +445,8 @@
           "миний",
           "ном"
         ],
-        "meaningEn": "This is my book."
+        "meaningEn": "This is my book.",
+        "subtitle": "Build a simple ownership sentence."
       },
       {
         "id": "sentence-order-q8",
@@ -438,7 +461,8 @@
           "руу",
           "явна"
         ],
-        "meaningEn": "I will go to school."
+        "meaningEn": "I will go to school.",
+        "subtitle": "Arrange the school sentence."
       },
       {
         "id": "sentence-order-q9",
@@ -453,7 +477,8 @@
           "цай",
           "уудаг"
         ],
-        "meaningEn": "I drink tea in the morning."
+        "meaningEn": "I drink tea in the morning.",
+        "subtitle": "Arrange the daily habit sentence."
       },
       {
         "id": "sentence-order-q10",
@@ -467,7 +492,8 @@
           "гэртээ",
           "амардаг"
         ],
-        "meaningEn": "He/She rests at home."
+        "meaningEn": "He/She rests at home.",
+        "subtitle": "Make a sentence about resting at home."
       },
       {
         "id": "sentence-order-q11",
@@ -482,7 +508,8 @@
           "ном",
           "уншсан"
         ],
-        "meaningEn": "Yesterday I read a book."
+        "meaningEn": "Yesterday I read a book.",
+        "subtitle": "Build a past tense sentence."
       },
       {
         "id": "sentence-order-q12",
@@ -497,7 +524,8 @@
           "сургуульд",
           "явна"
         ],
-        "meaningEn": "Tomorrow he/she will go to school."
+        "meaningEn": "Tomorrow he/she will go to school.",
+        "subtitle": "Build a future tense sentence."
       }
     ]
   },
@@ -584,7 +612,8 @@
         ],
         "correctAnswer": "Намайг Сараа гэдэг.",
         "result": "A: Чиний нэр хэн бэ?\nB: Намайг Сараа гэдэг.",
-        "meaningEn": "What is your name? My name is Saraa."
+        "meaningEn": "What is your name? My name is Saraa.",
+        "subtitle": "Complete the conversation."
       },
       {
         "id": "dialogue-fill-q2",
@@ -596,7 +625,8 @@
         ],
         "correctAnswer": "Сайн, сайн уу.",
         "result": "A: Сайн уу?\nB: Сайн, сайн уу.",
-        "meaningEn": "Hi. Hi, I am fine."
+        "meaningEn": "Hi. Hi, I am fine.",
+        "subtitle": "Complete the conversation."
       },
       {
         "id": "dialogue-fill-q3",
@@ -608,7 +638,8 @@
         ],
         "correctAnswer": "Би их сургуульд сурдаг.",
         "result": "A: Чи хаана сурдаг вэ?\nB: Би их сургуульд сурдаг.",
-        "meaningEn": "Where do you study? I study at university."
+        "meaningEn": "Where do you study? I study at university.",
+        "subtitle": "Complete the conversation."
       },
       {
         "id": "dialogue-fill-q4",
@@ -620,7 +651,8 @@
         ],
         "correctAnswer": "Би кино үзнэ.",
         "result": "A: Орой юу хийх вэ?\nB: Би кино үзнэ.",
-        "meaningEn": "What will you do tonight? I will watch a movie."
+        "meaningEn": "What will you do tonight? I will watch a movie.",
+        "subtitle": "Complete the conversation."
       },
       {
         "id": "dialogue-fill-q5",
@@ -632,7 +664,8 @@
         ],
         "correctAnswer": "Би гэртээ байсан.",
         "result": "A: Өчигдөр чи хаана байсан бэ?\nB: Би гэртээ байсан.",
-        "meaningEn": "Where were you yesterday? I was at home."
+        "meaningEn": "Where were you yesterday? I was at home.",
+        "subtitle": "Complete the conversation."
       },
       {
         "id": "dialogue-fill-q6",
@@ -644,7 +677,8 @@
         ],
         "correctAnswer": "Өглөө есөн цагт уулзъя.",
         "result": "A: Маргааш бид хэзээ уулзах вэ?\nB: Өглөө есөн цагт уулзъя.",
-        "meaningEn": "When will we meet tomorrow? Let's meet at 9 in the morning."
+        "meaningEn": "When will we meet tomorrow? Let's meet at 9 in the morning.",
+        "subtitle": "Complete the conversation."
       },
       {
         "id": "dialogue-fill-q7",
@@ -656,7 +690,8 @@
         ],
         "correctAnswer": "Ном байна.",
         "result": "A: Энэ зураг дээр юу байна?\nB: Ном байна.",
-        "meaningEn": "What is in this picture? There is a book."
+        "meaningEn": "What is in this picture? There is a book.",
+        "subtitle": "Complete the conversation."
       },
       {
         "id": "dialogue-fill-q8",
@@ -668,7 +703,8 @@
         ],
         "correctAnswer": "Тийм ээ, завтай.",
         "result": "A: Чи одоо завтай юу?\nB: Тийм ээ, завтай.",
-        "meaningEn": "Are you free now? Yes, I am free."
+        "meaningEn": "Are you free now? Yes, I am free.",
+        "subtitle": "Complete the conversation."
       },
       {
         "id": "dialogue-fill-q9",
@@ -680,7 +716,8 @@
         ],
         "correctAnswer": "Өглөөний мэнд!",
         "result": "A: Өглөөний мэнд!\nB: Өглөөний мэнд!",
-        "meaningEn": "Good morning! Good morning!"
+        "meaningEn": "Good morning! Good morning!",
+        "subtitle": "Complete the conversation."
       },
       {
         "id": "dialogue-fill-q10",
@@ -692,7 +729,8 @@
         ],
         "correctAnswer": "Надад ч бас таатай байна.",
         "result": "A: Танилцсандаа таатай байна.\nB: Надад ч бас таатай байна.",
-        "meaningEn": "Nice to meet you. Nice to meet you too."
+        "meaningEn": "Nice to meet you. Nice to meet you too.",
+        "subtitle": "Complete the conversation."
       },
       {
         "id": "dialogue-fill-q11",
@@ -704,7 +742,8 @@
         ],
         "correctAnswer": "Би өглөөний цай иддэг.",
         "result": "A: Чи өглөө юу иддэг вэ?\nB: Би өглөөний цай иддэг.",
-        "meaningEn": "What do you eat in the morning? I eat breakfast."
+        "meaningEn": "What do you eat in the morning? I eat breakfast.",
+        "subtitle": "Complete the conversation."
       },
       {
         "id": "dialogue-fill-q12",
@@ -716,7 +755,8 @@
         ],
         "correctAnswer": "Манай гэр хотын төвд байдаг.",
         "result": "A: Танай гэр хаана байдаг вэ?\nB: Манай гэр хотын төвд байдаг.",
-        "meaningEn": "Where is your home? My home is in the city center."
+        "meaningEn": "Where is your home? My home is in the city center.",
+        "subtitle": "Complete the conversation."
       },
       {
         "id": "dialogue-fill-q13",
@@ -728,7 +768,8 @@
         ],
         "correctAnswer": "Би буудлаас автобус авна.",
         "result": "A: Та автобус хаанаас авах вэ?\nB: Би буудлаас автобус авна.",
-        "meaningEn": "Where will you take the bus? I will take the bus from the stop."
+        "meaningEn": "Where will you take the bus? I will take the bus from the stop.",
+        "subtitle": "Complete the conversation."
       },
       {
         "id": "dialogue-fill-q14",
@@ -740,7 +781,8 @@
         ],
         "correctAnswer": "Одоо гурван цаг болж байна.",
         "result": "A: Уучлаарай, цаг хэд болж байна вэ?\nB: Одоо гурван цаг болж байна.",
-        "meaningEn": "Excuse me, what time is it? It is three o'clock now."
+        "meaningEn": "Excuse me, what time is it? It is three o'clock now.",
+        "subtitle": "Complete the conversation."
       },
       {
         "id": "dialogue-fill-q15",
@@ -752,7 +794,8 @@
         ],
         "correctAnswer": "Тийм ээ, би монгол хэл сурч байна.",
         "result": "A: Чи монгол хэл сурч байна уу?\nB: Тийм ээ, би монгол хэл сурч байна.",
-        "meaningEn": "Are you learning Mongolian? Yes, I am learning Mongolian."
+        "meaningEn": "Are you learning Mongolian? Yes, I am learning Mongolian.",
+        "subtitle": "Complete the conversation."
       },
       {
         "id": "dialogue-fill-q16",
@@ -764,7 +807,8 @@
         ],
         "correctAnswer": "Би найзтайгаа уулзана.",
         "result": "A: Хичээл дууссаны дараа юу хийх вэ?\nB: Би найзтайгаа уулзана.",
-        "meaningEn": "What will you do after class? I will meet my friend."
+        "meaningEn": "What will you do after class? I will meet my friend.",
+        "subtitle": "Complete the conversation."
       }
     ]
   },
@@ -867,7 +911,8 @@
             "imageUrl": "/uploads/practice/images/school.png"
           }
         ],
-        "meaningEn": "book"
+        "meaningEn": "book",
+        "subtitle": "Choose the correct image."
       },
       {
         "id": "image-choice-q2",
@@ -895,7 +940,8 @@
             "imageUrl": "/uploads/practice/images/house.png"
           }
         ],
-        "meaningEn": "house"
+        "meaningEn": "house",
+        "subtitle": "Choose the correct image."
       },
       {
         "id": "image-choice-q3",
@@ -923,7 +969,8 @@
             "imageUrl": "/uploads/practice/images/book.png"
           }
         ],
-        "meaningEn": "water"
+        "meaningEn": "water",
+        "subtitle": "Choose the correct image."
       },
       {
         "id": "image-choice-q4",
@@ -951,7 +998,8 @@
             "imageUrl": "/uploads/practice/images/house.png"
           }
         ],
-        "meaningEn": "school"
+        "meaningEn": "school",
+        "subtitle": "Choose the correct image."
       },
       {
         "id": "image-choice-q5",
@@ -979,7 +1027,8 @@
             "imageUrl": "/uploads/practice/images/water.png"
           }
         ],
-        "meaningEn": "apple"
+        "meaningEn": "apple",
+        "subtitle": "Choose the correct image."
       },
       {
         "id": "image-choice-q6",
@@ -1007,7 +1056,8 @@
             "imageUrl": "/uploads/practice/images/milk.png"
           }
         ],
-        "meaningEn": "milk"
+        "meaningEn": "milk",
+        "subtitle": "Choose the correct image."
       },
       {
         "id": "image-choice-q7",
@@ -1035,7 +1085,8 @@
             "imageUrl": "/uploads/practice/images/book.png"
           }
         ],
-        "meaningEn": "bread"
+        "meaningEn": "bread",
+        "subtitle": "Choose the correct image."
       },
       {
         "id": "image-choice-q8",
@@ -1063,7 +1114,8 @@
             "imageUrl": "/uploads/practice/images/house.png"
           }
         ],
-        "meaningEn": "teacher"
+        "meaningEn": "teacher",
+        "subtitle": "Choose the correct image."
       },
       {
         "id": "image-choice-q9",
@@ -1091,7 +1143,8 @@
             "imageUrl": "/uploads/practice/images/water.png"
           }
         ],
-        "meaningEn": "child"
+        "meaningEn": "child",
+        "subtitle": "Choose the correct image."
       },
       {
         "id": "image-choice-q10",
@@ -1119,7 +1172,8 @@
             "imageUrl": "/uploads/practice/images/car.png"
           }
         ],
-        "meaningEn": "car"
+        "meaningEn": "car",
+        "subtitle": "Choose the correct image."
       },
       {
         "id": "image-choice-q11",
@@ -1147,7 +1201,8 @@
             "imageUrl": "/uploads/practice/images/house.png"
           }
         ],
-        "meaningEn": "book"
+        "meaningEn": "book",
+        "subtitle": "Choose the correct image."
       },
       {
         "id": "image-choice-q12",
@@ -1175,7 +1230,8 @@
             "imageUrl": "/uploads/practice/images/apple.png"
           }
         ],
-        "meaningEn": "teacher"
+        "meaningEn": "teacher",
+        "subtitle": "Choose the correct image."
       },
       {
         "id": "image-choice-q13",
@@ -1203,7 +1259,8 @@
             "imageUrl": "/uploads/practice/images/water.png"
           }
         ],
-        "meaningEn": "milk"
+        "meaningEn": "milk",
+        "subtitle": "Choose the correct image."
       },
       {
         "id": "image-choice-q14",
@@ -1231,7 +1288,8 @@
             "imageUrl": "/uploads/practice/images/book.png"
           }
         ],
-        "meaningEn": "car"
+        "meaningEn": "car",
+        "subtitle": "Choose the correct image."
       },
       {
         "id": "image-choice-q15",
@@ -1259,7 +1317,8 @@
             "imageUrl": "/uploads/practice/images/milk.png"
           }
         ],
-        "meaningEn": "bread"
+        "meaningEn": "bread",
+        "subtitle": "Choose the correct image."
       },
       {
         "id": "image-choice-q16",
@@ -1287,7 +1346,8 @@
             "imageUrl": "/uploads/practice/images/apple.png"
           }
         ],
-        "meaningEn": "house"
+        "meaningEn": "house",
+        "subtitle": "Choose the correct image."
       }
     ]
   }
