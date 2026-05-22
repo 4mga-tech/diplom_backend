@@ -100,15 +100,15 @@
       },
       {
         "id": "missing-word-q3",
-        "prompt": "Өглөө би ___ иддэг.",
+        "prompt": "Өглөө би ___ уудаг.",
         "options": [
           "өглөөний цай",
           "сургуулиа",
           "дэвтэр"
         ],
         "correctAnswer": "өглөөний цай",
-        "result": "Өглөө би өглөөний цай иддэг.",
-        "meaningEn": "I eat breakfast in the morning.",
+        "result": "Өглөө би өглөөний цай уудаг.",
+        "meaningEn": "I drink breakfast in the morning.",
         "subtitle": "Choose the missing word."
       },
       {
@@ -736,12 +736,12 @@
         "id": "dialogue-fill-q11",
         "prompt": "A: Чи өглөө юу иддэг вэ?\nB: ________",
         "options": [
-          "Би өглөөний цай иддэг.",
+          "Би өглөөний цай уудаг.",
           "Би өчигдөр ирсэн.",
           "Энэ миний машин."
         ],
-        "correctAnswer": "Би өглөөний цай иддэг.",
-        "result": "A: Чи өглөө юу иддэг вэ?\nB: Би өглөөний цай иддэг.",
+        "correctAnswer": "Би өглөөний цай уудаг.",
+        "result": "A: Чи өглөө юу иддэг вэ?\nB: Би өглөөний цай уудаг.",
         "meaningEn": "What do you eat in the morning? I eat breakfast.",
         "subtitle": "Complete the conversation."
       },
