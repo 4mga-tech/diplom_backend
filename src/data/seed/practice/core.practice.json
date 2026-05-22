@@ -682,15 +682,15 @@
       },
       {
         "id": "dialogue-fill-q7",
-        "prompt": "A: Энэ зураг дээр юу байна?\nB: ________",
+        "prompt": "A: Чи хаана амьдардаг вэ?\nB: ________",
         "options": [
-          "Ном байна.",
-          "Би явна.",
-          "Өчигдөр байсан."
+          "Би Улаанбаатарт амьдардаг.",
+          "Надад ном бий.",
+          "Өнөөдөр хүйтэн байна."
         ],
-        "correctAnswer": "Ном байна.",
-        "result": "A: Энэ зураг дээр юу байна?\nB: Ном байна.",
-        "meaningEn": "What is in this picture? There is a book.",
+        "correctAnswer": "Би Улаанбаатарт амьдардаг.",
+        "result": "A: Чи хаана амьдардаг вэ?\nB: Би Улаанбаатарт амьдардаг.",
+        "meaningEn": "Where do you live? I live in Ulaanbaatar.",
         "subtitle": "Complete the conversation."
       },
       {
@@ -813,542 +813,559 @@
     ]
   },
   {
-    "id": "practice-image-choice",
-    "type": "image_choice",
-    "levelId": "m1",
-    "title": "Зураг хараад сонгох",
-    "subtitle": "Pick the correct image",
-    "description": "Pick the correct image for each Mongolian word prompt.",
-    "xpReward": 7,
-    "maxDailyXp": 35,
-    "dailyAttemptLimit": 10,
-    "isActive": true,
-    "order": 4,
-    "config": {
-      "roadmap": [
-        {
-          "id": "ic-stage-1",
-          "title": "Зураг-Үг 1",
-          "subtitle": "Basic nouns",
-          "order": 1,
-          "xpReward": 7,
-          "isUnlocked": true,
-          "questionIds": [
-            "image-choice-q1",
-            "image-choice-q2",
-            "image-choice-q3",
-            "image-choice-q4"
-          ]
-        },
-        {
-          "id": "ic-stage-2",
-          "title": "Зураг-Үг 2",
-          "subtitle": "Everyday objects",
-          "order": 2,
-          "xpReward": 7,
-          "isUnlocked": false,
-          "questionIds": [
-            "image-choice-q5",
-            "image-choice-q6",
-            "image-choice-q7",
-            "image-choice-q8"
-          ]
-        },
-        {
-          "id": "ic-stage-3",
-          "title": "Зураг-Үг 3",
-          "subtitle": "People and places",
-          "order": 3,
-          "xpReward": 8,
-          "isUnlocked": false,
-          "questionIds": [
-            "image-choice-q9",
-            "image-choice-q10",
-            "image-choice-q11",
-            "image-choice-q12"
-          ]
-        },
-        {
-          "id": "ic-stage-4",
-          "title": "Зураг-Үг 4",
-          "subtitle": "Mixed image review",
-          "order": 4,
-          "xpReward": 8,
-          "isUnlocked": false,
-          "questionIds": [
-            "image-choice-q13",
-            "image-choice-q14",
-            "image-choice-q15",
-            "image-choice-q16"
-          ]
-        }
-      ]
-    },
-    "questions": [
+  "id": "practice-image-choice",
+  "type": "image_choice",
+  "levelId": "m1",
+  "title": "Зураг хараад сонгох",
+  "subtitle": "Pick the correct image",
+  "description": "Practice common Mongolian words by choosing the correct picture in simple everyday contexts.",
+  "xpReward": 7,
+  "maxDailyXp": 35,
+  "dailyAttemptLimit": 10,
+  "isActive": true,
+  "order": 4,
+  "config": {
+    "roadmap": [
       {
-        "id": "image-choice-q1",
-        "prompt": "Which image means 'ном'?",
-        "correctAnswer": "book",
-        "options": [
-          {
-            "id": "book",
-            "label": "ном",
-            "imageUrl": "/uploads/practice/images/book.png"
-          },
-          {
-            "id": "house",
-            "label": "гэр",
-            "imageUrl": "/uploads/practice/images/house.png"
-          },
-          {
-            "id": "water",
-            "label": "ус",
-            "imageUrl": "/uploads/practice/images/water.png"
-          },
-          {
-            "id": "school",
-            "label": "сургууль",
-            "imageUrl": "/uploads/practice/images/school.png"
-          }
-        ],
-        "meaningEn": "book",
-        "subtitle": "Choose the correct image."
+        "id": "ic-stage-1",
+        "title": "Суурь зураг",
+        "subtitle": "Basic visual words",
+        "order": 1,
+        "xpReward": 7,
+        "isUnlocked": true,
+        "questionIds": [
+          "image-choice-q1",
+          "image-choice-q2",
+          "image-choice-q3",
+          "image-choice-q4"
+        ]
       },
       {
-        "id": "image-choice-q2",
-        "prompt": "Зөв зургийг сонгоно уу",
-        "correctAnswer": "house",
-        "options": [
-          {
-            "id": "book",
-            "label": "ном",
-            "imageUrl": "/uploads/practice/images/book.png"
-          },
-          {
-            "id": "water",
-            "label": "ус",
-            "imageUrl": "/uploads/practice/images/water.png"
-          },
-          {
-            "id": "school",
-            "label": "сургууль",
-            "imageUrl": "/uploads/practice/images/school.png"
-          },
-          {
-            "id": "house",
-            "label": "гэр",
-            "imageUrl": "/uploads/practice/images/house.png"
-          }
-        ],
-        "meaningEn": "house",
-        "subtitle": "Choose the correct image."
+        "id": "ic-stage-2",
+        "title": "Хоол ба уух зүйл",
+        "subtitle": "Food and drinks",
+        "order": 2,
+        "xpReward": 7,
+        "isUnlocked": false,
+        "questionIds": [
+          "image-choice-q5",
+          "image-choice-q6",
+          "image-choice-q7",
+          "image-choice-q8"
+        ]
       },
       {
-        "id": "image-choice-q3",
-        "prompt": "Which image means 'ус'?",
-        "correctAnswer": "water",
-        "options": [
-          {
-            "id": "house",
-            "label": "гэр",
-            "imageUrl": "/uploads/practice/images/house.png"
-          },
-          {
-            "id": "school",
-            "label": "сургууль",
-            "imageUrl": "/uploads/practice/images/school.png"
-          },
-          {
-            "id": "water",
-            "label": "ус",
-            "imageUrl": "/uploads/practice/images/water.png"
-          },
-          {
-            "id": "book",
-            "label": "ном",
-            "imageUrl": "/uploads/practice/images/book.png"
-          }
-        ],
-        "meaningEn": "water",
-        "subtitle": "Choose the correct image."
+        "id": "ic-stage-3",
+        "title": "Хүн ба газар",
+        "subtitle": "People and places",
+        "order": 3,
+        "xpReward": 8,
+        "isUnlocked": false,
+        "questionIds": [
+          "image-choice-q9",
+          "image-choice-q10",
+          "image-choice-q11",
+          "image-choice-q12"
+        ]
       },
       {
-        "id": "image-choice-q4",
-        "prompt": "Зөв зургийг сонгоно уу",
-        "correctAnswer": "school",
-        "options": [
-          {
-            "id": "water",
-            "label": "ус",
-            "imageUrl": "/uploads/practice/images/water.png"
-          },
-          {
-            "id": "school",
-            "label": "сургууль",
-            "imageUrl": "/uploads/practice/images/school.png"
-          },
-          {
-            "id": "book",
-            "label": "ном",
-            "imageUrl": "/uploads/practice/images/book.png"
-          },
-          {
-            "id": "house",
-            "label": "гэр",
-            "imageUrl": "/uploads/practice/images/house.png"
-          }
-        ],
-        "meaningEn": "school",
-        "subtitle": "Choose the correct image."
-      },
-      {
-        "id": "image-choice-q5",
-        "prompt": "Which image means 'алим'?",
-        "correctAnswer": "apple",
-        "options": [
-          {
-            "id": "apple",
-            "label": "алим",
-            "imageUrl": "/uploads/practice/images/apple.png"
-          },
-          {
-            "id": "book",
-            "label": "ном",
-            "imageUrl": "/uploads/practice/images/book.png"
-          },
-          {
-            "id": "house",
-            "label": "гэр",
-            "imageUrl": "/uploads/practice/images/house.png"
-          },
-          {
-            "id": "water",
-            "label": "ус",
-            "imageUrl": "/uploads/practice/images/water.png"
-          }
-        ],
-        "meaningEn": "apple",
-        "subtitle": "Choose the correct image."
-      },
-      {
-        "id": "image-choice-q6",
-        "prompt": "Зөв зургийг сонгоно уу",
-        "correctAnswer": "milk",
-        "options": [
-          {
-            "id": "book",
-            "label": "ном",
-            "imageUrl": "/uploads/practice/images/book.png"
-          },
-          {
-            "id": "house",
-            "label": "гэр",
-            "imageUrl": "/uploads/practice/images/house.png"
-          },
-          {
-            "id": "water",
-            "label": "ус",
-            "imageUrl": "/uploads/practice/images/water.png"
-          },
-          {
-            "id": "milk",
-            "label": "сүү",
-            "imageUrl": "/uploads/practice/images/milk.png"
-          }
-        ],
-        "meaningEn": "milk",
-        "subtitle": "Choose the correct image."
-      },
-      {
-        "id": "image-choice-q7",
-        "prompt": "Which image means 'талх'?",
-        "correctAnswer": "bread",
-        "options": [
-          {
-            "id": "house",
-            "label": "гэр",
-            "imageUrl": "/uploads/practice/images/house.png"
-          },
-          {
-            "id": "water",
-            "label": "ус",
-            "imageUrl": "/uploads/practice/images/water.png"
-          },
-          {
-            "id": "bread",
-            "label": "талх",
-            "imageUrl": "/uploads/practice/images/bread.png"
-          },
-          {
-            "id": "book",
-            "label": "ном",
-            "imageUrl": "/uploads/practice/images/book.png"
-          }
-        ],
-        "meaningEn": "bread",
-        "subtitle": "Choose the correct image."
-      },
-      {
-        "id": "image-choice-q8",
-        "prompt": "Зөв зургийг сонгоно уу",
-        "correctAnswer": "teacher",
-        "options": [
-          {
-            "id": "water",
-            "label": "ус",
-            "imageUrl": "/uploads/practice/images/water.png"
-          },
-          {
-            "id": "teacher",
-            "label": "багш",
-            "imageUrl": "/uploads/practice/images/teacher.png"
-          },
-          {
-            "id": "book",
-            "label": "ном",
-            "imageUrl": "/uploads/practice/images/book.png"
-          },
-          {
-            "id": "house",
-            "label": "гэр",
-            "imageUrl": "/uploads/practice/images/house.png"
-          }
-        ],
-        "meaningEn": "teacher",
-        "subtitle": "Choose the correct image."
-      },
-      {
-        "id": "image-choice-q9",
-        "prompt": "Which image means 'хүүхэд'?",
-        "correctAnswer": "child",
-        "options": [
-          {
-            "id": "child",
-            "label": "хүүхэд",
-            "imageUrl": "/uploads/practice/images/child.png"
-          },
-          {
-            "id": "book",
-            "label": "ном",
-            "imageUrl": "/uploads/practice/images/book.png"
-          },
-          {
-            "id": "house",
-            "label": "гэр",
-            "imageUrl": "/uploads/practice/images/house.png"
-          },
-          {
-            "id": "water",
-            "label": "ус",
-            "imageUrl": "/uploads/practice/images/water.png"
-          }
-        ],
-        "meaningEn": "child",
-        "subtitle": "Choose the correct image."
-      },
-      {
-        "id": "image-choice-q10",
-        "prompt": "Зөв зургийг сонгоно уу",
-        "correctAnswer": "car",
-        "options": [
-          {
-            "id": "book",
-            "label": "ном",
-            "imageUrl": "/uploads/practice/images/book.png"
-          },
-          {
-            "id": "house",
-            "label": "гэр",
-            "imageUrl": "/uploads/practice/images/house.png"
-          },
-          {
-            "id": "water",
-            "label": "ус",
-            "imageUrl": "/uploads/practice/images/water.png"
-          },
-          {
-            "id": "car",
-            "label": "машин",
-            "imageUrl": "/uploads/practice/images/car.png"
-          }
-        ],
-        "meaningEn": "car",
-        "subtitle": "Choose the correct image."
-      },
-      {
-        "id": "image-choice-q11",
-        "prompt": "Зөв зургийг сонгоно уу",
-        "correctAnswer": "book",
-        "options": [
-          {
-            "id": "book",
-            "label": "ном",
-            "imageUrl": "/uploads/practice/images/book.png"
-          },
-          {
-            "id": "car",
-            "label": "машин",
-            "imageUrl": "/uploads/practice/images/car.png"
-          },
-          {
-            "id": "water",
-            "label": "ус",
-            "imageUrl": "/uploads/practice/images/water.png"
-          },
-          {
-            "id": "house",
-            "label": "гэр",
-            "imageUrl": "/uploads/practice/images/house.png"
-          }
-        ],
-        "meaningEn": "book",
-        "subtitle": "Choose the correct image."
-      },
-      {
-        "id": "image-choice-q12",
-        "prompt": "Зөв зургийг сонгоно уу",
-        "correctAnswer": "teacher",
-        "options": [
-          {
-            "id": "teacher",
-            "label": "багш",
-            "imageUrl": "/uploads/practice/images/teacher.png"
-          },
-          {
-            "id": "child",
-            "label": "хүүхэд",
-            "imageUrl": "/uploads/practice/images/child.png"
-          },
-          {
-            "id": "school",
-            "label": "сургууль",
-            "imageUrl": "/uploads/practice/images/school.png"
-          },
-          {
-            "id": "apple",
-            "label": "алим",
-            "imageUrl": "/uploads/practice/images/apple.png"
-          }
-        ],
-        "meaningEn": "teacher",
-        "subtitle": "Choose the correct image."
-      },
-      {
-        "id": "image-choice-q13",
-        "prompt": "Which image means 'сүү'?",
-        "correctAnswer": "milk",
-        "options": [
-          {
-            "id": "milk",
-            "label": "сүү",
-            "imageUrl": "/uploads/practice/images/milk.png"
-          },
-          {
-            "id": "bread",
-            "label": "талх",
-            "imageUrl": "/uploads/practice/images/bread.png"
-          },
-          {
-            "id": "apple",
-            "label": "алим",
-            "imageUrl": "/uploads/practice/images/apple.png"
-          },
-          {
-            "id": "water",
-            "label": "ус",
-            "imageUrl": "/uploads/practice/images/water.png"
-          }
-        ],
-        "meaningEn": "milk",
-        "subtitle": "Choose the correct image."
-      },
-      {
-        "id": "image-choice-q14",
-        "prompt": "Which image means 'машин'?",
-        "correctAnswer": "car",
-        "options": [
-          {
-            "id": "car",
-            "label": "машин",
-            "imageUrl": "/uploads/practice/images/car.png"
-          },
-          {
-            "id": "school",
-            "label": "сургууль",
-            "imageUrl": "/uploads/practice/images/school.png"
-          },
-          {
-            "id": "house",
-            "label": "гэр",
-            "imageUrl": "/uploads/practice/images/house.png"
-          },
-          {
-            "id": "book",
-            "label": "ном",
-            "imageUrl": "/uploads/practice/images/book.png"
-          }
-        ],
-        "meaningEn": "car",
-        "subtitle": "Choose the correct image."
-      },
-      {
-        "id": "image-choice-q15",
-        "prompt": "Зөв зургийг сонгоно уу",
-        "correctAnswer": "bread",
-        "options": [
-          {
-            "id": "teacher",
-            "label": "багш",
-            "imageUrl": "/uploads/practice/images/teacher.png"
-          },
-          {
-            "id": "bread",
-            "label": "талх",
-            "imageUrl": "/uploads/practice/images/bread.png"
-          },
-          {
-            "id": "child",
-            "label": "хүүхэд",
-            "imageUrl": "/uploads/practice/images/child.png"
-          },
-          {
-            "id": "milk",
-            "label": "сүү",
-            "imageUrl": "/uploads/practice/images/milk.png"
-          }
-        ],
-        "meaningEn": "bread",
-        "subtitle": "Choose the correct image."
-      },
-      {
-        "id": "image-choice-q16",
-        "prompt": "Which image means 'гэр'?",
-        "correctAnswer": "house",
-        "options": [
-          {
-            "id": "book",
-            "label": "ном",
-            "imageUrl": "/uploads/practice/images/book.png"
-          },
-          {
-            "id": "house",
-            "label": "гэр",
-            "imageUrl": "/uploads/practice/images/house.png"
-          },
-          {
-            "id": "school",
-            "label": "сургууль",
-            "imageUrl": "/uploads/practice/images/school.png"
-          },
-          {
-            "id": "apple",
-            "label": "алим",
-            "imageUrl": "/uploads/practice/images/apple.png"
-          }
-        ],
-        "meaningEn": "house",
-        "subtitle": "Choose the correct image."
+        "id": "ic-stage-4",
+        "title": "Давтлага",
+        "subtitle": "Mixed image review",
+        "order": 4,
+        "xpReward": 8,
+        "isUnlocked": false,
+        "questionIds": [
+          "image-choice-q13",
+          "image-choice-q14",
+          "image-choice-q15",
+          "image-choice-q16"
+        ]
       }
     ]
-  }
+  },
+  "questions": [
+    {
+      "id": "image-choice-q1",
+      "prompt": "Аль зураг нь 'ном' вэ?",
+      "correctAnswer": "book",
+      "options": [
+        {
+          "id": "book",
+          "label": "ном",
+          "imageUrl": "/uploads/practice/images/book.png"
+        },
+        {
+          "id": "house",
+          "label": "гэр",
+          "imageUrl": "/uploads/practice/images/house.png"
+        },
+        {
+          "id": "water",
+          "label": "ус",
+          "imageUrl": "/uploads/practice/images/water.png"
+        },
+        {
+          "id": "school",
+          "label": "сургууль",
+          "imageUrl": "/uploads/practice/images/school.png"
+        }
+      ],
+      "result": "Зөв! Энэ бол ном.",
+      "meaningEn": "This is a book.",
+      "subtitle": "Tap the picture of a book."
+    },
+    {
+      "id": "image-choice-q2",
+      "prompt": "Би гэртээ харьж байна. Аль нь гэр вэ?",
+      "correctAnswer": "house",
+      "options": [
+        {
+          "id": "book",
+          "label": "ном",
+          "imageUrl": "/uploads/practice/images/book.png"
+        },
+        {
+          "id": "water",
+          "label": "ус",
+          "imageUrl": "/uploads/practice/images/water.png"
+        },
+        {
+          "id": "school",
+          "label": "сургууль",
+          "imageUrl": "/uploads/practice/images/school.png"
+        },
+        {
+          "id": "house",
+          "label": "гэр",
+          "imageUrl": "/uploads/practice/images/house.png"
+        }
+      ],
+      "result": "Зөв! Энэ бол гэр.",
+      "meaningEn": "This is a house/home.",
+      "subtitle": "Choose the house."
+    },
+    {
+      "id": "image-choice-q3",
+      "prompt": "Цангаж байна. Ус аль нь вэ?",
+      "correctAnswer": "water",
+      "options": [
+        {
+          "id": "house",
+          "label": "гэр",
+          "imageUrl": "/uploads/practice/images/house.png"
+        },
+        {
+          "id": "school",
+          "label": "сургууль",
+          "imageUrl": "/uploads/practice/images/school.png"
+        },
+        {
+          "id": "water",
+          "label": "ус",
+          "imageUrl": "/uploads/practice/images/water.png"
+        },
+        {
+          "id": "book",
+          "label": "ном",
+          "imageUrl": "/uploads/practice/images/book.png"
+        }
+      ],
+      "result": "Зөв! Энэ бол ус.",
+      "meaningEn": "This is water.",
+      "subtitle": "Tap the water."
+    },
+    {
+      "id": "image-choice-q4",
+      "prompt": "Хүүхдүүд хаашаа явж байна вэ?",
+      "correctAnswer": "school",
+      "options": [
+        {
+          "id": "water",
+          "label": "ус",
+          "imageUrl": "/uploads/practice/images/water.png"
+        },
+        {
+          "id": "school",
+          "label": "сургууль",
+          "imageUrl": "/uploads/practice/images/school.png"
+        },
+        {
+          "id": "book",
+          "label": "ном",
+          "imageUrl": "/uploads/practice/images/book.png"
+        },
+        {
+          "id": "house",
+          "label": "гэр",
+          "imageUrl": "/uploads/practice/images/house.png"
+        }
+      ],
+      "result": "Зөв! Энэ бол сургууль.",
+      "meaningEn": "This is a school.",
+      "subtitle": "Choose the school."
+    },
+    {
+      "id": "image-choice-q5",
+      "prompt": "Алим аль зураг дээр байна?",
+      "correctAnswer": "apple",
+      "options": [
+        {
+          "id": "apple",
+          "label": "алим",
+          "imageUrl": "/uploads/practice/images/apple.png"
+        },
+        {
+          "id": "book",
+          "label": "ном",
+          "imageUrl": "/uploads/practice/images/book.png"
+        },
+        {
+          "id": "house",
+          "label": "гэр",
+          "imageUrl": "/uploads/practice/images/house.png"
+        },
+        {
+          "id": "water",
+          "label": "ус",
+          "imageUrl": "/uploads/practice/images/water.png"
+        }
+      ],
+      "result": "Зөв! Энэ бол алим.",
+      "meaningEn": "This is an apple.",
+      "subtitle": "Find the apple."
+    },
+    {
+      "id": "image-choice-q6",
+      "prompt": "Өглөө юу уудаг вэ?",
+      "correctAnswer": "milk",
+      "options": [
+        {
+          "id": "book",
+          "label": "ном",
+          "imageUrl": "/uploads/practice/images/book.png"
+        },
+        {
+          "id": "house",
+          "label": "гэр",
+          "imageUrl": "/uploads/practice/images/house.png"
+        },
+        {
+          "id": "water",
+          "label": "ус",
+          "imageUrl": "/uploads/practice/images/water.png"
+        },
+        {
+          "id": "milk",
+          "label": "сүү",
+          "imageUrl": "/uploads/practice/images/milk.png"
+        }
+      ],
+      "result": "Зөв! Энэ бол сүү.",
+      "meaningEn": "This is milk.",
+      "subtitle": "Choose the milk."
+    },
+    {
+      "id": "image-choice-q7",
+      "prompt": "Өглөөний цайнд юу иддэг вэ?",
+      "correctAnswer": "bread",
+      "options": [
+        {
+          "id": "house",
+          "label": "гэр",
+          "imageUrl": "/uploads/practice/images/house.png"
+        },
+        {
+          "id": "water",
+          "label": "ус",
+          "imageUrl": "/uploads/practice/images/water.png"
+        },
+        {
+          "id": "bread",
+          "label": "талх",
+          "imageUrl": "/uploads/practice/images/bread.png"
+        },
+        {
+          "id": "book",
+          "label": "ном",
+          "imageUrl": "/uploads/practice/images/book.png"
+        }
+      ],
+      "result": "Зөв! Энэ бол талх.",
+      "meaningEn": "This is bread.",
+      "subtitle": "Find the bread."
+    },
+    {
+      "id": "image-choice-q8",
+      "prompt": "Ангид хэн зааж байна вэ?",
+      "correctAnswer": "teacher",
+      "options": [
+        {
+          "id": "water",
+          "label": "ус",
+          "imageUrl": "/uploads/practice/images/water.png"
+        },
+        {
+          "id": "teacher",
+          "label": "багш",
+          "imageUrl": "/uploads/practice/images/teacher.png"
+        },
+        {
+          "id": "book",
+          "label": "ном",
+          "imageUrl": "/uploads/practice/images/book.png"
+        },
+        {
+          "id": "house",
+          "label": "гэр",
+          "imageUrl": "/uploads/practice/images/house.png"
+        }
+      ],
+      "result": "Зөв! Энэ бол багш.",
+      "meaningEn": "This is a teacher.",
+      "subtitle": "Choose the teacher."
+    },
+    {
+      "id": "image-choice-q9",
+      "prompt": "Тоглож байгаа хүүхэд аль нь вэ?",
+      "correctAnswer": "child",
+      "options": [
+        {
+          "id": "child",
+          "label": "хүүхэд",
+          "imageUrl": "/uploads/practice/images/child.png"
+        },
+        {
+          "id": "book",
+          "label": "ном",
+          "imageUrl": "/uploads/practice/images/book.png"
+        },
+        {
+          "id": "house",
+          "label": "гэр",
+          "imageUrl": "/uploads/practice/images/house.png"
+        },
+        {
+          "id": "water",
+          "label": "ус",
+          "imageUrl": "/uploads/practice/images/water.png"
+        }
+      ],
+      "result": "Зөв! Энэ бол хүүхэд.",
+      "meaningEn": "This is a child.",
+      "subtitle": "Find the child."
+    },
+    {
+      "id": "image-choice-q10",
+      "prompt": "Зам дээр юу явж байна вэ?",
+      "correctAnswer": "car",
+      "options": [
+        {
+          "id": "book",
+          "label": "ном",
+          "imageUrl": "/uploads/practice/images/book.png"
+        },
+        {
+          "id": "house",
+          "label": "гэр",
+          "imageUrl": "/uploads/practice/images/house.png"
+        },
+        {
+          "id": "water",
+          "label": "ус",
+          "imageUrl": "/uploads/practice/images/water.png"
+        },
+        {
+          "id": "car",
+          "label": "машин",
+          "imageUrl": "/uploads/practice/images/car.png"
+        }
+      ],
+      "result": "Зөв! Энэ бол машин.",
+      "meaningEn": "This is a car.",
+      "subtitle": "Choose the car."
+    },
+    {
+      "id": "image-choice-q11",
+      "prompt": "Сурагч юу уншиж байна вэ?",
+      "correctAnswer": "book",
+      "options": [
+        {
+          "id": "book",
+          "label": "ном",
+          "imageUrl": "/uploads/practice/images/book.png"
+        },
+        {
+          "id": "car",
+          "label": "машин",
+          "imageUrl": "/uploads/practice/images/car.png"
+        },
+        {
+          "id": "water",
+          "label": "ус",
+          "imageUrl": "/uploads/practice/images/water.png"
+        },
+        {
+          "id": "house",
+          "label": "гэр",
+          "imageUrl": "/uploads/practice/images/house.png"
+        }
+      ],
+      "result": "Зөв! Сурагч ном уншиж байна.",
+      "meaningEn": "The student is reading a book.",
+      "subtitle": "Choose the book."
+    },
+    {
+      "id": "image-choice-q12",
+      "prompt": "Хэн ангид хичээл заадаг вэ?",
+      "correctAnswer": "teacher",
+      "options": [
+        {
+          "id": "teacher",
+          "label": "багш",
+          "imageUrl": "/uploads/practice/images/teacher.png"
+        },
+        {
+          "id": "child",
+          "label": "хүүхэд",
+          "imageUrl": "/uploads/practice/images/child.png"
+        },
+        {
+          "id": "school",
+          "label": "сургууль",
+          "imageUrl": "/uploads/practice/images/school.png"
+        },
+        {
+          "id": "apple",
+          "label": "алим",
+          "imageUrl": "/uploads/practice/images/apple.png"
+        }
+      ],
+      "result": "Зөв! Багш хичээл заадаг.",
+      "meaningEn": "A teacher teaches in class.",
+      "subtitle": "Find the teacher."
+    },
+    {
+      "id": "image-choice-q13",
+      "prompt": "Цайнд нэмдэг цагаан ундаа аль нь вэ?",
+      "correctAnswer": "milk",
+      "options": [
+        {
+          "id": "milk",
+          "label": "сүү",
+          "imageUrl": "/uploads/practice/images/milk.png"
+        },
+        {
+          "id": "bread",
+          "label": "талх",
+          "imageUrl": "/uploads/practice/images/bread.png"
+        },
+        {
+          "id": "apple",
+          "label": "алим",
+          "imageUrl": "/uploads/practice/images/apple.png"
+        },
+        {
+          "id": "water",
+          "label": "ус",
+          "imageUrl": "/uploads/practice/images/water.png"
+        }
+      ],
+      "result": "Зөв! Энэ бол сүү.",
+      "meaningEn": "This is milk.",
+      "subtitle": "Choose the milk."
+    },
+    {
+      "id": "image-choice-q14",
+      "prompt": "Хүн юугаар хот руу явж болох вэ?",
+      "correctAnswer": "car",
+      "options": [
+        {
+          "id": "car",
+          "label": "машин",
+          "imageUrl": "/uploads/practice/images/car.png"
+        },
+        {
+          "id": "school",
+          "label": "сургууль",
+          "imageUrl": "/uploads/practice/images/school.png"
+        },
+        {
+          "id": "house",
+          "label": "гэр",
+          "imageUrl": "/uploads/practice/images/house.png"
+        },
+        {
+          "id": "book",
+          "label": "ном",
+          "imageUrl": "/uploads/practice/images/book.png"
+        }
+      ],
+      "result": "Зөв! Хүн машинаар явж болно.",
+      "meaningEn": "A person can go by car.",
+      "subtitle": "Choose the car."
+    },
+    {
+      "id": "image-choice-q15",
+      "prompt": "Хоолтой хамт юу идэж болох вэ?",
+      "correctAnswer": "bread",
+      "options": [
+        {
+          "id": "teacher",
+          "label": "багш",
+          "imageUrl": "/uploads/practice/images/teacher.png"
+        },
+        {
+          "id": "bread",
+          "label": "талх",
+          "imageUrl": "/uploads/practice/images/bread.png"
+        },
+        {
+          "id": "child",
+          "label": "хүүхэд",
+          "imageUrl": "/uploads/practice/images/child.png"
+        },
+        {
+          "id": "milk",
+          "label": "сүү",
+          "imageUrl": "/uploads/practice/images/milk.png"
+        }
+      ],
+      "result": "Зөв! Энэ бол талх.",
+      "meaningEn": "This is bread.",
+      "subtitle": "Find the bread."
+    },
+    {
+      "id": "image-choice-q16",
+      "prompt": "Хүн хаана амьдардаг вэ?",
+      "correctAnswer": "house",
+      "options": [
+        {
+          "id": "book",
+          "label": "ном",
+          "imageUrl": "/uploads/practice/images/book.png"
+        },
+        {
+          "id": "house",
+          "label": "гэр",
+          "imageUrl": "/uploads/practice/images/house.png"
+        },
+        {
+          "id": "school",
+          "label": "сургууль",
+          "imageUrl": "/uploads/practice/images/school.png"
+        },
+        {
+          "id": "apple",
+          "label": "алим",
+          "imageUrl": "/uploads/practice/images/apple.png"
+        }
+      ],
+      "result": "Зөв! Хүн гэртээ амьдардаг.",
+      "meaningEn": "A person lives at home.",
+      "subtitle": "Choose the house."
+    }
+  ]
+}
+
 ]
