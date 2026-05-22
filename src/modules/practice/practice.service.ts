@@ -3,10 +3,11 @@ import { findUserById } from "../progress/progress.repository";
 import {
   createPracticeAttempt,
   findAllActivePractice,
+  findPracticeAttemptsByUser,
   findPracticeAttemptsByUserToday,
   findPracticeById,
 } from "./practice.repository";
-import { PracticeAttemptPayload, PracticeConfig } from "./practice.types";
+import { PracticeAttemptPayload, PracticeConfig, PracticeRoadmapStage } from "./practice.types";
 
 const validateAttemptPayload = (payload: PracticeAttemptPayload) => {
   if (!Number.isFinite(payload.score) || payload.score < 0 || payload.score > 100) {
@@ -46,7 +47,28 @@ export const listPractice = async () => {
   }));
 };
 
-export const getPracticeDetail = async (practiceId: string) => {
+const buildRoadmapWithUnlockStatus = (
+  roadmap: PracticeRoadmapStage[],
+  completedStageIds: Set<string>,
+): PracticeRoadmapStage[] => {
+  const sortedRoadmap = [...roadmap].sort((a, b) => a.order - b.order);
+
+  return sortedRoadmap.map((stage, index) => {
+    const fallbackUnlocked = Boolean(stage.isUnlocked);
+    const isCompleted = completedStageIds.has(stage.id);
+    const previousStage = index > 0 ? sortedRoadmap[index - 1] : undefined;
+    const isUnlocked =
+      index === 0 ? true : previousStage ? completedStageIds.has(previousStage.id) : fallbackUnlocked;
+
+    return {
+      ...stage,
+      isUnlocked: isUnlocked ?? fallbackUnlocked,
+      isCompleted,
+    };
+  });
+};
+
+export const getPracticeDetail = async (practiceId: string, userId?: string) => {
   if (!practiceId) {
     throw new Error("Practice not found");
   }
@@ -54,6 +76,26 @@ export const getPracticeDetail = async (practiceId: string) => {
   const practice = await findPracticeById(practiceId);
   if (!practice) {
     throw new Error("Practice not found");
+  }
+
+  let config = practice.config;
+  const roadmap = (practice.config as PracticeConfig | undefined)?.roadmap;
+  if (Array.isArray(roadmap)) {
+    let completedStageIds = new Set<string>();
+
+    if (userId) {
+      const attempts = await findPracticeAttemptsByUser(userId, practiceId);
+      completedStageIds = new Set(
+        attempts
+          .filter((attempt) => Boolean(attempt.stageId) && attempt.totalCount > 0)
+          .map((attempt) => String(attempt.stageId)),
+      );
+    }
+
+    config = {
+      ...practice.config,
+      roadmap: buildRoadmapWithUnlockStatus(roadmap, completedStageIds),
+    };
   }
 
   return {
@@ -68,7 +110,7 @@ export const getPracticeDetail = async (practiceId: string) => {
     dailyAttemptLimit: practice.dailyAttemptLimit,
     isActive: practice.isActive,
     order: practice.order,
-    config: practice.config,
+    config,
     questions: practice.questions,
   };
 };

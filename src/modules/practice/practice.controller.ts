@@ -35,7 +35,7 @@ export const getAllPracticeHandler = async (_req: AuthRequest, res: Response) =>
 export const getPracticeDetailHandler = async (req: AuthRequest, res: Response) => {
   try {
     const practiceId = String(req.params.practiceId ?? req.params.gameId ?? "");
-    const practice = await getPracticeDetail(practiceId);
+    const practice = await getPracticeDetail(practiceId, req.userId);
     return res.status(200).json({ success: true, data: practice });
   } catch (error) {
     return res.status(getStatusFromError(error)).json({

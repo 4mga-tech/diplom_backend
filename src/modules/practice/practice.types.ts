@@ -12,6 +12,7 @@ export type PracticeRoadmapStage = {
   order: number;
   xpReward: number;
   isUnlocked: boolean;
+  isCompleted?: boolean;
   questionIds: string[];
 };
 
