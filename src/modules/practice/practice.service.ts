@@ -31,22 +31,6 @@ const validateAttemptPayload = (payload: PracticeAttemptPayload) => {
   }
 };
 
-export const listPractice = async () => {
-  const practices = await findAllActivePractice();
-  return practices.map((practice) => ({
-    id: practice.id,
-    type: practice.type,
-    levelId: practice.levelId,
-    title: practice.title,
-    subtitle: practice.subtitle,
-    description: practice.description,
-    xpReward: practice.xpReward,
-    maxDailyXp: practice.maxDailyXp,
-    dailyAttemptLimit: practice.dailyAttemptLimit,
-    order: practice.order,
-  }));
-};
-
 const buildRoadmapWithUnlockStatus = (
   roadmap: PracticeRoadmapStage[],
   completedStageIds: Set<string>,
@@ -113,6 +97,71 @@ export const getPracticeDetail = async (practiceId: string, userId?: string) => 
     config,
     questions: practice.questions,
   };
+};
+
+const buildPracticeProgress = (
+  roadmap: PracticeRoadmapStage[] | undefined,
+  completedStageIds: Set<string>,
+  earnedXp: number,
+) => {
+  const sortedRoadmap = Array.isArray(roadmap) ? [...roadmap].sort((a, b) => a.order - b.order) : [];
+  const totalStages = sortedRoadmap.length;
+  const completedStages = sortedRoadmap.filter((stage) => completedStageIds.has(stage.id)).length;
+  const progressPercent = totalStages > 0 ? completedStages / totalStages : 0;
+
+  let nextStageId: string | null = null;
+  for (let index = 0; index < sortedRoadmap.length; index += 1) {
+    const stage = sortedRoadmap[index];
+    if (completedStageIds.has(stage.id)) {
+      continue;
+    }
+
+    if (index === 0 || completedStageIds.has(sortedRoadmap[index - 1].id)) {
+      nextStageId = stage.id;
+      break;
+    }
+  }
+
+  return {
+    completedStages,
+    totalStages,
+    progressPercent,
+    earnedXp,
+    nextStageId,
+  };
+};
+
+export const listPractice = async (userId: string) => {
+  const practices = await findAllActivePractice();
+
+  const listWithProgress = await Promise.all(
+    practices.map(async (practice) => {
+      const attempts = await findPracticeAttemptsByUser(userId, practice.id);
+      const completedStageIds = new Set(
+        attempts
+          .filter((attempt) => Boolean(attempt.stageId) && attempt.totalCount > 0)
+          .map((attempt) => String(attempt.stageId)),
+      );
+      const earnedXp = attempts.reduce((sum, attempt) => sum + attempt.xpEarned, 0);
+      const roadmap = (practice.config as PracticeConfig | undefined)?.roadmap;
+
+      return {
+        id: practice.id,
+        type: practice.type,
+        levelId: practice.levelId,
+        title: practice.title,
+        subtitle: practice.subtitle,
+        description: practice.description,
+        xpReward: practice.xpReward,
+        maxDailyXp: practice.maxDailyXp,
+        dailyAttemptLimit: practice.dailyAttemptLimit,
+        order: practice.order,
+        progress: buildPracticeProgress(roadmap, completedStageIds, earnedXp),
+      };
+    }),
+  );
+
+  return listWithProgress;
 };
 
 export const submitPracticeAttempt = async (

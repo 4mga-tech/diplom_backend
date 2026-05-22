@@ -23,9 +23,13 @@ const getStatusFromError = (error: unknown) => {
   return 500;
 };
 
-export const getAllPracticeHandler = async (_req: AuthRequest, res: Response) => {
+export const getAllPracticeHandler = async (req: AuthRequest, res: Response) => {
   try {
-    const practices = await listPractice();
+    if (!req.userId) {
+      return res.status(401).json({ success: false, error: "Unauthorized" });
+    }
+
+    const practices = await listPractice(req.userId);
     return res.status(200).json({ success: true, data: practices });
   } catch (error) {
     return res.status(500).json({ success: false, error: error instanceof Error ? error.message : "Internal server error" });
