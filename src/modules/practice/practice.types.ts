@@ -23,6 +23,7 @@ export type PracticeConfig = Record<string, unknown> & {
 export type PracticeQuestion = {
   id: string;
   prompt: string;
+  subtitle?: string;
   options?: Array<
     | string
     | {
