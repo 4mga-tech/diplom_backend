@@ -40,3 +40,10 @@ export const findPracticeAttemptsByUserToday = async (userId: string, practiceId
     createdAt: { $gte: today },
   });
 };
+
+export const findPracticeAttemptsByUser = async (userId: string, practiceId: string) => {
+  return PracticeAttempt.find({
+    userId,
+    practiceId,
+  });
+};
