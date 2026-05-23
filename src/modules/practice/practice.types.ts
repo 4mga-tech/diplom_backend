@@ -28,6 +28,7 @@ export type PracticeQuestion = {
   id: string;
   prompt: string;
   subtitle?: string;
+  audioUrl?: string;
   options?: Array<
     | string
     | {

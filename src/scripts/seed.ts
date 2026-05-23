@@ -278,7 +278,7 @@ const validatePracticeSeedItem = (practice: PracticeSeedItem, sourceFile: string
       throw new Error(`Practice ${context} has invalid question shape for ${question?.id ?? "unknown"}`);
     }
 
-    const optionsRequiredTypes = new Set(["missing_word", "dialogue_fill", "image_choice"]);
+    const optionsRequiredTypes = new Set(["missing_word", "dialogue_fill", "image_choice", "audio_choice"]);
     if (optionsRequiredTypes.has(practice.type) && !Array.isArray(question?.options)) {
       throw new Error(`Practice ${context} requires options for question ${question.id}`);
     }
@@ -321,6 +321,29 @@ const validatePracticeSeedItem = (practice: PracticeSeedItem, sourceFile: string
 
     if (practice.type === "sentence_order" && !Array.isArray((question as { parts?: unknown }).parts)) {
       throw new Error(`Practice ${context} requires parts for question ${question.id}`);
+    }
+
+    if (practice.type === "audio_choice") {
+      if (typeof question.audioUrl !== "string" || question.audioUrl.trim().length === 0) {
+        throw new Error(`Practice ${context} audio_choice question ${question.id} must include audioUrl`);
+      }
+
+      if (!Array.isArray(question.options) || question.options.length !== 4) {
+        throw new Error(`Practice ${context} audio_choice question ${question.id} must have exactly 4 options`);
+      }
+
+      const options = question.options as unknown[];
+      const hasInvalidOptions = options.some((option) => typeof option !== "string" || option.trim().length === 0);
+      if (hasInvalidOptions) {
+        throw new Error(`Practice ${context} audio_choice question ${question.id} has invalid string options`);
+      }
+
+      const normalizedCorrectAnswer = question.correctAnswer.trim();
+      if (!options.some((option) => String(option).trim() === normalizedCorrectAnswer)) {
+        throw new Error(
+          `Practice ${context} audio_choice question ${question.id} correctAnswer must exist in options`,
+        );
+      }
     }
   }
 };
