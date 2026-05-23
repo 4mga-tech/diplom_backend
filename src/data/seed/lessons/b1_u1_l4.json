@@ -2,161 +2,124 @@
   "lesson": {
     "id": "b1-u1-l4",
     "unitId": "b1-u1",
-    "title": "Practice Building Words",
-    "subtitle": "Fill letters and build simple words",
+    "title": "Special letters and signs",
+    "subtitle": "К, П, Ф, Щ, Ъ, Ь",
     "order": 4,
-    "xpReward": 25,
-    "quizXpReward": 0
+    "xpReward": 20,
+    "quizXpReward": 8
   },
   "contents": [
     {
       "id": "b1-u1-l4-c1",
       "lessonId": "b1-u1-l4",
-      "type": "hero_intro",
-      "title": "Practice time",
+      "type": "text",
+      "title": "Explanation",
       "order": 1,
       "content": {
-        "textEn": "Use the letters and syllables you learned to complete simple words.",
-        "textMn": "Сурсан үсэг, үеэ ашиглан энгийн үг бүтээнэ.",
-        "stats": [
-          {
-            "label": "Fill",
-            "value": 5
-          },
-          {
-            "label": "Words",
-            "value": 5
-          }
-        ]
+        "section": "explanation",
+        "textEn": "Learn К, П, Ф, Щ, Ъ, Ь with simple recognition practice.",
+        "textMn": "К, П, Ф, Щ, Ъ, Ь үсгүүдийг таньж, зөв дуудлагаар давтана."
       }
     },
     {
       "id": "b1-u1-l4-c2",
       "lessonId": "b1-u1-l4",
-      "type": "exercise_fill",
-      "title": "Fill the missing letter",
+      "type": "table_letters",
+      "title": "Letter table",
       "order": 2,
       "content": {
-        "instructionEn": "Choose the missing letter.",
-        "questions": [
-          {
-            "prompt": "_ом",
-            "options": [
-              "Н",
-              "Б",
-              "С"
-            ],
-            "answer": "Н",
-            "result": "ном",
-            "meaningEn": "book"
-          },
-          {
-            "prompt": "г_р",
-            "options": [
-              "Э",
-              "А",
-              "О"
-            ],
-            "answer": "Э",
-            "result": "гэр",
-            "meaningEn": "home"
-          },
-          {
-            "prompt": "_с",
-            "options": [
-              "У",
-              "А",
-              "Э"
-            ],
-            "answer": "У",
-            "result": "ус",
-            "meaningEn": "water"
-          }
+        "section": "letters",
+        "items": [
+          "К",
+          "П",
+          "Ф",
+          "Щ",
+          "Ъ",
+          "Ь"
         ]
       }
     },
     {
       "id": "b1-u1-l4-c3",
       "lessonId": "b1-u1-l4",
-      "type": "exercise_word_build",
-      "title": "Build simple words",
+      "type": "exercise_repeat",
+      "title": "Repeat and read",
       "order": 3,
       "content": {
-        "instructionEn": "Tap the letters in the correct order, then check your answer.",
-        "questions": [
-          {
-            "index": 1,
-            "meaningEn": "book",
-            "letters": [
-              "О",
-              "М",
-              "Н"
-            ],
-            "answer": "НОМ",
-            "displayAnswer": "ном"
-          },
-          {
-            "index": 2,
-            "meaningEn": "group / team",
-            "letters": [
-              "Г",
-              "Б",
-              "А"
-            ],
-            "answer": "БАГ",
-            "displayAnswer": "баг"
-          },
-          {
-            "index": 3,
-            "meaningEn": "home",
-            "letters": [
-              "Р",
-              "Г",
-              "Э"
-            ],
-            "answer": "ГЭР",
-            "displayAnswer": "гэр"
-          },
-          {
-            "index": 4,
-            "meaningEn": "day",
-            "letters": [
-              "Ө",
-              "Р",
-              "Д",
-              "Ө"
-            ],
-            "answer": "ӨДӨР",
-            "displayAnswer": "өдөр"
-          },
-          {
-            "index": 5,
-            "meaningEn": "good / hello",
-            "letters": [
-              "Й",
-              "Н",
-              "А",
-              "С"
-            ],
-            "answer": "САЙН",
-            "displayAnswer": "сайн"
-          }
-        ]
+        "section": "practice",
+        "instructionEn": "Say each letter aloud and repeat twice.",
+        "instructionMn": "Үсэг бүрийг чангаар хэлж 2 удаа давт."
       }
     },
     {
       "id": "b1-u1-l4-c4",
       "lessonId": "b1-u1-l4",
-      "type": "next_steps",
-      "title": "Next",
+      "type": "quiz_link",
+      "title": "Quiz",
       "order": 4,
       "content": {
-        "steps": [
-          "Review the letters",
-          "Practice word building",
-          "Get ready for the final check"
-        ]
+        "section": "quiz",
+        "quizId": "quiz_b1_u1_l4"
       }
+    }
+  ],
+  "quiz": {
+    "id": "quiz_b1_u1_l4",
+    "lessonId": "b1-u1-l4",
+    "title": "Special letters and signs quiz",
+    "passingScore": 70
+  },
+  "quizQuestions": [
+    {
+      "id": "quiz_b1_u1_l4_q1",
+      "quizId": "quiz_b1_u1_l4",
+      "type": "multiple_choice",
+      "prompt": "Which is a sign letter?",
+      "helper": "Pick one.",
+      "options": [
+        "Ь",
+        "К",
+        "П",
+        "Ф"
+      ],
+      "correctAnswer": "Ь",
+      "explanation": "Ь is a sign letter.",
+      "xpReward": 2,
+      "order": 1
+    },
+    {
+      "id": "quiz_b1_u1_l4_q2",
+      "quizId": "quiz_b1_u1_l4",
+      "type": "multiple_choice",
+      "prompt": "Which is a special consonant in this lesson?",
+      "helper": "Not a sign.",
+      "options": [
+        "Ъ",
+        "Щ",
+        "Ь",
+        "Я"
+      ],
+      "correctAnswer": "Щ",
+      "explanation": "Щ is listed as a special consonant letter.",
+      "xpReward": 2,
+      "order": 2
+    },
+    {
+      "id": "quiz_b1_u1_l4_q3",
+      "quizId": "quiz_b1_u1_l4",
+      "type": "multiple_choice",
+      "prompt": "How many letters are in this lesson list?",
+      "helper": "Count K P F Shch hard/soft signs.",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "correctAnswer": "6",
+      "explanation": "K, P, F, Щ, Ъ, Ь = 6 letters.",
+      "xpReward": 2,
+      "order": 3
     }
   ]
 }

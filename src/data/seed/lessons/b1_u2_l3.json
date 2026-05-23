@@ -1,0 +1,140 @@
+{
+  "lesson": {
+    "id": "b1-u2-l3",
+    "unitId": "b1-u2",
+    "title": "Vowel harmony basics",
+    "subtitle": "Back: а о у | Front: э ө ү | Neutral: и",
+    "order": 3,
+    "xpReward": 22,
+    "quizXpReward": 8
+  },
+  "contents": [
+    {
+      "id": "b1-u2-l3-c1",
+      "lessonId": "b1-u2-l3",
+      "type": "text",
+      "title": "Explanation",
+      "order": 1,
+      "content": {
+        "section": "explanation",
+        "textEn": "Back: а о у | Front: э ө ү | Neutral: и",
+        "textMn": "Энгийн жишээгээр уншиж давт."
+      }
+    },
+    {
+      "id": "b1-u2-l3-c2",
+      "lessonId": "b1-u2-l3",
+      "type": "exercise_word_build",
+      "title": "Build practice",
+      "order": 2,
+      "content": {
+        "section": "syllables",
+        "instructionEn": "Combine and read.",
+        "items": [
+          {
+            "left": "б",
+            "right": "а",
+            "result": "ба",
+            "transcription": "ba",
+            "audioUrl": "/uploads/audio/syllables/ba.mp3"
+          },
+          {
+            "left": "б",
+            "right": "ө",
+            "result": "бө",
+            "transcription": "bö",
+            "audioUrl": "/uploads/audio/syllables/bo-front.mp3"
+          },
+          {
+            "left": "б",
+            "right": "и",
+            "result": "би",
+            "transcription": "bi",
+            "audioUrl": "/uploads/audio/syllables/bi.mp3"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b1-u2-l3-c3",
+      "lessonId": "b1-u2-l3",
+      "type": "exercise_repeat",
+      "title": "Repeat row",
+      "order": 3,
+      "content": {
+        "section": "practice",
+        "instructionEn": "Read each item slowly then faster."
+      }
+    },
+    {
+      "id": "b1-u2-l3-c4",
+      "lessonId": "b1-u2-l3",
+      "type": "quiz_link",
+      "title": "Quiz",
+      "order": 4,
+      "content": {
+        "section": "quiz",
+        "quizId": "quiz_b1_u2_l3"
+      }
+    }
+  ],
+  "quiz": {
+    "id": "quiz_b1_u2_l3",
+    "lessonId": "b1-u2-l3",
+    "title": "Vowel harmony basics quiz",
+    "passingScore": 70
+  },
+  "quizQuestions": [
+    {
+      "id": "quiz_b1_u2_l3_q1",
+      "quizId": "quiz_b1_u2_l3",
+      "type": "multiple_choice",
+      "prompt": "Which is a back vowel?",
+      "helper": "Choose from harmony groups.",
+      "options": [
+        "ө",
+        "э",
+        "а",
+        "ү"
+      ],
+      "correctAnswer": "а",
+      "explanation": "а is a back vowel.",
+      "xpReward": 2,
+      "order": 1
+    },
+    {
+      "id": "quiz_b1_u2_l3_q2",
+      "quizId": "quiz_b1_u2_l3",
+      "type": "multiple_choice",
+      "prompt": "Which is a front vowel syllable?",
+      "helper": "Find ө/ү/э.",
+      "options": [
+        "ба",
+        "бо",
+        "бө",
+        "бу"
+      ],
+      "correctAnswer": "бө",
+      "explanation": "бө contains front vowel ө.",
+      "xpReward": 2,
+      "order": 2
+    },
+    {
+      "id": "quiz_b1_u2_l3_q3",
+      "quizId": "quiz_b1_u2_l3",
+      "type": "multiple_choice",
+      "prompt": "Neutral vowel is...",
+      "helper": "One letter.",
+      "options": [
+        "а",
+        "и",
+        "ө",
+        "у"
+      ],
+      "correctAnswer": "и",
+      "explanation": "и is neutral in basic harmony grouping.",
+      "xpReward": 2,
+      "order": 3
+    }
+  ]
+}

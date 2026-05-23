@@ -1,0 +1,140 @@
+{
+  "lesson": {
+    "id": "b1-u2-l2",
+    "unitId": "b1-u2",
+    "title": "Closed syllables",
+    "subtitle": "Vowel + consonant (VC)",
+    "order": 2,
+    "xpReward": 22,
+    "quizXpReward": 8
+  },
+  "contents": [
+    {
+      "id": "b1-u2-l2-c1",
+      "lessonId": "b1-u2-l2",
+      "type": "text",
+      "title": "Explanation",
+      "order": 1,
+      "content": {
+        "section": "explanation",
+        "textEn": "Vowel + consonant (VC)",
+        "textMn": "Энгийн жишээгээр уншиж давт."
+      }
+    },
+    {
+      "id": "b1-u2-l2-c2",
+      "lessonId": "b1-u2-l2",
+      "type": "exercise_word_build",
+      "title": "Build practice",
+      "order": 2,
+      "content": {
+        "section": "syllables",
+        "instructionEn": "Combine and read.",
+        "items": [
+          {
+            "left": "а",
+            "right": "м",
+            "result": "ам",
+            "transcription": "am",
+            "audioUrl": "/uploads/audio/syllables/am.mp3"
+          },
+          {
+            "left": "о",
+            "right": "л",
+            "result": "ол",
+            "transcription": "ol",
+            "audioUrl": "/uploads/audio/syllables/ol.mp3"
+          },
+          {
+            "left": "э",
+            "right": "р",
+            "result": "эр",
+            "transcription": "er",
+            "audioUrl": "/uploads/audio/syllables/er.mp3"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b1-u2-l2-c3",
+      "lessonId": "b1-u2-l2",
+      "type": "exercise_repeat",
+      "title": "Repeat row",
+      "order": 3,
+      "content": {
+        "section": "practice",
+        "instructionEn": "Read each item slowly then faster."
+      }
+    },
+    {
+      "id": "b1-u2-l2-c4",
+      "lessonId": "b1-u2-l2",
+      "type": "quiz_link",
+      "title": "Quiz",
+      "order": 4,
+      "content": {
+        "section": "quiz",
+        "quizId": "quiz_b1_u2_l2"
+      }
+    }
+  ],
+  "quiz": {
+    "id": "quiz_b1_u2_l2",
+    "lessonId": "b1-u2-l2",
+    "title": "Closed syllables quiz",
+    "passingScore": 70
+  },
+  "quizQuestions": [
+    {
+      "id": "quiz_b1_u2_l2_q1",
+      "quizId": "quiz_b1_u2_l2",
+      "type": "multiple_choice",
+      "prompt": "а + м = ?",
+      "helper": "Build the closed syllable.",
+      "options": [
+        "ам",
+        "ма",
+        "эм",
+        "ом"
+      ],
+      "correctAnswer": "ам",
+      "explanation": "а + м = ам /am/.",
+      "xpReward": 2,
+      "order": 1
+    },
+    {
+      "id": "quiz_b1_u2_l2_q2",
+      "quizId": "quiz_b1_u2_l2",
+      "type": "multiple_choice",
+      "prompt": "Choose /er/.",
+      "helper": "Match sound and text.",
+      "options": [
+        "эр",
+        "ар",
+        "ор",
+        "ур"
+      ],
+      "correctAnswer": "эр",
+      "explanation": "эр is /er/.",
+      "xpReward": 2,
+      "order": 2
+    },
+    {
+      "id": "quiz_b1_u2_l2_q3",
+      "quizId": "quiz_b1_u2_l2",
+      "type": "multiple_choice",
+      "prompt": "Which is a closed syllable?",
+      "helper": "VC pattern.",
+      "options": [
+        "ба",
+        "мо",
+        "ам",
+        "сү"
+      ],
+      "correctAnswer": "ам",
+      "explanation": "ам is vowel + consonant.",
+      "xpReward": 2,
+      "order": 3
+    }
+  ]
+}

@@ -2,95 +2,134 @@
   "lesson": {
     "id": "b1-u1-l3",
     "unitId": "b1-u1",
-    "title": "Syllable Basics",
-    "subtitle": "Consonant + vowel makes a syllable",
+    "title": "Common consonants",
+    "subtitle": "Б, В, Г, Д, Ж, З, Л, М, Н, Р, С, Т, Х, Ц, Ч, Ш",
     "order": 3,
     "xpReward": 20,
-    "quizXpReward": 0
+    "quizXpReward": 8
   },
   "contents": [
     {
       "id": "b1-u1-l3-c1",
       "lessonId": "b1-u1-l3",
-      "type": "hero_intro",
-      "title": "Letters become syllables",
+      "type": "text",
+      "title": "Explanation",
       "order": 1,
       "content": {
-        "textEn": "In Mongolian, many simple syllables are made by joining a consonant and a vowel.",
-        "textMn": "Монгол хэлэнд олон энгийн үе нь гийгүүлэгч ба эгшгийг нийлүүлж бүтдэг.",
-        "stats": [
-          { "label": "Pattern", "value": "C+V" },
-          { "label": "Examples", "value": 12 }
-        ]
+        "section": "explanation",
+        "textEn": "Learn Б, В, Г, Д, Ж, З, Л, М, Н, Р, С, Т, Х, Ц, Ч, Ш with simple recognition practice.",
+        "textMn": "Б, В, Г, Д, Ж, З, Л, М, Н, Р, С, Т, Х, Ц, Ч, Ш үсгүүдийг таньж, зөв дуудлагаар давтана."
       }
     },
     {
       "id": "b1-u1-l3-c2",
       "lessonId": "b1-u1-l3",
-      "type": "syllable_builder",
-      "title": "Consonant + vowel",
+      "type": "table_letters",
+      "title": "Letter table",
       "order": 2,
       "content": {
-        "instructionEn": "Look at how one consonant combines with different vowels.",
-        "patterns": [
-          {
-            "base": "Б",
-            "vowels": ["А", "О", "У", "Ө"],
-            "results": ["ба", "бо", "бу", "бө"]
-          },
-          {
-            "base": "М",
-            "vowels": ["А", "О", "У", "Ө"],
-            "results": ["ма", "мо", "му", "мө"]
-          },
-          {
-            "base": "Н",
-            "vowels": ["А", "О", "У", "Ө"],
-            "results": ["на", "но", "ну", "нө"]
-          }
+        "section": "letters",
+        "items": [
+          "Б",
+          "В",
+          "Г",
+          "Д",
+          "Ж",
+          "З",
+          "Л",
+          "М",
+          "Н",
+          "Р",
+          "С",
+          "Т",
+          "Х",
+          "Ц",
+          "Ч",
+          "Ш"
         ]
       }
     },
     {
       "id": "b1-u1-l3-c3",
       "lessonId": "b1-u1-l3",
-      "type": "word_builder",
-      "title": "From syllables to words",
+      "type": "exercise_repeat",
+      "title": "Repeat and read",
       "order": 3,
       "content": {
-        "instructionEn": "Some short words are made from the letters you already know.",
-        "words": [
-          {
-            "letters": ["Н", "О", "М"],
-            "word": "ном",
-            "meaningEn": "book"
-          },
-          {
-            "letters": ["Г", "Э", "Р"],
-            "word": "гэр",
-            "meaningEn": "home"
-          },
-          {
-            "letters": ["У", "С"],
-            "word": "ус",
-            "meaningEn": "water"
-          }
-        ]
+        "section": "practice",
+        "instructionEn": "Say each letter aloud and repeat twice.",
+        "instructionMn": "Үсэг бүрийг чангаар хэлж 2 удаа давт."
       }
     },
     {
       "id": "b1-u1-l3-c4",
       "lessonId": "b1-u1-l3",
-      "type": "next_steps",
-      "title": "Next",
+      "type": "quiz_link",
+      "title": "Quiz",
       "order": 4,
       "content": {
-        "steps": [
-          "Practice missing letters",
-          "Build simple words yourself",
-          "Prepare for the unit check"
-        ]
+        "section": "quiz",
+        "quizId": "quiz_b1_u1_l3"
       }
+    }
+  ],
+  "quiz": {
+    "id": "quiz_b1_u1_l3",
+    "lessonId": "b1-u1-l3",
+    "title": "Common consonants quiz",
+    "passingScore": 70
+  },
+  "quizQuestions": [
+    {
+      "id": "quiz_b1_u1_l3_q1",
+      "quizId": "quiz_b1_u1_l3",
+      "type": "multiple_choice",
+      "prompt": "Which is a common consonant?",
+      "helper": "Pick one.",
+      "options": [
+        "М",
+        "Ө",
+        "Ю",
+        "И"
+      ],
+      "correctAnswer": "М",
+      "explanation": "М is a common consonant.",
+      "xpReward": 2,
+      "order": 1
+    },
+    {
+      "id": "quiz_b1_u1_l3_q2",
+      "quizId": "quiz_b1_u1_l3",
+      "type": "multiple_choice",
+      "prompt": "How many common consonants are introduced?",
+      "helper": "Count the list.",
+      "options": [
+        "12",
+        "14",
+        "16",
+        "18"
+      ],
+      "correctAnswer": "16",
+      "explanation": "This lesson introduces 16 common consonants.",
+      "xpReward": 2,
+      "order": 2
+    },
+    {
+      "id": "quiz_b1_u1_l3_q3",
+      "quizId": "quiz_b1_u1_l3",
+      "type": "multiple_choice",
+      "prompt": "Which pair contains only consonants?",
+      "helper": "Check both letters.",
+      "options": [
+        "Б М",
+        "А Ө",
+        "Ю Я",
+        "И Ы"
+      ],
+      "correctAnswer": "Б М",
+      "explanation": "Б and М are both consonants.",
+      "xpReward": 2,
+      "order": 3
     }
   ]
 }

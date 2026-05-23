@@ -1,0 +1,140 @@
+{
+  "lesson": {
+    "id": "b1-u3-l3",
+    "unitId": "b1-u3",
+    "title": "People and places",
+    "subtitle": "багш, хүүхэд, сургууль, найз",
+    "order": 3,
+    "xpReward": 22,
+    "quizXpReward": 8
+  },
+  "contents": [
+    {
+      "id": "b1-u3-l3-c1",
+      "lessonId": "b1-u3-l3",
+      "type": "text",
+      "title": "Explanation",
+      "order": 1,
+      "content": {
+        "section": "explanation",
+        "textEn": "багш, хүүхэд, сургууль, найз",
+        "textMn": "Энгийн жишээгээр уншиж давт."
+      }
+    },
+    {
+      "id": "b1-u3-l3-c2",
+      "lessonId": "b1-u3-l3",
+      "type": "exercise_word_build",
+      "title": "Build practice",
+      "order": 2,
+      "content": {
+        "section": "syllables",
+        "instructionEn": "Combine and read.",
+        "items": [
+          {
+            "left": "ба",
+            "right": "гш",
+            "result": "багш",
+            "transcription": "bagsh",
+            "audioUrl": "/uploads/audio/words/bagsh.mp3"
+          },
+          {
+            "left": "хүү",
+            "right": "хэд",
+            "result": "хүүхэд",
+            "transcription": "hüühed",
+            "audioUrl": "/uploads/audio/words/huuhed.mp3"
+          },
+          {
+            "left": "най",
+            "right": "з",
+            "result": "найз",
+            "transcription": "naiz",
+            "audioUrl": "/uploads/audio/words/naiz.mp3"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b1-u3-l3-c3",
+      "lessonId": "b1-u3-l3",
+      "type": "exercise_repeat",
+      "title": "Repeat row",
+      "order": 3,
+      "content": {
+        "section": "practice",
+        "instructionEn": "Read each item slowly then faster."
+      }
+    },
+    {
+      "id": "b1-u3-l3-c4",
+      "lessonId": "b1-u3-l3",
+      "type": "quiz_link",
+      "title": "Quiz",
+      "order": 4,
+      "content": {
+        "section": "quiz",
+        "quizId": "quiz_b1_u3_l3"
+      }
+    }
+  ],
+  "quiz": {
+    "id": "quiz_b1_u3_l3",
+    "lessonId": "b1-u3-l3",
+    "title": "People and places quiz",
+    "passingScore": 70
+  },
+  "quizQuestions": [
+    {
+      "id": "quiz_b1_u3_l3_q1",
+      "quizId": "quiz_b1_u3_l3",
+      "type": "multiple_choice",
+      "prompt": "Which word means friend?",
+      "helper": "People words.",
+      "options": [
+        "багш",
+        "найз",
+        "сургууль",
+        "хүүхэд"
+      ],
+      "correctAnswer": "найз",
+      "explanation": "найз means friend.",
+      "xpReward": 2,
+      "order": 1
+    },
+    {
+      "id": "quiz_b1_u3_l3_q2",
+      "quizId": "quiz_b1_u3_l3",
+      "type": "multiple_choice",
+      "prompt": "Choose the place word.",
+      "helper": "School/place.",
+      "options": [
+        "сургууль",
+        "найз",
+        "аав",
+        "ээж"
+      ],
+      "correctAnswer": "сургууль",
+      "explanation": "сургууль means school.",
+      "xpReward": 2,
+      "order": 2
+    },
+    {
+      "id": "quiz_b1_u3_l3_q3",
+      "quizId": "quiz_b1_u3_l3",
+      "type": "multiple_choice",
+      "prompt": "Pick transcription for багш.",
+      "helper": "Latin form.",
+      "options": [
+        "bagsh",
+        "bagh",
+        "baj",
+        "baga"
+      ],
+      "correctAnswer": "bagsh",
+      "explanation": "багш = bagsh.",
+      "xpReward": 2,
+      "order": 3
+    }
+  ]
+}

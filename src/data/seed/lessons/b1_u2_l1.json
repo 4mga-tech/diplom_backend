@@ -1,0 +1,140 @@
+{
+  "lesson": {
+    "id": "b1-u2-l1",
+    "unitId": "b1-u2",
+    "title": "Open syllables",
+    "subtitle": "Consonant + vowel (CV)",
+    "order": 1,
+    "xpReward": 22,
+    "quizXpReward": 8
+  },
+  "contents": [
+    {
+      "id": "b1-u2-l1-c1",
+      "lessonId": "b1-u2-l1",
+      "type": "text",
+      "title": "Explanation",
+      "order": 1,
+      "content": {
+        "section": "explanation",
+        "textEn": "Consonant + vowel (CV)",
+        "textMn": "Энгийн жишээгээр уншиж давт."
+      }
+    },
+    {
+      "id": "b1-u2-l1-c2",
+      "lessonId": "b1-u2-l1",
+      "type": "exercise_word_build",
+      "title": "Build practice",
+      "order": 2,
+      "content": {
+        "section": "syllables",
+        "instructionEn": "Combine and read.",
+        "items": [
+          {
+            "left": "б",
+            "right": "а",
+            "result": "ба",
+            "transcription": "ba",
+            "audioUrl": "/uploads/audio/syllables/ba.mp3"
+          },
+          {
+            "left": "м",
+            "right": "о",
+            "result": "мо",
+            "transcription": "mo",
+            "audioUrl": "/uploads/audio/syllables/mo.mp3"
+          },
+          {
+            "left": "с",
+            "right": "ү",
+            "result": "сү",
+            "transcription": "sü",
+            "audioUrl": "/uploads/audio/syllables/su-front.mp3"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b1-u2-l1-c3",
+      "lessonId": "b1-u2-l1",
+      "type": "exercise_repeat",
+      "title": "Repeat row",
+      "order": 3,
+      "content": {
+        "section": "practice",
+        "instructionEn": "Read each item slowly then faster."
+      }
+    },
+    {
+      "id": "b1-u2-l1-c4",
+      "lessonId": "b1-u2-l1",
+      "type": "quiz_link",
+      "title": "Quiz",
+      "order": 4,
+      "content": {
+        "section": "quiz",
+        "quizId": "quiz_b1_u2_l1"
+      }
+    }
+  ],
+  "quiz": {
+    "id": "quiz_b1_u2_l1",
+    "lessonId": "b1-u2-l1",
+    "title": "Open syllables quiz",
+    "passingScore": 70
+  },
+  "quizQuestions": [
+    {
+      "id": "quiz_b1_u2_l1_q1",
+      "quizId": "quiz_b1_u2_l1",
+      "type": "multiple_choice",
+      "prompt": "б + а = ?",
+      "helper": "Build the open syllable.",
+      "options": [
+        "ба",
+        "аб",
+        "бо",
+        "бэ"
+      ],
+      "correctAnswer": "ба",
+      "explanation": "б + а = ба (ba).",
+      "xpReward": 2,
+      "order": 1
+    },
+    {
+      "id": "quiz_b1_u2_l1_q2",
+      "quizId": "quiz_b1_u2_l1",
+      "type": "multiple_choice",
+      "prompt": "Choose /mo/.",
+      "helper": "Match transcription.",
+      "options": [
+        "мо",
+        "ма",
+        "мө",
+        "ом"
+      ],
+      "correctAnswer": "мо",
+      "explanation": "мо is read as /mo/.",
+      "xpReward": 2,
+      "order": 2
+    },
+    {
+      "id": "quiz_b1_u2_l1_q3",
+      "quizId": "quiz_b1_u2_l1",
+      "type": "multiple_choice",
+      "prompt": "Which item is front-vowel syllable?",
+      "helper": "Look for ү.",
+      "options": [
+        "ба",
+        "мо",
+        "сү",
+        "бо"
+      ],
+      "correctAnswer": "сү",
+      "explanation": "сү uses the front vowel ү.",
+      "xpReward": 2,
+      "order": 3
+    }
+  ]
+}

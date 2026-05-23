@@ -1,0 +1,140 @@
+{
+  "lesson": {
+    "id": "b1-u3-l4",
+    "unitId": "b1-u3",
+    "title": "Review and quiz",
+    "subtitle": "Review letters, syllables, and short words",
+    "order": 4,
+    "xpReward": 22,
+    "quizXpReward": 8
+  },
+  "contents": [
+    {
+      "id": "b1-u3-l4-c1",
+      "lessonId": "b1-u3-l4",
+      "type": "text",
+      "title": "Explanation",
+      "order": 1,
+      "content": {
+        "section": "explanation",
+        "textEn": "Review letters, syllables, and short words",
+        "textMn": "Энгийн жишээгээр уншиж давт."
+      }
+    },
+    {
+      "id": "b1-u3-l4-c2",
+      "lessonId": "b1-u3-l4",
+      "type": "exercise_word_build",
+      "title": "Build practice",
+      "order": 2,
+      "content": {
+        "section": "syllables",
+        "instructionEn": "Combine and read.",
+        "items": [
+          {
+            "left": "б",
+            "right": "а",
+            "result": "ба",
+            "transcription": "ba",
+            "audioUrl": "/uploads/audio/syllables/ba.mp3"
+          },
+          {
+            "left": "а",
+            "right": "м",
+            "result": "ам",
+            "transcription": "am",
+            "audioUrl": "/uploads/audio/syllables/am.mp3"
+          },
+          {
+            "left": "н",
+            "right": "ом",
+            "result": "ном",
+            "transcription": "nom",
+            "audioUrl": "/uploads/audio/words/nom.mp3"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b1-u3-l4-c3",
+      "lessonId": "b1-u3-l4",
+      "type": "exercise_repeat",
+      "title": "Repeat row",
+      "order": 3,
+      "content": {
+        "section": "practice",
+        "instructionEn": "Read each item slowly then faster."
+      }
+    },
+    {
+      "id": "b1-u3-l4-c4",
+      "lessonId": "b1-u3-l4",
+      "type": "quiz_link",
+      "title": "Quiz",
+      "order": 4,
+      "content": {
+        "section": "quiz",
+        "quizId": "quiz_b1_u3_l4"
+      }
+    }
+  ],
+  "quiz": {
+    "id": "quiz_b1_u3_l4",
+    "lessonId": "b1-u3-l4",
+    "title": "Review and quiz quiz",
+    "passingScore": 70
+  },
+  "quizQuestions": [
+    {
+      "id": "quiz_b1_u3_l4_q1",
+      "quizId": "quiz_b1_u3_l4",
+      "type": "multiple_choice",
+      "prompt": "б + а = ?",
+      "helper": "Quick review.",
+      "options": [
+        "ба",
+        "аб",
+        "бо",
+        "ам"
+      ],
+      "correctAnswer": "ба",
+      "explanation": "Open syllable ба = ba.",
+      "xpReward": 2,
+      "order": 1
+    },
+    {
+      "id": "quiz_b1_u3_l4_q2",
+      "quizId": "quiz_b1_u3_l4",
+      "type": "multiple_choice",
+      "prompt": "Choose a closed syllable.",
+      "helper": "VC pattern.",
+      "options": [
+        "ба",
+        "сү",
+        "ам",
+        "би"
+      ],
+      "correctAnswer": "ам",
+      "explanation": "ам is closed VC syllable.",
+      "xpReward": 2,
+      "order": 2
+    },
+    {
+      "id": "quiz_b1_u3_l4_q3",
+      "quizId": "quiz_b1_u3_l4",
+      "type": "multiple_choice",
+      "prompt": "Which is a beginner word from Unit 3?",
+      "helper": "Word reading review.",
+      "options": [
+        "ном",
+        "хариулт",
+        "дүрэм",
+        "мэдээлэл"
+      ],
+      "correctAnswer": "ном",
+      "explanation": "ном is a Unit 3 beginner word.",
+      "xpReward": 2,
+      "order": 3
+    }
+  ]
+}
