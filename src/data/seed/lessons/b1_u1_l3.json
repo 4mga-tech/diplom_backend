@@ -28,24 +28,339 @@
       "title": "Letter table",
       "order": 2,
       "content": {
-        "section": "letters",
+        "section": "reading",
         "items": [
-          "Б",
-          "В",
-          "Г",
-          "Д",
-          "Ж",
-          "З",
-          "Л",
-          "М",
-          "Н",
-          "Р",
-          "С",
-          "Т",
-          "Х",
-          "Ц",
-          "Ч",
-          "Ш"
+          {
+            "index": 1,
+            "printUpper": "Б",
+            "printLower": "б",
+            "nameMn": "б",
+            "transcription": "",
+            "pronunciation": "",
+            "group": "letter",
+            "audioUrl": ""
+          },
+          {
+            "index": 2,
+            "printUpper": "В",
+            "printLower": "в",
+            "nameMn": "в",
+            "transcription": "",
+            "pronunciation": "",
+            "group": "letter",
+            "audioUrl": ""
+          },
+          {
+            "index": 3,
+            "printUpper": "Г",
+            "printLower": "г",
+            "nameMn": "г",
+            "transcription": "",
+            "pronunciation": "",
+            "group": "letter",
+            "audioUrl": ""
+          },
+          {
+            "index": 4,
+            "printUpper": "Д",
+            "printLower": "д",
+            "nameMn": "д",
+            "transcription": "",
+            "pronunciation": "",
+            "group": "letter",
+            "audioUrl": ""
+          },
+          {
+            "index": 5,
+            "printUpper": "Ж",
+            "printLower": "ж",
+            "nameMn": "ж",
+            "transcription": "",
+            "pronunciation": "",
+            "group": "letter",
+            "audioUrl": ""
+          },
+          {
+            "index": 6,
+            "printUpper": "З",
+            "printLower": "з",
+            "nameMn": "з",
+            "transcription": "",
+            "pronunciation": "",
+            "group": "letter",
+            "audioUrl": ""
+          },
+          {
+            "index": 7,
+            "printUpper": "Л",
+            "printLower": "л",
+            "nameMn": "л",
+            "transcription": "",
+            "pronunciation": "",
+            "group": "letter",
+            "audioUrl": ""
+          },
+          {
+            "index": 8,
+            "printUpper": "М",
+            "printLower": "м",
+            "nameMn": "м",
+            "transcription": "",
+            "pronunciation": "",
+            "group": "letter",
+            "audioUrl": ""
+          },
+          {
+            "index": 9,
+            "printUpper": "Н",
+            "printLower": "н",
+            "nameMn": "н",
+            "transcription": "",
+            "pronunciation": "",
+            "group": "letter",
+            "audioUrl": ""
+          },
+          {
+            "index": 10,
+            "printUpper": "Р",
+            "printLower": "р",
+            "nameMn": "р",
+            "transcription": "",
+            "pronunciation": "",
+            "group": "letter",
+            "audioUrl": ""
+          },
+          {
+            "index": 11,
+            "printUpper": "С",
+            "printLower": "с",
+            "nameMn": "с",
+            "transcription": "",
+            "pronunciation": "",
+            "group": "letter",
+            "audioUrl": ""
+          },
+          {
+            "index": 12,
+            "printUpper": "Т",
+            "printLower": "т",
+            "nameMn": "т",
+            "transcription": "",
+            "pronunciation": "",
+            "group": "letter",
+            "audioUrl": ""
+          },
+          {
+            "index": 13,
+            "printUpper": "Х",
+            "printLower": "х",
+            "nameMn": "х",
+            "transcription": "",
+            "pronunciation": "",
+            "group": "letter",
+            "audioUrl": ""
+          },
+          {
+            "index": 14,
+            "printUpper": "Ц",
+            "printLower": "ц",
+            "nameMn": "ц",
+            "transcription": "",
+            "pronunciation": "",
+            "group": "letter",
+            "audioUrl": ""
+          },
+          {
+            "index": 15,
+            "printUpper": "Ч",
+            "printLower": "ч",
+            "nameMn": "ч",
+            "transcription": "",
+            "pronunciation": "",
+            "group": "letter",
+            "audioUrl": ""
+          },
+          {
+            "index": 16,
+            "printUpper": "Ш",
+            "printLower": "ш",
+            "nameMn": "ш",
+            "transcription": "",
+            "pronunciation": "",
+            "group": "letter",
+            "audioUrl": ""
+          }
+        ],
+        "instructionEn": "Read each letter and listen to pronunciation.",
+        "columns": [
+          "printUpper",
+          "printLower",
+          "nameMn",
+          "transcription",
+          "pronunciation",
+          "group"
+        ],
+        "letters": [
+          {
+            "index": 1,
+            "printUpper": "Б",
+            "printLower": "б",
+            "nameMn": "б",
+            "transcription": "",
+            "pronunciation": "",
+            "group": "letter",
+            "audioUrl": ""
+          },
+          {
+            "index": 2,
+            "printUpper": "В",
+            "printLower": "в",
+            "nameMn": "в",
+            "transcription": "",
+            "pronunciation": "",
+            "group": "letter",
+            "audioUrl": ""
+          },
+          {
+            "index": 3,
+            "printUpper": "Г",
+            "printLower": "г",
+            "nameMn": "г",
+            "transcription": "",
+            "pronunciation": "",
+            "group": "letter",
+            "audioUrl": ""
+          },
+          {
+            "index": 4,
+            "printUpper": "Д",
+            "printLower": "д",
+            "nameMn": "д",
+            "transcription": "",
+            "pronunciation": "",
+            "group": "letter",
+            "audioUrl": ""
+          },
+          {
+            "index": 5,
+            "printUpper": "Ж",
+            "printLower": "ж",
+            "nameMn": "ж",
+            "transcription": "",
+            "pronunciation": "",
+            "group": "letter",
+            "audioUrl": ""
+          },
+          {
+            "index": 6,
+            "printUpper": "З",
+            "printLower": "з",
+            "nameMn": "з",
+            "transcription": "",
+            "pronunciation": "",
+            "group": "letter",
+            "audioUrl": ""
+          },
+          {
+            "index": 7,
+            "printUpper": "Л",
+            "printLower": "л",
+            "nameMn": "л",
+            "transcription": "",
+            "pronunciation": "",
+            "group": "letter",
+            "audioUrl": ""
+          },
+          {
+            "index": 8,
+            "printUpper": "М",
+            "printLower": "м",
+            "nameMn": "м",
+            "transcription": "",
+            "pronunciation": "",
+            "group": "letter",
+            "audioUrl": ""
+          },
+          {
+            "index": 9,
+            "printUpper": "Н",
+            "printLower": "н",
+            "nameMn": "н",
+            "transcription": "",
+            "pronunciation": "",
+            "group": "letter",
+            "audioUrl": ""
+          },
+          {
+            "index": 10,
+            "printUpper": "Р",
+            "printLower": "р",
+            "nameMn": "р",
+            "transcription": "",
+            "pronunciation": "",
+            "group": "letter",
+            "audioUrl": ""
+          },
+          {
+            "index": 11,
+            "printUpper": "С",
+            "printLower": "с",
+            "nameMn": "с",
+            "transcription": "",
+            "pronunciation": "",
+            "group": "letter",
+            "audioUrl": ""
+          },
+          {
+            "index": 12,
+            "printUpper": "Т",
+            "printLower": "т",
+            "nameMn": "т",
+            "transcription": "",
+            "pronunciation": "",
+            "group": "letter",
+            "audioUrl": ""
+          },
+          {
+            "index": 13,
+            "printUpper": "Х",
+            "printLower": "х",
+            "nameMn": "х",
+            "transcription": "",
+            "pronunciation": "",
+            "group": "letter",
+            "audioUrl": ""
+          },
+          {
+            "index": 14,
+            "printUpper": "Ц",
+            "printLower": "ц",
+            "nameMn": "ц",
+            "transcription": "",
+            "pronunciation": "",
+            "group": "letter",
+            "audioUrl": ""
+          },
+          {
+            "index": 15,
+            "printUpper": "Ч",
+            "printLower": "ч",
+            "nameMn": "ч",
+            "transcription": "",
+            "pronunciation": "",
+            "group": "letter",
+            "audioUrl": ""
+          },
+          {
+            "index": 16,
+            "printUpper": "Ш",
+            "printLower": "ш",
+            "nameMn": "ш",
+            "transcription": "",
+            "pronunciation": "",
+            "group": "letter",
+            "audioUrl": ""
+          }
         ]
       }
     },
@@ -60,76 +375,6 @@
         "instructionEn": "Say each letter aloud and repeat twice.",
         "instructionMn": "Үсэг бүрийг чангаар хэлж 2 удаа давт."
       }
-    },
-    {
-      "id": "b1-u1-l3-c4",
-      "lessonId": "b1-u1-l3",
-      "type": "quiz_link",
-      "title": "Quiz",
-      "order": 4,
-      "content": {
-        "section": "quiz",
-        "quizId": "quiz_b1_u1_l3"
-      }
-    }
-  ],
-  "quiz": {
-    "id": "quiz_b1_u1_l3",
-    "lessonId": "b1-u1-l3",
-    "title": "Common consonants quiz",
-    "passingScore": 70
-  },
-  "quizQuestions": [
-    {
-      "id": "quiz_b1_u1_l3_q1",
-      "quizId": "quiz_b1_u1_l3",
-      "type": "multiple_choice",
-      "prompt": "Which is a common consonant?",
-      "helper": "Pick one.",
-      "options": [
-        "М",
-        "Ө",
-        "Ю",
-        "И"
-      ],
-      "correctAnswer": "М",
-      "explanation": "М is a common consonant.",
-      "xpReward": 2,
-      "order": 1
-    },
-    {
-      "id": "quiz_b1_u1_l3_q2",
-      "quizId": "quiz_b1_u1_l3",
-      "type": "multiple_choice",
-      "prompt": "How many common consonants are introduced?",
-      "helper": "Count the list.",
-      "options": [
-        "12",
-        "14",
-        "16",
-        "18"
-      ],
-      "correctAnswer": "16",
-      "explanation": "This lesson introduces 16 common consonants.",
-      "xpReward": 2,
-      "order": 2
-    },
-    {
-      "id": "quiz_b1_u1_l3_q3",
-      "quizId": "quiz_b1_u1_l3",
-      "type": "multiple_choice",
-      "prompt": "Which pair contains only consonants?",
-      "helper": "Check both letters.",
-      "options": [
-        "Б М",
-        "А Ө",
-        "Ю Я",
-        "И Ы"
-      ],
-      "correctAnswer": "Б М",
-      "explanation": "Б and М are both consonants.",
-      "xpReward": 2,
-      "order": 3
     }
   ]
 }
