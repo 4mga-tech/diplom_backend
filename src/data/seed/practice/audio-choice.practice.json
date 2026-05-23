@@ -1,0 +1,381 @@
+[
+  {
+    "id": "practice-audio-choice",
+    "type": "audio_choice",
+    "levelId": "m1",
+    "title": "Сонсож сонгох",
+    "subtitle": "Listen and choose the correct word",
+    "description": "Listen to spoken Mongolian vocabulary and choose the correct word from similar options.",
+    "xpReward": 8,
+    "maxDailyXp": 40,
+    "dailyAttemptLimit": 10,
+    "isActive": true,
+    "order": 5,
+    "config": {
+      "roadmap": [
+        {
+          "id": "ac-stage-1",
+          "title": "Family Words",
+          "subtitle": "Basic family vocabulary",
+          "order": 1,
+          "xpReward": 8,
+          "isUnlocked": true,
+          "questionIds": [
+            "audio-choice-q1",
+            "audio-choice-q2",
+            "audio-choice-q3",
+            "audio-choice-q4",
+            "audio-choice-q5"
+          ]
+        },
+        {
+          "id": "ac-stage-2",
+          "title": "Daily Objects",
+          "subtitle": "Common everyday nouns",
+          "order": 2,
+          "xpReward": 8,
+          "isUnlocked": false,
+          "questionIds": [
+            "audio-choice-q6",
+            "audio-choice-q7",
+            "audio-choice-q8",
+            "audio-choice-q9",
+            "audio-choice-q10"
+          ]
+        },
+        {
+          "id": "ac-stage-3",
+          "title": "People & Life",
+          "subtitle": "Useful daily vocabulary",
+          "order": 3,
+          "xpReward": 9,
+          "isUnlocked": false,
+          "questionIds": [
+            "audio-choice-q11",
+            "audio-choice-q12",
+            "audio-choice-q13",
+            "audio-choice-q14",
+            "audio-choice-q15"
+          ]
+        },
+        {
+          "id": "ac-stage-4",
+          "title": "Mixed Listening",
+          "subtitle": "Review challenge",
+          "order": 4,
+          "xpReward": 9,
+          "isUnlocked": false,
+          "questionIds": [
+            "audio-choice-q16",
+            "audio-choice-q17",
+            "audio-choice-q18",
+            "audio-choice-q19",
+            "audio-choice-q20"
+          ]
+        }
+      ]
+    },
+    "questions": [
+      {
+        "id": "audio-choice-q1",
+        "prompt": "Listen carefully and choose the correct word.",
+        "audioUrl": "/uploads/audio/words/father.mp3",
+        "options": [
+          "аав",
+          "ав",
+          "аалз",
+          "алим"
+        ],
+        "correctAnswer": "аав",
+        "result": "Зөв! Энэ бол 'аав'.",
+        "meaningEn": "father",
+        "subtitle": "Tap the correct word."
+      },
+      {
+        "id": "audio-choice-q2",
+        "prompt": "Listen carefully and choose the correct word.",
+        "audioUrl": "/uploads/audio/words/mother.mp3",
+        "options": [
+          "ээж",
+          "эж",
+          "эмч",
+          "өндөг"
+        ],
+        "correctAnswer": "ээж",
+        "result": "Зөв! Энэ бол 'ээж'.",
+        "meaningEn": "mother",
+        "subtitle": "Tap the correct word."
+      },
+      {
+        "id": "audio-choice-q3",
+        "prompt": "Listen carefully and choose the correct word.",
+        "audioUrl": "/uploads/audio/words/you.mp3",
+        "options": [
+          "чи",
+          "чи?",
+          "цай",
+          "чимээ"
+        ],
+        "correctAnswer": "чи",
+        "result": "Зөв! Энэ бол 'чи'.",
+        "meaningEn": "you",
+        "subtitle": "Tap the correct word."
+      },
+      {
+        "id": "audio-choice-q4",
+        "prompt": "Listen carefully and choose the correct word.",
+        "audioUrl": "/uploads/audio/words/me.mp3",
+        "options": [
+          "би",
+          "бий",
+          "бэл",
+          "буу"
+        ],
+        "correctAnswer": "би",
+        "result": "Зөв! Энэ бол 'би'.",
+        "meaningEn": "me",
+        "subtitle": "Tap the correct word."
+      },
+      {
+        "id": "audio-choice-q5",
+        "prompt": "Listen carefully and choose the correct word.",
+        "audioUrl": "/uploads/audio/words/firiend.mp3",
+        "options": [
+          "найз",
+          "наадам",
+          "ном",
+          "нүүр"
+        ],
+        "correctAnswer": "найз",
+        "result": "Зөв! Энэ бол 'найз'.",
+        "meaningEn": "friend",
+        "subtitle": "Tap the correct word."
+      },
+      {
+        "id": "audio-choice-q6",
+        "prompt": "Listen carefully and choose the correct word.",
+        "audioUrl": "/uploads/audio/words/phone.mp3",
+        "options": [
+          "утас",
+          "ус",
+          "унаа",
+          "алим"
+        ],
+        "correctAnswer": "утас",
+        "result": "Зөв! Энэ бол 'утас'.",
+        "meaningEn": "phone",
+        "subtitle": "Tap the correct word."
+      },
+      {
+        "id": "audio-choice-q7",
+        "prompt": "Listen carefully and choose the correct word.",
+        "audioUrl": "/uploads/audio/words/paper.mp3",
+        "options": [
+          "цаас",
+          "цас",
+          "цай",
+          "сав"
+        ],
+        "correctAnswer": "цаас",
+        "result": "Зөв! Энэ бол 'цаас'.",
+        "meaningEn": "paper",
+        "subtitle": "Tap the correct word."
+      },
+      {
+        "id": "audio-choice-q8",
+        "prompt": "Listen carefully and choose the correct word.",
+        "audioUrl": "/uploads/audio/words/pen.mp3",
+        "options": [
+          "үзэг",
+          "үзэм",
+          "үсэг",
+          "үхэр"
+        ],
+        "correctAnswer": "үзэг",
+        "result": "Зөв! Энэ бол 'үзэг'.",
+        "meaningEn": "pen",
+        "subtitle": "Tap the correct word."
+      },
+      {
+        "id": "audio-choice-q9",
+        "prompt": "Listen carefully and choose the correct word.",
+        "audioUrl": "/uploads/audio/words/flour.mp3",
+        "options": [
+          "гурил",
+          "гууль",
+          "гоёл",
+          "гурван"
+        ],
+        "correctAnswer": "гурил",
+        "result": "Зөв! Энэ бол 'гурил'.",
+        "meaningEn": "flour",
+        "subtitle": "Tap the correct word."
+      },
+      {
+        "id": "audio-choice-q10",
+        "prompt": "Listen carefully and choose the correct word.",
+        "audioUrl": "/uploads/audio/words/chess.mp3",
+        "options": [
+          "шатар",
+          "шат",
+          "савар",
+          "шөл"
+        ],
+        "correctAnswer": "шатар",
+        "result": "Зөв! Энэ бол 'шатар'.",
+        "meaningEn": "chess",
+        "subtitle": "Tap the correct word."
+      },
+      {
+        "id": "audio-choice-q11",
+        "prompt": "Listen carefully and choose the correct word.",
+        "audioUrl": "/uploads/audio/words/money.mp3",
+        "options": [
+          "мөнгө",
+          "морь",
+          "манго",
+          "монгол"
+        ],
+        "correctAnswer": "мөнгө",
+        "result": "Зөв! Энэ бол 'мөнгө'.",
+        "meaningEn": "money",
+        "subtitle": "Tap the correct word."
+      },
+      {
+        "id": "audio-choice-q12",
+        "prompt": "Listen carefully and choose the correct word.",
+        "audioUrl": "/uploads/audio/words/love.mp3",
+        "options": [
+          "хайр",
+          "халуун",
+          "хаяг",
+          "хоол"
+        ],
+        "correctAnswer": "хайр",
+        "result": "Зөв! Энэ бол 'хайр'.",
+        "meaningEn": "love",
+        "subtitle": "Tap the correct word."
+      },
+      {
+        "id": "audio-choice-q13",
+        "prompt": "Listen carefully and choose the correct word.",
+        "audioUrl": "/uploads/audio/words/mongolia.mp3",
+        "options": [
+          "монгол",
+          "мөнгө",
+          "монхор",
+          "мод"
+        ],
+        "correctAnswer": "монгол",
+        "result": "Зөв! Энэ бол 'монгол'.",
+        "meaningEn": "Mongolia",
+        "subtitle": "Tap the correct word."
+      },
+      {
+        "id": "audio-choice-q14",
+        "prompt": "Listen carefully and choose the correct word.",
+        "audioUrl": "/uploads/audio/words/neck.mp3",
+        "options": [
+          "хүзүү",
+          "хулуу",
+          "хөл",
+          "нүүр"
+        ],
+        "correctAnswer": "хүзүү",
+        "result": "Зөв! Энэ бол 'хүзүү'.",
+        "meaningEn": "neck",
+        "subtitle": "Tap the correct word."
+      },
+      {
+        "id": "audio-choice-q15",
+        "prompt": "Listen carefully and choose the correct word.",
+        "audioUrl": "/uploads/audio/words/you.mp3",
+        "options": [
+          "чи",
+          "чинь",
+          "цэцэг",
+          "цонх"
+        ],
+        "correctAnswer": "чи",
+        "result": "Зөв! Энэ бол 'чи'.",
+        "meaningEn": "you",
+        "subtitle": "Tap the correct word."
+      },
+      {
+        "id": "audio-choice-q16",
+        "prompt": "Listen carefully and choose the correct word.",
+        "audioUrl": "/uploads/audio/words/father.mp3",
+        "options": [
+          "аав",
+          "ааг",
+          "ав",
+          "ааш"
+        ],
+        "correctAnswer": "аав",
+        "result": "Зөв! Энэ бол 'аав'.",
+        "meaningEn": "father",
+        "subtitle": "Tap the correct word."
+      },
+      {
+        "id": "audio-choice-q17",
+        "prompt": "Listen carefully and choose the correct word.",
+        "audioUrl": "/uploads/audio/words/phone.mp3",
+        "options": [
+          "утас",
+          "утаа",
+          "унаа",
+          "утаг"
+        ],
+        "correctAnswer": "утас",
+        "result": "Зөв! Энэ бол 'утас'.",
+        "meaningEn": "phone",
+        "subtitle": "Tap the correct word."
+      },
+      {
+        "id": "audio-choice-q18",
+        "prompt": "Listen carefully and choose the correct word.",
+        "audioUrl": "/uploads/audio/words/paper.mp3",
+        "options": [
+          "цаас",
+          "цагаан",
+          "цас",
+          "цавуу"
+        ],
+        "correctAnswer": "цаас",
+        "result": "Зөв! Энэ бол 'цаас'.",
+        "meaningEn": "paper",
+        "subtitle": "Tap the correct word."
+      },
+      {
+        "id": "audio-choice-q19",
+        "prompt": "Listen carefully and choose the correct word.",
+        "audioUrl": "/uploads/audio/words/firiend.mp3",
+        "options": [
+          "найз",
+          "наймаа",
+          "наадам",
+          "найлз"
+        ],
+        "correctAnswer": "найз",
+        "result": "Зөв! Энэ бол 'найз'.",
+        "meaningEn": "friend",
+        "subtitle": "Tap the correct word."
+      },
+      {
+        "id": "audio-choice-q20",
+        "prompt": "Listen carefully and choose the correct word.",
+        "audioUrl": "/uploads/audio/words/money.mp3",
+        "options": [
+          "мөнгө",
+          "монгол",
+          "мод",
+          "мөнх"
+        ],
+        "correctAnswer": "мөнгө",
+        "result": "Зөв! Энэ бол 'мөнгө'.",
+        "meaningEn": "money",
+        "subtitle": "Tap the correct word."
+      }
+    ]
+  }
+]

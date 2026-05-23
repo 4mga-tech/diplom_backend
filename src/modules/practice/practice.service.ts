@@ -213,7 +213,13 @@ export const submitPracticeAttempt = async (
 
   if (Array.isArray(payload.answers) && payload.answers.length > 0) {
     const answerMap = new Map(payload.answers.map((answer) => [String(answer.questionId), answer.selected]));
-    const shouldEvaluateByAnswer = new Set(["image_choice", "sentence_order", "dialogue_fill", "missing_word"]);
+    const shouldEvaluateByAnswer = new Set([
+      "image_choice",
+      "sentence_order",
+      "dialogue_fill",
+      "missing_word",
+      "audio_choice",
+    ]);
 
     if (shouldEvaluateByAnswer.has(practice.type)) {
       evaluatedTotalCount = practice.questions.length;
