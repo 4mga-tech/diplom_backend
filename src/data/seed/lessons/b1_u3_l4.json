@@ -70,24 +70,24 @@
       "id": "b1-u3-l4-c4",
       "lessonId": "b1-u3-l4",
       "type": "quiz_link",
-      "title": "Quiz",
+      "title": "Unit final quiz",
       "order": 4,
       "content": {
         "section": "quiz",
-        "quizId": "quiz_b1_u3_l4"
+        "quizId": "quiz_b1_u3_final"
       }
     }
   ],
   "quiz": {
-    "id": "quiz_b1_u3_l4",
+    "id": "quiz_b1_u3_final",
     "lessonId": "b1-u3-l4",
-    "title": "Review and quiz quiz",
+    "title": "B1-U3 final quiz",
     "passingScore": 70
   },
   "quizQuestions": [
     {
-      "id": "quiz_b1_u3_l4_q1",
-      "quizId": "quiz_b1_u3_l4",
+      "id": "quiz_b1_u3_final_q1",
+      "quizId": "quiz_b1_u3_final",
       "type": "multiple_choice",
       "prompt": "б + а = ?",
       "helper": "Quick review.",
@@ -103,8 +103,8 @@
       "order": 1
     },
     {
-      "id": "quiz_b1_u3_l4_q2",
-      "quizId": "quiz_b1_u3_l4",
+      "id": "quiz_b1_u3_final_q2",
+      "quizId": "quiz_b1_u3_final",
       "type": "multiple_choice",
       "prompt": "Choose a closed syllable.",
       "helper": "VC pattern.",
@@ -120,8 +120,8 @@
       "order": 2
     },
     {
-      "id": "quiz_b1_u3_l4_q3",
-      "quizId": "quiz_b1_u3_l4",
+      "id": "quiz_b1_u3_final_q3",
+      "quizId": "quiz_b1_u3_final",
       "type": "multiple_choice",
       "prompt": "Which is a beginner word from Unit 3?",
       "helper": "Word reading review.",

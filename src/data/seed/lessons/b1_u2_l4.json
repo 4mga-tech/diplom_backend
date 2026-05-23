@@ -70,24 +70,24 @@
       "id": "b1-u2-l4-c4",
       "lessonId": "b1-u2-l4",
       "type": "quiz_link",
-      "title": "Quiz",
+      "title": "Unit final quiz",
       "order": 4,
       "content": {
         "section": "quiz",
-        "quizId": "quiz_b1_u2_l4"
+        "quizId": "quiz_b1_u2_final"
       }
     }
   ],
   "quiz": {
-    "id": "quiz_b1_u2_l4",
+    "id": "quiz_b1_u2_final",
     "lessonId": "b1-u2-l4",
-    "title": "Read simple syllable rows quiz",
+    "title": "B1-U2 final quiz",
     "passingScore": 70
   },
   "quizQuestions": [
     {
-      "id": "quiz_b1_u2_l4_q1",
-      "quizId": "quiz_b1_u2_l4",
+      "id": "quiz_b1_u2_final_q1",
+      "quizId": "quiz_b1_u2_final",
       "type": "multiple_choice",
       "prompt": "Pick a row syllable.",
       "helper": "From reading rows.",
@@ -103,8 +103,8 @@
       "order": 1
     },
     {
-      "id": "quiz_b1_u2_l4_q2",
-      "quizId": "quiz_b1_u2_l4",
+      "id": "quiz_b1_u2_final_q2",
+      "quizId": "quiz_b1_u2_final",
       "type": "multiple_choice",
       "prompt": "How is 'ба' transcribed?",
       "helper": "Latin transcription.",
@@ -120,8 +120,8 @@
       "order": 2
     },
     {
-      "id": "quiz_b1_u2_l4_q3",
-      "quizId": "quiz_b1_u2_l4",
+      "id": "quiz_b1_u2_final_q3",
+      "quizId": "quiz_b1_u2_final",
       "type": "multiple_choice",
       "prompt": "Which row is front-vowel style?",
       "helper": "Look for ө vowels.",

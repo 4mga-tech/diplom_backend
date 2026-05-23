@@ -28,14 +28,139 @@
       "title": "Letter table",
       "order": 2,
       "content": {
-        "section": "letters",
+        "section": "reading",
         "items": [
-          "Е",
-          "Ё",
-          "Й",
-          "Ы",
-          "Ю",
-          "Я"
+          {
+            "index": 1,
+            "printUpper": "Е",
+            "printLower": "е",
+            "nameMn": "е",
+            "transcription": "",
+            "pronunciation": "",
+            "group": "letter",
+            "audioUrl": ""
+          },
+          {
+            "index": 2,
+            "printUpper": "Ё",
+            "printLower": "ё",
+            "nameMn": "ё",
+            "transcription": "",
+            "pronunciation": "",
+            "group": "letter",
+            "audioUrl": ""
+          },
+          {
+            "index": 3,
+            "printUpper": "Й",
+            "printLower": "й",
+            "nameMn": "й",
+            "transcription": "",
+            "pronunciation": "",
+            "group": "letter",
+            "audioUrl": ""
+          },
+          {
+            "index": 4,
+            "printUpper": "Ы",
+            "printLower": "ы",
+            "nameMn": "ы",
+            "transcription": "",
+            "pronunciation": "",
+            "group": "letter",
+            "audioUrl": ""
+          },
+          {
+            "index": 5,
+            "printUpper": "Ю",
+            "printLower": "ю",
+            "nameMn": "ю",
+            "transcription": "",
+            "pronunciation": "",
+            "group": "letter",
+            "audioUrl": ""
+          },
+          {
+            "index": 6,
+            "printUpper": "Я",
+            "printLower": "я",
+            "nameMn": "я",
+            "transcription": "",
+            "pronunciation": "",
+            "group": "letter",
+            "audioUrl": ""
+          }
+        ],
+        "instructionEn": "Read each letter and listen to pronunciation.",
+        "columns": [
+          "printUpper",
+          "printLower",
+          "nameMn",
+          "transcription",
+          "pronunciation",
+          "group"
+        ],
+        "letters": [
+          {
+            "index": 1,
+            "printUpper": "Е",
+            "printLower": "е",
+            "nameMn": "е",
+            "transcription": "",
+            "pronunciation": "",
+            "group": "letter",
+            "audioUrl": ""
+          },
+          {
+            "index": 2,
+            "printUpper": "Ё",
+            "printLower": "ё",
+            "nameMn": "ё",
+            "transcription": "",
+            "pronunciation": "",
+            "group": "letter",
+            "audioUrl": ""
+          },
+          {
+            "index": 3,
+            "printUpper": "Й",
+            "printLower": "й",
+            "nameMn": "й",
+            "transcription": "",
+            "pronunciation": "",
+            "group": "letter",
+            "audioUrl": ""
+          },
+          {
+            "index": 4,
+            "printUpper": "Ы",
+            "printLower": "ы",
+            "nameMn": "ы",
+            "transcription": "",
+            "pronunciation": "",
+            "group": "letter",
+            "audioUrl": ""
+          },
+          {
+            "index": 5,
+            "printUpper": "Ю",
+            "printLower": "ю",
+            "nameMn": "ю",
+            "transcription": "",
+            "pronunciation": "",
+            "group": "letter",
+            "audioUrl": ""
+          },
+          {
+            "index": 6,
+            "printUpper": "Я",
+            "printLower": "я",
+            "nameMn": "я",
+            "transcription": "",
+            "pronunciation": "",
+            "group": "letter",
+            "audioUrl": ""
+          }
         ]
       }
     },
@@ -50,76 +175,6 @@
         "instructionEn": "Say each letter aloud and repeat twice.",
         "instructionMn": "Үсэг бүрийг чангаар хэлж 2 удаа давт."
       }
-    },
-    {
-      "id": "b1-u1-l2-c4",
-      "lessonId": "b1-u1-l2",
-      "type": "quiz_link",
-      "title": "Quiz",
-      "order": 4,
-      "content": {
-        "section": "quiz",
-        "quizId": "quiz_b1_u1_l2"
-      }
-    }
-  ],
-  "quiz": {
-    "id": "quiz_b1_u1_l2",
-    "lessonId": "b1-u1-l2",
-    "title": "Supporting vowels quiz",
-    "passingScore": 70
-  },
-  "quizQuestions": [
-    {
-      "id": "quiz_b1_u1_l2_q1",
-      "quizId": "quiz_b1_u1_l2",
-      "type": "multiple_choice",
-      "prompt": "Which is a supporting vowel letter?",
-      "helper": "Pick from Unit 1-2.",
-      "options": [
-        "Ю",
-        "М",
-        "Т",
-        "Х"
-      ],
-      "correctAnswer": "Ю",
-      "explanation": "Ю is a supporting vowel letter.",
-      "xpReward": 2,
-      "order": 1
-    },
-    {
-      "id": "quiz_b1_u1_l2_q2",
-      "quizId": "quiz_b1_u1_l2",
-      "type": "multiple_choice",
-      "prompt": "Choose the correct set.",
-      "helper": "All should be supporting vowel letters.",
-      "options": [
-        "Е Ё Й Ы Ю Я",
-        "А Э И О У Ө Ү",
-        "Б В Г Д",
-        "К П Ф Щ"
-      ],
-      "correctAnswer": "Е Ё Й Ы Ю Я",
-      "explanation": "This lesson teaches Е Ё Й Ы Ю Я.",
-      "xpReward": 2,
-      "order": 2
-    },
-    {
-      "id": "quiz_b1_u1_l2_q3",
-      "quizId": "quiz_b1_u1_l2",
-      "type": "multiple_choice",
-      "prompt": "Which letter is NOT in this lesson?",
-      "helper": "Find the outsider.",
-      "options": [
-        "Ё",
-        "Ы",
-        "Я",
-        "Ө"
-      ],
-      "correctAnswer": "Ө",
-      "explanation": "Ө is a basic vowel from lesson 1.",
-      "xpReward": 2,
-      "order": 3
     }
   ]
 }
