@@ -1,0 +1,139 @@
+{
+  "lesson": {
+    "id": "b1-u2-l4",
+    "unitId": "b1-u2",
+    "title": "Read simple syllable rows",
+    "subtitle": "ба ва га ... / би ви ги ... / бө вө гө ...",
+    "order": 4,
+    "xpReward": 22,
+    "quizXpReward": 8
+  },
+  "contents": [
+    {
+      "id": "b1-u2-l4-c1",
+      "lessonId": "b1-u2-l4",
+      "type": "text",
+      "title": "Explanation",
+      "order": 1,
+      "content": {
+        "section": "explanation",
+        "textEn": "ба ва га ... / би ви ги ... / бө вө гө ...",
+        "textMn": "Энгийн жишээгээр уншиж давт."
+      }
+    },
+    {
+      "id": "b1-u2-l4-c2",
+      "lessonId": "b1-u2-l4",
+      "type": "exercise_word_build",
+      "title": "Build practice",
+      "order": 2,
+      "content": {
+        "section": "syllables",
+        "instructionEn": "Combine and read.",
+        "items": [
+          {
+            "left": "б",
+            "right": "а",
+            "result": "ба",
+            "transcription": "ba",
+            "audioUrl": "/uploads/audio/syllables/ba.mp3"
+          },
+          {
+            "left": "б",
+            "right": "и",
+            "result": "би",
+            "transcription": "bi",
+            "audioUrl": "/uploads/audio/syllables/bi.mp3"
+          },
+          {
+            "left": "б",
+            "right": "ө",
+            "result": "бө",
+            "transcription": "bö",
+            "audioUrl": "/uploads/audio/syllables/bo-front.mp3"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b1-u2-l4-c3",
+      "lessonId": "b1-u2-l4",
+      "type": "exercise_repeat",
+      "title": "Repeat row",
+      "order": 3,
+      "content": {
+        "section": "practice",
+        "instructionEn": "Read each item slowly then faster."
+      }
+    },
+    {
+      "id": "b1-u2-l4-c4",
+      "lessonId": "b1-u2-l4",
+      "type": "quiz_link",
+      "title": "Quiz",
+      "order": 4,
+      "content": {
+        "section": "quiz",
+        "quizId": "quiz_b1_u2_l4"
+      }
+    }
+  ],
+  "quiz": {
+    "id": "quiz_b1_u2_l4",
+    "lessonId": "b1-u2-l4",
+    "title": "Read simple syllable rows quiz",
+    "passingScore": 70
+  },
+  "quizQuestions": [
+    {
+      "id": "quiz_b1_u2_l4_q1",
+      "quizId": "quiz_b1_u2_l4",
+      "type": "multiple_choice",
+      "prompt": "Pick a row syllable.",
+      "helper": "From reading rows.",
+      "options": [
+        "би",
+        "ам",
+        "эр",
+        "нь"
+      ],
+      "correctAnswer": "би",
+      "explanation": "би is in the sample rows.",
+      "xpReward": 2,
+      "order": 1
+    },
+    {
+      "id": "quiz_b1_u2_l4_q2",
+      "quizId": "quiz_b1_u2_l4",
+      "type": "multiple_choice",
+      "prompt": "How is 'ба' transcribed?",
+      "helper": "Latin transcription.",
+      "options": [
+        "bo",
+        "ba",
+        "be",
+        "bu"
+      ],
+      "correctAnswer": "ba",
+      "explanation": "ба = ba.",
+      "xpReward": 2,
+      "order": 2
+    },
+    {
+      "id": "quiz_b1_u2_l4_q3",
+      "quizId": "quiz_b1_u2_l4",
+      "type": "multiple_choice",
+      "prompt": "Which row is front-vowel style?",
+      "helper": "Look for ө vowels.",
+      "options": [
+        "ба ва га",
+        "би ви ги",
+        "бө вө гө"
+      ],
+      "correctAnswer": "бө вө гө",
+      "explanation": "This row uses ө front vowel.",
+      "xpReward": 2,
+      "order": 3
+    }
+  ]
+}

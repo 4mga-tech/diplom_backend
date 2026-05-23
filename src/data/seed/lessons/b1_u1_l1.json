@@ -2,85 +2,125 @@
   "lesson": {
     "id": "b1-u1-l1",
     "unitId": "b1-u1",
-    "title": "Mongolian Cyrillic",
-    "subtitle": "35 letters: vowels, consonants, signs",
+    "title": "Basic vowels",
+    "subtitle": "А, Э, И, О, У, Ө, Ү",
     "order": 1,
     "xpReward": 20,
-    "quizXpReward": 0
+    "quizXpReward": 8
   },
   "contents": [
     {
       "id": "b1-u1-l1-c1",
       "lessonId": "b1-u1-l1",
-      "type": "hero_intro",
-      "title": "What is Mongolian Cyrillic?",
+      "type": "text",
+      "title": "Explanation",
       "order": 1,
       "content": {
-        "textEn": "Mongolian Cyrillic has 35 letters.",
-        "textMn": "Монгол кирилл цагаан толгой 35 үсэгтэй.",
-        "stats": [
-          { "label": "Vowels", "value": 13 },
-          { "label": "Consonants", "value": 20 },
-          { "label": "Signs", "value": 2 }
-        ]
+        "section": "explanation",
+        "textEn": "Learn А, Э, И, О, У, Ө, Ү with simple recognition practice.",
+        "textMn": "А, Э, И, О, У, Ө, Ү үсгүүдийг таньж, зөв дуудлагаар давтана."
       }
     },
     {
       "id": "b1-u1-l1-c2",
       "lessonId": "b1-u1-l1",
-      "type": "alphabet_preview",
-      "title": "Alphabet preview",
+      "type": "table_letters",
+      "title": "Letter table",
       "order": 2,
       "content": {
-        "letters": [
-          "А","Б","В","Г","Д","Е","Ё",
-          "Ж","З","И","Й","К","Л","М",
-          "Н","О","Ө","П","Р","С","Т",
-          "У","Ү","Ф","Х","Ц","Ч","Ш",
-          "Щ","Ъ","Ы","Ь","Э","Ю","Я"
+        "section": "letters",
+        "items": [
+          "А",
+          "Э",
+          "И",
+          "О",
+          "У",
+          "Ө",
+          "Ү"
         ]
       }
     },
     {
       "id": "b1-u1-l1-c3",
       "lessonId": "b1-u1-l1",
-      "type": "classification",
-      "title": "Letter groups",
+      "type": "exercise_repeat",
+      "title": "Repeat and read",
       "order": 3,
       "content": {
-        "groups": [
-          {
-            "title": "Vowels",
-            "count": 13,
-            "items": ["А", "Э", "И", "О", "У", "Ө", "Ү"]
-          },
-          {
-            "title": "Consonants",
-            "count": 20,
-            "items": ["Б", "В", "Г", "Д", "Ж"]
-          },
-          {
-            "title": "Signs",
-            "count": 2,
-            "items": ["Ъ", "Ь"]
-          }
-        ]
+        "section": "practice",
+        "instructionEn": "Say each letter aloud and repeat twice.",
+        "instructionMn": "Үсэг бүрийг чангаар хэлж 2 удаа давт."
       }
     },
     {
       "id": "b1-u1-l1-c4",
       "lessonId": "b1-u1-l1",
-      "type": "next_steps",
-      "title": "In this unit",
+      "type": "quiz_link",
+      "title": "Quiz",
       "order": 4,
       "content": {
-        "steps": [
-          "Learn letter groups",
-          "Trace the letters",
-          "Listen and repeat",
-          "Build simple syllables and words"
-        ]
+        "section": "quiz",
+        "quizId": "quiz_b1_u1_l1"
       }
+    }
+  ],
+  "quiz": {
+    "id": "quiz_b1_u1_l1",
+    "lessonId": "b1-u1-l1",
+    "title": "Basic vowels quiz",
+    "passingScore": 70
+  },
+  "quizQuestions": [
+    {
+      "id": "quiz_b1_u1_l1_q1",
+      "quizId": "quiz_b1_u1_l1",
+      "type": "multiple_choice",
+      "prompt": "Which is a basic vowel?",
+      "helper": "Choose one basic vowel.",
+      "options": [
+        "Б",
+        "Ө",
+        "Р",
+        "Щ"
+      ],
+      "correctAnswer": "Ө",
+      "explanation": "Ө is a basic vowel.",
+      "xpReward": 2,
+      "order": 1
+    },
+    {
+      "id": "quiz_b1_u1_l1_q2",
+      "quizId": "quiz_b1_u1_l1",
+      "type": "multiple_choice",
+      "prompt": "How many basic vowels in this lesson?",
+      "helper": "Count them.",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "correctAnswer": "7",
+      "explanation": "There are 7 basic vowels.",
+      "xpReward": 2,
+      "order": 2
+    },
+    {
+      "id": "quiz_b1_u1_l1_q3",
+      "quizId": "quiz_b1_u1_l1",
+      "type": "multiple_choice",
+      "prompt": "Choose a front vowel.",
+      "helper": "From the basic set.",
+      "options": [
+        "О",
+        "У",
+        "Э",
+        "А"
+      ],
+      "correctAnswer": "Э",
+      "explanation": "Э is a front vowel.",
+      "xpReward": 2,
+      "order": 3
     }
   ]
 }

@@ -2,10 +2,26 @@
   {
     "id": "b1-u1",
     "courseId": "b1",
-    "title": "Unit 1: Mongolian Cyrillic",
-    "subtitle": "Introduction, classification, writing, reading, final exam",
-    "description": "Learn the Mongolian Cyrillic alphabet through letter recognition, classification, tracing, pronunciation drills, and simple word building.",
+    "title": "Үндсэн үсэг",
+    "subtitle": "Basic Cyrillic letters",
+    "description": "Learn Mongolian Cyrillic letter groups in a beginner-friendly order.",
     "order": 1
+  },
+  {
+    "id": "b1-u2",
+    "courseId": "b1",
+    "title": "Үе бүтээх",
+    "subtitle": "Build syllables from letters",
+    "description": "Combine consonants and vowels to read open and closed syllables.",
+    "order": 2
+  },
+  {
+    "id": "b1-u3",
+    "courseId": "b1",
+    "title": "Богино үг унших",
+    "subtitle": "Read simple beginner words",
+    "description": "Use known syllables to read short high-frequency beginner words.",
+    "order": 3
   },
   {
     "id": "m1-u1",
