@@ -51,7 +51,34 @@ const validateAttemptPayload = (payload: PracticeAttemptPayload) => {
   }
 };
 
-const normalizeAnswer = (value: unknown) => String(value ?? "").trim().toLowerCase();
+const normalizeAnswer = (value: unknown) => String(value ?? "").trim().toLowerCase().replace(/\s+/g, " ");
+
+const getOptionTextById = (optionId: unknown, options: unknown): string | undefined => {
+  if (!Array.isArray(options)) {
+    return undefined;
+  }
+
+  const normalizedOptionId = normalizeAnswer(optionId);
+  const matchedOption = options.find((option) => {
+    const optionRecord = option as { id?: unknown };
+    return normalizeAnswer(optionRecord?.id) === normalizedOptionId;
+  }) as { label?: unknown; text?: unknown } | undefined;
+
+  if (!matchedOption) {
+    return undefined;
+  }
+
+  return String(matchedOption.text ?? matchedOption.label ?? "").trim();
+};
+
+const resolveSubmittedAnswer = (practiceType: string, submittedAnswer: unknown, options: unknown) => {
+  if (practiceType === "image_choice") {
+    return submittedAnswer;
+  }
+
+  const resolvedText = getOptionTextById(submittedAnswer, options);
+  return resolvedText ?? submittedAnswer;
+};
 
 const buildRoadmapWithUnlockStatus = (
   roadmap: PracticeRoadmapStage[],
@@ -226,18 +253,20 @@ export const submitPracticeAttempt = async (
       evaluatedCorrectCount = practice.questions.reduce((count, question) => {
         const submittedAnswer = answerMap.get(question.id);
         const correctAnswer = question.correctAnswer;
+        const resolvedAnswer = resolveSubmittedAnswer(practice.type, submittedAnswer, question.options);
 
         console.log({
           type: (question as { type?: string }).type ?? practice.type,
           submittedAnswer,
+          resolvedAnswer,
           correctAnswer: question.correctAnswer,
         });
 
         if (practice.type === "image_choice") {
-          return count + (String(submittedAnswer ?? "").trim() === String(correctAnswer ?? "").trim() ? 1 : 0);
+          return count + (normalizeAnswer(submittedAnswer) === normalizeAnswer(correctAnswer) ? 1 : 0);
         }
 
-        return count + (normalizeAnswer(submittedAnswer) === normalizeAnswer(correctAnswer) ? 1 : 0);
+        return count + (normalizeAnswer(resolvedAnswer) === normalizeAnswer(correctAnswer) ? 1 : 0);
       }, 0);
 
       evaluatedScore =
