@@ -35,70 +35,70 @@
             "printUpper": "А",
             "printLower": "а",
             "nameMn": "а",
-            "transcription": "",
+            "transcription": "a",
             "pronunciation": "",
             "group": "letter",
-            "audioUrl": ""
+            "audioUrl": "/uploads/audio/letters/a.mp3"
           },
           {
             "index": 2,
             "printUpper": "Э",
             "printLower": "э",
             "nameMn": "э",
-            "transcription": "",
+            "transcription": "e",
             "pronunciation": "",
             "group": "letter",
-            "audioUrl": ""
+            "audioUrl": "/uploads/audio/letters/e.mp3"
           },
           {
             "index": 3,
             "printUpper": "И",
             "printLower": "и",
             "nameMn": "и",
-            "transcription": "",
+            "transcription": "i",
             "pronunciation": "",
             "group": "letter",
-            "audioUrl": ""
+            "audioUrl": "/uploads/audio/letters/i.mp3"
           },
           {
             "index": 4,
             "printUpper": "О",
             "printLower": "о",
             "nameMn": "о",
-            "transcription": "",
+            "transcription": "o",
             "pronunciation": "",
             "group": "letter",
-            "audioUrl": ""
+            "audioUrl": "/uploads/audio/letters/o.mp3"
           },
           {
             "index": 5,
             "printUpper": "У",
             "printLower": "у",
             "nameMn": "у",
-            "transcription": "",
+            "transcription": "u",
             "pronunciation": "",
             "group": "letter",
-            "audioUrl": ""
+            "audioUrl": "/uploads/audio/letters/u.mp3"
           },
           {
             "index": 6,
             "printUpper": "Ө",
             "printLower": "ө",
             "nameMn": "ө",
-            "transcription": "",
+            "transcription": "ö",
             "pronunciation": "",
             "group": "letter",
-            "audioUrl": ""
+            "audioUrl": "/uploads/audio/letters/ou.mp3"
           },
           {
             "index": 7,
             "printUpper": "Ү",
             "printLower": "ү",
             "nameMn": "ү",
-            "transcription": "",
+            "transcription": "ü",
             "pronunciation": "",
             "group": "letter",
-            "audioUrl": ""
+            "audioUrl": "/uploads/audio/letters/u_umlaut.mp3"
           }
         ],
         "instructionEn": "Read each letter and listen to pronunciation.",
@@ -116,70 +116,70 @@
             "printUpper": "А",
             "printLower": "а",
             "nameMn": "а",
-            "transcription": "",
+            "transcription": "a",
             "pronunciation": "",
             "group": "letter",
-            "audioUrl": ""
+            "audioUrl": "/uploads/audio/letters/a.mp3"
           },
           {
             "index": 2,
             "printUpper": "Э",
             "printLower": "э",
             "nameMn": "э",
-            "transcription": "",
+            "transcription": "e",
             "pronunciation": "",
             "group": "letter",
-            "audioUrl": ""
+            "audioUrl": "/uploads/audio/letters/e.mp3"
           },
           {
             "index": 3,
             "printUpper": "И",
             "printLower": "и",
             "nameMn": "и",
-            "transcription": "",
+            "transcription": "i",
             "pronunciation": "",
             "group": "letter",
-            "audioUrl": ""
+            "audioUrl": "/uploads/audio/letters/i.mp3"
           },
           {
             "index": 4,
             "printUpper": "О",
             "printLower": "о",
             "nameMn": "о",
-            "transcription": "",
+            "transcription": "o",
             "pronunciation": "",
             "group": "letter",
-            "audioUrl": ""
+            "audioUrl": "/uploads/audio/letters/o.mp3"
           },
           {
             "index": 5,
             "printUpper": "У",
             "printLower": "у",
             "nameMn": "у",
-            "transcription": "",
+            "transcription": "u",
             "pronunciation": "",
             "group": "letter",
-            "audioUrl": ""
+            "audioUrl": "/uploads/audio/letters/u.mp3"
           },
           {
             "index": 6,
             "printUpper": "Ө",
             "printLower": "ө",
             "nameMn": "ө",
-            "transcription": "",
+            "transcription": "ö",
             "pronunciation": "",
             "group": "letter",
-            "audioUrl": ""
+            "audioUrl": "/uploads/audio/letters/ou.mp3"
           },
           {
             "index": 7,
             "printUpper": "Ү",
             "printLower": "ү",
             "nameMn": "ү",
-            "transcription": "",
+            "transcription": "ü",
             "pronunciation": "",
             "group": "letter",
-            "audioUrl": ""
+            "audioUrl": "/uploads/audio/letters/u_umlaut.mp3"
           }
         ]
       }
