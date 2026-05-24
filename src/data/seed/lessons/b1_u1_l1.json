@@ -96,9 +96,9 @@
             "printLower": "ү",
             "nameMn": "ү",
             "transcription": "ü",
-            "pronunciation": "",
+            "pronunciation": "[ü]",
             "group": "letter",
-            "audioUrl": "/uploads/audio/letters/u_umlaut.mp3"
+            "audioUrl": ""
           }
         ],
         "instructionEn": "Read each letter and listen to pronunciation.",
@@ -177,9 +177,9 @@
             "printLower": "ү",
             "nameMn": "ү",
             "transcription": "ü",
-            "pronunciation": "",
+            "pronunciation": "[ü]",
             "group": "letter",
-            "audioUrl": "/uploads/audio/letters/u_umlaut.mp3"
+            "audioUrl": ""
           }
         ]
       }

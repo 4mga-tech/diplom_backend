@@ -54,11 +54,11 @@
             "index": 3,
             "printUpper": "Й",
             "printLower": "й",
-            "nameMn": "й",
+            "nameMn": "хагас и",
             "transcription": "y",
-            "pronunciation": "",
+            "pronunciation": "[j]",
             "group": "letter",
-            "audioUrl": "/uploads/audio/letters/y.mp3"
+            "audioUrl": "/uploads/audio/letters/hagas_i.mp3"
           },
           {
             "index": 4,
@@ -66,9 +66,9 @@
             "printLower": "ы",
             "nameMn": "ы",
             "transcription": "ii",
-            "pronunciation": "",
+            "pronunciation": "[iː]",
             "group": "letter",
-            "audioUrl": "/uploads/audio/letters/hagas_i.mp3"
+            "audioUrl": "/uploads/audio/letters/er_i.mp3"
           },
           {
             "index": 5,
@@ -125,11 +125,11 @@
             "index": 3,
             "printUpper": "Й",
             "printLower": "й",
-            "nameMn": "й",
+            "nameMn": "хагас и",
             "transcription": "y",
-            "pronunciation": "",
+            "pronunciation": "[j]",
             "group": "letter",
-            "audioUrl": "/uploads/audio/letters/y.mp3"
+            "audioUrl": "/uploads/audio/letters/hagas_i.mp3"
           },
           {
             "index": 4,
@@ -137,9 +137,9 @@
             "printLower": "ы",
             "nameMn": "ы",
             "transcription": "ii",
-            "pronunciation": "",
+            "pronunciation": "[iː]",
             "group": "letter",
-            "audioUrl": "/uploads/audio/letters/hagas_i.mp3"
+            "audioUrl": "/uploads/audio/letters/er_i.mp3"
           },
           {
             "index": 5,
