@@ -2,75 +2,42 @@
   "lesson": {
     "id": "b1-u1-l4",
     "unitId": "b1-u1",
-    "title": "Practice Building Words",
-    "subtitle": "Fill letters and build simple words",
+    "title": "Unit review and quiz",
+    "subtitle": "Давтлага ба шалгалт",
     "order": 4,
     "xpReward": 25,
-    "quizXpReward": 0
+    "quizXpReward": 12
   },
   "contents": [
     {
       "id": "b1-u1-l4-c1",
       "lessonId": "b1-u1-l4",
-      "type": "hero_intro",
-      "title": "Practice time",
+      "type": "grammar_note",
+      "title": "Review",
       "order": 1,
       "content": {
-        "textEn": "Use the letters and syllables you learned to complete simple words.",
-        "textMn": "Сурсан үсэг, үеэ ашиглан энгийн үг бүтээнэ.",
-        "stats": [
-          {
-            "label": "Fill",
-            "value": 5
-          },
-          {
-            "label": "Words",
-            "value": 5
-          }
-        ]
+        "textMn": "Үндсэн ба туслах эгшиг, эхний гийгүүлэгчээ давт.",
+        "textEn": "Review vowels and first consonants."
       }
     },
     {
       "id": "b1-u1-l4-c2",
       "lessonId": "b1-u1-l4",
-      "type": "exercise_fill",
-      "title": "Fill the missing letter",
+      "type": "exercise_word_build",
+      "title": "Quick build",
       "order": 2,
       "content": {
-        "instructionEn": "Choose the missing letter.",
         "questions": [
           {
-            "prompt": "_ом",
-            "options": [
+            "index": 1,
+            "meaningEn": "book",
+            "letters": [
               "Н",
-              "Б",
-              "С"
+              "О",
+              "М"
             ],
-            "answer": "Н",
-            "result": "ном",
-            "meaningEn": "book"
-          },
-          {
-            "prompt": "г_р",
-            "options": [
-              "Э",
-              "А",
-              "О"
-            ],
-            "answer": "Э",
-            "result": "гэр",
-            "meaningEn": "home"
-          },
-          {
-            "prompt": "_с",
-            "options": [
-              "У",
-              "А",
-              "Э"
-            ],
-            "answer": "У",
-            "result": "ус",
-            "meaningEn": "water"
+            "answer": "НОМ",
+            "displayAnswer": "ном"
           }
         ]
       }
@@ -78,85 +45,36 @@
     {
       "id": "b1-u1-l4-c3",
       "lessonId": "b1-u1-l4",
-      "type": "exercise_word_build",
-      "title": "Build simple words",
+      "type": "quiz_link",
+      "title": "Start quiz",
       "order": 3,
       "content": {
-        "instructionEn": "Tap the letters in the correct order, then check your answer.",
-        "questions": [
-          {
-            "index": 1,
-            "meaningEn": "book",
-            "letters": [
-              "О",
-              "М",
-              "Н"
-            ],
-            "answer": "НОМ",
-            "displayAnswer": "ном"
-          },
-          {
-            "index": 2,
-            "meaningEn": "group / team",
-            "letters": [
-              "Г",
-              "Б",
-              "А"
-            ],
-            "answer": "БАГ",
-            "displayAnswer": "баг"
-          },
-          {
-            "index": 3,
-            "meaningEn": "home",
-            "letters": [
-              "Р",
-              "Г",
-              "Э"
-            ],
-            "answer": "ГЭР",
-            "displayAnswer": "гэр"
-          },
-          {
-            "index": 4,
-            "meaningEn": "day",
-            "letters": [
-              "Ө",
-              "Р",
-              "Д",
-              "Ө"
-            ],
-            "answer": "ӨДӨР",
-            "displayAnswer": "өдөр"
-          },
-          {
-            "index": 5,
-            "meaningEn": "good / hello",
-            "letters": [
-              "Й",
-              "Н",
-              "А",
-              "С"
-            ],
-            "answer": "САЙН",
-            "displayAnswer": "сайн"
-          }
-        ]
+        "quizId": "quiz_b1_u1_l4"
       }
-    },
+    }
+  ],
+  "quiz": {
+    "id": "quiz_b1_u1_l4",
+    "lessonId": "b1-u1-l4",
+    "title": "Unit review and quiz Quiz",
+    "passingScore": 70
+  },
+  "quizQuestions": [
     {
-      "id": "b1-u1-l4-c4",
-      "lessonId": "b1-u1-l4",
-      "type": "next_steps",
-      "title": "Next",
-      "order": 4,
-      "content": {
-        "steps": [
-          "Review the letters",
-          "Practice word building",
-          "Get ready for the final check"
-        ]
-      }
+      "id": "quiz_b1_u1_l4_q1",
+      "quizId": "quiz_b1_u1_l4",
+      "type": "multiple_choice",
+      "prompt": "Choose the correct answer.",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correctAnswer": "A",
+      "explanation": "Review complete.",
+      "xpReward": 2,
+      "order": 1
     }
   ]
 }

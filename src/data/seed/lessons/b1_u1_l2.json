@@ -2,8 +2,8 @@
   "lesson": {
     "id": "b1-u1-l2",
     "unitId": "b1-u1",
-    "title": "Letter Tracing",
-    "subtitle": "Practice letters by group",
+    "title": "Supporting vowels",
+    "subtitle": "Туслах эгшиг",
     "order": 2,
     "xpReward": 20,
     "quizXpReward": 0
@@ -13,64 +13,110 @@
       "id": "b1-u1-l2-c1",
       "lessonId": "b1-u1-l2",
       "type": "text",
-      "title": "How To Practice",
+      "title": "Short note",
       "order": 1,
       "content": {
-        "section": "exercises",
-        "textMn": "Бүлэг бүрийг тусад нь давтаж бич. Том, жижиг үсгийг хамт бичээрэй.",
-        "textEn": "Trace each group separately. Write uppercase and lowercase together."
+        "textMn": "Туслах эгшиг нь үгэнд өөр өөр дуу гаргана.",
+        "textEn": "Supporting vowels appear in many common words."
       }
     },
     {
       "id": "b1-u1-l2-c2",
       "lessonId": "b1-u1-l2",
-      "type": "exercise_write",
-      "title": "Basic Vowels",
+      "type": "alphabet_table",
+      "title": "Supporting vowels",
       "order": 2,
       "content": {
-        "section": "exercises",
-        "instructionMn": "Үндсэн эгшгийг мөр мөрөөр давтаж бич.",
-        "instructionEn": "Trace the basic vowels line by line.",
-        "letters": ["Аа", "Ээ", "Ии", "Оо", "Уу", "Өө", "Үү"]
+        "letters": [
+          {
+            "letter": "Е",
+            "lower": "е",
+            "transcription": "ye/e",
+            "pronunciation": "/je, e/",
+            "audioUrl": ""
+          },
+          {
+            "letter": "Ё",
+            "lower": "ё",
+            "transcription": "yo",
+            "pronunciation": "/jo/",
+            "audioUrl": ""
+          },
+          {
+            "letter": "Й",
+            "lower": "й",
+            "transcription": "ĭ",
+            "pronunciation": "/j/",
+            "audioUrl": ""
+          },
+          {
+            "letter": "Ы",
+            "lower": "ы",
+            "transcription": "ii",
+            "pronunciation": "/ɨ/",
+            "audioUrl": ""
+          },
+          {
+            "letter": "Ю",
+            "lower": "ю",
+            "transcription": "yu",
+            "pronunciation": "/ju/",
+            "audioUrl": ""
+          },
+          {
+            "letter": "Я",
+            "lower": "я",
+            "transcription": "ya",
+            "pronunciation": "/ja/",
+            "audioUrl": ""
+          }
+        ]
       }
     },
     {
       "id": "b1-u1-l2-c3",
       "lessonId": "b1-u1-l2",
       "type": "exercise_write",
-      "title": "Auxiliary Vowels",
+      "title": "Letter tracing",
       "order": 3,
       "content": {
-        "section": "exercises",
-        "instructionMn": "Туслах эгшгийг тусад нь бичиж хэвш.",
-        "instructionEn": "Practice the auxiliary vowels as a separate group.",
-        "letters": ["Ее", "Ёё", "Йй", "Ыы", "Юю", "Яя"]
+        "instructionMn": "Үсэг бүрийг том ба жижиг хэлбэрээр бич.",
+        "instructionEn": "Trace uppercase and lowercase.",
+        "letters": [
+          "Ее",
+          "Ёё",
+          "Йй",
+          "Ыы",
+          "Юю",
+          "Яя"
+        ]
       }
     },
     {
       "id": "b1-u1-l2-c4",
       "lessonId": "b1-u1-l2",
-      "type": "exercise_write",
-      "title": "Consonants",
+      "type": "exercise_repeat",
+      "title": "Repeat practice",
       "order": 4,
       "content": {
-        "section": "exercises",
-        "instructionMn": "Гийгүүлэгчийг багцлан бич.",
-        "instructionEn": "Trace the consonants in one group.",
-        "letters": ["Бб", "Вв", "Гг", "Дд", "Жж", "Зз", "Кк", "Лл", "Мм", "Нн", "Пп", "Рр", "Сс", "Тт", "Фф", "Хх", "Цц", "Чч", "Шш", "Щщ"]
-      }
-    },
-    {
-      "id": "b1-u1-l2-c5",
-      "lessonId": "b1-u1-l2",
-      "type": "exercise_write",
-      "title": "Sign Letters",
-      "order": 5,
-      "content": {
-        "section": "exercises",
-        "instructionMn": "Тэмдэг үсгийг сүүлд нь давт.",
-        "instructionEn": "Finish with the sign letters.",
-        "letters": ["Ъъ", "Ьь"]
+        "items": [
+          {
+            "text": "Е е",
+            "audioUrl": ""
+          },
+          {
+            "text": "Ё ё",
+            "audioUrl": ""
+          },
+          {
+            "text": "Ю ю",
+            "audioUrl": ""
+          },
+          {
+            "text": "Я я",
+            "audioUrl": ""
+          }
+        ]
       }
     }
   ]

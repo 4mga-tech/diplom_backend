@@ -1,0 +1,61 @@
+{
+  "lesson": {
+    "id": "b1-u5-l3",
+    "unitId": "b1-u5",
+    "title": "Neutral vowel И",
+    "subtitle": "Neutral vowel И",
+    "order": 3,
+    "xpReward": 20,
+    "quizXpReward": 0
+  },
+  "contents": [
+    {
+      "id": "b1-u5-l3-c1",
+      "lessonId": "b1-u5-l3",
+      "type": "text",
+      "title": "Short note",
+      "order": 1,
+      "content": {
+        "textMn": "Богино тайлбар, дараа нь дасгал хий.",
+        "textEn": "Short explanation, then practice."
+      }
+    },
+    {
+      "id": "b1-u5-l3-c2",
+      "lessonId": "b1-u5-l3",
+      "type": "exercise_repeat",
+      "title": "Practice",
+      "order": 2,
+      "content": {
+        "items": [
+          {
+            "text": "ба",
+            "audioUrl": ""
+          }
+        ]
+      }
+    },
+    {
+      "id": "b1-u5-l3-c3",
+      "lessonId": "b1-u5-l3",
+      "type": "exercise_word_build",
+      "title": "Drill",
+      "order": 3,
+      "content": {
+        "questions": [
+          {
+            "index": 1,
+            "meaningEn": "sample",
+            "letters": [
+              "Б",
+              "А"
+            ],
+            "answer": "БА",
+            "displayAnswer": "ба",
+            "audioUrl": ""
+          }
+        ]
+      }
+    }
+  ]
+}
