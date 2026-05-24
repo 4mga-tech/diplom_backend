@@ -2,8 +2,8 @@
   "lesson": {
     "id": "b1-u1-l3",
     "unitId": "b1-u1",
-    "title": "First consonants",
-    "subtitle": "Эхний гийгүүлэгч",
+    "title": "Эгшгийн ангилал",
+    "subtitle": "Vowel classification",
     "order": 3,
     "xpReward": 20,
     "quizXpReward": 0
@@ -13,55 +13,45 @@
       "id": "b1-u1-l3-c1",
       "lessonId": "b1-u1-l3",
       "type": "text",
-      "title": "Short note",
+      "title": "Тайлбар",
       "order": 1,
       "content": {
-        "textMn": "Эдгээр гийгүүлэгчийг сонсож давтаарай.",
-        "textEn": "Listen and repeat these first consonants."
+        "textMn": "Эгшгийг эр, эм, саармаг гэж ангилна. Эр эгшиг: А, О, У. Эм эгшиг: Э, Ө, Ү. Саармаг эгшиг: И.",
+        "textEn": "Vowels are grouped as back, front, and neutral vowels. Back vowels: А, О, У. Front vowels: Э, Ө, Ү. Neutral vowel: И."
       }
     },
     {
       "id": "b1-u1-l3-c2",
       "lessonId": "b1-u1-l3",
-      "type": "alphabet_table",
-      "title": "First consonants",
+      "type": "classification",
+      "title": "Эгшгийн бүлэг",
       "order": 2,
       "content": {
-        "letters": [
+        "groups": [
           {
-            "letter": "Б",
-            "lower": "б",
-            "transcription": "b",
-            "pronunciation": "/b/",
-            "audioUrl": ""
+            "labelMn": "Эр эгшиг",
+            "labelEn": "Back vowels",
+            "items": [
+              "А",
+              "О",
+              "У"
+            ]
           },
           {
-            "letter": "М",
-            "lower": "м",
-            "transcription": "m",
-            "pronunciation": "/m/",
-            "audioUrl": ""
+            "labelMn": "Эм эгшиг",
+            "labelEn": "Front vowels",
+            "items": [
+              "Э",
+              "Ө",
+              "Ү"
+            ]
           },
           {
-            "letter": "Н",
-            "lower": "н",
-            "transcription": "n",
-            "pronunciation": "/n/",
-            "audioUrl": ""
-          },
-          {
-            "letter": "Г",
-            "lower": "г",
-            "transcription": "g",
-            "pronunciation": "/g/",
-            "audioUrl": ""
-          },
-          {
-            "letter": "Л",
-            "lower": "л",
-            "transcription": "l",
-            "pronunciation": "/l/",
-            "audioUrl": ""
+            "labelMn": "Саармаг эгшиг",
+            "labelEn": "Neutral vowel",
+            "items": [
+              "И"
+            ]
           }
         ]
       }
@@ -69,41 +59,60 @@
     {
       "id": "b1-u1-l3-c3",
       "lessonId": "b1-u1-l3",
-      "type": "exercise_write",
-      "title": "Trace consonants",
+      "type": "exercise_repeat",
+      "title": "Бүлгээр нь унших",
       "order": 3,
       "content": {
-        "instructionMn": "Гийгүүлэгчийг давтаж бич.",
-        "instructionEn": "Trace the consonants.",
-        "letters": [
-          "Бб",
-          "Мм",
-          "Нн",
-          "Гг",
-          "Лл"
+        "items": [
+          {
+            "text": "А О У",
+            "transcription": "a o u",
+            "pronunciation": "back vowels",
+            "audioUrl": ""
+          },
+          {
+            "text": "Э Ө Ү",
+            "transcription": "e ö ü",
+            "pronunciation": "front vowels",
+            "audioUrl": ""
+          },
+          {
+            "text": "И",
+            "transcription": "i",
+            "pronunciation": "neutral vowel",
+            "audioUrl": "/uploads/audio/letters/i.mp3"
+          }
         ]
       }
     },
     {
       "id": "b1-u1-l3-c4",
       "lessonId": "b1-u1-l3",
-      "type": "exercise_repeat",
-      "title": "Repeat practice",
+      "type": "grammar_note",
+      "title": "Санамж",
       "order": 4,
       "content": {
-        "items": [
-          {
-            "text": "ба",
-            "audioUrl": ""
-          },
-          {
-            "text": "ма",
-            "audioUrl": ""
-          },
-          {
-            "text": "на",
-            "audioUrl": ""
-          }
+        "textMn": "Нэг үгийн дотор ихэвчлэн эр, эм эгшиг тус тусдаа зохицон ордог.",
+        "textEn": "Inside one word, back and front vowels usually stay in their own group."
+      }
+    },
+    {
+      "id": "b1-u1-l3-c5",
+      "lessonId": "b1-u1-l3",
+      "type": "exercise_write",
+      "title": "Trace vowels",
+      "order": 5,
+      "content": {
+        "instructionMn": "Ангиллаар нь эгшгийг бич.",
+        "instructionEn": "Trace and write vowels by group.",
+        "letters": [
+          "Аа",
+          "Оо",
+          "Уу",
+          "Ээ",
+          "Өө",
+          "Үү",
+          "Ии"
         ]
       }
     }

@@ -2,57 +2,67 @@
   "lesson": {
     "id": "b1-u1-l4",
     "unitId": "b1-u1",
-    "title": "Unit 1 review and quiz",
-    "subtitle": "1-р нэгжийн давтлага ба сорил",
+    "title": "Урт ба хос эгшиг",
+    "subtitle": "Long vowels and diphthongs",
     "order": 4,
-    "xpReward": 25,
-    "quizXpReward": 12
+    "xpReward": 20,
+    "quizXpReward": 0
   },
   "contents": [
     {
       "id": "b1-u1-l4-c1",
       "lessonId": "b1-u1-l4",
       "type": "text",
-      "title": "Review",
+      "title": "Тайлбар",
       "order": 1,
       "content": {
-        "textMn": "Үсэг, эгшиг, гийгүүлэгчийн авиаг нэгтгэн давт.",
-        "textEn": "Review letter names and basic vowel/consonant sounds."
+        "textMn": "Урт эгшиг нь эгшиг давхарлан бичигдэж уртаар дуудагдана: аа, ээ, оо, уу, өө, үү. Хос эгшиг нь хоёр өөр эгшиг нийлж нэг авиа мэт дуудагдана: ай, ой, уй, үй, эй.",
+        "textEn": "Long vowels are written with doubled vowels and pronounced longer: аа, ээ, оо, уу, өө, үү. Diphthongs combine two vowel sounds: ай, ой, уй, үй, эй."
       }
     },
     {
       "id": "b1-u1-l4-c2",
       "lessonId": "b1-u1-l4",
       "type": "exercise_repeat",
-      "title": "Repeat and read",
+      "title": "Урт эгшиг",
       "order": 2,
       "content": {
-        "section": "practice",
-        "instructionEn": "Tap, listen, and repeat.",
         "items": [
           {
-            "text": "А",
-            "transcription": "a",
-            "pronunciation": "/a/",
-            "audioUrl": "/uploads/audio/letters/a.mp3"
+            "text": "аа",
+            "transcription": "aa",
+            "pronunciation": "long a",
+            "audioUrl": ""
           },
           {
-            "text": "Э",
-            "transcription": "e",
-            "pronunciation": "/e/",
-            "audioUrl": "/uploads/audio/letters/e.mp3"
+            "text": "ээ",
+            "transcription": "ee",
+            "pronunciation": "long e",
+            "audioUrl": ""
           },
           {
-            "text": "Б",
-            "transcription": "b",
-            "pronunciation": "/b/",
-            "audioUrl": "/uploads/audio/letters/b.mp3"
+            "text": "оо",
+            "transcription": "oo",
+            "pronunciation": "long o",
+            "audioUrl": ""
           },
           {
-            "text": "М",
-            "transcription": "m",
-            "pronunciation": "/m/",
-            "audioUrl": "/uploads/audio/letters/m.mp3"
+            "text": "уу",
+            "transcription": "uu",
+            "pronunciation": "long u",
+            "audioUrl": ""
+          },
+          {
+            "text": "өө",
+            "transcription": "öö",
+            "pronunciation": "long ö",
+            "audioUrl": ""
+          },
+          {
+            "text": "үү",
+            "transcription": "üü",
+            "pronunciation": "long ü",
+            "audioUrl": ""
           }
         ]
       }
@@ -60,101 +70,43 @@
     {
       "id": "b1-u1-l4-c3",
       "lessonId": "b1-u1-l4",
-      "type": "quiz_link",
-      "title": "Start quiz",
+      "type": "vocab_list",
+      "title": "Хос эгшиг",
       "order": 3,
       "content": {
-        "section": "quiz",
-        "quizId": "quiz_b1_u1_final"
+        "items": [
+          {
+            "text": "ай",
+            "transcription": "ai",
+            "pronunciation": "/ai/",
+            "audioUrl": ""
+          },
+          {
+            "text": "ой",
+            "transcription": "oi",
+            "pronunciation": "/oi/",
+            "audioUrl": ""
+          },
+          {
+            "text": "уй",
+            "transcription": "ui",
+            "pronunciation": "/ui/",
+            "audioUrl": ""
+          },
+          {
+            "text": "үй",
+            "transcription": "üi",
+            "pronunciation": "/yi/",
+            "audioUrl": ""
+          },
+          {
+            "text": "эй",
+            "transcription": "ei",
+            "pronunciation": "/ei/",
+            "audioUrl": ""
+          }
+        ]
       }
-    }
-  ],
-  "quiz": {
-    "id": "quiz_b1_u1_final",
-    "lessonId": "b1-u1-l4",
-    "title": "B1 Unit 1 Final Quiz",
-    "passingScore": 70
-  },
-  "quizQuestions": [
-    {
-      "id": "quiz_b1_u1_final_q1",
-      "quizId": "quiz_b1_u1_final",
-      "type": "multiple_choice",
-      "prompt": "Which one is a vowel?",
-      "options": [
-        "А",
-        "Б",
-        "М",
-        "Н"
-      ],
-      "correctAnswer": "А",
-      "explanation": "А is a vowel.",
-      "xpReward": 2,
-      "order": 1
-    },
-    {
-      "id": "quiz_b1_u1_final_q2",
-      "quizId": "quiz_b1_u1_final",
-      "type": "multiple_choice",
-      "prompt": "Which one is a consonant?",
-      "options": [
-        "Э",
-        "О",
-        "Б",
-        "Ү"
-      ],
-      "correctAnswer": "Б",
-      "explanation": "Б is a consonant.",
-      "xpReward": 2,
-      "order": 2
-    },
-    {
-      "id": "quiz_b1_u1_final_q3",
-      "quizId": "quiz_b1_u1_final",
-      "type": "multiple_choice",
-      "prompt": "Choose the supporting vowel.",
-      "options": [
-        "Е",
-        "А",
-        "О",
-        "У"
-      ],
-      "correctAnswer": "Е",
-      "explanation": "Е is in supporting vowels.",
-      "xpReward": 2,
-      "order": 3
-    },
-    {
-      "id": "quiz_b1_u1_final_q4",
-      "quizId": "quiz_b1_u1_final",
-      "type": "multiple_choice",
-      "prompt": "Choose the pair of first consonants from this unit.",
-      "options": [
-        "Б, М",
-        "Ө, Ү",
-        "Е, Ё",
-        "А, Э"
-      ],
-      "correctAnswer": "Б, М",
-      "explanation": "Б and М were core consonants in Unit 1.",
-      "xpReward": 2,
-      "order": 4
-    },
-    {
-      "id": "quiz_b1_u1_final_q5",
-      "quizId": "quiz_b1_u1_final",
-      "type": "multiple_choice",
-      "prompt": "Which letter has /u/ sound?",
-      "options": [
-        "У",
-        "Ө",
-        "И",
-        "Э"
-      ],
-      "correctAnswer": "У",
-      "explanation": "У has /u/.",
-      "xpReward": 2,
-      "order": 5
     }
   ]
 }

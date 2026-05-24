@@ -2,8 +2,8 @@
   "lesson": {
     "id": "b1-u2-l3",
     "unitId": "b1-u2",
-    "title": "Classification practice",
-    "subtitle": "Ангиллын дасгал",
+    "title": "Я-гийн төрлийн үсгүүд",
+    "subtitle": "Я-type letters",
     "order": 3,
     "xpReward": 20,
     "quizXpReward": 0
@@ -11,61 +11,14 @@
   "contents": [
     {
       "id": "b1-u2-l3-c1",
-      "type": "classification",
-      "title": "Sort by function",
-      "content": {
-        "section": "practice",
-        "instructionEn": "Place each symbol into the right group.",
-        "groups": [
-          {
-            "title": "Vowels",
-            "description": "Main vowel letters",
-            "items": [
-              "А",
-              "О",
-              "У",
-              "Э",
-              "Ө",
-              "Ү",
-              "И"
-            ]
-          },
-          {
-            "title": "Consonants",
-            "description": "Consonant letters",
-            "items": [
-              "Б",
-              "М",
-              "Н",
-              "Г",
-              "Л",
-              "С"
-            ]
-          },
-          {
-            "title": "Supporting vowels",
-            "description": "Helper letters in syllables",
-            "items": [
-              "Е",
-              "Ё",
-              "Ю",
-              "Я",
-              "Ы",
-              "Й"
-            ]
-          },
-          {
-            "title": "Special signs",
-            "description": "No own vowel sound",
-            "items": [
-              "Ъ",
-              "Ь"
-            ]
-          }
-        ]
-      },
       "lessonId": "b1-u2-l3",
-      "order": 1
+      "type": "text",
+      "title": "Preview",
+      "order": 1,
+      "content": {
+        "textMn": "Энэ хичээлд Я төрлийн үсгүүдийн хэрэглээг танилцуулна.",
+        "textEn": "Scaffold lesson content will be expanded in next iteration."
+      }
     }
   ]
 }

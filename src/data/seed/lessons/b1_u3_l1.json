@@ -2,58 +2,23 @@
   "lesson": {
     "id": "b1-u3-l1",
     "unitId": "b1-u3",
-    "title": "Syllable building basics",
-    "subtitle": "Үе бүтээх үндэс",
+    "title": "Балархай эгшгийн дүрэм",
+    "subtitle": "Unstressed vowel rule",
     "order": 1,
     "xpReward": 20,
     "quizXpReward": 0
   },
   "contents": [
     {
-      "type": "exercise_word_build",
-      "title": "Build syllables",
-      "content": {
-        "section": "practice",
-        "instructionEn": "Combine letters into syllables.",
-        "questions": [
-          {
-            "index": 1,
-            "meaningEn": "ba",
-            "letters": [
-              "Б",
-              "А"
-            ],
-            "answer": "БА",
-            "displayAnswer": "ба",
-            "audioUrl": "/uploads/audio/syllables/ba.mp3"
-          },
-          {
-            "index": 2,
-            "meaningEn": "mo",
-            "letters": [
-              "М",
-              "О"
-            ],
-            "answer": "МО",
-            "displayAnswer": "мо",
-            "audioUrl": "/uploads/audio/syllables/mo.mp3"
-          },
-          {
-            "index": 3,
-            "meaningEn": "sü",
-            "letters": [
-              "С",
-              "Ү"
-            ],
-            "answer": "СҮ",
-            "displayAnswer": "сү",
-            "audioUrl": "/uploads/audio/syllables/suu.mp3"
-          }
-        ]
-      },
       "id": "b1-u3-l1-c1",
       "lessonId": "b1-u3-l1",
-      "order": 1
+      "type": "text",
+      "title": "Preview",
+      "order": 1,
+      "content": {
+        "textMn": "Энэ хичээлд балархай эгшгийн үндсэн ойлголтыг бэлтгэнэ.",
+        "textEn": "Scaffold lesson content will be expanded in next iteration."
+      }
     }
   ]
 }

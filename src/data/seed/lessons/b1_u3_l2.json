@@ -2,56 +2,23 @@
   "lesson": {
     "id": "b1-u3-l2",
     "unitId": "b1-u3",
-    "title": "Open/closed syllables",
-    "subtitle": "Нээлттэй/хаалттай үе",
+    "title": "Эгшигт ба заримдаг гийгүүлэгч",
+    "subtitle": "Vocalic and partial consonants",
     "order": 2,
     "xpReward": 20,
     "quizXpReward": 0
   },
   "contents": [
     {
-      "type": "text",
-      "title": "Short note",
-      "content": {
-        "textMn": "Үе нь эгшгээр төгсвөл нээлттэй, гийгүүлэгчээр төгсвөл хаалттай.",
-        "textEn": "Open syllables end with vowels; closed syllables end with consonants."
-      },
       "id": "b1-u3-l2-c1",
       "lessonId": "b1-u3-l2",
-      "order": 1
-    },
-    {
-      "type": "exercise_word_build",
-      "title": "Syllable drill",
+      "type": "text",
+      "title": "Preview",
+      "order": 1,
       "content": {
-        "questions": [
-          {
-            "index": 1,
-            "meaningEn": "be",
-            "letters": [
-              "Б",
-              "Э"
-            ],
-            "answer": "БЭ",
-            "displayAnswer": "бэ",
-            "audioUrl": "/uploads/audio/syllables/be.mp3"
-          },
-          {
-            "index": 2,
-            "meaningEn": "am",
-            "letters": [
-              "А",
-              "М"
-            ],
-            "answer": "АМ",
-            "displayAnswer": "ам",
-            "audioUrl": "/uploads/audio/syllables/am.mp3"
-          }
-        ]
-      },
-      "id": "b1-u3-l2-c2",
-      "lessonId": "b1-u3-l2",
-      "order": 2
+        "textMn": "Энэ хичээлд эгшигт ба заримдаг гийгүүлэгчийг ялгана.",
+        "textEn": "Scaffold lesson content will be expanded in next iteration."
+      }
     }
   ]
 }

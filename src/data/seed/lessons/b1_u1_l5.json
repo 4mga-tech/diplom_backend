@@ -1,0 +1,170 @@
+{
+  "lesson": {
+    "id": "b1-u1-l5",
+    "unitId": "b1-u1",
+    "title": "Unit 1 review",
+    "subtitle": "Alphabet and vowel review",
+    "order": 5,
+    "xpReward": 25,
+    "quizXpReward": 12
+  },
+  "contents": [
+    {
+      "id": "b1-u1-l5-c1",
+      "lessonId": "b1-u1-l5",
+      "type": "text",
+      "title": "Review note",
+      "order": 1,
+      "content": {
+        "textMn": "1-р нэгжийн үндсэн ойлголтуудаа давтаж сорилоо эхлүүлээрэй.",
+        "textEn": "Review the main Unit 1 ideas, then start the quiz."
+      }
+    },
+    {
+      "id": "b1-u1-l5-c2",
+      "lessonId": "b1-u1-l5",
+      "type": "quiz_link",
+      "title": "Start quiz",
+      "order": 2,
+      "content": {
+        "quizId": "quiz_b1_u1_final"
+      }
+    }
+  ],
+  "quiz": {
+    "id": "quiz_b1_u1_final",
+    "lessonId": "b1-u1-l5",
+    "title": "B1 Unit 1 Final Quiz",
+    "passingScore": 70
+  },
+  "quizQuestions": [
+    {
+      "id": "quiz_b1_u1_final_q1",
+      "quizId": "quiz_b1_u1_final",
+      "type": "multiple_choice",
+      "prompt": "Монгол кирилл цагаан толгой хэдэн үсэгтэй вэ?",
+      "options": [
+        "33",
+        "35",
+        "36",
+        "32"
+      ],
+      "correctAnswer": "35",
+      "explanation": "Монгол кирилл цагаан толгой 35 үсэгтэй.",
+      "xpReward": 2,
+      "order": 1
+    },
+    {
+      "id": "quiz_b1_u1_final_q2",
+      "quizId": "quiz_b1_u1_final",
+      "type": "multiple_choice",
+      "prompt": "Эгшиг үсгийн тоо хэд вэ?",
+      "options": [
+        "13",
+        "7",
+        "20",
+        "12"
+      ],
+      "correctAnswer": "13",
+      "explanation": "Эгшиг үсэг нийт 13.",
+      "xpReward": 2,
+      "order": 2
+    },
+    {
+      "id": "quiz_b1_u1_final_q3",
+      "quizId": "quiz_b1_u1_final",
+      "type": "multiple_choice",
+      "prompt": "Үндсэн эгшигт аль нь хамаарах вэ?",
+      "options": [
+        "Ө",
+        "Я",
+        "Ё",
+        "Ы"
+      ],
+      "correctAnswer": "Ө",
+      "explanation": "Ө нь үндсэн эгшиг.",
+      "xpReward": 2,
+      "order": 3
+    },
+    {
+      "id": "quiz_b1_u1_final_q4",
+      "quizId": "quiz_b1_u1_final",
+      "type": "multiple_choice",
+      "prompt": "Туслах эгшгийг сонгоно уу.",
+      "options": [
+        "Ю",
+        "У",
+        "О",
+        "Э"
+      ],
+      "correctAnswer": "Ю",
+      "explanation": "Ю нь туслах эгшиг.",
+      "xpReward": 2,
+      "order": 4
+    },
+    {
+      "id": "quiz_b1_u1_final_q5",
+      "quizId": "quiz_b1_u1_final",
+      "type": "multiple_choice",
+      "prompt": "Эр эгшиг аль багц вэ?",
+      "options": [
+        "А, О, У",
+        "Э, Ө, Ү",
+        "И",
+        "Е, Ё, Ю"
+      ],
+      "correctAnswer": "А, О, У",
+      "explanation": "Эр эгшиг: А, О, У.",
+      "xpReward": 2,
+      "order": 5
+    },
+    {
+      "id": "quiz_b1_u1_final_q6",
+      "quizId": "quiz_b1_u1_final",
+      "type": "multiple_choice",
+      "prompt": "Саармаг эгшиг аль нь вэ?",
+      "options": [
+        "И",
+        "Ү",
+        "А",
+        "Ө"
+      ],
+      "correctAnswer": "И",
+      "explanation": "Саармаг эгшиг нь И.",
+      "xpReward": 2,
+      "order": 6
+    },
+    {
+      "id": "quiz_b1_u1_final_q7",
+      "quizId": "quiz_b1_u1_final",
+      "type": "multiple_choice",
+      "prompt": "Урт эгшгийн жишээг сонгоно уу.",
+      "options": [
+        "ээ",
+        "эй",
+        "я",
+        "ө"
+      ],
+      "correctAnswer": "ээ",
+      "explanation": "ээ нь урт эгшиг.",
+      "xpReward": 2,
+      "order": 7
+    },
+    {
+      "id": "quiz_b1_u1_final_q8",
+      "quizId": "quiz_b1_u1_final",
+      "type": "multiple_choice",
+      "prompt": "Хос эгшгийн жишээг сонгоно уу.",
+      "options": [
+        "ай",
+        "аа",
+        "үү",
+        "оо"
+      ],
+      "correctAnswer": "ай",
+      "explanation": "ай нь хос эгшиг.",
+      "xpReward": 2,
+      "order": 8
+    }
+  ]
+}
