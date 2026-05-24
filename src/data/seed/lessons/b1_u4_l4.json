@@ -2,8 +2,8 @@
   "lesson": {
     "id": "b1-u4-l4",
     "unitId": "b1-u4",
-    "title": "Unit review and quiz",
-    "subtitle": "Unit review and quiz",
+    "title": "Unit 4 review and quiz",
+    "subtitle": "4-р нэгжийн давтлага ба сорил",
     "order": 4,
     "xpReward": 25,
     "quizXpReward": 12
@@ -12,92 +12,172 @@
     {
       "id": "b1-u4-l4-c1",
       "lessonId": "b1-u4-l4",
-      "type": "text",
-      "title": "Short note",
-      "order": 1,
-      "content": {
-        "textMn": "Богино тайлбар, дараа нь дасгал хий.",
-        "textEn": "Short explanation, then practice."
-      }
-    },
-    {
-      "id": "b1-u4-l4-c2",
-      "lessonId": "b1-u4-l4",
       "type": "vocab_list",
-      "title": "Practice",
-      "order": 2,
+      "title": "Core words",
+      "order": 1,
       "content": {
         "items": [
           {
             "text": "аав",
             "transcription": "aav",
             "meaningEn": "father",
-            "audioUrl": ""
+            "audioUrl": "/uploads/audio/words/father.mp3"
           },
           {
             "text": "ээж",
             "transcription": "eej",
             "meaningEn": "mother",
-            "audioUrl": ""
-          }
-        ]
-      }
-    },
-    {
-      "id": "b1-u4-l4-c3",
-      "lessonId": "b1-u4-l4",
-      "type": "exercise_word_build",
-      "title": "Drill",
-      "order": 3,
-      "content": {
-        "questions": [
+            "audioUrl": "/uploads/audio/words/mother.mp3"
+          },
           {
-            "index": 1,
-            "meaningEn": "sample",
-            "letters": [
-              "Б",
-              "А"
-            ],
-            "answer": "БА",
-            "displayAnswer": "ба",
+            "text": "ном",
+            "transcription": "nom",
+            "meaningEn": "book",
+            "audioUrl": "/uploads/audio/words/book.mp3"
+          },
+          {
+            "text": "ус",
+            "transcription": "us",
+            "meaningEn": "water",
+            "audioUrl": "/uploads/audio/words/water.mp3"
+          },
+          {
+            "text": "гэр",
+            "transcription": "ger",
+            "meaningEn": "house",
+            "audioUrl": "/uploads/audio/words/house.mp3"
+          },
+          {
+            "text": "сүү",
+            "transcription": "süü",
+            "meaningEn": "milk",
             "audioUrl": ""
+          },
+          {
+            "text": "талх",
+            "transcription": "talkh",
+            "meaningEn": "bread",
+            "audioUrl": "/uploads/audio/words/bread.mp3"
+          },
+          {
+            "text": "багш",
+            "transcription": "bagsh",
+            "meaningEn": "teacher",
+            "audioUrl": ""
+          },
+          {
+            "text": "хүүхэд",
+            "transcription": "khüühed",
+            "meaningEn": "child",
+            "audioUrl": "/uploads/audio/words/child.mp3"
+          },
+          {
+            "text": "сургууль",
+            "transcription": "surguul",
+            "meaningEn": "school",
+            "audioUrl": "/uploads/audio/words/school.mp3"
           }
         ]
       }
     },
     {
-      "id": "b1-u4-l4-c4",
+      "id": "b1-u4-l4-c2",
       "lessonId": "b1-u4-l4",
       "type": "quiz_link",
       "title": "Start quiz",
-      "order": 4,
+      "order": 2,
       "content": {
-        "quizId": "quiz_b1_u4_l4"
+        "section": "quiz",
+        "quizId": "quiz_b1_u4_final"
       }
     }
   ],
   "quiz": {
-    "id": "quiz_b1_u4_l4",
+    "id": "quiz_b1_u4_final",
     "lessonId": "b1-u4-l4",
-    "title": "Unit review and quiz Quiz",
+    "title": "B1 Unit 4 Final Quiz",
     "passingScore": 70
   },
   "quizQuestions": [
     {
-      "id": "quiz_b1_u4_l4_q1",
-      "quizId": "quiz_b1_u4_l4",
+      "id": "quiz_b1_u4_final_q1",
+      "quizId": "quiz_b1_u4_final",
       "type": "multiple_choice",
-      "prompt": "Choose the correct answer.",
+      "prompt": "What does \"ном\" mean?",
       "options": [
-        "A",
-        "B",
-        "C",
-        "D"
+        "book",
+        "water",
+        "house",
+        "bread"
       ],
-      "correctAnswer": "A",
-      "explanation": "Review complete.",
+      "correctAnswer": "book",
+      "explanation": "book",
       "xpReward": 2,
       "order": 1
+    },
+    {
+      "id": "quiz_b1_u4_final_q2",
+      "quizId": "quiz_b1_u4_final",
+      "type": "multiple_choice",
+      "prompt": "Choose the word for water.",
+      "options": [
+        "ус",
+        "гэр",
+        "аав",
+        "ээж"
+      ],
+      "correctAnswer": "ус",
+      "explanation": "ус",
+      "xpReward": 2,
+      "order": 2
+    },
+    {
+      "id": "quiz_b1_u4_final_q3",
+      "quizId": "quiz_b1_u4_final",
+      "type": "multiple_choice",
+      "prompt": "Which word means school?",
+      "options": [
+        "сургууль",
+        "талх",
+        "сүү",
+        "багш"
+      ],
+      "correctAnswer": "сургууль",
+      "explanation": "сургууль",
+      "xpReward": 2,
+      "order": 3
+    },
+    {
+      "id": "quiz_b1_u4_final_q4",
+      "quizId": "quiz_b1_u4_final",
+      "type": "multiple_choice",
+      "prompt": "Which word is \"father\"?",
+      "options": [
+        "ээж",
+        "аав",
+        "ном",
+        "ус"
+      ],
+      "correctAnswer": "аав",
+      "explanation": "аав",
+      "xpReward": 2,
+      "order": 4
+    },
+    {
+      "id": "quiz_b1_u4_final_q5",
+      "quizId": "quiz_b1_u4_final",
+      "type": "multiple_choice",
+      "prompt": "Choose a food word.",
+      "options": [
+        "талх",
+        "хүүхэд",
+        "гэр",
+        "сургууль"
+      ],
+      "correctAnswer": "талх",
+      "explanation": "талх",
+      "xpReward": 2,
+      "order": 5
     }
   ]
 }

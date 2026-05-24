@@ -2,8 +2,8 @@
   "lesson": {
     "id": "b1-u1-l4",
     "unitId": "b1-u1",
-    "title": "Unit review and quiz",
-    "subtitle": "Давтлага ба шалгалт",
+    "title": "Unit 1 review and quiz",
+    "subtitle": "1-р нэгжийн давтлага ба сорил",
     "order": 4,
     "xpReward": 25,
     "quizXpReward": 12
@@ -12,32 +12,47 @@
     {
       "id": "b1-u1-l4-c1",
       "lessonId": "b1-u1-l4",
-      "type": "grammar_note",
+      "type": "text",
       "title": "Review",
       "order": 1,
       "content": {
-        "textMn": "Үндсэн ба туслах эгшиг, эхний гийгүүлэгчээ давт.",
-        "textEn": "Review vowels and first consonants."
+        "textMn": "Үсэг, эгшиг, гийгүүлэгчийн авиаг нэгтгэн давт.",
+        "textEn": "Review letter names and basic vowel/consonant sounds."
       }
     },
     {
       "id": "b1-u1-l4-c2",
       "lessonId": "b1-u1-l4",
-      "type": "exercise_word_build",
-      "title": "Quick build",
+      "type": "exercise_repeat",
+      "title": "Repeat and read",
       "order": 2,
       "content": {
-        "questions": [
+        "section": "practice",
+        "instructionEn": "Tap, listen, and repeat.",
+        "items": [
           {
-            "index": 1,
-            "meaningEn": "book",
-            "letters": [
-              "Н",
-              "О",
-              "М"
-            ],
-            "answer": "НОМ",
-            "displayAnswer": "ном"
+            "text": "А",
+            "transcription": "a",
+            "pronunciation": "/a/",
+            "audioUrl": "/uploads/audio/letters/a.mp3"
+          },
+          {
+            "text": "Э",
+            "transcription": "e",
+            "pronunciation": "/e/",
+            "audioUrl": "/uploads/audio/letters/e.mp3"
+          },
+          {
+            "text": "Б",
+            "transcription": "b",
+            "pronunciation": "/b/",
+            "audioUrl": "/uploads/audio/letters/b.mp3"
+          },
+          {
+            "text": "М",
+            "transcription": "m",
+            "pronunciation": "/m/",
+            "audioUrl": "/uploads/audio/letters/m.mp3"
           }
         ]
       }
@@ -49,32 +64,97 @@
       "title": "Start quiz",
       "order": 3,
       "content": {
-        "quizId": "quiz_b1_u1_l4"
+        "section": "quiz",
+        "quizId": "quiz_b1_u1_final"
       }
     }
   ],
   "quiz": {
-    "id": "quiz_b1_u1_l4",
+    "id": "quiz_b1_u1_final",
     "lessonId": "b1-u1-l4",
-    "title": "Unit review and quiz Quiz",
+    "title": "B1 Unit 1 Final Quiz",
     "passingScore": 70
   },
   "quizQuestions": [
     {
-      "id": "quiz_b1_u1_l4_q1",
-      "quizId": "quiz_b1_u1_l4",
+      "id": "quiz_b1_u1_final_q1",
+      "quizId": "quiz_b1_u1_final",
       "type": "multiple_choice",
-      "prompt": "Choose the correct answer.",
+      "prompt": "Which one is a vowel?",
       "options": [
-        "A",
-        "B",
-        "C",
-        "D"
+        "А",
+        "Б",
+        "М",
+        "Н"
       ],
-      "correctAnswer": "A",
-      "explanation": "Review complete.",
+      "correctAnswer": "А",
+      "explanation": "А is a vowel.",
       "xpReward": 2,
       "order": 1
+    },
+    {
+      "id": "quiz_b1_u1_final_q2",
+      "quizId": "quiz_b1_u1_final",
+      "type": "multiple_choice",
+      "prompt": "Which one is a consonant?",
+      "options": [
+        "Э",
+        "О",
+        "Б",
+        "Ү"
+      ],
+      "correctAnswer": "Б",
+      "explanation": "Б is a consonant.",
+      "xpReward": 2,
+      "order": 2
+    },
+    {
+      "id": "quiz_b1_u1_final_q3",
+      "quizId": "quiz_b1_u1_final",
+      "type": "multiple_choice",
+      "prompt": "Choose the supporting vowel.",
+      "options": [
+        "Е",
+        "А",
+        "О",
+        "У"
+      ],
+      "correctAnswer": "Е",
+      "explanation": "Е is in supporting vowels.",
+      "xpReward": 2,
+      "order": 3
+    },
+    {
+      "id": "quiz_b1_u1_final_q4",
+      "quizId": "quiz_b1_u1_final",
+      "type": "multiple_choice",
+      "prompt": "Choose the pair of first consonants from this unit.",
+      "options": [
+        "Б, М",
+        "Ө, Ү",
+        "Е, Ё",
+        "А, Э"
+      ],
+      "correctAnswer": "Б, М",
+      "explanation": "Б and М were core consonants in Unit 1.",
+      "xpReward": 2,
+      "order": 4
+    },
+    {
+      "id": "quiz_b1_u1_final_q5",
+      "quizId": "quiz_b1_u1_final",
+      "type": "multiple_choice",
+      "prompt": "Which letter has /u/ sound?",
+      "options": [
+        "У",
+        "Ө",
+        "И",
+        "Э"
+      ],
+      "correctAnswer": "У",
+      "explanation": "У has /u/.",
+      "xpReward": 2,
+      "order": 5
     }
   ]
 }

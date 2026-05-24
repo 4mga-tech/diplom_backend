@@ -2,8 +2,8 @@
   "lesson": {
     "id": "b1-u2-l3",
     "unitId": "b1-u2",
-    "title": "Listen and classify",
-    "subtitle": "Listen and classify",
+    "title": "Classification practice",
+    "subtitle": "Ангиллын дасгал",
     "order": 3,
     "xpReward": 20,
     "quizXpReward": 0
@@ -11,51 +11,61 @@
   "contents": [
     {
       "id": "b1-u2-l3-c1",
-      "lessonId": "b1-u2-l3",
-      "type": "text",
-      "title": "Short note",
-      "order": 1,
+      "type": "classification",
+      "title": "Sort by function",
       "content": {
-        "textMn": "Богино тайлбар, дараа нь дасгал хий.",
-        "textEn": "Short explanation, then practice."
-      }
-    },
-    {
-      "id": "b1-u2-l3-c2",
-      "lessonId": "b1-u2-l3",
-      "type": "exercise_repeat",
-      "title": "Practice",
-      "order": 2,
-      "content": {
-        "items": [
+        "section": "practice",
+        "instructionEn": "Place each symbol into the right group.",
+        "groups": [
           {
-            "text": "ба",
-            "audioUrl": ""
-          }
-        ]
-      }
-    },
-    {
-      "id": "b1-u2-l3-c3",
-      "lessonId": "b1-u2-l3",
-      "type": "exercise_word_build",
-      "title": "Drill",
-      "order": 3,
-      "content": {
-        "questions": [
+            "title": "Vowels",
+            "description": "Main vowel letters",
+            "items": [
+              "А",
+              "О",
+              "У",
+              "Э",
+              "Ө",
+              "Ү",
+              "И"
+            ]
+          },
           {
-            "index": 1,
-            "meaningEn": "sample",
-            "letters": [
+            "title": "Consonants",
+            "description": "Consonant letters",
+            "items": [
               "Б",
-              "А"
-            ],
-            "answer": "БА",
-            "displayAnswer": "ба",
-            "audioUrl": ""
+              "М",
+              "Н",
+              "Г",
+              "Л",
+              "С"
+            ]
+          },
+          {
+            "title": "Supporting vowels",
+            "description": "Helper letters in syllables",
+            "items": [
+              "Е",
+              "Ё",
+              "Ю",
+              "Я",
+              "Ы",
+              "Й"
+            ]
+          },
+          {
+            "title": "Special signs",
+            "description": "No own vowel sound",
+            "items": [
+              "Ъ",
+              "Ь"
+            ]
           }
         ]
-      }
+      },
+      "lessonId": "b1-u2-l3",
+      "order": 1
     }
   ]
 }

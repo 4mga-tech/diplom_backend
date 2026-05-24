@@ -2,8 +2,8 @@
   "lesson": {
     "id": "b1-u4-l3",
     "unitId": "b1-u4",
-    "title": "School words",
-    "subtitle": "School words",
+    "title": "Simple word reading",
+    "subtitle": "Сонсож давтах",
     "order": 3,
     "xpReward": 20,
     "quizXpReward": 0
@@ -12,47 +12,71 @@
     {
       "id": "b1-u4-l3-c1",
       "lessonId": "b1-u4-l3",
-      "type": "text",
-      "title": "Short note",
+      "type": "vocab_list",
+      "title": "Word list",
       "order": 1,
       "content": {
-        "textMn": "Богино тайлбар, дараа нь дасгал хий.",
-        "textEn": "Short explanation, then practice."
+        "items": [
+          {
+            "text": "талх",
+            "transcription": "talkh",
+            "meaningEn": "bread",
+            "audioUrl": "/uploads/audio/words/bread.mp3"
+          },
+          {
+            "text": "багш",
+            "transcription": "bagsh",
+            "meaningEn": "teacher",
+            "audioUrl": ""
+          },
+          {
+            "text": "хүүхэд",
+            "transcription": "khüühed",
+            "meaningEn": "child",
+            "audioUrl": "/uploads/audio/words/child.mp3"
+          },
+          {
+            "text": "сургууль",
+            "transcription": "surguul",
+            "meaningEn": "school",
+            "audioUrl": "/uploads/audio/words/school.mp3"
+          }
+        ]
       }
     },
     {
       "id": "b1-u4-l3-c2",
       "lessonId": "b1-u4-l3",
       "type": "exercise_repeat",
-      "title": "Practice",
+      "title": "Repeat words",
       "order": 2,
       "content": {
+        "section": "practice",
+        "instructionEn": "Listen and repeat the words.",
         "items": [
           {
-            "text": "ба",
-            "audioUrl": ""
-          }
-        ]
-      }
-    },
-    {
-      "id": "b1-u4-l3-c3",
-      "lessonId": "b1-u4-l3",
-      "type": "exercise_word_build",
-      "title": "Drill",
-      "order": 3,
-      "content": {
-        "questions": [
+            "text": "талх",
+            "transcription": "talkh",
+            "pronunciation": "",
+            "audioUrl": "/uploads/audio/words/bread.mp3"
+          },
           {
-            "index": 1,
-            "meaningEn": "sample",
-            "letters": [
-              "Б",
-              "А"
-            ],
-            "answer": "БА",
-            "displayAnswer": "ба",
+            "text": "багш",
+            "transcription": "bagsh",
+            "pronunciation": "",
             "audioUrl": ""
+          },
+          {
+            "text": "хүүхэд",
+            "transcription": "khüühed",
+            "pronunciation": "",
+            "audioUrl": "/uploads/audio/words/child.mp3"
+          },
+          {
+            "text": "сургууль",
+            "transcription": "surguul",
+            "pronunciation": "",
+            "audioUrl": "/uploads/audio/words/school.mp3"
           }
         ]
       }

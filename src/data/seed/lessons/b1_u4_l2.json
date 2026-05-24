@@ -2,8 +2,8 @@
   "lesson": {
     "id": "b1-u4-l2",
     "unitId": "b1-u4",
-    "title": "Daily objects",
-    "subtitle": "Daily objects",
+    "title": "Simple word reading",
+    "subtitle": "Эд зүйлс ба газар",
     "order": 2,
     "xpReward": 20,
     "quizXpReward": 0
@@ -12,55 +12,71 @@
     {
       "id": "b1-u4-l2-c1",
       "lessonId": "b1-u4-l2",
-      "type": "text",
-      "title": "Short note",
-      "order": 1,
-      "content": {
-        "textMn": "Богино тайлбар, дараа нь дасгал хий.",
-        "textEn": "Short explanation, then practice."
-      }
-    },
-    {
-      "id": "b1-u4-l2-c2",
-      "lessonId": "b1-u4-l2",
       "type": "vocab_list",
-      "title": "Practice",
-      "order": 2,
+      "title": "Word list",
+      "order": 1,
       "content": {
         "items": [
           {
-            "text": "аав",
-            "transcription": "aav",
-            "meaningEn": "father",
+            "text": "ус",
+            "transcription": "us",
+            "meaningEn": "water",
+            "audioUrl": "/uploads/audio/words/water.mp3"
+          },
+          {
+            "text": "гэр",
+            "transcription": "ger",
+            "meaningEn": "house",
+            "audioUrl": "/uploads/audio/words/house.mp3"
+          },
+          {
+            "text": "сүү",
+            "transcription": "süü",
+            "meaningEn": "milk",
             "audioUrl": ""
           },
           {
-            "text": "ээж",
-            "transcription": "eej",
-            "meaningEn": "mother",
-            "audioUrl": ""
+            "text": "талх",
+            "transcription": "talkh",
+            "meaningEn": "bread",
+            "audioUrl": "/uploads/audio/words/bread.mp3"
           }
         ]
       }
     },
     {
-      "id": "b1-u4-l2-c3",
+      "id": "b1-u4-l2-c2",
       "lessonId": "b1-u4-l2",
-      "type": "exercise_word_build",
-      "title": "Drill",
-      "order": 3,
+      "type": "exercise_repeat",
+      "title": "Repeat words",
+      "order": 2,
       "content": {
-        "questions": [
+        "section": "practice",
+        "instructionEn": "Listen and repeat the words.",
+        "items": [
           {
-            "index": 1,
-            "meaningEn": "sample",
-            "letters": [
-              "Б",
-              "А"
-            ],
-            "answer": "БА",
-            "displayAnswer": "ба",
+            "text": "ус",
+            "transcription": "us",
+            "pronunciation": "",
+            "audioUrl": "/uploads/audio/words/water.mp3"
+          },
+          {
+            "text": "гэр",
+            "transcription": "ger",
+            "pronunciation": "",
+            "audioUrl": "/uploads/audio/words/house.mp3"
+          },
+          {
+            "text": "сүү",
+            "transcription": "süü",
+            "pronunciation": "",
             "audioUrl": ""
+          },
+          {
+            "text": "талх",
+            "transcription": "talkh",
+            "pronunciation": "",
+            "audioUrl": "/uploads/audio/words/bread.mp3"
           }
         ]
       }

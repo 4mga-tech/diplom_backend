@@ -2,8 +2,8 @@
   "lesson": {
     "id": "b1-u4-l1",
     "unitId": "b1-u4",
-    "title": "Family words",
-    "subtitle": "Family words",
+    "title": "Simple word reading",
+    "subtitle": "Гэр бүл ба өдөр тутам",
     "order": 1,
     "xpReward": 20,
     "quizXpReward": 0
@@ -12,55 +12,71 @@
     {
       "id": "b1-u4-l1-c1",
       "lessonId": "b1-u4-l1",
-      "type": "text",
-      "title": "Short note",
-      "order": 1,
-      "content": {
-        "textMn": "Богино тайлбар, дараа нь дасгал хий.",
-        "textEn": "Short explanation, then practice."
-      }
-    },
-    {
-      "id": "b1-u4-l1-c2",
-      "lessonId": "b1-u4-l1",
       "type": "vocab_list",
-      "title": "Practice",
-      "order": 2,
+      "title": "Word list",
+      "order": 1,
       "content": {
         "items": [
           {
             "text": "аав",
             "transcription": "aav",
             "meaningEn": "father",
-            "audioUrl": ""
+            "audioUrl": "/uploads/audio/words/father.mp3"
           },
           {
             "text": "ээж",
             "transcription": "eej",
             "meaningEn": "mother",
-            "audioUrl": ""
+            "audioUrl": "/uploads/audio/words/mother.mp3"
+          },
+          {
+            "text": "ном",
+            "transcription": "nom",
+            "meaningEn": "book",
+            "audioUrl": "/uploads/audio/words/book.mp3"
+          },
+          {
+            "text": "ус",
+            "transcription": "us",
+            "meaningEn": "water",
+            "audioUrl": "/uploads/audio/words/water.mp3"
           }
         ]
       }
     },
     {
-      "id": "b1-u4-l1-c3",
+      "id": "b1-u4-l1-c2",
       "lessonId": "b1-u4-l1",
-      "type": "exercise_word_build",
-      "title": "Drill",
-      "order": 3,
+      "type": "exercise_repeat",
+      "title": "Repeat words",
+      "order": 2,
       "content": {
-        "questions": [
+        "section": "practice",
+        "instructionEn": "Listen and repeat the words.",
+        "items": [
           {
-            "index": 1,
-            "meaningEn": "sample",
-            "letters": [
-              "Б",
-              "А"
-            ],
-            "answer": "БА",
-            "displayAnswer": "ба",
-            "audioUrl": ""
+            "text": "аав",
+            "transcription": "aav",
+            "pronunciation": "",
+            "audioUrl": "/uploads/audio/words/father.mp3"
+          },
+          {
+            "text": "ээж",
+            "transcription": "eej",
+            "pronunciation": "",
+            "audioUrl": "/uploads/audio/words/mother.mp3"
+          },
+          {
+            "text": "ном",
+            "transcription": "nom",
+            "pronunciation": "",
+            "audioUrl": "/uploads/audio/words/book.mp3"
+          },
+          {
+            "text": "ус",
+            "transcription": "us",
+            "pronunciation": "",
+            "audioUrl": "/uploads/audio/words/water.mp3"
           }
         ]
       }

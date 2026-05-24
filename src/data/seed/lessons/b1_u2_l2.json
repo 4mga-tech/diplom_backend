@@ -2,8 +2,8 @@
   "lesson": {
     "id": "b1-u2-l2",
     "unitId": "b1-u2",
-    "title": "Consonant groups",
-    "subtitle": "Consonant groups",
+    "title": "Listen and classify letters",
+    "subtitle": "Сонсож ангилах",
     "order": 2,
     "xpReward": 20,
     "quizXpReward": 0
@@ -11,57 +11,51 @@
   "contents": [
     {
       "id": "b1-u2-l2-c1",
-      "lessonId": "b1-u2-l2",
       "type": "text",
       "title": "Short note",
-      "order": 1,
       "content": {
-        "textMn": "Богино тайлбар, дараа нь дасгал хий.",
-        "textEn": "Short explanation, then practice."
-      }
+        "textMn": "Сонсож аль бүлэгт орж байгааг тодорхойл.",
+        "textEn": "Listen and identify which group each letter belongs to."
+      },
+      "lessonId": "b1-u2-l2",
+      "order": 1
     },
     {
       "id": "b1-u2-l2-c2",
-      "lessonId": "b1-u2-l2",
-      "type": "classification",
-      "title": "Practice",
-      "order": 2,
+      "type": "exercise_repeat",
+      "title": "Listen and repeat",
       "content": {
-        "items": {
-          "groups": [
-            {
-              "title": "set 1",
-              "items": [
-                "А",
-                "Э"
-              ],
-              "audioUrl": ""
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "b1-u2-l2-c3",
-      "lessonId": "b1-u2-l2",
-      "type": "exercise_word_build",
-      "title": "Drill",
-      "order": 3,
-      "content": {
-        "questions": [
+        "section": "practice",
+        "instructionEn": "Tap and repeat each letter.",
+        "items": [
           {
-            "index": 1,
-            "meaningEn": "sample",
-            "letters": [
-              "Б",
-              "А"
-            ],
-            "answer": "БА",
-            "displayAnswer": "ба",
-            "audioUrl": ""
+            "text": "А",
+            "transcription": "a",
+            "pronunciation": "/a/",
+            "audioUrl": "/uploads/audio/letters/a.mp3"
+          },
+          {
+            "text": "Э",
+            "transcription": "e",
+            "pronunciation": "/e/",
+            "audioUrl": "/uploads/audio/letters/e.mp3"
+          },
+          {
+            "text": "Б",
+            "transcription": "b",
+            "pronunciation": "/b/",
+            "audioUrl": "/uploads/audio/letters/b.mp3"
+          },
+          {
+            "text": "М",
+            "transcription": "m",
+            "pronunciation": "/m/",
+            "audioUrl": "/uploads/audio/letters/m.mp3"
           }
         ]
-      }
+      },
+      "lessonId": "b1-u2-l2",
+      "order": 2
     }
   ]
 }
