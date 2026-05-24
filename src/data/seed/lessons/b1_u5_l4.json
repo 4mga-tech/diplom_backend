@@ -2,8 +2,8 @@
   "lesson": {
     "id": "b1-u5-l4",
     "unitId": "b1-u5",
-    "title": "Final B1 review quiz",
-    "subtitle": "Final B1 review quiz",
+    "title": "Unit 5 review and quiz",
+    "subtitle": "5-р нэгжийн давтлага ба сорил",
     "order": 4,
     "xpReward": 25,
     "quizXpReward": 12
@@ -12,92 +12,140 @@
     {
       "id": "b1-u5-l4-c1",
       "lessonId": "b1-u5-l4",
-      "type": "text",
-      "title": "Short note",
+      "type": "classification",
+      "title": "Harmony groups",
       "order": 1,
       "content": {
-        "textMn": "Богино тайлбар, дараа нь дасгал хий.",
-        "textEn": "Short explanation, then practice."
+        "section": "practice",
+        "instructionEn": "Review back/front/neutral groups.",
+        "groups": [
+          {
+            "title": "Back vowel words",
+            "description": "А, О, У vowels",
+            "items": [
+              "ном",
+              "ус",
+              "талх"
+            ]
+          },
+          {
+            "title": "Front vowel words",
+            "description": "Э, Ө, Ү vowels",
+            "items": [
+              "гэр",
+              "сүү",
+              "ээж"
+            ]
+          },
+          {
+            "title": "Neutral И examples",
+            "description": "Includes И",
+            "items": [
+              "бичиг",
+              "миний"
+            ]
+          }
+        ]
       }
     },
     {
       "id": "b1-u5-l4-c2",
       "lessonId": "b1-u5-l4",
-      "type": "vocab_list",
-      "title": "Practice",
-      "order": 2,
-      "content": {
-        "items": [
-          {
-            "text": "аав",
-            "transcription": "aav",
-            "meaningEn": "father",
-            "audioUrl": ""
-          },
-          {
-            "text": "ээж",
-            "transcription": "eej",
-            "meaningEn": "mother",
-            "audioUrl": ""
-          }
-        ]
-      }
-    },
-    {
-      "id": "b1-u5-l4-c3",
-      "lessonId": "b1-u5-l4",
-      "type": "exercise_word_build",
-      "title": "Drill",
-      "order": 3,
-      "content": {
-        "questions": [
-          {
-            "index": 1,
-            "meaningEn": "sample",
-            "letters": [
-              "Б",
-              "А"
-            ],
-            "answer": "БА",
-            "displayAnswer": "ба",
-            "audioUrl": ""
-          }
-        ]
-      }
-    },
-    {
-      "id": "b1-u5-l4-c4",
-      "lessonId": "b1-u5-l4",
       "type": "quiz_link",
       "title": "Start quiz",
-      "order": 4,
+      "order": 2,
       "content": {
-        "quizId": "quiz_b1_u5_l4"
+        "section": "quiz",
+        "quizId": "quiz_b1_u5_final"
       }
     }
   ],
   "quiz": {
-    "id": "quiz_b1_u5_l4",
+    "id": "quiz_b1_u5_final",
     "lessonId": "b1-u5-l4",
-    "title": "Final B1 review quiz Quiz",
+    "title": "B1 Unit 5 Final Quiz",
     "passingScore": 70
   },
   "quizQuestions": [
     {
-      "id": "quiz_b1_u5_l4_q1",
-      "quizId": "quiz_b1_u5_l4",
+      "id": "quiz_b1_u5_final_q1",
+      "quizId": "quiz_b1_u5_final",
       "type": "multiple_choice",
-      "prompt": "Choose the correct answer.",
+      "prompt": "Choose a back vowel word.",
       "options": [
-        "A",
-        "B",
-        "C",
-        "D"
+        "ном",
+        "гэр",
+        "сүү",
+        "ээж"
       ],
-      "correctAnswer": "A",
-      "explanation": "Review complete.",
+      "correctAnswer": "ном",
+      "explanation": "ном",
       "xpReward": 2,
       "order": 1
+    },
+    {
+      "id": "quiz_b1_u5_final_q2",
+      "quizId": "quiz_b1_u5_final",
+      "type": "multiple_choice",
+      "prompt": "Choose a front vowel word.",
+      "options": [
+        "талх",
+        "ус",
+        "гэр",
+        "аав"
+      ],
+      "correctAnswer": "гэр",
+      "explanation": "гэр",
+      "xpReward": 2,
+      "order": 2
+    },
+    {
+      "id": "quiz_b1_u5_final_q3",
+      "quizId": "quiz_b1_u5_final",
+      "type": "multiple_choice",
+      "prompt": "Which set contains neutral И?",
+      "options": [
+        "бичиг",
+        "ном",
+        "ус",
+        "ээж"
+      ],
+      "correctAnswer": "бичиг",
+      "explanation": "бичиг",
+      "xpReward": 2,
+      "order": 3
+    },
+    {
+      "id": "quiz_b1_u5_final_q4",
+      "quizId": "quiz_b1_u5_final",
+      "type": "multiple_choice",
+      "prompt": "Which word fits front vowel group?",
+      "options": [
+        "сүү",
+        "талх",
+        "аав",
+        "ном"
+      ],
+      "correctAnswer": "сүү",
+      "explanation": "сүү",
+      "xpReward": 2,
+      "order": 4
+    },
+    {
+      "id": "quiz_b1_u5_final_q5",
+      "quizId": "quiz_b1_u5_final",
+      "type": "multiple_choice",
+      "prompt": "Basic harmony keeps vowels mostly...",
+      "options": [
+        "mixed randomly",
+        "same front/back group",
+        "silent",
+        "unchanged"
+      ],
+      "correctAnswer": "same front/back group",
+      "explanation": "same front/back group",
+      "xpReward": 2,
+      "order": 5
     }
   ]
 }

@@ -2,8 +2,8 @@
   "lesson": {
     "id": "b1-u5-l2",
     "unitId": "b1-u5",
-    "title": "Front vowels",
-    "subtitle": "Front vowels",
+    "title": "Front vowel words",
+    "subtitle": "Өвөр эгшигтэй үг",
     "order": 2,
     "xpReward": 20,
     "quizXpReward": 0
@@ -12,55 +12,21 @@
     {
       "id": "b1-u5-l2-c1",
       "lessonId": "b1-u5-l2",
-      "type": "text",
-      "title": "Short note",
+      "type": "classification",
+      "title": "Classify words",
       "order": 1,
       "content": {
-        "textMn": "Богино тайлбар, дараа нь дасгал хий.",
-        "textEn": "Short explanation, then practice."
-      }
-    },
-    {
-      "id": "b1-u5-l2-c2",
-      "lessonId": "b1-u5-l2",
-      "type": "vocab_list",
-      "title": "Practice",
-      "order": 2,
-      "content": {
-        "items": [
+        "section": "practice",
+        "instructionEn": "Read and review vowel harmony groups.",
+        "groups": [
           {
-            "text": "аав",
-            "transcription": "aav",
-            "meaningEn": "father",
-            "audioUrl": ""
-          },
-          {
-            "text": "ээж",
-            "transcription": "eej",
-            "meaningEn": "mother",
-            "audioUrl": ""
-          }
-        ]
-      }
-    },
-    {
-      "id": "b1-u5-l2-c3",
-      "lessonId": "b1-u5-l2",
-      "type": "exercise_word_build",
-      "title": "Drill",
-      "order": 3,
-      "content": {
-        "questions": [
-          {
-            "index": 1,
-            "meaningEn": "sample",
-            "letters": [
-              "Б",
-              "А"
-            ],
-            "answer": "БА",
-            "displayAnswer": "ба",
-            "audioUrl": ""
+            "title": "Front vowel words",
+            "description": "Contains Э, Ө, Ү",
+            "items": [
+              "гэр",
+              "сүү",
+              "ээж"
+            ]
           }
         ]
       }
