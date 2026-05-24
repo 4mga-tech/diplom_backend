@@ -1,0 +1,67 @@
+{
+  "lesson": {
+    "id": "b1-u3-l2",
+    "unitId": "b1-u3",
+    "title": "Closed syllables",
+    "subtitle": "Closed syllables",
+    "order": 2,
+    "xpReward": 20,
+    "quizXpReward": 0
+  },
+  "contents": [
+    {
+      "id": "b1-u3-l2-c1",
+      "lessonId": "b1-u3-l2",
+      "type": "text",
+      "title": "Short note",
+      "order": 1,
+      "content": {
+        "textMn": "Богино тайлбар, дараа нь дасгал хий.",
+        "textEn": "Short explanation, then practice."
+      }
+    },
+    {
+      "id": "b1-u3-l2-c2",
+      "lessonId": "b1-u3-l2",
+      "type": "classification",
+      "title": "Practice",
+      "order": 2,
+      "content": {
+        "items": {
+          "groups": [
+            {
+              "title": "set 1",
+              "items": [
+                "А",
+                "Э"
+              ],
+              "audioUrl": ""
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "b1-u3-l2-c3",
+      "lessonId": "b1-u3-l2",
+      "type": "exercise_word_build",
+      "title": "Drill",
+      "order": 3,
+      "content": {
+        "questions": [
+          {
+            "index": 1,
+            "meaningEn": "sample",
+            "letters": [
+              "Б",
+              "А"
+            ],
+            "answer": "БА",
+            "displayAnswer": "ба",
+            "audioUrl": ""
+          }
+        ]
+      }
+    }
+  ]
+}

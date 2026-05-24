@@ -2,10 +2,42 @@
   {
     "id": "b1-u1",
     "courseId": "b1",
-    "title": "Unit 1: Mongolian Cyrillic",
-    "subtitle": "Introduction, classification, writing, reading, final exam",
-    "description": "Learn the Mongolian Cyrillic alphabet through letter recognition, classification, tracing, pronunciation drills, and simple word building.",
+    "title": "Unit 1: Үсэг ба авиа",
+    "subtitle": "Basic letters and sounds",
+    "description": "Learn core letters with short explanations and heavy practice.",
     "order": 1
+  },
+  {
+    "id": "b1-u2",
+    "courseId": "b1",
+    "title": "Unit 2: Эгшиг ба гийгүүлэгч",
+    "subtitle": "Vowels, consonants, and letter groups",
+    "description": "Classify and hear vowel/consonant groups through drills.",
+    "order": 2
+  },
+  {
+    "id": "b1-u3",
+    "courseId": "b1",
+    "title": "Unit 3: Үе бүтээх",
+    "subtitle": "Build syllables from letters",
+    "description": "Build open and closed syllables and train listening.",
+    "order": 3
+  },
+  {
+    "id": "b1-u4",
+    "courseId": "b1",
+    "title": "Unit 4: Богино үг унших",
+    "subtitle": "Read simple words",
+    "description": "Read short words by category with audio-ready vocabulary.",
+    "order": 4
+  },
+  {
+    "id": "b1-u5",
+    "courseId": "b1",
+    "title": "Unit 5: Эгшгийн зохицол",
+    "subtitle": "Basic vowel harmony",
+    "description": "Practice back/front/neutral vowels with beginner harmony rules.",
+    "order": 5
   },
   {
     "id": "m1-u1",

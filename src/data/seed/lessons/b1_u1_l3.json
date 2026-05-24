@@ -2,8 +2,8 @@
   "lesson": {
     "id": "b1-u1-l3",
     "unitId": "b1-u1",
-    "title": "Syllable Basics",
-    "subtitle": "Consonant + vowel makes a syllable",
+    "title": "First consonants",
+    "subtitle": "Эхний гийгүүлэгч",
     "order": 3,
     "xpReward": 20,
     "quizXpReward": 0
@@ -12,41 +12,56 @@
     {
       "id": "b1-u1-l3-c1",
       "lessonId": "b1-u1-l3",
-      "type": "hero_intro",
-      "title": "Letters become syllables",
+      "type": "text",
+      "title": "Short note",
       "order": 1,
       "content": {
-        "textEn": "In Mongolian, many simple syllables are made by joining a consonant and a vowel.",
-        "textMn": "Монгол хэлэнд олон энгийн үе нь гийгүүлэгч ба эгшгийг нийлүүлж бүтдэг.",
-        "stats": [
-          { "label": "Pattern", "value": "C+V" },
-          { "label": "Examples", "value": 12 }
-        ]
+        "textMn": "Эдгээр гийгүүлэгчийг сонсож давтаарай.",
+        "textEn": "Listen and repeat these first consonants."
       }
     },
     {
       "id": "b1-u1-l3-c2",
       "lessonId": "b1-u1-l3",
-      "type": "syllable_builder",
-      "title": "Consonant + vowel",
+      "type": "alphabet_table",
+      "title": "First consonants",
       "order": 2,
       "content": {
-        "instructionEn": "Look at how one consonant combines with different vowels.",
-        "patterns": [
+        "letters": [
           {
-            "base": "Б",
-            "vowels": ["А", "О", "У", "Ө"],
-            "results": ["ба", "бо", "бу", "бө"]
+            "letter": "Б",
+            "lower": "б",
+            "transcription": "b",
+            "pronunciation": "/b/",
+            "audioUrl": ""
           },
           {
-            "base": "М",
-            "vowels": ["А", "О", "У", "Ө"],
-            "results": ["ма", "мо", "му", "мө"]
+            "letter": "М",
+            "lower": "м",
+            "transcription": "m",
+            "pronunciation": "/m/",
+            "audioUrl": ""
           },
           {
-            "base": "Н",
-            "vowels": ["А", "О", "У", "Ө"],
-            "results": ["на", "но", "ну", "нө"]
+            "letter": "Н",
+            "lower": "н",
+            "transcription": "n",
+            "pronunciation": "/n/",
+            "audioUrl": ""
+          },
+          {
+            "letter": "Г",
+            "lower": "г",
+            "transcription": "g",
+            "pronunciation": "/g/",
+            "audioUrl": ""
+          },
+          {
+            "letter": "Л",
+            "lower": "л",
+            "transcription": "l",
+            "pronunciation": "/l/",
+            "audioUrl": ""
           }
         ]
       }
@@ -54,41 +69,41 @@
     {
       "id": "b1-u1-l3-c3",
       "lessonId": "b1-u1-l3",
-      "type": "word_builder",
-      "title": "From syllables to words",
+      "type": "exercise_write",
+      "title": "Trace consonants",
       "order": 3,
       "content": {
-        "instructionEn": "Some short words are made from the letters you already know.",
-        "words": [
-          {
-            "letters": ["Н", "О", "М"],
-            "word": "ном",
-            "meaningEn": "book"
-          },
-          {
-            "letters": ["Г", "Э", "Р"],
-            "word": "гэр",
-            "meaningEn": "home"
-          },
-          {
-            "letters": ["У", "С"],
-            "word": "ус",
-            "meaningEn": "water"
-          }
+        "instructionMn": "Гийгүүлэгчийг давтаж бич.",
+        "instructionEn": "Trace the consonants.",
+        "letters": [
+          "Бб",
+          "Мм",
+          "Нн",
+          "Гг",
+          "Лл"
         ]
       }
     },
     {
       "id": "b1-u1-l3-c4",
       "lessonId": "b1-u1-l3",
-      "type": "next_steps",
-      "title": "Next",
+      "type": "exercise_repeat",
+      "title": "Repeat practice",
       "order": 4,
       "content": {
-        "steps": [
-          "Practice missing letters",
-          "Build simple words yourself",
-          "Prepare for the unit check"
+        "items": [
+          {
+            "text": "ба",
+            "audioUrl": ""
+          },
+          {
+            "text": "ма",
+            "audioUrl": ""
+          },
+          {
+            "text": "на",
+            "audioUrl": ""
+          }
         ]
       }
     }

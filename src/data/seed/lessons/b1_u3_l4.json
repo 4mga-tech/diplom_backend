@@ -1,0 +1,101 @@
+{
+  "lesson": {
+    "id": "b1-u3-l4",
+    "unitId": "b1-u3",
+    "title": "Unit review and quiz",
+    "subtitle": "Unit review and quiz",
+    "order": 4,
+    "xpReward": 25,
+    "quizXpReward": 12
+  },
+  "contents": [
+    {
+      "id": "b1-u3-l4-c1",
+      "lessonId": "b1-u3-l4",
+      "type": "text",
+      "title": "Short note",
+      "order": 1,
+      "content": {
+        "textMn": "Богино тайлбар, дараа нь дасгал хий.",
+        "textEn": "Short explanation, then practice."
+      }
+    },
+    {
+      "id": "b1-u3-l4-c2",
+      "lessonId": "b1-u3-l4",
+      "type": "classification",
+      "title": "Practice",
+      "order": 2,
+      "content": {
+        "items": {
+          "groups": [
+            {
+              "title": "set 1",
+              "items": [
+                "А",
+                "Э"
+              ],
+              "audioUrl": ""
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "b1-u3-l4-c3",
+      "lessonId": "b1-u3-l4",
+      "type": "exercise_word_build",
+      "title": "Drill",
+      "order": 3,
+      "content": {
+        "questions": [
+          {
+            "index": 1,
+            "meaningEn": "sample",
+            "letters": [
+              "Б",
+              "А"
+            ],
+            "answer": "БА",
+            "displayAnswer": "ба",
+            "audioUrl": ""
+          }
+        ]
+      }
+    },
+    {
+      "id": "b1-u3-l4-c4",
+      "lessonId": "b1-u3-l4",
+      "type": "quiz_link",
+      "title": "Start quiz",
+      "order": 4,
+      "content": {
+        "quizId": "quiz_b1_u3_l4"
+      }
+    }
+  ],
+  "quiz": {
+    "id": "quiz_b1_u3_l4",
+    "lessonId": "b1-u3-l4",
+    "title": "Unit review and quiz Quiz",
+    "passingScore": 70
+  },
+  "quizQuestions": [
+    {
+      "id": "quiz_b1_u3_l4_q1",
+      "quizId": "quiz_b1_u3_l4",
+      "type": "multiple_choice",
+      "prompt": "Choose the correct answer.",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correctAnswer": "A",
+      "explanation": "Review complete.",
+      "xpReward": 2,
+      "order": 1
+    }
+  ]
+}
