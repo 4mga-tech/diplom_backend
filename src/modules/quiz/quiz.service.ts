@@ -231,6 +231,27 @@ export const submitQuiz = async (
   };
 };
 
+
+export const getQuizByIdForPlay = async (quizId: string) => {
+  const { quiz, questions } = await getQuizForSubmission(quizId);
+
+  return {
+    id: quiz.id,
+    lessonId: quiz.lessonId,
+    title: quiz.title,
+    passingScore: quiz.passingScore,
+    questions: questions.map((question) => ({
+      id: question.id,
+      type: question.type,
+      prompt: question.prompt,
+      helper: question.helper,
+      options: question.options,
+      xpReward: question.xpReward,
+      order: question.order,
+    })),
+  };
+};
+
 export const spendXpForQuizHint = async ({
   userId,
   quizId,

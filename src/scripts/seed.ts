@@ -469,6 +469,18 @@ async function seed() {
 
   await QuizQuestion.insertMany(lessonSeeds.flatMap((item) => item.quizQuestions ?? []));
 
+  const quizIds = [
+    "quiz_b1_u1_final",
+    "quiz_b1_u2_final",
+    "quiz_b1_u3_final",
+    "quiz_b1_u4_final",
+    "quiz_b1_u5_final",
+  ];
+  const seededQuizIds = (
+    await Quiz.find({ id: { $in: quizIds } }).select({ id: 1, _id: 0 }).lean()
+  ).map((quiz) => quiz.id);
+  console.log("SEEDED QUIZ IDS", seededQuizIds);
+
   console.log("Creating level tests...");
   await LevelTest.insertMany(levelTests);
 

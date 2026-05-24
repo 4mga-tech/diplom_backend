@@ -1,9 +1,10 @@
 import { Router } from "express";
 import { authMiddleware } from "../../middleware/auth.middleware";
-import { spendQuizHintHandler, submitQuizHandler } from "./quiz.controller";
+import { getQuizByIdHandler, spendQuizHintHandler, submitQuizHandler } from "./quiz.controller";
 
 const router = Router();
 
+router.get("/quizzes/:quizId", authMiddleware, getQuizByIdHandler);
 router.post("/quizzes/:quizId/questions/:questionId/hint", authMiddleware, spendQuizHintHandler);
 router.post("/quizzes/:quizId/submit", authMiddleware, submitQuizHandler);
 
