@@ -35,60 +35,60 @@
             "printUpper": "К",
             "printLower": "к",
             "nameMn": "к",
-            "transcription": "",
+            "transcription": "k",
             "pronunciation": "",
             "group": "letter",
-            "audioUrl": ""
+            "audioUrl": "/uploads/audio/letters/k.mp3"
           },
           {
             "index": 2,
             "printUpper": "П",
             "printLower": "п",
             "nameMn": "п",
-            "transcription": "",
+            "transcription": "p",
             "pronunciation": "",
             "group": "letter",
-            "audioUrl": ""
+            "audioUrl": "/uploads/audio/letters/p.mp3"
           },
           {
             "index": 3,
             "printUpper": "Ф",
             "printLower": "ф",
             "nameMn": "ф",
-            "transcription": "",
+            "transcription": "f",
             "pronunciation": "",
             "group": "letter",
-            "audioUrl": ""
+            "audioUrl": "/uploads/audio/letters/f.mp3"
           },
           {
             "index": 4,
             "printUpper": "Щ",
             "printLower": "щ",
             "nameMn": "щ",
-            "transcription": "",
+            "transcription": "shch",
             "pronunciation": "",
             "group": "letter",
-            "audioUrl": ""
+            "audioUrl": "/uploads/audio/letters/shche.mp3"
           },
           {
             "index": 5,
             "printUpper": "Ъ",
             "printLower": "ъ",
             "nameMn": "ъ",
-            "transcription": "",
+            "transcription": "hard sign",
             "pronunciation": "",
             "group": "letter",
-            "audioUrl": ""
+            "audioUrl": "/uploads/audio/letters/hatuu.mp3"
           },
           {
             "index": 6,
             "printUpper": "Ь",
             "printLower": "ь",
             "nameMn": "ь",
-            "transcription": "",
+            "transcription": "soft sign",
             "pronunciation": "",
             "group": "letter",
-            "audioUrl": ""
+            "audioUrl": "/uploads/audio/letters/zuulun.mp3"
           }
         ],
         "instructionEn": "Read each letter and listen to pronunciation.",
@@ -106,60 +106,60 @@
             "printUpper": "К",
             "printLower": "к",
             "nameMn": "к",
-            "transcription": "",
+            "transcription": "k",
             "pronunciation": "",
             "group": "letter",
-            "audioUrl": ""
+            "audioUrl": "/uploads/audio/letters/k.mp3"
           },
           {
             "index": 2,
             "printUpper": "П",
             "printLower": "п",
             "nameMn": "п",
-            "transcription": "",
+            "transcription": "p",
             "pronunciation": "",
             "group": "letter",
-            "audioUrl": ""
+            "audioUrl": "/uploads/audio/letters/p.mp3"
           },
           {
             "index": 3,
             "printUpper": "Ф",
             "printLower": "ф",
             "nameMn": "ф",
-            "transcription": "",
+            "transcription": "f",
             "pronunciation": "",
             "group": "letter",
-            "audioUrl": ""
+            "audioUrl": "/uploads/audio/letters/f.mp3"
           },
           {
             "index": 4,
             "printUpper": "Щ",
             "printLower": "щ",
             "nameMn": "щ",
-            "transcription": "",
+            "transcription": "shch",
             "pronunciation": "",
             "group": "letter",
-            "audioUrl": ""
+            "audioUrl": "/uploads/audio/letters/shche.mp3"
           },
           {
             "index": 5,
             "printUpper": "Ъ",
             "printLower": "ъ",
             "nameMn": "ъ",
-            "transcription": "",
+            "transcription": "hard sign",
             "pronunciation": "",
             "group": "letter",
-            "audioUrl": ""
+            "audioUrl": "/uploads/audio/letters/hatuu.mp3"
           },
           {
             "index": 6,
             "printUpper": "Ь",
             "printLower": "ь",
             "nameMn": "ь",
-            "transcription": "",
+            "transcription": "soft sign",
             "pronunciation": "",
             "group": "letter",
-            "audioUrl": ""
+            "audioUrl": "/uploads/audio/letters/zuulun.mp3"
           }
         ]
       }

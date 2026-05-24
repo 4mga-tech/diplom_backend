@@ -35,60 +35,60 @@
             "printUpper": "Е",
             "printLower": "е",
             "nameMn": "е",
-            "transcription": "",
+            "transcription": "ye",
             "pronunciation": "",
             "group": "letter",
-            "audioUrl": ""
+            "audioUrl": "/uploads/audio/letters/ye.mp3"
           },
           {
             "index": 2,
             "printUpper": "Ё",
             "printLower": "ё",
             "nameMn": "ё",
-            "transcription": "",
+            "transcription": "yo",
             "pronunciation": "",
             "group": "letter",
-            "audioUrl": ""
+            "audioUrl": "/uploads/audio/letters/yo.mp3"
           },
           {
             "index": 3,
             "printUpper": "Й",
             "printLower": "й",
             "nameMn": "й",
-            "transcription": "",
+            "transcription": "y",
             "pronunciation": "",
             "group": "letter",
-            "audioUrl": ""
+            "audioUrl": "/uploads/audio/letters/y.mp3"
           },
           {
             "index": 4,
             "printUpper": "Ы",
             "printLower": "ы",
             "nameMn": "ы",
-            "transcription": "",
+            "transcription": "ii",
             "pronunciation": "",
             "group": "letter",
-            "audioUrl": ""
+            "audioUrl": "/uploads/audio/letters/hagas_i.mp3"
           },
           {
             "index": 5,
             "printUpper": "Ю",
             "printLower": "ю",
             "nameMn": "ю",
-            "transcription": "",
+            "transcription": "yu",
             "pronunciation": "",
             "group": "letter",
-            "audioUrl": ""
+            "audioUrl": "/uploads/audio/letters/yu.mp3"
           },
           {
             "index": 6,
             "printUpper": "Я",
             "printLower": "я",
             "nameMn": "я",
-            "transcription": "",
+            "transcription": "ya",
             "pronunciation": "",
             "group": "letter",
-            "audioUrl": ""
+            "audioUrl": "/uploads/audio/letters/ya.mp3"
           }
         ],
         "instructionEn": "Read each letter and listen to pronunciation.",
@@ -106,60 +106,60 @@
             "printUpper": "Е",
             "printLower": "е",
             "nameMn": "е",
-            "transcription": "",
+            "transcription": "ye",
             "pronunciation": "",
             "group": "letter",
-            "audioUrl": ""
+            "audioUrl": "/uploads/audio/letters/ye.mp3"
           },
           {
             "index": 2,
             "printUpper": "Ё",
             "printLower": "ё",
             "nameMn": "ё",
-            "transcription": "",
+            "transcription": "yo",
             "pronunciation": "",
             "group": "letter",
-            "audioUrl": ""
+            "audioUrl": "/uploads/audio/letters/yo.mp3"
           },
           {
             "index": 3,
             "printUpper": "Й",
             "printLower": "й",
             "nameMn": "й",
-            "transcription": "",
+            "transcription": "y",
             "pronunciation": "",
             "group": "letter",
-            "audioUrl": ""
+            "audioUrl": "/uploads/audio/letters/y.mp3"
           },
           {
             "index": 4,
             "printUpper": "Ы",
             "printLower": "ы",
             "nameMn": "ы",
-            "transcription": "",
+            "transcription": "ii",
             "pronunciation": "",
             "group": "letter",
-            "audioUrl": ""
+            "audioUrl": "/uploads/audio/letters/hagas_i.mp3"
           },
           {
             "index": 5,
             "printUpper": "Ю",
             "printLower": "ю",
             "nameMn": "ю",
-            "transcription": "",
+            "transcription": "yu",
             "pronunciation": "",
             "group": "letter",
-            "audioUrl": ""
+            "audioUrl": "/uploads/audio/letters/yu.mp3"
           },
           {
             "index": 6,
             "printUpper": "Я",
             "printLower": "я",
             "nameMn": "я",
-            "transcription": "",
+            "transcription": "ya",
             "pronunciation": "",
             "group": "letter",
-            "audioUrl": ""
+            "audioUrl": "/uploads/audio/letters/ya.mp3"
           }
         ]
       }
