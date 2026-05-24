@@ -2,8 +2,8 @@
   "lesson": {
     "id": "b1-u2-l1",
     "unitId": "b1-u2",
-    "title": "Vowel and consonant overview",
-    "subtitle": "Эгшиг ба гийгүүлэгч тойм",
+    "title": "Эгшиг зохицох ёс",
+    "subtitle": "Vowel harmony basics",
     "order": 1,
     "xpReward": 20,
     "quizXpReward": 0
@@ -11,71 +11,14 @@
   "contents": [
     {
       "id": "b1-u2-l1-c1",
+      "lessonId": "b1-u2-l1",
       "type": "text",
-      "title": "Short note",
+      "title": "Preview",
+      "order": 1,
       "content": {
-        "textMn": "Эгшиг ба гийгүүлэгчийг ялгаж сурна.",
-        "textEn": "Learn to distinguish vowels and consonants."
-      },
-      "lessonId": "b1-u2-l1",
-      "order": 1
-    },
-    {
-      "id": "b1-u2-l1-c2",
-      "type": "classification",
-      "title": "Letter groups",
-      "content": {
-        "section": "practice",
-        "instructionEn": "Sort letters by type.",
-        "groups": [
-          {
-            "title": "Vowels",
-            "description": "А, Э, И, О, У, Ө, Ү",
-            "items": [
-              "А",
-              "Э",
-              "И",
-              "О",
-              "У",
-              "Ө",
-              "Ү"
-            ]
-          },
-          {
-            "title": "Consonants",
-            "description": "Б, М, Н, Г, Л",
-            "items": [
-              "Б",
-              "М",
-              "Н",
-              "Г",
-              "Л"
-            ]
-          },
-          {
-            "title": "Supporting vowels",
-            "description": "Е, Ё, Ю, Я, Ы, Й",
-            "items": [
-              "Е",
-              "Ё",
-              "Ю",
-              "Я",
-              "Ы",
-              "Й"
-            ]
-          },
-          {
-            "title": "Special signs",
-            "description": "Ъ, Ь",
-            "items": [
-              "Ъ",
-              "Ь"
-            ]
-          }
-        ]
-      },
-      "lessonId": "b1-u2-l1",
-      "order": 2
+        "textMn": "Энэ хичээлд эгшиг зохицох ёсны үндсийг бэлтгэнэ.",
+        "textEn": "Scaffold lesson content will be expanded in next iteration."
+      }
     }
   ]
 }

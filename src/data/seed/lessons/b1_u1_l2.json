@@ -2,8 +2,8 @@
   "lesson": {
     "id": "b1-u1-l2",
     "unitId": "b1-u1",
-    "title": "Supporting vowels",
-    "subtitle": "Туслах эгшиг",
+    "title": "Үндсэн ба туслах эгшиг",
+    "subtitle": "Basic and supporting vowels",
     "order": 2,
     "xpReward": 20,
     "quizXpReward": 0
@@ -13,61 +13,82 @@
       "id": "b1-u1-l2-c1",
       "lessonId": "b1-u1-l2",
       "type": "text",
-      "title": "Short note",
+      "title": "Тайлбар",
       "order": 1,
       "content": {
-        "textMn": "Туслах эгшиг нь үгэнд өөр өөр дуу гаргана.",
-        "textEn": "Supporting vowels appear in many common words."
+        "textMn": "Монгол хэлэнд 13 эгшиг үсэг байдаг. Үндсэн эгшиг нь А, Э, И, О, У, Ө, Ү. Туслах эгшиг нь Е, Ё, Ю, Я, Й, Ы.",
+        "textEn": "Mongolian has 13 vowel letters. The basic vowels are А, Э, И, О, У, Ө, Ү. Supporting vowels include Е, Ё, Ю, Я, Й, Ы."
       }
     },
     {
       "id": "b1-u1-l2-c2",
       "lessonId": "b1-u1-l2",
       "type": "alphabet_table",
-      "title": "Supporting vowels",
+      "title": "Үндсэн эгшиг",
       "order": 2,
       "content": {
         "letters": [
           {
-            "letter": "Е",
-            "lower": "е",
-            "transcription": "ye/e",
-            "pronunciation": "/je, e/",
-            "audioUrl": ""
+            "printUpper": "А",
+            "printLower": "а",
+            "nameMn": "А үсэг",
+            "transcription": "a",
+            "pronunciation": "/a/",
+            "group": "basic_vowel",
+            "audioUrl": "/uploads/audio/letters/a.mp3"
           },
           {
-            "letter": "Ё",
-            "lower": "ё",
-            "transcription": "yo",
-            "pronunciation": "/jo/",
-            "audioUrl": ""
+            "printUpper": "Э",
+            "printLower": "э",
+            "nameMn": "Э үсэг",
+            "transcription": "e",
+            "pronunciation": "/e/",
+            "group": "basic_vowel",
+            "audioUrl": "/uploads/audio/letters/e.mp3"
           },
           {
-            "letter": "Й",
-            "lower": "й",
-            "transcription": "ĭ",
-            "pronunciation": "/j/",
-            "audioUrl": ""
+            "printUpper": "И",
+            "printLower": "и",
+            "nameMn": "И үсэг",
+            "transcription": "i",
+            "pronunciation": "/i/",
+            "group": "basic_vowel",
+            "audioUrl": "/uploads/audio/letters/i.mp3"
           },
           {
-            "letter": "Ы",
-            "lower": "ы",
-            "transcription": "ii",
-            "pronunciation": "/ɨ/",
-            "audioUrl": ""
+            "printUpper": "О",
+            "printLower": "о",
+            "nameMn": "О үсэг",
+            "transcription": "o",
+            "pronunciation": "/o/",
+            "group": "basic_vowel",
+            "audioUrl": "/uploads/audio/letters/o.mp3"
           },
           {
-            "letter": "Ю",
-            "lower": "ю",
-            "transcription": "yu",
-            "pronunciation": "/ju/",
-            "audioUrl": ""
+            "printUpper": "У",
+            "printLower": "у",
+            "nameMn": "У үсэг",
+            "transcription": "u",
+            "pronunciation": "/u/",
+            "group": "basic_vowel",
+            "audioUrl": "/uploads/audio/letters/u.mp3"
           },
           {
-            "letter": "Я",
-            "lower": "я",
-            "transcription": "ya",
-            "pronunciation": "/ja/",
+            "printUpper": "Ө",
+            "printLower": "ө",
+            "nameMn": "Ө үсэг",
+            "transcription": "ö",
+            "pronunciation": "/ø/",
+            "group": "basic_vowel",
+            "audioUrl": "/uploads/audio/letters/ou.mp3"
+          },
+          {
+            "printUpper": "Ү",
+            "printLower": "ү",
+            "nameMn": "Ү үсэг",
+            "transcription": "ü",
+            "pronunciation": "/y/",
+            "group": "basic_vowel",
             "audioUrl": ""
           }
         ]
@@ -76,9 +97,79 @@
     {
       "id": "b1-u1-l2-c3",
       "lessonId": "b1-u1-l2",
+      "type": "classification",
+      "title": "Туслах эгшиг",
+      "order": 3,
+      "content": {
+        "groups": [
+          {
+            "labelMn": "Туслах эгшиг",
+            "labelEn": "Supporting vowels",
+            "items": [
+              "Е",
+              "Ё",
+              "Ю",
+              "Я",
+              "Й",
+              "Ы"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b1-u1-l2-c4",
+      "lessonId": "b1-u1-l2",
+      "type": "exercise_repeat",
+      "title": "Сонсож давтах",
+      "order": 4,
+      "content": {
+        "items": [
+          {
+            "text": "Е е",
+            "transcription": "ye/e",
+            "pronunciation": "/je, e/",
+            "audioUrl": "/uploads/audio/letters/ye.mp3"
+          },
+          {
+            "text": "Ё ё",
+            "transcription": "yo",
+            "pronunciation": "/jo/",
+            "audioUrl": "/uploads/audio/letters/yo.mp3"
+          },
+          {
+            "text": "Ю ю",
+            "transcription": "yu",
+            "pronunciation": "/ju/",
+            "audioUrl": "/uploads/audio/letters/yu.mp3"
+          },
+          {
+            "text": "Я я",
+            "transcription": "ya",
+            "pronunciation": "/ja/",
+            "audioUrl": "/uploads/audio/letters/ya.mp3"
+          },
+          {
+            "text": "Й й",
+            "transcription": "ĭ",
+            "pronunciation": "/j/",
+            "audioUrl": "/uploads/audio/letters/hagas_i.mp3"
+          },
+          {
+            "text": "Ы ы",
+            "transcription": "y",
+            "pronunciation": "/ɨ/",
+            "audioUrl": ""
+          }
+        ]
+      }
+    },
+    {
+      "id": "b1-u1-l2-c5",
+      "lessonId": "b1-u1-l2",
       "type": "exercise_write",
       "title": "Letter tracing",
-      "order": 3,
+      "order": 5,
       "content": {
         "instructionMn": "Үсэг бүрийг том ба жижиг хэлбэрээр бич.",
         "instructionEn": "Trace uppercase and lowercase.",
@@ -89,33 +180,6 @@
           "Ыы",
           "Юю",
           "Яя"
-        ]
-      }
-    },
-    {
-      "id": "b1-u1-l2-c4",
-      "lessonId": "b1-u1-l2",
-      "type": "exercise_repeat",
-      "title": "Repeat practice",
-      "order": 4,
-      "content": {
-        "items": [
-          {
-            "text": "Е е",
-            "audioUrl": ""
-          },
-          {
-            "text": "Ё ё",
-            "audioUrl": ""
-          },
-          {
-            "text": "Ю ю",
-            "audioUrl": ""
-          },
-          {
-            "text": "Я я",
-            "audioUrl": ""
-          }
         ]
       }
     }

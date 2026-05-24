@@ -2,22 +2,22 @@
   "lesson": {
     "id": "b1-u2-l4",
     "unitId": "b1-u2",
-    "title": "Unit 2 review and quiz",
-    "subtitle": "2-р нэгжийн давтлага ба сорил",
+    "title": "Unit 2 review quiz",
+    "subtitle": "Unit 2 scaffold quiz",
     "order": 4,
-    "xpReward": 25,
-    "quizXpReward": 12
+    "xpReward": 20,
+    "quizXpReward": 10
   },
   "contents": [
     {
       "id": "b1-u2-l4-c1",
       "lessonId": "b1-u2-l4",
       "type": "text",
-      "title": "Review",
+      "title": "Preview",
       "order": 1,
       "content": {
-        "textMn": "Эгшиг, гийгүүлэгч, туслах эгшиг, тусгай тэмдэгтийг давт.",
-        "textEn": "Review all letter group types."
+        "textMn": "2-р нэгжийн товч давтлага.",
+        "textEn": "Scaffold lesson content will be expanded in next iteration."
       }
     },
     {
@@ -27,7 +27,6 @@
       "title": "Start quiz",
       "order": 2,
       "content": {
-        "section": "quiz",
         "quizId": "quiz_b1_u2_final"
       }
     }
@@ -35,7 +34,7 @@
   "quiz": {
     "id": "quiz_b1_u2_final",
     "lessonId": "b1-u2-l4",
-    "title": "B1 Unit 2 Final Quiz",
+    "title": "B1 Unit 2 Quiz",
     "passingScore": 70
   },
   "quizQuestions": [
@@ -43,15 +42,15 @@
       "id": "quiz_b1_u2_final_q1",
       "quizId": "quiz_b1_u2_final",
       "type": "multiple_choice",
-      "prompt": "Which is a consonant?",
+      "prompt": "Unit 2 scaffold question 1",
       "options": [
-        "А",
-        "Э",
-        "Б",
-        "О"
+        "A",
+        "B",
+        "C",
+        "D"
       ],
-      "correctAnswer": "Б",
-      "explanation": "Б",
+      "correctAnswer": "A",
+      "explanation": "Scaffold question.",
       "xpReward": 2,
       "order": 1
     },
@@ -59,15 +58,15 @@
       "id": "quiz_b1_u2_final_q2",
       "quizId": "quiz_b1_u2_final",
       "type": "multiple_choice",
-      "prompt": "Which set has only vowels?",
+      "prompt": "Unit 2 scaffold question 2",
       "options": [
-        "А, Э, И",
-        "Б, М, Н",
-        "Е, Б, Ю",
-        "Ъ, Ь"
+        "A",
+        "B",
+        "C",
+        "D"
       ],
-      "correctAnswer": "А, Э, И",
-      "explanation": "А, Э, И",
+      "correctAnswer": "A",
+      "explanation": "Scaffold question.",
       "xpReward": 2,
       "order": 2
     },
@@ -75,15 +74,15 @@
       "id": "quiz_b1_u2_final_q3",
       "quizId": "quiz_b1_u2_final",
       "type": "multiple_choice",
-      "prompt": "Which is a supporting vowel?",
+      "prompt": "Unit 2 scaffold question 3",
       "options": [
-        "Ю",
-        "Л",
-        "Н",
-        "Ө"
+        "A",
+        "B",
+        "C",
+        "D"
       ],
-      "correctAnswer": "Ю",
-      "explanation": "Ю",
+      "correctAnswer": "A",
+      "explanation": "Scaffold question.",
       "xpReward": 2,
       "order": 3
     },
@@ -91,15 +90,15 @@
       "id": "quiz_b1_u2_final_q4",
       "quizId": "quiz_b1_u2_final",
       "type": "multiple_choice",
-      "prompt": "Where does Ь belong?",
+      "prompt": "Unit 2 scaffold question 4",
       "options": [
-        "Vowels",
-        "Consonants",
-        "Special signs",
-        "Supporting vowels"
+        "A",
+        "B",
+        "C",
+        "D"
       ],
-      "correctAnswer": "Special signs",
-      "explanation": "Special signs",
+      "correctAnswer": "A",
+      "explanation": "Scaffold question.",
       "xpReward": 2,
       "order": 4
     },
@@ -107,15 +106,15 @@
       "id": "quiz_b1_u2_final_q5",
       "quizId": "quiz_b1_u2_final",
       "type": "multiple_choice",
-      "prompt": "Which group does М belong to?",
+      "prompt": "Unit 2 scaffold question 5",
       "options": [
-        "Vowels",
-        "Consonants",
-        "Special signs",
-        "Supporting vowels"
+        "A",
+        "B",
+        "C",
+        "D"
       ],
-      "correctAnswer": "Consonants",
-      "explanation": "Consonants",
+      "correctAnswer": "A",
+      "explanation": "Scaffold question.",
       "xpReward": 2,
       "order": 5
     }

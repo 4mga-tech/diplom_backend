@@ -2,8 +2,8 @@
   "lesson": {
     "id": "b1-u2-l2",
     "unitId": "b1-u2",
-    "title": "Listen and classify letters",
-    "subtitle": "Сонсож ангилах",
+    "title": "Ы, ИЙ хоёрыг ялгах",
+    "subtitle": "Distinguish Ы and ИЙ",
     "order": 2,
     "xpReward": 20,
     "quizXpReward": 0
@@ -11,51 +11,14 @@
   "contents": [
     {
       "id": "b1-u2-l2-c1",
+      "lessonId": "b1-u2-l2",
       "type": "text",
-      "title": "Short note",
+      "title": "Preview",
+      "order": 1,
       "content": {
-        "textMn": "Сонсож аль бүлэгт орж байгааг тодорхойл.",
-        "textEn": "Listen and identify which group each letter belongs to."
-      },
-      "lessonId": "b1-u2-l2",
-      "order": 1
-    },
-    {
-      "id": "b1-u2-l2-c2",
-      "type": "exercise_repeat",
-      "title": "Listen and repeat",
-      "content": {
-        "section": "practice",
-        "instructionEn": "Tap and repeat each letter.",
-        "items": [
-          {
-            "text": "А",
-            "transcription": "a",
-            "pronunciation": "/a/",
-            "audioUrl": "/uploads/audio/letters/a.mp3"
-          },
-          {
-            "text": "Э",
-            "transcription": "e",
-            "pronunciation": "/e/",
-            "audioUrl": "/uploads/audio/letters/e.mp3"
-          },
-          {
-            "text": "Б",
-            "transcription": "b",
-            "pronunciation": "/b/",
-            "audioUrl": "/uploads/audio/letters/b.mp3"
-          },
-          {
-            "text": "М",
-            "transcription": "m",
-            "pronunciation": "/m/",
-            "audioUrl": "/uploads/audio/letters/m.mp3"
-          }
-        ]
-      },
-      "lessonId": "b1-u2-l2",
-      "order": 2
+        "textMn": "Энэ хичээлд Ы, ИЙ-гийн бичлэг ба дуудлагын ялгааг үзнэ.",
+        "textEn": "Scaffold lesson content will be expanded in next iteration."
+      }
     }
   ]
 }

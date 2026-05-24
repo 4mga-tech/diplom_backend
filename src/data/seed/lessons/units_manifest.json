@@ -2,42 +2,26 @@
   {
     "id": "b1-u1",
     "courseId": "b1",
-    "title": "Үсэг ба авиа",
-    "subtitle": "Letters and sounds",
-    "description": "Learn core letters with short explanations and heavy practice.",
+    "title": "Цагаан толгой ба эгшиг үсэг",
+    "subtitle": "Alphabet and vowels",
+    "description": "Learn the 35-letter Mongolian Cyrillic alphabet and core vowel system.",
     "order": 1
   },
   {
     "id": "b1-u2",
     "courseId": "b1",
-    "title": "Эгшиг ба гийгүүлэгч",
-    "subtitle": "Vowels and consonants",
-    "description": "Classify and hear vowel/consonant groups through drills.",
+    "title": "Эгшгийн зохицол ба тусгай эгшиг",
+    "subtitle": "Vowel harmony and special vowel rules",
+    "description": "Introduce harmony basics and special vowel writing distinctions.",
     "order": 2
   },
   {
     "id": "b1-u3",
     "courseId": "b1",
-    "title": "Үе бүтээх",
-    "subtitle": "Build syllables",
-    "description": "Build open and closed syllables and train listening.",
+    "title": "Балархай эгшиг ба ялгах дүрэм",
+    "subtitle": "Unstressed vowels and spelling distinctions",
+    "description": "Scaffold unstressed-vowel and consonant distinction rules.",
     "order": 3
-  },
-  {
-    "id": "b1-u4",
-    "courseId": "b1",
-    "title": "Богино үг унших",
-    "subtitle": "Read simple words",
-    "description": "Read short words by category with audio-ready vocabulary.",
-    "order": 4
-  },
-  {
-    "id": "b1-u5",
-    "courseId": "b1",
-    "title": "Эгшгийн зохицол",
-    "subtitle": "Basic vowel harmony",
-    "description": "Practice back/front/neutral vowels with beginner harmony rules.",
-    "order": 5
   },
   {
     "id": "m1-u1",
