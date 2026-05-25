@@ -52,7 +52,8 @@
       "correctAnswer": "35",
       "explanation": "Монгол кирилл цагаан толгой 35 үсэгтэй.",
       "xpReward": 2,
-      "order": 1
+      "order": 1,
+      "helper": "How many letters are in the Mongolian Cyrillic alphabet?"
     },
     {
       "id": "quiz_b1_u1_final_q2",
@@ -68,7 +69,8 @@
       "correctAnswer": "13",
       "explanation": "Эгшиг үсэг нийт 13.",
       "xpReward": 2,
-      "order": 2
+      "order": 2,
+      "helper": "How many vowel letters are there?"
     },
     {
       "id": "quiz_b1_u1_final_q3",
@@ -84,7 +86,8 @@
       "correctAnswer": "Ө",
       "explanation": "Ө нь үндсэн эгшиг.",
       "xpReward": 2,
-      "order": 3
+      "order": 3,
+      "helper": "Which one is a basic vowel?"
     },
     {
       "id": "quiz_b1_u1_final_q4",
@@ -100,7 +103,8 @@
       "correctAnswer": "Ю",
       "explanation": "Ю нь туслах эгшиг.",
       "xpReward": 2,
-      "order": 4
+      "order": 4,
+      "helper": "Choose the supporting vowel."
     },
     {
       "id": "quiz_b1_u1_final_q5",
@@ -116,7 +120,8 @@
       "correctAnswer": "А, О, У",
       "explanation": "Эр эгшиг: А, О, У.",
       "xpReward": 2,
-      "order": 5
+      "order": 5,
+      "helper": "Which set contains back vowels?"
     },
     {
       "id": "quiz_b1_u1_final_q6",
@@ -132,7 +137,8 @@
       "correctAnswer": "И",
       "explanation": "Саармаг эгшиг нь И.",
       "xpReward": 2,
-      "order": 6
+      "order": 6,
+      "helper": "Which one is the neutral vowel?"
     },
     {
       "id": "quiz_b1_u1_final_q7",
@@ -148,7 +154,8 @@
       "correctAnswer": "ээ",
       "explanation": "ээ нь урт эгшиг.",
       "xpReward": 2,
-      "order": 7
+      "order": 7,
+      "helper": "Choose an example of a long vowel."
     },
     {
       "id": "quiz_b1_u1_final_q8",
@@ -164,7 +171,8 @@
       "correctAnswer": "ай",
       "explanation": "ай нь хос эгшиг.",
       "xpReward": 2,
-      "order": 8
+      "order": 8,
+      "helper": "Choose an example of a diphthong."
     }
   ]
 }
