@@ -95,16 +95,16 @@
         "section": "grammar",
         "notes": [
           {
-            "mn": "Эр эгшиг: А, О, У.",
-            "en": "Back vowels: А, О, У."
+            "mn": "Монгол үгэнд ихэвчлэн нэг төрлийн эгшиг зонхилж ордог.",
+            "en": "Mongolian words usually contain vowels from the same group."
           },
           {
-            "mn": "Эм эгшиг: Э, Ө, Ү.",
-            "en": "Front vowels: Э, Ө, Ү."
+            "mn": "И үсэг нь саармаг эгшиг тул эр болон эм эгшигтэй хамт орж чадна.",
+            "en": "The vowel И is neutral, so it can appear with both back and front vowels."
           },
           {
-            "mn": "Саармаг эгшиг: И.",
-            "en": "Neutral vowel: И."
+            "mn": "Эгшгийн ангиллыг мэдэх нь зөв дуудлага болон зөв бичихэд чухал.",
+            "en": "Understanding vowel groups is important for correct pronunciation and spelling."
           }
         ]
       }

@@ -30,12 +30,16 @@
         "section": "grammar",
         "notes": [
           {
-            "mn": "Урт эгшиг нь давхар бичигдэж уртаар дуудагдана.",
-            "en": "Long vowels are written doubled and pronounced longer."
+            "mn": "Урт эгшиг нь богино эгшгээс илүү удаан сунгаж дуудагдана.",
+            "en": "Long vowels are pronounced longer than short vowels."
           },
           {
-            "mn": "Хос эгшиг нь хоёр авиа нийлж нэг үе мэт дуудагдана.",
-            "en": "Diphthongs combine two vowel sounds."
+            "mn": "Үгийн утга урт эгшгээс шалтгаалан өөрчлөгдөж болдог.",
+            "en": "The meaning of a word can change depending on vowel length."
+          },
+          {
+            "mn": "Хос эгшгийг уншихдаа хоёр үсгийг салгахгүй, нэг үе мэт нийлүүлж дуудна.",
+            "en": "When pronouncing diphthongs, the two vowels are blended into one syllable."
           }
         ]
       }

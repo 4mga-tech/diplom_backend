@@ -30,12 +30,16 @@
         "section": "grammar",
         "notes": [
           {
-            "mn": "Үндсэн эгшиг нь А, Э, И, О, У, Ө, Ү.",
-            "en": "The basic vowels are А, Э, И, О, У, Ө, Ү."
+            "mn": "Үндсэн эгшиг нь үгийн гол авиаг үүсгэдэг бөгөөд дангаар орж чадна.",
+            "en": "Basic vowels create the core sound of a word and can appear independently."
           },
           {
-            "mn": "Туслах эгшиг нь Е, Ё, Ю, Я, Й, Ы.",
-            "en": "Supporting vowels are Е, Ё, Ю, Я, Й, Ы."
+            "mn": "Е, Ё, Ю, Я үсгүүд нь ихэвчлэн 'й' авиа дагуулсан дуудлагатай байдаг.",
+            "en": "Letters like Е, Ё, Ю, and Я often include a 'y' sound in pronunciation."
+          },
+          {
+            "mn": "Ө ба Ү үсгийг зөв дуудах нь Монгол үгийн утгыг ялгахад чухал байдаг.",
+            "en": "Correct pronunciation of Ө and Ү is important because it can change word meanings."
           }
         ]
       }
