@@ -62,7 +62,7 @@
           {"line": "ном", "audioUrl": "/uploads/audio/words/book.mp3"},
           {"line": "ус", "audioUrl": "/uploads/audio/words/water.mp3"},
           {"line": "гэр", "audioUrl": "/uploads/audio/words/house.mp3"},
-          {"line": "сүү", "audioUrl": ""},
+          {"line": "сүү", "audioUrl":  "/uploads/audio/syllables/suu.mp3"},
           {"line": "би", "audioUrl": "/uploads/audio/words/me.mp3"},
           {"line": "чи", "audioUrl": "/uploads/audio/words/you.mp3"}
         ]

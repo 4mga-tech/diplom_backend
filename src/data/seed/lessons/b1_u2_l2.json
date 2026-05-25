@@ -42,10 +42,10 @@
       "order": 3,
       "content": {
         "items": [
-          {"word": "номын", "translation": "of a book", "transcription": "nomiin", "audioUrl": ""},
-          {"word": "багшийн", "translation": "teacher’s", "transcription": "bagshiin", "audioUrl": ""},
-          {"word": "аавын", "translation": "father’s", "transcription": "aaviin", "audioUrl": ""},
-          {"word": "ээжийн", "translation": "mother’s", "transcription": "eejiin", "audioUrl": ""}
+          {"word": "номын", "translation": "of a book", "transcription": "nomiin", "audioUrl": "/uploads/audio/words/nomiin.mp3"},
+          {"word": "багшийн", "translation": "teacher’s", "transcription": "bagshiin", "audioUrl": "/uploads/audio/words/bagshiin.mp3"},
+          {"word": "аавын", "translation": "father’s", "transcription": "aaviin", "audioUrl": "/uploads/audio/words/aaviin.mp3"},
+          {"word": "ээжийн", "translation": "mother’s", "transcription": "eejiin", "audioUrl": "/uploads/audio/words/eejiin.mp3"}
         ]
       }
     },
@@ -72,10 +72,10 @@
         "instructionMn": "Дараах үгсийг удаанаар уншаад Ы, ИЙ-г ялгаарай.",
         "instructionEn": "Read each word slowly and distinguish Ы vs ИЙ.",
         "rows": [
-          {"line": "номын", "audioUrl": ""},
-          {"line": "аавын", "audioUrl": ""},
-          {"line": "багшийн", "audioUrl": ""},
-          {"line": "ээжийн", "audioUrl": ""}
+          {"line": "номын", "audioUrl": "/uploads/audio/words/nomiin.mp3"},
+          {"line": "аавын", "audioUrl": "/uploads/audio/words/aaviin.mp3"},
+          {"line": "багшийн", "audioUrl": "/uploads/audio/words/bagshiin.mp3"},
+          {"line": "ээжийн", "audioUrl": "/uploads/audio/words/eejiin.mp3"}
         ]
       }
     }

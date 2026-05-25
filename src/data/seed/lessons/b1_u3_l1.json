@@ -56,14 +56,14 @@
             "translation": "of the book",
             "exampleMn": "Номын хавтас цэнхэр.",
             "exampleEn": "The book cover is blue.",
-            "audioUrl": ""
+            "audioUrl": "/uploads/audio/words/nomiin.mp3"
           },
           {
             "word": "гэрийн",
             "translation": "home / household",
             "exampleMn": "Гэрийн даалгавраа хий.",
             "exampleEn": "Do your homework.",
-            "audioUrl": ""
+            "audioUrl": "/uploads/audio/words/geriin.mp3"
           },
           {
             "word": "хүүхэд",
@@ -84,7 +84,7 @@
             "translation": "teacher's / of the teacher",
             "exampleMn": "Багшийн өрөө хоёр давхарт.",
             "exampleEn": "The teacher's room is on the second floor.",
-            "audioUrl": ""
+            "audioUrl": "/uploads/audio/words/bagshiin.mp3"
           }
         ]
       }
@@ -103,13 +103,13 @@
             "text": "номын",
             "transcription": "nomiin",
             "pronunciation": "/nɔmɪŋ/",
-            "audioUrl": ""
+            "audioUrl": "/uploads/audio/words/nomiin.mp3"
           },
           {
             "text": "гэрийн",
             "transcription": "geriin",
             "pronunciation": "/ɡerɪŋ/",
-            "audioUrl": ""
+            "audioUrl": "/uploads/audio/words/geriin.mp3"
           },
           {
             "text": "хүүхэд",
@@ -127,7 +127,7 @@
             "text": "багшийн",
             "transcription": "bagshiin",
             "pronunciation": "/baɡʃiŋ/",
-            "audioUrl": ""
+            "audioUrl": "/uploads/audio/words/bagshiin.mp3"
           }
         ]
       }

@@ -59,49 +59,49 @@
             "text": "бал",
             "transcription": "bal",
             "pronunciation": "/bal/",
-            "audioUrl": ""
+            "audioUrl": "/uploads/audio/words/bal.mp3"
           },
           {
             "text": "вал",
             "transcription": "val",
             "pronunciation": "/val/",
-            "audioUrl": ""
+            "audioUrl": "/uploads/audio/words/val.mp3"
           },
           {
             "text": "гал",
             "transcription": "gal",
             "pronunciation": "/ɢal/",
-            "audioUrl": ""
+            "audioUrl": "/uploads/audio/words/gal.mp3"
           },
           {
             "text": "гэр",
             "transcription": "ger",
             "pronunciation": "/ger/",
-            "audioUrl": ""
+            "audioUrl": "/uploads/audio/words/ger.mp3"
           },
           {
             "text": "ан",
             "transcription": "an",
             "pronunciation": "/an/",
-            "audioUrl": ""
+            "audioUrl": "/uploads/audio/words/an.mp3"
           },
           {
             "text": "на",
             "transcription": "na",
             "pronunciation": "/na/",
-            "audioUrl": ""
+            "audioUrl": "/uploads/audio/words/na.mp3"
           },
           {
             "text": "ном",
             "transcription": "nom",
             "pronunciation": "/nɔm/",
-            "audioUrl": ""
+            "audioUrl": "/uploads/audio/words/nom.mp3"
           },
           {
             "text": "хүн",
             "transcription": "khun",
             "pronunciation": "/xʊn/",
-            "audioUrl": ""
+            "audioUrl": "/uploads/audio/words/khun.mp3"
           }
         ]
       }
@@ -120,19 +120,19 @@
             "prompt": "_ал (б/в)",
             "correctAnswer": "бал",
             "options": ["бал", "вал"],
-            "audioUrl": ""
+            "audioUrl": "/uploads/audio/words/bal.mp3"
           },
           {
             "prompt": "_эр (г/х)",
             "correctAnswer": "гэр",
             "options": ["гэр", "хэр"],
-            "audioUrl": ""
+            "audioUrl": "/uploads/audio/words/ger.mp3"
           },
           {
             "prompt": "_ом (н/м)",
             "correctAnswer": "ном",
             "options": ["ном", "мом"],
-            "audioUrl": ""
+            "audioUrl": "/uploads/audio/words/nom.mp3"
           }
         ]
       }

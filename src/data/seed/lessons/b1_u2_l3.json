@@ -238,7 +238,7 @@
           },
           {
             "line": "ё",
-            "audioUrl": "/uploads/audio/letters/yo.mp3"
+                "audioUrl": "/uploads/audio/letters/yo.mp3"
           },
           {
             "line": "ю",
@@ -250,15 +250,15 @@
           },
           {
             "line": "яа",
-            "audioUrl": ""
+            "audioUrl": "/uploads/audio/letters/ya.mp3"
           },
           {
             "line": "ёо",
-            "audioUrl": ""
+            "audioUrl": "/uploads/audio/letters/yo.mp3"
           },
           {
             "line": "юу",
-            "audioUrl": ""
+            "audioUrl": "/uploads/audio/letters/yu.mp3"
           }
         ]
       }
