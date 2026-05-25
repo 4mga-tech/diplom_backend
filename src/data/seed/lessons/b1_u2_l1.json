@@ -13,11 +13,59 @@
       "id": "b1-u2-l1-c1",
       "lessonId": "b1-u2-l1",
       "type": "text",
-      "title": "Preview",
+      "title": "Үндсэн ойлголт",
       "order": 1,
       "content": {
-        "textMn": "Энэ хичээлд эгшиг зохицох ёсны үндсийг бэлтгэнэ.",
-        "textEn": "Scaffold lesson content will be expanded in next iteration."
+        "textMn": "Эгшиг зохицох ёс гэдэг нь үгийн доторх эгшгүүд нэг төрлийн өнгө аястай байхыг хэлнэ.",
+        "textEn": "Vowel harmony means vowels inside a word usually belong to the same vowel group."
+      }
+    },
+    {
+      "id": "b1-u2-l1-c2",
+      "lessonId": "b1-u2-l1",
+      "type": "grammar_note",
+      "title": "Дүрэм",
+      "order": 2,
+      "content": {
+        "notes": [
+          {"mn": "Эр эгшигтэй үгэнд ихэвчлэн эр эгшиг орно.", "en": "Words with back vowels usually keep back vowels."},
+          {"mn": "Эм эгшигтэй үгэнд ихэвчлэн эм эгшиг орно.", "en": "Words with front vowels usually keep front vowels."},
+          {"mn": "И нь саармаг эгшиг тул аль ч бүлэгтэй хамт орж болно.", "en": "И is neutral and can appear with either group."}
+        ]
+      }
+    },
+    {
+      "id": "b1-u2-l1-c3",
+      "lessonId": "b1-u2-l1",
+      "type": "classification",
+      "title": "Ангилал",
+      "order": 3,
+      "content": {
+        "groups": [
+          {"title": "Эр эгшигтэй үг / Back vowel words", "items": ["аав", "ном", "ус", "сургууль"]},
+          {"title": "Эм эгшигтэй үг / Front vowel words", "items": ["ээж", "гэр", "сүү", "үс"]},
+          {"title": "Саармаг И орсон үг / Words with neutral И", "items": ["би", "чи", "багшийн", "номын"]}
+        ]
+      }
+    },
+    {
+      "id": "b1-u2-l1-c4",
+      "lessonId": "b1-u2-l1",
+      "type": "exercise_repeat",
+      "title": "Давтан унш",
+      "order": 4,
+      "content": {
+        "instructionMn": "Үгсийг бүлгээр нь чангаар уншаарай.",
+        "instructionEn": "Read the words aloud by group.",
+        "rows": [
+          {"line": "аав", "audioUrl": "/uploads/audio/words/father.mp3"},
+          {"line": "ном", "audioUrl": "/uploads/audio/words/book.mp3"},
+          {"line": "ус", "audioUrl": "/uploads/audio/words/water.mp3"},
+          {"line": "гэр", "audioUrl": "/uploads/audio/words/house.mp3"},
+          {"line": "сүү", "audioUrl": ""},
+          {"line": "би", "audioUrl": "/uploads/audio/words/me.mp3"},
+          {"line": "чи", "audioUrl": "/uploads/audio/words/you.mp3"}
+        ]
       }
     }
   ]
