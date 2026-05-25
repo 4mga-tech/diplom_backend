@@ -24,11 +24,20 @@
       "id": "b1-u1-l1-c2",
       "lessonId": "b1-u1-l1",
       "type": "grammar_note",
-      "title": "Ерөнхий тойм",
+      "title": "Санамж",
       "order": 2,
       "content": {
-        "textMn": "Цагаан толгой: 35 үсэг. Эгшиг: 13, гийгүүлэгч: 20, тэмдэг үсэг: Ь, Ъ.",
-        "textEn": "Alphabet overview: 35 letters total. 13 vowels, 20 consonants, and 2 sign letters: Ь, Ъ."
+        "section": "grammar",
+        "notes": [
+          {
+            "mn": "Монгол кирилл цагаан толгой 35 үсэгтэй.",
+            "en": "The Mongolian Cyrillic alphabet has 35 letters."
+          },
+          {
+            "mn": "Үсгийг эгшиг, гийгүүлэгч, тэмдэг үсэг гэж ангилна.",
+            "en": "Letters are grouped into vowels, consonants, and sign letters."
+          }
+        ]
       }
     },
     {

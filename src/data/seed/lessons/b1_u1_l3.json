@@ -92,8 +92,21 @@
       "title": "Санамж",
       "order": 4,
       "content": {
-        "textMn": "Нэг үгийн дотор ихэвчлэн эр, эм эгшиг тус тусдаа зохицон ордог.",
-        "textEn": "Inside one word, back and front vowels usually stay in their own group."
+        "section": "grammar",
+        "notes": [
+          {
+            "mn": "Эр эгшиг: А, О, У.",
+            "en": "Back vowels: А, О, У."
+          },
+          {
+            "mn": "Эм эгшиг: Э, Ө, Ү.",
+            "en": "Front vowels: Э, Ө, Ү."
+          },
+          {
+            "mn": "Саармаг эгшиг: И.",
+            "en": "Neutral vowel: И."
+          }
+        ]
       }
     },
     {

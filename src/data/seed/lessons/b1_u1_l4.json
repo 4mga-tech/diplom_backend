@@ -21,11 +21,31 @@
       }
     },
     {
+      "id": "b1-u1-l4-c1n",
+      "lessonId": "b1-u1-l4",
+      "type": "grammar_note",
+      "title": "Санамж",
+      "order": 2,
+      "content": {
+        "section": "grammar",
+        "notes": [
+          {
+            "mn": "Урт эгшиг нь давхар бичигдэж уртаар дуудагдана.",
+            "en": "Long vowels are written doubled and pronounced longer."
+          },
+          {
+            "mn": "Хос эгшиг нь хоёр авиа нийлж нэг үе мэт дуудагдана.",
+            "en": "Diphthongs combine two vowel sounds."
+          }
+        ]
+      }
+    },
+    {
       "id": "b1-u1-l4-c2",
       "lessonId": "b1-u1-l4",
       "type": "exercise_repeat",
       "title": "Урт эгшиг",
-      "order": 2,
+      "order": 3,
       "content": {
         "items": [
           {
@@ -72,7 +92,7 @@
       "lessonId": "b1-u1-l4",
       "type": "vocab_list",
       "title": "Хос эгшиг",
-      "order": 3,
+      "order": 4,
       "content": {
         "items": [
           {
