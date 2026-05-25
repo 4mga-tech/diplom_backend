@@ -13,11 +13,70 @@
       "id": "b1-u2-l2-c1",
       "lessonId": "b1-u2-l2",
       "type": "text",
-      "title": "Preview",
+      "title": "Үндсэн ялгаа",
       "order": 1,
       "content": {
-        "textMn": "Энэ хичээлд Ы, ИЙ-гийн бичлэг ба дуудлагын ялгааг үзнэ.",
-        "textEn": "Scaffold lesson content will be expanded in next iteration."
+        "textMn": "Ы болон ИЙ нь урт и авиа мэт сонсогдож болох ч бичигдэх байрлал, үүрэг нь ялгаатай.",
+        "textEn": "Ы and ИЙ can sound similar, but they are used differently in spelling."
+      }
+    },
+    {
+      "id": "b1-u2-l2-c2",
+      "lessonId": "b1-u2-l2",
+      "type": "grammar_note",
+      "title": "Санамж",
+      "order": 2,
+      "content": {
+        "notes": [
+          {"mn": "Ы нь ихэвчлэн үгийн төгсгөлд, харьяалах утгатай хэлбэрт орно.", "en": "Ы often appears near the end of words, especially in possessive forms."},
+          {"mn": "ИЙ нь урт “ий” авиа болон дагаварт олонтаа хэрэглэгдэнэ.", "en": "ИЙ often represents a long “ii” sound and appears in suffixes."},
+          {"mn": "Эхний шатанд үгийн жишээгээр ялгаж сурна.", "en": "At this level, learn the difference through examples."}
+        ]
+      }
+    },
+    {
+      "id": "b1-u2-l2-c3",
+      "lessonId": "b1-u2-l2",
+      "type": "vocab_list",
+      "title": "Жишээ үгс",
+      "order": 3,
+      "content": {
+        "items": [
+          {"word": "номын", "translation": "of a book", "transcription": "nomiin", "audioUrl": ""},
+          {"word": "багшийн", "translation": "teacher’s", "transcription": "bagshiin", "audioUrl": ""},
+          {"word": "аавын", "translation": "father’s", "transcription": "aaviin", "audioUrl": ""},
+          {"word": "ээжийн", "translation": "mother’s", "transcription": "eejiin", "audioUrl": ""}
+        ]
+      }
+    },
+    {
+      "id": "b1-u2-l2-c4",
+      "lessonId": "b1-u2-l2",
+      "type": "classification",
+      "title": "Ы ба ИЙ",
+      "order": 4,
+      "content": {
+        "groups": [
+          {"title": "Ы орсон үг / Words with Ы", "items": ["номын", "аавын"]},
+          {"title": "ИЙ орсон үг / Words with ИЙ", "items": ["багшийн", "ээжийн"]}
+        ]
+      }
+    },
+    {
+      "id": "b1-u2-l2-c5",
+      "lessonId": "b1-u2-l2",
+      "type": "exercise_repeat",
+      "title": "Давтан хэл",
+      "order": 5,
+      "content": {
+        "instructionMn": "Дараах үгсийг удаанаар уншаад Ы, ИЙ-г ялгаарай.",
+        "instructionEn": "Read each word slowly and distinguish Ы vs ИЙ.",
+        "rows": [
+          {"line": "номын", "audioUrl": ""},
+          {"line": "аавын", "audioUrl": ""},
+          {"line": "багшийн", "audioUrl": ""},
+          {"line": "ээжийн", "audioUrl": ""}
+        ]
       }
     }
   ]
