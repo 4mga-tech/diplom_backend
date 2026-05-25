@@ -13,11 +13,78 @@
       "id": "b1-u2-l3-c1",
       "lessonId": "b1-u2-l3",
       "type": "text",
-      "title": "Preview",
+      "title": "Танилцуулга",
       "order": 1,
       "content": {
-        "textMn": "Энэ хичээлд Я төрлийн үсгүүдийн хэрэглээг танилцуулна.",
-        "textEn": "Scaffold lesson content will be expanded in next iteration."
+        "textMn": "Е, Ё, Ю, Я үсгүүд нь зарим байрлалд й авиа болон эгшгийн нийлмэл дуудлагатай сонсогдоно.",
+        "textEn": "Е, Ё, Ю, Я can sound like a combination of y + vowel in some positions."
+      }
+    },
+    {
+      "id": "b1-u2-l3-c2",
+      "lessonId": "b1-u2-l3",
+      "type": "grammar_note",
+      "title": "Дуудлагын санамж",
+      "order": 2,
+      "content": {
+        "notes": [
+          {"mn": "Я нь “йа” мэт сонсогдож болно.", "en": "Я can sound like “ya”."},
+          {"mn": "Ё нь “йо” мэт сонсогдож болно.", "en": "Ё can sound like “yo”."},
+          {"mn": "Ю нь “йу” мэт сонсогдож болно.", "en": "Ю can sound like “yu”."},
+          {"mn": "Е нь “йэ/е” мэт сонсогдоно.", "en": "Е can sound like “ye/e”."}
+        ]
+      }
+    },
+    {
+      "id": "b1-u2-l3-c3",
+      "lessonId": "b1-u2-l3",
+      "type": "classification",
+      "title": "Е, Ё, Ю, Я хүснэгт",
+      "order": 3,
+      "content": {
+        "groups": [
+          {"title": "Е е / nameMn: Е үсэг / transcription: ye/e / pronunciation: /je, e/ / group: y-type / audioUrl: /uploads/audio/letters/ye.mp3", "items": ["printUpper: Е", "printLower: е"]},
+          {"title": "Ё ё / nameMn: Ё үсэг / transcription: yo / pronunciation: /jo/ / group: y-type / audioUrl: /uploads/audio/letters/yo.mp3", "items": ["printUpper: Ё", "printLower: ё"]},
+          {"title": "Ю ю / nameMn: Ю үсэг / transcription: yu / pronunciation: /ju/ / group: y-type / audioUrl: /uploads/audio/letters/yu.mp3", "items": ["printUpper: Ю", "printLower: ю"]},
+          {"title": "Я я / nameMn: Я үсэг / transcription: ya / pronunciation: /ja/ / group: y-type / audioUrl: /uploads/audio/letters/ya.mp3", "items": ["printUpper: Я", "printLower: я"]}
+        ]
+      }
+    },
+    {
+      "id": "b1-u2-l3-c4",
+      "lessonId": "b1-u2-l3",
+      "type": "exercise_word_build",
+      "title": "Үе бүтээх",
+      "order": 4,
+      "content": {
+        "instructionMn": "Й авиаг эгшигтэй нэгтгэж шинэ тэмдэглэл үүсгэнэ.",
+        "instructionEn": "Combine y-sound with vowels.",
+        "items": [
+          {"left": "й + а", "right": "я", "hint": "ya"},
+          {"left": "й + о", "right": "ё", "hint": "yo"},
+          {"left": "й + у", "right": "ю", "hint": "yu"},
+          {"left": "й + э", "right": "е", "hint": "ye"}
+        ]
+      }
+    },
+    {
+      "id": "b1-u2-l3-c5",
+      "lessonId": "b1-u2-l3",
+      "type": "exercise_repeat",
+      "title": "Давтлага",
+      "order": 5,
+      "content": {
+        "instructionMn": "Дараах үе, үсгийг зөв аялгаар уншаарай.",
+        "instructionEn": "Repeat these letters and syllables with clear intonation.",
+        "rows": [
+          {"line": "я", "audioUrl": "/uploads/audio/letters/ya.mp3"},
+          {"line": "ё", "audioUrl": "/uploads/audio/letters/yo.mp3"},
+          {"line": "ю", "audioUrl": "/uploads/audio/letters/yu.mp3"},
+          {"line": "е", "audioUrl": "/uploads/audio/letters/ye.mp3"},
+          {"line": "яа", "audioUrl": ""},
+          {"line": "ёо", "audioUrl": ""},
+          {"line": "юу", "audioUrl": ""}
+        ]
       }
     }
   ]
