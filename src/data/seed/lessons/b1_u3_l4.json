@@ -2,8 +2,8 @@
   "lesson": {
     "id": "b1-u3-l4",
     "unitId": "b1-u3",
-    "title": "Ялгах эгшиг ба review quiz",
-    "subtitle": "Distinction vowels and review quiz",
+    "title": "B1 Final Review",
+    "subtitle": "Final alphabet and reading review",
     "order": 4,
     "xpReward": 20,
     "quizXpReward": 10
@@ -12,20 +12,9 @@
     {
       "id": "b1-u3-l4-c1",
       "lessonId": "b1-u3-l4",
-      "type": "text",
-      "title": "Preview",
-      "order": 1,
-      "content": {
-        "textMn": "3-р нэгжийн товч давтлага.",
-        "textEn": "Scaffold lesson content will be expanded in next iteration."
-      }
-    },
-    {
-      "id": "b1-u3-l4-c2",
-      "lessonId": "b1-u3-l4",
       "type": "quiz_link",
-      "title": "Start quiz",
-      "order": 2,
+      "title": "Эцсийн сорил",
+      "order": 1,
       "content": {
         "quizId": "quiz_b1_u3_final"
       }
@@ -34,7 +23,7 @@
   "quiz": {
     "id": "quiz_b1_u3_final",
     "lessonId": "b1-u3-l4",
-    "title": "B1 Unit 3 Quiz",
+    "title": "B1 Unit 3 Final Quiz",
     "passingScore": 70
   },
   "quizQuestions": [
@@ -42,15 +31,11 @@
       "id": "quiz_b1_u3_final_q1",
       "quizId": "quiz_b1_u3_final",
       "type": "multiple_choice",
-      "prompt": "Unit 3 scaffold question 1",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "correctAnswer": "A",
-      "explanation": "Scaffold question.",
+      "prompt": "Балархай эгшиг гэж юуг хэлэх вэ?",
+      "helper": "Choose the best definition of unstressed vowel.",
+      "options": ["Сул сонсогдох эгшиг", "Зөвхөн урт эгшиг", "Гийгүүлэгчгүй үе", "Зөвхөн эхний эгшиг"],
+      "correctAnswer": "Сул сонсогдох эгшиг",
+      "explanation": "Балархай эгшиг нь дуудлагад сул сонсогддог эгшиг юм.",
       "xpReward": 2,
       "order": 1
     },
@@ -58,15 +43,11 @@
       "id": "quiz_b1_u3_final_q2",
       "quizId": "quiz_b1_u3_final",
       "type": "multiple_choice",
-      "prompt": "Unit 3 scaffold question 2",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "correctAnswer": "A",
-      "explanation": "Scaffold question.",
+      "prompt": "Эгшигт гийгүүлэгчийн зөв багцыг сонгоно уу.",
+      "helper": "Pick the stable consonant group.",
+      "options": ["м, н, г, л, б, в, р", "ц, ж, з, с", "д, т, ш, ч", "х, к, п, ф"],
+      "correctAnswer": "м, н, г, л, б, в, р",
+      "explanation": "Энэ бүлэг нь B1 Unit 3-т өгсөн эгшигт гийгүүлэгчийн багц.",
       "xpReward": 2,
       "order": 2
     },
@@ -74,15 +55,11 @@
       "id": "quiz_b1_u3_final_q3",
       "quizId": "quiz_b1_u3_final",
       "type": "multiple_choice",
-      "prompt": "Unit 3 scaffold question 3",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "correctAnswer": "A",
-      "explanation": "Scaffold question.",
+      "prompt": "Заримдаг гийгүүлэгчийн жишээ аль вэ?",
+      "helper": "Select a letter from the conditional group.",
+      "options": ["ц", "м", "р", "в"],
+      "correctAnswer": "ц",
+      "explanation": "ц нь заримдаг гийгүүлэгчийн бүлэгт орно.",
       "xpReward": 2,
       "order": 3
     },
@@ -90,15 +67,11 @@
       "id": "quiz_b1_u3_final_q4",
       "quizId": "quiz_b1_u3_final",
       "type": "multiple_choice",
-      "prompt": "Unit 3 scaffold question 4",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "correctAnswer": "A",
-      "explanation": "Scaffold question.",
+      "prompt": "\"бал\" ба \"вал\" хосын гол ялгаа юу вэ?",
+      "helper": "Focus on which first letter changes.",
+      "options": ["Эхний үсэг б/в", "Сүүлийн эгшиг", "Үеийн тоо", "Урт эгшиг"],
+      "correctAnswer": "Эхний үсэг б/в",
+      "explanation": "Энэ хосод зөвхөн эхний гийгүүлэгч өөрчлөгдөнө.",
       "xpReward": 2,
       "order": 4
     },
@@ -106,17 +79,73 @@
       "id": "quiz_b1_u3_final_q5",
       "quizId": "quiz_b1_u3_final",
       "type": "multiple_choice",
-      "prompt": "Unit 3 scaffold question 5",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "correctAnswer": "A",
-      "explanation": "Scaffold question.",
+      "prompt": "\"гал\" ба \"гэр\" үгэнд ямар үсгийн дуудлагын ялгааг ажиглах вэ?",
+      "helper": "This checks the G distinction practice.",
+      "options": ["г", "л", "р", "э"],
+      "correctAnswer": "г",
+      "explanation": "Энэ дасгал г үсгийн орчны дуудлагын ялгааг анзааруулна.",
       "xpReward": 2,
       "order": 5
+    },
+    {
+      "id": "quiz_b1_u3_final_q6",
+      "quizId": "quiz_b1_u3_final",
+      "type": "multiple_choice",
+      "prompt": "\"ан\" ба \"на\" хосоор ямар санааг давтаж байна вэ?",
+      "helper": "Think about where the letter Н is placed.",
+      "options": ["н үсгийн байрлал", "урт эгшиг", "хос эгшиг", "заримдаг гийгүүлэгч"],
+      "correctAnswer": "н үсгийн байрлал",
+      "explanation": "Н үсэг эхэнд эсвэл төгсгөлд ороход сонсголд ялгаа гарна.",
+      "xpReward": 2,
+      "order": 6
+    },
+    {
+      "id": "quiz_b1_u3_final_q7",
+      "quizId": "quiz_b1_u3_final",
+      "type": "multiple_choice",
+      "prompt": "Эгшгийн зохицлын үндсэн санаа аль нь вэ?",
+      "helper": "Pick the basic vowel harmony idea.",
+      "options": ["Ижил төрлийн эгшиг нэг үгэнд зохицно", "Бүх эгшиг адилхан", "Зөвхөн богино эгшиг хэрэглэнэ", "Дагавар хэрэггүй"],
+      "correctAnswer": "Ижил төрлийн эгшиг нэг үгэнд зохицно",
+      "explanation": "Эгшгийн зохицол нь эгшгийн төрлүүд нэг үгэнд нийцэх зарчим юм.",
+      "xpReward": 2,
+      "order": 7
+    },
+    {
+      "id": "quiz_b1_u3_final_q8",
+      "quizId": "quiz_b1_u3_final",
+      "type": "multiple_choice",
+      "prompt": "Урт эгшгийн зөв жишээ аль нь вэ?",
+      "helper": "Choose the one with a long vowel.",
+      "options": ["аа", "ан", "ар", "ал"],
+      "correctAnswer": "аа",
+      "explanation": "Ижил эгшиг давтагдаж урт эгшиг үүсгэнэ.",
+      "xpReward": 2,
+      "order": 8
+    },
+    {
+      "id": "quiz_b1_u3_final_q9",
+      "quizId": "quiz_b1_u3_final",
+      "type": "multiple_choice",
+      "prompt": "Хос эгшгийн жишээ аль нь вэ?",
+      "helper": "Pick a diphthong example.",
+      "options": ["ай", "аа", "мм", "нн"],
+      "correctAnswer": "ай",
+      "explanation": "Ай нь хоёр өөр эгшиг нийлсэн хос эгшиг.",
+      "xpReward": 2,
+      "order": 9
+    },
+    {
+      "id": "quiz_b1_u3_final_q10",
+      "quizId": "quiz_b1_u3_final",
+      "type": "multiple_choice",
+      "prompt": "Я/Ё/Ю/Е бүлгийн үсгүүдийн зөв сонголт аль нь вэ?",
+      "helper": "Select the complete Y-type set.",
+      "options": ["Я, Ё, Ю, Е", "А, О, У, Э", "М, Н, Г, Л", "Ц, Ж, Ш, Ч"],
+      "correctAnswer": "Я, Ё, Ю, Е",
+      "explanation": "Эдгээр нь өмнөх нэгжид давтсан Я-гийн төрлийн үсгүүд юм.",
+      "xpReward": 2,
+      "order": 10
     }
   ]
 }

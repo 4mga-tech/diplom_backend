@@ -3,7 +3,7 @@
     "id": "b1-u3-l3",
     "unitId": "b1-u3",
     "title": "Б, В, Г, Н үсгийг ялгах",
-    "subtitle": "Differentiate Б, В, Г, Н",
+    "subtitle": "Distinguish similar letters",
     "order": 3,
     "xpReward": 20,
     "quizXpReward": 0
@@ -13,11 +13,128 @@
       "id": "b1-u3-l3-c1",
       "lessonId": "b1-u3-l3",
       "type": "text",
-      "title": "Preview",
+      "title": "Товч ойлголт",
       "order": 1,
       "content": {
-        "textMn": "Энэ хичээлд Б, В, Г, Н үсгийн ялгааг дасгалжуулна.",
-        "textEn": "Scaffold lesson content will be expanded in next iteration."
+        "textMn": "Адилхан мэт сонсогдох үсгүүдийг байрлал, ойролцоо авиагаар ялгаж сурна.",
+        "textEn": "Learn to distinguish similar letters by position and nearby sounds."
+      }
+    },
+    {
+      "id": "b1-u3-l3-c2",
+      "lessonId": "b1-u3-l3",
+      "type": "classification",
+      "title": "Харьцуулалтын карт",
+      "order": 2,
+      "content": {
+        "instructionMn": "Доорх жишээгээр авианы ялгааг ажигла.",
+        "instructionEn": "Use these cards to notice sound differences.",
+        "groups": [
+          {
+            "title": "б vs в",
+            "chips": ["бал", "вал", "бөмбөг", "вирус"]
+          },
+          {
+            "title": "г авианы хувилбар",
+            "chips": ["гал", "гэр", "сургууль"]
+          },
+          {
+            "title": "н авианы байрлал",
+            "chips": ["ан", "на", "ном", "хүн"]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b1-u3-l3-c3",
+      "lessonId": "b1-u3-l3",
+      "type": "exercise_repeat",
+      "title": "Сонсож давтах",
+      "order": 3,
+      "content": {
+        "instructionMn": "Хос үгийг ээлжлэн сонсоод давтаарай.",
+        "instructionEn": "Listen to each pair and repeat.",
+        "items": [
+          {
+            "text": "бал",
+            "transcription": "bal",
+            "pronunciation": "/bal/",
+            "audioUrl": ""
+          },
+          {
+            "text": "вал",
+            "transcription": "val",
+            "pronunciation": "/val/",
+            "audioUrl": ""
+          },
+          {
+            "text": "гал",
+            "transcription": "gal",
+            "pronunciation": "/ɢal/",
+            "audioUrl": ""
+          },
+          {
+            "text": "гэр",
+            "transcription": "ger",
+            "pronunciation": "/ger/",
+            "audioUrl": ""
+          },
+          {
+            "text": "ан",
+            "transcription": "an",
+            "pronunciation": "/an/",
+            "audioUrl": ""
+          },
+          {
+            "text": "на",
+            "transcription": "na",
+            "pronunciation": "/na/",
+            "audioUrl": ""
+          },
+          {
+            "text": "ном",
+            "transcription": "nom",
+            "pronunciation": "/nɔm/",
+            "audioUrl": ""
+          },
+          {
+            "text": "хүн",
+            "transcription": "khun",
+            "pronunciation": "/xʊn/",
+            "audioUrl": ""
+          }
+        ]
+      }
+    },
+    {
+      "id": "b1-u3-l3-c4",
+      "lessonId": "b1-u3-l3",
+      "type": "exercise_fill",
+      "title": "Сонсоод сонгох",
+      "order": 4,
+      "content": {
+        "instructionMn": "Зөв үсгийг сонгож үгийг бүтээ.",
+        "instructionEn": "Choose the correct letter to complete the word.",
+        "items": [
+          {
+            "prompt": "_ал (б/в)",
+            "correctAnswer": "бал",
+            "options": ["бал", "вал"],
+            "audioUrl": ""
+          },
+          {
+            "prompt": "_эр (г/х)",
+            "correctAnswer": "гэр",
+            "options": ["гэр", "хэр"],
+            "audioUrl": ""
+          },
+          {
+            "prompt": "_ом (н/м)",
+            "correctAnswer": "ном",
+            "options": ["ном", "мом"],
+            "audioUrl": ""
+          }
+        ]
       }
     }
   ]

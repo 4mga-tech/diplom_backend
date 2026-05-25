@@ -3,7 +3,7 @@
     "id": "b1-u3-l2",
     "unitId": "b1-u3",
     "title": "Эгшигт ба заримдаг гийгүүлэгч",
-    "subtitle": "Vocalic and partial consonants",
+    "subtitle": "Stable and conditional consonants",
     "order": 2,
     "xpReward": 20,
     "quizXpReward": 0
@@ -13,11 +13,98 @@
       "id": "b1-u3-l2-c1",
       "lessonId": "b1-u3-l2",
       "type": "text",
-      "title": "Preview",
+      "title": "Товч ойлголт",
       "order": 1,
       "content": {
-        "textMn": "Энэ хичээлд эгшигт ба заримдаг гийгүүлэгчийг ялгана.",
-        "textEn": "Scaffold lesson content will be expanded in next iteration."
+        "textMn": "Эгшигт гийгүүлэгч нь тогтвортой дуудлагатай. Заримдаг гийгүүлэгч нь үгийн орчноос шалтгаалан сулрах эсвэл өөр өнгө аястай сонсогдож болно.",
+        "textEn": "Stable consonants keep clearer sound. Conditional consonants can sound softer depending on position."
+      }
+    },
+    {
+      "id": "b1-u3-l2-c2",
+      "lessonId": "b1-u3-l2",
+      "type": "grammar_note",
+      "title": "Бүлгийн санамж",
+      "order": 2,
+      "content": {
+        "notes": [
+          {
+            "mn": "Эгшигт гийгүүлэгч: м, н, г, л, б, в, р",
+            "en": "Stable set: м, н, г, л, б, в, р"
+          },
+          {
+            "mn": "Заримдаг гийгүүлэгч: ц, ж, з, с, д, т, ш, ч, х",
+            "en": "Conditional set: ц, ж, з, с, д, т, ш, ч, х"
+          },
+          {
+            "mn": "Эхний шатанд бүлгийг цээжлэх нь хангалттай.",
+            "en": "At this stage, memorizing groups is enough."
+          }
+        ]
+      }
+    },
+    {
+      "id": "b1-u3-l2-c3",
+      "lessonId": "b1-u3-l2",
+      "type": "classification",
+      "title": "Бүлгээр ялгах",
+      "order": 3,
+      "content": {
+        "instructionMn": "Үсгүүдийг зөв бүлэгт уншиж тогтоогоорой.",
+        "instructionEn": "Read and memorize letters by group.",
+        "groups": [
+          {
+            "title": "Эгшигт гийгүүлэгч",
+            "chips": ["м", "н", "г", "л", "б", "в", "р"]
+          },
+          {
+            "title": "Заримдаг гийгүүлэгч",
+            "chips": ["ц", "ж", "з", "с", "д", "т", "ш", "ч", "х"]
+          }
+        ]
+      }
+    },
+    {
+      "id": "b1-u3-l2-c4",
+      "lessonId": "b1-u3-l2",
+      "type": "exercise_repeat",
+      "title": "Богино давталт",
+      "order": 4,
+      "content": {
+        "instructionMn": "Дараах үе, үгийг чанга, тод дууд.",
+        "instructionEn": "Repeat these short items clearly.",
+        "items": [
+          {
+            "text": "ма",
+            "transcription": "ma",
+            "pronunciation": "/ma/",
+            "audioUrl": "/uploads/audio/syllables/ma.mp3"
+          },
+          {
+            "text": "на",
+            "transcription": "na",
+            "pronunciation": "/na/",
+            "audioUrl": ""
+          },
+          {
+            "text": "са",
+            "transcription": "sa",
+            "pronunciation": "/sa/",
+            "audioUrl": "/uploads/audio/syllables/sa.mp3"
+          },
+          {
+            "text": "ша",
+            "transcription": "sha",
+            "pronunciation": "/ʃa/",
+            "audioUrl": ""
+          },
+          {
+            "text": "сургууль",
+            "transcription": "surguul",
+            "pronunciation": "/sʊrɢʊɮ/",
+            "audioUrl": "/uploads/audio/words/school.mp3"
+          }
+        ]
       }
     }
   ]
