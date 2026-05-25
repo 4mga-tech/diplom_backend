@@ -2,8 +2,8 @@
   "lesson": {
     "id": "b1-u3-l1",
     "unitId": "b1-u3",
-    "title": "Балархай эгшгийн дүрэм",
-    "subtitle": "Unstressed vowel rule",
+    "title": "Балархай эгшиг",
+    "subtitle": "Unstressed vowels",
     "order": 1,
     "xpReward": 20,
     "quizXpReward": 0
@@ -13,11 +13,144 @@
       "id": "b1-u3-l1-c1",
       "lessonId": "b1-u3-l1",
       "type": "text",
-      "title": "Preview",
+      "title": "Товч ойлголт",
       "order": 1,
       "content": {
-        "textMn": "Энэ хичээлд балархай эгшгийн үндсэн ойлголтыг бэлтгэнэ.",
-        "textEn": "Scaffold lesson content will be expanded in next iteration."
+        "textMn": "Балархай эгшиг нь үгэнд сул сонсогдох эгшиг юм. Бичихдээ үгийн хэлбэр, дагаврыг ажиглаж зөв үсгийг сонгоно.",
+        "textEn": "An unstressed vowel sounds weak in a word. To spell correctly, check the word form and suffix pattern."
+      }
+    },
+    {
+      "id": "b1-u3-l1-c2",
+      "lessonId": "b1-u3-l1",
+      "type": "grammar_note",
+      "title": "Дүрмийн санамж",
+      "order": 2,
+      "content": {
+        "notes": [
+          {
+            "mn": "Сул сонсогдсон ч үгийн язгуурт байгаа эгшгийг хадгалж бичнэ.",
+            "en": "Even if it sounds weak, keep the root vowel in spelling."
+          },
+          {
+            "mn": "Нэр үг + -ийн, -ын залгахад эгшиг заримдаа бүдэг сонсогдоно.",
+            "en": "With suffixes like -ийн, -ын, the vowel may sound less clear."
+          },
+          {
+            "mn": "Эхлээд зөв дууд, дараа нь язгуураар шалга.",
+            "en": "First pronounce, then confirm by root form."
+          }
+        ]
+      }
+    },
+    {
+      "id": "b1-u3-l1-c3",
+      "lessonId": "b1-u3-l1",
+      "type": "vocab_list",
+      "title": "Үгсийн сан",
+      "order": 3,
+      "content": {
+        "items": [
+          {
+            "word": "номын",
+            "translation": "of the book",
+            "exampleMn": "Номын хавтас цэнхэр.",
+            "exampleEn": "The book cover is blue.",
+            "audioUrl": ""
+          },
+          {
+            "word": "гэрийн",
+            "translation": "home / household",
+            "exampleMn": "Гэрийн даалгавраа хий.",
+            "exampleEn": "Do your homework.",
+            "audioUrl": ""
+          },
+          {
+            "word": "хүүхэд",
+            "translation": "child",
+            "exampleMn": "Хүүхэд ном уншиж байна.",
+            "exampleEn": "The child is reading a book.",
+            "audioUrl": "/uploads/audio/words/child.mp3"
+          },
+          {
+            "word": "сургууль",
+            "translation": "school",
+            "exampleMn": "Сургууль ойрхон байна.",
+            "exampleEn": "The school is nearby.",
+            "audioUrl": "/uploads/audio/words/school.mp3"
+          },
+          {
+            "word": "багшийн",
+            "translation": "teacher's / of the teacher",
+            "exampleMn": "Багшийн өрөө хоёр давхарт.",
+            "exampleEn": "The teacher's room is on the second floor.",
+            "audioUrl": ""
+          }
+        ]
+      }
+    },
+    {
+      "id": "b1-u3-l1-c4",
+      "lessonId": "b1-u3-l1",
+      "type": "exercise_repeat",
+      "title": "Сонсож давтах",
+      "order": 4,
+      "content": {
+        "instructionMn": "Үгийг анхааралтай сонсоод балархай эгшгийг ялган давтаарай.",
+        "instructionEn": "Listen carefully and repeat while noticing weak vowels.",
+        "items": [
+          {
+            "text": "номын",
+            "transcription": "nomiin",
+            "pronunciation": "/nɔmɪŋ/",
+            "audioUrl": ""
+          },
+          {
+            "text": "гэрийн",
+            "transcription": "geriin",
+            "pronunciation": "/ɡerɪŋ/",
+            "audioUrl": ""
+          },
+          {
+            "text": "хүүхэд",
+            "transcription": "khuukhed",
+            "pronunciation": "/xʊːxət/",
+            "audioUrl": "/uploads/audio/words/child.mp3"
+          },
+          {
+            "text": "сургууль",
+            "transcription": "surguul",
+            "pronunciation": "/sʊrɢʊɮ/",
+            "audioUrl": "/uploads/audio/words/school.mp3"
+          },
+          {
+            "text": "багшийн",
+            "transcription": "bagshiin",
+            "pronunciation": "/baɡʃiŋ/",
+            "audioUrl": ""
+          }
+        ]
+      }
+    },
+    {
+      "id": "b1-u3-l1-c5",
+      "lessonId": "b1-u3-l1",
+      "type": "classification",
+      "title": "Сонсголын ялгалт",
+      "order": 5,
+      "content": {
+        "instructionMn": "Үгийг сонсоод аль бүлэгт хамаарахыг ажиглаарай.",
+        "instructionEn": "Listen and notice which group each word fits.",
+        "groups": [
+          {
+            "title": "Эгшиг сонсогдоно",
+            "chips": ["хүүхэд", "сургууль", "ном"]
+          },
+          {
+            "title": "Эгшиг сул сонсогдоно",
+            "chips": ["номын", "гэрийн", "багшийн"]
+          }
+        ]
       }
     }
   ]
