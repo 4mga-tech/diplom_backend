@@ -2,8 +2,8 @@
   "lesson": {
     "id": "b1-u1-l2",
     "unitId": "b1-u1",
-    "title": "Үндсэн ба туслах эгшиг",
-    "subtitle": "Basic and supporting vowels",
+    "title": "Туслах эгшиг үсгүүд",
+    "subtitle": "Supporting vowels",
     "order": 2,
     "xpReward": 20,
     "quizXpReward": 0
@@ -16,151 +16,125 @@
       "title": "Тайлбар",
       "order": 1,
       "content": {
-        "textMn": "Монгол хэлэнд 13 эгшиг үсэг байдаг. Үндсэн эгшиг нь А, Э, И, О, У, Ө, Ү. Туслах эгшиг нь Е, Ё, Ю, Я, Й, Ы.",
-        "textEn": "Mongolian has 13 vowel letters. The basic vowels are А, Э, И, О, У, Ө, Ү. Supporting vowels include Е, Ё, Ю, Я, Й, Ы."
-      }
-    },
-    {
-      "id": "b1-u1-l2-c1n",
-      "lessonId": "b1-u1-l2",
-      "type": "grammar_note",
-      "title": "Санамж",
-      "order": 2,
-      "content": {
-        "section": "grammar",
-        "notes": [
-          {
-            "mn": "Үндсэн эгшиг нь үгийн гол авиаг үүсгэдэг бөгөөд дангаар орж чадна.",
-            "en": "Basic vowels create the core sound of a word and can appear independently."
-          },
-          {
-            "mn": "Е, Ё, Ю, Я үсгүүд нь ихэвчлэн 'й' авиа дагуулсан дуудлагатай байдаг.",
-            "en": "Letters like Е, Ё, Ю, and Я often include a 'y' sound in pronunciation."
-          },
-          {
-            "mn": "Ө ба Ү үсгийг зөв дуудах нь Монгол үгийн утгыг ялгахад чухал байдаг.",
-            "en": "Correct pronunciation of Ө and Ү is important because it can change word meanings."
-          }
-        ]
+        "textMn": "Энэ хичээлээр Монгол цагаан толгойн туслах 6 эгшиг болох Е, Ё, Ю, Я, Й, Ы үсгүүдийг сурна.",
+        "textEn": "This lesson introduces the 6 supporting vowels: Е, Ё, Ю, Я, Й, Ы."
       }
     },
     {
       "id": "b1-u1-l2-c2",
       "lessonId": "b1-u1-l2",
       "type": "alphabet_table",
-      "title": "Үндсэн эгшиг",
-      "order": 3,
+      "title": "Туслах 6 эгшиг",
+      "order": 2,
       "content": {
         "letters": [
           {
-            "printUpper": "А",
-            "printLower": "а",
-            "nameMn": "А үсэг",
-            "transcription": "a",
-            "pronunciation": "/a/",
-            "group": "basic_vowel",
-            "audioUrl": "/uploads/audio/letters/a.mp3",
-            "call": "ah",
-            "examples": []
+            "printUpper": "Е",
+            "printLower": "е",
+            "nameMn": "Е үсэг",
+            "transcription": "ye/e",
+            "pronunciation": "/je, e/",
+            "call": "yeh",
+            "group": "supporting_vowel",
+            "audioUrl": "/uploads/audio/letters/ye.mp3",
+            "examples": [
+              {
+                "text": "ес",
+                "meaningEn": "nine"
+              }
+            ]
           },
           {
-            "printUpper": "Э",
-            "printLower": "э",
-            "nameMn": "Э үсэг",
-            "transcription": "e",
-            "pronunciation": "/e/",
-            "group": "basic_vowel",
-            "audioUrl": "/uploads/audio/letters/e.mp3",
-            "call": "eh",
-            "examples": []
+            "printUpper": "Ё",
+            "printLower": "ё",
+            "nameMn": "Ё үсэг",
+            "transcription": "yo",
+            "pronunciation": "/jo/",
+            "call": "yoh",
+            "group": "supporting_vowel",
+            "audioUrl": "/uploads/audio/letters/yo.mp3",
+            "examples": [
+              {
+                "text": "ёлка",
+                "meaningEn": "fir tree (loanword)"
+              }
+            ]
           },
           {
-            "printUpper": "И",
-            "printLower": "и",
-            "nameMn": "И үсэг",
-            "transcription": "i",
-            "pronunciation": "/i/",
-            "group": "basic_vowel",
+            "printUpper": "Ю",
+            "printLower": "ю",
+            "nameMn": "Ю үсэг",
+            "transcription": "yu",
+            "pronunciation": "/ju/",
+            "call": "yoo",
+            "group": "supporting_vowel",
+            "audioUrl": "/uploads/audio/letters/yu.mp3",
+            "examples": [
+              {
+                "text": "юм",
+                "meaningEn": "thing"
+              }
+            ]
+          },
+          {
+            "printUpper": "Я",
+            "printLower": "я",
+            "nameMn": "Я үсэг",
+            "transcription": "ya",
+            "pronunciation": "/ja/",
+            "call": "yah",
+            "group": "supporting_vowel",
+            "audioUrl": "/uploads/audio/letters/ya.mp3",
+            "examples": [
+              {
+                "text": "явах",
+                "meaningEn": "to go"
+              }
+            ]
+          },
+          {
+            "printUpper": "Й",
+            "printLower": "й",
+            "nameMn": "Й үсэг",
+            "transcription": "ĭ",
+            "pronunciation": "/j/",
+            "call": "iy",
+            "group": "supporting_vowel",
             "audioUrl": "/uploads/audio/letters/i.mp3",
-            "call": "ee",
-            "examples": []
+            "examples": [
+              {
+                "text": "айн",
+                "meaningEn": "oh! (interjection)"
+              }
+            ]
           },
           {
-            "printUpper": "О",
-            "printLower": "о",
-            "nameMn": "О үсэг",
-            "transcription": "o",
-            "pronunciation": "/o/",
-            "group": "basic_vowel",
-            "audioUrl": "/uploads/audio/letters/o.mp3",
-            "call": "oh",
-            "examples": []
-          },
-          {
-            "printUpper": "У",
-            "printLower": "у",
-            "nameMn": "У үсэг",
-            "transcription": "u",
-            "pronunciation": "/u/",
-            "group": "basic_vowel",
-            "audioUrl": "/uploads/audio/letters/u.mp3",
-            "call": "oo",
-            "examples": []
-          },
-          {
-            "printUpper": "Ө",
-            "printLower": "ө",
-            "nameMn": "Ө үсэг",
-            "transcription": "ö",
-            "pronunciation": "/ø/",
-            "group": "basic_vowel",
-            "audioUrl": "/uploads/audio/letters/ou.mp3",
-            "call": "uh / eu",
-            "examples": []
-          },
-          {
-            "printUpper": "Ү",
-            "printLower": "ү",
-            "nameMn": "Ү үсэг",
-            "transcription": "ü",
-            "pronunciation": "/y/",
-            "group": "basic_vowel",
-            "audioUrl": "/uploads/audio/letters/uu.mp3",
-            "call": "uu / ue",
-            "examples": []
+            "printUpper": "Ы",
+            "printLower": "ы",
+            "nameMn": "Ы үсэг",
+            "transcription": "y",
+            "pronunciation": "/ɨ/",
+            "call": "ih",
+            "group": "supporting_vowel",
+            "audioUrl": "/uploads/audio/letters/y.mp3",
+            "examples": [
+              {
+                "text": "крым",
+                "meaningEn": "Crimea (proper noun, loanword)"
+              }
+            ]
           }
-        ]
+        ],
+        "countLabelMn": "6 туслах эгшиг",
+        "countLabelEn": "6 supporting vowels"
       }
     },
     {
       "id": "b1-u1-l2-c3",
       "lessonId": "b1-u1-l2",
-      "type": "classification",
-      "title": "Туслах эгшиг",
-      "order": 4,
-      "content": {
-        "groups": [
-          {
-            "labelMn": "Туслах эгшиг",
-            "labelEn": "Supporting vowels",
-            "items": [
-              "Е",
-              "Ё",
-              "Ю",
-              "Я",
-              "Й",
-              "Ы"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "id": "b1-u1-l2-c4",
-      "lessonId": "b1-u1-l2",
       "type": "exercise_repeat",
       "title": "Сонсож давтах",
-      "order": 5,
+      "order": 3,
       "content": {
         "items": [
           {
@@ -209,11 +183,11 @@
       }
     },
     {
-      "id": "b1-u1-l2-c5",
+      "id": "b1-u1-l2-c4",
       "lessonId": "b1-u1-l2",
       "type": "exercise_write",
       "title": "Letter tracing",
-      "order": 6,
+      "order": 4,
       "content": {
         "instructionMn": "Үсэг бүрийг том ба жижиг хэлбэрээр бич.",
         "instructionEn": "Trace uppercase and lowercase.",
