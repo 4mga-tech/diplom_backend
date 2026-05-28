@@ -143,12 +143,12 @@
             "call": "oo",
             "examples": [
               {
-                "text": "ус",
-                "meaningEn": "water"
-              },
-              {
                 "text": "уул",
                 "meaningEn": "mountain"
+              },
+              {
+                "text": "улаан",
+                "meaningEn": "red"
               }
             ]
           },
@@ -160,15 +160,15 @@
             "pronunciation": "/ø/",
             "group": "vowel",
             "audioUrl": "/uploads/audio/letters/ou.mp3",
-            "call": "uh / eu",
+            "call": "eu",
             "examples": [
               {
-                "text": "өглөө",
-                "meaningEn": "morning"
+                "text": "өвс",
+                "meaningEn": "grass"
               },
               {
-                "text": "өрөө",
-                "meaningEn": "room"
+                "text": "өмд",
+                "meaningEn": "pants"
               }
             ]
           },
@@ -180,7 +180,7 @@
             "pronunciation": "/y/",
             "group": "vowel",
             "audioUrl": "/uploads/audio/letters/uu.mp3",
-            "call": "uu / ue",
+            "call": "ue",
             "examples": [
               {
                 "text": "үс",
@@ -221,35 +221,45 @@
             "transcription": "a",
             "pronunciation": "/a/",
             "audioUrl": "/uploads/audio/letters/a.mp3",
-            "call": "ah"
+            "call": "ah",
+            "instructionMn": "А авиаг тод, зөв дуудаарай.",
+            "instructionEn": "Pronounce the А sound clearly."
           },
           {
             "text": "Э э",
             "transcription": "e",
             "pronunciation": "/e/",
             "audioUrl": "/uploads/audio/letters/e.mp3",
-            "call": "eh"
+            "call": "eh",
+            "instructionMn": "Э авиаг тод, зөв дуудаарай.",
+            "instructionEn": "Pronounce the Э sound clearly."
           },
           {
             "text": "И и",
             "transcription": "i",
             "pronunciation": "/i/",
             "audioUrl": "/uploads/audio/letters/i.mp3",
-            "call": "ee"
+            "call": "ee",
+            "instructionMn": "И авиаг тод, зөв дуудаарай.",
+            "instructionEn": "Pronounce the И sound clearly."
           },
           {
             "text": "О о",
             "transcription": "o",
             "pronunciation": "/o/",
             "audioUrl": "/uploads/audio/letters/o.mp3",
-            "call": "oh"
+            "call": "oh",
+            "instructionMn": "О авиаг тод, зөв дуудаарай.",
+            "instructionEn": "Pronounce the О sound clearly."
           },
           {
             "text": "У у",
             "transcription": "u",
             "pronunciation": "/u/",
             "audioUrl": "/uploads/audio/letters/u.mp3",
-            "call": "oo"
+            "call": "oo",
+            "instructionMn": "У авиаг тод, зөв дуудаарай.",
+            "instructionEn": "Pronounce the У sound clearly."
           }
         ],
         "instructionMn": "Дууг сонсоод эгшгийг чанга, тод давтаж хэлээрэй.",

@@ -142,44 +142,58 @@
             "transcription": "ye/e",
             "pronunciation": "/je, e/",
             "audioUrl": "/uploads/audio/letters/ye.mp3",
-            "call": "yeh"
+            "call": "yeh",
+            "instructionMn": "Е авиаг тод, зөв дуудаарай.",
+            "instructionEn": "Pronounce the Е sound clearly."
           },
           {
             "text": "Ё ё",
             "transcription": "yo",
             "pronunciation": "/jo/",
             "audioUrl": "/uploads/audio/letters/yo.mp3",
-            "call": "yoh"
+            "call": "yoh",
+            "instructionMn": "Ё авиаг тод, зөв дуудаарай.",
+            "instructionEn": "Pronounce the Ё sound clearly."
           },
           {
             "text": "Ю ю",
             "transcription": "yu",
             "pronunciation": "/ju/",
             "audioUrl": "/uploads/audio/letters/yu.mp3",
-            "call": "yoo"
+            "call": "yoo",
+            "instructionMn": "Ю авиаг тод, зөв дуудаарай.",
+            "instructionEn": "Pronounce the Ю sound clearly."
           },
           {
             "text": "Я я",
             "transcription": "ya",
             "pronunciation": "/ja/",
             "audioUrl": "/uploads/audio/letters/ya.mp3",
-            "call": "yah"
+            "call": "yah",
+            "instructionMn": "Я авиаг тод, зөв дуудаарай.",
+            "instructionEn": "Pronounce the Я sound clearly."
           },
           {
             "text": "Й й",
             "transcription": "ĭ",
             "pronunciation": "/j/",
             "audioUrl": "/uploads/audio/letters/i.mp3",
-            "call": "iy"
+            "call": "iy",
+            "instructionMn": "Й авиаг тод, зөв дуудаарай.",
+            "instructionEn": "Pronounce the Й sound clearly."
           },
           {
             "text": "Ы ы",
             "transcription": "y",
             "pronunciation": "/ɨ/",
             "audioUrl": "",
-            "call": "ih"
+            "call": "ih",
+            "instructionMn": "Ы авиаг тод, зөв дуудаарай.",
+            "instructionEn": "Pronounce the Ы sound clearly."
           }
-        ]
+        ],
+        "instructionMn": "Дууг сонсоод үсэг бүрийн авиаг тод давтаж хэлээрэй.",
+        "instructionEn": "Listen and pronounce each letter sound clearly."
       }
     },
     {

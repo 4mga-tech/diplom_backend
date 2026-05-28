@@ -75,32 +75,10 @@
                 "meaningEn": "mirror"
               }
             ]
-          },
-          {
-            "printUpper": "Һ",
-            "printLower": "һ",
-            "nameMn": "Һ үсэг",
-            "transcription": "h",
-            "pronunciation": "/h/",
-            "call": "hah",
-            "group": "special_foreign",
-            "audioUrl": "/uploads/audio/letters/hagas_i.mp3",
-            "examples": []
-          },
-          {
-            "printUpper": "Ё",
-            "printLower": "ё",
-            "nameMn": "Ё үсэг (давтлага)",
-            "transcription": "yo",
-            "pronunciation": "/jo/",
-            "call": "yoh",
-            "group": "special_foreign",
-            "audioUrl": "/uploads/audio/letters/yo.mp3",
-            "examples": []
           }
         ],
-        "countLabelMn": "2 тэмдэг үсэг + тусгай үсгүүд",
-        "countLabelEn": "2 sign letters + special letters"
+        "countLabelMn": "2 тэмдэг үсэг",
+        "countLabelEn": "2 sign letters"
       }
     },
     {
@@ -138,47 +116,49 @@
       "id": "b1-u1-l4-c4",
       "lessonId": "b1-u1-l4",
       "type": "exercise_repeat",
-      "title": "Жишээ үгсээр давтах",
+      "title": "Тэмдэг үсгийг ялгаж давтах",
       "order": 4,
       "content": {
         "items": [
           {
+            "text": "Ъ ъ",
+            "call": "hard sign",
+            "transcription": "hard sign",
+            "pronunciation": "/ʺ/",
+            "instructionMn": "Ъ тэмдгийг дан дуугаар бус, үгийн заагт таньж уншаарай.",
+            "instructionEn": "Recognize the hard sign in word boundaries, not as a standalone sound.",
+            "audioUrl": ""
+          },
+          {
+            "text": "Ь ь",
+            "call": "soft sign",
+            "transcription": "soft sign",
+            "pronunciation": "/ʹ/",
+            "instructionMn": "Ь тэмдгийг зөөлрүүлэх үүрэгтэйгээр нь таньж хэлээрэй.",
+            "instructionEn": "Recognize the soft sign as a softening marker.",
+            "audioUrl": ""
+          },
+          {
             "text": "морь",
+            "call": "soft sign",
             "transcription": "mor'",
-            "meaningEn": "horse",
-            "audioUrl": ""
-          },
-          {
-            "text": "соль",
-            "transcription": "sol'",
-            "meaningEn": "salt",
-            "audioUrl": ""
-          },
-          {
-            "text": "толь",
-            "transcription": "tol'",
-            "meaningEn": "mirror",
+            "pronunciation": "/mɔrʲ/",
+            "instructionMn": "морь үгэнд Ь тэмдгийн нөлөөг ажиглаарай.",
+            "instructionEn": "Notice the soft sign effect in the word mor'.",
             "audioUrl": ""
           },
           {
             "text": "объект",
+            "call": "hard sign",
             "transcription": "ob-yekt",
-            "meaningEn": "object",
-            "audioUrl": ""
-          },
-          {
-            "text": "подъезд",
-            "transcription": "pod-yezd",
-            "meaningEn": "entrance / stairwell",
-            "audioUrl": ""
-          },
-          {
-            "text": "съезд",
-            "transcription": "s-yezd",
-            "meaningEn": "congress / meeting",
+            "pronunciation": "/objekt/",
+            "instructionMn": "объект үгэнд Ъ тэмдгийн зааглах үүргийг ажиглаарай.",
+            "instructionEn": "Notice the separating role of hard sign in ob-yekt.",
             "audioUrl": ""
           }
-        ]
+        ],
+        "instructionMn": "Тэмдэг үсгийн үүргийг таньж, жишээ үг дээр зөв дуудаж давтаарай.",
+        "instructionEn": "Practice recognizing sign-letter function and repeat with clear pronunciation."
       }
     },
     {

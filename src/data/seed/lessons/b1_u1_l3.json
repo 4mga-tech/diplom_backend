@@ -111,10 +111,19 @@
             "nameMn": "Л үсэг",
             "transcription": "l",
             "pronunciation": "/l/",
-            "call": "leh",
+            "call": "el",
             "group": "consonant",
             "audioUrl": "/uploads/audio/letters/l.mp3",
-            "examples": []
+            "examples": [
+              {
+                "text": "лам",
+                "meaningEn": "monk"
+              },
+              {
+                "text": "лууван",
+                "meaningEn": "carrot"
+              }
+            ]
           },
           {
             "printUpper": "М",
@@ -122,10 +131,19 @@
             "nameMn": "М үсэг",
             "transcription": "m",
             "pronunciation": "/m/",
-            "call": "meh",
+            "call": "em",
             "group": "consonant",
             "audioUrl": "/uploads/audio/letters/m.mp3",
-            "examples": []
+            "examples": [
+              {
+                "text": "морь",
+                "meaningEn": "horse"
+              },
+              {
+                "text": "машин",
+                "meaningEn": "car"
+              }
+            ]
           },
           {
             "printUpper": "Н",
@@ -133,7 +151,7 @@
             "nameMn": "Н үсэг",
             "transcription": "n",
             "pronunciation": "/n/",
-            "call": "neh",
+            "call": "en",
             "group": "consonant",
             "audioUrl": "/uploads/audio/letters/n.mp3",
             "examples": []
@@ -155,7 +173,7 @@
             "nameMn": "Р үсэг",
             "transcription": "r",
             "pronunciation": "/r/",
-            "call": "reh",
+            "call": "er",
             "group": "consonant",
             "audioUrl": "/uploads/audio/letters/r.mp3",
             "examples": []
@@ -166,7 +184,7 @@
             "nameMn": "С үсэг",
             "transcription": "s",
             "pronunciation": "/s/",
-            "call": "seh",
+            "call": "es",
             "group": "consonant",
             "audioUrl": "/uploads/audio/letters/s.mp3",
             "examples": []
@@ -188,7 +206,7 @@
             "nameMn": "Ф үсэг",
             "transcription": "f",
             "pronunciation": "/f/",
-            "call": "feh",
+            "call": "ef",
             "group": "consonant",
             "audioUrl": "/uploads/audio/letters/f.mp3",
             "examples": []
@@ -199,7 +217,7 @@
             "nameMn": "Х үсэг",
             "transcription": "kh",
             "pronunciation": "/x/",
-            "call": "khah",
+            "call": "kheh",
             "group": "consonant",
             "audioUrl": "/uploads/audio/letters/h.mp3",
             "examples": []
@@ -232,7 +250,7 @@
             "nameMn": "Ш үсэг",
             "transcription": "sh",
             "pronunciation": "/ʃ/",
-            "call": "shah",
+            "call": "sheh",
             "group": "consonant",
             "audioUrl": "/uploads/audio/letters/sh.mp3",
             "examples": []
@@ -243,7 +261,7 @@
             "nameMn": "Щ үсэг",
             "transcription": "shch",
             "pronunciation": "/ʃtʃ/",
-            "call": "shchah",
+            "call": "shcheh",
             "group": "consonant",
             "audioUrl": "/uploads/audio/letters/shche.mp3",
             "examples": []
@@ -266,30 +284,40 @@
             "transcription": "b v g d j",
             "pronunciation": "consonant set 1",
             "audioUrl": "",
-            "call": "read clearly"
+            "call": "beh",
+            "instructionMn": "Б авиаг тод, зөв дуудаарай.",
+            "instructionEn": "Pronounce the Б sound clearly."
           },
           {
             "text": "З з, К к, Л л, М м, Н н",
             "transcription": "z k l m n",
             "pronunciation": "consonant set 2",
             "audioUrl": "",
-            "call": "read clearly"
+            "call": "zeh",
+            "instructionMn": "З авиаг тод, зөв дуудаарай.",
+            "instructionEn": "Pronounce the З sound clearly."
           },
           {
             "text": "П п, Р р, С с, Т т, Ф ф",
             "transcription": "p r s t f",
             "pronunciation": "consonant set 3",
             "audioUrl": "",
-            "call": "read clearly"
+            "call": "peh",
+            "instructionMn": "П авиаг тод, зөв дуудаарай.",
+            "instructionEn": "Pronounce the П sound clearly."
           },
           {
             "text": "Х х, Ц ц, Ч ч, Ш ш, Щ щ",
             "transcription": "kh ts ch sh shch",
             "pronunciation": "consonant set 4",
             "audioUrl": "",
-            "call": "read clearly"
+            "call": "kheh",
+            "instructionMn": "Х авиаг тод, зөв дуудаарай.",
+            "instructionEn": "Pronounce the Х sound clearly."
           }
-        ]
+        ],
+        "instructionMn": "Дууг сонсоод үсэг бүрийн авиаг тод давтаж хэлээрэй.",
+        "instructionEn": "Listen and pronounce each letter sound clearly."
       }
     },
     {
