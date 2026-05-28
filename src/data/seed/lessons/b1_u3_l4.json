@@ -10,11 +10,22 @@
   },
   "contents": [
     {
+      "id": "b1-u3-l4-c0",
+      "lessonId": "b1-u3-l4",
+      "type": "text",
+      "title": "Юнит 3-н дүгнэлт",
+      "order": 1,
+      "content": {
+        "textMn": "Энэ хичээлээр унших дүрэм, сул эгшиг, зөв бичих ялгааг давтлаа. Одоо богино тестээр өөрийгөө шалгаарай.",
+        "textEn": "You reviewed reading rules, weak vowels, and spelling contrasts. Now check yourself with a short final quiz."
+      }
+    },
+    {
       "id": "b1-u3-l4-c1",
       "lessonId": "b1-u3-l4",
       "type": "quiz_link",
       "title": "Эцсийн сорил",
-      "order": 1,
+      "order": 2,
       "content": {
         "quizId": "quiz_b1_u3_final"
       }
@@ -33,7 +44,12 @@
       "type": "multiple_choice",
       "prompt": "Балархай эгшиг гэж юуг хэлэх вэ?",
       "helper": "Choose the best definition of unstressed vowel.",
-      "options": ["Сул сонсогдох эгшиг", "Зөвхөн урт эгшиг", "Гийгүүлэгчгүй үе", "Зөвхөн эхний эгшиг"],
+      "options": [
+        "Сул сонсогдох эгшиг",
+        "Зөвхөн урт эгшиг",
+        "Гийгүүлэгчгүй үе",
+        "Зөвхөн эхний эгшиг"
+      ],
       "correctAnswer": "Сул сонсогдох эгшиг",
       "explanation": "Балархай эгшиг нь дуудлагад сул сонсогддог эгшиг юм.",
       "xpReward": 2,
@@ -45,7 +61,12 @@
       "type": "multiple_choice",
       "prompt": "Эгшигт гийгүүлэгчийн зөв багцыг сонгоно уу.",
       "helper": "Pick the stable consonant group.",
-      "options": ["м, н, г, л, б, в, р", "ц, ж, з, с", "д, т, ш, ч", "х, к, п, ф"],
+      "options": [
+        "м, н, г, л, б, в, р",
+        "ц, ж, з, с",
+        "д, т, ш, ч",
+        "х, к, п, ф"
+      ],
       "correctAnswer": "м, н, г, л, б, в, р",
       "explanation": "Энэ бүлэг нь B1 Unit 3-т өгсөн эгшигт гийгүүлэгчийн багц.",
       "xpReward": 2,
@@ -57,7 +78,12 @@
       "type": "multiple_choice",
       "prompt": "Заримдаг гийгүүлэгчийн жишээ аль вэ?",
       "helper": "Select a letter from the conditional group.",
-      "options": ["ц", "м", "р", "в"],
+      "options": [
+        "ц",
+        "м",
+        "р",
+        "в"
+      ],
       "correctAnswer": "ц",
       "explanation": "ц нь заримдаг гийгүүлэгчийн бүлэгт орно.",
       "xpReward": 2,
@@ -69,7 +95,12 @@
       "type": "multiple_choice",
       "prompt": "\"бал\" ба \"вал\" хосын гол ялгаа юу вэ?",
       "helper": "Focus on which first letter changes.",
-      "options": ["Эхний үсэг б/в", "Сүүлийн эгшиг", "Үеийн тоо", "Урт эгшиг"],
+      "options": [
+        "Эхний үсэг б/в",
+        "Сүүлийн эгшиг",
+        "Үеийн тоо",
+        "Урт эгшиг"
+      ],
       "correctAnswer": "Эхний үсэг б/в",
       "explanation": "Энэ хосод зөвхөн эхний гийгүүлэгч өөрчлөгдөнө.",
       "xpReward": 2,
@@ -81,7 +112,12 @@
       "type": "multiple_choice",
       "prompt": "\"гал\" ба \"гэр\" үгэнд ямар үсгийн дуудлагын ялгааг ажиглах вэ?",
       "helper": "This checks the G distinction practice.",
-      "options": ["г", "л", "р", "э"],
+      "options": [
+        "г",
+        "л",
+        "р",
+        "э"
+      ],
       "correctAnswer": "г",
       "explanation": "Энэ дасгал г үсгийн орчны дуудлагын ялгааг анзааруулна.",
       "xpReward": 2,
@@ -93,7 +129,12 @@
       "type": "multiple_choice",
       "prompt": "\"ан\" ба \"на\" хосоор ямар санааг давтаж байна вэ?",
       "helper": "Think about where the letter Н is placed.",
-      "options": ["н үсгийн байрлал", "урт эгшиг", "хос эгшиг", "заримдаг гийгүүлэгч"],
+      "options": [
+        "н үсгийн байрлал",
+        "урт эгшиг",
+        "хос эгшиг",
+        "заримдаг гийгүүлэгч"
+      ],
       "correctAnswer": "н үсгийн байрлал",
       "explanation": "Н үсэг эхэнд эсвэл төгсгөлд ороход сонсголд ялгаа гарна.",
       "xpReward": 2,
@@ -105,7 +146,12 @@
       "type": "multiple_choice",
       "prompt": "Эгшгийн зохицлын үндсэн санаа аль нь вэ?",
       "helper": "Pick the basic vowel harmony idea.",
-      "options": ["Ижил төрлийн эгшиг нэг үгэнд зохицно", "Бүх эгшиг адилхан", "Зөвхөн богино эгшиг хэрэглэнэ", "Дагавар хэрэггүй"],
+      "options": [
+        "Ижил төрлийн эгшиг нэг үгэнд зохицно",
+        "Бүх эгшиг адилхан",
+        "Зөвхөн богино эгшиг хэрэглэнэ",
+        "Дагавар хэрэггүй"
+      ],
       "correctAnswer": "Ижил төрлийн эгшиг нэг үгэнд зохицно",
       "explanation": "Эгшгийн зохицол нь эгшгийн төрлүүд нэг үгэнд нийцэх зарчим юм.",
       "xpReward": 2,
@@ -117,7 +163,12 @@
       "type": "multiple_choice",
       "prompt": "Урт эгшгийн зөв жишээ аль нь вэ?",
       "helper": "Choose the one with a long vowel.",
-      "options": ["аа", "ан", "ар", "ал"],
+      "options": [
+        "аа",
+        "ан",
+        "ар",
+        "ал"
+      ],
       "correctAnswer": "аа",
       "explanation": "Ижил эгшиг давтагдаж урт эгшиг үүсгэнэ.",
       "xpReward": 2,
@@ -129,7 +180,12 @@
       "type": "multiple_choice",
       "prompt": "Хос эгшгийн жишээ аль нь вэ?",
       "helper": "Pick a diphthong example.",
-      "options": ["ай", "аа", "мм", "нн"],
+      "options": [
+        "ай",
+        "аа",
+        "мм",
+        "нн"
+      ],
       "correctAnswer": "ай",
       "explanation": "Ай нь хоёр өөр эгшиг нийлсэн хос эгшиг.",
       "xpReward": 2,
@@ -141,7 +197,12 @@
       "type": "multiple_choice",
       "prompt": "Я/Ё/Ю/Е бүлгийн үсгүүдийн зөв сонголт аль нь вэ?",
       "helper": "Select the complete Y-type set.",
-      "options": ["Я, Ё, Ю, Е", "А, О, У, Э", "М, Н, Г, Л", "Ц, Ж, Ш, Ч"],
+      "options": [
+        "Я, Ё, Ю, Е",
+        "А, О, У, Э",
+        "М, Н, Г, Л",
+        "Ц, Ж, Ш, Ч"
+      ],
       "correctAnswer": "Я, Ё, Ю, Е",
       "explanation": "Эдгээр нь өмнөх нэгжид давтсан Я-гийн төрлийн үсгүүд юм.",
       "xpReward": 2,

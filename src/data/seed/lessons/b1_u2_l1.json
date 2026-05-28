@@ -28,9 +28,18 @@
       "order": 2,
       "content": {
         "notes": [
-          {"mn": "Эр эгшигтэй үгэнд ихэвчлэн эр эгшиг орно.", "en": "Words with back vowels usually keep back vowels."},
-          {"mn": "Эм эгшигтэй үгэнд ихэвчлэн эм эгшиг орно.", "en": "Words with front vowels usually keep front vowels."},
-          {"mn": "И нь саармаг эгшиг тул аль ч бүлэгтэй хамт орж болно.", "en": "И is neutral and can appear with either group."}
+          {
+            "mn": "Эр эгшигтэй үгэнд ихэвчлэн эр эгшиг орно.",
+            "en": "Words with back vowels usually keep back vowels."
+          },
+          {
+            "mn": "Эм эгшигтэй үгэнд ихэвчлэн эм эгшиг орно.",
+            "en": "Words with front vowels usually keep front vowels."
+          },
+          {
+            "mn": "И нь саармаг эгшиг тул аль ч бүлэгтэй хамт орж болно.",
+            "en": "И is neutral and can appear with either group."
+          }
         ]
       }
     },
@@ -42,9 +51,33 @@
       "order": 3,
       "content": {
         "groups": [
-          {"title": "Эр эгшигтэй үг / Back vowel words", "items": ["аав", "ном", "ус", "сургууль"]},
-          {"title": "Эм эгшигтэй үг / Front vowel words", "items": ["ээж", "гэр", "сүү", "үс"]},
-          {"title": "Саармаг И орсон үг / Words with neutral И", "items": ["би", "чи", "багшийн", "номын"]}
+          {
+            "title": "Эр эгшигтэй үг / Back vowel words",
+            "items": [
+              "аав",
+              "ном",
+              "ус",
+              "сургууль"
+            ]
+          },
+          {
+            "title": "Эм эгшигтэй үг / Front vowel words",
+            "items": [
+              "ээж",
+              "гэр",
+              "сүү",
+              "үс"
+            ]
+          },
+          {
+            "title": "Саармаг И орсон үг / Words with neutral И",
+            "items": [
+              "би",
+              "чи",
+              "багшийн",
+              "номын"
+            ]
+          }
         ]
       }
     },
@@ -58,13 +91,64 @@
         "instructionMn": "Үгсийг бүлгээр нь чангаар уншаарай.",
         "instructionEn": "Read the words aloud by group.",
         "rows": [
-          {"line": "аав", "audioUrl": "/uploads/audio/words/father.mp3"},
-          {"line": "ном", "audioUrl": "/uploads/audio/words/book.mp3"},
-          {"line": "ус", "audioUrl": "/uploads/audio/words/water.mp3"},
-          {"line": "гэр", "audioUrl": "/uploads/audio/words/house.mp3"},
-          {"line": "сүү", "audioUrl":  "/uploads/audio/syllables/suu.mp3"},
-          {"line": "би", "audioUrl": "/uploads/audio/words/me.mp3"},
-          {"line": "чи", "audioUrl": "/uploads/audio/words/you.mp3"}
+          {
+            "line": "аав",
+            "audioUrl": "/uploads/audio/words/father.mp3"
+          },
+          {
+            "line": "ном",
+            "audioUrl": "/uploads/audio/words/book.mp3"
+          },
+          {
+            "line": "ус",
+            "audioUrl": "/uploads/audio/words/water.mp3"
+          },
+          {
+            "line": "гэр",
+            "audioUrl": "/uploads/audio/words/house.mp3"
+          },
+          {
+            "line": "сүү",
+            "audioUrl": "/uploads/audio/syllables/suu.mp3"
+          },
+          {
+            "line": "би",
+            "audioUrl": "/uploads/audio/words/me.mp3"
+          },
+          {
+            "line": "чи",
+            "audioUrl": "/uploads/audio/words/you.mp3"
+          }
+        ],
+        "items": [
+          {
+            "text": "аав",
+            "audioUrl": "/uploads/audio/words/father.mp3"
+          },
+          {
+            "text": "ном",
+            "audioUrl": "/uploads/audio/words/book.mp3"
+          },
+          {
+            "text": "ус",
+            "audioUrl": "/uploads/audio/words/water.mp3"
+          },
+          {
+            "text": "гэр",
+            "audioUrl": "/uploads/audio/words/house.mp3"
+          },
+          {
+            "text": "сүү",
+            "audioUrl": "/uploads/audio/syllables/suu.mp3"
+          },
+          {
+            "text": "би",
+            "audioUrl": "/uploads/audio/words/me.mp3"
+          },
+          {
+            "text": "чи",
+            "audioUrl": "/uploads/audio/words/you.mp3"
+          }
         ]
       }
     }
