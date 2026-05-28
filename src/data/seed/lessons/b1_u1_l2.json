@@ -116,7 +116,7 @@
             "pronunciation": "/ɨ/",
             "call": "ih",
             "group": "supporting_vowel",
-            "audioUrl": "",
+            "audioUrl": "/uploads/audio/letters/i.mp3",
             "examples": [
               {
                 "text": "крым",
@@ -186,7 +186,7 @@
             "text": "Ы ы",
             "transcription": "y",
             "pronunciation": "/ɨ/",
-            "audioUrl": "",
+            "audioUrl": "/uploads/audio/letters/i.mp3",
             "call": "ih",
             "instructionMn": "Ы авиаг тод, зөв дуудаарай.",
             "instructionEn": "Pronounce the Ы sound clearly."

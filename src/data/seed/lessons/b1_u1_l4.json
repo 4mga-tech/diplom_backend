@@ -36,7 +36,7 @@
             "pronunciation": "/ʺ/",
             "call": "hard sign",
             "group": "sign",
-            "audioUrl": "",
+            "audioUrl": "/uploads/audio/letters/i.mp3",
             "examples": [
               {
                 "text": "объект",
@@ -60,7 +60,7 @@
             "pronunciation": "/ʹ/",
             "call": "soft sign",
             "group": "sign",
-            "audioUrl": "",
+            "audioUrl": "/uploads/audio/letters/i.mp3",
             "examples": [
               {
                 "text": "морь",
@@ -127,7 +127,7 @@
             "pronunciation": "/ʺ/",
             "instructionMn": "Ъ тэмдгийг дан дуугаар бус, үгийн заагт таньж уншаарай.",
             "instructionEn": "Recognize the hard sign in word boundaries, not as a standalone sound.",
-            "audioUrl": ""
+            "audioUrl": "/uploads/audio/letters/i.mp3"
           },
           {
             "text": "Ь ь",
@@ -136,7 +136,7 @@
             "pronunciation": "/ʹ/",
             "instructionMn": "Ь тэмдгийг зөөлрүүлэх үүрэгтэйгээр нь таньж хэлээрэй.",
             "instructionEn": "Recognize the soft sign as a softening marker.",
-            "audioUrl": ""
+            "audioUrl": "/uploads/audio/letters/i.mp3"
           },
           {
             "text": "морь",
@@ -145,7 +145,7 @@
             "pronunciation": "/mɔrʲ/",
             "instructionMn": "морь үгэнд Ь тэмдгийн нөлөөг ажиглаарай.",
             "instructionEn": "Notice the soft sign effect in the word mor'.",
-            "audioUrl": ""
+            "audioUrl": "/uploads/audio/words/horse.mp3"
           },
           {
             "text": "объект",
@@ -154,7 +154,7 @@
             "pronunciation": "/objekt/",
             "instructionMn": "объект үгэнд Ъ тэмдгийн зааглах үүргийг ажиглаарай.",
             "instructionEn": "Notice the separating role of hard sign in ob-yekt.",
-            "audioUrl": ""
+            "audioUrl": "/uploads/audio/words/object.mp3"
           }
         ],
         "instructionMn": "Тэмдэг үсгийн үүргийг таньж, жишээ үг дээр зөв дуудаж давтаарай.",
