@@ -44,8 +44,8 @@
           { "left": "б", "right": "а", "result": "ба", "transcription": "ba", "audioUrl": "/uploads/audio/syllables/ba.mp3" },
           { "left": "м", "right": "о", "result": "мо", "transcription": "mo", "audioUrl": "/uploads/audio/syllables/mo.mp3" },
           { "left": "с", "right": "у", "result": "су", "transcription": "su", "audioUrl": "/uploads/audio/syllables/su.mp3" },
-          { "left": "т", "right": "э", "result": "тэ", "transcription": "te", "audioUrl": "" },
-          { "left": "н", "right": "ө", "result": "нө", "transcription": "nö", "audioUrl": "" }
+          { "left": "т", "right": "э", "result": "тэ", "transcription": "te", "audioUrl": "/uploads/audio/syllables/te.mp3" },
+          { "left": "н", "right": "ө", "result": "нө", "transcription": "nö", "audioUrl": "/uploads/audio/syllables/nö.mp3" }
         ]
       }
     },
@@ -75,13 +75,13 @@
         "instructionEn": "Listen to how consonants sound when joined with vowels.",
         "items": [
           { "text": "ба", "transcription": "ba", "audioUrl": "/uploads/audio/syllables/ba.mp3" },
-          { "text": "бо", "transcription": "bo", "audioUrl": "" },
-          { "text": "бу", "transcription": "bu", "audioUrl": "" },
-          { "text": "ма", "transcription": "ma", "audioUrl": "" },
+          { "text": "бо", "transcription": "bo", "audioUrl": "/uploads/audio/syllables/bo.mp3" },
+          { "text": "бу", "transcription": "bu", "audioUrl": "/uploads/audio/syllables/bu.mp3" },
+          { "text": "ма", "transcription": "ma", "audioUrl": "/uploads/audio/syllables/ma.mp3" },
           { "text": "мо", "transcription": "mo", "audioUrl": "/uploads/audio/syllables/mo.mp3" },
-          { "text": "му", "transcription": "mu", "audioUrl": "" },
-          { "text": "са", "transcription": "sa", "audioUrl": "" },
-          { "text": "со", "transcription": "so", "audioUrl": "" },
+          { "text": "му", "transcription": "mu", "audioUrl": "/uploads/audio/syllables/mu.mp3" },
+          { "text": "са", "transcription": "sa", "audioUrl": "/uploads/audio/syllables/sa.mp3" },
+          { "text": "со", "transcription": "so", "audioUrl": "/uploads/audio/syllables/so.mp3" },
           { "text": "су", "transcription": "su", "audioUrl": "/uploads/audio/syllables/su.mp3" }
         ]
       }
