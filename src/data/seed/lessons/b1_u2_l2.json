@@ -28,9 +28,18 @@
       "order": 2,
       "content": {
         "notes": [
-          {"mn": "Ы нь ихэвчлэн үгийн төгсгөлд, харьяалах утгатай хэлбэрт орно.", "en": "Ы often appears near the end of words, especially in possessive forms."},
-          {"mn": "ИЙ нь урт “ий” авиа болон дагаварт олонтаа хэрэглэгдэнэ.", "en": "ИЙ often represents a long “ii” sound and appears in suffixes."},
-          {"mn": "Эхний шатанд үгийн жишээгээр ялгаж сурна.", "en": "At this level, learn the difference through examples."}
+          {
+            "mn": "Ы нь ихэвчлэн үгийн төгсгөлд, харьяалах утгатай хэлбэрт орно.",
+            "en": "Ы often appears near the end of words, especially in possessive forms."
+          },
+          {
+            "mn": "ИЙ нь урт “ий” авиа болон дагаварт олонтаа хэрэглэгдэнэ.",
+            "en": "ИЙ often represents a long “ii” sound and appears in suffixes."
+          },
+          {
+            "mn": "Эхний шатанд үгийн жишээгээр ялгаж сурна.",
+            "en": "At this level, learn the difference through examples."
+          }
         ]
       }
     },
@@ -42,10 +51,30 @@
       "order": 3,
       "content": {
         "items": [
-          {"word": "номын", "translation": "of a book", "transcription": "nomiin", "audioUrl": "/uploads/audio/words/nomiin.mp3"},
-          {"word": "багшийн", "translation": "teacher’s", "transcription": "bagshiin", "audioUrl": "/uploads/audio/words/bagshiin.mp3"},
-          {"word": "аавын", "translation": "father’s", "transcription": "aaviin", "audioUrl": "/uploads/audio/words/aaviin.mp3"},
-          {"word": "ээжийн", "translation": "mother’s", "transcription": "eejiin", "audioUrl": "/uploads/audio/words/eejiin.mp3"}
+          {
+            "word": "номын",
+            "translation": "of a book",
+            "transcription": "nomiin",
+            "audioUrl": "/uploads/audio/words/nomiin.mp3"
+          },
+          {
+            "word": "багшийн",
+            "translation": "teacher’s",
+            "transcription": "bagshiin",
+            "audioUrl": "/uploads/audio/words/bagshiin.mp3"
+          },
+          {
+            "word": "аавын",
+            "translation": "father’s",
+            "transcription": "aaviin",
+            "audioUrl": "/uploads/audio/words/aaviin.mp3"
+          },
+          {
+            "word": "ээжийн",
+            "translation": "mother’s",
+            "transcription": "eejiin",
+            "audioUrl": "/uploads/audio/words/eejiin.mp3"
+          }
         ]
       }
     },
@@ -57,8 +86,20 @@
       "order": 4,
       "content": {
         "groups": [
-          {"title": "Ы орсон үг / Words with Ы", "items": ["номын", "аавын"]},
-          {"title": "ИЙ орсон үг / Words with ИЙ", "items": ["багшийн", "ээжийн"]}
+          {
+            "title": "Ы орсон үг / Words with Ы",
+            "items": [
+              "номын",
+              "аавын"
+            ]
+          },
+          {
+            "title": "ИЙ орсон үг / Words with ИЙ",
+            "items": [
+              "багшийн",
+              "ээжийн"
+            ]
+          }
         ]
       }
     },
@@ -72,10 +113,40 @@
         "instructionMn": "Дараах үгсийг удаанаар уншаад Ы, ИЙ-г ялгаарай.",
         "instructionEn": "Read each word slowly and distinguish Ы vs ИЙ.",
         "rows": [
-          {"line": "номын", "audioUrl": "/uploads/audio/words/nomiin.mp3"},
-          {"line": "аавын", "audioUrl": "/uploads/audio/words/aaviin.mp3"},
-          {"line": "багшийн", "audioUrl": "/uploads/audio/words/bagshiin.mp3"},
-          {"line": "ээжийн", "audioUrl": "/uploads/audio/words/eejiin.mp3"}
+          {
+            "line": "номын",
+            "audioUrl": "/uploads/audio/words/nomiin.mp3"
+          },
+          {
+            "line": "аавын",
+            "audioUrl": "/uploads/audio/words/aaviin.mp3"
+          },
+          {
+            "line": "багшийн",
+            "audioUrl": "/uploads/audio/words/bagshiin.mp3"
+          },
+          {
+            "line": "ээжийн",
+            "audioUrl": "/uploads/audio/words/eejiin.mp3"
+          }
+        ],
+        "items": [
+          {
+            "text": "номын",
+            "audioUrl": "/uploads/audio/words/nomiin.mp3"
+          },
+          {
+            "text": "аавын",
+            "audioUrl": "/uploads/audio/words/aaviin.mp3"
+          },
+          {
+            "text": "багшийн",
+            "audioUrl": "/uploads/audio/words/bagshiin.mp3"
+          },
+          {
+            "text": "ээжийн",
+            "audioUrl": "/uploads/audio/words/eejiin.mp3"
+          }
         ]
       }
     }

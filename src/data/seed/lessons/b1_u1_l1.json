@@ -21,29 +21,29 @@
       }
     },
     {
-  "id": "b1-u1-l1-c2",
-  "lessonId": "b1-u1-l1",
-  "type": "grammar_note",
-  "title": "Санамж",
-  "order": 2,
-  "content": {
-    "section": "grammar",
-    "notes": [
-      {
-        "mn": "Кирилл үсгийг сурахдаа эхлээд үсгийн хэлбэр, дараа нь дуудлагыг нь хамтад нь тогтоогоорой.",
-        "en": "When learning Cyrillic letters, first remember their shapes, then connect them with their sounds."
-      },
-      {
-        "mn": "Том, жижиг үсэг заримдаа адилхан харагддаг ч бичих хэмжээ, хэрэглээ нь өөр байдаг.",
-        "en": "Some uppercase and lowercase letters may look similar, but their size and usage are different."
-      },
-      {
-        "mn": "Ө, Ү, Ё зэрэг Монгол хэлэнд чухал үсгүүдийг дуудлагаар нь сайн ялгаж сурах хэрэгтэй.",
-        "en": "Letters such as Ө, Ү, and Ё are important in Mongolian, so learn to distinguish their pronunciation clearly."
+      "id": "b1-u1-l1-c2",
+      "lessonId": "b1-u1-l1",
+      "type": "grammar_note",
+      "title": "Санамж",
+      "order": 2,
+      "content": {
+        "section": "grammar",
+        "notes": [
+          {
+            "mn": "Кирилл үсгийг сурахдаа эхлээд үсгийн хэлбэр, дараа нь дуудлагыг нь хамтад нь тогтоогоорой.",
+            "en": "When learning Cyrillic letters, first remember their shapes, then connect them with their sounds."
+          },
+          {
+            "mn": "Том, жижиг үсэг заримдаа адилхан харагддаг ч бичих хэмжээ, хэрэглээ нь өөр байдаг.",
+            "en": "Some uppercase and lowercase letters may look similar, but their size and usage are different."
+          },
+          {
+            "mn": "Ө, Ү, Ё зэрэг Монгол хэлэнд чухал үсгүүдийг дуудлагаар нь сайн ялгаж сурах хэрэгтэй.",
+            "en": "Letters such as Ө, Ү, and Ё are important in Mongolian, so learn to distinguish their pronunciation clearly."
+          }
+        ]
       }
-    ]
-  }
-},
+    },
     {
       "id": "b1-u1-l1-c3",
       "lessonId": "b1-u1-l1",
@@ -113,7 +113,7 @@
             "transcription": "ü",
             "pronunciation": "/y/",
             "group": "vowel",
-            "audioUrl": ""
+            "audioUrl": "/uploads/audio/letters/uu.mp3"
           },
           {
             "printUpper": "Е",
@@ -167,7 +167,7 @@
             "transcription": "y",
             "pronunciation": "/ɨ/",
             "group": "supporting",
-            "audioUrl": ""
+            "audioUrl": "/uploads/audio/letters/y.mp3"
           },
           {
             "printUpper": "Б",
