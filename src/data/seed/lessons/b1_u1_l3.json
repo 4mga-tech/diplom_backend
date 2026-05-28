@@ -350,6 +350,28 @@
           "Чч",
           "Шш",
           "Щщ"
+        ],
+        "tracing": [
+          { "letter": "Б", "lower": "б", "call": "beh", "transcription": "b", "pronunciation": "/b/", "audioUrl": "/uploads/audio/letters/b.mp3" },
+          { "letter": "В", "lower": "в", "call": "veh", "transcription": "v", "pronunciation": "/v/", "audioUrl": "/uploads/audio/letters/v.mp3" },
+          { "letter": "Г", "lower": "г", "call": "geh", "transcription": "g", "pronunciation": "/g/", "audioUrl": "/uploads/audio/letters/g.mp3" },
+          { "letter": "Д", "lower": "д", "call": "deh", "transcription": "d", "pronunciation": "/d/", "audioUrl": "/uploads/audio/letters/d.mp3" },
+          { "letter": "Ж", "lower": "ж", "call": "zheh", "transcription": "zh", "pronunciation": "/ʒ/", "audioUrl": "/uploads/audio/letters/zh.mp3" },
+          { "letter": "З", "lower": "з", "call": "zeh", "transcription": "z", "pronunciation": "/z/", "audioUrl": "/uploads/audio/letters/z.mp3" },
+          { "letter": "К", "lower": "к", "call": "keh", "transcription": "k", "pronunciation": "/k/", "audioUrl": "/uploads/audio/letters/k.mp3" },
+          { "letter": "Л", "lower": "л", "call": "leh", "transcription": "l", "pronunciation": "/l/", "audioUrl": "/uploads/audio/letters/l.mp3" },
+          { "letter": "М", "lower": "м", "call": "meh", "transcription": "m", "pronunciation": "/m/", "audioUrl": "/uploads/audio/letters/m.mp3" },
+          { "letter": "Н", "lower": "н", "call": "neh", "transcription": "n", "pronunciation": "/n/", "audioUrl": "/uploads/audio/letters/n.mp3" },
+          { "letter": "П", "lower": "п", "call": "peh", "transcription": "p", "pronunciation": "/p/", "audioUrl": "/uploads/audio/letters/p.mp3" },
+          { "letter": "Р", "lower": "р", "call": "reh", "transcription": "r", "pronunciation": "/r/", "audioUrl": "/uploads/audio/letters/r.mp3" },
+          { "letter": "С", "lower": "с", "call": "seh", "transcription": "s", "pronunciation": "/s/", "audioUrl": "/uploads/audio/letters/s.mp3" },
+          { "letter": "Т", "lower": "т", "call": "teh", "transcription": "t", "pronunciation": "/t/", "audioUrl": "/uploads/audio/letters/t.mp3" },
+          { "letter": "Ф", "lower": "ф", "call": "feh", "transcription": "f", "pronunciation": "/f/", "audioUrl": "/uploads/audio/letters/f.mp3" },
+          { "letter": "Х", "lower": "х", "call": "kheh", "transcription": "kh", "pronunciation": "/x/", "audioUrl": "/uploads/audio/letters/kh.mp3" },
+          { "letter": "Ц", "lower": "ц", "call": "tseh", "transcription": "ts", "pronunciation": "/ts/", "audioUrl": "/uploads/audio/letters/ts.mp3" },
+          { "letter": "Ч", "lower": "ч", "call": "cheh", "transcription": "ch", "pronunciation": "/tʃ/", "audioUrl": "/uploads/audio/letters/ch.mp3" },
+          { "letter": "Ш", "lower": "ш", "call": "sheh", "transcription": "sh", "pronunciation": "/ʃ/", "audioUrl": "/uploads/audio/letters/sh.mp3" },
+          { "letter": "Щ", "lower": "щ", "call": "shcheh", "transcription": "shch", "pronunciation": "/ʃtʃ/", "audioUrl": "/uploads/audio/letters/shch.mp3" }
         ]
       }
     }

@@ -173,6 +173,10 @@
         "letters": [
           "Ъъ",
           "Ьь"
+        ],
+        "tracing": [
+          { "letter": "Ъ", "lower": "ъ", "call": "hard sign", "transcription": "ʺ", "pronunciation": "no independent sound", "audioUrl": "/uploads/audio/letters/hard_sign.mp3" },
+          { "letter": "Ь", "lower": "ь", "call": "soft sign", "transcription": "ʹ", "pronunciation": "softness marker", "audioUrl": "/uploads/audio/letters/soft_sign.mp3" }
         ]
       }
     },

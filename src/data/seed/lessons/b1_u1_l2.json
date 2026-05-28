@@ -219,6 +219,21 @@
           "Ыы",
           "Юю",
           "Яя"
+        ],
+        "tracing": [
+          { "letter": "А", "lower": "а", "call": "ah", "transcription": "a", "pronunciation": "/a/", "audioUrl": "/uploads/audio/letters/a.mp3" },
+          { "letter": "Э", "lower": "э", "call": "eh", "transcription": "e", "pronunciation": "/e/", "audioUrl": "/uploads/audio/letters/e.mp3" },
+          { "letter": "И", "lower": "и", "call": "ee", "transcription": "i", "pronunciation": "/i/", "audioUrl": "/uploads/audio/letters/i.mp3" },
+          { "letter": "О", "lower": "о", "call": "oh", "transcription": "o", "pronunciation": "/o/", "audioUrl": "/uploads/audio/letters/o.mp3" },
+          { "letter": "У", "lower": "у", "call": "oo", "transcription": "u", "pronunciation": "/u/", "audioUrl": "/uploads/audio/letters/u.mp3" },
+          { "letter": "Ө", "lower": "ө", "call": "oe", "transcription": "ö", "pronunciation": "/ø/", "audioUrl": "/uploads/audio/letters/oe.mp3" },
+          { "letter": "Ү", "lower": "ү", "call": "ue", "transcription": "ü", "pronunciation": "/y/", "audioUrl": "/uploads/audio/letters/ue.mp3" },
+          { "letter": "Е", "lower": "е", "call": "yeh", "transcription": "ye/e", "pronunciation": "/je, e/", "audioUrl": "/uploads/audio/letters/ye.mp3" },
+          { "letter": "Ё", "lower": "ё", "call": "yoh", "transcription": "yo", "pronunciation": "/jo/", "audioUrl": "/uploads/audio/letters/yo.mp3" },
+          { "letter": "Й", "lower": "й", "call": "iy", "transcription": "ĭ", "pronunciation": "/j/", "audioUrl": "/uploads/audio/letters/i.mp3" },
+          { "letter": "Ы", "lower": "ы", "call": "ih", "transcription": "y", "pronunciation": "/ɨ/", "audioUrl": "/uploads/audio/letters/i.mp3" },
+          { "letter": "Ю", "lower": "ю", "call": "yoo", "transcription": "yu", "pronunciation": "/ju/", "audioUrl": "/uploads/audio/letters/yu.mp3" },
+          { "letter": "Я", "lower": "я", "call": "yah", "transcription": "ya", "pronunciation": "/ja/", "audioUrl": "/uploads/audio/letters/ya.mp3" }
         ]
       }
     }
