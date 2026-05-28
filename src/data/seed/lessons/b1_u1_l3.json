@@ -2,8 +2,8 @@
   "lesson": {
     "id": "b1-u1-l3",
     "unitId": "b1-u1",
-    "title": "Эгшгийн ангилал",
-    "subtitle": "Vowel classification",
+    "title": "Гийгүүлэгч үсгүүд",
+    "subtitle": "Consonant letters",
     "order": 3,
     "xpReward": 20,
     "quizXpReward": 0
@@ -16,119 +16,279 @@
       "title": "Тайлбар",
       "order": 1,
       "content": {
-        "textMn": "Эгшгийг эр, эм, саармаг гэж ангилна. Эр эгшиг: А, О, У. Эм эгшиг: Э, Ө, Ү. Саармаг эгшиг: И.",
-        "textEn": "Vowels are grouped as back, front, and neutral vowels. Back vowels: А, О, У. Front vowels: Э, Ө, Ү. Neutral vowel: И."
+        "textMn": "Энэ хичээлээр Монгол кирилл цагаан толгойн 20 гийгүүлэгч үсгийг сурна.",
+        "textEn": "This lesson covers the 20 consonant letters in Mongolian Cyrillic."
       }
     },
     {
       "id": "b1-u1-l3-c2",
       "lessonId": "b1-u1-l3",
-      "type": "classification",
-      "title": "Эгшгийн бүлэг",
+      "type": "alphabet_table",
+      "title": "20 гийгүүлэгч",
       "order": 2,
       "content": {
-        "groups": [
+        "letters": [
           {
-            "labelMn": "Эр эгшиг",
-            "labelEn": "Back vowels",
-            "items": [
-              "А",
-              "О",
-              "У"
-            ]
+            "printUpper": "Б",
+            "printLower": "б",
+            "nameMn": "Б үсэг",
+            "transcription": "b",
+            "pronunciation": "/b/",
+            "call": "beh",
+            "group": "consonant",
+            "audioUrl": "/uploads/audio/letters/b.mp3",
+            "examples": []
           },
           {
-            "labelMn": "Эм эгшиг",
-            "labelEn": "Front vowels",
-            "items": [
-              "Э",
-              "Ө",
-              "Ү"
-            ]
+            "printUpper": "В",
+            "printLower": "в",
+            "nameMn": "В үсэг",
+            "transcription": "v",
+            "pronunciation": "/v/",
+            "call": "veh",
+            "group": "consonant",
+            "audioUrl": "/uploads/audio/letters/v.mp3",
+            "examples": []
           },
           {
-            "labelMn": "Саармаг эгшиг",
-            "labelEn": "Neutral vowel",
-            "items": [
-              "И"
-            ]
+            "printUpper": "Г",
+            "printLower": "г",
+            "nameMn": "Г үсэг",
+            "transcription": "g",
+            "pronunciation": "/g/",
+            "call": "geh",
+            "group": "consonant",
+            "audioUrl": "/uploads/audio/letters/g.mp3",
+            "examples": []
+          },
+          {
+            "printUpper": "Д",
+            "printLower": "д",
+            "nameMn": "Д үсэг",
+            "transcription": "d",
+            "pronunciation": "/d/",
+            "call": "deh",
+            "group": "consonant",
+            "audioUrl": "/uploads/audio/letters/d.mp3",
+            "examples": []
+          },
+          {
+            "printUpper": "Ж",
+            "printLower": "ж",
+            "nameMn": "Ж үсэг",
+            "transcription": "j",
+            "pronunciation": "/dʒ/",
+            "call": "zheh",
+            "group": "consonant",
+            "audioUrl": "/uploads/audio/letters/j.mp3",
+            "examples": []
+          },
+          {
+            "printUpper": "З",
+            "printLower": "з",
+            "nameMn": "З үсэг",
+            "transcription": "z",
+            "pronunciation": "/z/",
+            "call": "zeh",
+            "group": "consonant",
+            "audioUrl": "/uploads/audio/letters/z.mp3",
+            "examples": []
+          },
+          {
+            "printUpper": "К",
+            "printLower": "к",
+            "nameMn": "К үсэг",
+            "transcription": "k",
+            "pronunciation": "/k/",
+            "call": "keh",
+            "group": "consonant",
+            "audioUrl": "/uploads/audio/letters/k.mp3",
+            "examples": []
+          },
+          {
+            "printUpper": "Л",
+            "printLower": "л",
+            "nameMn": "Л үсэг",
+            "transcription": "l",
+            "pronunciation": "/l/",
+            "call": "leh",
+            "group": "consonant",
+            "audioUrl": "/uploads/audio/letters/l.mp3",
+            "examples": []
+          },
+          {
+            "printUpper": "М",
+            "printLower": "м",
+            "nameMn": "М үсэг",
+            "transcription": "m",
+            "pronunciation": "/m/",
+            "call": "meh",
+            "group": "consonant",
+            "audioUrl": "/uploads/audio/letters/m.mp3",
+            "examples": []
+          },
+          {
+            "printUpper": "Н",
+            "printLower": "н",
+            "nameMn": "Н үсэг",
+            "transcription": "n",
+            "pronunciation": "/n/",
+            "call": "neh",
+            "group": "consonant",
+            "audioUrl": "/uploads/audio/letters/n.mp3",
+            "examples": []
+          },
+          {
+            "printUpper": "П",
+            "printLower": "п",
+            "nameMn": "П үсэг",
+            "transcription": "p",
+            "pronunciation": "/p/",
+            "call": "peh",
+            "group": "consonant",
+            "audioUrl": "/uploads/audio/letters/p.mp3",
+            "examples": []
+          },
+          {
+            "printUpper": "Р",
+            "printLower": "р",
+            "nameMn": "Р үсэг",
+            "transcription": "r",
+            "pronunciation": "/r/",
+            "call": "reh",
+            "group": "consonant",
+            "audioUrl": "/uploads/audio/letters/r.mp3",
+            "examples": []
+          },
+          {
+            "printUpper": "С",
+            "printLower": "с",
+            "nameMn": "С үсэг",
+            "transcription": "s",
+            "pronunciation": "/s/",
+            "call": "seh",
+            "group": "consonant",
+            "audioUrl": "/uploads/audio/letters/s.mp3",
+            "examples": []
+          },
+          {
+            "printUpper": "Т",
+            "printLower": "т",
+            "nameMn": "Т үсэг",
+            "transcription": "t",
+            "pronunciation": "/t/",
+            "call": "teh",
+            "group": "consonant",
+            "audioUrl": "/uploads/audio/letters/t.mp3",
+            "examples": []
+          },
+          {
+            "printUpper": "Ф",
+            "printLower": "ф",
+            "nameMn": "Ф үсэг",
+            "transcription": "f",
+            "pronunciation": "/f/",
+            "call": "feh",
+            "group": "consonant",
+            "audioUrl": "/uploads/audio/letters/f.mp3",
+            "examples": []
+          },
+          {
+            "printUpper": "Х",
+            "printLower": "х",
+            "nameMn": "Х үсэг",
+            "transcription": "kh",
+            "pronunciation": "/x/",
+            "call": "khah",
+            "group": "consonant",
+            "audioUrl": "/uploads/audio/letters/x.mp3",
+            "examples": []
+          },
+          {
+            "printUpper": "Ц",
+            "printLower": "ц",
+            "nameMn": "Ц үсэг",
+            "transcription": "ts",
+            "pronunciation": "/ts/",
+            "call": "tseh",
+            "group": "consonant",
+            "audioUrl": "/uploads/audio/letters/ts.mp3",
+            "examples": []
+          },
+          {
+            "printUpper": "Ч",
+            "printLower": "ч",
+            "nameMn": "Ч үсэг",
+            "transcription": "ch",
+            "pronunciation": "/tʃ/",
+            "call": "cheh",
+            "group": "consonant",
+            "audioUrl": "/uploads/audio/letters/ch.mp3",
+            "examples": []
+          },
+          {
+            "printUpper": "Ш",
+            "printLower": "ш",
+            "nameMn": "Ш үсэг",
+            "transcription": "sh",
+            "pronunciation": "/ʃ/",
+            "call": "shah",
+            "group": "consonant",
+            "audioUrl": "/uploads/audio/letters/sh.mp3",
+            "examples": []
+          },
+          {
+            "printUpper": "Щ",
+            "printLower": "щ",
+            "nameMn": "Щ үсэг",
+            "transcription": "shch",
+            "pronunciation": "/ʃtʃ/",
+            "call": "shchah",
+            "group": "consonant",
+            "audioUrl": "/uploads/audio/letters/shch.mp3",
+            "examples": []
           }
-        ]
+        ],
+        "countLabelMn": "20 гийгүүлэгч",
+        "countLabelEn": "20 consonants"
       }
     },
     {
       "id": "b1-u1-l3-c3",
       "lessonId": "b1-u1-l3",
       "type": "exercise_repeat",
-      "title": "Бүлгээр нь унших",
+      "title": "Сонсож давтах",
       "order": 3,
       "content": {
         "items": [
           {
-            "text": "А О У",
-            "transcription": "a o u",
-            "pronunciation": "back vowels",
+            "text": "Б б, В в, Г г, Д д, Ж ж",
+            "transcription": "b v g d j",
+            "pronunciation": "consonant set 1",
             "audioUrl": "",
-            "call": "ah"
+            "call": "read clearly"
           },
           {
-            "text": "Э Ө Ү",
-            "transcription": "e ö ü",
-            "pronunciation": "front vowels",
+            "text": "З з, К к, Л л, М м, Н н",
+            "transcription": "z k l m n",
+            "pronunciation": "consonant set 2",
             "audioUrl": "",
-            "call": "eh"
+            "call": "read clearly"
           },
           {
-            "text": "И",
-            "transcription": "i",
-            "pronunciation": "neutral vowel",
-            "audioUrl": "/uploads/audio/letters/i.mp3",
-            "call": "ee"
+            "text": "П п, Р р, С с, Т т, Ф ф",
+            "transcription": "p r s t f",
+            "pronunciation": "consonant set 3",
+            "audioUrl": "",
+            "call": "read clearly"
+          },
+          {
+            "text": "Х х, Ц ц, Ч ч, Ш ш, Щ щ",
+            "transcription": "kh ts ch sh shch",
+            "pronunciation": "consonant set 4",
+            "audioUrl": "",
+            "call": "read clearly"
           }
-        ]
-      }
-    },
-    {
-      "id": "b1-u1-l3-c4",
-      "lessonId": "b1-u1-l3",
-      "type": "grammar_note",
-      "title": "Санамж",
-      "order": 4,
-      "content": {
-        "section": "grammar",
-        "notes": [
-          {
-            "mn": "Монгол үгэнд ихэвчлэн нэг төрлийн эгшиг зонхилж ордог.",
-            "en": "Mongolian words usually contain vowels from the same group."
-          },
-          {
-            "mn": "И үсэг нь саармаг эгшиг тул эр болон эм эгшигтэй хамт орж чадна.",
-            "en": "The vowel И is neutral, so it can appear with both back and front vowels."
-          },
-          {
-            "mn": "Эгшгийн ангиллыг мэдэх нь зөв дуудлага болон зөв бичихэд чухал.",
-            "en": "Understanding vowel groups is important for correct pronunciation and spelling."
-          }
-        ]
-      }
-    },
-    {
-      "id": "b1-u1-l3-c5",
-      "lessonId": "b1-u1-l3",
-      "type": "exercise_write",
-      "title": "Trace vowels",
-      "order": 5,
-      "content": {
-        "instructionMn": "Ангиллаар нь эгшгийг бич.",
-        "instructionEn": "Trace and write vowels by group.",
-        "letters": [
-          "Аа",
-          "Оо",
-          "Уу",
-          "Ээ",
-          "Өө",
-          "Үү",
-          "Ии"
         ]
       }
     }

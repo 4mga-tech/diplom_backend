@@ -2,8 +2,8 @@
   "lesson": {
     "id": "b1-u1-l4",
     "unitId": "b1-u1",
-    "title": "Урт ба хос эгшиг",
-    "subtitle": "Long vowels and diphthongs",
+    "title": "Тэмдэг ба тусгай үсэг",
+    "subtitle": "Sign and special letters + review",
     "order": 4,
     "xpReward": 20,
     "quizXpReward": 0
@@ -16,124 +16,133 @@
       "title": "Тайлбар",
       "order": 1,
       "content": {
-        "textMn": "Урт эгшиг нь эгшиг давхарлан бичигдэж уртаар дуудагдана: аа, ээ, оо, уу, өө, үү. Хос эгшиг нь хоёр өөр эгшиг нийлж нэг авиа мэт дуудагдана: ай, ой, уй, үй, эй.",
-        "textEn": "Long vowels are written with doubled vowels and pronounced longer: аа, ээ, оо, уу, өө, үү. Diphthongs combine two vowel sounds: ай, ой, уй, үй, эй."
-      }
-    },
-    {
-      "id": "b1-u1-l4-c1n",
-      "lessonId": "b1-u1-l4",
-      "type": "grammar_note",
-      "title": "Санамж",
-      "order": 2,
-      "content": {
-        "section": "grammar",
-        "notes": [
-          {
-            "mn": "Урт эгшиг нь богино эгшгээс илүү удаан сунгаж дуудагдана.",
-            "en": "Long vowels are pronounced longer than short vowels."
-          },
-          {
-            "mn": "Үгийн утга урт эгшгээс шалтгаалан өөрчлөгдөж болдог.",
-            "en": "The meaning of a word can change depending on vowel length."
-          },
-          {
-            "mn": "Хос эгшгийг уншихдаа хоёр үсгийг салгахгүй, нэг үе мэт нийлүүлж дуудна.",
-            "en": "When pronouncing diphthongs, the two vowels are blended into one syllable."
-          }
-        ]
+        "textMn": "Энэ хичээлээр тэмдэг үсэг Ъ, Ь болон Монгол хэлэнд ордог тусгай/гадаад үсгүүдийг давтана.",
+        "textEn": "This lesson introduces sign letters Ъ, Ь and reviews special/foreign letters."
       }
     },
     {
       "id": "b1-u1-l4-c2",
       "lessonId": "b1-u1-l4",
-      "type": "exercise_repeat",
-      "title": "Урт эгшиг",
-      "order": 3,
+      "type": "alphabet_table",
+      "title": "Тэмдэг ба тусгай үсэг",
+      "order": 2,
       "content": {
-        "items": [
+        "letters": [
           {
-            "text": "аа",
-            "transcription": "aa",
-            "pronunciation": "long a",
-            "audioUrl": "",
-            "call": "ah"
+            "printUpper": "Ъ",
+            "printLower": "ъ",
+            "nameMn": "Хатуугийн тэмдэг",
+            "transcription": "hard sign",
+            "pronunciation": "/ʺ/",
+            "call": "hard sign",
+            "group": "sign",
+            "audioUrl": "/uploads/audio/letters/hard_sign.mp3",
+            "examples": []
           },
           {
-            "text": "ээ",
-            "transcription": "ee",
-            "pronunciation": "long e",
-            "audioUrl": "",
-            "call": "eh"
+            "printUpper": "Ь",
+            "printLower": "ь",
+            "nameMn": "Зөөлний тэмдэг",
+            "transcription": "soft sign",
+            "pronunciation": "/ʹ/",
+            "call": "soft sign",
+            "group": "sign",
+            "audioUrl": "/uploads/audio/letters/soft_sign.mp3",
+            "examples": []
           },
           {
-            "text": "оо",
-            "transcription": "oo",
-            "pronunciation": "long o",
-            "audioUrl": "",
-            "call": "oh"
+            "printUpper": "Һ",
+            "printLower": "һ",
+            "nameMn": "Һ үсэг",
+            "transcription": "h",
+            "pronunciation": "/h/",
+            "call": "hah",
+            "group": "special_foreign",
+            "audioUrl": "/uploads/audio/letters/hh.mp3",
+            "examples": []
           },
           {
-            "text": "уу",
-            "transcription": "uu",
-            "pronunciation": "long u",
-            "audioUrl": "",
-            "call": "oo"
-          },
-          {
-            "text": "өө",
-            "transcription": "öö",
-            "pronunciation": "long ö",
-            "audioUrl": "",
-            "call": "uh / eu"
-          },
-          {
-            "text": "үү",
-            "transcription": "üü",
-            "pronunciation": "long ü",
-            "audioUrl": "",
-            "call": "uu / ue"
+            "printUpper": "Ё",
+            "printLower": "ё",
+            "nameMn": "Ё үсэг (давтлага)",
+            "transcription": "yo",
+            "pronunciation": "/jo/",
+            "call": "yoh",
+            "group": "special_foreign",
+            "audioUrl": "/uploads/audio/letters/yo.mp3",
+            "examples": []
           }
-        ]
+        ],
+        "countLabelMn": "2 тэмдэг үсэг + тусгай үсгүүд",
+        "countLabelEn": "2 sign letters + special letters"
       }
     },
     {
       "id": "b1-u1-l4-c3",
       "lessonId": "b1-u1-l4",
-      "type": "vocab_list",
-      "title": "Хос эгшиг",
-      "order": 4,
+      "type": "classification",
+      "title": "Unit 1 давтлага",
+      "order": 3,
       "content": {
-        "items": [
+        "groups": [
           {
-            "text": "ай",
-            "transcription": "ai",
-            "pronunciation": "/ai/",
-            "audioUrl": ""
+            "labelMn": "Үндсэн эгшиг (7)",
+            "labelEn": "Core vowels (7)",
+            "items": [
+              "А",
+              "Э",
+              "И",
+              "О",
+              "У",
+              "Ө",
+              "Ү"
+            ]
           },
           {
-            "text": "ой",
-            "transcription": "oi",
-            "pronunciation": "/oi/",
-            "audioUrl": ""
+            "labelMn": "Туслах эгшиг (6)",
+            "labelEn": "Supporting vowels (6)",
+            "items": [
+              "Е",
+              "Ё",
+              "Ю",
+              "Я",
+              "Й",
+              "Ы"
+            ]
           },
           {
-            "text": "уй",
-            "transcription": "ui",
-            "pronunciation": "/ui/",
-            "audioUrl": ""
+            "labelMn": "Гийгүүлэгч (20)",
+            "labelEn": "Consonants (20)",
+            "items": [
+              "Б",
+              "В",
+              "Г",
+              "Д",
+              "Ж",
+              "З",
+              "К",
+              "Л",
+              "М",
+              "Н",
+              "П",
+              "Р",
+              "С",
+              "Т",
+              "Ф",
+              "Х",
+              "Ц",
+              "Ч",
+              "Ш",
+              "Щ"
+            ]
           },
           {
-            "text": "үй",
-            "transcription": "üi",
-            "pronunciation": "/yi/",
-            "audioUrl": ""
-          },
-          {
-            "text": "эй",
-            "transcription": "ei",
-            "pronunciation": "/ei/",
-            "audioUrl": ""
+            "labelMn": "Тэмдэг үсэг (2)",
+            "labelEn": "Sign letters (2)",
+            "items": [
+              "Ъ",
+              "Ь"
+            ]
           }
         ]
       }
