@@ -16,8 +16,8 @@
       "title": "Тайлбар",
       "order": 1,
       "content": {
-        "textMn": "Энэ хичээлээр тэмдэг үсэг Ъ, Ь болон Монгол хэлэнд ордог тусгай/гадаад үсгүүдийг давтана.",
-        "textEn": "This lesson introduces sign letters Ъ, Ь and reviews special/foreign letters."
+        "textMn": "Энэ хичээлээр Ь, Ъ тэмдэг үсгийг хэрэглээтэй нь сурна. Эдгээр нь энгийн эгшиг/гийгүүлэгч шиг дангаар уншигддаггүй, харин хөрш үсгийн дуудлага ба бичлэгт нөлөөлдөг. Ихэвчлэн үгийн дунд эсвэл төгсгөл орчимд таарна.",
+        "textEn": "This lesson explains sign letters Ь and Ъ in real use. They are not pronounced like regular vowels or consonants; instead, they affect spelling and pronunciation of nearby letters. They usually appear inside words or near word endings."
       }
     },
     {
@@ -36,8 +36,21 @@
             "pronunciation": "/ʺ/",
             "call": "hard sign",
             "group": "sign",
-            "audioUrl": "/uploads/audio/letters/hard_sign.mp3",
-            "examples": []
+            "audioUrl": "",
+            "examples": [
+              {
+                "text": "объект",
+                "meaningEn": "object"
+              },
+              {
+                "text": "подъезд",
+                "meaningEn": "entrance / stairwell"
+              },
+              {
+                "text": "съезд",
+                "meaningEn": "congress / meeting"
+              }
+            ]
           },
           {
             "printUpper": "Ь",
@@ -47,8 +60,21 @@
             "pronunciation": "/ʹ/",
             "call": "soft sign",
             "group": "sign",
-            "audioUrl": "/uploads/audio/letters/soft_sign.mp3",
-            "examples": []
+            "audioUrl": "",
+            "examples": [
+              {
+                "text": "морь",
+                "meaningEn": "horse"
+              },
+              {
+                "text": "соль",
+                "meaningEn": "salt"
+              },
+              {
+                "text": "толь",
+                "meaningEn": "mirror"
+              }
+            ]
           },
           {
             "printUpper": "Һ",
@@ -58,7 +84,7 @@
             "pronunciation": "/h/",
             "call": "hah",
             "group": "special_foreign",
-            "audioUrl": "/uploads/audio/letters/hh.mp3",
+            "audioUrl": "/uploads/audio/letters/hagas_i.mp3",
             "examples": []
           },
           {
@@ -80,9 +106,102 @@
     {
       "id": "b1-u1-l4-c3",
       "lessonId": "b1-u1-l4",
+      "type": "grammar_note",
+      "title": "Тэмдэг үсгийн хэрэглээ",
+      "order": 3,
+      "content": {
+        "notes": [
+          {
+            "mn": "Ь нь зөөлний тэмдэг; Ъ нь хатуугийн тэмдэг.",
+            "en": "Ь is the soft sign; Ъ is the hard sign."
+          },
+          {
+            "mn": "Эдгээр нь энгийн үсэг шиг дангаар дуудагдахгүй.",
+            "en": "They are not pronounced as normal standalone letters."
+          },
+          {
+            "mn": "Тэмдэг үсэг нь ойролцоох үсгийн дуудлага, бичлэгийг ялгахад тусална.",
+            "en": "Sign letters help shape spelling and pronunciation around nearby letters."
+          },
+          {
+            "mn": "Ихэвчлэн үгийн дунд эсвэл төгсгөл хэсэгт орно; эхэнд нь жирийнээр тавигддаггүй.",
+            "en": "They usually appear inside words or near endings, not as ordinary starting letters."
+          },
+          {
+            "mn": "Анхан шатанд: тэмдэг үсгийг таньж, утгыг нь мэдэхэд төвлөрнө.",
+            "en": "Beginner focus: recognize these as sign letters and know their role."
+          }
+        ]
+      }
+    },
+    {
+      "id": "b1-u1-l4-c4",
+      "lessonId": "b1-u1-l4",
+      "type": "exercise_repeat",
+      "title": "Жишээ үгсээр давтах",
+      "order": 4,
+      "content": {
+        "items": [
+          {
+            "text": "морь",
+            "transcription": "mor'",
+            "meaningEn": "horse",
+            "audioUrl": ""
+          },
+          {
+            "text": "соль",
+            "transcription": "sol'",
+            "meaningEn": "salt",
+            "audioUrl": ""
+          },
+          {
+            "text": "толь",
+            "transcription": "tol'",
+            "meaningEn": "mirror",
+            "audioUrl": ""
+          },
+          {
+            "text": "объект",
+            "transcription": "ob-yekt",
+            "meaningEn": "object",
+            "audioUrl": ""
+          },
+          {
+            "text": "подъезд",
+            "transcription": "pod-yezd",
+            "meaningEn": "entrance / stairwell",
+            "audioUrl": ""
+          },
+          {
+            "text": "съезд",
+            "transcription": "s-yezd",
+            "meaningEn": "congress / meeting",
+            "audioUrl": ""
+          }
+        ]
+      }
+    },
+    {
+      "id": "b1-u1-l4-c5",
+      "lessonId": "b1-u1-l4",
+      "type": "exercise_write",
+      "title": "Letter tracing",
+      "order": 5,
+      "content": {
+        "instructionMn": "Тэмдэг үсгийг том ба жижиг хэлбэрээр бич.",
+        "instructionEn": "Trace sign letters in uppercase and lowercase.",
+        "letters": [
+          "Ъъ",
+          "Ьь"
+        ]
+      }
+    },
+    {
+      "id": "b1-u1-l4-c6",
+      "lessonId": "b1-u1-l4",
       "type": "classification",
       "title": "Unit 1 давтлага",
-      "order": 3,
+      "order": 6,
       "content": {
         "groups": [
           {

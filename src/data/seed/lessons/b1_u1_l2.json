@@ -116,7 +116,7 @@
             "pronunciation": "/ɨ/",
             "call": "ih",
             "group": "supporting_vowel",
-            "audioUrl": "/uploads/audio/letters/y.mp3",
+            "audioUrl": "",
             "examples": [
               {
                 "text": "крым",
@@ -176,7 +176,7 @@
             "text": "Ы ы",
             "transcription": "y",
             "pronunciation": "/ɨ/",
-            "audioUrl": "/uploads/audio/letters/y.mp3",
+            "audioUrl": "",
             "call": "ih"
           }
         ]
@@ -192,6 +192,13 @@
         "instructionMn": "Үсэг бүрийг том ба жижиг хэлбэрээр бич.",
         "instructionEn": "Trace uppercase and lowercase.",
         "letters": [
+          "Аа",
+          "Ээ",
+          "Ии",
+          "Оо",
+          "Уу",
+          "Өө",
+          "Үү",
           "Ее",
           "Ёё",
           "Йй",
