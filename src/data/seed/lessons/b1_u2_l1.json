@@ -123,31 +123,38 @@
         "items": [
           {
             "text": "аав",
-            "audioUrl": "/uploads/audio/words/father.mp3"
+            "audioUrl": "/uploads/audio/words/father.mp3",
+            "call": "ah"
           },
           {
             "text": "ном",
-            "audioUrl": "/uploads/audio/words/book.mp3"
+            "audioUrl": "/uploads/audio/words/book.mp3",
+            "call": "en"
           },
           {
             "text": "ус",
-            "audioUrl": "/uploads/audio/words/water.mp3"
+            "audioUrl": "/uploads/audio/words/water.mp3",
+            "call": "oo"
           },
           {
             "text": "гэр",
-            "audioUrl": "/uploads/audio/words/house.mp3"
+            "audioUrl": "/uploads/audio/words/house.mp3",
+            "call": "geh"
           },
           {
             "text": "сүү",
-            "audioUrl": "/uploads/audio/syllables/suu.mp3"
+            "audioUrl": "/uploads/audio/syllables/suu.mp3",
+            "call": "es"
           },
           {
             "text": "би",
-            "audioUrl": "/uploads/audio/words/me.mp3"
+            "audioUrl": "/uploads/audio/words/me.mp3",
+            "call": "beh"
           },
           {
             "text": "чи",
-            "audioUrl": "/uploads/audio/words/you.mp3"
+            "audioUrl": "/uploads/audio/words/you.mp3",
+            "call": "cheh"
           }
         ]
       }

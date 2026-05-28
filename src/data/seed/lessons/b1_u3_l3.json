@@ -32,15 +32,29 @@
         "groups": [
           {
             "title": "б vs в",
-            "chips": ["бал", "вал", "бөмбөг", "вирус"]
+            "chips": [
+              "бал",
+              "вал",
+              "бөмбөг",
+              "вирус"
+            ]
           },
           {
             "title": "г авианы хувилбар",
-            "chips": ["гал", "гэр", "сургууль"]
+            "chips": [
+              "гал",
+              "гэр",
+              "сургууль"
+            ]
           },
           {
             "title": "н авианы байрлал",
-            "chips": ["ан", "на", "ном", "хүн"]
+            "chips": [
+              "ан",
+              "на",
+              "ном",
+              "хүн"
+            ]
           }
         ]
       }
@@ -59,49 +73,57 @@
             "text": "бал",
             "transcription": "bal",
             "pronunciation": "/bal/",
-            "audioUrl": "/uploads/audio/words/bal.mp3"
+            "audioUrl": "/uploads/audio/words/bal.mp3",
+            "call": "beh"
           },
           {
             "text": "вал",
             "transcription": "val",
             "pronunciation": "/val/",
-            "audioUrl": "/uploads/audio/words/val.mp3"
+            "audioUrl": "/uploads/audio/words/val.mp3",
+            "call": "veh"
           },
           {
             "text": "гал",
             "transcription": "gal",
             "pronunciation": "/ɢal/",
-            "audioUrl": "/uploads/audio/words/gal.mp3"
+            "audioUrl": "/uploads/audio/words/gal.mp3",
+            "call": "geh"
           },
           {
             "text": "гэр",
             "transcription": "ger",
             "pronunciation": "/ger/",
-            "audioUrl": "/uploads/audio/words/ger.mp3"
+            "audioUrl": "/uploads/audio/words/ger.mp3",
+            "call": "geh"
           },
           {
             "text": "ан",
             "transcription": "an",
             "pronunciation": "/an/",
-            "audioUrl": "/uploads/audio/words/an.mp3"
+            "audioUrl": "/uploads/audio/words/an.mp3",
+            "call": "ah"
           },
           {
             "text": "на",
             "transcription": "na",
             "pronunciation": "/na/",
-            "audioUrl": "/uploads/audio/words/na.mp3"
+            "audioUrl": "/uploads/audio/words/na.mp3",
+            "call": "en"
           },
           {
             "text": "ном",
             "transcription": "nom",
             "pronunciation": "/nɔm/",
-            "audioUrl": "/uploads/audio/words/nom.mp3"
+            "audioUrl": "/uploads/audio/words/nom.mp3",
+            "call": "en"
           },
           {
             "text": "хүн",
             "transcription": "khun",
             "pronunciation": "/xʊn/",
-            "audioUrl": "/uploads/audio/words/khun.mp3"
+            "audioUrl": "/uploads/audio/words/khun.mp3",
+            "call": "kheh"
           }
         ]
       }
@@ -119,19 +141,28 @@
           {
             "prompt": "_ал (б/в)",
             "correctAnswer": "бал",
-            "options": ["бал", "вал"],
+            "options": [
+              "бал",
+              "вал"
+            ],
             "audioUrl": "/uploads/audio/words/bal.mp3"
           },
           {
             "prompt": "_эр (г/х)",
             "correctAnswer": "гэр",
-            "options": ["гэр", "хэр"],
+            "options": [
+              "гэр",
+              "хэр"
+            ],
             "audioUrl": "/uploads/audio/words/ger.mp3"
           },
           {
             "prompt": "_ом (н/м)",
             "correctAnswer": "ном",
-            "options": ["ном", "мом"],
+            "options": [
+              "ном",
+              "мом"
+            ],
             "audioUrl": "/uploads/audio/words/nom.mp3"
           }
         ]

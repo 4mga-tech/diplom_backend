@@ -56,37 +56,43 @@
             "text": "аа",
             "transcription": "aa",
             "pronunciation": "long a",
-            "audioUrl": ""
+            "audioUrl": "",
+            "call": "ah"
           },
           {
             "text": "ээ",
             "transcription": "ee",
             "pronunciation": "long e",
-            "audioUrl": ""
+            "audioUrl": "",
+            "call": "eh"
           },
           {
             "text": "оо",
             "transcription": "oo",
             "pronunciation": "long o",
-            "audioUrl": ""
+            "audioUrl": "",
+            "call": "oh"
           },
           {
             "text": "уу",
             "transcription": "uu",
             "pronunciation": "long u",
-            "audioUrl": ""
+            "audioUrl": "",
+            "call": "oo"
           },
           {
             "text": "өө",
             "transcription": "öö",
             "pronunciation": "long ö",
-            "audioUrl": ""
+            "audioUrl": "",
+            "call": "uh / eu"
           },
           {
             "text": "үү",
             "transcription": "üü",
             "pronunciation": "long ü",
-            "audioUrl": ""
+            "audioUrl": "",
+            "call": "uu / ue"
           }
         ]
       }

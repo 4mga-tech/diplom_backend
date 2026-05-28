@@ -68,19 +68,22 @@
             "text": "А О У",
             "transcription": "a o u",
             "pronunciation": "back vowels",
-            "audioUrl": ""
+            "audioUrl": "",
+            "call": "ah"
           },
           {
             "text": "Э Ө Ү",
             "transcription": "e ö ü",
             "pronunciation": "front vowels",
-            "audioUrl": ""
+            "audioUrl": "",
+            "call": "eh"
           },
           {
             "text": "И",
             "transcription": "i",
             "pronunciation": "neutral vowel",
-            "audioUrl": "/uploads/audio/letters/i.mp3"
+            "audioUrl": "/uploads/audio/letters/i.mp3",
+            "call": "ee"
           }
         ]
       }
