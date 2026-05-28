@@ -38,13 +38,141 @@
     "passingScore": 70
   },
   "quizQuestions": [
-    {"id":"quiz_b1_u2_final_q1","quizId":"quiz_b1_u2_final","type":"multiple_choice","prompt":"Аль нь эр эгшигтэй үг вэ?","helper":"Which word has back vowels?","options":["ном","гэр","сүү","ээж"],"correctAnswer":"ном","explanation":"Ном гэдэг үгэнд эр эгшиг орсон.","xpReward":2,"order":1},
-    {"id":"quiz_b1_u2_final_q2","quizId":"quiz_b1_u2_final","type":"multiple_choice","prompt":"Аль нь эм эгшигтэй үг вэ?","helper":"Which word has front vowels?","options":["ус","аав","гэр","ном"],"correctAnswer":"гэр","explanation":"Гэр нь эм эгшгийн бүлэгт орно.","xpReward":2,"order":2},
-    {"id":"quiz_b1_u2_final_q3","quizId":"quiz_b1_u2_final","type":"multiple_choice","prompt":"Саармаг эгшиг аль нь вэ?","helper":"Identify the neutral vowel.","options":["а","ө","и","у"],"correctAnswer":"и","explanation":"И нь саармаг эгшиг тул хоёр бүлэгтэй хамт орж чадна.","xpReward":2,"order":3},
-    {"id":"quiz_b1_u2_final_q4","quizId":"quiz_b1_u2_final","type":"multiple_choice","prompt":"\"Ы\" орсон үгийг сонгоно уу.","helper":"Choose the word that contains Ы.","options":["багшийн","ээжийн","номын","гэрийн"],"correctAnswer":"номын","explanation":"Номын үгэнд ы үсэг орсон.","xpReward":2,"order":4},
-    {"id":"quiz_b1_u2_final_q5","quizId":"quiz_b1_u2_final","type":"multiple_choice","prompt":"\"ИЙ\" тод илэрхий үгийг сонгоно уу.","helper":"Choose the form with clear ИЙ.","options":["ус","аавын","ээжийн","ном"],"correctAnswer":"ээжийн","explanation":"Ээжийн хэлбэрт ий дараалал тод харагдана.","xpReward":2,"order":5},
-    {"id":"quiz_b1_u2_final_q6","quizId":"quiz_b1_u2_final","type":"multiple_choice","prompt":"Аль үсэг \"йо\" мэт сонсогдож болно вэ?","helper":"Which letter can sound like yo?","options":["Я","Е","Ю","Ё"],"correctAnswer":"Ё","explanation":"Ё үсэг ихэнхдээ йо дуудлагатай.","xpReward":2,"order":6},
-    {"id":"quiz_b1_u2_final_q7","quizId":"quiz_b1_u2_final","type":"multiple_choice","prompt":"Й + у нийлбэрээс аль үсэг гардаг вэ?","helper":"Which letter comes from y + u?","options":["Е","Я","Ю","Ё"],"correctAnswer":"Ю","explanation":"Й + у нийлээд Ю болж бичигдэнэ.","xpReward":2,"order":7},
-    {"id":"quiz_b1_u2_final_q8","quizId":"quiz_b1_u2_final","type":"multiple_choice","prompt":"Аль үсэг \"йэ/е\" мэт сонсогддог вэ?","helper":"Which letter can sound like ye/e?","options":["Е","Я","Ё","Ю"],"correctAnswer":"Е","explanation":"Е нь байрлалаасаа хамааран йэ эсвэл е мэт сонсогдоно.","xpReward":2,"order":8}
+    {
+      "id": "quiz_b1_u2_final_q1",
+      "quizId": "quiz_b1_u2_final",
+      "type": "multiple_choice",
+      "prompt": "Аль нь эр эгшигтэй үг вэ?",
+      "helper": "Which word has back vowels?",
+      "options": [
+        "ном",
+        "гэр",
+        "сүү",
+        "ээж"
+      ],
+      "correctAnswer": "ном",
+      "explanation": "Ном гэдэг үгэнд эр эгшиг орсон.",
+      "xpReward": 2,
+      "order": 1
+    },
+    {
+      "id": "quiz_b1_u2_final_q2",
+      "quizId": "quiz_b1_u2_final",
+      "type": "multiple_choice",
+      "prompt": "Аль нь эм эгшигтэй үг вэ?",
+      "helper": "Which word has front vowels?",
+      "options": [
+        "ус",
+        "аав",
+        "гэр",
+        "ном"
+      ],
+      "correctAnswer": "гэр",
+      "explanation": "Гэр нь эм эгшгийн бүлэгт орно.",
+      "xpReward": 2,
+      "order": 2
+    },
+    {
+      "id": "quiz_b1_u2_final_q3",
+      "quizId": "quiz_b1_u2_final",
+      "type": "multiple_choice",
+      "prompt": "Саармаг эгшиг аль нь вэ?",
+      "helper": "Identify the neutral vowel.",
+      "options": [
+        "а",
+        "ө",
+        "и",
+        "у"
+      ],
+      "correctAnswer": "и",
+      "explanation": "И нь саармаг эгшиг тул хоёр бүлэгтэй хамт орж чадна.",
+      "xpReward": 2,
+      "order": 3
+    },
+    {
+      "id": "quiz_b1_u2_final_q4",
+      "quizId": "quiz_b1_u2_final",
+      "type": "multiple_choice",
+      "prompt": "\"Ы\" орсон үгийг сонгоно уу.",
+      "helper": "Choose the word that contains Ы.",
+      "options": [
+        "багшийн",
+        "ээжийн",
+        "номын",
+        "гэрийн"
+      ],
+      "correctAnswer": "номын",
+      "explanation": "Номын үгэнд ы үсэг орсон.",
+      "xpReward": 2,
+      "order": 4
+    },
+    {
+      "id": "quiz_b1_u2_final_q5",
+      "quizId": "quiz_b1_u2_final",
+      "type": "multiple_choice",
+      "prompt": "\"ИЙ\" тод илэрхий үгийг сонгоно уу.",
+      "helper": "Choose the form with clear ИЙ.",
+      "options": [
+        "ус",
+        "аавын",
+        "ээжийн",
+        "ном"
+      ],
+      "correctAnswer": "ээжийн",
+      "explanation": "Ээжийн хэлбэрт ий дараалал тод харагдана.",
+      "xpReward": 2,
+      "order": 5
+    },
+    {
+      "id": "quiz_b1_u2_final_q6",
+      "quizId": "quiz_b1_u2_final",
+      "type": "multiple_choice",
+      "prompt": "Аль үсэг \"йо\" мэт сонсогдож болно вэ?",
+      "helper": "Which letter can sound like yo?",
+      "options": [
+        "Я",
+        "Е",
+        "Ю",
+        "Ё"
+      ],
+      "correctAnswer": "Ё",
+      "explanation": "Ё үсэг ихэнхдээ йо дуудлагатай.",
+      "xpReward": 2,
+      "order": 6
+    },
+    {
+      "id": "quiz_b1_u2_final_q7",
+      "quizId": "quiz_b1_u2_final",
+      "type": "multiple_choice",
+      "prompt": "Й + у нийлбэрээс аль үсэг гардаг вэ?",
+      "helper": "Which letter comes from y + u?",
+      "options": [
+        "Е",
+        "Я",
+        "Ю",
+        "Ё"
+      ],
+      "correctAnswer": "Ю",
+      "explanation": "Й + у нийлээд Ю болж бичигдэнэ.",
+      "xpReward": 2,
+      "order": 7
+    },
+    {
+      "id": "quiz_b1_u2_final_q8",
+      "quizId": "quiz_b1_u2_final",
+      "type": "multiple_choice",
+      "prompt": "Аль үсэг \"йэ/е\" мэт сонсогддог вэ?",
+      "helper": "Which letter can sound like ye/e?",
+      "options": [
+        "Е",
+        "Я",
+        "Ё",
+        "Ю"
+      ],
+      "correctAnswer": "Е",
+      "explanation": "Е нь байрлалаасаа хамааран йэ эсвэл е мэт сонсогдоно.",
+      "xpReward": 2,
+      "order": 8
+    }
   ]
 }

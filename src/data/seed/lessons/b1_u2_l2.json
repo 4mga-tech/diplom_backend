@@ -133,19 +133,23 @@
         "items": [
           {
             "text": "номын",
-            "audioUrl": "/uploads/audio/words/nomiin.mp3"
+            "audioUrl": "/uploads/audio/words/nomiin.mp3",
+            "call": "en"
           },
           {
             "text": "аавын",
-            "audioUrl": "/uploads/audio/words/aaviin.mp3"
+            "audioUrl": "/uploads/audio/words/aaviin.mp3",
+            "call": "ah"
           },
           {
             "text": "багшийн",
-            "audioUrl": "/uploads/audio/words/bagshiin.mp3"
+            "audioUrl": "/uploads/audio/words/bagshiin.mp3",
+            "call": "beh"
           },
           {
             "text": "ээжийн",
-            "audioUrl": "/uploads/audio/words/eejiin.mp3"
+            "audioUrl": "/uploads/audio/words/eejiin.mp3",
+            "call": "eh"
           }
         ]
       }

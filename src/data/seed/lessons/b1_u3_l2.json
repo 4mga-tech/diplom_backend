@@ -55,11 +55,29 @@
         "groups": [
           {
             "title": "Эгшигт гийгүүлэгч",
-            "chips": ["м", "н", "г", "л", "б", "в", "р"]
+            "chips": [
+              "м",
+              "н",
+              "г",
+              "л",
+              "б",
+              "в",
+              "р"
+            ]
           },
           {
             "title": "Заримдаг гийгүүлэгч",
-            "chips": ["ц", "ж", "з", "с", "д", "т", "ш", "ч", "х"]
+            "chips": [
+              "ц",
+              "ж",
+              "з",
+              "с",
+              "д",
+              "т",
+              "ш",
+              "ч",
+              "х"
+            ]
           }
         ]
       }
@@ -78,31 +96,36 @@
             "text": "ма",
             "transcription": "ma",
             "pronunciation": "/ma/",
-            "audioUrl": "/uploads/audio/syllables/ma.mp3"
+            "audioUrl": "/uploads/audio/syllables/ma.mp3",
+            "call": "em"
           },
           {
             "text": "на",
             "transcription": "na",
             "pronunciation": "/na/",
-            "audioUrl": "/uploads/audio/syllables/ma.mp3"
+            "audioUrl": "/uploads/audio/syllables/ma.mp3",
+            "call": "en"
           },
           {
             "text": "са",
             "transcription": "sa",
             "pronunciation": "/sa/",
-            "audioUrl": "/uploads/audio/syllables/sa.mp3"
+            "audioUrl": "/uploads/audio/syllables/sa.mp3",
+            "call": "es"
           },
           {
             "text": "ша",
             "transcription": "sha",
             "pronunciation": "/ʃa/",
-            "audioUrl": "/uploads/audio/syllables/sa.mp3"
+            "audioUrl": "/uploads/audio/syllables/sa.mp3",
+            "call": "sheh"
           },
           {
             "text": "сургууль",
             "transcription": "surguul",
             "pronunciation": "/sʊrɢʊɮ/",
-            "audioUrl": "/uploads/audio/words/school.mp3"
+            "audioUrl": "/uploads/audio/words/school.mp3",
+            "call": "es"
           }
         ]
       }

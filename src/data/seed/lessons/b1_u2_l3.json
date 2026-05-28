@@ -62,7 +62,9 @@
             "transcription": "ye/e",
             "pronunciation": "/je, e/",
             "group": "y-type-vowel",
-            "audioUrl": "/uploads/audio/letters/ye.mp3"
+            "audioUrl": "/uploads/audio/letters/ye.mp3",
+            "call": "yeh",
+            "examples": []
           },
           {
             "printUpper": "Ё",
@@ -71,7 +73,9 @@
             "transcription": "yo",
             "pronunciation": "/jo/",
             "group": "y-type-vowel",
-            "audioUrl": "/uploads/audio/letters/yo.mp3"
+            "audioUrl": "/uploads/audio/letters/yo.mp3",
+            "call": "yoh",
+            "examples": []
           },
           {
             "printUpper": "Ю",
@@ -80,7 +84,9 @@
             "transcription": "yu",
             "pronunciation": "/ju/",
             "group": "y-type-vowel",
-            "audioUrl": "/uploads/audio/letters/yu.mp3"
+            "audioUrl": "/uploads/audio/letters/yu.mp3",
+            "call": "yoo",
+            "examples": []
           },
           {
             "printUpper": "Я",
@@ -89,7 +95,9 @@
             "transcription": "ya",
             "pronunciation": "/ja/",
             "group": "y-type-vowel",
-            "audioUrl": "/uploads/audio/letters/ya.mp3"
+            "audioUrl": "/uploads/audio/letters/ya.mp3",
+            "call": "yah",
+            "examples": []
           }
         ],
         "items": [
@@ -100,7 +108,9 @@
             "transcription": "ye/e",
             "pronunciation": "/je, e/",
             "group": "y-type-vowel",
-            "audioUrl": "/uploads/audio/letters/ye.mp3"
+            "audioUrl": "/uploads/audio/letters/ye.mp3",
+            "call": "yeh",
+            "examples": []
           },
           {
             "printUpper": "Ё",
@@ -109,7 +119,9 @@
             "transcription": "yo",
             "pronunciation": "/jo/",
             "group": "y-type-vowel",
-            "audioUrl": "/uploads/audio/letters/yo.mp3"
+            "audioUrl": "/uploads/audio/letters/yo.mp3",
+            "call": "yoh",
+            "examples": []
           },
           {
             "printUpper": "Ю",
@@ -118,7 +130,9 @@
             "transcription": "yu",
             "pronunciation": "/ju/",
             "group": "y-type-vowel",
-            "audioUrl": "/uploads/audio/letters/yu.mp3"
+            "audioUrl": "/uploads/audio/letters/yu.mp3",
+            "call": "yoo",
+            "examples": []
           },
           {
             "printUpper": "Я",
@@ -127,7 +141,9 @@
             "transcription": "ya",
             "pronunciation": "/ja/",
             "group": "y-type-vowel",
-            "audioUrl": "/uploads/audio/letters/ya.mp3"
+            "audioUrl": "/uploads/audio/letters/ya.mp3",
+            "call": "yah",
+            "examples": []
           }
         ]
       }
@@ -192,43 +208,50 @@
             "text": "я",
             "transcription": "ya",
             "pronunciation": "/ja/",
-            "audioUrl": "/uploads/audio/letters/ya.mp3"
+            "audioUrl": "/uploads/audio/letters/ya.mp3",
+            "call": "yah"
           },
           {
             "text": "ё",
             "transcription": "yo",
             "pronunciation": "/jo/",
-            "audioUrl": "/uploads/audio/letters/yo.mp3"
+            "audioUrl": "/uploads/audio/letters/yo.mp3",
+            "call": "yoh"
           },
           {
             "text": "ю",
             "transcription": "yu",
             "pronunciation": "/ju/",
-            "audioUrl": "/uploads/audio/letters/yu.mp3"
+            "audioUrl": "/uploads/audio/letters/yu.mp3",
+            "call": "yoo"
           },
           {
             "text": "е",
             "transcription": "ye",
             "pronunciation": "/je/",
-            "audioUrl": "/uploads/audio/letters/ye.mp3"
+            "audioUrl": "/uploads/audio/letters/ye.mp3",
+            "call": "yeh"
           },
           {
             "text": "яа",
             "transcription": "yaa",
             "pronunciation": "/jaa/",
-            "audioUrl": ""
+            "audioUrl": "",
+            "call": "yah"
           },
           {
             "text": "ёо",
             "transcription": "yoo",
             "pronunciation": "/joo/",
-            "audioUrl": ""
+            "audioUrl": "",
+            "call": "yoh"
           },
           {
             "text": "юу",
             "transcription": "yuu",
             "pronunciation": "/juu/",
-            "audioUrl": ""
+            "audioUrl": "",
+            "call": "yoo"
           }
         ],
         "rows": [
@@ -238,7 +261,7 @@
           },
           {
             "line": "ё",
-                "audioUrl": "/uploads/audio/letters/yo.mp3"
+            "audioUrl": "/uploads/audio/letters/yo.mp3"
           },
           {
             "line": "ю",

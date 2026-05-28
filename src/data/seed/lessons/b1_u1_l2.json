@@ -59,7 +59,9 @@
             "transcription": "a",
             "pronunciation": "/a/",
             "group": "basic_vowel",
-            "audioUrl": "/uploads/audio/letters/a.mp3"
+            "audioUrl": "/uploads/audio/letters/a.mp3",
+            "call": "ah",
+            "examples": []
           },
           {
             "printUpper": "Э",
@@ -68,7 +70,9 @@
             "transcription": "e",
             "pronunciation": "/e/",
             "group": "basic_vowel",
-            "audioUrl": "/uploads/audio/letters/e.mp3"
+            "audioUrl": "/uploads/audio/letters/e.mp3",
+            "call": "eh",
+            "examples": []
           },
           {
             "printUpper": "И",
@@ -77,7 +81,9 @@
             "transcription": "i",
             "pronunciation": "/i/",
             "group": "basic_vowel",
-            "audioUrl": "/uploads/audio/letters/i.mp3"
+            "audioUrl": "/uploads/audio/letters/i.mp3",
+            "call": "ee",
+            "examples": []
           },
           {
             "printUpper": "О",
@@ -86,7 +92,9 @@
             "transcription": "o",
             "pronunciation": "/o/",
             "group": "basic_vowel",
-            "audioUrl": "/uploads/audio/letters/o.mp3"
+            "audioUrl": "/uploads/audio/letters/o.mp3",
+            "call": "oh",
+            "examples": []
           },
           {
             "printUpper": "У",
@@ -95,7 +103,9 @@
             "transcription": "u",
             "pronunciation": "/u/",
             "group": "basic_vowel",
-            "audioUrl": "/uploads/audio/letters/u.mp3"
+            "audioUrl": "/uploads/audio/letters/u.mp3",
+            "call": "oo",
+            "examples": []
           },
           {
             "printUpper": "Ө",
@@ -104,7 +114,9 @@
             "transcription": "ö",
             "pronunciation": "/ø/",
             "group": "basic_vowel",
-            "audioUrl": "/uploads/audio/letters/ou.mp3"
+            "audioUrl": "/uploads/audio/letters/ou.mp3",
+            "call": "uh / eu",
+            "examples": []
           },
           {
             "printUpper": "Ү",
@@ -113,7 +125,9 @@
             "transcription": "ü",
             "pronunciation": "/y/",
             "group": "basic_vowel",
-            "audioUrl": "/uploads/audio/letters/uu.mp3"
+            "audioUrl": "/uploads/audio/letters/uu.mp3",
+            "call": "uu / ue",
+            "examples": []
           }
         ]
       }
@@ -153,37 +167,43 @@
             "text": "Е е",
             "transcription": "ye/e",
             "pronunciation": "/je, e/",
-            "audioUrl": "/uploads/audio/letters/ye.mp3"
+            "audioUrl": "/uploads/audio/letters/ye.mp3",
+            "call": "yeh"
           },
           {
             "text": "Ё ё",
             "transcription": "yo",
             "pronunciation": "/jo/",
-            "audioUrl": "/uploads/audio/letters/yo.mp3"
+            "audioUrl": "/uploads/audio/letters/yo.mp3",
+            "call": "yoh"
           },
           {
             "text": "Ю ю",
             "transcription": "yu",
             "pronunciation": "/ju/",
-            "audioUrl": "/uploads/audio/letters/yu.mp3"
+            "audioUrl": "/uploads/audio/letters/yu.mp3",
+            "call": "yoo"
           },
           {
             "text": "Я я",
             "transcription": "ya",
             "pronunciation": "/ja/",
-            "audioUrl": "/uploads/audio/letters/ya.mp3"
+            "audioUrl": "/uploads/audio/letters/ya.mp3",
+            "call": "yah"
           },
           {
             "text": "Й й",
             "transcription": "ĭ",
             "pronunciation": "/j/",
-            "audioUrl": "/uploads/audio/letters/i.mp3"
+            "audioUrl": "/uploads/audio/letters/i.mp3",
+            "call": "iy"
           },
           {
             "text": "Ы ы",
             "transcription": "y",
             "pronunciation": "/ɨ/",
-            "audioUrl": "/uploads/audio/letters/y.mp3"
+            "audioUrl": "/uploads/audio/letters/y.mp3",
+            "call": "ih"
           }
         ]
       }

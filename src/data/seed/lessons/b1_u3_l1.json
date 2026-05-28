@@ -103,31 +103,36 @@
             "text": "номын",
             "transcription": "nomiin",
             "pronunciation": "/nɔmɪŋ/",
-            "audioUrl": "/uploads/audio/words/nomiin.mp3"
+            "audioUrl": "/uploads/audio/words/nomiin.mp3",
+            "call": "en"
           },
           {
             "text": "гэрийн",
             "transcription": "geriin",
             "pronunciation": "/ɡerɪŋ/",
-            "audioUrl": "/uploads/audio/words/geriin.mp3"
+            "audioUrl": "/uploads/audio/words/geriin.mp3",
+            "call": "geh"
           },
           {
             "text": "хүүхэд",
             "transcription": "khuukhed",
             "pronunciation": "/xʊːxət/",
-            "audioUrl": "/uploads/audio/words/child.mp3"
+            "audioUrl": "/uploads/audio/words/child.mp3",
+            "call": "kheh"
           },
           {
             "text": "сургууль",
             "transcription": "surguul",
             "pronunciation": "/sʊrɢʊɮ/",
-            "audioUrl": "/uploads/audio/words/school.mp3"
+            "audioUrl": "/uploads/audio/words/school.mp3",
+            "call": "es"
           },
           {
             "text": "багшийн",
             "transcription": "bagshiin",
             "pronunciation": "/baɡʃiŋ/",
-            "audioUrl": "/uploads/audio/words/bagshiin.mp3"
+            "audioUrl": "/uploads/audio/words/bagshiin.mp3",
+            "call": "beh"
           }
         ]
       }
@@ -144,11 +149,19 @@
         "groups": [
           {
             "title": "Эгшиг сонсогдоно",
-            "chips": ["хүүхэд", "сургууль", "ном"]
+            "chips": [
+              "хүүхэд",
+              "сургууль",
+              "ном"
+            ]
           },
           {
             "title": "Эгшиг сул сонсогдоно",
-            "chips": ["номын", "гэрийн", "багшийн"]
+            "chips": [
+              "номын",
+              "гэрийн",
+              "багшийн"
+            ]
           }
         ]
       }
