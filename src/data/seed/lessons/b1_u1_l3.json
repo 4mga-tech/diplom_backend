@@ -201,7 +201,7 @@
             "pronunciation": "/x/",
             "call": "khah",
             "group": "consonant",
-            "audioUrl": "/uploads/audio/letters/x.mp3",
+            "audioUrl": "/uploads/audio/letters/h.mp3",
             "examples": []
           },
           {
@@ -245,7 +245,7 @@
             "pronunciation": "/ʃtʃ/",
             "call": "shchah",
             "group": "consonant",
-            "audioUrl": "/uploads/audio/letters/shch.mp3",
+            "audioUrl": "/uploads/audio/letters/shche.mp3",
             "examples": []
           }
         ],
@@ -289,6 +289,39 @@
             "audioUrl": "",
             "call": "read clearly"
           }
+        ]
+      }
+    },
+    {
+      "id": "b1-u1-l3-c4",
+      "lessonId": "b1-u1-l3",
+      "type": "exercise_write",
+      "title": "Letter tracing",
+      "order": 4,
+      "content": {
+        "instructionMn": "Гийгүүлэгч үсэг бүрийг том ба жижиг хэлбэрээр бич.",
+        "instructionEn": "Trace each consonant in uppercase and lowercase.",
+        "letters": [
+          "Бб",
+          "Вв",
+          "Гг",
+          "Дд",
+          "Жж",
+          "Зз",
+          "Кк",
+          "Лл",
+          "Мм",
+          "Нн",
+          "Пп",
+          "Рр",
+          "Сс",
+          "Тт",
+          "Фф",
+          "Хх",
+          "Цц",
+          "Чч",
+          "Шш",
+          "Щщ"
         ]
       }
     }
