@@ -4,8 +4,8 @@
     "unitId": "m1-u3",
     "title": "Эгшиг зохицох ёс",
     "titleEn": "Vowel Harmony",
-    "subtitle": "Тодорхойлолт ба үндсэн дүрэм",
-    "subtitleEn": "Definition and core rules",
+    "subtitle": "Эр, эм, саармаг эгшгийг үгэнд хэрэглэх",
+    "subtitleEn": "Using masculine, feminine, and neutral vowels in words",
     "order": 1,
     "xpReward": 20,
     "quizXpReward": 9
@@ -19,8 +19,14 @@
       "order": 1,
       "content": {
         "section": "reading",
-        "textMn": "Эгшиг амны хөндийн байрлалаараа эр, эм гэж ангилагдаж, нэг язгуур, үндэс, түүний нөхцөлүүд дотор ижил зохицолтой байна. Үүнийг эгшиг зохицох ёс гэнэ.",
-        "textEn": "Vowels are classified along a front and back dimension and harmonize within the same root, stem, and suffixes."
+        "textMn": "Эгшиг зохицох ёс гэдэг нь нэг үгийн доторх эгшгүүд ойролцоо бүлгээрээ зохицох дүрэм. Эхлээд үгийн гол эгшгийг ажиглаад, залгах хэлбэрээ сонгоно.",
+        "textEn": "Vowel harmony means vowels inside one word usually stay in the same group. First notice the main vowel, then choose a matching suffix form.",
+        "examples": [
+          "ном → номын",
+          "гэр → гэрийн",
+          "аав → аавын",
+          "ээж → ээжийн"
+        ]
       }
     },
     {
@@ -31,19 +37,32 @@
       "order": 2,
       "content": {
         "section": "reading",
-        "summary": "Эгшиг зохицох ёсны үндсэн бүлгүүд.",
+        "summary": "Эхлэгчдэд хэрэгтэй үндсэн гурван бүлэг.",
         "groups": [
           {
             "title": "Эр эгшиг",
-            "items": ["а", "о", "у", "я", "ё", "ю(у)"]
+            "description": "Back/masculine group",
+            "items": [
+              "а",
+              "о",
+              "у"
+            ]
           },
           {
             "title": "Эм эгшиг",
-            "items": ["э", "ө", "ү", "е", "ю(ү)"]
+            "description": "Front/feminine group",
+            "items": [
+              "э",
+              "ө",
+              "ү"
+            ]
           },
           {
             "title": "Саармаг",
-            "items": ["и", "й"]
+            "description": "Can appear with both groups",
+            "items": [
+              "и"
+            ]
           }
         ],
         "glossary": [
@@ -57,7 +76,7 @@
           },
           {
             "word": "саармаг",
-            "translation": "neutral vowels"
+            "translation": "neutral vowel"
           }
         ]
       }
@@ -70,13 +89,24 @@
       "order": 3,
       "content": {
         "section": "grammar",
-        "textEn": "Read the core rules for how vowels stay in harmony inside one word.",
+        "textEn": "Use these simple rules for beginner reading and suffix choice.",
         "notes": [
-          "Нэг үгэнд эр ба эм эгшиг холилдохгүй.",
-          "Үйл үг, нэр үгийн нөхцөл тухайн үгийн эгшигтэй зохицно.",
-          "О нь а, у-ы дараа ордоггүй; а нь о-ы дараа ордоггүй.",
-          "Ө нь э, ү-тэй, э нь ө-тэй нэг язгуурт хамтрахгүй.",
-          "У, Ү нь үгийн эхний үед ордоггүй гэж сургалтын дүрэмд тайлбарласан."
+          {
+            "mn": "А, о, у орсон олон үг эр эгшгийн бүлэгтэй: ном, аав.",
+            "en": "Many words with а, о, у belong to the masculine group: ном, аав."
+          },
+          {
+            "mn": "Э, ө, ү орсон олон үг эм эгшгийн бүлэгтэй: гэр, үүл, ээж.",
+            "en": "Many words with э, ө, ү belong to the feminine group: гэр, үүл, ээж."
+          },
+          {
+            "mn": "И нь саармаг тул эр, эм үгэнд хоёуланд нь таарч болно.",
+            "en": "И is neutral, so it can appear with either group."
+          },
+          {
+            "mn": "Практик жишээ: ном → номын, гэр → гэрийн, аав → аавын, ээж → ээжийн.",
+            "en": "Practical examples: ном → номын, гэр → гэрийн, аав → аавын, ээж → ээжийн."
+          }
         ]
       }
     },
@@ -103,16 +133,16 @@
       "id": "quiz_m1_u3_l1_q1",
       "quizId": "quiz_m1_u3_l1",
       "type": "multiple_choice",
-      "prompt": "Эгшиг зохицох ёс гэж юу вэ?",
+      "prompt": "“ном → номын” жишээ юу харуулж байна вэ?",
       "helper": "Тодорхойлолтыг санаарай.",
       "options": [
-        "гийгүүлэгчийн ангилал",
-        "эгшгүүд язгуур ба нөхцөлдөө зохицох дүрэм",
-        "үсэг бичих дасгал",
-        "орчуулгын арга"
+        "нэр үгийн олон тоо",
+        "эгшигт тохирсон нөхцөл",
+        "үйл үгийн цаг",
+        "үсгийн нэр"
       ],
-      "correctAnswer": "эгшгүүд язгуур ба нөхцөлдөө зохицох дүрэм",
-      "explanation": "Эгшиг зохицох ёс нь язгуур, үндэс, нөхцөл доторх эгшгийн зохицлын дүрэм юм.",
+      "correctAnswer": "эгшигт тохирсон нөхцөл",
+      "explanation": "Ном нь эр эгшигтэй тул -ын хэлбэр тохирч байна.",
       "xpReward": 3,
       "order": 1
     },
@@ -122,7 +152,12 @@
       "type": "multiple_choice",
       "prompt": "Аль нь саармаг эгшиг вэ?",
       "helper": "Зөв бүлгийг сонго.",
-      "options": ["а", "ө", "и", "ю"],
+      "options": [
+        "а",
+        "ө",
+        "и",
+        "у"
+      ],
       "correctAnswer": "и",
       "explanation": "И эгшиг саармаг бүлэгт орно.",
       "xpReward": 3,
@@ -132,16 +167,16 @@
       "id": "quiz_m1_u3_l1_q3",
       "quizId": "quiz_m1_u3_l1",
       "type": "multiple_choice",
-      "prompt": "Нэг үгэнд эр ба эм эгшиг хамт орж болох уу?",
+      "prompt": "“гэр” үгэнд тохирох хэлбэр аль вэ?",
       "helper": "Үндсэн дүрмийг сана.",
       "options": [
-        "болно",
-        "болохгүй",
-        "зөвхөн туслах эгшигтэй бол болно",
-        "зөвхөн гадаад үгэнд"
+        "гэрийн",
+        "гэрын",
+        "гэрун",
+        "гэрон"
       ],
-      "correctAnswer": "болохгүй",
-      "explanation": "Сургалтын үндсэн дүрмээр нэг үгэнд эр ба эм эгшиг холилдохгүй.",
+      "correctAnswer": "гэрийн",
+      "explanation": "Гэр нь эм эгшигтэй тул гэрийн гэж уншина.",
       "xpReward": 3,
       "order": 3
     }

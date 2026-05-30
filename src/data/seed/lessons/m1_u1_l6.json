@@ -17,8 +17,8 @@
       "title": "Тайлбар",
       "order": 1,
       "content": {
-        "textMn": "Та unit 1-ийн шалгалт өгнө.",
-        "textEn": "You will take the unit 1 quiz."
+        "textMn": "Энэ богино шалгалт нэр үг, үйл үг, төлөөний үг, тодотгох үг болон энгийн өгүүлбэр бүтээхийг давтана.",
+        "textEn": "This short quiz reviews nouns, verbs, pronouns, modifier words, and simple sentence building."
       }
     },
     {
@@ -35,7 +35,8 @@
   "quiz": {
     "id": "m1_u1_l6_quiz",
     "lessonId": "m1_u1_l6",
-    "title": "M1 Unit 1 Quiz"
+    "title": "M1 Unit 1 Quiz",
+    "passingScore": 70
   },
   "quizQuestions": [
     {
@@ -44,8 +45,134 @@
       "order": 1,
       "type": "multiple_choice",
       "prompt": "“ном” ямар үг вэ?",
-      "options": ["нэр үг", "үйл үг", "баймж үг", "төлөөний үг"],
-      "correctAnswer": "нэр үг"
+      "options": [
+        "нэр үг",
+        "үйл үг",
+        "баймж үг",
+        "төлөөний үг"
+      ],
+      "correctAnswer": "нэр үг",
+      "explanation": "Ном нь зүйлийг нэрлэж байна."
+    },
+    {
+      "id": "m1_u1_l6_q2",
+      "quizId": "m1_u1_l6_quiz",
+      "order": 2,
+      "type": "multiple_choice",
+      "prompt": "“Би ном уншиж байна.” өгүүлбэрт үйл үг аль нь вэ?",
+      "options": [
+        "Би",
+        "ном",
+        "уншиж байна",
+        "сайн"
+      ],
+      "correctAnswer": "уншиж байна",
+      "explanation": "Уншиж байна нь хийж буй үйлдэл."
+    },
+    {
+      "id": "m1_u1_l6_q3",
+      "quizId": "m1_u1_l6_quiz",
+      "order": 3,
+      "type": "multiple_choice",
+      "prompt": "“Багш уншиж байна” гэдгийг төлөөний үгээр яаж солих вэ?",
+      "options": [
+        "Тэр уншиж байна",
+        "Ном уншиж байна",
+        "Маш уншиж байна",
+        "Сайн уншиж байна"
+      ],
+      "correctAnswer": "Тэр уншиж байна",
+      "explanation": "Багш гэдэг нэр үгийг тэр гэж орлуулж болно."
+    },
+    {
+      "id": "m1_u1_l6_q4",
+      "quizId": "m1_u1_l6_quiz",
+      "order": 4,
+      "type": "multiple_choice",
+      "prompt": "“Тэр хурдан явж байна.” өгүүлбэрт тодотгох үг аль нь вэ?",
+      "options": [
+        "Тэр",
+        "хурдан",
+        "явж байна",
+        "байна"
+      ],
+      "correctAnswer": "хурдан",
+      "explanation": "Хурдан нь үйлдлийг хэрхэн болж байгааг тодотгож байна."
+    },
+    {
+      "id": "m1_u1_l6_q5",
+      "quizId": "m1_u1_l6_quiz",
+      "order": 5,
+      "type": "multiple_choice",
+      "prompt": "Аль нь хүн нэрлэсэн нэр үг вэ?",
+      "options": [
+        "багш",
+        "идэх",
+        "маш",
+        "би"
+      ],
+      "correctAnswer": "багш",
+      "explanation": "Багш нь хүнийг нэрлэсэн нэр үг."
+    },
+    {
+      "id": "m1_u1_l6_q6",
+      "quizId": "m1_u1_l6_quiz",
+      "order": 6,
+      "type": "multiple_choice",
+      "prompt": "“Чи сургууль руу явж байна.” гэсэн өгүүлбэрийн утга аль вэ?",
+      "options": [
+        "You are going to school.",
+        "I am reading a book.",
+        "The cat is here.",
+        "We eat a little."
+      ],
+      "correctAnswer": "You are going to school.",
+      "explanation": "Чи = you, сургууль руу = to school, явж байна = are going."
+    },
+    {
+      "id": "m1_u1_l6_q7",
+      "quizId": "m1_u1_l6_quiz",
+      "order": 7,
+      "type": "multiple_choice",
+      "prompt": "Зөв дарааллыг сонго: би + ном + уншиж байна",
+      "options": [
+        "Би ном уншиж байна.",
+        "Ном би уншиж байна.",
+        "Уншиж байна би ном.",
+        "Би уншиж байна ном."
+      ],
+      "correctAnswer": "Би ном уншиж байна.",
+      "explanation": "Энгийн дараалал: хүн + зүйл + үйлдэл."
+    },
+    {
+      "id": "m1_u1_l6_q8",
+      "quizId": "m1_u1_l6_quiz",
+      "order": 8,
+      "type": "multiple_choice",
+      "prompt": "Аль мөрөнд зөвхөн төлөөний үг байна вэ?",
+      "options": [
+        "би, чи, тэр",
+        "ном, багш, муур",
+        "унших, идэх, явах",
+        "маш, бага, хурдан"
+      ],
+      "correctAnswer": "би, чи, тэр",
+      "explanation": "Би, чи, тэр нь нэр үгийг орлох үгс."
+    },
+    {
+      "id": "m1_u1_l6_q9",
+      "quizId": "m1_u1_l6_quiz",
+      "order": 9,
+      "type": "multiple_choice",
+      "prompt": "“Би бага иддэг.” өгүүлбэрт “бага” ямар үүрэгтэй вэ?",
+      "options": [
+        "утгыг багасгаж тодотгоно",
+        "хүнийг нэрлэнэ",
+        "үйлдлийг нэрлэнэ",
+        "төлөөний үг болно"
+      ],
+      "correctAnswer": "утгыг багасгаж тодотгоно",
+      "explanation": "Бага нь идэх үйлдлийн хэмжээг тодотгож байна."
     }
   ]
 }

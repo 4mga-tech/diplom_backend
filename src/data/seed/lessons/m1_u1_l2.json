@@ -17,8 +17,13 @@
       "title": "Тайлбар",
       "order": 1,
       "content": {
-        "textMn": "Үйл үг нь үйлдлийг илэрхийлнэ.",
-        "textEn": "A verb describes an action."
+        "textMn": "Үйл үг нь хийх үйлдэл, хөдөлгөөн, байдлыг илэрхийлнэ. “Юу хийж байна?” гэж асуухад үйл үгээр хариулна.",
+        "textEn": "A verb shows an action, movement, or state. It answers “what is someone doing?”",
+        "examples": [
+          "Би уншиж байна.",
+          "Тэр идэж байна.",
+          "Чи явж байна."
+        ]
       }
     },
     {
@@ -28,25 +33,57 @@
       "title": "Жишээ",
       "order": 2,
       "content": {
-        "summary": "Үйл үгийн жишээ",
+        "summary": "Өдөр тутмын үйл үгсийг жишээ өгүүлбэртэй уншаарай.",
         "groups": [
           {
-            "title": "Үйлдэл",
-            "items": ["унших", "идэх", "явах"]
+            "title": "Үндсэн үйл үг",
+            "description": "Action words in dictionary form",
+            "items": [
+              "унших",
+              "идэх",
+              "явах",
+              "бичих",
+              "суух",
+              "ирэх"
+            ]
+          },
+          {
+            "title": "Өгүүлбэрт",
+            "description": "Action words used in simple present sentences",
+            "items": [
+              "уншиж байна",
+              "идэж байна",
+              "явж байна",
+              "бичиж байна",
+              "сууж байна",
+              "ирж байна"
+            ]
           }
         ],
         "glossary": [
           {
             "word": "унших",
-            "translation": "read"
+            "translation": "to read"
           },
           {
             "word": "идэх",
-            "translation": "eat"
+            "translation": "to eat"
           },
           {
             "word": "явах",
-            "translation": "go"
+            "translation": "to go"
+          },
+          {
+            "word": "бичих",
+            "translation": "to write"
+          },
+          {
+            "word": "суух",
+            "translation": "to sit"
+          },
+          {
+            "word": "ирэх",
+            "translation": "to come"
           }
         ]
       }
@@ -58,13 +95,52 @@
       "title": "Дасгал",
       "order": 3,
       "content": {
-        "instructionMn": "Үйл үгийг сонго",
-        "instructionEn": "Select the verb",
-        "groups": [
+        "instructionMn": "Өгүүлбэр доторх үйл үгийг сонго.",
+        "instructionEn": "Choose the verb in each sentence.",
+        "questions": [
           {
-            "sentence": "Тэр ___ байна",
-            "options": ["ном", "уншиж", "сайхан"],
-            "answer": "уншиж"
+            "prompt": "Би ном ___ байна.",
+            "options": [
+              "уншиж",
+              "ном",
+              "би"
+            ],
+            "answer": "уншиж",
+            "result": "Би ном уншиж байна.",
+            "meaningEn": "I am reading a book."
+          },
+          {
+            "prompt": "Тэр хоол ___ байна.",
+            "options": [
+              "идэж",
+              "тэр",
+              "сайн"
+            ],
+            "answer": "идэж",
+            "result": "Тэр хоол идэж байна.",
+            "meaningEn": "He/she is eating food."
+          },
+          {
+            "prompt": "Чи сургууль руу ___ байна.",
+            "options": [
+              "явж",
+              "чи",
+              "сургууль"
+            ],
+            "answer": "явж",
+            "result": "Чи сургууль руу явж байна.",
+            "meaningEn": "You are going to school."
+          },
+          {
+            "prompt": "Багш самбар дээр ___ байна.",
+            "options": [
+              "бичиж",
+              "багш",
+              "хурдан"
+            ],
+            "answer": "бичиж",
+            "result": "Багш самбар дээр бичиж байна.",
+            "meaningEn": "The teacher is writing on the board."
           }
         ]
       }

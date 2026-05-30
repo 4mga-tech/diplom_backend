@@ -17,8 +17,14 @@
       "title": "Тайлбар",
       "order": 1,
       "content": {
-        "textMn": "Төлөөний үг нь нэр үгийг орлуулна.",
-        "textEn": "Pronouns replace nouns."
+        "textMn": "Төлөөний үг нь нэр үгийг давтахгүйгээр орлодог. Жишээ: “Багш уншиж байна” гэдгийг “Тэр уншиж байна” гэж хэлж болно.",
+        "textEn": "Pronouns replace nouns so we do not repeat the same noun. Example: “The teacher is reading” can become “He/she is reading.”",
+        "examples": [
+          "Би ном уншиж байна.",
+          "Чи сургууль руу явж байна.",
+          "Бид ирж байна.",
+          "Та сайн байна уу?"
+        ]
       }
     },
     {
@@ -28,11 +34,32 @@
       "title": "Жишээ",
       "order": 2,
       "content": {
-        "summary": "Жишээ",
+        "summary": "Төлөөний үгийг утгаар нь ялгаарай.",
         "groups": [
           {
-            "title": "Төлөөний үг",
-            "items": ["би", "чи", "тэр"]
+            "title": "Ганц хүн",
+            "description": "One person",
+            "items": [
+              "би = I",
+              "чи = you",
+              "тэр = he/she/that person",
+              "та = you (polite)"
+            ]
+          },
+          {
+            "title": "Олон хүн",
+            "description": "More than one person",
+            "items": [
+              "бид = we"
+            ]
+          },
+          {
+            "title": "Нэр үгийг орлох",
+            "description": "Replace a noun with a pronoun",
+            "items": [
+              "Багш уншиж байна → Тэр уншиж байна",
+              "Ээж ирж байна → Тэр ирж байна"
+            ]
           }
         ],
         "glossary": [
@@ -46,7 +73,72 @@
           },
           {
             "word": "тэр",
-            "translation": "he or she"
+            "translation": "he/she/that person"
+          },
+          {
+            "word": "бид",
+            "translation": "we"
+          },
+          {
+            "word": "та",
+            "translation": "you (polite)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "m1_u1_l3_c3",
+      "lessonId": "m1_u1_l3",
+      "type": "exercise_fill",
+      "title": "Дасгал",
+      "order": 3,
+      "content": {
+        "instructionMn": "Нэр үгийг орлох зөв төлөөний үгийг сонго.",
+        "instructionEn": "Choose the pronoun that can replace the noun.",
+        "questions": [
+          {
+            "prompt": "Багш уншиж байна → ___ уншиж байна.",
+            "options": [
+              "Тэр",
+              "Ном",
+              "Хурдан"
+            ],
+            "answer": "Тэр",
+            "result": "Тэр уншиж байна.",
+            "meaningEn": "He/she is reading."
+          },
+          {
+            "prompt": "___ ном уншиж байна.",
+            "options": [
+              "Би",
+              "Ширээ",
+              "Идэж"
+            ],
+            "answer": "Би",
+            "result": "Би ном уншиж байна.",
+            "meaningEn": "I am reading a book."
+          },
+          {
+            "prompt": "___ сургууль руу явж байна.",
+            "options": [
+              "Чи",
+              "Сайн",
+              "Муур"
+            ],
+            "answer": "Чи",
+            "result": "Чи сургууль руу явж байна.",
+            "meaningEn": "You are going to school."
+          },
+          {
+            "prompt": "___ ирж байна.",
+            "options": [
+              "Бид",
+              "Үзэг",
+              "Бага"
+            ],
+            "answer": "Бид",
+            "result": "Бид ирж байна.",
+            "meaningEn": "We are coming."
           }
         ]
       }

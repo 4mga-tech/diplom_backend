@@ -17,31 +17,67 @@
       "title": "Өгүүлбэр бүтээ",
       "order": 1,
       "content": {
-        "instructionMn": "Өгүүлбэр бүтээ",
-        "instructionEn": "Build a sentence",
-        "example": "би ном уншиж байна",
+        "instructionMn": "Зүүн талын үгсийг зөв дарааллаар нийлүүлж өгүүлбэр бүтээ.",
+        "instructionEn": "Combine the words in the correct order to build a sentence.",
+        "example": "би + ном + уншиж байна = Би ном уншиж байна.",
+        "items": [
+          {
+            "left": "би + ном",
+            "right": "уншиж байна",
+            "result": "Би ном уншиж байна.",
+            "transcription": "bi nom unshij baina"
+          },
+          {
+            "left": "тэр + хурдан",
+            "right": "явж байна",
+            "result": "Тэр хурдан явж байна.",
+            "transcription": "ter khurdan yavj baina"
+          },
+          {
+            "left": "багш + сайн",
+            "right": "уншдаг",
+            "result": "Багш сайн уншдаг.",
+            "transcription": "bagsh sain unshdag"
+          },
+          {
+            "left": "чи + сургууль руу",
+            "right": "явж байна",
+            "result": "Чи сургууль руу явж байна.",
+            "transcription": "chi surguuli ruu yavj baina"
+          },
+          {
+            "left": "би + бага",
+            "right": "иддэг",
+            "result": "Би бага иддэг.",
+            "transcription": "bi baga iddeg"
+          },
+          {
+            "left": "муур",
+            "right": "байна",
+            "result": "Муур байна.",
+            "transcription": "muur baina"
+          }
+        ],
         "glossary": [
           {
             "word": "би",
             "translation": "I"
           },
           {
+            "word": "тэр",
+            "translation": "he/she"
+          },
+          {
             "word": "ном",
             "translation": "book"
           },
           {
-            "word": "уншиж",
-            "translation": "reading"
+            "word": "хурдан",
+            "translation": "fast"
           },
           {
-            "word": "байна",
-            "translation": "am"
-          }
-        ],
-        "questions": [
-          {
-            "words": ["би", "ном", "уншиж", "байна"],
-            "answer": "би ном уншиж байна"
+            "word": "уншиж байна",
+            "translation": "am/is reading"
           }
         ]
       }
