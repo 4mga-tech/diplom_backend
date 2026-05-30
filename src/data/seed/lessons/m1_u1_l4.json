@@ -3,9 +3,9 @@
     "id": "m1_u1_l4",
     "unitId": "m1-u1",
     "title": "Баймж үг",
-    "titleEn": "Adverb",
+    "titleEn": "Modifier Words",
     "subtitle": "Үйлдлийг тодотгох үгс",
-    "subtitleEn": "Words that modify actions",
+    "subtitleEn": "Adverb-like words that modify meaning",
     "order": 4,
     "xpReward": 20
   },
@@ -17,8 +17,13 @@
       "title": "Тайлбар",
       "order": 1,
       "content": {
-        "textMn": "Баймж үг нь үйлдлийг тодотгоно.",
-        "textEn": "Adverbs modify actions."
+        "textMn": "Баймж үгийг энд эхлэгчдэд зориулж үйлдэл, чанарыг тодотгодог богино үгсээр сурна. Эдгээр үг утгыг хүчтэй, бага, сайн, хурдан, удаан болгож өөрчилнө.",
+        "textEn": "Here we practice simple modifier words, or adverb-like words. They make meaning stronger, smaller, better, faster, or slower.",
+        "examples": [
+          "Тэр маш сайн уншдаг.",
+          "Би бага иддэг.",
+          "Тэр хурдан явдаг."
+        ]
       }
     },
     {
@@ -28,11 +33,24 @@
       "title": "Жишээ",
       "order": 2,
       "content": {
-        "summary": "Жишээ",
+        "summary": "Үйлдэл эсвэл чанарын өмнө орж утгыг тодруулна.",
         "groups": [
           {
-            "title": "Баймж үг",
-            "items": ["маш", "бага", "сайн"]
+            "title": "Хэмжээ, хүч",
+            "description": "How much or how strong",
+            "items": [
+              "маш = very",
+              "бага = a little"
+            ]
+          },
+          {
+            "title": "Чанар, хурд",
+            "description": "How well or how fast",
+            "items": [
+              "сайн = well/good",
+              "хурдан = fast",
+              "удаан = slowly/long"
+            ]
           }
         ],
         "glossary": [
@@ -46,7 +64,15 @@
           },
           {
             "word": "сайн",
-            "translation": "well"
+            "translation": "well/good"
+          },
+          {
+            "word": "хурдан",
+            "translation": "fast"
+          },
+          {
+            "word": "удаан",
+            "translation": "slowly/long"
           }
         ]
       }
@@ -58,13 +84,52 @@
       "title": "Дасгал",
       "order": 3,
       "content": {
-        "instructionMn": "Зөв үгийг сонго",
-        "instructionEn": "Select the correct word",
-        "groups": [
+        "instructionMn": "Өгүүлбэрт тохирох тодотгох үгийг сонго.",
+        "instructionEn": "Choose the modifier word that fits the sentence.",
+        "questions": [
           {
-            "sentence": "Тэр ___ сайн уншдаг.",
-            "options": ["маш", "ном", "уншдаг"],
-            "answer": "маш"
+            "prompt": "Тэр ___ сайн уншдаг.",
+            "options": [
+              "маш",
+              "ном",
+              "уншдаг"
+            ],
+            "answer": "маш",
+            "result": "Тэр маш сайн уншдаг.",
+            "meaningEn": "He/she reads very well."
+          },
+          {
+            "prompt": "Би ___ иддэг.",
+            "options": [
+              "бага",
+              "муур",
+              "явах"
+            ],
+            "answer": "бага",
+            "result": "Би бага иддэг.",
+            "meaningEn": "I eat a little."
+          },
+          {
+            "prompt": "Тэр ___ явдаг.",
+            "options": [
+              "хурдан",
+              "багш",
+              "ном"
+            ],
+            "answer": "хурдан",
+            "result": "Тэр хурдан явдаг.",
+            "meaningEn": "He/she goes fast."
+          },
+          {
+            "prompt": "Бид ___ уншдаг.",
+            "options": [
+              "удаан",
+              "үзэг",
+              "ирэх"
+            ],
+            "answer": "удаан",
+            "result": "Бид удаан уншдаг.",
+            "meaningEn": "We read slowly."
           }
         ]
       }

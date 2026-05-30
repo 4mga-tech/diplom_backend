@@ -2,10 +2,10 @@
   "lesson": {
     "id": "m1-u3-l2",
     "unitId": "m1-u3",
-    "title": "Эгшгийн дараалал ба хүснэгт",
-    "titleEn": "Vowel Sequence Table",
-    "subtitle": "Эхний үе ба төгсгөлийн эгшгийн боломж",
-    "subtitleEn": "Initial and final vowel patterns",
+    "title": "Эгшгийн дараалал унших",
+    "titleEn": "Reading Vowel Sequences",
+    "subtitle": "Дарааллыг үг дотор таних",
+    "subtitleEn": "Recognizing sequences inside words",
     "order": 2,
     "xpReward": 20,
     "quizXpReward": 9
@@ -15,53 +15,101 @@
       "id": "m1-u3-l2-c1",
       "lessonId": "m1-u3-l2",
       "type": "text",
-      "title": "Эгшгийн дарааллын хүснэгт",
+      "title": "Эгшгийн дараалал унших",
       "order": 1,
       "content": {
         "section": "reading",
-        "textMn": "Эхний үеийн эгшиг болон төгсгөлийн эгшгийн хослолын боломжийг хүснэгтээр ажиглана. Эр эгшигтэй үгэнд а, о, у бүлгийн үргэлжлэл, эм эгшигтэй үгэнд э, ө, ү бүлгийн үргэлжлэл зонхилно.",
-        "textEn": "Observe the table of possible vowel sequences for initial and final syllables in masculine and feminine words."
+        "textMn": "Эгшгийн дарааллыг хүснэгт цээжлэхээс илүү үг дотор уншиж сурна. Эр эгшигтэй үгэнд а, о, у бүлэг; эм эгшигтэй үгэнд э, ө, ү бүлэг давамгай. И нь хоёр бүлэгтэй хамт тохиолдож болно.",
+        "textEn": "Instead of memorizing a table, practice reading vowel sequences inside words. Masculine words often use а, о, у; feminine words use э, ө, ү. И can appear with both groups."
       }
     },
     {
       "id": "m1-u3-l2-c2",
       "lessonId": "m1-u3-l2",
       "type": "exercise_repeat",
-      "title": "Жишээ мөрүүд",
+      "title": "Давтаж унш",
       "order": 2,
       "content": {
         "section": "reading",
-        "instructionMn": "Дараах жишээ дарааллуудыг уншиж ялгааг ажиглаарай.",
-        "instructionEn": "Read the examples and observe the pattern differences.",
-        "rows": [
+        "instructionMn": "Эгшгийн дараалал болон жишээ үгсийг богино хэсгээр уншаарай.",
+        "instructionEn": "Read each vowel sequence and word example in small chunks.",
+        "items": [
           {
-            "prompt": "Эр эгшиг",
-            "line": "а, аа, ай, я / о, оо, ой, ё / у, уу, уй, ю(у)",
-            "audioUrl": ""
+            "text": "а-а",
+            "transcription": "a-a",
+            "audioUrl": "",
+            "call": "эр дараалал"
           },
           {
-            "prompt": "Эм эгшиг",
-            "line": "э, ээ, е / ө, өө, е(ө) / ү, үү, үй, ю(ү)",
-            "audioUrl": ""
+            "text": "а-у",
+            "transcription": "a-u",
+            "audioUrl": "",
+            "call": "эр дараалал"
           },
           {
-            "prompt": "Саармаг",
-            "line": "и, ий",
-            "audioUrl": ""
+            "text": "о-о",
+            "transcription": "o-o",
+            "audioUrl": "",
+            "call": "эр дараалал"
+          },
+          {
+            "text": "у-у",
+            "transcription": "u-u",
+            "audioUrl": "",
+            "call": "эр дараалал"
+          },
+          {
+            "text": "э-э",
+            "transcription": "e-e",
+            "audioUrl": "",
+            "call": "эм дараалал"
+          },
+          {
+            "text": "ө-ө",
+            "transcription": "ö-ö",
+            "audioUrl": "",
+            "call": "эм дараалал"
+          },
+          {
+            "text": "ү-ү",
+            "transcription": "ü-ü",
+            "audioUrl": "",
+            "call": "эм дараалал"
+          },
+          {
+            "text": "и + эр/эм",
+            "transcription": "i",
+            "audioUrl": "",
+            "call": "саармаг"
           }
+        ],
+        "examples": [
+          "сургууль",
+          "номын",
+          "гэрийн",
+          "үүл",
+          "сайн"
         ],
         "glossary": [
           {
-            "word": "эр эгшиг",
-            "translation": "masculine vowels"
+            "word": "сургууль",
+            "translation": "school"
           },
           {
-            "word": "эм эгшиг",
-            "translation": "feminine vowels"
+            "word": "номын",
+            "translation": "of a book"
           },
           {
-            "word": "саармаг",
-            "translation": "neutral vowels"
+            "word": "гэрийн",
+            "translation": "of a home"
+          },
+          {
+            "word": "үүл",
+            "translation": "cloud"
+          },
+          {
+            "word": "сайн",
+            "translation": "good"
           }
         ]
       }
@@ -89,11 +137,16 @@
       "id": "quiz_m1_u3_l2_q1",
       "quizId": "quiz_m1_u3_l2",
       "type": "multiple_choice",
-      "prompt": "Аль бүлэг нь эр эгшигт хамаарна вэ?",
+      "prompt": "“сургууль” үгэнд аль бүлгийн эгшиг давамгай вэ?",
       "helper": "Зөв бүлгийг сонго.",
-      "options": ["э, ө, ү", "а, о, у", "и, й", "е, ю(ү)"],
-      "correctAnswer": "а, о, у",
-      "explanation": "А, о, у нь эр эгшгийн үндсэн бүлэгт орно.",
+      "options": [
+        "эр эгшиг",
+        "эм эгшиг",
+        "зөвхөн саармаг",
+        "эгшиг байхгүй"
+      ],
+      "correctAnswer": "эр эгшиг",
+      "explanation": "Сургууль үгэнд у, уу зэрэг эр эгшиг байна.",
       "xpReward": 3,
       "order": 1
     },
@@ -101,11 +154,16 @@
       "id": "quiz_m1_u3_l2_q2",
       "quizId": "quiz_m1_u3_l2",
       "type": "multiple_choice",
-      "prompt": "Аль нь эм эгшгийн жишээ вэ?",
+      "prompt": "“гэрийн” үгэнд тохирох тайлбар аль вэ?",
       "helper": "Зөв мөрийг сонго.",
-      "options": ["э, ө, ү", "а, о, у", "я, ё, ю(у)", "и, й"],
-      "correctAnswer": "э, ө, ү",
-      "explanation": "Э, ө, ү нь эм эгшгийн бүлэгт хамаарна.",
+      "options": [
+        "эм эгшгийн жишээ",
+        "эр эгшгийн жишээ",
+        "зөвхөн хос эгшиг",
+        "туслах үсэггүй үг"
+      ],
+      "correctAnswer": "эм эгшгийн жишээ",
+      "explanation": "Гэрийн үгэнд э, и байгаа бөгөөд гэр нь эм эгшгийн бүлэгтэй.",
       "xpReward": 3,
       "order": 2
     },
@@ -113,11 +171,16 @@
       "id": "quiz_m1_u3_l2_q3",
       "quizId": "quiz_m1_u3_l2",
       "type": "multiple_choice",
-      "prompt": "Саармаг бүлэгт аль нь ордог вэ?",
+      "prompt": "И эгшгийн тухай аль нь зөв вэ?",
       "helper": "Зөв хариултыг сонго.",
-      "options": ["и, ий", "а, аа", "ө, өө", "ю, я"],
-      "correctAnswer": "и, ий",
-      "explanation": "И, ий нь саармаг бүлгийн жишээ.",
+      "options": [
+        "эр, эм бүлэгтэй хамт тохиолдож болно",
+        "зөвхөн а-тай хамт орно",
+        "эгшиг биш",
+        "зөвхөн үгийн эхэнд орно"
+      ],
+      "correctAnswer": "эр, эм бүлэгтэй хамт тохиолдож болно",
+      "explanation": "И нь саармаг тул хоёр бүлэгтэй хамт харагдаж болно.",
       "xpReward": 3,
       "order": 3
     }

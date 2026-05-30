@@ -19,33 +19,74 @@
       "order": 1,
       "content": {
         "section": "listening",
-        "instructionMn": "Богино, урт, хос эгшгийг ялгаж уншаарай.",
-        "instructionEn": "Read and compare short, long, and diphthong vowels.",
-        "rows": [
+        "instructionMn": "Мөр бүрийг удаан уншаад богино, урт, хос эгшгийн ялгааг сонсоорой.",
+        "instructionEn": "Read each set slowly and notice short, long, and diphthong contrasts.",
+        "items": [
           {
-            "prompt": "Богино",
-            "line": "ас эс ус үс ол өл ул үл",
-            "audioUrl": ""
+            "text": "ав",
+            "transcription": "av",
+            "audioUrl": "",
+            "call": "short vowel"
           },
           {
-            "prompt": "Урт",
-            "line": "уул үүл уур үүр",
-            "audioUrl": ""
+            "text": "аав",
+            "transcription": "aav",
+            "audioUrl": "/uploads/audio/words/father.mp3",
+            "call": "long vowel"
           },
           {
-            "prompt": "Хос",
-            "line": "ай ой уй үй ий",
-            "audioUrl": ""
+            "text": "айв",
+            "transcription": "aiv",
+            "audioUrl": "",
+            "call": "diphthong"
           },
           {
-            "prompt": "Ялгаа",
-            "line": "ав – аав – айв",
-            "audioUrl": ""
+            "text": "бах",
+            "transcription": "bakh",
+            "audioUrl": "",
+            "call": "short vowel"
           },
           {
-            "prompt": "Ялгаа",
-            "line": "бах – баах – байх",
-            "audioUrl": ""
+            "text": "баах",
+            "transcription": "baakh",
+            "audioUrl": "",
+            "call": "long vowel"
+          },
+          {
+            "text": "байх",
+            "transcription": "baikh",
+            "audioUrl": "",
+            "call": "diphthong"
+          },
+          {
+            "text": "уул",
+            "transcription": "uul",
+            "audioUrl": "",
+            "call": "long vowel"
+          },
+          {
+            "text": "үүл",
+            "transcription": "üül",
+            "audioUrl": "",
+            "call": "long vowel"
+          },
+          {
+            "text": "сайн",
+            "transcription": "sain",
+            "audioUrl": "",
+            "call": "diphthong"
+          },
+          {
+            "text": "сүү",
+            "transcription": "süü",
+            "audioUrl": "",
+            "call": "long vowel"
+          },
+          {
+            "text": "хүү",
+            "transcription": "khüü",
+            "audioUrl": "",
+            "call": "long vowel"
           }
         ]
       }
@@ -58,28 +99,24 @@
       "order": 2,
       "content": {
         "section": "reading",
-        "textMn": "аав, даа, дээр, доор, шүү, сүү, хүү, хөө, гүй, үгүй, сайн зэрэг үгсээр богино, урт, хос эгшгийн ялгааг ажиглана.",
-        "textEn": "Observe the differences between short, long, and diphthong vowels in sample words.",
+        "textMn": "Богино эгшиг богино уншигдана: ав, бах. Урт эгшиг сунжирч уншигдана: аав, баах, уул, үүл, сүү, хүү. Хос эгшиг гулсаж уншигдана: айв, байх, сайн.",
+        "textEn": "Short vowels are brief, long vowels are held longer, and diphthongs glide from one vowel sound to another.",
         "glossary": [
           {
             "word": "аав",
             "translation": "father"
           },
           {
-            "word": "даа",
-            "translation": "indeed"
+            "word": "уул",
+            "translation": "mountain"
           },
           {
-            "word": "дээр",
-            "translation": "on"
+            "word": "үүл",
+            "translation": "cloud"
           },
           {
-            "word": "доор",
-            "translation": "under"
-          },
-          {
-            "word": "шүү",
-            "translation": "please note"
+            "word": "сайн",
+            "translation": "good"
           },
           {
             "word": "сүү",
@@ -88,22 +125,6 @@
           {
             "word": "хүү",
             "translation": "boy"
-          },
-          {
-            "word": "хөө",
-            "translation": "shoo"
-          },
-          {
-            "word": "гүй",
-            "translation": "did not"
-          },
-          {
-            "word": "үгүй",
-            "translation": "no"
-          },
-          {
-            "word": "сайн",
-            "translation": "good"
           }
         ]
       }
@@ -148,11 +169,16 @@
       "id": "quiz_m1_u2_l2_q2",
       "quizId": "quiz_m1_u2_l2",
       "type": "multiple_choice",
-      "prompt": "“уул” ямар төрлийн эгшигтэй вэ?",
+      "prompt": "“үүл” ямар төрлийн эгшигтэй вэ?",
       "helper": "Зөв ангиллыг сонго.",
-      "options": ["богино", "урт", "хос", "туслах"],
+      "options": [
+        "богино",
+        "урт",
+        "хос",
+        "туслах"
+      ],
       "correctAnswer": "урт",
-      "explanation": "Уул гэдэг үг урт эгшигтэй.",
+      "explanation": "Үүл гэдэг үг үү урт эгшигтэй.",
       "xpReward": 3,
       "order": 2
     },
@@ -160,11 +186,16 @@
       "id": "quiz_m1_u2_l2_q3",
       "quizId": "quiz_m1_u2_l2",
       "type": "multiple_choice",
-      "prompt": "“сайн” ямар төрлийн эгшигтэй вэ?",
+      "prompt": "“байх” үгэнд аль хос эгшиг байна вэ?",
       "helper": "Ай-г анзаараарай.",
-      "options": ["урт", "хос", "богино", "тэмдэг"],
-      "correctAnswer": "хос",
-      "explanation": "Сайн гэдэг үг хос эгшигтэй.",
+      "options": [
+        "аа",
+        "ай",
+        "үү",
+        "а"
+      ],
+      "correctAnswer": "ай",
+      "explanation": "Байх гэдэг үгэнд ай хос эгшиг байна.",
       "xpReward": 3,
       "order": 3
     }

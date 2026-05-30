@@ -17,8 +17,13 @@
       "title": "Тайлбар",
       "order": 1,
       "content": {
-        "textMn": "Нэр үг нь хүн, амьтан, зүйл, ойлголтыг нэрлэнэ.",
-        "textEn": "A noun names a person, animal, thing, or idea."
+        "textMn": "Нэр үг нь хүн, амьтан, зүйл, газар, ойлголтыг нэрлэдэг үг. Өгүүлбэрт “хэн?” эсвэл “юу?” гэсэн асуултад ихэвчлэн хариулна.",
+        "textEn": "A noun names a person, animal, thing, place, or idea. It often answers “who?” or “what?” in a sentence.",
+        "examples": [
+          "Энэ ном.",
+          "Багш байна.",
+          "Муур байна."
+        ]
       }
     },
     {
@@ -28,15 +33,43 @@
       "title": "Жишээ",
       "order": 2,
       "content": {
-        "summary": "Нэр үгийн жишээ",
+        "summary": "Нэр үгийг утгаар нь ангилж уншаарай.",
         "groups": [
           {
             "title": "Хүн",
-            "items": ["аав", "ээж", "багш"]
+            "description": "People: who?",
+            "items": [
+              "аав",
+              "ээж",
+              "багш"
+            ]
           },
           {
             "title": "Зүйл",
-            "items": ["ном", "ширээ", "үзэг"]
+            "description": "Things: what?",
+            "items": [
+              "ном",
+              "ширээ",
+              "үзэг"
+            ]
+          },
+          {
+            "title": "Амьтан",
+            "description": "Animals",
+            "items": [
+              "нохой",
+              "муур",
+              "морь"
+            ]
+          },
+          {
+            "title": "Газар",
+            "description": "Places",
+            "items": [
+              "гэр",
+              "сургууль",
+              "хот"
+            ]
           }
         ],
         "glossary": [
@@ -63,6 +96,30 @@
           {
             "word": "үзэг",
             "translation": "pen"
+          },
+          {
+            "word": "нохой",
+            "translation": "dog"
+          },
+          {
+            "word": "муур",
+            "translation": "cat"
+          },
+          {
+            "word": "морь",
+            "translation": "horse"
+          },
+          {
+            "word": "гэр",
+            "translation": "home"
+          },
+          {
+            "word": "сургууль",
+            "translation": "school"
+          },
+          {
+            "word": "хот",
+            "translation": "city"
           }
         ]
       }
@@ -74,9 +131,46 @@
       "title": "Дагаж унш",
       "order": 3,
       "content": {
-        "instructionMn": "Дараах үгсийг чанга уншаарай",
-        "instructionEn": "Read the following words aloud",
-        "rows": ["аав", "ээж", "ном"],
+        "instructionMn": "Үгийг уншаад богино өгүүлбэрт хэрэглээрэй.",
+        "instructionEn": "Read each word and use it in a short sentence.",
+        "items": [
+          {
+            "text": "аав",
+            "transcription": "aav",
+            "audioUrl": "/uploads/audio/words/father.mp3",
+            "call": "хүн"
+          },
+          {
+            "text": "ээж",
+            "transcription": "eej",
+            "audioUrl": "/uploads/audio/words/mother.mp3",
+            "call": "хүн"
+          },
+          {
+            "text": "ном",
+            "transcription": "nom",
+            "audioUrl": "/uploads/audio/words/book.mp3",
+            "call": "зүйл"
+          },
+          {
+            "text": "багш",
+            "transcription": "bagsh",
+            "audioUrl": "/uploads/audio/words/teacher.mp3",
+            "call": "хүн"
+          },
+          {
+            "text": "сургууль",
+            "transcription": "surguuli",
+            "audioUrl": "/uploads/audio/words/school.mp3",
+            "call": "газар"
+          },
+          {
+            "text": "Муур байна.",
+            "transcription": "muur baina",
+            "audioUrl": "",
+            "call": "өгүүлбэр"
+          }
+        ],
         "glossary": [
           {
             "word": "аав",
@@ -89,6 +183,14 @@
           {
             "word": "ном",
             "translation": "book"
+          },
+          {
+            "word": "багш",
+            "translation": "teacher"
+          },
+          {
+            "word": "сургууль",
+            "translation": "school"
           }
         ]
       }
@@ -100,13 +202,52 @@
       "title": "Дасгал",
       "order": 4,
       "content": {
-        "instructionMn": "Нэр үгийг сонго",
-        "instructionEn": "Select the noun",
-        "groups": [
+        "instructionMn": "Нэр үгийг сонго. Зөв хариултаар өгүүлбэр бүтнэ.",
+        "instructionEn": "Choose the noun. The correct answer completes a sentence.",
+        "questions": [
           {
-            "sentence": "___ байна",
-            "options": ["ном", "уншиж", "сайхан"],
-            "answer": "ном"
+            "prompt": "___ байна.",
+            "options": [
+              "ном",
+              "уншиж",
+              "маш"
+            ],
+            "answer": "ном",
+            "result": "Ном байна.",
+            "meaningEn": "There is a book."
+          },
+          {
+            "prompt": "___ уншиж байна.",
+            "options": [
+              "багш",
+              "идэж",
+              "хурдан"
+            ],
+            "answer": "багш",
+            "result": "Багш уншиж байна.",
+            "meaningEn": "The teacher is reading."
+          },
+          {
+            "prompt": "Энэ ___.",
+            "options": [
+              "муур",
+              "явж",
+              "бага"
+            ],
+            "answer": "муур",
+            "result": "Энэ муур.",
+            "meaningEn": "This is a cat."
+          },
+          {
+            "prompt": "___ руу явж байна.",
+            "options": [
+              "сургууль",
+              "сайн",
+              "ирэх"
+            ],
+            "answer": "сургууль",
+            "result": "Сургууль руу явж байна.",
+            "meaningEn": "Going to school."
           }
         ]
       }
