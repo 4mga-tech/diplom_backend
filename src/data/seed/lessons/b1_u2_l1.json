@@ -13,32 +13,32 @@
       "id": "b1-u2-l1-c1",
       "lessonId": "b1-u2-l1",
       "type": "text",
-      "title": "Үндсэн ойлголт",
+      "title": "Үгэн доторх эгшиг",
       "order": 1,
       "content": {
-        "textMn": "Эгшиг зохицох ёс гэдэг нь үгийн доторх эгшгүүд нэг төрлийн өнгө аястай байхыг хэлнэ.",
-        "textEn": "Vowel harmony means vowels inside a word usually belong to the same vowel group."
+        "textMn": "Unit 1-д сурсан эгшгүүдээ одоо үгэн дотор танина. Монгол үгэнд эгшгүүд ихэвчлэн эр, эм, саармаг бүлгээрээ зохицдог.",
+        "textEn": "Now use the vowels from Unit 1 inside real words. In Mongolian words, vowels usually follow back, front, and neutral group patterns."
       }
     },
     {
       "id": "b1-u2-l1-c2",
       "lessonId": "b1-u2-l1",
       "type": "grammar_note",
-      "title": "Дүрэм",
+      "title": "Эгшгийн бүлгүүд",
       "order": 2,
       "content": {
         "notes": [
           {
-            "mn": "Эр эгшигтэй үгэнд ихэвчлэн эр эгшиг орно.",
-            "en": "Words with back vowels usually keep back vowels."
+            "mn": "А, О, У нь эр эгшиг. Жишээ: аав, ном, ус.",
+            "en": "А, О, У are back vowels. Examples: аав, ном, ус."
           },
           {
-            "mn": "Эм эгшигтэй үгэнд ихэвчлэн эм эгшиг орно.",
-            "en": "Words with front vowels usually keep front vowels."
+            "mn": "Э, Ө, Ү нь эм эгшиг. Жишээ: ээж, өдөр, үс.",
+            "en": "Э, Ө, Ү are front vowels. Examples: ээж, өдөр, үс."
           },
           {
-            "mn": "И нь саармаг эгшиг тул аль ч бүлэгтэй хамт орж болно.",
-            "en": "И is neutral and can appear with either group."
+            "mn": "И нь саармаг эгшиг. И нь эр эсвэл эм эгшигтэй үгэнд орж болно.",
+            "en": "И is neutral. It can appear in words with either back or front vowels."
           }
         ]
       }
@@ -47,35 +47,32 @@
       "id": "b1-u2-l1-c3",
       "lessonId": "b1-u2-l1",
       "type": "classification",
-      "title": "Ангилал",
+      "title": "Үгэн дотор таних",
       "order": 3,
       "content": {
         "groups": [
           {
-            "title": "Эр эгшигтэй үг / Back vowel words",
+            "title": "Эр эгшиг: А О У / Back vowels",
             "items": [
               "аав",
               "ном",
-              "ус",
-              "сургууль"
+              "ус"
             ]
           },
           {
-            "title": "Эм эгшигтэй үг / Front vowel words",
+            "title": "Эм эгшиг: Э Ө Ү / Front vowels",
             "items": [
               "ээж",
-              "гэр",
-              "сүү",
+              "өдөр",
               "үс"
             ]
           },
           {
-            "title": "Саармаг И орсон үг / Words with neutral И",
+            "title": "Саармаг И / Neutral И",
             "items": [
               "би",
-              "чи",
               "багшийн",
-              "номын"
+              "гэрийн"
             ]
           }
         ]
@@ -85,76 +82,53 @@
       "id": "b1-u2-l1-c4",
       "lessonId": "b1-u2-l1",
       "type": "exercise_repeat",
-      "title": "Давтан унш",
+      "title": "Эгшгийг ажиглаад унш",
       "order": 4,
       "content": {
-        "instructionMn": "Үгсийг бүлгээр нь чангаар уншаарай.",
-        "instructionEn": "Read the words aloud by group.",
-        "rows": [
-          {
-            "line": "аав",
-            "audioUrl": "/uploads/audio/words/father.mp3"
-          },
-          {
-            "line": "ном",
-            "audioUrl": "/uploads/audio/words/book.mp3"
-          },
-          {
-            "line": "ус",
-            "audioUrl": "/uploads/audio/words/water.mp3"
-          },
-          {
-            "line": "гэр",
-            "audioUrl": "/uploads/audio/words/house.mp3"
-          },
-          {
-            "line": "сүү",
-            "audioUrl": "/uploads/audio/syllables/suu.mp3"
-          },
-          {
-            "line": "би",
-            "audioUrl": "/uploads/audio/words/me.mp3"
-          },
-          {
-            "line": "чи",
-            "audioUrl": "/uploads/audio/words/you.mp3"
-          }
-        ],
+        "instructionMn": "Үг бүрийн эгшгийг олоод ямар бүлэгт байгааг хэлээрэй.",
+        "instructionEn": "Find the vowels in each word and say which group they belong to.",
         "items": [
           {
             "text": "аав",
+            "transcription": "aav",
             "audioUrl": "/uploads/audio/words/father.mp3",
-            "call": "ah"
+            "call": "А = back"
           },
           {
             "text": "ном",
+            "transcription": "nom",
             "audioUrl": "/uploads/audio/words/book.mp3",
-            "call": "en"
+            "call": "О = back"
           },
           {
             "text": "ус",
+            "transcription": "us",
             "audioUrl": "/uploads/audio/words/water.mp3",
-            "call": "oo"
+            "call": "У = back"
           },
           {
-            "text": "гэр",
-            "audioUrl": "/uploads/audio/words/house.mp3",
-            "call": "geh"
+            "text": "ээж",
+            "transcription": "eej",
+            "audioUrl": "/uploads/audio/words/mother.mp3",
+            "call": "ЭЭ = front"
           },
           {
-            "text": "сүү",
-            "audioUrl": "/uploads/audio/syllables/suu.mp3",
-            "call": "es"
+            "text": "өдөр",
+            "transcription": "ödör",
+            "audioUrl": "/uploads/audio/words/day.mp3",
+            "call": "Ө = front"
+          },
+          {
+            "text": "үс",
+            "transcription": "üs",
+            "audioUrl": "/uploads/audio/words/hair.mp3",
+            "call": "Ү = front"
           },
           {
             "text": "би",
+            "transcription": "bi",
             "audioUrl": "/uploads/audio/words/me.mp3",
-            "call": "beh"
-          },
-          {
-            "text": "чи",
-            "audioUrl": "/uploads/audio/words/you.mp3",
-            "call": "cheh"
+            "call": "И = neutral"
           }
         ]
       }
