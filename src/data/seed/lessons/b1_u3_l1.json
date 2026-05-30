@@ -16,8 +16,8 @@
       "title": "Товч ойлголт",
       "order": 1,
       "content": {
-        "textMn": "Балархай эгшиг нь үгэнд сул сонсогдох эгшиг юм. Бичихдээ үгийн хэлбэр, дагаврыг ажиглаж зөв үсгийг сонгоно.",
-        "textEn": "An unstressed vowel sounds weak in a word. To spell correctly, check the word form and suffix pattern."
+        "textMn": "Үг дотор зарим эгшиг тод биш, сул сонсогдож болно. Гэхдээ тэр эгшиг бичигтээ үлддэг тул сонсоод, үгийг бүхэлд нь харж уншаарай.",
+        "textEn": "Inside a word, some vowels can sound weak rather than clear. They still matter in spelling, so listen, look at the full word, then read it aloud."
       }
     },
     {
@@ -29,16 +29,16 @@
       "content": {
         "notes": [
           {
-            "mn": "Сул сонсогдсон ч үгийн язгуурт байгаа эгшгийг хадгалж бичнэ.",
-            "en": "Even if it sounds weak, keep the root vowel in spelling."
+            "mn": "Сул сонсогдсон эгшгийг орхиж уншихгүй. Үгийг хараад аль эгшиг бичигдсэнийг анзаар.",
+            "en": "Do not skip a vowel just because it sounds weak. Look at the word and notice which vowel is written."
           },
           {
-            "mn": "Нэр үг + -ийн, -ын залгахад эгшиг заримдаа бүдэг сонсогдоно.",
-            "en": "With suffixes like -ийн, -ын, the vowel may sound less clear."
+            "mn": "ном → номын, гэр → гэрийн, багш → багшийн гэх мэт дагавартай хэлбэрт эгшиг илүү бүдэг сонсогдож болно.",
+            "en": "In forms like ном → номын, гэр → гэрийн, and багш → багшийн, the vowel in the suffix may sound less clear."
           },
           {
-            "mn": "Эхлээд зөв дууд, дараа нь язгуураар шалга.",
-            "en": "First pronounce, then confirm by root form."
+            "mn": "Дасгалын дараалал: сонс → сул эгшгийг анзаар → үгийг унш → давт.",
+            "en": "Practice order: listen → notice the weak vowel → read the word → repeat."
           }
         ]
       }
@@ -54,13 +54,15 @@
           {
             "word": "номын",
             "translation": "of the book",
+            "transcription": "nomiin",
             "exampleMn": "Номын хавтас цэнхэр.",
             "exampleEn": "The book cover is blue.",
             "audioUrl": "/uploads/audio/words/nomiin.mp3"
           },
           {
             "word": "гэрийн",
-            "translation": "home / household",
+            "translation": "home / household; of the ger/home",
+            "transcription": "geriin",
             "exampleMn": "Гэрийн даалгавраа хий.",
             "exampleEn": "Do your homework.",
             "audioUrl": "/uploads/audio/words/geriin.mp3"
@@ -68,6 +70,7 @@
           {
             "word": "хүүхэд",
             "translation": "child",
+            "transcription": "khuukhed",
             "exampleMn": "Хүүхэд ном уншиж байна.",
             "exampleEn": "The child is reading a book.",
             "audioUrl": "/uploads/audio/words/child.mp3"
@@ -75,6 +78,7 @@
           {
             "word": "сургууль",
             "translation": "school",
+            "transcription": "surguul",
             "exampleMn": "Сургууль ойрхон байна.",
             "exampleEn": "The school is nearby.",
             "audioUrl": "/uploads/audio/words/school.mp3"
@@ -82,6 +86,7 @@
           {
             "word": "багшийн",
             "translation": "teacher's / of the teacher",
+            "transcription": "bagshiin",
             "exampleMn": "Багшийн өрөө хоёр давхарт.",
             "exampleEn": "The teacher's room is on the second floor.",
             "audioUrl": "/uploads/audio/words/bagshiin.mp3"
@@ -96,43 +101,43 @@
       "title": "Сонсож давтах",
       "order": 4,
       "content": {
-        "instructionMn": "Үгийг анхааралтай сонсоод балархай эгшгийг ялган давтаарай.",
-        "instructionEn": "Listen carefully and repeat while noticing weak vowels.",
+        "instructionMn": "Эхлээд сонсоод, дараа нь сул эсвэл тод сонсогдож буй эгшгийг анзаарч давтаарай.",
+        "instructionEn": "Listen first, then repeat while noticing whether the vowel is weak or clear.",
         "items": [
           {
             "text": "номын",
             "transcription": "nomiin",
             "pronunciation": "/nɔmɪŋ/",
             "audioUrl": "/uploads/audio/words/nomiin.mp3",
-            "call": "en"
+            "call": "Weak vowel"
           },
           {
             "text": "гэрийн",
             "transcription": "geriin",
             "pronunciation": "/ɡerɪŋ/",
             "audioUrl": "/uploads/audio/words/geriin.mp3",
-            "call": "geh"
+            "call": "Weak vowel"
           },
           {
             "text": "хүүхэд",
             "transcription": "khuukhed",
             "pronunciation": "/xʊːxət/",
             "audioUrl": "/uploads/audio/words/child.mp3",
-            "call": "kheh"
+            "call": "Clear vowel"
           },
           {
             "text": "сургууль",
             "transcription": "surguul",
             "pronunciation": "/sʊrɢʊɮ/",
             "audioUrl": "/uploads/audio/words/school.mp3",
-            "call": "es"
+            "call": "Clear vowel"
           },
           {
             "text": "багшийн",
             "transcription": "bagshiin",
             "pronunciation": "/baɡʃiŋ/",
             "audioUrl": "/uploads/audio/words/bagshiin.mp3",
-            "call": "beh"
+            "call": "Weak vowel"
           }
         ]
       }
@@ -144,20 +149,21 @@
       "title": "Сонсголын ялгалт",
       "order": 5,
       "content": {
-        "instructionMn": "Үгийг сонсоод аль бүлэгт хамаарахыг ажиглаарай.",
-        "instructionEn": "Listen and notice which group each word fits.",
+        "instructionMn": "Тод сонсогдох үг ба дагавартай, сул эгшигтэй үгийг хурдан ялгаарай.",
+        "instructionEn": "Quickly group clear-vowel words and suffix words with weak vowels.",
         "groups": [
           {
-            "title": "Эгшиг сонсогдоно",
-            "chips": [
+            "title": "Clear vowel words",
+            "items": [
+              "ном",
+              "гэр",
               "хүүхэд",
-              "сургууль",
-              "ном"
+              "сургууль"
             ]
           },
           {
-            "title": "Эгшиг сул сонсогдоно",
-            "chips": [
+            "title": "Weak vowel / suffix words",
+            "items": [
               "номын",
               "гэрийн",
               "багшийн"

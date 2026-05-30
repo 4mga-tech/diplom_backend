@@ -16,8 +16,8 @@
       "title": "Товч ойлголт",
       "order": 1,
       "content": {
-        "textMn": "Эгшигт гийгүүлэгч нь тогтвортой дуудлагатай. Заримдаг гийгүүлэгч нь үгийн орчноос шалтгаалан сулрах эсвэл өөр өнгө аястай сонсогдож болно.",
-        "textEn": "Stable consonants keep clearer sound. Conditional consonants can sound softer depending on position."
+        "textMn": "Монгол үгийг тод уншихад гийгүүлэгчийн бүлгийг таних нь тусална. Энэ хичээлд жагсаалтыг цээжлэхээс илүү богино үе, үг дотор авиаг тод ялгаж давтана.",
+        "textEn": "Recognizing consonant groups helps you read Mongolian words clearly. In this lesson, focus less on theory and more on hearing and repeating the sounds in short syllables and words."
       }
     },
     {
@@ -29,16 +29,16 @@
       "content": {
         "notes": [
           {
-            "mn": "Эгшигт гийгүүлэгч: м, н, г, л, б, в, р",
-            "en": "Stable set: м, н, г, л, б, в, р"
+            "mn": "Эгшигт гийгүүлэгч: м, н, г, л, б, в, р. Эдгээрийг үе, үг дотор тод хэлж дад.",
+            "en": "Stable consonants: м, н, г, л, б, в, р. Practice saying them clearly inside syllables and words."
           },
           {
-            "mn": "Заримдаг гийгүүлэгч: ц, ж, з, с, д, т, ш, ч, х",
-            "en": "Conditional set: ц, ж, з, с, д, т, ш, ч, х"
+            "mn": "Заримдаг гийгүүлэгч: ц, ж, з, с, д, т, ш, ч, х. Эдгээрийг сонсоод ойролцоо авианаас ялгаж сур.",
+            "en": "Conditional consonants: ц, ж, з, с, д, т, ш, ч, х. Practice hearing them apart from nearby sounds."
           },
           {
-            "mn": "Эхний шатанд бүлгийг цээжлэх нь хангалттай.",
-            "en": "At this stage, memorizing groups is enough."
+            "mn": "Эхлээд бүлгийг тань, дараа нь ма/са, на/та, ла/ша зэрэг богино үеэр давт.",
+            "en": "First recognize the group, then repeat short syllables such as ма/са, на/та, and ла/ша."
           }
         ]
       }
@@ -50,12 +50,12 @@
       "title": "Бүлгээр ялгах",
       "order": 3,
       "content": {
-        "instructionMn": "Үсгүүдийг зөв бүлэгт уншиж тогтоогоорой.",
-        "instructionEn": "Read and memorize letters by group.",
+        "instructionMn": "Үсгийг бүлгээр нь хараад, дараагийн давтах дасгалд ямар авиа сонсохоо бэлдээрэй.",
+        "instructionEn": "Use these groups as a quick reference before the listening-and-repeat practice.",
         "groups": [
           {
-            "title": "Эгшигт гийгүүлэгч",
-            "chips": [
+            "title": "Эгшигт гийгүүлэгч / Stable consonants",
+            "items": [
               "м",
               "н",
               "г",
@@ -66,8 +66,8 @@
             ]
           },
           {
-            "title": "Заримдаг гийгүүлэгч",
-            "chips": [
+            "title": "Заримдаг гийгүүлэгч / Conditional consonants",
+            "items": [
               "ц",
               "ж",
               "з",
@@ -89,43 +89,113 @@
       "title": "Богино давталт",
       "order": 4,
       "content": {
-        "instructionMn": "Дараах үе, үгийг чанга, тод дууд.",
-        "instructionEn": "Repeat these short items clearly.",
+        "instructionMn": "Богино үе, үгийг сонсоод бүлгийн авиаг тод давтаарай.",
+        "instructionEn": "Listen to each short syllable or word and repeat the consonant clearly.",
         "items": [
           {
             "text": "ма",
             "transcription": "ma",
             "pronunciation": "/ma/",
             "audioUrl": "/uploads/audio/syllables/ma.mp3",
-            "call": "em"
+            "call": "Stable consonant"
           },
           {
             "text": "на",
             "transcription": "na",
             "pronunciation": "/na/",
-            "audioUrl": "/uploads/audio/syllables/ma.mp3",
-            "call": "en"
+            "audioUrl": "/uploads/audio/syllables/na.mp3",
+            "call": "Stable consonant"
+          },
+          {
+            "text": "ла",
+            "transcription": "la",
+            "pronunciation": "/la/",
+            "audioUrl": "/uploads/audio/syllables/la.mp3",
+            "call": "Stable consonant"
+          },
+          {
+            "text": "ба",
+            "transcription": "ba",
+            "pronunciation": "/ba/",
+            "audioUrl": "/uploads/audio/syllables/ba.mp3",
+            "call": "Stable consonant"
+          },
+          {
+            "text": "ра",
+            "transcription": "ra",
+            "pronunciation": "/ra/",
+            "audioUrl": "/uploads/audio/syllables/ra.mp3",
+            "call": "Stable consonant"
           },
           {
             "text": "са",
             "transcription": "sa",
             "pronunciation": "/sa/",
             "audioUrl": "/uploads/audio/syllables/sa.mp3",
-            "call": "es"
+            "call": "Conditional consonant"
+          },
+          {
+            "text": "та",
+            "transcription": "ta",
+            "pronunciation": "/ta/",
+            "audioUrl": "/uploads/audio/syllables/ta.mp3",
+            "call": "Conditional consonant"
           },
           {
             "text": "ша",
             "transcription": "sha",
             "pronunciation": "/ʃa/",
-            "audioUrl": "/uploads/audio/syllables/sa.mp3",
-            "call": "sheh"
+            "audioUrl": "/uploads/audio/syllables/sha.mp3",
+            "call": "Conditional consonant"
           },
           {
-            "text": "сургууль",
-            "transcription": "surguul",
-            "pronunciation": "/sʊrɢʊɮ/",
-            "audioUrl": "/uploads/audio/words/school.mp3",
-            "call": "es"
+            "text": "ча",
+            "transcription": "cha",
+            "pronunciation": "/tʃa/",
+            "audioUrl": "/uploads/audio/syllables/cha.mp3",
+            "call": "Conditional consonant"
+          },
+          {
+            "text": "ха",
+            "transcription": "kha",
+            "pronunciation": "/xa/",
+            "audioUrl": "/uploads/audio/syllables/kha.mp3",
+            "call": "Conditional consonant"
+          },
+          {
+            "text": "мал",
+            "transcription": "mal",
+            "pronunciation": "/mal/",
+            "audioUrl": "/uploads/audio/words/mal.mp3",
+            "call": "Stable consonant"
+          },
+          {
+            "text": "ном",
+            "transcription": "nom",
+            "pronunciation": "/nɔm/",
+            "audioUrl": "/uploads/audio/words/nom.mp3",
+            "call": "Stable consonant"
+          },
+          {
+            "text": "баг",
+            "transcription": "bag",
+            "pronunciation": "/baɡ/",
+            "audioUrl": "/uploads/audio/words/bag.mp3",
+            "call": "Stable consonant"
+          },
+          {
+            "text": "сур",
+            "transcription": "sur",
+            "pronunciation": "/sʊr/",
+            "audioUrl": "/uploads/audio/words/sur.mp3",
+            "call": "Conditional consonant"
+          },
+          {
+            "text": "хүн",
+            "transcription": "khun",
+            "pronunciation": "/xʊn/",
+            "audioUrl": "/uploads/audio/words/khun.mp3",
+            "call": "Conditional consonant"
           }
         ]
       }

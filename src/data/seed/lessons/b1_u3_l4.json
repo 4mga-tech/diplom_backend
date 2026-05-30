@@ -16,8 +16,8 @@
       "title": "Юнит 3-н дүгнэлт",
       "order": 1,
       "content": {
-        "textMn": "Энэ хичээлээр унших дүрэм, сул эгшиг, зөв бичих ялгааг давтлаа. Одоо богино тестээр өөрийгөө шалгаарай.",
-        "textEn": "You reviewed reading rules, weak vowels, and spelling contrasts. Now check yourself with a short final quiz."
+        "textMn": "Энэ бол B1 Кирилл уншлагын төгсгөлийн давтлага. Сул эгшиг, гийгүүлэгчийн бүлэг, Б/В/Г/Н ялгаа, өмнөх нэгжийн урт эгшиг, хос эгшиг, эгшгийн зохицол, Е Ё Ю Я-г бодит үг дотор шалгаарай.",
+        "textEn": "This is the final review for B1 Cyrillic reading. Check weak vowels, consonant groups, Б/В/Г/Н contrasts, and earlier skills such as long vowels, diphthongs, vowel harmony, and Е Ё Ю Я inside practical word examples."
       }
     },
     {
@@ -42,16 +42,16 @@
       "id": "quiz_b1_u3_final_q1",
       "quizId": "quiz_b1_u3_final",
       "type": "multiple_choice",
-      "prompt": "Балархай эгшиг гэж юуг хэлэх вэ?",
-      "helper": "Choose the best definition of unstressed vowel.",
+      "prompt": "Аль үгэнд дагавартай сул сонсогдох эгшиг байна вэ?",
+      "helper": "Look for a suffix form where the vowel may sound weak.",
       "options": [
-        "Сул сонсогдох эгшиг",
-        "Зөвхөн урт эгшиг",
-        "Гийгүүлэгчгүй үе",
-        "Зөвхөн эхний эгшиг"
+        "номын",
+        "ном",
+        "гэр",
+        "мал"
       ],
-      "correctAnswer": "Сул сонсогдох эгшиг",
-      "explanation": "Балархай эгшиг нь дуудлагад сул сонсогддог эгшиг юм.",
+      "correctAnswer": "номын",
+      "explanation": "номын үгэнд -ын дагаврын эгшиг сул сонсогдож болох ч бичигтээ үлдэнэ.",
       "xpReward": 2,
       "order": 1
     },
@@ -60,15 +60,15 @@
       "quizId": "quiz_b1_u3_final",
       "type": "multiple_choice",
       "prompt": "Эгшигт гийгүүлэгчийн зөв багцыг сонгоно уу.",
-      "helper": "Pick the stable consonant group.",
+      "helper": "Pick the stable consonant group you practiced before reading syllables.",
       "options": [
         "м, н, г, л, б, в, р",
-        "ц, ж, з, с",
-        "д, т, ш, ч",
-        "х, к, п, ф"
+        "ц, ж, з, с, д, т, ш, ч, х",
+        "а, о, у, э, ө, ү",
+        "я, ё, ю, е"
       ],
       "correctAnswer": "м, н, г, л, б, в, р",
-      "explanation": "Энэ бүлэг нь B1 Unit 3-т өгсөн эгшигт гийгүүлэгчийн багц.",
+      "explanation": "м, н, г, л, б, в, р нь энэ нэгжид давтсан эгшигт гийгүүлэгчийн бүлэг.",
       "xpReward": 2,
       "order": 2
     },
@@ -76,16 +76,16 @@
       "id": "quiz_b1_u3_final_q3",
       "quizId": "quiz_b1_u3_final",
       "type": "multiple_choice",
-      "prompt": "Заримдаг гийгүүлэгчийн жишээ аль вэ?",
-      "helper": "Select a letter from the conditional group.",
+      "prompt": "Аль богино үе заримдаг гийгүүлэгчээр эхэлж байна вэ?",
+      "helper": "Choose the syllable that begins with a conditional consonant.",
       "options": [
-        "ц",
-        "м",
-        "р",
-        "в"
+        "ша",
+        "ма",
+        "на",
+        "ла"
       ],
-      "correctAnswer": "ц",
-      "explanation": "ц нь заримдаг гийгүүлэгчийн бүлэгт орно.",
+      "correctAnswer": "ша",
+      "explanation": "ш нь заримдаг гийгүүлэгч тул ша нь заримдаг гийгүүлэгчээр эхэлнэ.",
       "xpReward": 2,
       "order": 3
     },
@@ -93,16 +93,16 @@
       "id": "quiz_b1_u3_final_q4",
       "quizId": "quiz_b1_u3_final",
       "type": "multiple_choice",
-      "prompt": "\"бал\" ба \"вал\" хосын гол ялгаа юу вэ?",
-      "helper": "Focus on which first letter changes.",
+      "prompt": "Аль үг Б үсгээр эхэлж байна вэ?",
+      "helper": "Read the first Cyrillic letter carefully.",
       "options": [
-        "Эхний үсэг б/в",
-        "Сүүлийн эгшиг",
-        "Үеийн тоо",
-        "Урт эгшиг"
+        "бал",
+        "вал",
+        "вирус",
+        "ан"
       ],
-      "correctAnswer": "Эхний үсэг б/в",
-      "explanation": "Энэ хосод зөвхөн эхний гийгүүлэгч өөрчлөгдөнө.",
+      "correctAnswer": "бал",
+      "explanation": "бал үг Б үсгээр эхэлдэг; вал, вирус хоёр В үсгээр эхэлнэ.",
       "xpReward": 2,
       "order": 4
     },
@@ -110,16 +110,16 @@
       "id": "quiz_b1_u3_final_q5",
       "quizId": "quiz_b1_u3_final",
       "type": "multiple_choice",
-      "prompt": "\"гал\" ба \"гэр\" үгэнд ямар үсгийн дуудлагын ялгааг ажиглах вэ?",
-      "helper": "This checks the G distinction practice.",
+      "prompt": "Аль үг В үсгээр эхэлж байна вэ?",
+      "helper": "This checks the Б/В contrast in a real word.",
       "options": [
-        "г",
-        "л",
-        "р",
-        "э"
+        "вирус",
+        "бөмбөг",
+        "бал",
+        "ном"
       ],
-      "correctAnswer": "г",
-      "explanation": "Энэ дасгал г үсгийн орчны дуудлагын ялгааг анзааруулна.",
+      "correctAnswer": "вирус",
+      "explanation": "вирус үг В үсгээр эхэлдэг.",
       "xpReward": 2,
       "order": 5
     },
@@ -127,16 +127,16 @@
       "id": "quiz_b1_u3_final_q6",
       "quizId": "quiz_b1_u3_final",
       "type": "multiple_choice",
-      "prompt": "\"ан\" ба \"на\" хосоор ямар санааг давтаж байна вэ?",
-      "helper": "Think about where the letter Н is placed.",
+      "prompt": "Аль хос Н үсгийг төгсгөлд ба эхэнд харуулж байна вэ?",
+      "helper": "Find the pair like end Н vs start Н.",
       "options": [
-        "н үсгийн байрлал",
-        "урт эгшиг",
-        "хос эгшиг",
-        "заримдаг гийгүүлэгч"
+        "ан / на",
+        "бал / вал",
+        "гал / гэр",
+        "са / ша"
       ],
-      "correctAnswer": "н үсгийн байрлал",
-      "explanation": "Н үсэг эхэнд эсвэл төгсгөлд ороход сонсголд ялгаа гарна.",
+      "correctAnswer": "ан / на",
+      "explanation": "ан үгэнд Н төгсгөлд, на үгэнд Н эхэнд байна.",
       "xpReward": 2,
       "order": 6
     },
@@ -144,16 +144,16 @@
       "id": "quiz_b1_u3_final_q7",
       "quizId": "quiz_b1_u3_final",
       "type": "multiple_choice",
-      "prompt": "Эгшгийн зохицлын үндсэн санаа аль нь вэ?",
-      "helper": "Pick the basic vowel harmony idea.",
+      "prompt": "Эгшгийн зохицолд аль үгийн эгшгүүд нэг төрлийн орчинд илүү нийцэж байна вэ?",
+      "helper": "Use the Unit 2 idea: vowels in one word tend to harmonize.",
       "options": [
-        "Ижил төрлийн эгшиг нэг үгэнд зохицно",
-        "Бүх эгшиг адилхан",
-        "Зөвхөн богино эгшиг хэрэглэнэ",
-        "Дагавар хэрэггүй"
+        "сургууль",
+        "гэр",
+        "номын",
+        "вирус"
       ],
-      "correctAnswer": "Ижил төрлийн эгшиг нэг үгэнд зохицно",
-      "explanation": "Эгшгийн зохицол нь эгшгийн төрлүүд нэг үгэнд нийцэх зарчим юм.",
+      "correctAnswer": "сургууль",
+      "explanation": "сургууль үгэнд у, уу зэрэг арын/дугуй орчны эгшгүүд хамт сонсогдож, зохицлыг ажиглуулахад тохиромжтой.",
       "xpReward": 2,
       "order": 7
     },
@@ -161,16 +161,16 @@
       "id": "quiz_b1_u3_final_q8",
       "quizId": "quiz_b1_u3_final",
       "type": "multiple_choice",
-      "prompt": "Урт эгшгийн зөв жишээ аль нь вэ?",
-      "helper": "Choose the one with a long vowel.",
+      "prompt": "Аль үгэнд урт эгшиг байна вэ?",
+      "helper": "Look for a doubled vowel from Unit 1.",
       "options": [
-        "аа",
+        "сургууль",
+        "бал",
         "ан",
-        "ар",
-        "ал"
+        "ном"
       ],
-      "correctAnswer": "аа",
-      "explanation": "Ижил эгшиг давтагдаж урт эгшиг үүсгэнэ.",
+      "correctAnswer": "сургууль",
+      "explanation": "сургууль үгэнд уу гэсэн урт эгшиг байна.",
       "xpReward": 2,
       "order": 8
     },
@@ -178,16 +178,16 @@
       "id": "quiz_b1_u3_final_q9",
       "quizId": "quiz_b1_u3_final",
       "type": "multiple_choice",
-      "prompt": "Хос эгшгийн жишээ аль нь вэ?",
-      "helper": "Pick a diphthong example.",
+      "prompt": "Аль нь хос эгшиг вэ?",
+      "helper": "Pick the diphthong pattern from Unit 1.",
       "options": [
         "ай",
         "аа",
         "мм",
-        "нн"
+        "нө"
       ],
       "correctAnswer": "ай",
-      "explanation": "Ай нь хоёр өөр эгшиг нийлсэн хос эгшиг.",
+      "explanation": "ай нь хоёр өөр эгшиг нийлж уншигдах хос эгшгийн жишээ.",
       "xpReward": 2,
       "order": 9
     },
@@ -195,16 +195,16 @@
       "id": "quiz_b1_u3_final_q10",
       "quizId": "quiz_b1_u3_final",
       "type": "multiple_choice",
-      "prompt": "Я/Ё/Ю/Е бүлгийн үсгүүдийн зөв сонголт аль нь вэ?",
-      "helper": "Select the complete Y-type set.",
+      "prompt": "Аль үсэг үгэнд “yu” маягаар уншигдаж чаддаг вэ?",
+      "helper": "Review the Е Ё Ю Я reading pattern.",
       "options": [
-        "Я, Ё, Ю, Е",
-        "А, О, У, Э",
-        "М, Н, Г, Л",
-        "Ц, Ж, Ш, Ч"
+        "Ю",
+        "А",
+        "М",
+        "С"
       ],
-      "correctAnswer": "Я, Ё, Ю, Е",
-      "explanation": "Эдгээр нь өмнөх нэгжид давтсан Я-гийн төрлийн үсгүүд юм.",
+      "correctAnswer": "Ю",
+      "explanation": "Ю үсэг үгэнд yu маягийн авиагаар уншигдаж болно.",
       "xpReward": 2,
       "order": 10
     }
