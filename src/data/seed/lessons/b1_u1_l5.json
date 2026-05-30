@@ -2,8 +2,8 @@
   "lesson": {
     "id": "b1-u1-l5",
     "unitId": "b1-u1",
-    "title": "Unit 1 review",
-    "subtitle": "Alphabet and vowel review",
+    "title": "Unit 1 practical review",
+    "subtitle": "Letters, sounds, syllables, and signs",
     "order": 5,
     "xpReward": 25,
     "quizXpReward": 12
@@ -16,8 +16,8 @@
       "title": "Review note",
       "order": 1,
       "content": {
-        "textMn": "1-р нэгжийн үндсэн ойлголтуудаа давтаж сорилоо эхлүүлээрэй.",
-        "textEn": "Review the main Unit 1 ideas, then start the quiz."
+        "textMn": "Одоо үсэг таних, авиа сонгох, үе бүтээх, богино үг унших чадвараа шалгаарай.",
+        "textEn": "Now check your practical skills: recognizing letters, matching sounds, building syllables, and reading short words."
       }
     },
     {
@@ -34,7 +34,7 @@
   "quiz": {
     "id": "quiz_b1_u1_final",
     "lessonId": "b1-u1-l5",
-    "title": "B1 Unit 1 Final Quiz",
+    "title": "B1 Unit 1 Practical Quiz",
     "passingScore": 70
   },
   "quizQuestions": [
@@ -42,137 +42,137 @@
       "id": "quiz_b1_u1_final_q1",
       "quizId": "quiz_b1_u1_final",
       "type": "multiple_choice",
-      "prompt": "Монгол кирилл цагаан толгой хэдэн үсэгтэй вэ?",
+      "prompt": "“ya” авиаг аль үсэг илэрхийлдэг вэ?",
       "options": [
-        "33",
-        "35",
-        "36",
-        "32"
+        "Я",
+        "Ю",
+        "Ё",
+        "Е"
       ],
-      "correctAnswer": "35",
-      "explanation": "Монгол кирилл цагаан толгой 35 үсэгтэй.",
+      "correctAnswer": "Я",
+      "explanation": "Я нь “ya” гэж уншигдана.",
       "xpReward": 2,
       "order": 1,
-      "helper": "How many letters are in the Mongolian Cyrillic alphabet?"
+      "helper": "Which letter makes the “ya” sound?"
     },
     {
       "id": "quiz_b1_u1_final_q2",
       "quizId": "quiz_b1_u1_final",
       "type": "multiple_choice",
-      "prompt": "Эгшиг үсгийн тоо хэд вэ?",
+      "prompt": "Аль үг Ө үсгээр эхэлсэн бэ?",
       "options": [
-        "13",
-        "7",
-        "20",
-        "12"
+        "өвс",
+        "ус",
+        "алим",
+        "ном"
       ],
-      "correctAnswer": "13",
-      "explanation": "Эгшиг үсэг нийт 13.",
+      "correctAnswer": "өвс",
+      "explanation": "өвс гэдэг үг Ө үсгээр эхэлнэ.",
       "xpReward": 2,
       "order": 2,
-      "helper": "How many vowel letters are there?"
+      "helper": "Choose the word that starts with Ө."
     },
     {
       "id": "quiz_b1_u1_final_q3",
       "quizId": "quiz_b1_u1_final",
       "type": "multiple_choice",
-      "prompt": "Үндсэн эгшигт аль нь хамаарах вэ?",
+      "prompt": "Б + А нийлээд ямар үе болох вэ?",
       "options": [
-        "Ө",
-        "Я",
-        "Ё",
-        "Ы"
+        "БА",
+        "БО",
+        "МА",
+        "СУ"
       ],
-      "correctAnswer": "Ө",
-      "explanation": "Ө нь үндсэн эгшиг.",
+      "correctAnswer": "БА",
+      "explanation": "Б + А = БА.",
       "xpReward": 2,
       "order": 3,
-      "helper": "Which one is a basic vowel?"
+      "helper": "Build the syllable from Б + А."
     },
     {
       "id": "quiz_b1_u1_final_q4",
       "quizId": "quiz_b1_u1_final",
       "type": "multiple_choice",
-      "prompt": "Туслах эгшгийг сонгоно уу.",
+      "prompt": "Аль үгэнд Ь тэмдэг байна вэ?",
       "options": [
-        "Ю",
-        "У",
-        "О",
-        "Э"
+        "морь",
+        "ном",
+        "ус",
+        "аав"
       ],
-      "correctAnswer": "Ю",
-      "explanation": "Ю нь туслах эгшиг.",
+      "correctAnswer": "морь",
+      "explanation": "морь үгийн төгсгөлд Ь байна.",
       "xpReward": 2,
       "order": 4,
-      "helper": "Choose the supporting vowel."
+      "helper": "Choose the word that contains the soft sign Ь."
     },
     {
       "id": "quiz_b1_u1_final_q5",
       "quizId": "quiz_b1_u1_final",
       "type": "multiple_choice",
-      "prompt": "Эр эгшиг аль багц вэ?",
+      "prompt": "“ном” гэж бичсэн үгийг сонгоно уу.",
       "options": [
-        "А, О, У",
-        "Э, Ө, Ү",
-        "И",
-        "Е, Ё, Ю"
+        "ном",
+        "нам",
+        "мон",
+        "номо"
       ],
-      "correctAnswer": "А, О, У",
-      "explanation": "Эр эгшиг: А, О, У.",
+      "correctAnswer": "ном",
+      "explanation": "ном = book. Үсгийн дараалал нь Н + О + М.",
       "xpReward": 2,
       "order": 5,
-      "helper": "Which set contains back vowels?"
+      "helper": "Choose the word that matches “nom”."
     },
     {
       "id": "quiz_b1_u1_final_q6",
       "quizId": "quiz_b1_u1_final",
       "type": "multiple_choice",
-      "prompt": "Саармаг эгшиг аль нь вэ?",
+      "prompt": "Й үсэг ямар авиатай ойролцоо вэ?",
       "options": [
-        "И",
-        "Ү",
-        "А",
-        "Ө"
+        "short y glide",
+        "hard sign",
+        "a sound",
+        "o sound"
       ],
-      "correctAnswer": "И",
-      "explanation": "Саармаг эгшиг нь И.",
+      "correctAnswer": "short y glide",
+      "explanation": "Й нь богино y шиг гулсах авиа.",
       "xpReward": 2,
       "order": 6,
-      "helper": "Which one is the neutral vowel?"
+      "helper": "Identify the practical sound of Й."
     },
     {
       "id": "quiz_b1_u1_final_q7",
       "quizId": "quiz_b1_u1_final",
       "type": "multiple_choice",
-      "prompt": "Урт эгшгийн жишээг сонгоно уу.",
+      "prompt": "Аль сонголт урт/давхар эгшгийн жишээ вэ?",
       "options": [
         "ээ",
-        "эй",
+        "э",
         "я",
-        "ө"
+        "й"
       ],
       "correctAnswer": "ээ",
-      "explanation": "ээ нь урт эгшиг.",
+      "explanation": "Ижил эгшиг давтагдвал урт сонсогдоно: ээ.",
       "xpReward": 2,
       "order": 7,
-      "helper": "Choose an example of a long vowel."
+      "helper": "Choose the long/repeated vowel sound."
     },
     {
       "id": "quiz_b1_u1_final_q8",
       "quizId": "quiz_b1_u1_final",
       "type": "multiple_choice",
-      "prompt": "Хос эгшгийн жишээг сонгоно уу.",
+      "prompt": "Ю үсгийн дуудлагад хамгийн ойр аль нь вэ?",
       "options": [
-        "ай",
-        "аа",
-        "үү",
-        "оо"
+        "yu",
+        "ya",
+        "yo",
+        "ye"
       ],
-      "correctAnswer": "ай",
-      "explanation": "ай нь хос эгшиг.",
+      "correctAnswer": "yu",
+      "explanation": "Ю = yu гэж сонсож давтана.",
       "xpReward": 2,
       "order": 8,
-      "helper": "Choose an example of a diphthong."
+      "helper": "Match the letter Ю with its sound."
     }
   ]
 }

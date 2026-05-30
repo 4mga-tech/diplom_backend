@@ -2,8 +2,8 @@
   "lesson": {
     "id": "b1-u1-l1",
     "unitId": "b1-u1",
-    "title": "Цагаан толгойн үндсэн эгшиг",
-    "subtitle": "Core Mongolian vowels",
+    "title": "Үндсэн эгшиг: сонс, давт, бич",
+    "subtitle": "Core vowels: listen, repeat, trace",
     "order": 1,
     "xpReward": 20,
     "quizXpReward": 0
@@ -13,33 +13,33 @@
       "id": "b1-u1-l1-c1",
       "lessonId": "b1-u1-l1",
       "type": "text",
-      "title": "Тайлбар",
+      "title": "Эхний алхам",
       "order": 1,
       "content": {
-        "textMn": "Энэ хичээлээр Монгол цагаан толгойн үндсэн 7 эгшигтэй танилцана.",
-        "textEn": "This lesson introduces the 7 core Mongolian vowels."
+        "textMn": "Эхлээд үсгийн хэлбэрийг хар. Дараа нь дууг сонсоод давт. Эцэст нь тухайн үсгийг үг дотроос олж, том жижиг хэлбэрээр нь бичиж сур.",
+        "textEn": "First look at the letter shape. Then listen and repeat. Finally find the letter inside words and practice writing its uppercase and lowercase forms."
       }
     },
     {
       "id": "b1-u1-l1-c2",
       "lessonId": "b1-u1-l1",
       "type": "grammar_note",
-      "title": "Санамж",
+      "title": "Сурах дараалал",
       "order": 2,
       "content": {
         "section": "grammar",
         "notes": [
           {
-            "mn": "Кирилл үсгийг сурахдаа эхлээд үсгийн хэлбэр, дараа нь дуудлагыг нь хамтад нь тогтоогоорой.",
-            "en": "When learning Cyrillic letters, first remember their shapes, then connect them with their sounds."
+            "mn": "Үсэг бүрийг “хар → сонс → давт → үгэнд хар → бич” гэсэн дарааллаар сураарай.",
+            "en": "Study each letter in this order: look → listen → repeat → see it in words → write it."
           },
           {
-            "mn": "Том, жижиг үсэг заримдаа адилхан харагддаг ч бичих хэмжээ, хэрэглээ нь өөр байдаг.",
-            "en": "Some uppercase and lowercase letters may look similar, but their size and usage are different."
+            "mn": "Том үсэг (А) ба жижиг үсэг (а)-ийг хамтад нь тогтоо.",
+            "en": "Learn the uppercase (А) and lowercase (а) forms together."
           },
           {
-            "mn": "Ө, Ү, Ё зэрэг Монгол хэлэнд чухал үсгүүдийг дуудлагаар нь сайн ялгаж сурах хэрэгтэй.",
-            "en": "Letters such as Ө, Ү, and Ё are important in Mongolian, so learn to distinguish their pronunciation clearly."
+            "mn": "Ө, Ү хоёрын дуудлага англи хэлэнд шууд адил авиа багатай тул удаан сонсоод амны хэлбэрээ анзаараарай.",
+            "en": "Ө and Ү do not match one simple English sound, so listen slowly and notice your mouth shape."
           }
         ]
       }
@@ -67,8 +67,12 @@
                 "meaningEn": "father"
               },
               {
-                "text": "алим",
-                "meaningEn": "apple"
+                "text": "ам",
+                "meaningEn": "mouth"
+              },
+              {
+                "text": "арав",
+                "meaningEn": "ten"
               }
             ]
           },
@@ -89,6 +93,10 @@
               {
                 "text": "эм",
                 "meaningEn": "medicine"
+              },
+              {
+                "text": "энэ",
+                "meaningEn": "this"
               }
             ]
           },
@@ -103,12 +111,16 @@
             "call": "ee",
             "examples": [
               {
-                "text": "инээх",
-                "meaningEn": "to smile"
+                "text": "их",
+                "meaningEn": "big / much"
               },
               {
-                "text": "их",
-                "meaningEn": "big, much"
+                "text": "инээ",
+                "meaningEn": "smile"
+              },
+              {
+                "text": "би",
+                "meaningEn": "I"
               }
             ]
           },
@@ -117,7 +129,7 @@
             "printLower": "о",
             "nameMn": "О үсэг",
             "transcription": "o",
-            "pronunciation": "/o/",
+            "pronunciation": "/ɔ/",
             "group": "vowel",
             "audioUrl": "/uploads/audio/letters/o.mp3",
             "call": "oh",
@@ -129,6 +141,10 @@
               {
                 "text": "ор",
                 "meaningEn": "bed"
+              },
+              {
+                "text": "ном",
+                "meaningEn": "book"
               }
             ]
           },
@@ -137,7 +153,7 @@
             "printLower": "у",
             "nameMn": "У үсэг",
             "transcription": "u",
-            "pronunciation": "/u/",
+            "pronunciation": "/ʊ/",
             "group": "vowel",
             "audioUrl": "/uploads/audio/letters/u.mp3",
             "call": "oo",
@@ -145,6 +161,10 @@
               {
                 "text": "уул",
                 "meaningEn": "mountain"
+              },
+              {
+                "text": "ус",
+                "meaningEn": "water"
               },
               {
                 "text": "улаан",
@@ -160,7 +180,7 @@
             "pronunciation": "/ø/",
             "group": "vowel",
             "audioUrl": "/uploads/audio/letters/ou.mp3",
-            "call": "eu",
+            "call": "oe",
             "examples": [
               {
                 "text": "өвс",
@@ -169,6 +189,10 @@
               {
                 "text": "өмд",
                 "meaningEn": "pants"
+              },
+              {
+                "text": "өндөр",
+                "meaningEn": "tall / high"
               }
             ]
           },
@@ -189,19 +213,23 @@
               {
                 "text": "үүл",
                 "meaningEn": "cloud"
+              },
+              {
+                "text": "үнэ",
+                "meaningEn": "price"
               }
             ]
           }
         ],
         "items": [
           {
-            "text": "Эгшиг: А, Э, И, О, У, Ө, Ү, Е, Ё, Ю, Я, Й, Ы"
+            "text": "Хар: Аа, Ээ, Ии, Оо, Уу, Өө, Үү — том ба жижиг хэлбэрийг хамтад нь сана."
           },
           {
-            "text": "Гийгүүлэгч: 20 үсэг"
+            "text": "Сонс: дууг нэг удаа сонсоод, дараа нь чангаар хоёр удаа давт."
           },
           {
-            "text": "Тэмдэг үсэг: Ь, Ъ"
+            "text": "Бич: үсэг бүрийг агаарт эсвэл дэвтэр дээрээ 3 удаа бичиж давт."
           }
         ],
         "countLabelMn": "7 үндсэн эгшиг",
@@ -212,7 +240,7 @@
       "id": "b1-u1-l1-c4",
       "lessonId": "b1-u1-l1",
       "type": "exercise_repeat",
-      "title": "Сонсож давтах",
+      "title": "Сонсож, давтаж, бичихэд бэлдэх",
       "order": 4,
       "content": {
         "items": [
@@ -222,8 +250,8 @@
             "pronunciation": "/a/",
             "audioUrl": "/uploads/audio/letters/a.mp3",
             "call": "ah",
-            "instructionMn": "А авиаг тод, зөв дуудаарай.",
-            "instructionEn": "Pronounce the А sound clearly."
+            "instructionMn": "Аа: Ам нээлттэй, богино “a” авиа. Сонсоод хоёр удаа давт, дараа нь А ба а-г бич.",
+            "instructionEn": "Аа: Ам нээлттэй, богино “a” авиа. Listen, repeat twice, then trace А and а."
           },
           {
             "text": "Э э",
@@ -231,8 +259,8 @@
             "pronunciation": "/e/",
             "audioUrl": "/uploads/audio/letters/e.mp3",
             "call": "eh",
-            "instructionMn": "Э авиаг тод, зөв дуудаарай.",
-            "instructionEn": "Pronounce the Э sound clearly."
+            "instructionMn": "Ээ: “bed” гэдэг үгийн e-тэй ойролцоо богино авиа. Сонсоод хоёр удаа давт, дараа нь Э ба э-г бич.",
+            "instructionEn": "Ээ: “bed” гэдэг үгийн e-тэй ойролцоо богино авиа. Listen, repeat twice, then trace Э and э."
           },
           {
             "text": "И и",
@@ -240,30 +268,48 @@
             "pronunciation": "/i/",
             "audioUrl": "/uploads/audio/letters/i.mp3",
             "call": "ee",
-            "instructionMn": "И авиаг тод, зөв дуудаарай.",
-            "instructionEn": "Pronounce the И sound clearly."
+            "instructionMn": "Ии: “see” гэдэг үгийн ee-тэй ойролцоо тод авиа. Сонсоод хоёр удаа давт, дараа нь И ба и-г бич.",
+            "instructionEn": "Ии: “see” гэдэг үгийн ee-тэй ойролцоо тод авиа. Listen, repeat twice, then trace И and и."
           },
           {
             "text": "О о",
             "transcription": "o",
-            "pronunciation": "/o/",
+            "pronunciation": "/ɔ/",
             "audioUrl": "/uploads/audio/letters/o.mp3",
             "call": "oh",
-            "instructionMn": "О авиаг тод, зөв дуудаарай.",
-            "instructionEn": "Pronounce the О sound clearly."
+            "instructionMn": "Оо: Уруулаа бага зэрэг дугуйлж “o” гэж хэл. Сонсоод хоёр удаа давт, дараа нь О ба о-г бич.",
+            "instructionEn": "Оо: Уруулаа бага зэрэг дугуйлж “o” гэж хэл. Listen, repeat twice, then trace О and о."
           },
           {
             "text": "У у",
             "transcription": "u",
-            "pronunciation": "/u/",
+            "pronunciation": "/ʊ/",
             "audioUrl": "/uploads/audio/letters/u.mp3",
             "call": "oo",
-            "instructionMn": "У авиаг тод, зөв дуудаарай.",
-            "instructionEn": "Pronounce the У sound clearly."
+            "instructionMn": "Уу: Уруулаа дугуйлж богино “oo” авиа гарга. Сонсоод хоёр удаа давт, дараа нь У ба у-г бич.",
+            "instructionEn": "Уу: Уруулаа дугуйлж богино “oo” авиа гарга. Listen, repeat twice, then trace У and у."
+          },
+          {
+            "text": "Ө ө",
+            "transcription": "ö",
+            "pronunciation": "/ø/",
+            "audioUrl": "/uploads/audio/letters/ou.mp3",
+            "call": "oe",
+            "instructionMn": "Өө: Уруулаа дугуйлж, “e” хэлэх шиг зөөлөн авиа. Сонсоод хоёр удаа давт, дараа нь Ө ба ө-г бич.",
+            "instructionEn": "Өө: Уруулаа дугуйлж, “e” хэлэх шиг зөөлөн авиа. Listen, repeat twice, then trace Ө and ө."
+          },
+          {
+            "text": "Ү ү",
+            "transcription": "ü",
+            "pronunciation": "/y/",
+            "audioUrl": "/uploads/audio/letters/uu.mp3",
+            "call": "ue",
+            "instructionMn": "Үү: Уруулаа дугуйлж, “ee” хэлэх шиг урд авиа. Сонсоод хоёр удаа давт, дараа нь Ү ба ү-г бич.",
+            "instructionEn": "Үү: Уруулаа дугуйлж, “ee” хэлэх шиг урд авиа. Listen, repeat twice, then trace Ү and ү."
           }
         ],
-        "instructionMn": "Дууг сонсоод эгшгийг чанга, тод давтаж хэлээрэй.",
-        "instructionEn": "Listen and repeat each vowel clearly."
+        "instructionMn": "Үсэг бүр дээр: хар → сонс → давт → бич. Богино, тод дуугаар хэлээрэй.",
+        "instructionEn": "For each letter: look → listen → repeat → trace. Say the sound shortly and clearly."
       }
     }
   ]
