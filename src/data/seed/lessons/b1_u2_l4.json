@@ -13,11 +13,11 @@
       "id": "b1-u2-l4-c1",
       "lessonId": "b1-u2-l4",
       "type": "text",
-      "title": "Давтлага",
+      "title": "Практик давтлага",
       "order": 1,
       "content": {
-        "textMn": "Энэ шалгалтаар эр/эм/саармаг эгшиг, Ы/ИЙ ялгаа, мөн Е Ё Ю Я үсгийн ойлголтоо бататгана.",
-        "textEn": "This quiz reviews back/front/neutral vowels, Ы vs ИЙ, and the y-type letters Е Ё Ю Я."
+        "textMn": "Энэ шалгалт үсэг нэрлэхээс илүү үгэн доторх эгшгийг танихад чиглэнэ: эгшгийн бүлэг, -ын/-ийн төгсгөл, Е Ё Ю Я-тай үгс.",
+        "textEn": "This quiz focuses less on naming letters and more on using vowels inside words: vowel groups, -ын/-ийн endings, and words with Е Ё Ю Я."
       }
     },
     {
@@ -42,16 +42,16 @@
       "id": "quiz_b1_u2_final_q1",
       "quizId": "quiz_b1_u2_final",
       "type": "multiple_choice",
-      "prompt": "Аль нь эр эгшигтэй үг вэ?",
-      "helper": "Which word has back vowels?",
+      "prompt": "“ном” үгийн эгшиг аль бүлэгт орох вэ?",
+      "helper": "Recognize the vowel group inside the word.",
       "options": [
-        "ном",
-        "гэр",
-        "сүү",
-        "ээж"
+        "Эр эгшиг / back",
+        "Эм эгшиг / front",
+        "Саармаг И / neutral",
+        "Е Ё Ю Я бүлэг"
       ],
-      "correctAnswer": "ном",
-      "explanation": "Ном гэдэг үгэнд эр эгшиг орсон.",
+      "correctAnswer": "Эр эгшиг / back",
+      "explanation": "“ном” үгэнд О орсон. О нь эр эгшиг.",
       "xpReward": 2,
       "order": 1
     },
@@ -59,16 +59,16 @@
       "id": "quiz_b1_u2_final_q2",
       "quizId": "quiz_b1_u2_final",
       "type": "multiple_choice",
-      "prompt": "Аль нь эм эгшигтэй үг вэ?",
-      "helper": "Which word has front vowels?",
+      "prompt": "“үс” үгийн Ү ямар бүлгийн эгшиг вэ?",
+      "helper": "Choose the vowel group for Ү in this word.",
       "options": [
-        "ус",
-        "аав",
-        "гэр",
-        "ном"
+        "Эм эгшиг / front",
+        "Эр эгшиг / back",
+        "Саармаг И / neutral",
+        "Гийгүүлэгч"
       ],
-      "correctAnswer": "гэр",
-      "explanation": "Гэр нь эм эгшгийн бүлэгт орно.",
+      "correctAnswer": "Эм эгшиг / front",
+      "explanation": "Ү нь эм эгшгийн бүлэгт орно.",
       "xpReward": 2,
       "order": 2
     },
@@ -76,16 +76,16 @@
       "id": "quiz_b1_u2_final_q3",
       "quizId": "quiz_b1_u2_final",
       "type": "multiple_choice",
-      "prompt": "Саармаг эгшиг аль нь вэ?",
-      "helper": "Identify the neutral vowel.",
+      "prompt": "“багшийн” үгэнд ямар төгсгөл байна вэ?",
+      "helper": "Look at the ending, not just the sound.",
       "options": [
-        "а",
-        "ө",
-        "и",
-        "у"
+        "-ийн",
+        "-ын",
+        "-аар",
+        "-тай"
       ],
-      "correctAnswer": "и",
-      "explanation": "И нь саармаг эгшиг тул хоёр бүлэгтэй хамт орж чадна.",
+      "correctAnswer": "-ийн",
+      "explanation": "“багшийн” нь багш + ийн гэж бичигдэнэ.",
       "xpReward": 2,
       "order": 3
     },
@@ -93,16 +93,16 @@
       "id": "quiz_b1_u2_final_q4",
       "quizId": "quiz_b1_u2_final",
       "type": "multiple_choice",
-      "prompt": "\"Ы\" орсон үгийг сонгоно уу.",
-      "helper": "Choose the word that contains Ы.",
+      "prompt": "“ном + ын” нийлбэл аль нь зөв вэ?",
+      "helper": "Build the word with the ending -ын.",
       "options": [
-        "багшийн",
-        "ээжийн",
         "номын",
-        "гэрийн"
+        "номийн",
+        "номйин",
+        "номин"
       ],
       "correctAnswer": "номын",
-      "explanation": "Номын үгэнд ы үсэг орсон.",
+      "explanation": "ном + ын = номын.",
       "xpReward": 2,
       "order": 4
     },
@@ -110,16 +110,16 @@
       "id": "quiz_b1_u2_final_q5",
       "quizId": "quiz_b1_u2_final",
       "type": "multiple_choice",
-      "prompt": "\"ИЙ\" тод илэрхий үгийг сонгоно уу.",
-      "helper": "Choose the form with clear ИЙ.",
+      "prompt": "“ээж + ийн” нийлбэл аль нь зөв вэ?",
+      "helper": "Build the word with the ending -ийн.",
       "options": [
-        "ус",
-        "аавын",
         "ээжийн",
-        "ном"
+        "ээжын",
+        "ээжйин",
+        "ээжин"
       ],
       "correctAnswer": "ээжийн",
-      "explanation": "Ээжийн хэлбэрт ий дараалал тод харагдана.",
+      "explanation": "ээж + ийн = ээжийн.",
       "xpReward": 2,
       "order": 5
     },
@@ -127,16 +127,16 @@
       "id": "quiz_b1_u2_final_q6",
       "quizId": "quiz_b1_u2_final",
       "type": "multiple_choice",
-      "prompt": "Аль үсэг \"йо\" мэт сонсогдож болно вэ?",
-      "helper": "Which letter can sound like yo?",
+      "prompt": "“ямаа” үгийн эхний үсэг ямар sound pattern-тэй вэ?",
+      "helper": "Read Я inside a real word.",
       "options": [
-        "Я",
-        "Е",
-        "Ю",
-        "Ё"
+        "ya",
+        "yu",
+        "yo",
+        "ye"
       ],
-      "correctAnswer": "Ё",
-      "explanation": "Ё үсэг ихэнхдээ йо дуудлагатай.",
+      "correctAnswer": "ya",
+      "explanation": "“ямаа” үгийн Я нь эхэндээ ya мэт уншигдана.",
       "xpReward": 2,
       "order": 6
     },
@@ -144,16 +144,16 @@
       "id": "quiz_b1_u2_final_q7",
       "quizId": "quiz_b1_u2_final",
       "type": "multiple_choice",
-      "prompt": "Й + у нийлбэрээс аль үсэг гардаг вэ?",
-      "helper": "Which letter comes from y + u?",
+      "prompt": "“юу” үгийн Ю ямар sound pattern-тэй вэ?",
+      "helper": "Read Ю inside a real word.",
       "options": [
-        "Е",
-        "Я",
-        "Ю",
-        "Ё"
+        "yu",
+        "ya",
+        "yo",
+        "ye"
       ],
-      "correctAnswer": "Ю",
-      "explanation": "Й + у нийлээд Ю болж бичигдэнэ.",
+      "correctAnswer": "yu",
+      "explanation": "“юу” үгийн Ю нь yu мэт уншигдана.",
       "xpReward": 2,
       "order": 7
     },
@@ -161,16 +161,16 @@
       "id": "quiz_b1_u2_final_q8",
       "quizId": "quiz_b1_u2_final",
       "type": "multiple_choice",
-      "prompt": "Аль үсэг \"йэ/е\" мэт сонсогддог вэ?",
-      "helper": "Which letter can sound like ye/e?",
+      "prompt": "Аль үг Е-тэй бөгөөд “ye/e” мэт эхэлж уншигдах вэ?",
+      "helper": "Recognize Е inside a word.",
       "options": [
-        "Е",
-        "Я",
-        "Ё",
-        "Ю"
+        "ес",
+        "ёс",
+        "юм",
+        "ямаа"
       ],
-      "correctAnswer": "Е",
-      "explanation": "Е нь байрлалаасаа хамааран йэ эсвэл е мэт сонсогдоно.",
+      "correctAnswer": "ес",
+      "explanation": "“ес” нь Е-ээр эхэлж, ye/e мэт уншигдана.",
       "xpReward": 2,
       "order": 8
     }

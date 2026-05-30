@@ -13,32 +13,32 @@
       "id": "b1-u2-l2-c1",
       "lessonId": "b1-u2-l2",
       "type": "text",
-      "title": "Үндсэн ялгаа",
+      "title": "-ын ба -ийн хэлбэр",
       "order": 1,
       "content": {
-        "textMn": "Ы болон ИЙ нь урт и авиа мэт сонсогдож болох ч бичигдэх байрлал, үүрэг нь ялгаатай.",
-        "textEn": "Ы and ИЙ can sound similar, but they are used differently in spelling."
+        "textMn": "Энэ хичээлээр үгийн төгсгөлд нэмэгдэх -ын, -ийн хэлбэрийг үг бүтээж танина. Дуу нь ойролцоо сонсогдож болох ч бичлэг нь үгийн хэв шинжээр ялгарна.",
+        "textEn": "In this lesson, recognize the endings -ын and -ийн by building words. They can sound close, but the spelling pattern shows which form is used."
       }
     },
     {
       "id": "b1-u2-l2-c2",
       "lessonId": "b1-u2-l2",
       "type": "grammar_note",
-      "title": "Санамж",
+      "title": "Практик бичлэгийн хэв",
       "order": 2,
       "content": {
         "notes": [
           {
-            "mn": "Ы нь ихэвчлэн үгийн төгсгөлд, харьяалах утгатай хэлбэрт орно.",
-            "en": "Ы often appears near the end of words, especially in possessive forms."
+            "mn": "Эр эгшигтэй богино үгэнд ихэвчлэн -ын залгана: ном + ын = номын.",
+            "en": "Short back-vowel words often take -ын: ном + ын = номын."
           },
           {
-            "mn": "ИЙ нь урт “ий” авиа болон дагаварт олонтаа хэрэглэгдэнэ.",
-            "en": "ИЙ often represents a long “ii” sound and appears in suffixes."
+            "mn": "Урт А-тай үгэнд мөн -ын харагдана: аав + ын = аавын.",
+            "en": "A word with long А also shows -ын: аав + ын = аавын."
           },
           {
-            "mn": "Эхний шатанд үгийн жишээгээр ялгаж сурна.",
-            "en": "At this level, learn the difference through examples."
+            "mn": "Ийм болон эм/урт эгшигтэй олон үгэнд -ийн харагдана: багш + ийн = багшийн, ээж + ийн = ээжийн.",
+            "en": "Many words with this pattern or front/long vowels show -ийн: багш + ийн = багшийн, ээж + ийн = ээжийн."
           }
         ]
       }
@@ -47,7 +47,7 @@
       "id": "b1-u2-l2-c3",
       "lessonId": "b1-u2-l2",
       "type": "vocab_list",
-      "title": "Жишээ үгс",
+      "title": "Үг бүтсэн хэлбэр",
       "order": 3,
       "content": {
         "items": [
@@ -58,20 +58,20 @@
             "audioUrl": "/uploads/audio/words/nomiin.mp3"
           },
           {
-            "word": "багшийн",
-            "translation": "teacher’s",
-            "transcription": "bagshiin",
-            "audioUrl": "/uploads/audio/words/bagshiin.mp3"
-          },
-          {
             "word": "аавын",
-            "translation": "father’s",
+            "translation": "father’s / of father",
             "transcription": "aaviin",
             "audioUrl": "/uploads/audio/words/aaviin.mp3"
           },
           {
+            "word": "багшийн",
+            "translation": "teacher’s / of a teacher",
+            "transcription": "bagshiin",
+            "audioUrl": "/uploads/audio/words/bagshiin.mp3"
+          },
+          {
             "word": "ээжийн",
-            "translation": "mother’s",
+            "translation": "mother’s / of mother",
             "transcription": "eejiin",
             "audioUrl": "/uploads/audio/words/eejiin.mp3"
           }
@@ -82,19 +82,19 @@
       "id": "b1-u2-l2-c4",
       "lessonId": "b1-u2-l2",
       "type": "classification",
-      "title": "Ы ба ИЙ",
+      "title": "-ын / -ийн ялгах",
       "order": 4,
       "content": {
         "groups": [
           {
-            "title": "Ы орсон үг / Words with Ы",
+            "title": "-ын ending",
             "items": [
               "номын",
               "аавын"
             ]
           },
           {
-            "title": "ИЙ орсон үг / Words with ИЙ",
+            "title": "-ийн ending",
             "items": [
               "багшийн",
               "ээжийн"
@@ -107,49 +107,35 @@
       "id": "b1-u2-l2-c5",
       "lessonId": "b1-u2-l2",
       "type": "exercise_repeat",
-      "title": "Давтан хэл",
+      "title": "Төгсгөлийг олж унш",
       "order": 5,
       "content": {
-        "instructionMn": "Дараах үгсийг удаанаар уншаад Ы, ИЙ-г ялгаарай.",
-        "instructionEn": "Read each word slowly and distinguish Ы vs ИЙ.",
-        "rows": [
-          {
-            "line": "номын",
-            "audioUrl": "/uploads/audio/words/nomiin.mp3"
-          },
-          {
-            "line": "аавын",
-            "audioUrl": "/uploads/audio/words/aaviin.mp3"
-          },
-          {
-            "line": "багшийн",
-            "audioUrl": "/uploads/audio/words/bagshiin.mp3"
-          },
-          {
-            "line": "ээжийн",
-            "audioUrl": "/uploads/audio/words/eejiin.mp3"
-          }
-        ],
+        "instructionMn": "Үгийг уншаад төгсгөл нь -ын эсвэл -ийн аль нь болохыг хэлээрэй.",
+        "instructionEn": "Read each word and identify whether the ending is -ын or -ийн.",
         "items": [
           {
             "text": "номын",
+            "transcription": "nomiin",
             "audioUrl": "/uploads/audio/words/nomiin.mp3",
-            "call": "en"
+            "call": "ном + ын"
           },
           {
             "text": "аавын",
+            "transcription": "aaviin",
             "audioUrl": "/uploads/audio/words/aaviin.mp3",
-            "call": "ah"
+            "call": "аав + ын"
           },
           {
             "text": "багшийн",
+            "transcription": "bagshiin",
             "audioUrl": "/uploads/audio/words/bagshiin.mp3",
-            "call": "beh"
+            "call": "багш + ийн"
           },
           {
             "text": "ээжийн",
+            "transcription": "eejiin",
             "audioUrl": "/uploads/audio/words/eejiin.mp3",
-            "call": "eh"
+            "call": "ээж + ийн"
           }
         ]
       }

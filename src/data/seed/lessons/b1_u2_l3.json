@@ -13,36 +13,36 @@
       "id": "b1-u2-l3-c1",
       "lessonId": "b1-u2-l3",
       "type": "text",
-      "title": "Танилцуулга",
+      "title": "Үгэн доторх Е Ё Ю Я",
       "order": 1,
       "content": {
-        "textMn": "Е, Ё, Ю, Я үсгүүд нь зарим байрлалд й авиа болон эгшгийн нийлмэл дуудлагатай сонсогдоно.",
-        "textEn": "Е, Ё, Ю, Я can sound like a combination of y + vowel in some positions."
+        "textMn": "Е, Ё, Ю, Я-г дахин цээжлэх биш, үгэн дотор уншиж танина. Эдгээр нь олон үгэнд й + эгшиг мэт эхэлж сонсогдоно.",
+        "textEn": "Do not relearn Е, Ё, Ю, Я as an alphabet list. Read them inside words, where they often begin like y + vowel."
       }
     },
     {
       "id": "b1-u2-l3-c2",
       "lessonId": "b1-u2-l3",
       "type": "grammar_note",
-      "title": "Дуудлагын санамж",
+      "title": "Үгтэй жишээ",
       "order": 2,
       "content": {
         "notes": [
           {
-            "mn": "Я нь “йа” мэт сонсогдоно.",
-            "en": "Я can sound like “ya”."
+            "mn": "Я → ямаа, явах: эхэндээ “ya” мэт уншина.",
+            "en": "Я → ямаа, явах: at the start, read it like “ya”."
           },
           {
-            "mn": "Ё нь “йо” мэт сонсогдоно.",
-            "en": "Ё can sound like “yo”."
+            "mn": "Ю → юм, юу: эхэндээ “yu” мэт уншина.",
+            "en": "Ю → юм, юу: at the start, read it like “yu”."
           },
           {
-            "mn": "Ю нь “йу” мэт сонсогдоно.",
-            "en": "Ю can sound like “yu”."
+            "mn": "Ё → ёс, ёо: эхэндээ “yo” мэт уншина.",
+            "en": "Ё → ёс, ёо: at the start, read it like “yo”."
           },
           {
-            "mn": "Е нь “йэ/е” мэт сонсогдоно.",
-            "en": "Е can sound like “ye/e”."
+            "mn": "Е → ес, ер: эхэндээ “ye/e” мэт уншина.",
+            "en": "Е → ес, ер: at the start, read it like “ye/e”."
           }
         ]
       }
@@ -51,31 +51,23 @@
       "id": "b1-u2-l3-c3",
       "lessonId": "b1-u2-l3",
       "type": "alphabet_table",
-      "title": "Я-гийн төрлийн үсгүүд",
+      "title": "Үсэг → үг",
       "order": 3,
       "content": {
         "letters": [
           {
-            "printUpper": "Е",
-            "printLower": "е",
-            "nameMn": "е",
-            "transcription": "ye/e",
-            "pronunciation": "/je, e/",
+            "printUpper": "Я",
+            "printLower": "я",
+            "nameMn": "я",
+            "transcription": "ya",
+            "pronunciation": "/ja/",
             "group": "y-type-vowel",
-            "audioUrl": "/uploads/audio/letters/ye.mp3",
-            "call": "yeh",
-            "examples": []
-          },
-          {
-            "printUpper": "Ё",
-            "printLower": "ё",
-            "nameMn": "ё",
-            "transcription": "yo",
-            "pronunciation": "/jo/",
-            "group": "y-type-vowel",
-            "audioUrl": "/uploads/audio/letters/yo.mp3",
-            "call": "yoh",
-            "examples": []
+            "audioUrl": "/uploads/audio/letters/ya.mp3",
+            "call": "я: ямаа, явах",
+            "examples": [
+              "ямаа",
+              "явах"
+            ]
           },
           {
             "printUpper": "Ю",
@@ -85,32 +77,11 @@
             "pronunciation": "/ju/",
             "group": "y-type-vowel",
             "audioUrl": "/uploads/audio/letters/yu.mp3",
-            "call": "yoo",
-            "examples": []
-          },
-          {
-            "printUpper": "Я",
-            "printLower": "я",
-            "nameMn": "я",
-            "transcription": "ya",
-            "pronunciation": "/ja/",
-            "group": "y-type-vowel",
-            "audioUrl": "/uploads/audio/letters/ya.mp3",
-            "call": "yah",
-            "examples": []
-          }
-        ],
-        "items": [
-          {
-            "printUpper": "Е",
-            "printLower": "е",
-            "nameMn": "е",
-            "transcription": "ye/e",
-            "pronunciation": "/je, e/",
-            "group": "y-type-vowel",
-            "audioUrl": "/uploads/audio/letters/ye.mp3",
-            "call": "yeh",
-            "examples": []
+            "call": "ю: юм, юу",
+            "examples": [
+              "юм",
+              "юу"
+            ]
           },
           {
             "printUpper": "Ё",
@@ -120,30 +91,25 @@
             "pronunciation": "/jo/",
             "group": "y-type-vowel",
             "audioUrl": "/uploads/audio/letters/yo.mp3",
-            "call": "yoh",
-            "examples": []
+            "call": "ё: ёс, ёо",
+            "examples": [
+              "ёс",
+              "ёо"
+            ]
           },
           {
-            "printUpper": "Ю",
-            "printLower": "ю",
-            "nameMn": "ю",
-            "transcription": "yu",
-            "pronunciation": "/ju/",
+            "printUpper": "Е",
+            "printLower": "е",
+            "nameMn": "е",
+            "transcription": "ye/e",
+            "pronunciation": "/je, e/",
             "group": "y-type-vowel",
-            "audioUrl": "/uploads/audio/letters/yu.mp3",
-            "call": "yoo",
-            "examples": []
-          },
-          {
-            "printUpper": "Я",
-            "printLower": "я",
-            "nameMn": "я",
-            "transcription": "ya",
-            "pronunciation": "/ja/",
-            "group": "y-type-vowel",
-            "audioUrl": "/uploads/audio/letters/ya.mp3",
-            "call": "yah",
-            "examples": []
+            "audioUrl": "/uploads/audio/letters/ye.mp3",
+            "call": "е: ес, ер",
+            "examples": [
+              "ес",
+              "ер"
+            ]
           }
         ]
       }
@@ -152,43 +118,39 @@
       "id": "b1-u2-l3-c4",
       "lessonId": "b1-u2-l3",
       "type": "exercise_word_build",
-      "title": "Дуудлага задлах",
+      "title": "Дуунаас үг рүү",
       "order": 4,
       "content": {
-        "instructionMn": "Й авиаг эгшигтэй нийлүүлж Я, Ё, Ю, Е авиаг ойлгоорой.",
-        "instructionEn": "Combine the y-sound with vowels to understand Я, Ё, Ю, Е.",
+        "instructionMn": "Й авиатай эхлэлийг бодоод бүтэн үг уншаарай.",
+        "instructionEn": "Think of the y-type start, then read the full word.",
         "items": [
           {
-            "left": "й",
-            "right": "а",
-            "result": "я",
-            "transcription": "ya",
-            "correctAnswer": "я",
-            "audioUrl": "/uploads/audio/letters/ya.mp3"
+            "left": "йа",
+            "right": "маа",
+            "result": "ямаа",
+            "transcription": "yamaa",
+            "audioUrl": "/uploads/audio/words/goat.mp3"
           },
           {
-            "left": "й",
-            "right": "о",
-            "result": "ё",
-            "transcription": "yo",
-            "correctAnswer": "ё",
-            "audioUrl": "/uploads/audio/letters/yo.mp3"
+            "left": "йа",
+            "right": "вах",
+            "result": "явах",
+            "transcription": "yavakh",
+            "audioUrl": "/uploads/audio/words/go.mp3"
           },
           {
-            "left": "й",
-            "right": "у",
-            "result": "ю",
-            "transcription": "yu",
-            "correctAnswer": "ю",
-            "audioUrl": "/uploads/audio/letters/yu.mp3"
+            "left": "йу",
+            "right": "м",
+            "result": "юм",
+            "transcription": "yum",
+            "audioUrl": "/uploads/audio/words/thing.mp3"
           },
           {
-            "left": "й",
-            "right": "э",
-            "result": "е",
-            "transcription": "ye",
-            "correctAnswer": "е",
-            "audioUrl": "/uploads/audio/letters/ye.mp3"
+            "left": "йэ",
+            "right": "с",
+            "result": "ес",
+            "transcription": "yes",
+            "audioUrl": "/uploads/audio/words/nine.mp3"
           }
         ]
       },
@@ -198,90 +160,59 @@
       "id": "b1-u2-l3-c5",
       "lessonId": "b1-u2-l3",
       "type": "exercise_repeat",
-      "title": "Сонсож давтах",
+      "title": "Үг сонсож давтах",
       "order": 5,
       "content": {
-        "instructionMn": "Дараах үе, үсгийг зөв аялгаар уншаарай.",
-        "instructionEn": "Repeat these letters and syllables with clear intonation.",
+        "instructionMn": "Үсгийг дангаар нь биш, үгэн дотор нь уншиж давтаарай.",
+        "instructionEn": "Repeat the letters inside words, not as isolated alphabet items.",
         "items": [
           {
-            "text": "я",
-            "transcription": "ya",
-            "pronunciation": "/ja/",
-            "audioUrl": "/uploads/audio/letters/ya.mp3",
-            "call": "yah"
+            "text": "ямаа",
+            "transcription": "yamaa",
+            "audioUrl": "/uploads/audio/words/goat.mp3",
+            "call": "Я = ya"
           },
           {
-            "text": "ё",
-            "transcription": "yo",
-            "pronunciation": "/jo/",
-            "audioUrl": "/uploads/audio/letters/yo.mp3",
-            "call": "yoh"
+            "text": "явах",
+            "transcription": "yavakh",
+            "audioUrl": "/uploads/audio/words/go.mp3",
+            "call": "Я = ya"
           },
           {
-            "text": "ю",
-            "transcription": "yu",
-            "pronunciation": "/ju/",
-            "audioUrl": "/uploads/audio/letters/yu.mp3",
-            "call": "yoo"
-          },
-          {
-            "text": "е",
-            "transcription": "ye",
-            "pronunciation": "/je/",
-            "audioUrl": "/uploads/audio/letters/ye.mp3",
-            "call": "yeh"
-          },
-          {
-            "text": "яа",
-            "transcription": "yaa",
-            "pronunciation": "/jaa/",
-            "audioUrl": "",
-            "call": "yah"
-          },
-          {
-            "text": "ёо",
-            "transcription": "yoo",
-            "pronunciation": "/joo/",
-            "audioUrl": "",
-            "call": "yoh"
+            "text": "юм",
+            "transcription": "yum",
+            "audioUrl": "/uploads/audio/words/thing.mp3",
+            "call": "Ю = yu"
           },
           {
             "text": "юу",
             "transcription": "yuu",
-            "pronunciation": "/juu/",
-            "audioUrl": "",
-            "call": "yoo"
-          }
-        ],
-        "rows": [
-          {
-            "line": "я",
-            "audioUrl": "/uploads/audio/letters/ya.mp3"
+            "audioUrl": "/uploads/audio/words/what.mp3",
+            "call": "Ю = yu"
           },
           {
-            "line": "ё",
-            "audioUrl": "/uploads/audio/letters/yo.mp3"
+            "text": "ёс",
+            "transcription": "yos",
+            "audioUrl": "/uploads/audio/words/custom.mp3",
+            "call": "Ё = yo"
           },
           {
-            "line": "ю",
-            "audioUrl": "/uploads/audio/letters/yu.mp3"
+            "text": "ёо",
+            "transcription": "yoo",
+            "audioUrl": "/uploads/audio/syllables/yoo.mp3",
+            "call": "Ё = yo"
           },
           {
-            "line": "е",
-            "audioUrl": "/uploads/audio/letters/ye.mp3"
+            "text": "ес",
+            "transcription": "yes",
+            "audioUrl": "/uploads/audio/words/nine.mp3",
+            "call": "Е = ye/e"
           },
           {
-            "line": "яа",
-            "audioUrl": "/uploads/audio/letters/ya.mp3"
-          },
-          {
-            "line": "ёо",
-            "audioUrl": "/uploads/audio/letters/yo.mp3"
-          },
-          {
-            "line": "юу",
-            "audioUrl": "/uploads/audio/letters/yu.mp3"
+            "text": "ер",
+            "transcription": "yer",
+            "audioUrl": "/uploads/audio/words/come.mp3",
+            "call": "Е = ye/e"
           }
         ]
       }
