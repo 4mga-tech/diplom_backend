@@ -24,7 +24,7 @@
       "id": "b1-u2-l3-c2",
       "lessonId": "b1-u2-l3",
       "type": "grammar_note",
-      "title": "Үгтэй жишээ",
+      "title": "Example words",
       "order": 2,
       "content": {
         "notes": [
@@ -51,7 +51,7 @@
       "id": "b1-u2-l3-c3",
       "lessonId": "b1-u2-l3",
       "type": "alphabet_table",
-      "title": "Үсэг → үг",
+      "title": "Letter → Word",
       "order": 3,
       "content": {
         "letters": [
@@ -118,7 +118,7 @@
       "id": "b1-u2-l3-c4",
       "lessonId": "b1-u2-l3",
       "type": "exercise_word_build",
-      "title": "Дуунаас үг рүү",
+      "title": "Audio → word",
       "order": 4,
       "content": {
         "instructionMn": "Й авиатай эхлэлийг бодоод бүтэн үг уншаарай.",
@@ -187,7 +187,7 @@
           {
             "text": "юу",
             "transcription": "yuu",
-            "audioUrl": "/uploads/audio/words/what.mp3",
+            "audioUrl": "/uploads/audio/letters/yu.mp3",
             "call": "Ю = yu"
           },
           {
@@ -199,7 +199,7 @@
           {
             "text": "ёо",
             "transcription": "yoo",
-            "audioUrl": "/uploads/audio/syllables/yoo.mp3",
+            "audioUrl": "/uploads/audio/words/ouch.mp3",
             "call": "Ё = yo"
           },
           {
@@ -211,7 +211,7 @@
           {
             "text": "ер",
             "transcription": "yer",
-            "audioUrl": "/uploads/audio/words/come.mp3",
+            "audioUrl": "/uploads/audio/words/ninety.mp3",
             "call": "Е = ye/e"
           }
         ]

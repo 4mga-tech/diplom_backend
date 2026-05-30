@@ -92,43 +92,43 @@
             "text": "аав",
             "transcription": "aav",
             "audioUrl": "/uploads/audio/words/father.mp3",
-            "call": "А = back"
+            "call": "А = эр /back vowel"
           },
           {
             "text": "ном",
             "transcription": "nom",
             "audioUrl": "/uploads/audio/words/book.mp3",
-            "call": "О = back"
+            "call": "О = эр /back vowel"
           },
           {
             "text": "ус",
             "transcription": "us",
             "audioUrl": "/uploads/audio/words/water.mp3",
-            "call": "У = back"
+            "call": "У = эр /back vowel"
           },
           {
             "text": "ээж",
             "transcription": "eej",
             "audioUrl": "/uploads/audio/words/mother.mp3",
-            "call": "ЭЭ = front"
+            "call": "ЭЭ = эм /front vowel"
           },
           {
             "text": "өдөр",
             "transcription": "ödör",
             "audioUrl": "/uploads/audio/words/day.mp3",
-            "call": "Ө = front"
+            "call": "Ө = эм /front vowel"
           },
           {
             "text": "үс",
             "transcription": "üs",
             "audioUrl": "/uploads/audio/words/hair.mp3",
-            "call": "Ү = front"
+            "call": "Ү = эм /front vowel"
           },
           {
             "text": "би",
             "transcription": "bi",
             "audioUrl": "/uploads/audio/words/me.mp3",
-            "call": "И = neutral"
+            "call": "И = саармаг /neutral vowel"
           }
         ]
       }
