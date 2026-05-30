@@ -16,8 +16,8 @@
       "title": "Товч ойлголт",
       "order": 1,
       "content": {
-        "textMn": "Адилхан мэт сонсогдох үсгүүдийг байрлал, ойролцоо авиагаар ялгаж сурна.",
-        "textEn": "Learn to distinguish similar letters by position and nearby sounds."
+        "textMn": "Ойролцоо харагдах, сонсогдох Б, В, Г, Н үсгийг жинхэнэ үг дотор ялгаж сурна. Сонсоод эхний үсэг, үгийн орчин, Н-ийн байрлалыг анзаараарай.",
+        "textEn": "Practice distinguishing Б, В, Г, and Н inside real words. Listen for the first letter, the vowel environment around Г, and whether Н is at the start or end."
       }
     },
     {
@@ -27,31 +27,28 @@
       "title": "Харьцуулалтын карт",
       "order": 2,
       "content": {
-        "instructionMn": "Доорх жишээгээр авианы ялгааг ажигла.",
-        "instructionEn": "Use these cards to notice sound differences.",
+        "instructionMn": "Энэ хэсэг бол хурдан лавлах карт: ямар ялгааг сонсохоо хараарай.",
+        "instructionEn": "Use this as a quick reference card for what contrast to listen for.",
         "groups": [
           {
-            "title": "б vs в",
-            "chips": [
-              "бал",
-              "вал",
-              "бөмбөг",
-              "вирус"
+            "title": "Б vs В",
+            "items": [
+              "бал / вал",
+              "бөмбөг / вирус"
             ]
           },
           {
-            "title": "г авианы хувилбар",
-            "chips": [
+            "title": "Г in back/front word",
+            "items": [
               "гал",
               "гэр",
               "сургууль"
             ]
           },
           {
-            "title": "н авианы байрлал",
-            "chips": [
-              "ан",
-              "на",
+            "title": "Н at start/end",
+            "items": [
+              "ан / на",
               "ном",
               "хүн"
             ]
@@ -66,64 +63,85 @@
       "title": "Сонсож давтах",
       "order": 3,
       "content": {
-        "instructionMn": "Хос үгийг ээлжлэн сонсоод давтаарай.",
-        "instructionEn": "Listen to each pair and repeat.",
+        "instructionMn": "Хос болон богино үгийг сонсоод зорилтот авиаг тод давтаарай.",
+        "instructionEn": "Listen to each pair or short word and repeat the target sound clearly.",
         "items": [
           {
             "text": "бал",
             "transcription": "bal",
             "pronunciation": "/bal/",
             "audioUrl": "/uploads/audio/words/bal.mp3",
-            "call": "beh"
+            "call": "Б sound"
           },
           {
             "text": "вал",
             "transcription": "val",
             "pronunciation": "/val/",
             "audioUrl": "/uploads/audio/words/val.mp3",
-            "call": "veh"
+            "call": "В sound"
+          },
+          {
+            "text": "бөмбөг",
+            "transcription": "bumbug",
+            "pronunciation": "/bʊmbʊɡ/",
+            "audioUrl": "/uploads/audio/words/bumbug.mp3",
+            "call": "Б sound"
+          },
+          {
+            "text": "вирус",
+            "transcription": "virus",
+            "pronunciation": "/virus/",
+            "audioUrl": "/uploads/audio/words/virus.mp3",
+            "call": "В sound"
           },
           {
             "text": "гал",
             "transcription": "gal",
             "pronunciation": "/ɢal/",
             "audioUrl": "/uploads/audio/words/gal.mp3",
-            "call": "geh"
+            "call": "Г in back/front word"
           },
           {
             "text": "гэр",
             "transcription": "ger",
             "pronunciation": "/ger/",
             "audioUrl": "/uploads/audio/words/ger.mp3",
-            "call": "geh"
+            "call": "Г in back/front word"
+          },
+          {
+            "text": "сургууль",
+            "transcription": "surguul",
+            "pronunciation": "/sʊrɢʊɮ/",
+            "audioUrl": "/uploads/audio/words/school.mp3",
+            "call": "Г in back/front word"
           },
           {
             "text": "ан",
             "transcription": "an",
             "pronunciation": "/an/",
             "audioUrl": "/uploads/audio/words/an.mp3",
-            "call": "ah"
+            "call": "Н at start/end"
           },
           {
             "text": "на",
             "transcription": "na",
             "pronunciation": "/na/",
             "audioUrl": "/uploads/audio/words/na.mp3",
-            "call": "en"
+            "call": "Н at start/end"
           },
           {
             "text": "ном",
             "transcription": "nom",
             "pronunciation": "/nɔm/",
             "audioUrl": "/uploads/audio/words/nom.mp3",
-            "call": "en"
+            "call": "Н at start/end"
           },
           {
             "text": "хүн",
             "transcription": "khun",
             "pronunciation": "/xʊn/",
             "audioUrl": "/uploads/audio/words/khun.mp3",
-            "call": "kheh"
+            "call": "Н at start/end"
           }
         ]
       }
@@ -135,35 +153,63 @@
       "title": "Сонсоод сонгох",
       "order": 4,
       "content": {
-        "instructionMn": "Зөв үсгийг сонгож үгийг бүтээ.",
-        "instructionEn": "Choose the correct letter to complete the word.",
-        "items": [
+        "instructionMn": "Сонссон үгтэй таарах зөв сонголтыг дарж үгийг бүтээ.",
+        "instructionEn": "Choose the option that matches the word you hear.",
+        "questions": [
           {
-            "prompt": "_ал (б/в)",
-            "correctAnswer": "бал",
+            "prompt": "_ал",
             "options": [
               "бал",
               "вал"
             ],
+            "answer": "бал",
+            "result": "бал",
+            "meaningEn": "honey",
             "audioUrl": "/uploads/audio/words/bal.mp3"
           },
           {
-            "prompt": "_эр (г/х)",
-            "correctAnswer": "гэр",
+            "prompt": "_ирус",
+            "options": [
+              "бирус",
+              "вирус"
+            ],
+            "answer": "вирус",
+            "result": "вирус",
+            "meaningEn": "virus",
+            "audioUrl": "/uploads/audio/words/virus.mp3"
+          },
+          {
+            "prompt": "_эр",
             "options": [
               "гэр",
               "хэр"
             ],
+            "answer": "гэр",
+            "result": "гэр",
+            "meaningEn": "home / ger",
             "audioUrl": "/uploads/audio/words/ger.mp3"
           },
           {
-            "prompt": "_ом (н/м)",
-            "correctAnswer": "ном",
+            "prompt": "_ом",
             "options": [
               "ном",
               "мом"
             ],
+            "answer": "ном",
+            "result": "ном",
+            "meaningEn": "book",
             "audioUrl": "/uploads/audio/words/nom.mp3"
+          },
+          {
+            "prompt": "а_",
+            "options": [
+              "ан",
+              "ам"
+            ],
+            "answer": "ан",
+            "result": "ан",
+            "meaningEn": "hunt / game",
+            "audioUrl": "/uploads/audio/words/an.mp3"
           }
         ]
       }
