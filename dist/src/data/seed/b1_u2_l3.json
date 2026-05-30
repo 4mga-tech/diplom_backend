@@ -29,8 +29,8 @@
                     { "index": 2, "printUpper": "П", "printLower": "п", "nameMn": "пэ", "transcription": "p", "pronunciation": "[p]", "group": "special-consonant", "audioUrl": "" },
                     { "index": 3, "printUpper": "Ф", "printLower": "ф", "nameMn": "фэ", "transcription": "f", "pronunciation": "[f]", "group": "special-consonant", "audioUrl": "" },
                     { "index": 4, "printUpper": "Щ", "printLower": "щ", "nameMn": "щэ", "transcription": "shch", "pronunciation": "[shch]", "group": "special-consonant", "audioUrl": "" },
-                    { "index": 5, "printUpper": "Ъ", "printLower": "ъ", "nameMn": "хатуугийн тэмдэг", "transcription": "", "pronunciation": "hard sign", "group": "sign-letter", "audioUrl": "/uploads/audio/letters/i.mp3" },
-                    { "index": 6, "printUpper": "Ь", "printLower": "ь", "nameMn": "зөөлний тэмдэг", "transcription": "", "pronunciation": "soft sign", "group": "sign-letter", "audioUrl": "/uploads/audio/letters/i.mp3" }
+                    { "index": 5, "printUpper": "Ъ", "printLower": "ъ", "nameMn": "хатуугийн тэмдэг", "transcription": "", "pronunciation": "hard sign", "group": "sign-letter", "audioUrl": "/uploads/audio/letters/hard_sign.mp3" },
+                    { "index": 6, "printUpper": "Ь", "printLower": "ь", "nameMn": "зөөлний тэмдэг", "transcription": "", "pronunciation": "soft sign", "group": "sign-letter", "audioUrl": "/uploads/audio/letters/soft_sign.mp3" }
                 ]
             }
         },

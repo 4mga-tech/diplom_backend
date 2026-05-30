@@ -13,7 +13,7 @@
       "id": "b1-u1-l2-c1",
       "lessonId": "b1-u1-l2",
       "type": "text",
-      "title": "Дууны загвар",
+      "title": "Sound Patterns",
       "order": 1,
       "content": {
         "textMn": "Е, Ё, Ю, Я нь ихэвчлэн y-тэй эхэлсэн мэт сонсогдоно: ye, yo, yu, ya. Й нь богино y гулсах авиа, Ы нь хатуу i-тэй төстэй бөгөөд цөөн үг, төгсгөлд их таарна.",
@@ -24,7 +24,7 @@
       "id": "b1-u1-l2-c2",
       "lessonId": "b1-u1-l2",
       "type": "alphabet_table",
-      "title": "Туслах 6 эгшиг",
+      "title": "Supporting 6 Vowels",
       "order": 2,
       "content": {
         "letters": [
@@ -181,67 +181,61 @@
       "id": "b1-u1-l2-c3",
       "lessonId": "b1-u1-l2",
       "type": "exercise_repeat",
-      "title": "Сонсож давтах",
+      "title": "Read words and hear the pattern",
       "order": 3,
       "content": {
         "items": [
           {
-            "text": "Е е",
-            "transcription": "ye/e",
-            "pronunciation": "/je, e/",
-            "audioUrl": "/uploads/audio/letters/ye.mp3",
-            "call": "yeh",
-            "instructionMn": "Е = ye/e. Эхэндээ “ye” шиг, зарим байрлалд “e” шиг сонсогдоно. Сонсоод богиноор давт.",
-            "instructionEn": "Е = ye/e. Эхэндээ “ye” шиг, зарим байрлалд “e” шиг сонсогдоно. Listen and repeat it shortly."
+            "text": "ес",
+            "transcription": "yes",
+            "audioUrl": "/uploads/audio/words/nine.mp3",
+            "call": "Е = ye/e",
+            "instructionMn": "ес үгэнд Е үсэг эхэндээ ye шиг сонсогдож байгааг анзаараарай.",
+            "instructionEn": "Notice how Е sounds like ye/e at the start of ес."
           },
           {
-            "text": "Ё ё",
+            "text": "ёо",
             "transcription": "yo",
-            "pronunciation": "/jo/",
-            "audioUrl": "/uploads/audio/letters/yo.mp3",
-            "call": "yoh",
-            "instructionMn": "Ё = yo. Ямагт хоёр цэгтэй бичигддэгийг анзаараарай. Сонсоод богиноор давт.",
-            "instructionEn": "Ё = yo. Ямагт хоёр цэгтэй бичигддэгийг анзаараарай. Listen and repeat it shortly."
+            "audioUrl": "/uploads/audio/words/ouch.mp3",
+            "call": "Ё = yo",
+            "instructionMn": "ёо үгэнд Ё үсэг yo гэж сонсогдож байгааг сонсоод давтаарай.",
+            "instructionEn": "Listen and repeat how Ё sounds like yo in ёо."
           },
           {
-            "text": "Ю ю",
-            "transcription": "yu",
-            "pronunciation": "/ju/",
-            "audioUrl": "/uploads/audio/letters/yu.mp3",
-            "call": "yoo",
-            "instructionMn": "Ю = yu. “y + u” гэж сонсоод давт. Сонсоод богиноор давт.",
-            "instructionEn": "Ю = yu. “y + u” гэж сонсоод давт. Listen and repeat it shortly."
+            "text": "юм",
+            "transcription": "yum",
+            "audioUrl": "/uploads/audio/words/thing.mp3",
+            "call": "Ю = yu",
+            "instructionMn": "юм үгэнд Ю үсэг yu гэж эхэлж байгааг сонсоорой.",
+            "instructionEn": "Hear how Ю begins with yu in юм."
           },
           {
-            "text": "Я я",
-            "transcription": "ya",
-            "pronunciation": "/ja/",
-            "audioUrl": "/uploads/audio/letters/ya.mp3",
-            "call": "yah",
-            "instructionMn": "Я = ya. “y + a” гэж сонсоод давт. Сонсоод богиноор давт.",
-            "instructionEn": "Я = ya. “y + a” гэж сонсоод давт. Listen and repeat it shortly."
+            "text": "ямаа",
+            "transcription": "yamaa",
+            "audioUrl": "/uploads/audio/words/goat.mp3",
+            "call": "Я = ya",
+            "instructionMn": "ямаа үгэнд Я үсэг ya гэж эхэлж байгааг давтаарай.",
+            "instructionEn": "Repeat how Я begins with ya in ямаа."
           },
           {
-            "text": "Й й",
-            "transcription": "short y",
-            "pronunciation": "/j/",
-            "audioUrl": "/uploads/audio/letters/i.mp3",
-            "call": "iy",
-            "instructionMn": "Й = богино y гулсах авиа. Ихэвчлэн эгшгийн дараа богино холбож сонсогдоно. Сонсоод богиноор давт.",
-            "instructionEn": "Й = богино y гулсах авиа. Ихэвчлэн эгшгийн дараа богино холбож сонсогдоно. Listen and repeat it shortly."
+            "text": "сайн",
+            "transcription": "sain",
+            "audioUrl": "/uploads/audio/words/good.mp3",
+            "call": "Й = short y",
+            "instructionMn": "сайн үгэнд Й нь ай хос авианы богино y шиг сонсогдоно.",
+            "instructionEn": "In сайн, Й works like a short y glide in the ай sound."
           },
           {
-            "text": "Ы ы",
-            "transcription": "hard i",
-            "pronunciation": "/ɨ/",
-            "audioUrl": "/uploads/audio/letters/i.mp3",
-            "call": "ih",
-            "instructionMn": "Ы = хатуу i-тэй төстэй. Дан эхэнд ховор, төгсгөл болон цөөн үгэнд танина. Сонсоод богиноор давт.",
-            "instructionEn": "Ы = хатуу i-тэй төстэй. Дан эхэнд ховор, төгсгөл болон цөөн үгэнд танина. Listen and repeat it shortly."
+            "text": "-ын",
+            "transcription": "-iin / -yn",
+            "audioUrl": "/uploads/audio/words/yn-ending.mp3",
+            "call": "Ы = hard i",
+            "instructionMn": "-ын төгсгөлд Ы үсгийг таньж сур. Энэ нь үгийн эхэнд ховор хэрэглэгдэнэ.",
+            "instructionEn": "Recognize Ы in the ending -ын. It is rare at the beginning of words."
           }
         ],
-        "instructionMn": "Е=ye/e, Ё=yo, Ю=yu, Я=ya, Й=short y, Ы=hard i гэж сонсоод ялгаарай.",
-        "instructionEn": "Listen for the patterns: Е=ye/e, Ё=yo, Ю=yu, Я=ya, Й=short y, Ы=hard i."
+        "instructionMn": "Одоо туслах эгшгийг дангаар нь биш, үг болон богино хэлбэр дотор сонсож танья.",
+        "instructionEn": "Now recognize supporting vowels inside real words and short forms."
       }
     },
     {
@@ -251,7 +245,7 @@
       "title": "Том, жижиг хэлбэрийг бичих",
       "order": 4,
       "content": {
-        "instructionMn": "Туслах эгшиг бүрийг эхлээд нүдээрээ дага, дараа нь том ба жижиг хэлбэрээр 3 удаа бич.",
+        "instructionMn": "Эгшиг бүрийг эхлээд нүдээрээ дага, дараа нь том ба жижиг хэлбэрээр 3 удаа бич.",
         "instructionEn": "First follow each supporting vowel with your eyes, then trace the uppercase and lowercase forms three times.",
         "letters": [
           "Аа",

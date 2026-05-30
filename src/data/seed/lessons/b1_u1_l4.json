@@ -36,7 +36,7 @@
             "pronunciation": "no independent sound; hard sign",
             "call": "hard sign",
             "group": "sign",
-            "audioUrl": "/uploads/audio/letters/i.mp3",
+            "audioUrl": "/uploads/audio/letters/hard_sign.mp3",
             "examples": [
               {
                 "text": "Ъ",
@@ -60,7 +60,7 @@
             "pronunciation": "no independent sound; softens nearby sound",
             "call": "soft sign",
             "group": "sign",
-            "audioUrl": "/uploads/audio/letters/i.mp3",
+            "audioUrl": "/uploads/audio/letters/soft_sign.mp3",
             "examples": [
               {
                 "text": "морь",
@@ -190,76 +190,6 @@
             "transcription": "ʹ",
             "pronunciation": "softness marker",
             "audioUrl": "/uploads/audio/letters/soft_sign.mp3"
-          }
-        ]
-      }
-    },
-    {
-      "id": "b1-u1-l4-c6",
-      "lessonId": "b1-u1-l4",
-      "type": "classification",
-      "title": "Unit 1 давтлага",
-      "order": 6,
-      "content": {
-        "groups": [
-          {
-            "labelMn": "Үндсэн эгшиг (7)",
-            "labelEn": "Core vowels (7)",
-            "items": [
-              "А",
-              "Э",
-              "И",
-              "О",
-              "У",
-              "Ө",
-              "Ү"
-            ]
-          },
-          {
-            "labelMn": "Туслах эгшиг (6)",
-            "labelEn": "Supporting vowels (6)",
-            "items": [
-              "Е",
-              "Ё",
-              "Ю",
-              "Я",
-              "Й",
-              "Ы"
-            ]
-          },
-          {
-            "labelMn": "Гийгүүлэгч (20)",
-            "labelEn": "Consonants (20)",
-            "items": [
-              "Б",
-              "В",
-              "Г",
-              "Д",
-              "Ж",
-              "З",
-              "К",
-              "Л",
-              "М",
-              "Н",
-              "П",
-              "Р",
-              "С",
-              "Т",
-              "Ф",
-              "Х",
-              "Ц",
-              "Ч",
-              "Ш",
-              "Щ"
-            ]
-          },
-          {
-            "labelMn": "Тэмдэг үсэг (2)",
-            "labelEn": "Sign letters (2)",
-            "items": [
-              "Ъ",
-              "Ь"
-            ]
           }
         ]
       }

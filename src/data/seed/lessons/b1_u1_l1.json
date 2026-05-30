@@ -13,7 +13,7 @@
       "id": "b1-u1-l1-c1",
       "lessonId": "b1-u1-l1",
       "type": "text",
-      "title": "Эхний алхам",
+      "title": "First step",
       "order": 1,
       "content": {
         "textMn": "Эхлээд үсгийн хэлбэрийг хар. Дараа нь дууг сонсоод давт. Эцэст нь тухайн үсгийг үг дотроос олж, том жижиг хэлбэрээр нь бичиж сур.",
@@ -24,7 +24,7 @@
       "id": "b1-u1-l1-c2",
       "lessonId": "b1-u1-l1",
       "type": "grammar_note",
-      "title": "Сурах дараалал",
+      "title": "Learning sequence",
       "order": 2,
       "content": {
         "section": "grammar",
@@ -48,7 +48,7 @@
       "id": "b1-u1-l1-c3",
       "lessonId": "b1-u1-l1",
       "type": "alphabet_table",
-      "title": "Үндсэн 7 эгшиг",
+      "title": "Core 7 vowels",
       "order": 3,
       "content": {
         "letters": [
@@ -203,7 +203,7 @@
             "transcription": "ü",
             "pronunciation": "/y/",
             "group": "vowel",
-            "audioUrl": "/uploads/audio/letters/uu.mp3",
+            "audioUrl": "/uploads/audio/letters/vvv.mp3",
             "call": "ue",
             "examples": [
               {
@@ -240,76 +240,69 @@
       "id": "b1-u1-l1-c4",
       "lessonId": "b1-u1-l1",
       "type": "exercise_repeat",
-      "title": "Сонсож, давтаж, бичихэд бэлдэх",
+      "title": "Read words and find the vowel",
       "order": 4,
       "content": {
         "items": [
           {
-            "text": "А а",
-            "transcription": "a",
-            "pronunciation": "/a/",
-            "audioUrl": "/uploads/audio/letters/a.mp3",
-            "call": "ah",
-            "instructionMn": "Аа: Ам нээлттэй, богино “a” авиа. Сонсоод хоёр удаа давт, дараа нь А ба а-г бич.",
-            "instructionEn": "Аа: Ам нээлттэй, богино “a” авиа. Listen, repeat twice, then trace А and а."
+            "text": "аав",
+            "transcription": "aav",
+            "audioUrl": "/uploads/audio/words/father.mp3",
+            "call": "Contains А",
+            "instructionMn": "аав үгэнд А үсгийг олж, дууг сонсоод давтаарай.",
+            "instructionEn": "Find the letter А in аав, then listen and repeat."
           },
           {
-            "text": "Э э",
-            "transcription": "e",
-            "pronunciation": "/e/",
-            "audioUrl": "/uploads/audio/letters/e.mp3",
-            "call": "eh",
-            "instructionMn": "Ээ: “bed” гэдэг үгийн e-тэй ойролцоо богино авиа. Сонсоод хоёр удаа давт, дараа нь Э ба э-г бич.",
-            "instructionEn": "Ээ: “bed” гэдэг үгийн e-тэй ойролцоо богино авиа. Listen, repeat twice, then trace Э and э."
+            "text": "энэ",
+            "transcription": "ene",
+            "audioUrl": "/uploads/audio/words/this.mp3",
+            "call": "Contains Э",
+            "instructionMn": "энэ үгэнд Э үсгийг олж, дууг сонсоод давтаарай.",
+            "instructionEn": "Find the letter Э in энэ, then listen and repeat."
           },
           {
-            "text": "И и",
-            "transcription": "i",
-            "pronunciation": "/i/",
-            "audioUrl": "/uploads/audio/letters/i.mp3",
-            "call": "ee",
-            "instructionMn": "Ии: “see” гэдэг үгийн ee-тэй ойролцоо тод авиа. Сонсоод хоёр удаа давт, дараа нь И ба и-г бич.",
-            "instructionEn": "Ии: “see” гэдэг үгийн ee-тэй ойролцоо тод авиа. Listen, repeat twice, then trace И and и."
+            "text": "би",
+            "transcription": "bi",
+            "audioUrl": "/uploads/audio/words/me.mp3",
+            "call": "Contains И",
+            "instructionMn": "би үгэнд И үсгийг олж, дууг сонсоод давтаарай.",
+            "instructionEn": "Find the letter И in би, then listen and repeat."
           },
           {
-            "text": "О о",
-            "transcription": "o",
-            "pronunciation": "/ɔ/",
-            "audioUrl": "/uploads/audio/letters/o.mp3",
-            "call": "oh",
-            "instructionMn": "Оо: Уруулаа бага зэрэг дугуйлж “o” гэж хэл. Сонсоод хоёр удаа давт, дараа нь О ба о-г бич.",
-            "instructionEn": "Оо: Уруулаа бага зэрэг дугуйлж “o” гэж хэл. Listen, repeat twice, then trace О and о."
+            "text": "ном",
+            "transcription": "nom",
+            "audioUrl": "/uploads/audio/words/book.mp3",
+            "call": "Contains О",
+            "instructionMn": "ном үгэнд О үсгийг олж, дууг сонсоод давтаарай.",
+            "instructionEn": "Find the letter О in ном, then listen and repeat."
           },
           {
-            "text": "У у",
-            "transcription": "u",
-            "pronunciation": "/ʊ/",
-            "audioUrl": "/uploads/audio/letters/u.mp3",
-            "call": "oo",
-            "instructionMn": "Уу: Уруулаа дугуйлж богино “oo” авиа гарга. Сонсоод хоёр удаа давт, дараа нь У ба у-г бич.",
-            "instructionEn": "Уу: Уруулаа дугуйлж богино “oo” авиа гарга. Listen, repeat twice, then trace У and у."
+            "text": "ус",
+            "transcription": "us",
+            "audioUrl": "/uploads/audio/words/water.mp3",
+            "call": "Contains У",
+            "instructionMn": "ус үгэнд У үсгийг олж, дууг сонсоод давтаарай.",
+            "instructionEn": "Find the letter У in ус, then listen and repeat."
           },
           {
-            "text": "Ө ө",
-            "transcription": "ö",
-            "pronunciation": "/ø/",
-            "audioUrl": "/uploads/audio/letters/ou.mp3",
-            "call": "oe",
-            "instructionMn": "Өө: Уруулаа дугуйлж, “e” хэлэх шиг зөөлөн авиа. Сонсоод хоёр удаа давт, дараа нь Ө ба ө-г бич.",
-            "instructionEn": "Өө: Уруулаа дугуйлж, “e” хэлэх шиг зөөлөн авиа. Listen, repeat twice, then trace Ө and ө."
+            "text": "өмд",
+            "transcription": "ömd",
+            "audioUrl": "/uploads/audio/words/pants.mp3",
+            "call": "Contains Ө",
+            "instructionMn": "өмд үгэнд Ө үсгийг олж, дууг сонсоод давтаарай.",
+            "instructionEn": "Find the letter Ө in өмд, then listen and repeat."
           },
           {
-            "text": "Ү ү",
-            "transcription": "ü",
-            "pronunciation": "/y/",
-            "audioUrl": "/uploads/audio/letters/uu.mp3",
-            "call": "ue",
-            "instructionMn": "Үү: Уруулаа дугуйлж, “ee” хэлэх шиг урд авиа. Сонсоод хоёр удаа давт, дараа нь Ү ба ү-г бич.",
-            "instructionEn": "Үү: Уруулаа дугуйлж, “ee” хэлэх шиг урд авиа. Listen, repeat twice, then trace Ү and ү."
+            "text": "үүл",
+            "transcription": "üül",
+            "audioUrl": "/uploads/audio/words/cloud.mp3",
+            "call": "Contains Ү",
+            "instructionMn": "үүл үгэнд Ү үсгийг олж, дууг сонсоод давтаарай.",
+            "instructionEn": "Find the letter Ү in үүл, then listen and repeat."
           }
         ],
-        "instructionMn": "Үсэг бүр дээр: хар → сонс → давт → бич. Богино, тод дуугаар хэлээрэй.",
-        "instructionEn": "For each letter: look → listen → repeat → trace. Say the sound shortly and clearly."
+        "instructionMn": "Одоо үсгийг дангаар нь биш, үг дотор таньж уншъя. Үгийг сонсоод эгшгийг нь ол.",
+        "instructionEn": "Now recognize vowels inside real words. Listen to each word and find the vowel."
       }
     }
   ]

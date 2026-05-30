@@ -2,8 +2,8 @@
   "lesson": {
     "id": "b1-u1-l3",
     "unitId": "b1-u1",
-    "title": "Гийгүүлэгчээр үе, үг бүтээх",
-    "subtitle": "Build syllables and simple words",
+    "title": "Гийгүүлэгч: үе ба үг бүтээх",
+    "subtitle": "Consonants: build syllables and words",
     "order": 3,
     "xpReward": 20,
     "quizXpReward": 0
@@ -13,174 +13,125 @@
       "id": "b1-u1-l3-c1",
       "lessonId": "b1-u1-l3",
       "type": "text",
-      "title": "Тайлбар",
+      "title": "Гийгүүлэгч гэж юу вэ?",
       "order": 1,
       "content": {
-        "textMn": "Гийгүүлэгчийг эгшигтэй нийлүүлэхэд уншиж болох үе гарна: Б + А = БА. Дараа нь үе, үсгүүдийг нийлүүлж НОМ, БАГ зэрэг богино үг уншина.",
-        "textEn": "When a consonant joins a vowel, you get a readable syllable: Б + А = БА. Then you combine syllables and letters to read short words such as НОМ and БАГ."
+        "textMn": "Гийгүүлэгч үсэг дангаараа уншихад богино, тод сонсогдоно. Харин эгшигтэй нийлбэл үе болно. Жишээ нь: Б + А = БА.",
+        "textEn": "A consonant has a short sound by itself. When it joins with a vowel, it becomes a readable syllable. For example: Б + А = БА."
       }
     },
     {
       "id": "b1-u1-l3-c2",
       "lessonId": "b1-u1-l3",
       "type": "grammar_note",
-      "title": "Гийгүүлэгч ба үе",
+      "title": "Гийгүүлэгч + эгшиг = үе",
       "order": 2,
       "content": {
-        "textMn": "Дан гийгүүлэгчийг удаан дуудах гэж бүү оролд. Эгшиг нэмээд шууд үе болгон унш: б + а = ба, м + о = мо, с + у = су.",
-        "textEn": "Do not try to stretch a consonant by itself. Add a vowel and read it as a syllable: b + a = ba, m + o = mo, s + u = su."
+        "textMn": "Энэ хичээлээр эхлээд гийгүүлэгчийг эгшигтэй нийлүүлж үе бүтээнэ. Дараа нь тэр үеэс богино үг уншиж сурна.",
+        "textEn": "In this lesson, you first combine consonants with vowels to build syllables. Then you use those syllables to read short words."
       }
     },
     {
       "id": "b1-u1-l3-c3",
       "lessonId": "b1-u1-l3",
       "type": "exercise_word_build",
-      "title": "Гийгүүлэгч + эгшиг",
+      "title": "Үе бүтээх",
       "order": 3,
       "content": {
-        "instructionMn": "Зүүн талын гийгүүлэгчийг баруун талын эгшигтэй нийлүүлээд чангаар унш.",
-        "instructionEn": "Join the consonant on the left with the vowel on the right and read it aloud.",
+        "instructionMn": "Гийгүүлэгч ба эгшгийг нийлүүлж үе бүтээ. Дараа нь дууг сонсоод чангаар давтаарай.",
+        "instructionEn": "Combine a consonant and a vowel to build a syllable. Then listen and repeat aloud.",
         "items": [
           {
-            "left": "Б",
-            "right": "А",
-            "result": "БА",
+            "left": "б",
+            "right": "а",
+            "result": "ба",
             "transcription": "ba",
             "audioUrl": "/uploads/audio/syllables/ba.mp3"
           },
           {
-            "left": "М",
-            "right": "О",
-            "result": "МО",
+            "left": "м",
+            "right": "о",
+            "result": "мо",
             "transcription": "mo",
             "audioUrl": "/uploads/audio/syllables/mo.mp3"
           },
           {
-            "left": "С",
-            "right": "У",
-            "result": "СУ",
+            "left": "с",
+            "right": "у",
+            "result": "су",
             "transcription": "su",
             "audioUrl": "/uploads/audio/syllables/su.mp3"
           },
           {
-            "left": "Н + О",
-            "right": "М",
-            "result": "НОМ",
-            "transcription": "nom",
-            "audioUrl": "/uploads/audio/words/book.mp3"
+            "left": "т",
+            "right": "э",
+            "result": "тэ",
+            "transcription": "te",
+            "audioUrl": "/uploads/audio/syllables/te.mp3"
           },
           {
-            "left": "Б + А",
-            "right": "Г",
-            "result": "БАГ",
-            "transcription": "bag",
-            "audioUrl": "/uploads/audio/words/bag.mp3"
+            "left": "н",
+            "right": "ө",
+            "result": "нө",
+            "transcription": "nö",
+            "audioUrl": "/uploads/audio/syllables/noe.mp3"
           }
         ]
       }
     },
-    {
-      "id": "b1-u1-l3-c4",
-      "lessonId": "b1-u1-l3",
-      "type": "vocab_list",
-      "title": "Богино үг унших",
-      "order": 4,
-      "content": {
-        "items": [
-          {
-            "text": "ном",
-            "transcription": "nom",
-            "meaningEn": "book",
-            "audioUrl": "/uploads/audio/words/book.mp3"
-          },
-          {
-            "text": "баг",
-            "transcription": "bag",
-            "meaningEn": "team / group",
-            "audioUrl": "/uploads/audio/words/bag.mp3"
-          },
-          {
-            "text": "сам",
-            "transcription": "sam",
-            "meaningEn": "comb",
-            "audioUrl": "/uploads/audio/words/comb.mp3"
-          },
-          {
-            "text": "мал",
-            "transcription": "mal",
-            "meaningEn": "livestock",
-            "audioUrl": "/uploads/audio/words/livestock.mp3"
-          }
-        ]
-      }
-    },
+    
     {
       "id": "b1-u1-l3-c5",
       "lessonId": "b1-u1-l3",
       "type": "exercise_repeat",
-      "title": "Үе сонсож давтах",
+      "title": "Үг уншиж давтах",
       "order": 5,
       "content": {
-        "instructionMn": "Эхлээд үеийг тус тусад нь унш. Дараа нь хурдан холбож жижиг үг шиг хэл.",
-        "instructionEn": "Read each syllable separately first. Then connect the sounds faster like a small word.",
+        "instructionMn": "Одоо үе биш, бүтэн үг сонсоод унш. Үг бүрийн эхний гийгүүлэгчийг анзаараарай.",
+        "instructionEn": "Now listen to full words and read them aloud. Notice the first consonant in each word.",
         "items": [
           {
-            "text": "БА",
-            "transcription": "ba",
-            "audioUrl": "/uploads/audio/syllables/ba.mp3"
+            "text": "баг",
+            "transcription": "bag",
+            "audioUrl": "/uploads/audio/words/bag.mp3",
+            "call": "Starts with Б"
           },
           {
-            "text": "БО",
-            "transcription": "bo",
-            "audioUrl": "/uploads/audio/syllables/bo.mp3"
+            "text": "ном",
+            "transcription": "nom",
+            "audioUrl": "/uploads/audio/words/book.mp3",
+            "call": "Starts with Н"
           },
           {
-            "text": "БУ",
-            "transcription": "bu",
-            "audioUrl": "/uploads/audio/syllables/bu.mp3"
+            "text": "мал",
+            "transcription": "mal",
+            "audioUrl": "/uploads/audio/words/livestock.mp3",
+            "call": "Starts with М"
           },
           {
-            "text": "МА",
-            "transcription": "ma",
-            "audioUrl": "/uploads/audio/syllables/ma.mp3"
+            "text": "сур",
+            "transcription": "sur",
+            "audioUrl": "/uploads/audio/words/learn.mp3",
+            "call": "Starts with С"
           },
           {
-            "text": "МО",
-            "transcription": "mo",
-            "audioUrl": "/uploads/audio/syllables/mo.mp3"
-          },
-          {
-            "text": "МУ",
-            "transcription": "mu",
-            "audioUrl": "/uploads/audio/syllables/mu.mp3"
-          },
-          {
-            "text": "СА",
-            "transcription": "sa",
-            "audioUrl": "/uploads/audio/syllables/sa.mp3"
-          },
-          {
-            "text": "СО",
-            "transcription": "so",
-            "audioUrl": "/uploads/audio/syllables/so.mp3"
-          },
-          {
-            "text": "СУ",
-            "transcription": "su",
-            "audioUrl": "/uploads/audio/syllables/su.mp3"
+            "text": "тэмээ",
+            "transcription": "temee",
+            "audioUrl": "/uploads/audio/words/camel.mp3",
+            "call": "Starts with Т"
           }
         ]
       }
     },
-    {
+     {
       "id": "b1-u1-l3-c6",
       "lessonId": "b1-u1-l3",
       "type": "exercise_write",
       "title": "Letter tracing",
       "order": 6,
       "content": {
-        "instructionMn": "Гийгүүлэгч үсгийг том, жижиг хэлбэрээр бичээд шууд нэг эгшигтэй холбож унш: Бб → ба, Мм → мо, Сс → су.",
-        "instructionEn": "Trace each consonant in uppercase and lowercase, then immediately connect it with a vowel: Бб → ba, Мм → mo, Сс → su.",
+        "instructionMn": "Гийгүүлэгч үсэг бүрийг том ба жижиг хэлбэрээр бич.",
+        "instructionEn": "Trace each consonant in uppercase and lowercase.",
         "letters": [
           "Бб",
           "Вв",
@@ -204,166 +155,26 @@
           "Щщ"
         ],
         "tracing": [
-          {
-            "letter": "Б",
-            "lower": "б",
-            "call": "beh",
-            "transcription": "b",
-            "pronunciation": "/b/",
-            "audioUrl": "/uploads/audio/letters/b.mp3"
-          },
-          {
-            "letter": "В",
-            "lower": "в",
-            "call": "veh",
-            "transcription": "v",
-            "pronunciation": "/v/",
-            "audioUrl": "/uploads/audio/letters/v.mp3"
-          },
-          {
-            "letter": "Г",
-            "lower": "г",
-            "call": "geh",
-            "transcription": "g",
-            "pronunciation": "/g/",
-            "audioUrl": "/uploads/audio/letters/g.mp3"
-          },
-          {
-            "letter": "Д",
-            "lower": "д",
-            "call": "deh",
-            "transcription": "d",
-            "pronunciation": "/d/",
-            "audioUrl": "/uploads/audio/letters/d.mp3"
-          },
-          {
-            "letter": "Ж",
-            "lower": "ж",
-            "call": "zheh",
-            "transcription": "zh",
-            "pronunciation": "/ʒ/",
-            "audioUrl": "/uploads/audio/letters/zh.mp3"
-          },
-          {
-            "letter": "З",
-            "lower": "з",
-            "call": "zeh",
-            "transcription": "z",
-            "pronunciation": "/z/",
-            "audioUrl": "/uploads/audio/letters/z.mp3"
-          },
-          {
-            "letter": "К",
-            "lower": "к",
-            "call": "keh",
-            "transcription": "k",
-            "pronunciation": "/k/",
-            "audioUrl": "/uploads/audio/letters/k.mp3"
-          },
-          {
-            "letter": "Л",
-            "lower": "л",
-            "call": "leh",
-            "transcription": "l",
-            "pronunciation": "/l/",
-            "audioUrl": "/uploads/audio/letters/l.mp3"
-          },
-          {
-            "letter": "М",
-            "lower": "м",
-            "call": "meh",
-            "transcription": "m",
-            "pronunciation": "/m/",
-            "audioUrl": "/uploads/audio/letters/m.mp3"
-          },
-          {
-            "letter": "Н",
-            "lower": "н",
-            "call": "neh",
-            "transcription": "n",
-            "pronunciation": "/n/",
-            "audioUrl": "/uploads/audio/letters/n.mp3"
-          },
-          {
-            "letter": "П",
-            "lower": "п",
-            "call": "peh",
-            "transcription": "p",
-            "pronunciation": "/p/",
-            "audioUrl": "/uploads/audio/letters/p.mp3"
-          },
-          {
-            "letter": "Р",
-            "lower": "р",
-            "call": "reh",
-            "transcription": "r",
-            "pronunciation": "/r/",
-            "audioUrl": "/uploads/audio/letters/r.mp3"
-          },
-          {
-            "letter": "С",
-            "lower": "с",
-            "call": "seh",
-            "transcription": "s",
-            "pronunciation": "/s/",
-            "audioUrl": "/uploads/audio/letters/s.mp3"
-          },
-          {
-            "letter": "Т",
-            "lower": "т",
-            "call": "teh",
-            "transcription": "t",
-            "pronunciation": "/t/",
-            "audioUrl": "/uploads/audio/letters/t.mp3"
-          },
-          {
-            "letter": "Ф",
-            "lower": "ф",
-            "call": "feh",
-            "transcription": "f",
-            "pronunciation": "/f/",
-            "audioUrl": "/uploads/audio/letters/f.mp3"
-          },
-          {
-            "letter": "Х",
-            "lower": "х",
-            "call": "kheh",
-            "transcription": "kh",
-            "pronunciation": "/x/",
-            "audioUrl": "/uploads/audio/letters/kh.mp3"
-          },
-          {
-            "letter": "Ц",
-            "lower": "ц",
-            "call": "tseh",
-            "transcription": "ts",
-            "pronunciation": "/ts/",
-            "audioUrl": "/uploads/audio/letters/ts.mp3"
-          },
-          {
-            "letter": "Ч",
-            "lower": "ч",
-            "call": "cheh",
-            "transcription": "ch",
-            "pronunciation": "/tʃ/",
-            "audioUrl": "/uploads/audio/letters/ch.mp3"
-          },
-          {
-            "letter": "Ш",
-            "lower": "ш",
-            "call": "sheh",
-            "transcription": "sh",
-            "pronunciation": "/ʃ/",
-            "audioUrl": "/uploads/audio/letters/sh.mp3"
-          },
-          {
-            "letter": "Щ",
-            "lower": "щ",
-            "call": "shcheh",
-            "transcription": "shch",
-            "pronunciation": "/ʃtʃ/",
-            "audioUrl": "/uploads/audio/letters/shch.mp3"
-          }
+          { "letter": "Б", "lower": "б", "call": "beh", "transcription": "b", "pronunciation": "/b/", "audioUrl": "/uploads/audio/letters/b.mp3" },
+          { "letter": "В", "lower": "в", "call": "veh", "transcription": "v", "pronunciation": "/v/", "audioUrl": "/uploads/audio/letters/v.mp3" },
+          { "letter": "Г", "lower": "г", "call": "geh", "transcription": "g", "pronunciation": "/g/", "audioUrl": "/uploads/audio/letters/g.mp3" },
+          { "letter": "Д", "lower": "д", "call": "deh", "transcription": "d", "pronunciation": "/d/", "audioUrl": "/uploads/audio/letters/d.mp3" },
+          { "letter": "Ж", "lower": "ж", "call": "zheh", "transcription": "zh", "pronunciation": "/ʒ/", "audioUrl": "/uploads/audio/letters/zh.mp3" },
+          { "letter": "З", "lower": "з", "call": "zeh", "transcription": "z", "pronunciation": "/z/", "audioUrl": "/uploads/audio/letters/z.mp3" },
+          { "letter": "К", "lower": "к", "call": "keh", "transcription": "k", "pronunciation": "/k/", "audioUrl": "/uploads/audio/letters/k.mp3" },
+          { "letter": "Л", "lower": "л", "call": "leh", "transcription": "l", "pronunciation": "/l/", "audioUrl": "/uploads/audio/letters/l.mp3" },
+          { "letter": "М", "lower": "м", "call": "meh", "transcription": "m", "pronunciation": "/m/", "audioUrl": "/uploads/audio/letters/m.mp3" },
+          { "letter": "Н", "lower": "н", "call": "neh", "transcription": "n", "pronunciation": "/n/", "audioUrl": "/uploads/audio/letters/n.mp3" },
+          { "letter": "П", "lower": "п", "call": "peh", "transcription": "p", "pronunciation": "/p/", "audioUrl": "/uploads/audio/letters/p.mp3" },
+          { "letter": "Р", "lower": "р", "call": "reh", "transcription": "r", "pronunciation": "/r/", "audioUrl": "/uploads/audio/letters/r.mp3" },
+          { "letter": "С", "lower": "с", "call": "seh", "transcription": "s", "pronunciation": "/s/", "audioUrl": "/uploads/audio/letters/s.mp3" },
+          { "letter": "Т", "lower": "т", "call": "teh", "transcription": "t", "pronunciation": "/t/", "audioUrl": "/uploads/audio/letters/t.mp3" },
+          { "letter": "Ф", "lower": "ф", "call": "feh", "transcription": "f", "pronunciation": "/f/", "audioUrl": "/uploads/audio/letters/f.mp3" },
+          { "letter": "Х", "lower": "х", "call": "kheh", "transcription": "kh", "pronunciation": "/x/", "audioUrl": "/uploads/audio/letters/kh.mp3" },
+          { "letter": "Ц", "lower": "ц", "call": "tseh", "transcription": "ts", "pronunciation": "/ts/", "audioUrl": "/uploads/audio/letters/ts.mp3" },
+          { "letter": "Ч", "lower": "ч", "call": "cheh", "transcription": "ch", "pronunciation": "/tʃ/", "audioUrl": "/uploads/audio/letters/ch.mp3" },
+          { "letter": "Ш", "lower": "ш", "call": "sheh", "transcription": "sh", "pronunciation": "/ʃ/", "audioUrl": "/uploads/audio/letters/sh.mp3" },
+          { "letter": "Щ", "lower": "щ", "call": "shcheh", "transcription": "shch", "pronunciation": "/ʃtʃ/", "audioUrl": "/uploads/audio/letters/shch.mp3" }
         ]
       }
     }
