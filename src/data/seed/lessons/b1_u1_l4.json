@@ -2,8 +2,8 @@
   "lesson": {
     "id": "b1-u1-l4",
     "unitId": "b1-u1",
-    "title": "Тэмдэг ба тусгай үсэг",
-    "subtitle": "Sign and special letters + review",
+    "title": "Ь ба Ъ тэмдэг үсэг",
+    "subtitle": "Soft sign and hard sign recognition",
     "order": 4,
     "xpReward": 20,
     "quizXpReward": 0
@@ -16,8 +16,8 @@
       "title": "Тайлбар",
       "order": 1,
       "content": {
-        "textMn": "Энэ хичээлээр Ь, Ъ тэмдэг үсгийг хэрэглээтэй нь сурна. Эдгээр нь энгийн эгшиг/гийгүүлэгч шиг дангаар уншигддаггүй, харин хөрш үсгийн дуудлага ба бичлэгт нөлөөлдөг. Ихэвчлэн үгийн дунд эсвэл төгсгөл орчимд таарна.",
-        "textEn": "This lesson explains sign letters Ь and Ъ in real use. They are not pronounced like regular vowels or consonants; instead, they affect spelling and pronunciation of nearby letters. They usually appear inside words or near word endings."
+        "textMn": "Ь, Ъ нь өөрийн гэсэн тусдаа авиа гаргахгүй. Ь нь ойролцоох авиаг зөөлрүүлэхэд тусална. Ъ нь хатуугийн тэмдэг бөгөөд цөөн, ихэвчлэн зээлдмэл үгэнд харагдана. Анхан шатанд эдгээрийг “тэмдэг үсэг” гэж танихад хангалттай.",
+        "textEn": "Ь and Ъ do not have their own separate sound. Ь helps soften nearby pronunciation. Ъ is the hard sign and appears in limited, often loanword, spelling. At the beginner level, your main goal is to recognize them as sign letters."
       }
     },
     {
@@ -33,22 +33,22 @@
             "printLower": "ъ",
             "nameMn": "Хатуугийн тэмдэг",
             "transcription": "hard sign",
-            "pronunciation": "/ʺ/",
+            "pronunciation": "no independent sound; hard sign",
             "call": "hard sign",
             "group": "sign",
             "audioUrl": "/uploads/audio/letters/i.mp3",
             "examples": [
               {
+                "text": "Ъ",
+                "meaningEn": "hard sign letter"
+              },
+              {
+                "text": "ъ",
+                "meaningEn": "lowercase hard sign"
+              },
+              {
                 "text": "объект",
-                "meaningEn": "object"
-              },
-              {
-                "text": "подъезд",
-                "meaningEn": "entrance / stairwell"
-              },
-              {
-                "text": "съезд",
-                "meaningEn": "congress / meeting"
+                "meaningEn": "object (loanword example)"
               }
             ]
           },
@@ -57,7 +57,7 @@
             "printLower": "ь",
             "nameMn": "Зөөлний тэмдэг",
             "transcription": "soft sign",
-            "pronunciation": "/ʹ/",
+            "pronunciation": "no independent sound; softens nearby sound",
             "call": "soft sign",
             "group": "sign",
             "audioUrl": "/uploads/audio/letters/i.mp3",
@@ -67,12 +67,12 @@
                 "meaningEn": "horse"
               },
               {
-                "text": "соль",
-                "meaningEn": "salt"
-              },
-              {
                 "text": "толь",
                 "meaningEn": "mirror"
+              },
+              {
+                "text": "соль",
+                "meaningEn": "salt"
               }
             ]
           }
@@ -90,24 +90,24 @@
       "content": {
         "notes": [
           {
-            "mn": "Ь нь зөөлний тэмдэг; Ъ нь хатуугийн тэмдэг.",
-            "en": "Ь is the soft sign; Ъ is the hard sign."
+            "mn": "Ь (зөөлний тэмдэг) өөрөө дуугарахгүй. Морь, толь, соль гэх мэт үгэнд таарна.",
+            "en": "Ь (soft sign) is not sounded by itself. You can see it in words like морь, толь, and соль."
           },
           {
-            "mn": "Эдгээр нь энгийн үсэг шиг дангаар дуудагдахгүй.",
-            "en": "They are not pronounced as normal standalone letters."
+            "mn": "Ъ (хатуугийн тэмдэг) мөн өөрөө дуугарахгүй. Монгол хэлэнд цөөн, ихэвчлэн зээлдмэл үгэнд харагдана.",
+            "en": "Ъ (hard sign) also has no sound of its own. In Mongolian it appears in limited, often loanword, spelling."
           },
           {
-            "mn": "Тэмдэг үсэг нь ойролцоох үсгийн дуудлага, бичлэгийг ялгахад тусална.",
-            "en": "Sign letters help shape spelling and pronunciation around nearby letters."
+            "mn": "Анхан шатанд тэмдэг үсгийг сонсохоос илүү нүдээр таних нь чухал.",
+            "en": "At beginner level, recognizing the sign letters visually is more important than hearing a separate sound."
           },
           {
-            "mn": "Ихэвчлэн үгийн дунд эсвэл төгсгөл хэсэгт орно; эхэнд нь жирийнээр тавигддаггүй.",
-            "en": "They usually appear inside words or near endings, not as ordinary starting letters."
+            "mn": "Ь, Ъ нь үгийн эхэнд жирийн үсэг шиг эхлэхгүй; ихэвчлэн дунд эсвэл төгсгөл орчимд байна.",
+            "en": "Ь and Ъ do not normally start words like regular letters; they usually appear inside words or near the end."
           },
           {
-            "mn": "Анхан шатанд: тэмдэг үсгийг таньж, утгыг нь мэдэхэд төвлөрнө.",
-            "en": "Beginner focus: recognize these as sign letters and know their role."
+            "mn": "Үг уншихдаа тэмдэг үсгийг алгасахгүй хар, гэхдээ тусдаа авиа болгон нэмж бүү дууд.",
+            "en": "When reading a word, notice the sign letter, but do not add an extra separate sound for it."
           }
         ]
       }
@@ -121,44 +121,44 @@
       "content": {
         "items": [
           {
-            "text": "Ъ ъ",
-            "call": "hard sign",
-            "transcription": "hard sign",
-            "pronunciation": "/ʺ/",
-            "instructionMn": "Ъ тэмдгийг дан дуугаар бус, үгийн заагт таньж уншаарай.",
-            "instructionEn": "Recognize the hard sign in word boundaries, not as a standalone sound.",
-            "audioUrl": "/uploads/audio/letters/i.mp3"
-          },
-          {
             "text": "Ь ь",
             "call": "soft sign",
             "transcription": "soft sign",
-            "pronunciation": "/ʹ/",
-            "instructionMn": "Ь тэмдгийг зөөлрүүлэх үүрэгтэйгээр нь таньж хэлээрэй.",
-            "instructionEn": "Recognize the soft sign as a softening marker.",
-            "audioUrl": "/uploads/audio/letters/i.mp3"
+            "pronunciation": "no independent sound",
+            "instructionMn": "Ь нь өөрөө дуугарахгүй, зөөлний тэмдэг гэдгийг тань.",
+            "instructionEn": "Recognize Ь as the soft sign; it has no sound by itself.",
+            "audioUrl": "/uploads/audio/letters/soft_sign.mp3"
           },
           {
             "text": "морь",
-            "call": "soft sign",
+            "call": "soft sign word",
             "transcription": "mor'",
-            "pronunciation": "/mɔrʲ/",
-            "instructionMn": "морь үгэнд Ь тэмдгийн нөлөөг ажиглаарай.",
-            "instructionEn": "Notice the soft sign effect in the word mor'.",
+            "pronunciation": "mor + soft sign",
+            "instructionMn": "морь үгэнд Ь үгийн төгсгөлд байгааг ол.",
+            "instructionEn": "Find Ь at the end of морь (horse).",
             "audioUrl": "/uploads/audio/words/horse.mp3"
           },
           {
-            "text": "объект",
+            "text": "толь",
+            "call": "soft sign word",
+            "transcription": "tol'",
+            "pronunciation": "tol + soft sign",
+            "instructionMn": "толь үгэнд Ь-г хараад тусдаа авиа нэмэлгүй унш.",
+            "instructionEn": "See Ь in толь (mirror), but do not add a separate sound.",
+            "audioUrl": "/uploads/audio/words/mirror.mp3"
+          },
+          {
+            "text": "Ъ ъ",
             "call": "hard sign",
-            "transcription": "ob-yekt",
-            "pronunciation": "/objekt/",
-            "instructionMn": "объект үгэнд Ъ тэмдгийн зааглах үүргийг ажиглаарай.",
-            "instructionEn": "Notice the separating role of hard sign in ob-yekt.",
-            "audioUrl": "/uploads/audio/words/object.mp3"
+            "transcription": "hard sign",
+            "pronunciation": "no independent sound",
+            "instructionMn": "Ъ нь өөрөө дуугарахгүй хатуугийн тэмдэг; цөөн үгэнд таарна.",
+            "instructionEn": "Recognize Ъ as the hard sign; it has no sound by itself and appears in limited words.",
+            "audioUrl": "/uploads/audio/letters/hard_sign.mp3"
           }
         ],
-        "instructionMn": "Тэмдэг үсгийн үүргийг таньж, жишээ үг дээр зөв дуудаж давтаарай.",
-        "instructionEn": "Practice recognizing sign-letter function and repeat with clear pronunciation."
+        "instructionMn": "Үг доторх Ь, Ъ тэмдгийг нүдээр ол. Тусдаа авиа болгон бүү нэм.",
+        "instructionEn": "Find Ь and Ъ visually inside words. Do not pronounce them as extra separate sounds."
       }
     },
     {
@@ -168,15 +168,29 @@
       "title": "Letter tracing",
       "order": 5,
       "content": {
-        "instructionMn": "Тэмдэг үсгийг том ба жижиг хэлбэрээр бич.",
-        "instructionEn": "Trace sign letters in uppercase and lowercase.",
+        "instructionMn": "Ь, Ъ тэмдгийг том ба жижиг хэлбэрээр бич. Дараа нь морь, толь, соль үгэнд Ь хаана байгааг заа.",
+        "instructionEn": "Trace Ь and Ъ in uppercase and lowercase. Then point to where Ь appears in морь, толь, and соль.",
         "letters": [
           "Ъъ",
           "Ьь"
         ],
         "tracing": [
-          { "letter": "Ъ", "lower": "ъ", "call": "hard sign", "transcription": "ʺ", "pronunciation": "no independent sound", "audioUrl": "/uploads/audio/letters/hard_sign.mp3" },
-          { "letter": "Ь", "lower": "ь", "call": "soft sign", "transcription": "ʹ", "pronunciation": "softness marker", "audioUrl": "/uploads/audio/letters/soft_sign.mp3" }
+          {
+            "letter": "Ъ",
+            "lower": "ъ",
+            "call": "hard sign",
+            "transcription": "ʺ",
+            "pronunciation": "no independent sound",
+            "audioUrl": "/uploads/audio/letters/hard_sign.mp3"
+          },
+          {
+            "letter": "Ь",
+            "lower": "ь",
+            "call": "soft sign",
+            "transcription": "ʹ",
+            "pronunciation": "softness marker",
+            "audioUrl": "/uploads/audio/letters/soft_sign.mp3"
+          }
         ]
       }
     },
