@@ -96,7 +96,8 @@
             ],
             "answer": "маш",
             "result": "Тэр маш сайн уншдаг.",
-            "meaningEn": "He/she reads very well."
+            "meaningEn": "He/she reads very well.",
+            "audioUrl": "/uploads/audio/sentences/ter_mash_sain_unshdag.mp3"
           },
           {
             "prompt": "Би ___ иддэг.",
@@ -107,7 +108,8 @@
             ],
             "answer": "бага",
             "result": "Би бага иддэг.",
-            "meaningEn": "I eat a little."
+            "meaningEn": "I eat a little.",
+            "audioUrl": "/uploads/audio/sentences/bi_baga_iddeg.mp3"
           },
           {
             "prompt": "Тэр ___ явдаг.",
@@ -118,7 +120,8 @@
             ],
             "answer": "хурдан",
             "result": "Тэр хурдан явдаг.",
-            "meaningEn": "He/she goes fast."
+            "meaningEn": "He/she goes fast.",
+            "audioUrl": "/uploads/audio/sentences/ter_hurdan_yvdag.mp3"
           },
           {
             "prompt": "Бид ___ уншдаг.",
@@ -129,7 +132,8 @@
             ],
             "answer": "удаан",
             "result": "Бид удаан уншдаг.",
-            "meaningEn": "We read slowly."
+            "meaningEn": "We read slowly.",
+            "audioUrl": "/uploads/audio/sentences/bid_udaan_unshdag.mp3"
           }
         ]
       }

@@ -105,7 +105,8 @@
             ],
             "answer": "Тэр",
             "result": "Тэр уншиж байна.",
-            "meaningEn": "He/she is reading."
+            "meaningEn": "He/she is reading.",
+            "audioUrl": "/uploads/audio/sentences/ter_unshij_baina.mp3"
           },
           {
             "prompt": "___ ном уншиж байна.",
@@ -116,7 +117,8 @@
             ],
             "answer": "Би",
             "result": "Би ном уншиж байна.",
-            "meaningEn": "I am reading a book."
+            "meaningEn": "I am reading a book.",
+            "audioUrl": "/uploads/audio/sentences/bi_nom_unshij_baina.mp3"
           },
           {
             "prompt": "___ сургууль руу явж байна.",
@@ -127,7 +129,8 @@
             ],
             "answer": "Чи",
             "result": "Чи сургууль руу явж байна.",
-            "meaningEn": "You are going to school."
+            "meaningEn": "You are going to school.",
+            "audioUrl": "/uploads/audio/sentences/chi_surguul_ruu_yavj_baina.mp3"
           },
           {
             "prompt": "___ ирж байна.",
@@ -138,7 +141,8 @@
             ],
             "answer": "Бид",
             "result": "Бид ирж байна.",
-            "meaningEn": "We are coming."
+            "meaningEn": "We are coming.",
+            "audioUrl": "/uploads/audio/sentences/bid_irj_baina.mp3"
           }
         ]
       }

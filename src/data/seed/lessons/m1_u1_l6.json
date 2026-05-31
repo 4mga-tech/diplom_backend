@@ -45,6 +45,7 @@
       "order": 1,
       "type": "multiple_choice",
       "prompt": "“ном” ямар үг вэ?",
+      "helper": "Which type of word is 'ном' (book)?",
       "options": [
         "нэр үг",
         "үйл үг",
@@ -52,7 +53,7 @@
         "төлөөний үг"
       ],
       "correctAnswer": "нэр үг",
-      "explanation": "Ном нь зүйлийг нэрлэж байна."
+      "explanation": "Ном нь зүйлийг нэрлэж байна. A noun names a person, animal, place, or thing."
     },
     {
       "id": "m1_u1_l6_q2",
@@ -60,6 +61,7 @@
       "order": 2,
       "type": "multiple_choice",
       "prompt": "“Би ном уншиж байна.” өгүүлбэрт үйл үг аль нь вэ?",
+      "helper": "Which word shows the action in the sentence?",
       "options": [
         "Би",
         "ном",
@@ -67,7 +69,7 @@
         "сайн"
       ],
       "correctAnswer": "уншиж байна",
-      "explanation": "Уншиж байна нь хийж буй үйлдэл."
+      "explanation": "Уншиж байна нь хийж буй үйлдлийг илэрхийлнэ. 'Уншиж байна' is the verb because it shows the action."
     },
     {
       "id": "m1_u1_l6_q3",
@@ -75,6 +77,7 @@
       "order": 3,
       "type": "multiple_choice",
       "prompt": "“Багш уншиж байна” гэдгийг төлөөний үгээр яаж солих вэ?",
+      "helper": "Which sentence correctly replaces the noun with a pronoun?",
       "options": [
         "Тэр уншиж байна",
         "Ном уншиж байна",
@@ -82,7 +85,7 @@
         "Сайн уншиж байна"
       ],
       "correctAnswer": "Тэр уншиж байна",
-      "explanation": "Багш гэдэг нэр үгийг тэр гэж орлуулж болно."
+      "explanation": "Багш гэдэг нэр үгийг 'тэр' гэж орлуулж болно. The noun 'teacher' can be replaced with the pronoun 'he/she'."
     },
     {
       "id": "m1_u1_l6_q4",
@@ -90,6 +93,7 @@
       "order": 4,
       "type": "multiple_choice",
       "prompt": "“Тэр хурдан явж байна.” өгүүлбэрт тодотгох үг аль нь вэ?",
+      "helper": "Which word modifies the action?",
       "options": [
         "Тэр",
         "хурдан",
@@ -97,7 +101,7 @@
         "байна"
       ],
       "correctAnswer": "хурдан",
-      "explanation": "Хурдан нь үйлдлийг хэрхэн болж байгааг тодотгож байна."
+      "explanation": "Хурдан нь үйлдлийг хэрхэн болж байгааг тодотгож байна. 'Хурдан' modifies how the action is performed."
     },
     {
       "id": "m1_u1_l6_q5",
@@ -105,6 +109,7 @@
       "order": 5,
       "type": "multiple_choice",
       "prompt": "Аль нь хүн нэрлэсэн нэр үг вэ?",
+      "helper": "Which option is a noun that names a person?",
       "options": [
         "багш",
         "идэх",
@@ -112,7 +117,7 @@
         "би"
       ],
       "correctAnswer": "багш",
-      "explanation": "Багш нь хүнийг нэрлэсэн нэр үг."
+      "explanation": "Багш нь хүнийг нэрлэсэн нэр үг. 'Teacher' is a noun that names a person."
     },
     {
       "id": "m1_u1_l6_q6",
@@ -120,6 +125,7 @@
       "order": 6,
       "type": "multiple_choice",
       "prompt": "“Чи сургууль руу явж байна.” гэсэн өгүүлбэрийн утга аль вэ?",
+      "helper": "Choose the correct English meaning.",
       "options": [
         "You are going to school.",
         "I am reading a book.",
@@ -135,6 +141,7 @@
       "order": 7,
       "type": "multiple_choice",
       "prompt": "Зөв дарааллыг сонго: би + ном + уншиж байна",
+      "helper": "Choose the correct sentence order.",
       "options": [
         "Би ном уншиж байна.",
         "Ном би уншиж байна.",
@@ -142,7 +149,7 @@
         "Би уншиж байна ном."
       ],
       "correctAnswer": "Би ном уншиж байна.",
-      "explanation": "Энгийн дараалал: хүн + зүйл + үйлдэл."
+      "explanation": "Энгийн дараалал: хүн + зүйл + үйлдэл. Basic order: subject + object + action."
     },
     {
       "id": "m1_u1_l6_q8",
@@ -150,6 +157,7 @@
       "order": 8,
       "type": "multiple_choice",
       "prompt": "Аль мөрөнд зөвхөн төлөөний үг байна вэ?",
+      "helper": "Which row contains only pronouns?",
       "options": [
         "би, чи, тэр",
         "ном, багш, муур",
@@ -157,7 +165,7 @@
         "маш, бага, хурдан"
       ],
       "correctAnswer": "би, чи, тэр",
-      "explanation": "Би, чи, тэр нь нэр үгийг орлох үгс."
+      "explanation": "Би, чи, тэр нь нэр үгийг орлох үгс. These words replace nouns."
     },
     {
       "id": "m1_u1_l6_q9",
@@ -165,6 +173,7 @@
       "order": 9,
       "type": "multiple_choice",
       "prompt": "“Би бага иддэг.” өгүүлбэрт “бага” ямар үүрэгтэй вэ?",
+      "helper": "What is the function of 'бага' in this sentence?",
       "options": [
         "утгыг багасгаж тодотгоно",
         "хүнийг нэрлэнэ",
@@ -172,7 +181,7 @@
         "төлөөний үг болно"
       ],
       "correctAnswer": "утгыг багасгаж тодотгоно",
-      "explanation": "Бага нь идэх үйлдлийн хэмжээг тодотгож байна."
+      "explanation": "Бага нь идэх үйлдлийн хэмжээг тодотгож байна. 'Бага' modifies the amount or degree of the action."
     }
   ]
 }

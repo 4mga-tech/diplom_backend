@@ -30,60 +30,47 @@
       "id": "m1_u1_l2_c2",
       "lessonId": "m1_u1_l2",
       "type": "classification",
-      "title": "Жишээ",
+      "title": "Үйл үг өгүүлбэрт",
       "order": 2,
       "content": {
-        "summary": "Өдөр тутмын үйл үгсийг жишээ өгүүлбэртэй уншаарай.",
+        "summary": "Монгол өгүүлбэрт үйл үг ихэвчлэн өгүүлбэрийн төгсгөл хэсэгт байрлаж, юу хийж байгааг илэрхийлнэ.",
         "groups": [
           {
-            "title": "Үндсэн үйл үг",
-            "description": "Action words in dictionary form",
+            "title": "Subject + object + verb",
+            "description": "Үйл үг төгсгөлд орж үйлдлийг хэлнэ",
             "items": [
-              "унших",
-              "идэх",
-              "явах",
-              "бичих",
-              "суух",
-              "ирэх"
+              "Би ном уншиж байна",
+              "Тэр хоол идэж байна",
+              "Чи сургууль руу явж байна"
             ]
           },
           {
-            "title": "Өгүүлбэрт",
-            "description": "Action words used in simple present sentences",
+            "title": "Verb part",
+            "description": "Анхаарах үйл үгс",
             "items": [
               "уншиж байна",
               "идэж байна",
               "явж байна",
-              "бичиж байна",
-              "сууж байна",
-              "ирж байна"
+              "бичиж байна"
             ]
           }
         ],
         "glossary": [
           {
-            "word": "унших",
-            "translation": "to read"
+            "word": "уншиж байна",
+            "translation": "is reading"
           },
           {
-            "word": "идэх",
-            "translation": "to eat"
+            "word": "идэж байна",
+            "translation": "is eating"
           },
           {
-            "word": "явах",
-            "translation": "to go"
+            "word": "явж байна",
+            "translation": "is going"
           },
           {
-            "word": "бичих",
-            "translation": "to write"
-          },
-          {
-            "word": "суух",
-            "translation": "to sit"
-          },
-          {
-            "word": "ирэх",
-            "translation": "to come"
+            "word": "бичиж байна",
+            "translation": "is writing"
           }
         ]
       }
@@ -92,11 +79,11 @@
       "id": "m1_u1_l2_c3",
       "lessonId": "m1_u1_l2",
       "type": "exercise_fill",
-      "title": "Дасгал",
+      "title": "Сонсоод үйл үгийг сонго",
       "order": 3,
       "content": {
-        "instructionMn": "Өгүүлбэр доторх үйл үгийг сонго.",
-        "instructionEn": "Choose the verb in each sentence.",
+        "instructionMn": "Дууг сонсоод өгүүлбэрт тохирох үйл үгийг сонго.",
+        "instructionEn": "Listen and choose the verb that completes the sentence.",
         "questions": [
           {
             "prompt": "Би ном ___ байна.",
@@ -107,7 +94,8 @@
             ],
             "answer": "уншиж",
             "result": "Би ном уншиж байна.",
-            "meaningEn": "I am reading a book."
+            "meaningEn": "I am reading a book.",
+            "audioUrl": "/uploads/audio/sentences/bi_nom_unshij_baina.mp3"
           },
           {
             "prompt": "Тэр хоол ___ байна.",
@@ -118,7 +106,8 @@
             ],
             "answer": "идэж",
             "result": "Тэр хоол идэж байна.",
-            "meaningEn": "He/she is eating food."
+            "meaningEn": "He/she is eating food.",
+            "audioUrl": "/uploads/audio/sentences/ter_khool_idej_baina.mp3"
           },
           {
             "prompt": "Чи сургууль руу ___ байна.",
@@ -129,7 +118,8 @@
             ],
             "answer": "явж",
             "result": "Чи сургууль руу явж байна.",
-            "meaningEn": "You are going to school."
+            "meaningEn": "You are going to school.",
+            "audioUrl": "/uploads/audio/sentences/chi_surguuli_ruu_yavj_baina.mp3"
           },
           {
             "prompt": "Багш самбар дээр ___ байна.",
@@ -140,7 +130,8 @@
             ],
             "answer": "бичиж",
             "result": "Багш самбар дээр бичиж байна.",
-            "meaningEn": "The teacher is writing on the board."
+            "meaningEn": "The teacher is writing on the board.",
+            "audioUrl": "/uploads/audio/sentences/bagsh_sambar_deer_bichij_baina.mp3"
           }
         ]
       }

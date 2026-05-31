@@ -25,37 +25,43 @@
             "left": "би + ном",
             "right": "уншиж байна",
             "result": "Би ном уншиж байна.",
-            "transcription": "bi nom unshij baina"
+            "transcription": "bi nom unshij baina",
+            "audioUrl": "/uploads/audio/sentences/bi_nom_unshij_baina.mp3"
           },
           {
             "left": "тэр + хурдан",
             "right": "явж байна",
             "result": "Тэр хурдан явж байна.",
-            "transcription": "ter khurdan yavj baina"
+            "transcription": "ter khurdan yavj baina",
+            "audioUrl": "/uploads/audio/sentences/ter_khurdan_yavj_baina.mp3"
           },
           {
             "left": "багш + сайн",
             "right": "уншдаг",
             "result": "Багш сайн уншдаг.",
-            "transcription": "bagsh sain unshdag"
+            "transcription": "bagsh sain unshdag",
+            "audioUrl": "/uploads/audio/sentences/bagsh_sain_unshdag.mp3"
           },
           {
             "left": "чи + сургууль руу",
             "right": "явж байна",
             "result": "Чи сургууль руу явж байна.",
-            "transcription": "chi surguuli ruu yavj baina"
+            "transcription": "chi surguuli ruu yavj baina",
+            "audioUrl": "/uploads/audio/sentences/chi_surguuli_ruu_yavj_baina.mp3"
           },
           {
             "left": "би + бага",
             "right": "иддэг",
             "result": "Би бага иддэг.",
-            "transcription": "bi baga iddeg"
+            "transcription": "bi baga iddeg",
+            "audioUrl": "/uploads/audio/sentences/bi_baga_iddeg.mp3"
           },
           {
             "left": "муур",
             "right": "байна",
             "result": "Муур байна.",
-            "transcription": "muur baina"
+            "transcription": "muur baina",
+            "audioUrl": "/uploads/audio/sentences/muur_baina.mp3"
           }
         ],
         "glossary": [

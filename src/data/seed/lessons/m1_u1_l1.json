@@ -167,7 +167,7 @@
           {
             "text": "Муур байна.",
             "transcription": "muur baina",
-            "audioUrl": "",
+            "audioUrl": "/uploads/audio/words/cat.mp3",
             "call": "өгүүлбэр"
           }
         ],
@@ -199,55 +199,59 @@
       "id": "m1_u1_l1_c4",
       "lessonId": "m1_u1_l1",
       "type": "exercise_fill",
-      "title": "Дасгал",
+      "title": "Сонсоод нэр үгийг сонго",
       "order": 4,
       "content": {
-        "instructionMn": "Нэр үгийг сонго. Зөв хариултаар өгүүлбэр бүтнэ.",
-        "instructionEn": "Choose the noun. The correct answer completes a sentence.",
+        "instructionMn": "Дууг сонсоод зөв нэр үгийг сонго.",
+        "instructionEn": "Listen and choose the correct noun.",
         "questions": [
           {
-            "prompt": "___ байна.",
+            "prompt": "Сонссон үг аль нь вэ?",
             "options": [
               "ном",
               "уншиж",
               "маш"
             ],
             "answer": "ном",
-            "result": "Ном байна.",
-            "meaningEn": "There is a book."
+            "result": "ном",
+            "meaningEn": "book",
+            "audioUrl": "/uploads/audio/words/book.mp3"
           },
           {
-            "prompt": "___ уншиж байна.",
+            "prompt": "Сонссон үг аль нь вэ?",
             "options": [
               "багш",
               "идэж",
               "хурдан"
             ],
             "answer": "багш",
-            "result": "Багш уншиж байна.",
-            "meaningEn": "The teacher is reading."
+            "result": "багш",
+            "meaningEn": "teacher",
+            "audioUrl": "/uploads/audio/words/teacher.mp3"
           },
           {
-            "prompt": "Энэ ___.",
+            "prompt": "Сонссон үг аль нь вэ?",
             "options": [
               "муур",
               "явж",
               "бага"
             ],
             "answer": "муур",
-            "result": "Энэ муур.",
-            "meaningEn": "This is a cat."
+            "result": "муур",
+            "meaningEn": "cat",
+            "audioUrl": "/uploads/audio/words/cat.mp3"
           },
           {
-            "prompt": "___ руу явж байна.",
+            "prompt": "Сонссон үг аль нь вэ?",
             "options": [
               "сургууль",
               "сайн",
               "ирэх"
             ],
             "answer": "сургууль",
-            "result": "Сургууль руу явж байна.",
-            "meaningEn": "Going to school."
+            "result": "сургууль",
+            "meaningEn": "school",
+            "audioUrl": "/uploads/audio/words/school.mp3"
           }
         ]
       }
