@@ -77,13 +77,13 @@
         "prompt": "Би ___ уншиж байна.",
         "options": [
           "ном",
-          "гэр",
-          "ус"
+          "ус",
+          "сүү"
         ],
         "correctAnswer": "ном",
         "result": "Би ном уншиж байна.",
         "meaningEn": "I am reading a book.",
-        "subtitle": "Choose the missing word."
+        "subtitle": "Choose the noun that completes this simple sentence."
       },
       {
         "id": "missing-word-q2",
@@ -91,38 +91,38 @@
         "options": [
           "ус",
           "ном",
-          "ширээ"
+          "талх"
         ],
         "correctAnswer": "ус",
         "result": "Тэр ус ууж байна.",
         "meaningEn": "He/She is drinking water.",
-        "subtitle": "Choose the missing word."
+        "subtitle": "Choose the noun that completes this simple sentence."
       },
       {
         "id": "missing-word-q3",
-        "prompt": "Өглөө би ___ уудаг.",
+        "prompt": "Би өглөө ___ .",
         "options": [
-          "өглөөний цай",
-          "сургуулиа",
-          "дэвтэр"
+          "цай уудаг",
+          "ном уншсан",
+          "гэртээ байсан"
         ],
-        "correctAnswer": "өглөөний цай",
-        "result": "Өглөө би өглөөний цай уудаг.",
-        "meaningEn": "I drink breakfast in the morning.",
-        "subtitle": "Choose the missing word."
+        "correctAnswer": "цай уудаг",
+        "result": "Би өглөө цай уудаг.",
+        "meaningEn": "I drink tea in the morning.",
+        "subtitle": "Choose the daily action that fits the time expression."
       },
       {
         "id": "missing-word-q4",
-        "prompt": "Бид одоо ангидаа ___ байна.",
+        "prompt": "Тэр сургуульд ___ .",
         "options": [
-          "сууж",
-          "гүйлт",
-          "ном"
+          "явдаг",
+          "уусан",
+          "уншина"
         ],
-        "correctAnswer": "сууж",
-        "result": "Бид одоо ангидаа сууж байна.",
-        "meaningEn": "We are sitting in class now.",
-        "subtitle": "Choose the missing word."
+        "correctAnswer": "явдаг",
+        "result": "Тэр сургуульд явдаг.",
+        "meaningEn": "He/She goes to school.",
+        "subtitle": "Choose the habitual action that fits the sentence."
       },
       {
         "id": "missing-word-q5",
@@ -135,7 +135,7 @@
         "correctAnswer": "байсан",
         "result": "Өчигдөр би гэртээ байсан.",
         "meaningEn": "Yesterday I was at home.",
-        "subtitle": "Choose the missing word."
+        "subtitle": "Choose the past-tense word that completes the sentence."
       },
       {
         "id": "missing-word-q6",
@@ -143,77 +143,77 @@
         "options": [
           "явна",
           "явсан",
-          "явж"
+          "явж байна"
         ],
         "correctAnswer": "явна",
         "result": "Маргааш бид аялалд явна.",
         "meaningEn": "Tomorrow we will go on a trip.",
-        "subtitle": "Choose the missing word."
+        "subtitle": "Choose the future-tense action."
       },
       {
         "id": "missing-word-q7",
-        "prompt": "Чи одоо юу ___ байна вэ?",
+        "prompt": "Чи одоо гэртээ юу ___ байна вэ?",
         "options": [
           "хийж",
           "хийсэн",
-          "хийх"
+          "хийнэ"
         ],
         "correctAnswer": "хийж",
-        "result": "Чи одоо юу хийж байна вэ?",
-        "meaningEn": "What are you doing now?",
-        "subtitle": "Choose the missing word."
+        "result": "Чи одоо гэртээ юу хийж байна вэ?",
+        "meaningEn": "What are you doing at home now?",
+        "subtitle": "Use time and location clues to choose the correct action."
       },
       {
         "id": "missing-word-q8",
-        "prompt": "Бид орой кино ___ .",
+        "prompt": "Бид маргааш сургууль дээр кино ___ .",
         "options": [
           "үзнэ",
           "үзсэн",
-          "үзэж"
+          "үзэж байна"
         ],
         "correctAnswer": "үзнэ",
-        "result": "Бид орой кино үзнэ.",
-        "meaningEn": "We will watch a movie in the evening.",
-        "subtitle": "Choose the missing word."
+        "result": "Бид маргааш сургууль дээр кино үзнэ.",
+        "meaningEn": "Tomorrow we will watch a movie at school.",
+        "subtitle": "Use the time, place, object, and action clues."
       },
       {
         "id": "missing-word-q9",
         "prompt": "Энэ миний ___ .",
         "options": [
           "дэвтэр",
-          "ус",
-          "явна"
+          "алим",
+          "машин"
         ],
         "correctAnswer": "дэвтэр",
         "result": "Энэ миний дэвтэр.",
         "meaningEn": "This is my notebook.",
-        "subtitle": "Choose the missing word."
+        "subtitle": "Choose the noun that names the object."
       },
       {
         "id": "missing-word-q10",
         "prompt": "Би ___ руу явж байна.",
         "options": [
           "сургууль",
-          "алим",
-          "сүү"
+          "сүү",
+          "талх"
         ],
         "correctAnswer": "сургууль",
         "result": "Би сургууль руу явж байна.",
         "meaningEn": "I am going to school.",
-        "subtitle": "Choose the missing word."
+        "subtitle": "Choose the place noun that completes the sentence."
       },
       {
         "id": "missing-word-q11",
-        "prompt": "Орой бид ___ иднэ.",
+        "prompt": "Орой бид ___ .",
         "options": [
-          "хоол",
-          "ном",
-          "сандал"
+          "хоол иддэг",
+          "ус бичдэг",
+          "ном уудаг"
         ],
-        "correctAnswer": "хоол",
-        "result": "Орой бид хоол иднэ.",
-        "meaningEn": "We will eat dinner in the evening.",
-        "subtitle": "Choose the missing word."
+        "correctAnswer": "хоол иддэг",
+        "result": "Орой бид хоол иддэг.",
+        "meaningEn": "In the evening, we eat a meal.",
+        "subtitle": "Choose the daily action that makes sense."
       },
       {
         "id": "missing-word-q12",
@@ -226,7 +226,7 @@
         "correctAnswer": "сурдаг",
         "result": "Би өдөр бүр монгол хэл сурдаг.",
         "meaningEn": "I study Mongolian every day.",
-        "subtitle": "Choose the missing word."
+        "subtitle": "Choose the habitual action."
       },
       {
         "id": "missing-word-q13",
@@ -239,7 +239,7 @@
         "correctAnswer": "бичиж",
         "result": "Тэр одоо захиа бичиж байна.",
         "meaningEn": "He/She is writing a letter now.",
-        "subtitle": "Choose the missing word."
+        "subtitle": "Choose the present progressive action."
       },
       {
         "id": "missing-word-q14",
@@ -247,38 +247,38 @@
         "options": [
           "давтсан",
           "давтана",
-          "давтаж"
+          "давтаж байна"
         ],
         "correctAnswer": "давтсан",
         "result": "Өчигдөр бид хичээлээ давтсан.",
         "meaningEn": "Yesterday we reviewed our lesson.",
-        "subtitle": "Choose the missing word."
+        "subtitle": "Choose the past-tense action."
       },
       {
         "id": "missing-word-q15",
-        "prompt": "Би дэлгүүрээс талх ___ .",
+        "prompt": "Би өнөөдөр дэлгүүрээс талх ___ .",
         "options": [
           "авна",
           "авсан",
-          "авч"
+          "авч байна"
         ],
         "correctAnswer": "авна",
-        "result": "Би дэлгүүрээс талх авна.",
-        "meaningEn": "I will buy bread from the store.",
-        "subtitle": "Choose the missing word."
+        "result": "Би өнөөдөр дэлгүүрээс талх авна.",
+        "meaningEn": "Today I will buy bread from the store.",
+        "subtitle": "Choose the action that fits the object and place."
       },
       {
         "id": "missing-word-q16",
-        "prompt": "Тэр найзтайгаа утсаар ___ .",
+        "prompt": "Тэр одоо найзтайгаа утсаар ___ .",
         "options": [
           "ярьж байна",
-          "сандал",
-          "уусан"
+          "ярьсан",
+          "ярина"
         ],
         "correctAnswer": "ярьж байна",
-        "result": "Тэр найзтайгаа утсаар ярьж байна.",
-        "meaningEn": "He/She is talking with a friend on the phone.",
-        "subtitle": "Choose the missing word."
+        "result": "Тэр одоо найзтайгаа утсаар ярьж байна.",
+        "meaningEn": "He/She is talking with a friend on the phone now.",
+        "subtitle": "Choose the action that fits the conversation context."
       }
     ]
   },
@@ -355,7 +355,7 @@
           "байна"
         ],
         "meaningEn": "I am reading a book.",
-        "subtitle": "Build the correct sentence."
+        "subtitle": "Build a short sentence about an object and action."
       },
       {
         "id": "sentence-order-q2",
@@ -375,52 +375,55 @@
       },
       {
         "id": "sentence-order-q3",
-        "prompt": "Өдрийн үйлдлийг зөв болго.",
+        "prompt": "Өдрийн дадлыг зөв дараалалд оруул.",
         "options": [
-          "Бид|сургуульд|явдаг"
+          "Би|өглөө|цай|уудаг"
         ],
-        "correctAnswer": "Бид сургуульд явдаг",
+        "correctAnswer": "Би өглөө цай уудаг",
         "parts": [
-          "Бид",
-          "сургуульд",
-          "явдаг"
+          "Би",
+          "өглөө",
+          "цай",
+          "уудаг"
         ],
-        "meaningEn": "We go to school.",
-        "subtitle": "Arrange the daily action correctly."
+        "meaningEn": "I drink tea in the morning.",
+        "subtitle": "Arrange a daily routine sentence."
       },
       {
         "id": "sentence-order-q4",
-        "prompt": "Зөв өгүүлбэр болго.",
+        "prompt": "Өдөр тутмын үйлдлийг зөв болго.",
         "options": [
-          "Би|гэрийн даалгавар|хийдэг"
+          "Тэр|орой|кино|үздэг"
         ],
-        "correctAnswer": "Би гэрийн даалгавар хийдэг",
+        "correctAnswer": "Тэр орой кино үздэг",
         "parts": [
-          "Би",
-          "гэрийн даалгавар",
-          "хийдэг"
+          "Тэр",
+          "орой",
+          "кино",
+          "үздэг"
         ],
-        "meaningEn": "I do homework.",
-        "subtitle": "Make a correct sentence."
+        "meaningEn": "He/She watches movies in the evening.",
+        "subtitle": "Build a daily life sentence with a time expression."
       },
       {
         "id": "sentence-order-q5",
-        "prompt": "Цагийн хэлбэрийг зөв дараалалд оруул.",
+        "prompt": "Өнгөрсөн цагийн өгүүлбэр бүтээгээрэй.",
         "options": [
-          "Өчигдөр|тэр|ирсэн"
+          "Өчигдөр|би|ном|уншсан"
         ],
-        "correctAnswer": "Өчигдөр тэр ирсэн",
+        "correctAnswer": "Өчигдөр би ном уншсан",
         "parts": [
           "Өчигдөр",
-          "тэр",
-          "ирсэн"
+          "би",
+          "ном",
+          "уншсан"
         ],
-        "meaningEn": "He/She came yesterday.",
-        "subtitle": "Build a past tense sentence."
+        "meaningEn": "Yesterday I read a book.",
+        "subtitle": "Build a past-tense sentence."
       },
       {
         "id": "sentence-order-q6",
-        "prompt": "Ирээдүйн үйлдлийг зөв дараалалд оруул.",
+        "prompt": "Ирээдүйн цагийн өгүүлбэр бүтээгээрэй.",
         "options": [
           "Маргааш|бид|аялна"
         ],
@@ -431,11 +434,11 @@
           "аялна"
         ],
         "meaningEn": "Tomorrow we will travel.",
-        "subtitle": "Build a future tense sentence."
+        "subtitle": "Build a future-tense sentence."
       },
       {
         "id": "sentence-order-q7",
-        "prompt": "Зөв өгүүлбэр бүтээгээрэй.",
+        "prompt": "Энгийн өгүүлбэр бүтээгээрэй.",
         "options": [
           "Энэ|миний|ном"
         ],
@@ -450,7 +453,7 @@
       },
       {
         "id": "sentence-order-q8",
-        "prompt": "Үгийг зөв дараалалд оруул.",
+        "prompt": "Зөв өгүүлбэр бүтээгээрэй.",
         "options": [
           "Би|сургууль|руу|явна"
         ],
@@ -462,58 +465,59 @@
           "явна"
         ],
         "meaningEn": "I will go to school.",
-        "subtitle": "Arrange the school sentence."
+        "subtitle": "Arrange a short sentence about going to school."
       },
       {
         "id": "sentence-order-q9",
-        "prompt": "Өдрийн дадлыг зөв болго.",
+        "prompt": "Дадлын өгүүлбэр бүтээгээрэй.",
         "options": [
-          "Би|өглөө|цай|уудаг"
+          "Бид|сургуульд|өдөр бүр|явдаг"
         ],
-        "correctAnswer": "Би өглөө цай уудаг",
+        "correctAnswer": "Бид сургуульд өдөр бүр явдаг",
         "parts": [
-          "Би",
-          "өглөө",
-          "цай",
-          "уудаг"
+          "Бид",
+          "сургуульд",
+          "өдөр бүр",
+          "явдаг"
         ],
-        "meaningEn": "I drink tea in the morning.",
-        "subtitle": "Arrange the daily habit sentence."
+        "meaningEn": "We go to school every day.",
+        "subtitle": "Arrange a habitual action with a location."
       },
       {
         "id": "sentence-order-q10",
-        "prompt": "Зөв өгүүлбэр болго.",
+        "prompt": "Өдөр тутмын өгүүлбэрийг зөв болго.",
         "options": [
-          "Тэр|гэртээ|амардаг"
+          "Би|гэртээ|даалгавар|хийдэг"
         ],
-        "correctAnswer": "Тэр гэртээ амардаг",
+        "correctAnswer": "Би гэртээ даалгавар хийдэг",
         "parts": [
-          "Тэр",
+          "Би",
           "гэртээ",
-          "амардаг"
+          "даалгавар",
+          "хийдэг"
         ],
-        "meaningEn": "He/She rests at home.",
-        "subtitle": "Make a sentence about resting at home."
+        "meaningEn": "I do homework at home.",
+        "subtitle": "Build a routine sentence with a place and object."
       },
       {
         "id": "sentence-order-q11",
-        "prompt": "Өнгөрсөн цагийн өгүүлбэр бүтээгээрэй.",
+        "prompt": "Цагийн хэлбэрийг зөв дараалалд оруул.",
         "options": [
-          "Өчигдөр|би|ном|уншсан"
+          "Өчигдөр|тэр|сургуульд|явсан"
         ],
-        "correctAnswer": "Өчигдөр би ном уншсан",
+        "correctAnswer": "Өчигдөр тэр сургуульд явсан",
         "parts": [
           "Өчигдөр",
-          "би",
-          "ном",
-          "уншсан"
+          "тэр",
+          "сургуульд",
+          "явсан"
         ],
-        "meaningEn": "Yesterday I read a book.",
-        "subtitle": "Build a past tense sentence."
+        "meaningEn": "Yesterday he/she went to school.",
+        "subtitle": "Arrange a past-tense sentence with a location."
       },
       {
         "id": "sentence-order-q12",
-        "prompt": "Ирээдүйн цагийн өгүүлбэр бүтээгээрэй.",
+        "prompt": "Ирээдүйн үйлдлийг зөв дараалалд оруул.",
         "options": [
           "Маргааш|тэр|сургуульд|явна"
         ],
@@ -525,7 +529,7 @@
           "явна"
         ],
         "meaningEn": "Tomorrow he/she will go to school.",
-        "subtitle": "Build a future tense sentence."
+        "subtitle": "Build a future-tense sentence with a location."
       }
     ]
   },
@@ -604,29 +608,29 @@
     "questions": [
       {
         "id": "dialogue-fill-q1",
-        "prompt": "A: Чиний нэр хэн бэ?\nB: ________",
-        "options": [
-          "Намайг Сараа гэдэг.",
-          "Би гэртээ байна.",
-          "Энэ ном."
-        ],
-        "correctAnswer": "Намайг Сараа гэдэг.",
-        "result": "A: Чиний нэр хэн бэ?\nB: Намайг Сараа гэдэг.",
-        "meaningEn": "What is your name? My name is Saraa.",
-        "subtitle": "Complete the conversation."
-      },
-      {
-        "id": "dialogue-fill-q2",
         "prompt": "A: Сайн уу?\nB: ________",
         "options": [
           "Сайн, сайн уу.",
-          "Би ном.",
-          "Маргааш байсан."
+          "Би сургуульд явдаг.",
+          "Өчигдөр гэртээ байсан."
         ],
         "correctAnswer": "Сайн, сайн уу.",
         "result": "A: Сайн уу?\nB: Сайн, сайн уу.",
-        "meaningEn": "Hi. Hi, I am fine.",
-        "subtitle": "Complete the conversation."
+        "meaningEn": "Hi. Hi, how are you?",
+        "subtitle": "Choose the greeting that naturally answers the first speaker."
+      },
+      {
+        "id": "dialogue-fill-q2",
+        "prompt": "A: Өглөөний мэнд!\nB: ________",
+        "options": [
+          "Өглөөний мэнд!",
+          "Би ус ууж байна.",
+          "Маргааш явна."
+        ],
+        "correctAnswer": "Өглөөний мэнд!",
+        "result": "A: Өглөөний мэнд!\nB: Өглөөний мэнд!",
+        "meaningEn": "Good morning! Good morning!",
+        "subtitle": "Complete the greeting exchange."
       },
       {
         "id": "dialogue-fill-q3",
@@ -634,25 +638,25 @@
         "options": [
           "Би их сургуульд сурдаг.",
           "Би ус уудаг.",
-          "Ном уншсан."
+          "Би өчигдөр гэртээ байсан."
         ],
         "correctAnswer": "Би их сургуульд сурдаг.",
         "result": "A: Чи хаана сурдаг вэ?\nB: Би их сургуульд сурдаг.",
         "meaningEn": "Where do you study? I study at university.",
-        "subtitle": "Complete the conversation."
+        "subtitle": "Choose the answer about a study place."
       },
       {
         "id": "dialogue-fill-q4",
         "prompt": "A: Орой юу хийх вэ?\nB: ________",
         "options": [
           "Би кино үзнэ.",
-          "Би өчигдөр.",
-          "Гэр том."
+          "Би өглөө цай уудаг.",
+          "Би өчигдөр ирсэн."
         ],
         "correctAnswer": "Би кино үзнэ.",
         "result": "A: Орой юу хийх вэ?\nB: Би кино үзнэ.",
         "meaningEn": "What will you do tonight? I will watch a movie.",
-        "subtitle": "Complete the conversation."
+        "subtitle": "Choose the future plan that fits the evening question."
       },
       {
         "id": "dialogue-fill-q5",
@@ -665,7 +669,7 @@
         "correctAnswer": "Би гэртээ байсан.",
         "result": "A: Өчигдөр чи хаана байсан бэ?\nB: Би гэртээ байсан.",
         "meaningEn": "Where were you yesterday? I was at home.",
-        "subtitle": "Complete the conversation."
+        "subtitle": "Choose the past-tense answer for yesterday."
       },
       {
         "id": "dialogue-fill-q6",
@@ -677,138 +681,138 @@
         ],
         "correctAnswer": "Өглөө есөн цагт уулзъя.",
         "result": "A: Маргааш бид хэзээ уулзах вэ?\nB: Өглөө есөн цагт уулзъя.",
-        "meaningEn": "When will we meet tomorrow? Let's meet at 9 in the morning.",
-        "subtitle": "Complete the conversation."
+        "meaningEn": "When will we meet tomorrow? Let’s meet at nine in the morning.",
+        "subtitle": "Choose the future time that answers the question."
       },
       {
         "id": "dialogue-fill-q7",
-        "prompt": "A: Чи хаана амьдардаг вэ?\nB: ________",
+        "prompt": "A: Чи одоо хаана байна вэ?\nB: ________",
         "options": [
-          "Би Улаанбаатарт амьдардаг.",
-          "Надад ном бий.",
-          "Өнөөдөр хүйтэн байна."
+          "Би сургууль дээр байна.",
+          "Би маргааш явсан.",
+          "Би талх уншина."
         ],
-        "correctAnswer": "Би Улаанбаатарт амьдардаг.",
-        "result": "A: Чи хаана амьдардаг вэ?\nB: Би Улаанбаатарт амьдардаг.",
-        "meaningEn": "Where do you live? I live in Ulaanbaatar.",
-        "subtitle": "Complete the conversation."
+        "correctAnswer": "Би сургууль дээр байна.",
+        "result": "A: Чи одоо хаана байна вэ?\nB: Би сургууль дээр байна.",
+        "meaningEn": "Where are you now? I am at school.",
+        "subtitle": "Choose the location answer for now."
       },
       {
         "id": "dialogue-fill-q8",
         "prompt": "A: Чи одоо завтай юу?\nB: ________",
         "options": [
           "Тийм ээ, завтай.",
-          "Маргааш би.",
-          "Ус уусан."
+          "Өчигдөр би гэртээ байсан.",
+          "Маргааш өглөө цай уудаг."
         ],
         "correctAnswer": "Тийм ээ, завтай.",
         "result": "A: Чи одоо завтай юу?\nB: Тийм ээ, завтай.",
         "meaningEn": "Are you free now? Yes, I am free.",
-        "subtitle": "Complete the conversation."
+        "subtitle": "Choose the answer that directly responds to availability."
       },
       {
         "id": "dialogue-fill-q9",
-        "prompt": "A: Өглөөний мэнд!\nB: ________",
-        "options": [
-          "Өглөөний мэнд!",
-          "Би ном уншина.",
-          "Маргааш явсан."
-        ],
-        "correctAnswer": "Өглөөний мэнд!",
-        "result": "A: Өглөөний мэнд!\nB: Өглөөний мэнд!",
-        "meaningEn": "Good morning! Good morning!",
-        "subtitle": "Complete the conversation."
-      },
-      {
-        "id": "dialogue-fill-q10",
         "prompt": "A: Танилцсандаа таатай байна.\nB: ________",
         "options": [
           "Надад ч бас таатай байна.",
-          "Би ус уудаг.",
-          "Энэ сургууль."
+          "Би ном уншина.",
+          "Өчигдөр ирсэн."
         ],
         "correctAnswer": "Надад ч бас таатай байна.",
         "result": "A: Танилцсандаа таатай байна.\nB: Надад ч бас таатай байна.",
         "meaningEn": "Nice to meet you. Nice to meet you too.",
-        "subtitle": "Complete the conversation."
+        "subtitle": "Choose the polite greeting response."
+      },
+      {
+        "id": "dialogue-fill-q10",
+        "prompt": "A: Чиний нэр хэн бэ?\nB: ________",
+        "options": [
+          "Намайг Сараа гэдэг.",
+          "Би гэртээ байна.",
+          "Энэ миний ном."
+        ],
+        "correctAnswer": "Намайг Сараа гэдэг.",
+        "result": "A: Чиний нэр хэн бэ?\nB: Намайг Сараа гэдэг.",
+        "meaningEn": "What is your name? My name is Saraa.",
+        "subtitle": "Answer with a name, not a place or object."
       },
       {
         "id": "dialogue-fill-q11",
-        "prompt": "A: Чи өглөө юу иддэг вэ?\nB: ________",
+        "prompt": "A: Чи өглөө юу уудаг вэ?\nB: ________",
         "options": [
-          "Би өглөөний цай уудаг.",
-          "Би өчигдөр ирсэн.",
+          "Би өглөө цай уудаг.",
+          "Би сургуульд явсан.",
           "Энэ миний машин."
         ],
-        "correctAnswer": "Би өглөөний цай уудаг.",
-        "result": "A: Чи өглөө юу иддэг вэ?\nB: Би өглөөний цай уудаг.",
-        "meaningEn": "What do you eat in the morning? I eat breakfast.",
-        "subtitle": "Complete the conversation."
+        "correctAnswer": "Би өглөө цай уудаг.",
+        "result": "A: Чи өглөө юу уудаг вэ?\nB: Би өглөө цай уудаг.",
+        "meaningEn": "What do you drink in the morning? I drink tea in the morning.",
+        "subtitle": "Choose the daily-life answer about a drink."
       },
       {
         "id": "dialogue-fill-q12",
         "prompt": "A: Танай гэр хаана байдаг вэ?\nB: ________",
         "options": [
           "Манай гэр хотын төвд байдаг.",
-          "Би ном ууж байна.",
-          "Маргааш байсан."
+          "Би ном уншиж байна.",
+          "Маргааш бид явна."
         ],
         "correctAnswer": "Манай гэр хотын төвд байдаг.",
         "result": "A: Танай гэр хаана байдаг вэ?\nB: Манай гэр хотын төвд байдаг.",
         "meaningEn": "Where is your home? My home is in the city center.",
-        "subtitle": "Complete the conversation."
+        "subtitle": "Choose the answer about home location."
       },
       {
         "id": "dialogue-fill-q13",
         "prompt": "A: Та автобус хаанаас авах вэ?\nB: ________",
         "options": [
           "Би буудлаас автобус авна.",
-          "Би талх уншина.",
-          "Энэ ус байсан."
+          "Би талх идсэн.",
+          "Би гэртээ амардаг."
         ],
         "correctAnswer": "Би буудлаас автобус авна.",
         "result": "A: Та автобус хаанаас авах вэ?\nB: Би буудлаас автобус авна.",
         "meaningEn": "Where will you take the bus? I will take the bus from the stop.",
-        "subtitle": "Complete the conversation."
+        "subtitle": "Choose the answer about transportation location."
       },
       {
         "id": "dialogue-fill-q14",
         "prompt": "A: Уучлаарай, цаг хэд болж байна вэ?\nB: ________",
         "options": [
           "Одоо гурван цаг болж байна.",
-          "Би сургууль байсан.",
+          "Би сургуульд явдаг.",
           "Ном том байна."
         ],
         "correctAnswer": "Одоо гурван цаг болж байна.",
         "result": "A: Уучлаарай, цаг хэд болж байна вэ?\nB: Одоо гурван цаг болж байна.",
-        "meaningEn": "Excuse me, what time is it? It is three o'clock now.",
-        "subtitle": "Complete the conversation."
+        "meaningEn": "Excuse me, what time is it? It is three o’clock now.",
+        "subtitle": "Choose the time response."
       },
       {
         "id": "dialogue-fill-q15",
         "prompt": "A: Чи монгол хэл сурч байна уу?\nB: ________",
         "options": [
           "Тийм ээ, би монгол хэл сурч байна.",
-          "Би өчигдөр ус.",
-          "Энэ гэр явна."
+          "Би өчигдөр ус уусан.",
+          "Манай гэр хотод байдаг."
         ],
         "correctAnswer": "Тийм ээ, би монгол хэл сурч байна.",
         "result": "A: Чи монгол хэл сурч байна уу?\nB: Тийм ээ, би монгол хэл сурч байна.",
         "meaningEn": "Are you learning Mongolian? Yes, I am learning Mongolian.",
-        "subtitle": "Complete the conversation."
+        "subtitle": "Choose the present-progressive answer."
       },
       {
         "id": "dialogue-fill-q16",
         "prompt": "A: Хичээл дууссаны дараа юу хийх вэ?\nB: ________",
         "options": [
           "Би найзтайгаа уулзана.",
-          "Би ширээ уудаг.",
-          "Өчигдөр маргааш."
+          "Би ширээ цэвэр байсан.",
+          "Өчигдөр өглөө цай ууна."
         ],
         "correctAnswer": "Би найзтайгаа уулзана.",
         "result": "A: Хичээл дууссаны дараа юу хийх вэ?\nB: Би найзтайгаа уулзана.",
         "meaningEn": "What will you do after class? I will meet my friend.",
-        "subtitle": "Complete the conversation."
+        "subtitle": "Choose the realistic future plan after class."
       }
     ]
   },
@@ -913,7 +917,8 @@
         ],
         "result": "Зөв! Энэ бол ном.",
         "meaningEn": "This is a book.",
-        "subtitle": "Tap the picture of a book."
+        "subtitle": "Choose the picture that matches the Mongolian word.",
+        "promptEn": "Which picture shows a book?"
       },
       {
         "id": "image-choice-q2",
@@ -942,8 +947,9 @@
           }
         ],
         "result": "Зөв! Энэ бол гэр.",
-        "meaningEn": "This is a house/home.",
-        "subtitle": "Choose the house."
+        "meaningEn": "This is a house.",
+        "subtitle": "Choose the picture that matches the Mongolian word.",
+        "promptEn": "Which picture shows a house?"
       },
       {
         "id": "image-choice-q3",
@@ -973,7 +979,8 @@
         ],
         "result": "Зөв! Энэ бол ус.",
         "meaningEn": "This is water.",
-        "subtitle": "Tap the water."
+        "subtitle": "Choose the picture that matches the Mongolian word.",
+        "promptEn": "Which picture shows water?"
       },
       {
         "id": "image-choice-q4",
@@ -1003,7 +1010,8 @@
         ],
         "result": "Зөв! Энэ бол сургууль.",
         "meaningEn": "This is a school.",
-        "subtitle": "Choose the school."
+        "subtitle": "Choose the picture that matches the Mongolian word.",
+        "promptEn": "Which picture shows a school?"
       },
       {
         "id": "image-choice-q5",
@@ -1033,7 +1041,8 @@
         ],
         "result": "Зөв! Энэ бол алим.",
         "meaningEn": "This is an apple.",
-        "subtitle": "Find the apple."
+        "subtitle": "Choose the picture that matches the Mongolian word.",
+        "promptEn": "Which picture shows an apple?"
       },
       {
         "id": "image-choice-q6",
@@ -1063,7 +1072,8 @@
         ],
         "result": "Зөв! Энэ бол сүү.",
         "meaningEn": "This is milk.",
-        "subtitle": "Choose the milk."
+        "subtitle": "Choose the picture that matches the Mongolian word.",
+        "promptEn": "Which picture shows milk?"
       },
       {
         "id": "image-choice-q7",
@@ -1093,7 +1103,8 @@
         ],
         "result": "Зөв! Энэ бол талх.",
         "meaningEn": "This is bread.",
-        "subtitle": "Find the bread."
+        "subtitle": "Choose the picture that matches the Mongolian word.",
+        "promptEn": "Which picture shows bread?"
       },
       {
         "id": "image-choice-q8",
@@ -1123,7 +1134,8 @@
         ],
         "result": "Зөв! Энэ бол багш.",
         "meaningEn": "This is a teacher.",
-        "subtitle": "Choose the teacher."
+        "subtitle": "Choose the picture that matches the Mongolian word.",
+        "promptEn": "Which picture shows a teacher?"
       },
       {
         "id": "image-choice-q9",
@@ -1153,7 +1165,8 @@
         ],
         "result": "Зөв! Энэ бол хүүхэд.",
         "meaningEn": "This is a child.",
-        "subtitle": "Find the child."
+        "subtitle": "Choose the picture that matches the Mongolian word.",
+        "promptEn": "Which picture shows a child?"
       },
       {
         "id": "image-choice-q10",
@@ -1183,11 +1196,12 @@
         ],
         "result": "Зөв! Энэ бол машин.",
         "meaningEn": "This is a car.",
-        "subtitle": "Choose the car."
+        "subtitle": "Choose the picture that matches the Mongolian word.",
+        "promptEn": "Which picture shows a car?"
       },
       {
         "id": "image-choice-q11",
-        "prompt": "Аль зураг нь 'ном' вэ?",
+        "prompt": "Сурагч юу уншиж байна?",
         "correctAnswer": "book",
         "options": [
           {
@@ -1213,11 +1227,12 @@
         ],
         "result": "Зөв! Сурагч ном уншиж байна.",
         "meaningEn": "The student is reading a book.",
-        "subtitle": "Choose the book."
+        "subtitle": "Use the familiar image to answer the context question.",
+        "promptEn": "What is the student reading?"
       },
       {
         "id": "image-choice-q12",
-        "prompt": "Аль зураг нь 'багш' вэ?",
+        "prompt": "Хэн хичээл заадаг вэ?",
         "correctAnswer": "teacher",
         "options": [
           {
@@ -1242,12 +1257,13 @@
           }
         ],
         "result": "Зөв! Багш хичээл заадаг.",
-        "meaningEn": "A teacher teaches in class.",
-        "subtitle": "Find the teacher."
+        "meaningEn": "A teacher teaches lessons.",
+        "subtitle": "Use the familiar image to answer the context question.",
+        "promptEn": "Who teaches lessons?"
       },
       {
         "id": "image-choice-q13",
-        "prompt": "Аль зураг нь 'сүү' вэ?",
+        "prompt": "Хүүхэд юу ууж болох вэ?",
         "correctAnswer": "milk",
         "options": [
           {
@@ -1271,13 +1287,14 @@
             "imageUrl": "/uploads/practice/images/water.png"
           }
         ],
-        "result": "Зөв! Энэ бол сүү.",
-        "meaningEn": "This is milk.",
-        "subtitle": "Choose the milk."
+        "result": "Зөв! Хүүхэд сүү ууж болно.",
+        "meaningEn": "A child can drink milk.",
+        "subtitle": "Use the familiar image to answer the context question.",
+        "promptEn": "What can a child drink?"
       },
       {
         "id": "image-choice-q14",
-        "prompt": "Аль зураг нь 'машин' вэ?",
+        "prompt": "Хүн юугаар явж болох вэ?",
         "correctAnswer": "car",
         "options": [
           {
@@ -1302,12 +1319,13 @@
           }
         ],
         "result": "Зөв! Хүн машинаар явж болно.",
-        "meaningEn": "A person can go by car.",
-        "subtitle": "Choose the car."
+        "meaningEn": "A person can travel by car.",
+        "subtitle": "Use the familiar image to answer the context question.",
+        "promptEn": "What can a person travel by?"
       },
       {
         "id": "image-choice-q15",
-        "prompt": "Аль зураг нь 'талх' вэ?",
+        "prompt": "Би дэлгүүрээс юу авах вэ?",
         "correctAnswer": "bread",
         "options": [
           {
@@ -1331,13 +1349,14 @@
             "imageUrl": "/uploads/practice/images/milk.png"
           }
         ],
-        "result": "Зөв! Энэ бол талх.",
-        "meaningEn": "This is bread.",
-        "subtitle": "Find the bread."
+        "result": "Зөв! Би дэлгүүрээс талх авна.",
+        "meaningEn": "I will buy bread from the store.",
+        "subtitle": "Use the familiar image to answer the context question.",
+        "promptEn": "What will I buy from the store?"
       },
       {
         "id": "image-choice-q16",
-        "prompt": "Аль зураг нь 'гэр' вэ?",
+        "prompt": "Хүн хаана амьдардаг вэ?",
         "correctAnswer": "house",
         "options": [
           {
@@ -1363,7 +1382,8 @@
         ],
         "result": "Зөв! Хүн гэртээ амьдардаг.",
         "meaningEn": "A person lives at home.",
-        "subtitle": "Choose the house."
+        "subtitle": "Use the familiar image to answer the context question.",
+        "promptEn": "Where does a person live?"
       }
     ]
   }
