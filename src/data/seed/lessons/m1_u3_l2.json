@@ -19,8 +19,8 @@
       "order": 1,
       "content": {
         "section": "reading",
-        "textMn": "Эгшгийн дарааллыг хүснэгт цээжлэхээс илүү үг дотор уншиж сурна. Эр эгшигтэй үгэнд а, о, у бүлэг; эм эгшигтэй үгэнд э, ө, ү бүлэг давамгай. И нь хоёр бүлэгтэй хамт тохиолдож болно.",
-        "textEn": "Instead of memorizing a table, practice reading vowel sequences inside words. Masculine words often use а, о, у; feminine words use э, ө, ү. И can appear with both groups."
+        "textMn": "Эгшгийн дарааллыг хүснэгт цээжлэхээс илүү үг дотор уншиж сурна. Сургууль, номын, аавын зэрэгт эр эгшгийн дараалал; гэрийн, үүл, ээжийн зэрэгт эм эгшгийн дараалал харагдана. И нь саармаг тул номын, гэрийн хоёрт хоёуланд нь орж болно.",
+        "textEn": "Learn vowel sequences through words instead of memorizing a table. Сургууль, номын, аавын show back-vowel sequences; гэрийн, үүл, ээжийн show front-vowel sequences. The neutral и can appear in both номын and гэрийн."
       }
     },
     {
@@ -31,56 +31,56 @@
       "order": 2,
       "content": {
         "section": "reading",
-        "instructionMn": "Эгшгийн дараалал болон жишээ үгсийг богино хэсгээр уншаарай.",
-        "instructionEn": "Read each vowel sequence and word example in small chunks.",
+        "instructionMn": "Дарааллыг богино хэсгээр уншаад, дараа нь бүтэн үгийг уншаарай.",
+        "instructionEn": "Read the small chunk first, then read the full word example.",
         "items": [
           {
-            "text": "а-а",
-            "transcription": "a-a",
+            "text": "су-ргуу-ль",
+            "transcription": "sur-guu-li",
             "audioUrl": "",
-            "call": "эр дараалал"
+            "call": "эр дараалал / back sequence"
           },
           {
-            "text": "а-у",
-            "transcription": "a-u",
+            "text": "ном-ын",
+            "transcription": "nom-yn",
             "audioUrl": "",
-            "call": "эр дараалал"
+            "call": "эр дараалал / back sequence"
           },
           {
-            "text": "о-о",
-            "transcription": "o-o",
+            "text": "аав-ын",
+            "transcription": "aav-yn",
             "audioUrl": "",
-            "call": "эр дараалал"
+            "call": "эр дараалал / back sequence"
           },
           {
-            "text": "у-у",
-            "transcription": "u-u",
+            "text": "сайн",
+            "transcription": "sain",
             "audioUrl": "",
-            "call": "эр дараалал"
+            "call": "эр дараалал / back sequence"
           },
           {
-            "text": "э-э",
-            "transcription": "e-e",
+            "text": "гэр-ий-н",
+            "transcription": "ger-iin",
             "audioUrl": "",
-            "call": "эм дараалал"
+            "call": "эм дараалал / front sequence"
           },
           {
-            "text": "ө-ө",
-            "transcription": "ö-ö",
+            "text": "ээж-ий-н",
+            "transcription": "eej-iin",
             "audioUrl": "",
-            "call": "эм дараалал"
+            "call": "эм дараалал / front sequence"
           },
           {
-            "text": "ү-ү",
-            "transcription": "ü-ü",
+            "text": "үүл",
+            "transcription": "üül",
             "audioUrl": "",
-            "call": "эм дараалал"
+            "call": "эм дараалал / front sequence"
           },
           {
-            "text": "и + эр/эм",
-            "transcription": "i",
+            "text": "-ын / -ийн",
+            "transcription": "yn / iin",
             "audioUrl": "",
-            "call": "саармаг"
+            "call": "саармаг / neutral"
           }
         ],
         "examples": [
@@ -88,7 +88,9 @@
           "номын",
           "гэрийн",
           "үүл",
-          "сайн"
+          "сайн",
+          "аавын",
+          "ээжийн"
         ],
         "glossary": [
           {
@@ -110,6 +112,14 @@
           {
             "word": "сайн",
             "translation": "good"
+          },
+          {
+            "word": "аавын",
+            "translation": "of father"
+          },
+          {
+            "word": "ээжийн",
+            "translation": "of mother"
           }
         ]
       }
@@ -138,7 +148,7 @@
       "quizId": "quiz_m1_u3_l2",
       "type": "multiple_choice",
       "prompt": "“сургууль” үгэнд аль бүлгийн эгшиг давамгай вэ?",
-      "helper": "Зөв бүлгийг сонго.",
+      "helper": "Look at у and уу in “сургууль”; they belong to the back/masculine group.",
       "options": [
         "эр эгшиг",
         "эм эгшиг",
@@ -146,7 +156,7 @@
         "эгшиг байхгүй"
       ],
       "correctAnswer": "эр эгшиг",
-      "explanation": "Сургууль үгэнд у, уу зэрэг эр эгшиг байна.",
+      "explanation": "Сургууль үгэнд у, уу эр эгшиг давамгай байна. The word mainly uses back/masculine vowels.",
       "xpReward": 3,
       "order": 1
     },
@@ -155,7 +165,7 @@
       "quizId": "quiz_m1_u3_l2",
       "type": "multiple_choice",
       "prompt": "“гэрийн” үгэнд тохирох тайлбар аль вэ?",
-      "helper": "Зөв мөрийг сонго.",
+      "helper": "Гэрийн comes from гэр, which has the front/feminine vowel э.",
       "options": [
         "эм эгшгийн жишээ",
         "эр эгшгийн жишээ",
@@ -163,7 +173,7 @@
         "туслах үсэггүй үг"
       ],
       "correctAnswer": "эм эгшгийн жишээ",
-      "explanation": "Гэрийн үгэнд э, и байгаа бөгөөд гэр нь эм эгшгийн бүлэгтэй.",
+      "explanation": "Гэрийн нь эм эгшгийн жишээ: гэр үгэнд э байна. It is a front/feminine example, with neutral и in the suffix.",
       "xpReward": 3,
       "order": 2
     },
@@ -172,7 +182,7 @@
       "quizId": "quiz_m1_u3_l2",
       "type": "multiple_choice",
       "prompt": "И эгшгийн тухай аль нь зөв вэ?",
-      "helper": "Зөв хариултыг сонго.",
+      "helper": "Think of номын and гэрийн: both can contain и in the suffix area.",
       "options": [
         "эр, эм бүлэгтэй хамт тохиолдож болно",
         "зөвхөн а-тай хамт орно",
@@ -180,7 +190,7 @@
         "зөвхөн үгийн эхэнд орно"
       ],
       "correctAnswer": "эр, эм бүлэгтэй хамт тохиолдож болно",
-      "explanation": "И нь саармаг тул хоёр бүлэгтэй хамт харагдаж болно.",
+      "explanation": "И нь саармаг тул эр, эм бүлэгтэй хамт тохиолдож болно. The neutral vowel и can appear with both back and front vowel words.",
       "xpReward": 3,
       "order": 3
     }
