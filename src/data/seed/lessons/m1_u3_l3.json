@@ -19,11 +19,20 @@
       "order": 1,
       "content": {
         "section": "grammar",
-        "textEn": "Review the main exceptions where the usual vowel harmony pattern loosens.",
+        "textEn": "Beginner-friendly notes about common cases that can look like they break vowel harmony.",
         "notes": [
-          "Үгүйсгэх -гүй/-гү дагавар нь эр, эм язгуур хоёуланд залгагдаж болно.",
-          "Өнгөрсөн цагийн -жээ/-чээ хэлбэр нь эр, эм язгуурт хоёуланд нь хэрэглэгдэж болно.",
-          "Зарим хүн, газрын нэр хоёр тусдаа үгнээс бүтсэн тул дүрэм зөрчсөн мэт харагдаж болно."
+          {
+            "mn": "Зарим дагавар нэг л хэлбэрээр олон үгэнд залгагдаж, зохицлыг зөрчсөн мэт харагдана: байхгүй.",
+            "en": "Some suffixes are used with many words and may look like they break harmony: байхгүй."
+          },
+          {
+            "mn": "Өнгөрсөн цагийн -жээ/-чээ хэлбэр эр, эм язгуурт аль алинд нь тохиолдож болно: очжээ, иржээ.",
+            "en": "The past form -жээ/-чээ can appear after both back and front vowel roots: очжээ, иржээ."
+          },
+          {
+            "mn": "Зарим хүн, газрын нэр хоёр хэсгээс бүтдэг тул эгшиг нь холилдсон мэт харагдана: Өвөрхангай.",
+            "en": "Some personal or place names are built from parts, so their vowels may look mixed: Өвөрхангай."
+          }
         ]
       }
     },
@@ -35,24 +44,24 @@
       "order": 2,
       "content": {
         "section": "reading",
-        "textMn": "байхгүй, уучээ, нарийнсэтгэл, Өвөрхангай зэрэг жишээн дээр онцгой тохиолдлуудыг ажиглаарай.",
-        "textEn": "Observe examples such as байхгүй, уучээ, and place names that appear to break the rule.",
+        "textMn": "Онцгой тохиолдлыг дүрэм цээжлэх гэж бүү ай. Эхлэгчдэд хамгийн хэрэгтэй нь нийтлэг жишээг таних: байхгүй, очжээ, иржээ, Өвөрхангай. Эдгээр нь эгшиг зохицох ёсыг “эвдсэн” мэт харагдаж болох ч өдөр тутамд хэвийн хэрэглэгддэг.",
+        "textEn": "Do not worry about memorizing rare exceptions. For beginners, it is more useful to recognize common examples: байхгүй, очжээ, иржээ, Өвөрхангай. They may look like they “break” harmony, but they are normal in everyday reading.",
         "glossary": [
           {
             "word": "байхгүй",
-            "translation": "not be"
+            "translation": "not be / absent"
           },
           {
-            "word": "уучээ",
-            "translation": "sorry"
+            "word": "очжээ",
+            "translation": "went / has gone"
           },
           {
-            "word": "нарийнсэтгэл",
-            "translation": "delicate feeling"
+            "word": "иржээ",
+            "translation": "came / has come"
           },
           {
             "word": "Өвөрхангай",
-            "translation": "Uvurkhangai"
+            "translation": "Uvurkhangai (place name)"
           }
         ]
       }
@@ -81,10 +90,15 @@
       "quizId": "quiz_m1_u3_l3",
       "type": "multiple_choice",
       "prompt": "Аль дагавар нь эр, эм язгуур хоёуланд залгагдаж болдог онцгой жишээ вэ?",
-      "helper": "Онцгой тохиолдлын хэсгийг санаарай.",
-      "options": ["-тай", "-гүй/-гү", "-ын", "-руу"],
+      "helper": "Look for the negative suffix used in words like байхгүй.",
+      "options": [
+        "-тай",
+        "-гүй/-гү",
+        "-ын",
+        "-руу"
+      ],
       "correctAnswer": "-гүй/-гү",
-      "explanation": "Үгүйсгэх -гүй/-гү нь онцгой жишээ болно.",
+      "explanation": "Үгүйсгэх -гүй/-гү нь эр, эм язгуурт хэрэглэгдэж болдог онцгой жишээ. In байхгүй, the negative suffix may look like an exception to harmony.",
       "xpReward": 4,
       "order": 1
     },
@@ -93,10 +107,15 @@
       "quizId": "quiz_m1_u3_l3",
       "type": "multiple_choice",
       "prompt": "Аль нь онцгой тохиолдлын жишээ вэ?",
-      "helper": "Жишээнүүдийг хар.",
-      "options": ["Өвөрхангай", "ном", "ус", "ам"],
+      "helper": "Choose the place name that can look mixed because names may come from parts.",
+      "options": [
+        "Өвөрхангай",
+        "ном",
+        "ус",
+        "ам"
+      ],
       "correctAnswer": "Өвөрхангай",
-      "explanation": "Зарим газрын нэр дүрэм зөрчсөн мэт харагдах онцгой жишээ болдог.",
+      "explanation": "Өвөрхангай нь газрын нэр тул эгшиг холилдсон мэт харагдаж болно. Place names can look like they break the usual harmony pattern.",
       "xpReward": 4,
       "order": 2
     },
@@ -105,7 +124,7 @@
       "quizId": "quiz_m1_u3_l3",
       "type": "multiple_choice",
       "prompt": "-жээ/-чээ ямар онцлогтой вэ?",
-      "helper": "Тэмдэглэлийг санаарай.",
+      "helper": "Think of examples such as очжээ and иржээ.",
       "options": [
         "зөвхөн эр үгэнд",
         "зөвхөн эм үгэнд",
@@ -113,7 +132,7 @@
         "зөвхөн гадаад үгэнд"
       ],
       "correctAnswer": "эр, эм язгуурт аль алинд нь байж болно",
-      "explanation": "-жээ/-чээ нь эр, эм язгуурт аль алинд нь хэрэглэгдэж болно.",
+      "explanation": "-жээ/-чээ нь эр, эм язгуурт аль алинд нь хэрэглэгдэж болно: очжээ, иржээ. This past form can appear after both types of roots.",
       "xpReward": 4,
       "order": 3
     }

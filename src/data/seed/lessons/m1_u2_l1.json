@@ -19,12 +19,12 @@
       "order": 1,
       "content": {
         "section": "reading",
-        "summary": "Эгшгийг бичлэг, дуудлагаар нь ангилж, үг дотор ажиглана.",
-        "textEn": "Classify vowels by how they are written and read, then notice them inside words.",
+        "summary": "Эгшгийг богино, урт, хос, туслах гэж үг дотор нь танина. Жишээг эхлээд уншаад, дараа нь дуудлагын ялгааг сонсоорой.",
+        "textEn": "Learn to recognize short, long, diphthong, and helper vowels inside real words. Read the examples first, then listen for the sound difference.",
         "groups": [
           {
             "title": "Богино эгшиг",
-            "description": "Нэг үсгээр бичигдэнэ: ам, эх, ном",
+            "description": "Нэг үсгээр бичигдэж богино уншигдана: ам, эх, ном. Жишээ: а, э, о.",
             "items": [
               "а",
               "э",
@@ -37,7 +37,7 @@
           },
           {
             "title": "Урт эгшиг",
-            "description": "Ихэвчлэн хоёр ижил үсгээр бичигдэнэ: аав, ээж, уул, үүл",
+            "description": "Ихэвчлэн хоёр ижил эгшгээр бичигдэж сунжирч уншигдана: аав, ээж, уул, үүл, сүү, хүү.",
             "items": [
               "аа",
               "ээ",
@@ -49,7 +49,7 @@
           },
           {
             "title": "Хос эгшиг",
-            "description": "Хоёр эгшиг нийлж уншигдана: сайн, ой, гүй, бий",
+            "description": "Хоёр эгшиг хамт орж нэг гулссан дуудлага үүсгэнэ: сайн, ой, гүй, бий.",
             "items": [
               "ай",
               "ой",
@@ -60,7 +60,7 @@
           },
           {
             "title": "Туслах эгшиг, тэмдэг",
-            "description": "Үгэнд тусгай дуудлага, бичлэг өгнө: ямаа, ес, ёс, юу",
+            "description": "Я, е, ё, ю зэрэг нь эхлэгчдэд туслах дуудлага шиг харагдана: ямаа, ес, ёс, юу.",
             "items": [
               "я",
               "е",
@@ -81,23 +81,23 @@
       "order": 2,
       "content": {
         "section": "grammar",
-        "textEn": "Use these quick notes when reading beginner words.",
+        "textEn": "Short bilingual notes for recognizing vowels while reading beginner words.",
         "notes": [
           {
             "mn": "Богино эгшиг нэг үсгээр бичигдэнэ: ам, эх, ном.",
-            "en": "A short vowel is written with one letter: ам, эх, ном."
+            "en": "A short vowel is written with one vowel letter: ам, эх, ном."
           },
           {
-            "mn": "Урт эгшиг ихэвчлэн хоёр ижил үсгээр бичигдэнэ: аав, ээж, уул, үүл.",
-            "en": "A long vowel is usually written with two matching letters: аав, ээж, уул, үүл."
+            "mn": "Урт эгшиг ихэвчлэн хоёр ижил үсгээр бичигдэнэ: аав, ээж, уул, үүл, сүү, хүү.",
+            "en": "A long vowel is usually written by doubling the same vowel: аав, ээж, уул, үүл, сүү, хүү."
           },
           {
-            "mn": "Хос эгшиг хоёр эгшгийн нийлсэн дуудлагатай: сайн, ой, гүй, бий.",
-            "en": "A diphthong combines vowel sounds: сайн, ой, гүй, бий."
+            "mn": "Хос эгшиг хоёр эгшиг нийлж гулссан дуудлага үүсгэнэ: сайн, ой, гүй, бий.",
+            "en": "A diphthong blends two vowel sounds into one glide: сайн, ой, гүй, бий."
           },
           {
-            "mn": "Я, е, ё, ю зэрэг нь эхлэгчдэд “туслах” байдлаар харагдаж болно: ямаа, ес, ёс, юу.",
-            "en": "Letters such as я, е, ё, ю can act like helper letters for beginners: ямаа, ес, ёс, юу."
+            "mn": "Я, е, ё, ю үсгүүдийг эхний шатанд туслах эгшиг гэж анзаарч уншаарай: ямаа, ес, ёс, юу.",
+            "en": "At beginner level, notice я, е, ё, ю as helper-style letters when reading: ямаа, ес, ёс, юу."
           }
         ]
       }
@@ -126,7 +126,7 @@
       "quizId": "quiz_m1_u2_l1",
       "type": "multiple_choice",
       "prompt": "“аав” үгэнд ямар эгшиг байна вэ?",
-      "helper": "Зөв хариултыг сонго.",
+      "helper": "Choose the vowel type in “аав”. The double аа is held longer.",
       "options": [
         "богино",
         "урт",
@@ -134,7 +134,7 @@
         "туслах"
       ],
       "correctAnswer": "урт",
-      "explanation": "Аав гэдэг үгэнд аа урт эгшиг байна.",
+      "explanation": "Аав үгэнд аа урт эгшиг байна. “Аа” is a long vowel because the same vowel is written twice.",
       "xpReward": 3,
       "order": 1
     },
@@ -143,7 +143,7 @@
       "quizId": "quiz_m1_u2_l1",
       "type": "multiple_choice",
       "prompt": "“сайн” үгэнд ямар эгшиг байна вэ?",
-      "helper": "Зөв хариултыг сонго.",
+      "helper": "Choose the vowel type in “сайн”. Look at ай.",
       "options": [
         "богино",
         "урт",
@@ -151,7 +151,7 @@
         "туслах"
       ],
       "correctAnswer": "хос",
-      "explanation": "Сайн гэдэг үгэнд ай хос эгшиг байна.",
+      "explanation": "Сайн үгэнд ай хос эгшиг байна. “Ай” is a diphthong because two vowels glide together.",
       "xpReward": 3,
       "order": 2
     },
@@ -160,7 +160,7 @@
       "quizId": "quiz_m1_u2_l1",
       "type": "multiple_choice",
       "prompt": "Урт эгшгийг ихэвчлэн яаж бичдэг вэ?",
-      "helper": "Дүрмийн хэсгийг санаарай.",
+      "helper": "Think about how long vowels are usually written in Mongolian.",
       "options": [
         "нэг үсгээр",
         "хоёр ижил үсгээр",
@@ -168,7 +168,7 @@
         "зөвхөн том үсгээр"
       ],
       "correctAnswer": "хоёр ижил үсгээр",
-      "explanation": "Аа, ээ, уу гэх мэтээр хоёр ижил үсгээр бичнэ.",
+      "explanation": "Урт эгшгийг аа, ээ, уу гэх мэт хоёр ижил үсгээр бичдэг. Long vowels are usually written by doubling the same vowel.",
       "xpReward": 3,
       "order": 3
     }

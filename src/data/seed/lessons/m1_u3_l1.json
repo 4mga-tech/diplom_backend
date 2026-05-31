@@ -19,8 +19,8 @@
       "order": 1,
       "content": {
         "section": "reading",
-        "textMn": "Эгшиг зохицох ёс гэдэг нь нэг үгийн доторх эгшгүүд ойролцоо бүлгээрээ зохицох дүрэм. Эхлээд үгийн гол эгшгийг ажиглаад, залгах хэлбэрээ сонгоно.",
-        "textEn": "Vowel harmony means vowels inside one word usually stay in the same group. First notice the main vowel, then choose a matching suffix form.",
+        "textMn": "Эгшиг зохицох ёс гэдэг нь нэг үгийн эгшгүүд ихэвчлэн нэг бүлэгт зохицохыг хэлнэ. Эхлээд үгийн гол эгшгийг хар, дараа нь тохирох нөхцөлийг сонго: ном → номын, гэр → гэрийн.",
+        "textEn": "Vowel harmony means the vowels in one word usually fit one group. First find the main vowel, then choose a matching suffix: ном → номын, гэр → гэрийн.",
         "examples": [
           "ном → номын",
           "гэр → гэрийн",
@@ -41,7 +41,7 @@
         "groups": [
           {
             "title": "Эр эгшиг",
-            "description": "Back/masculine group",
+            "description": "А, о, у: back/masculine vowels. Жишээ: ном, аав, сургууль.",
             "items": [
               "а",
               "о",
@@ -50,7 +50,7 @@
           },
           {
             "title": "Эм эгшиг",
-            "description": "Front/feminine group",
+            "description": "Э, ө, ү: front/feminine vowels. Жишээ: гэр, ээж, үүл.",
             "items": [
               "э",
               "ө",
@@ -59,7 +59,7 @@
           },
           {
             "title": "Саармаг",
-            "description": "Can appear with both groups",
+            "description": "И: саармаг эгшиг. Эр, эм бүлэгтэй хамт орж болно: номын, гэрийн.",
             "items": [
               "и"
             ]
@@ -92,20 +92,20 @@
         "textEn": "Use these simple rules for beginner reading and suffix choice.",
         "notes": [
           {
-            "mn": "А, о, у орсон олон үг эр эгшгийн бүлэгтэй: ном, аав.",
-            "en": "Many words with а, о, у belong to the masculine group: ном, аав."
+            "mn": "Эр эгшиг: а, о, у. Жишээ: ном, аав.",
+            "en": "Masculine/back vowels are а, о, у. Examples: ном, аав."
           },
           {
-            "mn": "Э, ө, ү орсон олон үг эм эгшгийн бүлэгтэй: гэр, үүл, ээж.",
-            "en": "Many words with э, ө, ү belong to the feminine group: гэр, үүл, ээж."
+            "mn": "Эм эгшиг: э, ө, ү. Жишээ: гэр, ээж, үүл.",
+            "en": "Feminine/front vowels are э, ө, ү. Examples: гэр, ээж, үүл."
           },
           {
-            "mn": "И нь саармаг тул эр, эм үгэнд хоёуланд нь таарч болно.",
-            "en": "И is neutral, so it can appear with either group."
+            "mn": "Саармаг эгшиг: и. И нь эр, эм үгэнд хоёуланд нь орж болно.",
+            "en": "The neutral vowel is и. It can appear with both masculine and feminine words."
           },
           {
-            "mn": "Практик жишээ: ном → номын, гэр → гэрийн, аав → аавын, ээж → ээжийн.",
-            "en": "Practical examples: ном → номын, гэр → гэрийн, аав → аавын, ээж → ээжийн."
+            "mn": "Нөхцөлийг сонгохдоо үгийн эгшгийг дагана: ном → номын, гэр → гэрийн, аав → аавын, ээж → ээжийн.",
+            "en": "Choose suffix forms by following the word vowel: ном → номын, гэр → гэрийн, аав → аавын, ээж → ээжийн."
           }
         ]
       }
@@ -134,7 +134,7 @@
       "quizId": "quiz_m1_u3_l1",
       "type": "multiple_choice",
       "prompt": "“ном → номын” жишээ юу харуулж байна вэ?",
-      "helper": "Тодорхойлолтыг санаарай.",
+      "helper": "Look at the word ном: it has the masculine/back vowel о, so the suffix uses -ын.",
       "options": [
         "нэр үгийн олон тоо",
         "эгшигт тохирсон нөхцөл",
@@ -142,7 +142,7 @@
         "үсгийн нэр"
       ],
       "correctAnswer": "эгшигт тохирсон нөхцөл",
-      "explanation": "Ном нь эр эгшигтэй тул -ын хэлбэр тохирч байна.",
+      "explanation": "Ном нь о эр эгшигтэй тул номын гэж тохирно. The suffix form follows the back/masculine vowel in the word.",
       "xpReward": 3,
       "order": 1
     },
@@ -151,7 +151,7 @@
       "quizId": "quiz_m1_u3_l1",
       "type": "multiple_choice",
       "prompt": "Аль нь саармаг эгшиг вэ?",
-      "helper": "Зөв бүлгийг сонго.",
+      "helper": "Choose the neutral vowel. It can appear with both vowel groups.",
       "options": [
         "а",
         "ө",
@@ -159,7 +159,7 @@
         "у"
       ],
       "correctAnswer": "и",
-      "explanation": "И эгшиг саармаг бүлэгт орно.",
+      "explanation": "И эгшиг саармаг бүлэгт орно. The vowel и is neutral and can appear with both groups.",
       "xpReward": 3,
       "order": 2
     },
@@ -168,7 +168,7 @@
       "quizId": "quiz_m1_u3_l1",
       "type": "multiple_choice",
       "prompt": "“гэр” үгэнд тохирох хэлбэр аль вэ?",
-      "helper": "Үндсэн дүрмийг сана.",
+      "helper": "Гэр has the feminine/front vowel э, so choose the matching form.",
       "options": [
         "гэрийн",
         "гэрын",
@@ -176,7 +176,7 @@
         "гэрон"
       ],
       "correctAnswer": "гэрийн",
-      "explanation": "Гэр нь эм эгшигтэй тул гэрийн гэж уншина.",
+      "explanation": "Гэр нь э эм эгшигтэй тул гэрийн гэж бичиж уншина. The front vowel э takes the matching form гэрийн.",
       "xpReward": 3,
       "order": 3
     }
