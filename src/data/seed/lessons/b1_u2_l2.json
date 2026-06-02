@@ -86,17 +86,21 @@
       "order": 4,
       "content": {
         "groups": [
-  {
-    "title": "-ын",
-    "description": "Back-vowel words",
-    "items": ["номын • аавын"]
-  },
-  {
-    "title": "-ийн",
-    "description": "Front/long-vowel words",
-    "items": ["багшийн • ээжийн"]
-  }
-]
+          {
+            "title": "-ын",
+            "description": "Back-vowel words",
+            "items": [
+              "номын • аавын"
+            ]
+          },
+          {
+            "title": "-ийн",
+            "description": "Front/long-vowel words",
+            "items": [
+              "багшийн • ээжийн"
+            ]
+          }
+        ]
       }
     },
     {
